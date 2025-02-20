@@ -11148,7 +11148,7 @@ console.error("Error loading GeoJSON:", error);
 &lt;td>
 &lt;a href="https://forrt.org/">https://forrt.org/&lt;/a>
 &lt;/td>
-&lt;td>1099&lt;/td>
+&lt;td>1100&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>
@@ -11160,7 +11160,7 @@ console.error("Error loading GeoJSON:", error);
 &lt;td>
 &lt;a href="https://forrt.org/resources/">https://forrt.org/resources/&lt;/a>
 &lt;/td>
-&lt;td>325&lt;/td>
+&lt;td>326&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>
@@ -11181,9 +11181,10 @@ console.error("Error loading GeoJSON:", error);
 &lt;script src="https://cdn.jsdelivr.net/npm/chart.js">&lt;/script>
 &lt;script>
 document.addEventListener('DOMContentLoaded', function() {
-var dailyData = [{"date":"2025-02-17","users":213},{"date":"2025-02-04","users":202},{"date":"2025-02-12","users":201},{"date":"2025-01-29","users":181},{"date":"2025-01-23","users":179},{"date":"2025-01-30","users":167},{"date":"2025-02-19","users":149},{"date":"2025-02-05","users":147},{"date":"2025-02-03","users":146},{"date":"2025-02-18","users":143},{"date":"2025-02-13","users":142},{"date":"2025-01-22","users":134},{"date":"2025-02-11","users":124},{"date":"2025-02-14","users":123},{"date":"2025-01-27","users":115},{"date":"2025-02-06","users":112},{"date":"2025-01-21","users":104},{"date":"2025-01-28","users":101},{"date":"2025-02-07","users":101},{"date":"2025-02-10","users":101},{"date":"2025-02-16","users":89},{"date":"2025-01-24","users":88},{"date":"2025-01-31","users":83},{"date":"2025-02-15","users":79},{"date":"2025-01-26","users":71},{"date":"2025-02-01","users":67},{"date":"2025-02-09","users":59},{"date":"2025-02-02","users":52},{"date":"2025-01-25","users":38},{"date":"2025-02-08","users":38},{"date":"2025-02-20","users":33}];
+var dailyData = [{"date":"2025-02-17","users":213},{"date":"2025-02-04","users":202},{"date":"2025-02-12","users":201},{"date":"2025-01-29","users":181},{"date":"2025-01-23","users":179},{"date":"2025-01-30","users":167},{"date":"2025-02-19","users":149},{"date":"2025-02-05","users":147},{"date":"2025-02-03","users":146},{"date":"2025-02-18","users":143},{"date":"2025-02-13","users":142},{"date":"2025-01-22","users":134},{"date":"2025-02-11","users":124},{"date":"2025-02-14","users":123},{"date":"2025-01-27","users":115},{"date":"2025-02-06","users":112},{"date":"2025-01-21","users":104},{"date":"2025-01-28","users":101},{"date":"2025-02-07","users":101},{"date":"2025-02-10","users":101},{"date":"2025-02-16","users":89},{"date":"2025-01-24","users":88},{"date":"2025-01-31","users":83},{"date":"2025-02-15","users":79},{"date":"2025-01-26","users":71},{"date":"2025-02-01","users":67},{"date":"2025-02-09","users":59},{"date":"2025-02-02","users":52},{"date":"2025-01-25","users":38},{"date":"2025-02-08","users":38},{"date":"2025-02-20","users":35}];
 if (dailyData &amp;&amp; dailyData.length) {
 dailyData.sort((a, b) => new Date(a.date) - new Date(b.date));
+dailyData.pop();
 var labels = dailyData.map(function(entry) { return entry.date; });
 var dataPoints = dailyData.map(function(entry) { return entry.users; });
 var ctx = document.getElementById('visitorsChart').getContext('2d');
