@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>FORRT Replication Hub | FORRT - Framework for Open and Reproducible Research Training</title><link>https://staging.forrt.org/replication-hub/</link><atom:link href="https://staging.forrt.org/replication-hub/index.xml" rel="self" type="application/rss+xml"/><description>FORRT Replication Hub</description><generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2025 - FORRT > Framework for Open and Reproducible Research Training</copyright><lastBuildDate>Sat, 09 Sep 2023 00:00:00 +0000</lastBuildDate><image><url>https://staging.forrt.org/img/FORRT_banner.svg</url><title>FORRT Replication Hub</title><link>https://staging.forrt.org/replication-hub/</link></image><item><title>List of Large-Scale Replication Projects</title><link>https://staging.forrt.org/replication-hub/large-scale-replication-projects/</link><pubDate>Sat, 09 Sep 2023 00:00:00 +0000</pubDate><guid>https://staging.forrt.org/replication-hub/large-scale-replication-projects/</guid><description>&lt;p>Here you can find a list of completed and ongoing projects that summarize replication efforts throughout sciences and humanities.&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>FORRT Replication Hub | FORRT - Framework for Open and Reproducible Research Training</title><link>https://forrt.org/replication-hub/</link><atom:link href="https://forrt.org/replication-hub/index.xml" rel="self" type="application/rss+xml"/><description>FORRT Replication Hub</description><generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2025 - FORRT > Framework for Open and Reproducible Research Training</copyright><lastBuildDate>Sat, 09 Sep 2023 00:00:00 +0000</lastBuildDate><image><url>https://forrt.org/img/FORRT_banner.svg</url><title>FORRT Replication Hub</title><link>https://forrt.org/replication-hub/</link></image><item><title>List of Large-Scale Replication Projects</title><link>https://forrt.org/replication-hub/large-scale-replication-projects/</link><pubDate>Sat, 09 Sep 2023 00:00:00 +0000</pubDate><guid>https://forrt.org/replication-hub/large-scale-replication-projects/</guid><description>&lt;p>Here you can find a list of completed and ongoing projects that summarize replication efforts throughout sciences and humanities.&lt;/p>
 &lt;table>
 &lt;tr>
 &lt;td>&lt;strong>Project Name&lt;/strong>
@@ -288,11 +288,11 @@
 &lt;td>No
 &lt;/td>
 &lt;/tr>
-&lt;/table></description></item><item><title>Submit a Replication to FReD</title><link>https://staging.forrt.org/replication-hub/submit/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://staging.forrt.org/replication-hub/submit/</guid><description>&lt;br>
+&lt;/table></description></item><item><title>Submit a Replication to FReD</title><link>https://forrt.org/replication-hub/submit/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://forrt.org/replication-hub/submit/</guid><description>&lt;br>
 &lt;p>We aim to build a comprehensive database of replication studies across all disciplines.
 If you have conducted a replication study that we have not yet included, or just seen one,
 please submit it using the form below.&lt;/p>
 &lt;p>If you want to check if a replication study is already included in the database,
 the easiest way is to use the
-&lt;a href="https://staging.forrt.org/apps/fred_annotator.html" target="_blank">References Annotator&lt;/a>&lt;/p>
+&lt;a href="https://forrt.org/apps/fred_annotator.html" target="_blank">References Annotator&lt;/a>&lt;/p>
 &lt;iframe src="https://www.soscisurvey.de/replicate", width = "100%", height="800px">&lt;/iframe></description></item></channel></rss>
