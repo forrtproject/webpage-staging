@@ -6958,10 +6958,11 @@
 &lt;h2 id="manuscript">Manuscript:&lt;/h2>
 &lt;p>&lt;strong>coming Soon&lt;/strong>&lt;/p>
 &lt;h2 id="toolkit-website">Toolkit Website&lt;/h2>
-&lt;p>&lt;a href="https://staging.forrt.org/citation-politics/toolkit/" class="btn btn-primary py-2 m-1 btn-lg" style="line-height:1;border-radius:6px">
+&lt;div class="mt-1 mb-1">
+&lt;a href="https://staging.forrt.org/citation-politics/toolkit/" class="btn btn-primary py-2 m-1 btn-lg" style="line-height:1;border-radius:6px">
 Toolkit Website
 &lt;/a>
-ß&lt;/p>
+&lt;/div>
 &lt;p>&lt;strong>Citation Self-Audit&lt;/strong>: [to be created through Sarah’s BA/Leverhulme grant] This guide walks you through using the Citational Justice Toolkit to conduct an audit on your own work and more importantly - how to pinpoint tools and practices to help you make targeted changes.&lt;/p>
 &lt;h2 id="forrt-citational-justice-module">FORRT citational justice module:&lt;/h2>
 &lt;p>&lt;strong>Diversify Your Content Workshop&lt;/strong>: [to be created through Sarah’s BA/Leverhulme grant] This workshop guides you through applying the Citational Justice Workshop to teaching content using focused questions to target changes.&lt;/p>
