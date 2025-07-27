@@ -9,17 +9,17 @@
 &lt;div class="content-group">
 &lt;h4>Primary Activities&lt;/h4>
 &lt;div class="hexagon-grid">
-&lt;div class="hexagon primary">&lt;a href="#">Ideas&lt;/a>&lt;/div>
-&lt;div class="hexagon primary">&lt;a href="#">Funding&lt;/a>&lt;/div>
+&lt;div class="hexagon primary">&lt;a href="#" target="_blank">Ideas&lt;/a>&lt;/div>
+&lt;div class="hexagon primary">&lt;a href="#" target="_blank">Funding&lt;/a>&lt;/div>
 &lt;/div>
 &lt;/div>
 &lt;div class="content-group">
 &lt;h4>Tools &amp; Practices&lt;/h4>
 &lt;div class="hexagon-grid">
-&lt;div class="hexagon tool">&lt;a href="https://chromewebstore.google.com/detail/citation-transparency/cepnbdbhabaljgecaddglhhcgajphbcf?hl=en&amp;pli=1">Citation Transparency browser extension&lt;/a>&lt;/div>
+&lt;div class="hexagon tool">&lt;a href="https://chromewebstore.google.com/detail/citation-transparency/cepnbdbhabaljgecaddglhhcgajphbcf?hl=en&amp;pli=1" target="_blank">Citation Transparency browser extension&lt;/a>&lt;/div>
 &lt;div class="hexagon tool">&lt;a href="#">FORRT citational justice module&lt;/a>&lt;/div>
-&lt;div class="hexagon tool">&lt;a href="https://civiclaboratory.nl/2023/08/08/citational-politics-training-module/">Citational politics training module - CLEAR - Civic Laboratory for Environmental Action Research&lt;/a>&lt;/div>
-&lt;div class="hexagon practice">&lt;a href="https://forrt.org/awop/">Academic Wheel of Priviledge (AWoP)&lt;/a>&lt;/div>
+&lt;div class="hexagon tool">&lt;a href="https://civiclaboratory.nl/2023/08/08/citational-politics-training-module/" target="_blank">Citational politics training module - CLEAR - Civic Laboratory for Environmental Action Research&lt;/a>&lt;/div>
+&lt;div class="hexagon practice">&lt;a href="https://forrt.org/awop/" target="_blank">Academic Wheel of Priviledge (AWoP)&lt;/a>&lt;/div>
 &lt;/div>
 &lt;/div>
 &lt;/div>
@@ -30,15 +30,15 @@
 &lt;div class="content-group">
 &lt;h4>Primary Activities&lt;/h4>
 &lt;div class="hexagon-grid">
-&lt;div class="hexagon primary">&lt;a href="#">Research&lt;/a>&lt;/div>
-&lt;div class="hexagon primary">&lt;a href="#">Journal Selection&lt;/a>&lt;/div>
+&lt;div class="hexagon primary">&lt;a href="#" target="_blank">Research&lt;/a>&lt;/div>
+&lt;div class="hexagon primary">&lt;a href="#" target="_blank">Journal Selection&lt;/a>&lt;/div>
 &lt;/div>
 &lt;/div>
 &lt;div class="content-group">
 &lt;h4>Tools &amp; Practices&lt;/h4>
 &lt;div class="hexagon-grid">
-&lt;div class="hexagon practice">&lt;a href="#">Diversify your reading&lt;/a>&lt;/div>
-&lt;div class="hexagon practice">&lt;a href="#">Critical Ethnic Studies&lt;/a>&lt;/div>
+&lt;div class="hexagon practice">&lt;a href="#" target="_blank">Diversify your reading&lt;/a>&lt;/div>
+&lt;div class="hexagon practice">&lt;a href="#" target="_blank">Critical Ethnic Studies&lt;/a>&lt;/div>
 &lt;/div>
 &lt;/div>
 &lt;/div>
@@ -49,24 +49,24 @@
 &lt;div class="content-group">
 &lt;h4>Primary Activities&lt;/h4>
 &lt;div class="hexagon-grid">
-&lt;div class="hexagon primary">&lt;a href="#">Paper Writing&lt;/a>&lt;/div>
-&lt;div class="hexagon primary">&lt;a href="#">Submission&lt;/a>&lt;/div>
+&lt;div class="hexagon primary">&lt;a href="#" target="_blank">Paper Writing&lt;/a>&lt;/div>
+&lt;div class="hexagon primary">&lt;a href="#" target="_blank">Submission&lt;/a>&lt;/div>
 &lt;/div>
 &lt;/div>
 &lt;div class="content-group">
 &lt;h4>Tools &amp; Practices&lt;/h4>
 &lt;div class="hexagon-grid">
-&lt;div class="hexagon practice">&lt;a href="#">Mirya Holman's checklist&lt;/a>&lt;/div>
-&lt;div class="hexagon tool">&lt;a href="#">GBAT&lt;/a>&lt;/div>
-&lt;div class="hexagon tool">&lt;a href="#">Citation audit survey&lt;/a>&lt;/div>
-&lt;div class="hexagon tool">&lt;a href="#">Gray test&lt;/a>&lt;/div>
-&lt;div class="hexagon tool">&lt;a href="#">Genderize&lt;/a>&lt;/div>
-&lt;div class="hexagon tool">&lt;a href="#">Indigenous citation template&lt;/a>&lt;/div>
-&lt;div class="hexagon tool">&lt;a href="#">Inwardness metric&lt;/a>&lt;/div>
-&lt;div class="hexagon tool">&lt;a href="#">Citing R packages&lt;/a>&lt;/div>
-&lt;div class="hexagon practice">&lt;a href="#">Citational diversity statement&lt;/a>&lt;/div>
-&lt;div class="hexagon tool">&lt;a href="#">Diversity codebook&lt;/a>&lt;/div>
-&lt;div class="hexagon tool">&lt;a href="#">GCBI-alyzer&lt;/a>&lt;/div>
+&lt;div class="hexagon practice">&lt;a href="#" target="_blank">Mirya Holman's checklist&lt;/a>&lt;/div>
+&lt;div class="hexagon tool">&lt;a href="#" target="_blank">GBAT&lt;/a>&lt;/div>
+&lt;div class="hexagon tool">&lt;a href="#" target="_blank">Citation audit survey&lt;/a>&lt;/div>
+&lt;div class="hexagon tool">&lt;a href="#" target="_blank">Gray test&lt;/a>&lt;/div>
+&lt;div class="hexagon tool">&lt;a href="#" target="_blank">Genderize&lt;/a>&lt;/div>
+&lt;div class="hexagon tool">&lt;a href="#" target="_blank">Indigenous citation template&lt;/a>&lt;/div>
+&lt;div class="hexagon tool">&lt;a href="#" target="_blank">Inwardness metric&lt;/a>&lt;/div>
+&lt;div class="hexagon tool">&lt;a href="#" target="_blank">Citing R packages&lt;/a>&lt;/div>
+&lt;div class="hexagon practice">&lt;a href="#" target="_blank">Citational diversity statement&lt;/a>&lt;/div>
+&lt;div class="hexagon tool">&lt;a href="#" target="_blank">Diversity codebook&lt;/a>&lt;/div>
+&lt;div class="hexagon tool">&lt;a href="#" target="_blank">GCBI-alyzer&lt;/a>&lt;/div>
 &lt;/div>
 &lt;/div>
 &lt;/div>
@@ -77,23 +77,23 @@
 &lt;div class="content-group">
 &lt;h4>Primary Activities&lt;/h4>
 &lt;div class="hexagon-grid">
-&lt;div class="hexagon primary">&lt;a href="#">Peer Review&lt;/a>&lt;/div>
-&lt;div class="hexagon primary">&lt;a href="#">Publication&lt;/a>&lt;/div>
+&lt;div class="hexagon primary">&lt;a href="#" target="_blank">Peer Review&lt;/a>&lt;/div>
+&lt;div class="hexagon primary">&lt;a href="#" target="_blank">Publication&lt;/a>&lt;/div>
 &lt;/div>
 &lt;/div>
 &lt;div class="content-group">
 &lt;h4>Tools &amp; Practices&lt;/h4>
 &lt;div class="hexagon-grid">
-&lt;div class="hexagon practice">&lt;a href="#">Academic Wheel of Privilege&lt;/a>&lt;/div>
+&lt;div class="hexagon practice">&lt;a href="#" target="_blank">Academic Wheel of Privilege&lt;/a>&lt;/div>
 &lt;/div>
 &lt;/div>
 &lt;/div>
 &lt;/div>
 &lt;/div>
 &lt;div class="legend">
-&lt;div class="legend-item primary">&lt;a href="#">Primary Activities&lt;/a>&lt;/div>
-&lt;div class="legend-item practice">&lt;a href="#">Key Practices&lt;/a>&lt;/div>
-&lt;div class="legend-item tool">&lt;a href="#">Tools&lt;/a>&lt;/div>
+&lt;div class="legend-item primary">&lt;a href="#" target="_blank">Primary Activities&lt;/a>&lt;/div>
+&lt;div class="legend-item practice">&lt;a href="http://citebetter.com" target="_blank">Key Practices&lt;/a>&lt;/div>
+&lt;div class="legend-item tool">&lt;a href="http://citebetter.com" target="_blank">Tools&lt;/a>&lt;/div>
 &lt;/div>
 &lt;/div>
 &lt;script>
