@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Sarah Sauve (SSauve@lincoln.ac.uk) | FORRT - Framework for Open and Reproducible Research Training</title><link>https://staging.forrt.org/author/sarah-sauve-ssauve@lincoln.ac.uk/</link><atom:link href="https://staging.forrt.org/author/sarah-sauve-ssauve@lincoln.ac.uk/index.xml" rel="self" type="application/rss+xml"/><description>Sarah Sauve (SSauve@lincoln.ac.uk)</description><generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2025 - FORRT > Framework for Open and Reproducible Research Training</copyright><lastBuildDate>Thu, 03 Jul 2025 15:30:39 -0300</lastBuildDate><image><url>https://staging.forrt.org/img/FORRT_banner.svg</url><title>Sarah Sauve (SSauve@lincoln.ac.uk)</title><link>https://staging.forrt.org/author/sarah-sauve-ssauve@lincoln.ac.uk/</link></image><item><title>Citation Politics Toolkit</title><link>https://staging.forrt.org/citation-politics/toolkit/</link><pubDate>Thu, 03 Jul 2025 15:30:39 -0300</pubDate><guid>https://staging.forrt.org/citation-politics/toolkit/</guid><description>&lt;!-- &lt;img src="featured.webp" width=700px align="center" alt="Citation Politics Toolkit" /> -->
+&lt;link rel="stylesheet" href="https://staging.forrt.org/css/citations.min.1283e0ac9325ecd8c2bdce81fe56c1d3c55e4d64c816cf68f5514fc0ded36f08.css">
+&lt;body>
+&lt;div class="container">
+&lt;div class="citation-grid">
+&lt;div class="stage-box planning">
+&lt;h3>Planning&lt;/h3>
+&lt;div class="box-content">
+&lt;div class="content-group">
+&lt;h4>Primary Activities&lt;/h4>
+&lt;div class="hexagon-grid">
+&lt;div class="hexagon primary">&lt;a href="#" target="_blank">Ideas&lt;/a>&lt;/div>
+&lt;div class="hexagon primary">&lt;a href="#" target="_blank">Funding&lt;/a>&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;div class="content-group">
+&lt;h4>Tools &amp; Practices&lt;/h4>
+&lt;div class="hexagon-grid">
+&lt;div class="hexagon tool">&lt;a href="https://chromewebstore.google.com/detail/citation-transparency/cepnbdbhabaljgecaddglhhcgajphbcf?hl=en&amp;pli=1" target="_blank">Citation Transparency browser extension&lt;/a>&lt;/div>
+&lt;div class="hexagon tool">&lt;a href="#">FORRT citational justice module&lt;/a>&lt;/div>
+&lt;div class="hexagon tool">&lt;a href="https://civiclaboratory.nl/2023/08/08/citational-politics-training-module/" target="_blank">Citational politics training module - CLEAR - Civic Laboratory for Environmental Action Research&lt;/a>&lt;/div>
+&lt;div class="hexagon practice">&lt;a href="https://forrt.org/awop/" target="_blank">Academic Wheel of Priviledge (AWoP)&lt;/a>&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;div class="stage-box project">
+&lt;h3>Project&lt;/h3>
+&lt;div class="box-content">
+&lt;div class="content-group">
+&lt;h4>Primary Activities&lt;/h4>
+&lt;div class="hexagon-grid">
+&lt;div class="hexagon primary">&lt;a href="#" target="_blank">Research&lt;/a>&lt;/div>
+&lt;div class="hexagon primary">&lt;a href="#" target="_blank">Journal Selection&lt;/a>&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;div class="content-group">
+&lt;h4>Tools &amp; Practices&lt;/h4>
+&lt;div class="hexagon-grid">
+&lt;div class="hexagon practice">&lt;a href="#" target="_blank">Diversify your reading&lt;/a>&lt;/div>
+&lt;div class="hexagon practice">&lt;a href="#" target="_blank">Critical Ethnic Studies&lt;/a>&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;div class="stage-box paper">
+&lt;h3>Paper&lt;/h3>
+&lt;div class="box-content">
+&lt;div class="content-group">
+&lt;h4>Primary Activities&lt;/h4>
+&lt;div class="hexagon-grid">
+&lt;div class="hexagon primary">&lt;a href="#" target="_blank">Paper Writing&lt;/a>&lt;/div>
+&lt;div class="hexagon primary">&lt;a href="#" target="_blank">Submission&lt;/a>&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;div class="content-group">
+&lt;h4>Tools &amp; Practices&lt;/h4>
+&lt;div class="hexagon-grid">
+&lt;div class="hexagon practice">&lt;a href="#" target="_blank">Mirya Holman's checklist&lt;/a>&lt;/div>
+&lt;div class="hexagon tool">&lt;a href="#" target="_blank">GBAT&lt;/a>&lt;/div>
+&lt;div class="hexagon tool">&lt;a href="#" target="_blank">Citation audit survey&lt;/a>&lt;/div>
+&lt;div class="hexagon tool">&lt;a href="#" target="_blank">Gray test&lt;/a>&lt;/div>
+&lt;div class="hexagon tool">&lt;a href="#" target="_blank">Genderize&lt;/a>&lt;/div>
+&lt;div class="hexagon tool">&lt;a href="#" target="_blank">Indigenous citation template&lt;/a>&lt;/div>
+&lt;div class="hexagon tool">&lt;a href="#" target="_blank">Inwardness metric&lt;/a>&lt;/div>
+&lt;div class="hexagon tool">&lt;a href="#" target="_blank">Citing R packages&lt;/a>&lt;/div>
+&lt;div class="hexagon practice">&lt;a href="#" target="_blank">Citational diversity statement&lt;/a>&lt;/div>
+&lt;div class="hexagon tool">&lt;a href="#" target="_blank">Diversity codebook&lt;/a>&lt;/div>
+&lt;div class="hexagon tool">&lt;a href="#" target="_blank">GCBI-alyzer&lt;/a>&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;div class="stage-box publication">
+&lt;h3>Publication&lt;/h3>
+&lt;div class="box-content">
+&lt;div class="content-group">
+&lt;h4>Primary Activities&lt;/h4>
+&lt;div class="hexagon-grid">
+&lt;div class="hexagon primary">&lt;a href="#" target="_blank">Peer Review&lt;/a>&lt;/div>
+&lt;div class="hexagon primary">&lt;a href="#" target="_blank">Publication&lt;/a>&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;div class="content-group">
+&lt;h4>Tools &amp; Practices&lt;/h4>
+&lt;div class="hexagon-grid">
+&lt;div class="hexagon practice">&lt;a href="#" target="_blank">Academic Wheel of Privilege&lt;/a>&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;div class="legend">
+&lt;div class="legend-item primary">&lt;a href="#" target="_blank">Primary Activities&lt;/a>&lt;/div>
+&lt;div class="legend-item practice">&lt;a href="http://citebetter.com" target="_blank">Key Practices&lt;/a>&lt;/div>
+&lt;div class="legend-item tool">&lt;a href="http://citebetter.com" target="_blank">Tools&lt;/a>&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;script>
+document.querySelectorAll('.hexagon').forEach(hex => {
+hex.addEventListener('mouseenter', function() {
+this.style.transition = 'all 0.3s ease';
+});
+hex.addEventListener('click', function(e) {
+e.preventDefault();
+alert('Explore more about: ' + this.querySelector('a').textContent);
+});
+});
+&lt;/script>
+&lt;/body>
+&lt;details class="citation-toolkit">
+&lt;summary>📚 click here to View Diversity Reading Tools table 🔍📊 &lt;/summary>
+&lt;div class="table-wrapper">
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Tool&lt;/th>
+&lt;th>Description&lt;/th>
+&lt;th>Source&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Diverse speakers in STEM&lt;/td>
+&lt;td>Database of databases of diverse speakers in STEM (includes some of the tools in this table, and much more)&lt;/td>
+&lt;td>&lt;a href="https://docs.google.com/document/u/1/d/e/2PACX-1vSlvHTZtOc6wG5C9xEc-bAIYofpeDHVjrrVc7Q_5IQdmXcLeaYd27nhoJD9jub_q-qAILxHknMGbggb/pub">Diverse speakers in STEM lists&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>CiteBetter&lt;/td>
+&lt;td>A community-driven pledge to promote equitable and inclusive citation practices, especially for scholars of color and non-cis-male voices. Offers minimum standards across roles (students, teachers, researchers, department chairs) to actively address citation bias.&lt;/td>
+&lt;td>“Our Pledge” and “Statement of Purpose” of &lt;a href="http://citebetter.com">citebetter.com&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Citation justice in STEMM&lt;/td>
+&lt;td>McGill library list of tools and resources to help diversity reading and perform citation audits&lt;/td>
+&lt;td>&lt;a href="https://libraryguides.mcgill.ca/citation_justice/how_to">How to diversify your citations - Citation Justice in STEMM - Guides at McGill Library&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Citation Practice Self-Audits&lt;/td>
+&lt;td>Faculty-led assessments of syllabi and reading lists to identify underrepresentation of women and scholars of color; encourages more inclusive citation practices across teaching and publishing. Promotes critical reflection and gradual change.&lt;/td>
+&lt;td>&lt;a href="https://research.ubc.ca/sites/default/files/vpri/Promising%20Practices.pdf">Promising Practices for Addressing the Underrepresentation of Women in Science, Engineering, and Medicine.&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Equity-Informed Editorial and Review Guidelines&lt;/td>
+&lt;td>Proposes journals adopt guidelines that encourage authors, editors, and reviewers to consider gender and racial balance in citations. Promotes institutional accountability in publishing.&lt;/td>
+&lt;td>&lt;a href="https://research.ubc.ca/sites/default/files/vpri/Promising%20Practices.pdf">Promising Practices for Addressing the Underrepresentation of Women in Science, Engineering, and Medicine.&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Diverse Sources&lt;/td>
+&lt;td>Database of experts to include more underrepresented voices and perspectives in science, health and environment work&lt;/td>
+&lt;td>&lt;a href="https://diversesources.org/">Diverse Sources&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Women in Neuroscience&lt;/td>
+&lt;td>Women in neuroscience&lt;/td>
+&lt;td>&lt;a href="https://www.winrepo.org/repo/">Women in Neuroscience Repo - Repository (winrepo.org)&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>500 Women Scientists&lt;/td>
+&lt;td>Women scientists across disciplines&lt;/td>
+&lt;td>&lt;a href="https://500womenscientists.org/">https://500womenscientists.org/&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Anne's List&lt;/td>
+&lt;td>Women systems neuroscientists&lt;/td>
+&lt;td>&lt;a href="https://anneslist.net/">AnnesList&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Women in Coastal Geoscience and Engineering&lt;/td>
+&lt;td>Aims to inspire, support, and encourage women at all career stages through networking and mentoring&lt;/td>
+&lt;td>WICGE&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Women in Earth and Environmental Sciences in Australasia&lt;/td>
+&lt;td>Creating a unified Australasian network of women working in Earth and Environmental Sciences in academia, industry and government&lt;/td>
+&lt;td>WOMEESA&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Global South Climate Database&lt;/td>
+&lt;td>The Global South Climate Database is a publicly available, searchable database of scientists and experts in the fields of climate science, policy and energy.&lt;/td>
+&lt;td>&lt;a href="https://www.carbonbrief.org/global-south-climate-database/">Global South Climate Database - Carbon Brief&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>BIPOC-authored psychology papers&lt;/td>
+&lt;td>A moderated database of papers to help course instructors diversify their syllabi.&lt;/td>
+&lt;td>&lt;a href="https://docs.google.com/spreadsheets/d/1i7Eacoyv9VVg2lBbCV-KJZg4nSGvR_VZFOysOyOGG8g/edit?gid=666010790#gid=666010790">BIPOC-authored Psychology Papers - Google Sheets&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Black in Neuro&lt;/td>
+&lt;td>Black neuroscientists&lt;/td>
+&lt;td>&lt;a href="https://blackinneuro.com/">Black In Neuro&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Cite Black authors&lt;/td>
+&lt;td>Black authors across disciplines&lt;/td>
+&lt;td>&lt;a href="https://citeblackauthors.com/">Cite Black Authors – A database for academic research by Black authors&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>BlackComputerHer&lt;/td>
+&lt;td>Black women and girls in computing and tech&lt;/td>
+&lt;td>&lt;a href="https://blackcomputeher.org/citeher-bibliography/">citeHER Bibliography (blackcomputeher.org)&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Cite Black Women Collective&lt;/td>
+&lt;td>A movement that engages with social media and aesthetic representation (t-shirts) in order to push people to critically rethink the politics of knowledge production by engaging in a radical praxis of citation that acknowledges and honors Black women’s transnational intellectual production. &lt;/td>
+&lt;td>&lt;a href="https://www.citeblackwomencollective.org/">Cite Black Women. - HOME (citeblackwomencollective.org)&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Canadian Black Scientists Network&lt;/td>
+&lt;td>The Canadian Black Scientists Network (CBSN) exists to Elevate, make Visible, Celebrate and Connect Black Canadians in Science, Technology, Engineering, Mathematics &amp; Medicine (STEMM) across sectors.&lt;/td>
+&lt;td>&lt;a href="https://blackscientists.ca/">Canadian Black Scientists&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>BiasWatchNeuro&lt;/td>
+&lt;td>A website that tracks the women:men ratio of invited speakers at neuroscience conferences, workshops, and courses, as well as authors in neuroscience journals and recipients of neuroscience awards.&lt;/td>
+&lt;td>&lt;a href="https://biaswatchneuro.com/">biaswatchneuro&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>500 Queer Scientists&lt;/td>
+&lt;td>Queer scientists&lt;/td>
+&lt;td>&lt;a href="https://500queerscientists.com/">https://500queerscientists.com/&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>The Bee&lt;/td>
+&lt;td>Literary magazine, online platform, podcast, and the heart of a writing community. Our mission is to nurture, publish and promote the best new working-class writing by new and established working-class writers and visual artists.&lt;/td>
+&lt;td>&lt;a href="https://thebeemagazine.com/">The Bee - A home for working-class readers and writers&lt;/a> &lt;br> &lt;a href="https://newwritingnorth.com/">Home - New Writing North&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>marginalia&lt;/td>
+&lt;td>Marginalia are committed to […] promoting female, non-gender conforming, POC, LGBTQIA+, differently abled or in any other way not promoted by the status quo in academia.&lt;/td>
+&lt;td>&lt;a href="https://www.marginaliascience.com/">https://www.marginaliascience.com/&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Reviewer Zero&lt;/td>
+&lt;td>Reviewer Zero aims to transform peer review in psychology and related fields to be more formative and constructive, reducing bias and promoting equity, especially for underserved groups. They provide training for reviewers, develop supportive review practices, and promote diverse research perspectives. &lt;/td>
+&lt;td>&lt;a href="https://www.reviewerzero.net/about">Reviewer Zero - https://www.reviewerzero.net&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>JANE (Journal/Author Name Estimator)&lt;/td>
+&lt;td>Find papers, journals or authors based on your manuscript title, abstract or keywords. Can be used to find peer reviewers or additional literature to cite.&lt;/td>
+&lt;td>&lt;a href="https://jane.biosemantics.org/">JANE: journal/author name estimator - https://jane.biosemantics.org/&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Diversity Reading List in Philosophy&lt;/td>
+&lt;td>Diversity in philosophy&lt;/td>
+&lt;td>&lt;a href="https://diversityreadinglist.org/">Diversity Reading List – Helping you include authors from under-represented groups in your teaching&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Advancing big-team reproducible science through increased representation (ABRIR)&lt;/td>
+&lt;td>ABRIR is a working group that aims to diagnose the unique barriers to leadership &amp; participation in Big-team/Open Science faced by researchers from LMICs (low-to-middle income countries).&lt;/td>
+&lt;td>&lt;a href="https://abrirpsy.org/about/abrir-hubs/">https://abrirpsy.org/about/abrir-hubs/&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Framework for Open and Reproducible Research Training (FORRT) - Neurodiversity&lt;/td>
+&lt;td>Supporting the messages of both open scholarship and neurodiversity will ensure that the goals of diversity, equity, and inclusion reach across populations and explicitly include neurodivergent people.&lt;/td>
+&lt;td>&lt;a href="https://forrt.org/neurodiversity/">https://forrt.org/neurodiversity/&lt;/a> &lt;br>Database of neurodivergent authors &lt;br> To submit to the database: &lt;a href="https://qualtrics.kcl.ac.uk/jfe/form/SV_eLoQdOyAZTDGT7E">Qualtrics Survey | Qualtrics Experience Management&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Indigenous Science Network&lt;/td>
+&lt;td>A network promoting First Nation/Indigenous science. Regular newsletters and resources for educators.&lt;/td>
+&lt;td>&lt;a href="https://research.acer.edu.au/isn/about.html">https://research.acer.edu.au/isn/about.html&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>City University of Seattle guide to Finding Indigenous Voices&lt;/td>
+&lt;td>Tips for how to search for Indigenous voices in research&lt;/td>
+&lt;td>&lt;a href="https://library.cityu.edu/researchguides/indigenousresources/indigenousvoices">Finding Indigenous Voices - Indigenous Research and Ethics - City University of Seattle Library at City University of Seattle&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Advancing Indigenous People in STEM (AISES)&lt;/td>
+&lt;td>AISES is a national nonprofit organization focused on substantially increasing the representation of Indigenous peoples of North America and the Pacific Islands in science, technology, engineering, and math (STEM) studies and careers.&lt;/td>
+&lt;td>&lt;a href="https://www.aises.org/">AISES | Advancing Indigenous People in STEM&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Anti-colonial research library (ACRL)&lt;/td>
+&lt;td>This Library holds a collection of open-access articles and books, websites, and YouTube videos on Indigenous and anti-colonial research methodologies.&lt;/td>
+&lt;td>&lt;a href="https://www.anticolonialresearchlibrary.org/">Anti-Colonial Research Library&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;/div>
+&lt;/details>
+&lt;style>
+.citation-toolkit {
+margin: 1.5rem 0;
+border: 1px solid #2769bf;
+border-radius: 8px;
+padding: 0;
+}
+.citation-toolkit summary {
+cursor: pointer;
+font-weight: 600;
+padding: 1rem 1.5rem;
+background-color: #f6f8fa;
+border-radius: 8px 8px 0 0;
+list-style: none;
+}
+.citation-toolkit summary::marker,
+.citation-toolkit summary::-webkit-details-marker {
+display: none;
+}
+.citation-toolkit summary:after {
+content: "▼";
+float: right;
+transition: transform 0.2s;
+}
+.citation-toolkit[open] summary:after {
+transform: rotate(180deg);
+}
+.table-wrapper {
+overflow-x: auto;
+padding: 1rem;
+}
+.citation-toolkit table {
+width: 100%;
+border-collapse: collapse;
+margin-top: 0.5rem;
+}
+.citation-toolkit th {
+background-color: #f0f4f8;
+text-align: left;
+padding: 0.75rem 1rem;
+border-bottom: 2px solid #d0d7de;
+}
+.citation-toolkit td {
+padding: 0.75rem 1rem;
+border-bottom: 1px solid #eaecef;
+vertical-align: top;
+}
+.citation-toolkit tr:hover td {
+background-color: #f8f9fa;
+}
+.citation-toolkit a {
+color: #0969da;
+text-decoration: none;
+}
+.citation-toolkit a:hover {
+text-decoration: underline;
+}
+&lt;/style>
+&lt;h2 id="references">References&lt;/h2>
+&lt;ol>
+&lt;li>
+&lt;p>Baccini, A., Nicolao, G. D., &amp;amp; Petrovich, E. (2019). Citation gaming induced by bibliometric evaluation: A country-level comparative analysis. &lt;em>PLOS ONE&lt;/em>, &lt;em>14&lt;/em>(9), e0221212.
+&lt;a href="https://doi.org/10.1371/journal.pone.0221212" target="_blank" rel="noopener">https://doi.org/10.1371/journal.pone.0221212&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Belcher, W. L. (2019). &lt;em>Writing your journal article in twelve weeks: A guide to academic publishing success&lt;/em> (2nd ed.). University of Chicago Press.
+&lt;a href="https://doi.org/10.7208/chicago/9780226500089.001.0001" target="_blank" rel="noopener">https://doi.org/10.7208/chicago/9780226500089.001.0001&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Darda, K. M., Gernsbacher, M. A., Conry-Murray, C., Elsherif, M., Peverill, M., Yoneda, T., Schmidt, K., Lawson, K. M., DiGregory, E., &amp;amp; Moreau, D. (2023). &lt;em>Promoting civility in formal and informal open science contexts&lt;/em>. Open Science Framework.
+&lt;a href="https://doi.org/10.31234/osf.io/rfkyu" target="_blank" rel="noopener">https://doi.org/10.31234/osf.io/rfkyu&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Lawson, K. M., Murphy, B., Azpeitia, J., Lombard, E., &amp;amp; Pope, T. (2025). &lt;em>Citing decisions in psychology: A roadblock to cumulative and inclusive science&lt;/em>. OSF.
+&lt;a href="https://doi.org/10.31234/osf.io/6kvqg" target="_blank" rel="noopener">https://doi.org/10.31234/osf.io/6kvqg&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>MacLeod, L. (2021). More than personal communication: Templates for citing Indigenous Elders and Knowledge Keepers. &lt;em>KULA: Knowledge Creation, Dissemination, and Preservation Studies&lt;/em>, &lt;em>5&lt;/em>(1), Article 1.
+&lt;a href="https://doi.org/10.18357/kula.135" target="_blank" rel="noopener">https://doi.org/10.18357/kula.135&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Zurn, P., Bassett, D. S., &amp;amp; Rust, N. C. (2020). The citation diversity statement: A practice of transparency, a way of life. &lt;em>Trends in Cognitive Sciences&lt;/em>, &lt;em>24&lt;/em>(9), 669–672.
+&lt;a href="https://doi.org/10.1016/j.tics.2020.06.009" target="_blank" rel="noopener">https://doi.org/10.1016/j.tics.2020.06.009&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol></description></item></channel></rss>
