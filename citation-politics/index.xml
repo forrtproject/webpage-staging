@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>FORRT - Framework for Open and Reproducible Research Training</title><link>https://staging.forrt.org/citation-politics/</link><atom:link href="https://staging.forrt.org/citation-politics/index.xml" rel="self" type="application/rss+xml"/><description>FORRT - Framework for Open and Reproducible Research Training</description><generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2025 - FORRT > Framework for Open and Reproducible Research Training</copyright><image><url>https://staging.forrt.org/img/FORRT_banner.svg</url><title>FORRT - Framework for Open and Reproducible Research Training</title><link>https://staging.forrt.org/citation-politics/</link></image><item><title>Citation Politics Toolkit</title><link>https://staging.forrt.org/citation-politics/toolkit/</link><pubDate>Thu, 03 Jul 2025 15:30:39 -0300</pubDate><guid>https://staging.forrt.org/citation-politics/toolkit/</guid><description>&lt;!-- &lt;img src="featured.webp" width=700px align="center" alt="Citation Politics Toolkit" /> -->
-&lt;link rel="stylesheet" href="https://staging.forrt.org/css/citations.min.1283e0ac9325ecd8c2bdce81fe56c1d3c55e4d64c816cf68f5514fc0ded36f08.css">
+&lt;link rel="stylesheet" href="https://staging.forrt.org/css/citations.min.bc4a046dc940a5a6186df879e5e974334c8bc114bf0bdedec159dd51f7c12f88.css">
 &lt;body>
 &lt;div class="container">
 &lt;div class="citation-grid">
@@ -37,8 +37,8 @@
 &lt;div class="content-group">
 &lt;h4>Tools &amp; Practices&lt;/h4>
 &lt;div class="hexagon-grid">
-&lt;div class="hexagon practice">&lt;a href="#" target="_blank">Diversify your reading&lt;/a>&lt;/div>
-&lt;div class="hexagon practice">&lt;a href="#" target="_blank">Critical Ethnic Studies&lt;/a>&lt;/div>
+&lt;div class="hexagon practice">&lt;a href="http://www.criticalethnicstudiesjournal.org/citation-practices/" target="_blank">Citational Practices: Critical Ethnic Studies&lt;/a>&lt;/div>
+&lt;div class="hexagon practice">&lt;a href="#" target="_blank">Diversity reading - see Table below (collapsible table)&lt;/a>&lt;/div>
 &lt;/div>
 &lt;/div>
 &lt;/div>
@@ -56,17 +56,19 @@
 &lt;div class="content-group">
 &lt;h4>Tools &amp; Practices&lt;/h4>
 &lt;div class="hexagon-grid">
-&lt;div class="hexagon practice">&lt;a href="#" target="_blank">Mirya Holman's checklist&lt;/a>&lt;/div>
-&lt;div class="hexagon tool">&lt;a href="#" target="_blank">GBAT&lt;/a>&lt;/div>
-&lt;div class="hexagon tool">&lt;a href="#" target="_blank">Citation audit survey&lt;/a>&lt;/div>
-&lt;div class="hexagon tool">&lt;a href="#" target="_blank">Gray test&lt;/a>&lt;/div>
-&lt;div class="hexagon tool">&lt;a href="#" target="_blank">Genderize&lt;/a>&lt;/div>
-&lt;div class="hexagon tool">&lt;a href="#" target="_blank">Indigenous citation template&lt;/a>&lt;/div>
-&lt;div class="hexagon tool">&lt;a href="#" target="_blank">Inwardness metric&lt;/a>&lt;/div>
-&lt;div class="hexagon tool">&lt;a href="#" target="_blank">Citing R packages&lt;/a>&lt;/div>
-&lt;div class="hexagon practice">&lt;a href="#" target="_blank">Citational diversity statement&lt;/a>&lt;/div>
-&lt;div class="hexagon tool">&lt;a href="#" target="_blank">Diversity codebook&lt;/a>&lt;/div>
-&lt;div class="hexagon tool">&lt;a href="#" target="_blank">GCBI-alyzer&lt;/a>&lt;/div>
+&lt;div class="hexagon practice">&lt;a href="https://docs.google.com/document/d/1JwwmOgRhd2p-Bl_RFEMnp04P0I2nNhOHW7JHdaLcyGs/edit?tab=t.0" target="_blank"> Mirya Holman’s pre-submission checklist&lt;/a>&lt;/div>
+&lt;div class="hexagon tool">&lt;a href="https://jlsumner.shinyapps.io/syllabustool/" target="_blank"> Gender Balance Assessment Tool (GBAT)&lt;/a>&lt;/div>
+&lt;div class="hexagon tool">&lt;a href="https://www.zotero.org/google-docs/?zwSfHF" target="_blank">Citation audit survey (Darda et al., 2023)&lt;/a>&lt;/div>
+&lt;div class="hexagon tool">&lt;a href="https://www.zotero.org/google-docs/?TBmDtR" target="_blank">Gray test (Belcher, 2019)&lt;/a>&lt;/div>
+&lt;div class="hexagon tool">&lt;a href="https://docs.google.com/spreadsheets/d/1HHM6i1WDaAVzSJxgZG8UtNWP3aRcFprsdVpLZJEWxOQ/edit#gid=759055580" target="_blank">SIBL Citation Audit Template&lt;/a>&lt;/div>
+&lt;div class="hexagon tool">&lt;a href="http://github.com/dalejn/cleanBib" target="_blank">Citational diversity codebook&lt;/a>&lt;/div>
+&lt;div class="hexagon tool">&lt;a href="https://genderize.io/" target="_blank">Genderize&lt;/a>&lt;/div>
+&lt;div class="hexagon tool">&lt;a href="https://www.zotero.org/google-docs/?0X0Pnv" target="_blank">Template for citing Indigenous peoples (MacLeod, 2021)&lt;/a>&lt;/div>
+&lt;div class="hexagon tool">&lt;a href="https://www.zotero.org/google-docs/?v6ivhu" target="_blank">Inwardness metric (Baccini et al., 2019)&lt;/a>&lt;/div>
+&lt;div class="hexagon practice">&lt;a href="https://www.zotero.org/google-docs/?xcN7Ju" target="_blank">Citational diversity statement (Zurn et al., 2020)&lt;/a>&lt;/div>
+&lt;div class="hexagon tool">&lt;a href="https://psych.wisc.edu/gcbialyzer/" target="_blank">GCBI-alyzer&lt;/a>&lt;/div>
+&lt;div class="hexagon tool">&lt;a href="#" target="_blank">Citing R packages (and other tools)&lt;/a>&lt;/div>
+&lt;div class="hexagon tool">&lt;a href="https://www.zotero.org/google-docs/?fALVzn" target="_blank">Annotated reference list (Lawson et al., 2025)&lt;/a>&lt;/div>
 &lt;/div>
 &lt;/div>
 &lt;/div>
@@ -84,26 +86,22 @@
 &lt;div class="content-group">
 &lt;h4>Tools &amp; Practices&lt;/h4>
 &lt;div class="hexagon-grid">
-&lt;div class="hexagon practice">&lt;a href="#" target="_blank">Academic Wheel of Privilege&lt;/a>&lt;/div>
+&lt;div class="hexagon practice">&lt;a href="https://forrt.org/awop/" target="_blank">Academic Wheel of Priviledge (AWoP)&lt;/a>&lt;/div>
 &lt;/div>
 &lt;/div>
 &lt;/div>
 &lt;/div>
 &lt;/div>
 &lt;div class="legend">
-&lt;div class="legend-item primary">&lt;a href="#" target="_blank">Primary Activities&lt;/a>&lt;/div>
-&lt;div class="legend-item practice">&lt;a href="http://citebetter.com" target="_blank">Key Practices&lt;/a>&lt;/div>
-&lt;div class="legend-item tool">&lt;a href="http://citebetter.com" target="_blank">Tools&lt;/a>&lt;/div>
+&lt;div class="legend-item primary">&lt;a href="#" >Primary Activities&lt;/a>&lt;/div>
+&lt;div class="legend-item practice">&lt;a href="#" >Key Practices&lt;/a>&lt;/div>
+&lt;div class="legend-item tool">&lt;a href="#" >Tools&lt;/a>&lt;/div>
 &lt;/div>
 &lt;/div>
 &lt;script>
 document.querySelectorAll('.hexagon').forEach(hex => {
 hex.addEventListener('mouseenter', function() {
 this.style.transition = 'all 0.3s ease';
-});
-hex.addEventListener('click', function(e) {
-e.preventDefault();
-alert('Explore more about: ' + this.querySelector('a').textContent);
 });
 });
 &lt;/script>
