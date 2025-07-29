@@ -6950,7 +6950,7 @@
 &lt;a href="https://doi.org/10.17605/OSF.IO/7VC4Z" target="_blank" rel="noopener">https://doi.org/10.17605/OSF.IO/7VC4Z&lt;/a>&lt;/p>
 &lt;hr>
 &lt;p>iRISE receives funding from the European Union&amp;rsquo;s Horizon Europe research and innovation programme under grant agreement No. 101094853. The project also receives funding from UK Research and Innovation (UKRI) and the Swiss State Secretariat for Education, Research and Innovation (SERI): Direct Funding for Collaborative Projects as part of the transitional measures.&lt;/p></description></item><item><title>Citation Politics Toolkit</title><link>https://staging.forrt.org/citation-politics/toolkit/</link><pubDate>Thu, 03 Jul 2025 15:30:39 -0300</pubDate><guid>https://staging.forrt.org/citation-politics/toolkit/</guid><description>&lt;!-- &lt;img src="featured.webp" width=700px align="center" alt="Citation Politics Toolkit" /> -->
-&lt;link rel="stylesheet" href="https://staging.forrt.org/css/citations.min.bc4a046dc940a5a6186df879e5e974334c8bc114bf0bdedec159dd51f7c12f88.css">
+&lt;link rel="stylesheet" href="https://staging.forrt.org/css/citations.min.f216bc511682c1c16db80378671e6361996e5d25a7e5bfe1efb51da6aabce54f.css">
 &lt;body>
 &lt;div class="container">
 &lt;div class="citation-grid">
@@ -6959,18 +6959,18 @@
 &lt;div class="box-content">
 &lt;div class="content-group">
 &lt;h4>Primary Activities&lt;/h4>
-&lt;div class="hexagon-grid">
-&lt;div class="hexagon primary">&lt;a href="#" target="_blank">Ideas&lt;/a>&lt;/div>
-&lt;div class="hexagon primary">&lt;a href="#" target="_blank">Funding&lt;/a>&lt;/div>
+&lt;div class="box-grid">
+&lt;div class="box primary">&lt;a href="#" target="_blank">Ideas&lt;/a>&lt;/div>
+&lt;div class="box primary">&lt;a href="#" target="_blank">Funding&lt;/a>&lt;/div>
 &lt;/div>
 &lt;/div>
 &lt;div class="content-group">
 &lt;h4>Tools &amp; Practices&lt;/h4>
-&lt;div class="hexagon-grid">
-&lt;div class="hexagon tool">&lt;a href="https://chromewebstore.google.com/detail/citation-transparency/cepnbdbhabaljgecaddglhhcgajphbcf?hl=en&amp;pli=1" target="_blank">Citation Transparency browser extension&lt;/a>&lt;/div>
-&lt;div class="hexagon tool">&lt;a href="#">FORRT citational justice module&lt;/a>&lt;/div>
-&lt;div class="hexagon tool">&lt;a href="https://civiclaboratory.nl/2023/08/08/citational-politics-training-module/" target="_blank">Citational politics training module - CLEAR - Civic Laboratory for Environmental Action Research&lt;/a>&lt;/div>
-&lt;div class="hexagon practice">&lt;a href="https://forrt.org/awop/" target="_blank">Academic Wheel of Priviledge (AWoP)&lt;/a>&lt;/div>
+&lt;div class="box-grid">
+&lt;div class="box tool">&lt;a href="https://chromewebstore.google.com/detail/citation-transparency/cepnbdbhabaljgecaddglhhcgajphbcf?hl=en&amp;pli=1" target="_blank">Citation Transparency browser extension&lt;/a>&lt;/div>
+&lt;div class="box tool">&lt;a href="#">FORRT citational justice module&lt;/a>&lt;/div>
+&lt;div class="box tool">&lt;a href="https://civiclaboratory.nl/2023/08/08/citational-politics-training-module/" target="_blank">Citational politics training module - CLEAR - Civic Laboratory for Environmental Action Research&lt;/a>&lt;/div>
+&lt;div class="box practice">&lt;a href="https://forrt.org/awop/" target="_blank">Academic Wheel of Priviledge (AWoP)&lt;/a>&lt;/div>
 &lt;/div>
 &lt;/div>
 &lt;/div>
@@ -6980,16 +6980,16 @@
 &lt;div class="box-content">
 &lt;div class="content-group">
 &lt;h4>Primary Activities&lt;/h4>
-&lt;div class="hexagon-grid">
-&lt;div class="hexagon primary">&lt;a href="#" target="_blank">Research&lt;/a>&lt;/div>
-&lt;div class="hexagon primary">&lt;a href="#" target="_blank">Journal Selection&lt;/a>&lt;/div>
+&lt;div class="box-grid">
+&lt;div class="box primary">&lt;a href="#" target="_blank">Research&lt;/a>&lt;/div>
+&lt;div class="box primary">&lt;a href="#" target="_blank">Journal Selection&lt;/a>&lt;/div>
 &lt;/div>
 &lt;/div>
 &lt;div class="content-group">
 &lt;h4>Tools &amp; Practices&lt;/h4>
-&lt;div class="hexagon-grid">
-&lt;div class="hexagon practice">&lt;a href="http://www.criticalethnicstudiesjournal.org/citation-practices/" target="_blank">Citational Practices: Critical Ethnic Studies&lt;/a>&lt;/div>
-&lt;div class="hexagon practice">&lt;a href="#" target="_blank">Diversity reading - see Table below (collapsible table)&lt;/a>&lt;/div>
+&lt;div class="box-grid">
+&lt;div class="box practice">&lt;a href="http://www.criticalethnicstudiesjournal.org/citation-practices/" target="_blank">Citational Practices: Critical Ethnic Studies&lt;/a>&lt;/div>
+&lt;div class="box practice">&lt;a href="#" target="_blank">Diversity reading - see Table below (collapsible table)&lt;/a>&lt;/div>
 &lt;/div>
 &lt;/div>
 &lt;/div>
@@ -6999,27 +6999,27 @@
 &lt;div class="box-content">
 &lt;div class="content-group">
 &lt;h4>Primary Activities&lt;/h4>
-&lt;div class="hexagon-grid">
-&lt;div class="hexagon primary">&lt;a href="#" target="_blank">Paper Writing&lt;/a>&lt;/div>
-&lt;div class="hexagon primary">&lt;a href="#" target="_blank">Submission&lt;/a>&lt;/div>
+&lt;div class="box-grid">
+&lt;div class="box primary">&lt;a href="#" target="_blank">Paper Writing&lt;/a>&lt;/div>
+&lt;div class="box primary">&lt;a href="#" target="_blank">Submission&lt;/a>&lt;/div>
 &lt;/div>
 &lt;/div>
 &lt;div class="content-group">
 &lt;h4>Tools &amp; Practices&lt;/h4>
-&lt;div class="hexagon-grid">
-&lt;div class="hexagon practice">&lt;a href="https://docs.google.com/document/d/1JwwmOgRhd2p-Bl_RFEMnp04P0I2nNhOHW7JHdaLcyGs/edit?tab=t.0" target="_blank"> Mirya Holman’s pre-submission checklist&lt;/a>&lt;/div>
-&lt;div class="hexagon tool">&lt;a href="https://jlsumner.shinyapps.io/syllabustool/" target="_blank"> Gender Balance Assessment Tool (GBAT)&lt;/a>&lt;/div>
-&lt;div class="hexagon tool">&lt;a href="https://www.zotero.org/google-docs/?zwSfHF" target="_blank">Citation audit survey (Darda et al., 2023)&lt;/a>&lt;/div>
-&lt;div class="hexagon tool">&lt;a href="https://www.zotero.org/google-docs/?TBmDtR" target="_blank">Gray test (Belcher, 2019)&lt;/a>&lt;/div>
-&lt;div class="hexagon tool">&lt;a href="https://docs.google.com/spreadsheets/d/1HHM6i1WDaAVzSJxgZG8UtNWP3aRcFprsdVpLZJEWxOQ/edit#gid=759055580" target="_blank">SIBL Citation Audit Template&lt;/a>&lt;/div>
-&lt;div class="hexagon tool">&lt;a href="http://github.com/dalejn/cleanBib" target="_blank">Citational diversity codebook&lt;/a>&lt;/div>
-&lt;div class="hexagon tool">&lt;a href="https://genderize.io/" target="_blank">Genderize&lt;/a>&lt;/div>
-&lt;div class="hexagon tool">&lt;a href="https://www.zotero.org/google-docs/?0X0Pnv" target="_blank">Template for citing Indigenous peoples (MacLeod, 2021)&lt;/a>&lt;/div>
-&lt;div class="hexagon tool">&lt;a href="https://www.zotero.org/google-docs/?v6ivhu" target="_blank">Inwardness metric (Baccini et al., 2019)&lt;/a>&lt;/div>
-&lt;div class="hexagon practice">&lt;a href="https://www.zotero.org/google-docs/?xcN7Ju" target="_blank">Citational diversity statement (Zurn et al., 2020)&lt;/a>&lt;/div>
-&lt;div class="hexagon tool">&lt;a href="https://psych.wisc.edu/gcbialyzer/" target="_blank">GCBI-alyzer&lt;/a>&lt;/div>
-&lt;div class="hexagon tool">&lt;a href="#" target="_blank">Citing R packages (and other tools)&lt;/a>&lt;/div>
-&lt;div class="hexagon tool">&lt;a href="https://www.zotero.org/google-docs/?fALVzn" target="_blank">Annotated reference list (Lawson et al., 2025)&lt;/a>&lt;/div>
+&lt;div class="box-grid">
+&lt;div class="box practice">&lt;a href="https://docs.google.com/document/d/1JwwmOgRhd2p-Bl_RFEMnp04P0I2nNhOHW7JHdaLcyGs/edit?tab=t.0" target="_blank"> Mirya Holman’s pre-submission checklist&lt;/a>&lt;/div>
+&lt;div class="box tool">&lt;a href="https://jlsumner.shinyapps.io/syllabustool/" target="_blank"> Gender Balance Assessment Tool (GBAT)&lt;/a>&lt;/div>
+&lt;div class="box tool">&lt;a href="https://www.zotero.org/google-docs/?zwSfHF" target="_blank">Citation audit survey (Darda et al., 2023)&lt;/a>&lt;/div>
+&lt;div class="box tool">&lt;a href="https://www.zotero.org/google-docs/?TBmDtR" target="_blank">Gray test (Belcher, 2019)&lt;/a>&lt;/div>
+&lt;div class="box tool">&lt;a href="https://docs.google.com/spreadsheets/d/1HHM6i1WDaAVzSJxgZG8UtNWP3aRcFprsdVpLZJEWxOQ/edit#gid=759055580" target="_blank">SIBL Citation Audit Template&lt;/a>&lt;/div>
+&lt;div class="box tool">&lt;a href="http://github.com/dalejn/cleanBib" target="_blank">Citational diversity codebook&lt;/a>&lt;/div>
+&lt;div class="box tool">&lt;a href="https://genderize.io/" target="_blank">Genderize&lt;/a>&lt;/div>
+&lt;div class="box tool">&lt;a href="https://www.zotero.org/google-docs/?0X0Pnv" target="_blank">Template for citing Indigenous peoples (MacLeod, 2021)&lt;/a>&lt;/div>
+&lt;div class="box tool">&lt;a href="https://www.zotero.org/google-docs/?v6ivhu" target="_blank">Inwardness metric (Baccini et al., 2019)&lt;/a>&lt;/div>
+&lt;div class="box practice">&lt;a href="https://www.zotero.org/google-docs/?xcN7Ju" target="_blank">Citational diversity statement (Zurn et al., 2020)&lt;/a>&lt;/div>
+&lt;div class="box tool">&lt;a href="https://psych.wisc.edu/gcbialyzer/" target="_blank">GCBI-alyzer&lt;/a>&lt;/div>
+&lt;div class="box tool">&lt;a href="#" target="_blank">Citing R packages (and other tools)&lt;/a>&lt;/div>
+&lt;div class="box tool">&lt;a href="https://www.zotero.org/google-docs/?fALVzn" target="_blank">Annotated reference list (Lawson et al., 2025)&lt;/a>&lt;/div>
 &lt;/div>
 &lt;/div>
 &lt;/div>
@@ -7029,15 +7029,15 @@
 &lt;div class="box-content">
 &lt;div class="content-group">
 &lt;h4>Primary Activities&lt;/h4>
-&lt;div class="hexagon-grid">
-&lt;div class="hexagon primary">&lt;a href="#" target="_blank">Peer Review&lt;/a>&lt;/div>
-&lt;div class="hexagon primary">&lt;a href="#" target="_blank">Publication&lt;/a>&lt;/div>
+&lt;div class="box-grid">
+&lt;div class="box primary">&lt;a href="#" target="_blank">Peer Review&lt;/a>&lt;/div>
+&lt;div class="box primary">&lt;a href="#" target="_blank">Publication&lt;/a>&lt;/div>
 &lt;/div>
 &lt;/div>
 &lt;div class="content-group">
 &lt;h4>Tools &amp; Practices&lt;/h4>
-&lt;div class="hexagon-grid">
-&lt;div class="hexagon practice">&lt;a href="https://forrt.org/awop/" target="_blank">Academic Wheel of Priviledge (AWoP)&lt;/a>&lt;/div>
+&lt;div class="box-grid">
+&lt;div class="box practice">&lt;a href="https://forrt.org/awop/" target="_blank">Academic Wheel of Priviledge (AWoP)&lt;/a>&lt;/div>
 &lt;/div>
 &lt;/div>
 &lt;/div>
@@ -7050,7 +7050,7 @@
 &lt;/div>
 &lt;/div>
 &lt;script>
-document.querySelectorAll('.hexagon').forEach(hex => {
+document.querySelectorAll('.box').forEach(hex => {
 hex.addEventListener('mouseenter', function() {
 this.style.transition = 'all 0.3s ease';
 });
