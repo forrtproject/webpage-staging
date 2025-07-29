@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Sarah Sauve (SSauve@lincoln.ac.uk) | FORRT - Framework for Open and Reproducible Research Training</title><link>https://staging.forrt.org/author/sarah-sauve-ssauve@lincoln.ac.uk/</link><atom:link href="https://staging.forrt.org/author/sarah-sauve-ssauve@lincoln.ac.uk/index.xml" rel="self" type="application/rss+xml"/><description>Sarah Sauve (SSauve@lincoln.ac.uk)</description><generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2025 - FORRT > Framework for Open and Reproducible Research Training</copyright><lastBuildDate>Thu, 03 Jul 2025 15:30:39 -0300</lastBuildDate><image><url>https://staging.forrt.org/img/FORRT_banner.svg</url><title>Sarah Sauve (SSauve@lincoln.ac.uk)</title><link>https://staging.forrt.org/author/sarah-sauve-ssauve@lincoln.ac.uk/</link></image><item><title>Citation Politics Toolkit</title><link>https://staging.forrt.org/citation-politics/toolkit/</link><pubDate>Thu, 03 Jul 2025 15:30:39 -0300</pubDate><guid>https://staging.forrt.org/citation-politics/toolkit/</guid><description>&lt;!-- &lt;img src="featured.webp" width=700px align="center" alt="Citation Politics Toolkit" /> -->
-&lt;link rel="stylesheet" href="https://staging.forrt.org/css/citations.min.f216bc511682c1c16db80378671e6361996e5d25a7e5bfe1efb51da6aabce54f.css">
+&lt;link rel="stylesheet" href="https://staging.forrt.org/css/citations.min.ed17c1e87727cb789a9753fb79471cb5e025dd5244a041fdc2daca295ae2bf84.css">
 &lt;body>
 &lt;div class="container">
 &lt;div class="citation-grid">
@@ -7,17 +7,10 @@
 &lt;h3>Planning&lt;/h3>
 &lt;div class="box-content">
 &lt;div class="content-group">
-&lt;h4>Primary Activities&lt;/h4>
-&lt;div class="box-grid">
-&lt;div class="box primary">&lt;a href="#" target="_blank">Ideas&lt;/a>&lt;/div>
-&lt;div class="box primary">&lt;a href="#" target="_blank">Funding&lt;/a>&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;div class="content-group">
 &lt;h4>Tools &amp; Practices&lt;/h4>
 &lt;div class="box-grid">
 &lt;div class="box tool">&lt;a href="https://chromewebstore.google.com/detail/citation-transparency/cepnbdbhabaljgecaddglhhcgajphbcf?hl=en&amp;pli=1" target="_blank">Citation Transparency browser extension&lt;/a>&lt;/div>
-&lt;div class="box tool">&lt;a href="#">FORRT citational justice module&lt;/a>&lt;/div>
+&lt;div class="box tool">&lt;a href="#">FORRT citational justice module(coming soon)&lt;/a>&lt;/div>
 &lt;div class="box tool">&lt;a href="https://civiclaboratory.nl/2023/08/08/citational-politics-training-module/" target="_blank">Citational politics training module - CLEAR - Civic Laboratory for Environmental Action Research&lt;/a>&lt;/div>
 &lt;div class="box practice">&lt;a href="https://forrt.org/awop/" target="_blank">Academic Wheel of Priviledge (AWoP)&lt;/a>&lt;/div>
 &lt;/div>
@@ -27,13 +20,6 @@
 &lt;div class="stage-box project">
 &lt;h3>Project&lt;/h3>
 &lt;div class="box-content">
-&lt;div class="content-group">
-&lt;h4>Primary Activities&lt;/h4>
-&lt;div class="box-grid">
-&lt;div class="box primary">&lt;a href="#" target="_blank">Research&lt;/a>&lt;/div>
-&lt;div class="box primary">&lt;a href="#" target="_blank">Journal Selection&lt;/a>&lt;/div>
-&lt;/div>
-&lt;/div>
 &lt;div class="content-group">
 &lt;h4>Tools &amp; Practices&lt;/h4>
 &lt;div class="box-grid">
@@ -47,53 +33,27 @@
 &lt;h3>Paper&lt;/h3>
 &lt;div class="box-content">
 &lt;div class="content-group">
-&lt;h4>Primary Activities&lt;/h4>
-&lt;div class="box-grid">
-&lt;div class="box primary">&lt;a href="#" target="_blank">Paper Writing&lt;/a>&lt;/div>
-&lt;div class="box primary">&lt;a href="#" target="_blank">Submission&lt;/a>&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;div class="content-group">
 &lt;h4>Tools &amp; Practices&lt;/h4>
 &lt;div class="box-grid">
 &lt;div class="box practice">&lt;a href="https://docs.google.com/document/d/1JwwmOgRhd2p-Bl_RFEMnp04P0I2nNhOHW7JHdaLcyGs/edit?tab=t.0" target="_blank"> Mirya Holman’s pre-submission checklist&lt;/a>&lt;/div>
 &lt;div class="box tool">&lt;a href="https://jlsumner.shinyapps.io/syllabustool/" target="_blank"> Gender Balance Assessment Tool (GBAT)&lt;/a>&lt;/div>
-&lt;div class="box tool">&lt;a href="https://www.zotero.org/google-docs/?zwSfHF" target="_blank">Citation audit survey (Darda et al., 2023)&lt;/a>&lt;/div>
-&lt;div class="box tool">&lt;a href="https://www.zotero.org/google-docs/?TBmDtR" target="_blank">Gray test (Belcher, 2019)&lt;/a>&lt;/div>
+&lt;div class="box tool">&lt;a href="https://doi.org/10.31234/osf.io/rfkyu" target="_blank">Citation audit survey (Darda et al., 2023)&lt;/a>&lt;/div>
+&lt;div class="box tool">&lt;a href="https://scholar.google.com/scholar_lookup?title=Writing+your+journal+article+in+twelve+weeks%3A+A+guide+to+academic+publishing+success&amp;author=W.+L.+Belcher&amp;publication_year=2019&amp;doi=10.7208%2Fchicago%2F9780226500089.001.0001" target="_blank">Gray test (Belcher, 2019)&lt;/a>&lt;/div>
 &lt;div class="box tool">&lt;a href="https://docs.google.com/spreadsheets/d/1HHM6i1WDaAVzSJxgZG8UtNWP3aRcFprsdVpLZJEWxOQ/edit#gid=759055580" target="_blank">SIBL Citation Audit Template&lt;/a>&lt;/div>
 &lt;div class="box tool">&lt;a href="http://github.com/dalejn/cleanBib" target="_blank">Citational diversity codebook&lt;/a>&lt;/div>
 &lt;div class="box tool">&lt;a href="https://genderize.io/" target="_blank">Genderize&lt;/a>&lt;/div>
-&lt;div class="box tool">&lt;a href="https://www.zotero.org/google-docs/?0X0Pnv" target="_blank">Template for citing Indigenous peoples (MacLeod, 2021)&lt;/a>&lt;/div>
-&lt;div class="box tool">&lt;a href="https://www.zotero.org/google-docs/?v6ivhu" target="_blank">Inwardness metric (Baccini et al., 2019)&lt;/a>&lt;/div>
-&lt;div class="box practice">&lt;a href="https://www.zotero.org/google-docs/?xcN7Ju" target="_blank">Citational diversity statement (Zurn et al., 2020)&lt;/a>&lt;/div>
+&lt;div class="box tool">&lt;a href="https://doi.org/10.18357/kula.135" target="_blank">Template for citing Indigenous peoples (MacLeod, 2021)&lt;/a>&lt;/div>
+&lt;div class="box tool">&lt;a href="https://doi.org/10.1371/journal.pone.0221212" target="_blank">Inwardness metric (Baccini et al., 2019)&lt;/a>&lt;/div>
+&lt;div class="box practice">&lt;a href="https://doi.org/10.1016/j.tics.2020.06.009" target="_blank">Citational diversity statement (Zurn et al., 2020)&lt;/a>&lt;/div>
 &lt;div class="box tool">&lt;a href="https://psych.wisc.edu/gcbialyzer/" target="_blank">GCBI-alyzer&lt;/a>&lt;/div>
+&lt;div class="box tool">&lt;a href="https://doi.org/10.31234/osf.io/6kvqg" target="_blank">Annotated reference list (Lawson et al., 2025)&lt;/a>&lt;/div>
 &lt;div class="box tool">&lt;a href="#" target="_blank">Citing R packages (and other tools)&lt;/a>&lt;/div>
-&lt;div class="box tool">&lt;a href="https://www.zotero.org/google-docs/?fALVzn" target="_blank">Annotated reference list (Lawson et al., 2025)&lt;/a>&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;div class="stage-box publication">
-&lt;h3>Publication&lt;/h3>
-&lt;div class="box-content">
-&lt;div class="content-group">
-&lt;h4>Primary Activities&lt;/h4>
-&lt;div class="box-grid">
-&lt;div class="box primary">&lt;a href="#" target="_blank">Peer Review&lt;/a>&lt;/div>
-&lt;div class="box primary">&lt;a href="#" target="_blank">Publication&lt;/a>&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;div class="content-group">
-&lt;h4>Tools &amp; Practices&lt;/h4>
-&lt;div class="box-grid">
-&lt;div class="box practice">&lt;a href="https://forrt.org/awop/" target="_blank">Academic Wheel of Priviledge (AWoP)&lt;/a>&lt;/div>
 &lt;/div>
 &lt;/div>
 &lt;/div>
 &lt;/div>
 &lt;/div>
 &lt;div class="legend">
-&lt;div class="legend-item primary">&lt;a href="#" >Primary Activities&lt;/a>&lt;/div>
 &lt;div class="legend-item practice">&lt;a href="#" >Key Practices&lt;/a>&lt;/div>
 &lt;div class="legend-item tool">&lt;a href="#" >Tools&lt;/a>&lt;/div>
 &lt;/div>
@@ -334,31 +294,4 @@ text-decoration: none;
 .citation-toolkit a:hover {
 text-decoration: underline;
 }
-&lt;/style>
-&lt;h2 id="references">References&lt;/h2>
-&lt;ol>
-&lt;li>
-&lt;p>Baccini, A., Nicolao, G. D., &amp;amp; Petrovich, E. (2019). Citation gaming induced by bibliometric evaluation: A country-level comparative analysis. &lt;em>PLOS ONE&lt;/em>, &lt;em>14&lt;/em>(9), e0221212.
-&lt;a href="https://doi.org/10.1371/journal.pone.0221212" target="_blank" rel="noopener">https://doi.org/10.1371/journal.pone.0221212&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Belcher, W. L. (2019). &lt;em>Writing your journal article in twelve weeks: A guide to academic publishing success&lt;/em> (2nd ed.). University of Chicago Press.
-&lt;a href="https://doi.org/10.7208/chicago/9780226500089.001.0001" target="_blank" rel="noopener">https://doi.org/10.7208/chicago/9780226500089.001.0001&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Darda, K. M., Gernsbacher, M. A., Conry-Murray, C., Elsherif, M., Peverill, M., Yoneda, T., Schmidt, K., Lawson, K. M., DiGregory, E., &amp;amp; Moreau, D. (2023). &lt;em>Promoting civility in formal and informal open science contexts&lt;/em>. Open Science Framework.
-&lt;a href="https://doi.org/10.31234/osf.io/rfkyu" target="_blank" rel="noopener">https://doi.org/10.31234/osf.io/rfkyu&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Lawson, K. M., Murphy, B., Azpeitia, J., Lombard, E., &amp;amp; Pope, T. (2025). &lt;em>Citing decisions in psychology: A roadblock to cumulative and inclusive science&lt;/em>. OSF.
-&lt;a href="https://doi.org/10.31234/osf.io/6kvqg" target="_blank" rel="noopener">https://doi.org/10.31234/osf.io/6kvqg&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>MacLeod, L. (2021). More than personal communication: Templates for citing Indigenous Elders and Knowledge Keepers. &lt;em>KULA: Knowledge Creation, Dissemination, and Preservation Studies&lt;/em>, &lt;em>5&lt;/em>(1), Article 1.
-&lt;a href="https://doi.org/10.18357/kula.135" target="_blank" rel="noopener">https://doi.org/10.18357/kula.135&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Zurn, P., Bassett, D. S., &amp;amp; Rust, N. C. (2020). The citation diversity statement: A practice of transparency, a way of life. &lt;em>Trends in Cognitive Sciences&lt;/em>, &lt;em>24&lt;/em>(9), 669–672.
-&lt;a href="https://doi.org/10.1016/j.tics.2020.06.009" target="_blank" rel="noopener">https://doi.org/10.1016/j.tics.2020.06.009&lt;/a>&lt;/p>
-&lt;/li>
-&lt;/ol></description></item></channel></rss>
+&lt;/style></description></item></channel></rss>
