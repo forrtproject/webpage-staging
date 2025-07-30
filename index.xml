@@ -9512,13 +9512,13 @@ Diversity reading - see Table below
 &lt;/div>
 &lt;/div>
 &lt;div class="legend">
-&lt;div class="legend-item practice">
-&lt;div class="legend-color">&lt;/div>
-&lt;span>Practices&lt;/span>
-&lt;/div>
 &lt;div class="legend-item tool">
 &lt;div class="legend-color">&lt;/div>
 &lt;span>Tools&lt;/span>
+&lt;/div>
+&lt;div class="legend-item practice">
+&lt;div class="legend-color">&lt;/div>
+&lt;span>Practices&lt;/span>
 &lt;/div>
 &lt;/div>
 &lt;/div>
