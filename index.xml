@@ -9362,7 +9362,7 @@ Nowhere Lab has partnered with FORRT as part of FORRT’s efforts to promote soc
 &lt;/div>
 &lt;h2 id="look-at-the-presentation">Look at the presentation:&lt;/h2>
 &lt;style>.embed-responsive{position:relative;height:100%;}.embed-responsive iframe{position:absolute;height:100%;}&lt;/style>&lt;script>window.jQuery || document.write('&lt;script src="//code.jquery.com/jquery-1.11.2.min.js">\x3C/script>') &lt;/script>&lt;link href="https://mfr.de-1.osf.io/static/css/mfr.css" media="all" rel="stylesheet">&lt;div id="mfrIframe" class="mfr mfr-file">&lt;/div>&lt;script src="https://mfr.de-1.osf.io/static/js/mfr.js">&lt;/script> &lt;script>var mfrRender = new mfr.Render("mfrIframe", "https://mfr.de-1.osf.io/render?url=https://osf.io/wcq4y/?direct%26mode=render%26action=download%26mode=render");&lt;/script></description></item><item><title/><link>https://staging.forrt.org/citation-politics/toolkit/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://staging.forrt.org/citation-politics/toolkit/</guid><description>
-&lt;link rel="stylesheet" href="https://staging.forrt.org/css/citations.min.2341af6bfa0e9f8db0a25a4cd42d170562c9d07ee1d536b7aa041edd027f6849.css">
+&lt;link rel="stylesheet" href="https://staging.forrt.org/css/citations.min.862057d6986116214989cc791f467d10b18920e22addab632087059c6f2a4276.css">
 &lt;body>
 &lt;div class="container">
 &lt;header class="header">
@@ -9434,17 +9434,18 @@ Inwardness metric (Baccini et al., 2019)
 &lt;/div>
 &lt;div class="tool-box practice" data-category="practice">
 &lt;a href="https://doi.org/10.31234/osf.io/6kvqg" target="_blank">
-Annotated reference list (Lawson et al., 2025)
+Annotated reference list &lt;br> (Lawson et al., 2025)
 &lt;/a>
 &lt;/div>
 &lt;div class="tool-box practice" data-category="practice">
 &lt;a href="https://doi.org/10.1016/j.tics.2020.06.009" target="_blank">
-Citational diversity statement (Zurn et al., 2020)
+Citational diversity statement &lt;br>
+(Zurn et al., 2020)
 &lt;/a>
 &lt;/div>
 &lt;div class="tool-box practice" data-category="practice">
 &lt;a href="https://doi.org/10.31234/osf.io/6kvqg" target="_blank">
-Citing R packages (and other tools)
+Citing R packages &lt;br> (and other tools)
 &lt;/a>
 &lt;/div>
 &lt;/div>
@@ -9481,7 +9482,7 @@ Citational politics training module - CLEAR - Civic Laboratory for Environmental
 &lt;/div>
 &lt;div class="tool-box practice" data-category="practice">
 &lt;a href="https://forrt.org/awop/" target="_blank">
-Academic Wheel of Privilege (AWoP) | FORRT - Framework for Open and Reproducible Research Training
+Academic Wheel of Privilege &lt;br> (AWoP)
 &lt;/a>
 &lt;/div>
 &lt;/div>
@@ -9773,12 +9774,12 @@ color: #b3005a;
 &lt;tr>
 &lt;td>Women in Coastal Geoscience and Engineering&lt;/td>
 &lt;td>Aims to inspire, support, and encourage women at all career stages through networking and mentoring&lt;/td>
-&lt;td>WICGE&lt;/td>
+&lt;td>&lt;a href="https://womenincoastal.org/" target="_blank">WICGE&lt;/a>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>Women in Earth and Environmental Sciences in Australasia&lt;/td>
 &lt;td>Creating a unified Australasian network of women working in Earth and Environmental Sciences in academia, industry and government&lt;/td>
-&lt;td>WOMEESA&lt;/td>
+&lt;td> &lt;a href="https://www.womeesa.net/" target="_blank">WOMEESA&lt;/a>&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>Global South Climate Database&lt;/td>
