@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Open-Research-Games-Portals | FORRT - Framework for Open and Reproducible Research Training</title><link>https://staging.forrt.org/open-research-games-portal/</link><atom:link href="https://staging.forrt.org/open-research-games-portal/index.xml" rel="self" type="application/rss+xml"/><description>Open-Research-Games-Portals</description><generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2025 - FORRT > Framework for Open and Reproducible Research Training</copyright><image><url>https://staging.forrt.org/img/FORRT_banner.svg</url><title>Open-Research-Games-Portals</title><link>https://staging.forrt.org/open-research-games-portal/</link></image><item><title>Open Research Games Portal</title><link>https://staging.forrt.org/open-research-games-portal/games/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://staging.forrt.org/open-research-games-portal/games/</guid><description>&lt;p>Welcome to the &lt;strong>Open Research Games Portal&lt;/strong> - your gateway to learning open science through play! Our curated collection features &lt;strong>39
+&lt;/strong> educational games that make complex research concepts accessible and engaging.&lt;/p>
+&lt;h3 id="discover--play">&lt;em>&lt;strong>Discover &amp;amp; Play&lt;/strong>&lt;/em>&lt;/h3>
+&lt;p>🎮 &lt;strong>Interactive Learning&lt;/strong>: Games that teach research methods, statistical thinking, and open science practices through hands-on experience.&lt;/p>
+&lt;p>🎯 &lt;strong>For Everyone&lt;/strong>: From high school students to seasoned researchers, find games tailored to your learning level.&lt;/p>
+&lt;p>🔬 &lt;strong>Evidence-Based&lt;/strong>: Each game is designed with pedagogical principles and learning objectives in mind.&lt;/p>
+&lt;h3 id="how-to-use-this-portal">&lt;em>&lt;strong>How to Use This Portal&lt;/strong>&lt;/em>&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>Browse&lt;/strong>: Explore all games using the cards below&lt;/li>
+&lt;li>&lt;strong>Filter&lt;/strong>: Use the FORRT cluster buttons to find games by topic&lt;/li>
+&lt;li>&lt;strong>Search&lt;/strong>: Enter keywords to find specific games by title, gameplay, topics, or FORRT clusters&lt;/li>
+&lt;li>&lt;strong>Play&lt;/strong>: Click &amp;ldquo;Play Now&amp;rdquo; to start gaming immediately&lt;/li>
+&lt;li>&lt;strong>Learn More&lt;/strong>: Click &amp;ldquo;Details&amp;rdquo; to see comprehensive game information&lt;/li>
+&lt;/ul>
+&lt;p>Ready to transform your understanding of open science? Let&amp;rsquo;s play and learn together!&lt;/p>
+&lt;hr>
+&lt;p id="gamesLoading">Loading search data...&lt;/p>
+&lt;label for="gamesSearchBox">Enter keywords to find relevant games:&lt;/label>
+&lt;input disabled placeholder="Search games by title, gameplay, topics, or FORRT clusters" type="text" name="gamesSearchBox" id="gamesSearchBox" class="w-100" />
+&lt;div id="gamesResults">&lt;/div>
+&lt;script>
+var gamesSearchFn = function () {
+var lastTerm = "";
+var stopwords = ["i", "me", "my", "we", "our", "you", "it", "its", "this", "that", "am", "is", "are", "was", "be", "has", "had", "do", "a", "an", "the", "but", "if", "or", "as", "of", "at", "by", "for", "with", "to", "then", "no", "not", "so", "too", "can", "and", "but"];
+var normalizer = document.createElement("textarea");
+var normalize = function (input) {
+normalizer.innerHTML = input;
+var inputDecoded = normalizer.value;
+return " " + inputDecoded.trim().toLowerCase().replace(/[^0-9a-z ]/gi, " ").replace(/\s+/g, " ") + " ";
+}
+var limit = 20;
+var minChars = 2;
+var searching = false;
+var gamesIndex = [];
+var render = function (results) {
+results.sort(function (a, b) { return b.weight - a.weight; });
+for (var i = 0; i &lt; results.length &amp;&amp; i &lt; limit; i += 1) {
+var result = results[i].item;
+var resultHTML = '&lt;div class="search-result-item border rounded p-3 mb-2">' +
+'&lt;h6 class="mb-1">' +
+'&lt;a href="https://staging.forrt.org/open-research-games-portal/open-research-games/' + result.slug + '/" class="btn btn-link p-0 text-left" style="text-decoration: none; color: #007bff;">' +
+result.showTitle + '&lt;/a>' +
+'&lt;/h6>' +
+'&lt;p class="small text-muted mb-1">' + (result.showDescription ? result.showDescription.substring(0, 100) + '...' : '') + '&lt;/p>' +
+'&lt;div class="d-flex justify-content-between align-items-center">' +
+'&lt;small class="text-muted">' + (result.showGameplay || '') + '&lt;/small>' +
+(result.access ? '&lt;a href="' + result.access + '" target="_blank" class="btn btn-sm btn-success">Play Now&lt;/a>' : '') +
+'&lt;/div>' +
+'&lt;/div>';
+$("#gamesResults").append(resultHTML);
+}
+};
+var checkTerms = function (terms, weight, target) {
+var weightResult = 0;
+terms.forEach(function (term) {
+var searchTerm = term.term.trim();
+if (searchTerm.length >= 1) {
+if (~target.indexOf(searchTerm)) {
+var idx = target.indexOf(searchTerm);
+while (~idx) {
+weightResult += term.weight * weight;
+idx = target.indexOf(searchTerm, idx + 1);
+}
+}
+var targetWords = target.split(' ');
+targetWords.forEach(function(word) {
+if (word.length >= 3 &amp;&amp; searchTerm.length >= 2) {
+if (word.indexOf(searchTerm) === 0) {
+weightResult += (term.weight * weight * 0.7);
+}
+else if (~word.indexOf(searchTerm)) {
+weightResult += (term.weight * weight * 0.5);
+}
+}
+});
+}
+});
+return weightResult;
+};
+var search = function (terms) {
+var results = [];
+gamesIndex.forEach(function (item) {
+var weight = 0;
+weight += checkTerms(terms, 16, item.title);
+weight += checkTerms(terms, 8, item.gameplay_style);
+weight += checkTerms(terms, 6, item.topic_area);
+weight += checkTerms(terms, 6, item.forrt_clusters);
+weight += checkTerms(terms, 2, item.description);
+if (weight) {
+results.push({
+weight: weight,
+item: item
+});
+}
+});
+if (results.length) {
+var resultsMessage = results.length + " games found.";
+if (results.length > limit) {
+resultsMessage += " Showing first " + limit + " results.";
+}
+$("#gamesResults").html("&lt;p class='text-muted'>" + resultsMessage + "&lt;/p>");
+render(results);
+} else {
+$("#gamesResults").html('&lt;p class="text-muted">No games found.&lt;/p>');
+}
+};
+var runSearch = function () {
+if (searching) return;
+var term = normalize($("#gamesSearchBox").val()).trim();
+if (term === lastTerm) return;
+lastTerm = term;
+if (term.length &lt; 1) {
+$("#gamesResults").html('&lt;p class="text-muted">Enter at least 1 character to search.&lt;/p>');
+return;
+}
+searching = true;
+var startSearch = new Date();
+$("#gamesResults").html('&lt;p class="text-muted">Searching...&lt;/p>');
+var terms = term.split(" ");
+var termsTree = [];
+terms.forEach(function(singleTerm) {
+if (singleTerm.length >= 1 &amp;&amp; stopwords.indexOf(singleTerm) &lt; 0) {
+termsTree.push({
+weight: 2,
+term: " " + singleTerm + " "
+});
+}
+});
+for (var i = 0; i &lt; terms.length; i += 1) {
+for (var j = i; j &lt; terms.length; j += 1) {
+var weight = Math.pow(2, j - i);
+var str = "";
+for (var k = i; k &lt;= j; k += 1) {
+str += (terms[k] + " ");
+}
+var newTerm = str.trim();
+if (newTerm.length >= minChars &amp;&amp; stopwords.indexOf(newTerm) &lt; 0) {
+termsTree.push({
+weight: weight,
+term: " " + str.trim() + " "
+});
+}
+}
+}
+search(termsTree);
+searching = false;
+var endSearch = new Date();
+$("#gamesResults").append("&lt;p class='small text-muted'>Search took " + (endSearch - startSearch) + "ms.&lt;/p>");
+};
+var initSearch = function () {
+$("#gamesSearchBox").keyup(function () {
+runSearch();
+});
+runSearch();
+};
+$("#gamesSearchBox").hide();
+$.getJSON("/data/open_research_games.json", function (games) {
+Object.keys(games).forEach(function(slug) {
+var game = games[slug];
+var searchItem = {
+slug: slug,
+title: normalize(game.title || ""),
+description: normalize(game.description || ""),
+gameplay_style: normalize(game.gameplay_style || ""),
+topic_area: normalize(Array.isArray(game.topic_area) ? game.topic_area.join(" ") : (game.topic_area || "")),
+forrt_clusters: normalize(Array.isArray(game.forrt_clusters) ? game.forrt_clusters.join(" ") : (game.forrt_clusters || "")),
+showTitle: game.title,
+showDescription: game.description,
+showGameplay: game.gameplay_style,
+access: game.access
+};
+gamesIndex.push(searchItem);
+});
+$("#gamesLoading").hide();
+$("#gamesSearchBox").show().removeAttr("disabled").focus();
+initSearch();
+}).fail(function() {
+$("#gamesLoading").text("Error loading search data.");
+});
+};
+window.addEventListener("DOMContentLoaded", gamesSearchFn);
+&lt;/script></description></item><item><title>Open Research Games Portal</title><link>https://staging.forrt.org/open-research-games-portal/game-details/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://staging.forrt.org/open-research-games-portal/game-details/</guid><description>
+&lt;div id="game-details-container" class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+&lt;div class="text-center py-8" id="loading-spinner">
+&lt;div class="inline-block animate-spin rounded-full h-8 w-8 border-b-2 border-blue-600">&lt;/div>
+&lt;p class="mt-4 text-sm md:text-base text-gray-600">Loading game information...&lt;/p>
+&lt;/div>
+&lt;/div>
+&lt;style>
+.game-details-card {
+@apply bg-white border border-gray-300 rounded-lg my-4 overflow-hidden shadow-sm;
+}
+.game-header {
+@apply bg-gray-50 p-4 md:p-6 border-b border-gray-200;
+}
+.game-content {
+@apply p-4 md:p-6;
+}
+.game-info-table {
+@apply w-full;
+}
+.game-info-table tr {
+@apply border-b border-gray-100 last:border-b-0;
+}
+.game-info-table td {
+@apply py-3 align-top;
+}
+.game-info-table .field-label {
+@apply font-semibold text-gray-600 pr-4 w-32 sm:w-40 md:w-48 text-sm md:text-base;
+}
+.game-info-table .field-value {
+@apply text-gray-800 text-sm md:text-base break-words;
+}
+.game-buttons {
+@apply text-center p-4 md:p-6 bg-gray-50 border-t border-gray-200;
+}
+.game-error {
+@apply text-red-600 text-center p-6 md:p-8 bg-gray-50 rounded-lg my-8;
+}
+@media (max-width: 640px) {
+.game-info-table {
+@apply text-sm;
+}
+.game-info-table .field-label {
+@apply w-24 pr-2;
+}
+}
+&lt;/style>
+&lt;script>
+const urlParams = new URLSearchParams(window.location.search);
+const gameSlug = urlParams.get('game');
+if (!gameSlug) {
+document.getElementById('game-details-container').innerHTML = `
+&lt;div class="game-error">
+&lt;h2 class="text-xl md:text-2xl font-bold mb-4">No Game Specified&lt;/h2>
+&lt;p class="mb-6 text-sm md:text-base">Please select a game from the portal to view its details.&lt;/p>
+&lt;a href="https://staging.forrt.org/open-research-games-portal/" class="btn btn-primary">
+&lt;i class="fas fa-arrow-left mr-2">&lt;/i>Back to Portal
+&lt;/a>
+&lt;/div>
+`;
+} else {
+fetch('/data/open_research_games.json')
+.then(response => response.json())
+.then(data => {
+const game = data[gameSlug];
+if (!game) {
+document.getElementById('game-details-container').innerHTML = `
+&lt;div class="game-error">
+&lt;h2 class="text-xl md:text-2xl font-bold mb-4">Game Not Found&lt;/h2>
+&lt;p class="mb-6 text-sm md:text-base">The requested game "&lt;strong class="font-semibold">${gameSlug}&lt;/strong>" could not be found.&lt;/p>
+&lt;a href="https://staging.forrt.org/open-research-games-portal/" class="btn btn-primary">
+&lt;i class="fas fa-arrow-left mr-2">&lt;/i>Back to Portal
+&lt;/a>
+&lt;/div>
+`;
+return;
+}
+function formatValue(value) {
+if (!value) return '&lt;em class="text-gray-400 text-sm">Not specified&lt;/em>';
+if (Array.isArray(value)) return value.join(', ');
+return value;
+}
+const gameFields = [
+{ key: 'unique_id', label: 'Unique ID' },
+{ key: 'title', label: 'Title' },
+{ key: 'creators', label: 'Creators' },
+{ key: 'description', label: 'Description' },
+{ key: 'access', label: 'Access', isLink: true },
+{ key: 'delivery_format', label: 'Delivery Format' },
+{ key: 'game_type', label: 'Game Type' },
+{ key: 'gameplay_style', label: 'Gameplay Style' },
+{ key: 'number_of_players', label: 'Number of Players' },
+{ key: 'target_audience', label: 'Target Audience' },
+{ key: 'last_updated', label: 'Last Updated' },
+{ key: 'language', label: 'Language' },
+{ key: 'licence', label: 'Licence' },
+{ key: 'topic_area', label: 'Topic Area' },
+{ key: 'forrt_clusters', label: 'FORRT Clusters' },
+{ key: 'learning_objectives', label: 'Learning Objectives' },
+{ key: 'formal_evaluation', label: 'Formal Evaluation' },
+{ key: 'suggested_audience', label: 'Suggested Audience' },
+{ key: 'prior_knowledge', label: 'Prior Knowledge' },
+{ key: 'playtime', label: 'Playtime' },
+{ key: 'scalability', label: 'Scalability' },
+{ key: 'teaching_integration', label: 'Teaching Integration' },
+{ key: 'context_specific_elements', label: 'Context-Specific Elements' },
+{ key: 'preparation', label: 'Preparation' },
+{ key: 'testimonials', label: 'Testimonials' }
+];
+let gameHTML = `
+&lt;div class="game-details-card">
+\x3C!-- Game header with title and action buttons -->
+&lt;div class="game-header">
+\x3C!-- Centered game title with responsive sizing and bottom border -->
+&lt;h2 class="text-lg md:text-xl lg:text-2xl font-bold text-gray-800 mb-4 pb-2 border-b border-gray-200 text-center">${game.title}&lt;/h2>
+\x3C!-- Action buttons: Play Now and Back to Portal -->
+&lt;div class="text-center">
+&lt;div class="d-flex flex-column flex-sm-row justify-content-center align-items-center" style="gap: 1rem;">
+${game.access ? `
+\x3C!-- Play Now button (only shown if game has access URL) -->
+&lt;a href="${game.access}" target="_blank" rel="noopener" class="btn btn-success btn-lg" style="min-width: 150px;">
+&lt;i class="fas fa-play mr-2">&lt;/i>Play Now
+&lt;/a>
+` : ''}
+\x3C!-- Back to Portal navigation button -->
+&lt;a href="https://staging.forrt.org/open-research-games-portal/" class="btn btn-outline-secondary btn-lg" style="min-width: 150px;">
+&lt;i class="fas fa-arrow-left mr-2">&lt;/i>Back to Portal
+&lt;/a>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+\x3C!-- Game content section with information table -->
+&lt;div class="game-content">
+&lt;table class="game-info-table">
+`;
+gameFields.forEach(field => {
+const value = game[field.key];
+if (value !== undefined &amp;&amp; value !== null &amp;&amp; value !== '') {
+let formattedValue = formatValue(value);
+if (field.isLink &amp;&amp; value) {
+formattedValue = `&lt;a href="${value}" target="_blank" rel="noopener">${value}&lt;/a>`;
+}
+gameHTML += `
+&lt;tr>
+&lt;td class="field-label">${field.label}:&lt;/td>
+&lt;td class="field-value">${formattedValue}&lt;/td>
+&lt;/tr>
+`;
+}
+});
+gameHTML += `
+&lt;/table>
+&lt;/div>
+\x3C!-- Bottom section with large Play This Game button -->
+&lt;div class="game-buttons">
+${game.access ? `
+\x3C!-- Large, centered Play This Game button -->
+&lt;a href="${game.access}" target="_blank" rel="noopener" class="btn btn-success btn-lg" style="display: block; margin: 0 auto; max-width: 300px;">
+&lt;i class="fas fa-play mr-2">&lt;/i>Play This Game
+&lt;/a>
+` : ''}
+&lt;/div>
+&lt;/div>
+`;
+document.getElementById('game-details-container').innerHTML = gameHTML;
+document.title = `${game.title} - FORRT`;
+})
+.catch(error => {
+console.error('Error loading game data:', error);
+document.getElementById('game-details-container').innerHTML = `
+&lt;div class="game-error">
+&lt;h2 class="text-xl md:text-2xl font-bold mb-4">Error Loading Game&lt;/h2>
+&lt;p class="mb-4 text-sm md:text-base">There was an error loading the game information. Please try again later.&lt;/p>
+&lt;p class="text-xs text-gray-500 mb-6">Error: ${error.message}&lt;/p>
+&lt;a href="https://staging.forrt.org/open-research-games-portal/" class="btn btn-primary">
+&lt;i class="fas fa-arrow-left mr-2">&lt;/i>Back to Portal
+&lt;/a>
+&lt;/div>
+`;
+});
+}
+&lt;/script>
+&lt;hr>
+&lt;br></description></item></channel></rss>
