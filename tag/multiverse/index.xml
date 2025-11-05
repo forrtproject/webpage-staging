@@ -11,7 +11,7 @@
 &lt;p>&lt;strong>Using a DAG to Model the Effect of Inflammation on Depression&lt;/strong>&lt;/p>
 &lt;p>DG&amp;amp;G’s focus their analysis on a hypothetical example: a study of the effect of inflammation on depression. Accordingly, they present the DAG below to represent the causal model relating inflammation (the treatment variable) to depression (the outcome variable).&lt;/p>
 &lt;p>
-&lt;a href="https://replicationnetwork.com/wp-content/uploads/2024/11/image-57.png" target="_blank" rel="noopener">&lt;img src="https://staging.forrt.org/replication-network-blog/image-57.png">&lt;/a>&lt;/p>
+&lt;a href="https://replicationnetwork.com/wp-content/uploads/2024/11/image-57.webp" target="_blank" rel="noopener">&lt;img src="https://staging.forrt.org/replication-network-blog/image-57.webp">&lt;/a>&lt;/p>
 &lt;p>&lt;strong>The Variables&lt;/strong>&lt;/p>
 &lt;p>In this DAG, “Inflammation” is assumed to have a direct effect on “Depression”. It is also assumed to have an indirect effect on “Depression” via the pathway of “Pain”.&lt;/p>
 &lt;p> “Inflammation” is measured in multiple ways. There are four, separate measures of inflammation, “BM1”-“BM4” that may or may not be correlated.&lt;/p>
@@ -45,7 +45,7 @@
 &lt;p>&lt;strong>Type U&lt;/strong>&lt;/p>
 &lt;p>The observant reader might note that we did not make use of the third category of specifications, Type U for “Uncertainty”. DG&amp;amp;G give the following DAG as an example.&lt;/p>
 &lt;p>
-&lt;a href="https://replicationnetwork.com/wp-content/uploads/2024/11/image-58.png" target="_blank" rel="noopener">&lt;img src="https://staging.forrt.org/replication-network-blog/image-58.png">&lt;/a>&lt;/p>
+&lt;a href="https://replicationnetwork.com/wp-content/uploads/2024/11/image-58.webp" target="_blank" rel="noopener">&lt;img src="https://staging.forrt.org/replication-network-blog/image-58.webp">&lt;/a>&lt;/p>
 &lt;p>In Figure 2b, “Fatigue” is no longer a collider variable. Instead, it is a mediator variable like “Pain”. Accordingly, DG&amp;amp;G identify six specifications for this DAG, with two alternative composite measures of “Inflammation”, three ways of addressing outliers, and all specifications including (and only including), the control variables, “Pain”, “Fatigue”, and “Age”.&lt;/p>
 &lt;p>DG&amp;amp;G argue that it would be wrong to include these six specifications with the previous six specifications. The associated estimates of the treatment effect are likely to be hugely different depending on whether “Fatigue” is a collider or a mediator.&lt;/p>
 &lt;p>But how can we know which DAG is correct? DG&amp;amp;G argue that we can’t. The true model is “uncertain”, so DG&amp;amp;G recommend that we should conduct separate SCAs, one for the DAG in Figure 2a, and one for the DAG in Figure 2b.&lt;/p>

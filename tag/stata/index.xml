@@ -7,7 +7,7 @@
 &lt;p>In this post, I do the same, only this time using the Stata program “&lt;strong>speccurve&lt;/strong>” (Andresen, 2020).  The goal is to facilitate Stata users to produce their own specification curve analyses. In what follows, I presume the reader has read my previous post so that I can go straight into the code.&lt;/p>
 &lt;p>The first step is to download and install the Stata program “&lt;strong>speccurve&lt;/strong>” from GitHub:&lt;/p>
 &lt;p>
-&lt;a href="https://replicationnetwork.com/wp-content/uploads/2024/11/image-20.png" target="_blank" rel="noopener">&lt;img src="https://staging.forrt.org/replication-network-blog/image-20.png">&lt;/a>&lt;/p>
+&lt;a href="https://replicationnetwork.com/wp-content/uploads/2024/11/image-20.webp" target="_blank" rel="noopener">&lt;img src="https://staging.forrt.org/replication-network-blog/image-20.webp">&lt;/a>&lt;/p>
 &lt;p>There isn’t a lot of documentation for “&lt;strong>speccurve&lt;/strong>.” The associated GitHub site includes an .ado file that provides examples (“
 &lt;a href="https://github.com/martin-andresen/speccurve/blob/master/speccurve_gendata.ado" target="_blank" rel="noopener">&lt;em>&lt;strong>speccurve_gendata.ado&lt;/strong>&lt;/em>&lt;/a>”). Another example is provided by
 &lt;a href="https://hbs-rcs.github.io/post/specification-curve-analysis/" target="_blank" rel="noopener">&lt;em>&lt;strong>t&lt;/strong>&lt;/em>&lt;/a>&lt;em>&lt;strong>
@@ -16,13 +16,13 @@
 &lt;p>&lt;strong>What “speccurve” Can Do&lt;/strong>&lt;/p>
 &lt;p>Here is the “&lt;strong>speccurve&lt;/strong>” version of FIGURE 1 from my previous post:&lt;/p>
 &lt;p>
-&lt;a href="https://replicationnetwork.com/wp-content/uploads/2024/11/image-21.png" target="_blank" rel="noopener">&lt;img src="https://staging.forrt.org/replication-network-blog/image-21.png">&lt;/a>&lt;/p>
+&lt;a href="https://replicationnetwork.com/wp-content/uploads/2024/11/image-21.webp" target="_blank" rel="noopener">&lt;img src="https://staging.forrt.org/replication-network-blog/image-21.webp">&lt;/a>&lt;/p>
 &lt;p>And here are the results for TABLE 1:&lt;/p>
 &lt;p>
-&lt;a href="https://replicationnetwork.com/wp-content/uploads/2024/11/image-22.png" target="_blank" rel="noopener">&lt;img src="https://staging.forrt.org/replication-network-blog/image-22.png">&lt;/a>&lt;/p>
+&lt;a href="https://replicationnetwork.com/wp-content/uploads/2024/11/image-22.webp" target="_blank" rel="noopener">&lt;img src="https://staging.forrt.org/replication-network-blog/image-22.webp">&lt;/a>&lt;/p>
 &lt;p>How about FIGURE2? Ummm, not so helpful (see below). I will explain later.&lt;/p>
 &lt;p>
-&lt;a href="https://replicationnetwork.com/wp-content/uploads/2024/11/image-23.png" target="_blank" rel="noopener">&lt;img src="https://staging.forrt.org/replication-network-blog/image-23.png">&lt;/a>&lt;/p>
+&lt;a href="https://replicationnetwork.com/wp-content/uploads/2024/11/image-23.webp" target="_blank" rel="noopener">&lt;img src="https://staging.forrt.org/replication-network-blog/image-23.webp">&lt;/a>&lt;/p>
 &lt;p>Unlike “&lt;strong>specr&lt;/strong>”, “&lt;strong>speccurve&lt;/strong>” does not automatically create combinations of model features for you. You have to create your own. “&lt;strong>speccurve&lt;/strong>” is primarily a function for plotting a specification curve after you have estimated your selected specifications. The latter is typically done by creating a series of for loops.&lt;/p>
 &lt;p>&lt;strong>Downloading Data and Code, Setting the Working Directory, Reading in the Data&lt;/strong>&lt;/p>
 &lt;p>Once you have installed “&lt;strong>speccurve&lt;/strong>”, the next step is to create a folder, download the the dataset “COUPE.dta” and code “speccurve_program.do” from the OSF website (&lt;em>&lt;strong>
@@ -30,116 +30,116 @@
 &lt;p>The following section provides an explanation for each line of code in “speccurve_program.do”.&lt;/p>
 &lt;p>The command line below sets the working directory equal to the folder where the data are stored.&lt;/p>
 &lt;p>
-&lt;a href="https://replicationnetwork.com/wp-content/uploads/2024/11/image-24.png" target="_blank" rel="noopener">&lt;img src="https://staging.forrt.org/replication-network-blog/image-24.png">&lt;/a>&lt;/p>
+&lt;a href="https://replicationnetwork.com/wp-content/uploads/2024/11/image-24.webp" target="_blank" rel="noopener">&lt;img src="https://staging.forrt.org/replication-network-blog/image-24.webp">&lt;/a>&lt;/p>
 &lt;p>The next step clears the working memory.&lt;/p>
 &lt;p>
-&lt;a href="https://replicationnetwork.com/wp-content/uploads/2024/11/image-25.png" target="_blank" rel="noopener">&lt;img src="https://staging.forrt.org/replication-network-blog/image-25.png">&lt;/a>&lt;/p>
+&lt;a href="https://replicationnetwork.com/wp-content/uploads/2024/11/image-25.webp" target="_blank" rel="noopener">&lt;img src="https://staging.forrt.org/replication-network-blog/image-25.webp">&lt;/a>&lt;/p>
 &lt;p>“&lt;strong>speccurve&lt;/strong>” stores results in a “.ster” file. If you have previously run the program and created a “.ster” file, it is good practice to remove it before you run the program again. In this example, I have called the .ster file “WarSatisfaction”. To remove this file, delete the comment markers from the second line of code below and run.&lt;/p>
 &lt;p>
-&lt;a href="https://replicationnetwork.com/wp-content/uploads/2024/11/image-26.png" target="_blank" rel="noopener">&lt;img src="https://staging.forrt.org/replication-network-blog/image-26.png">&lt;/a>&lt;/p>
+&lt;a href="https://replicationnetwork.com/wp-content/uploads/2024/11/image-26.webp" target="_blank" rel="noopener">&lt;img src="https://staging.forrt.org/replication-network-blog/image-26.webp">&lt;/a>&lt;/p>
 &lt;p>Now import the Stata dataset “COUPE”.&lt;/p>
 &lt;p>
-&lt;a href="https://replicationnetwork.com/wp-content/uploads/2024/11/image-27.png" target="_blank" rel="noopener">&lt;img src="https://staging.forrt.org/replication-network-blog/image-27.png">&lt;/a>&lt;/p>
+&lt;a href="https://replicationnetwork.com/wp-content/uploads/2024/11/image-27.webp" target="_blank" rel="noopener">&lt;img src="https://staging.forrt.org/replication-network-blog/image-27.webp">&lt;/a>&lt;/p>
 &lt;p>&lt;strong>Making Variables for the For Loops&lt;/strong>&lt;/p>
 &lt;p>Recall from the previous post that Coupé created 320 specifications by combining the following model characteristics: (i) two dependent variables, (ii) four samples, (iii) eight variables, and (iv) five models. Many of these had cumbersome names. Since I will reproduce Coupé’s specifications using for loops, I want to simplify the respective names.&lt;/p>
 &lt;p>For example, rather than referring to “lifesatisfaction15” and “lifesatisfaction110”, I create duplicate variables and name them “y1” and “y2”. Likewise, I create and name four sample variables, “sample1” to “sample4”.&lt;/p>
 &lt;p>
-&lt;a href="https://replicationnetwork.com/wp-content/uploads/2024/11/image-28.png" target="_blank" rel="noopener">&lt;img src="https://staging.forrt.org/replication-network-blog/image-28.png">&lt;/a>&lt;/p>
+&lt;a href="https://replicationnetwork.com/wp-content/uploads/2024/11/image-28.webp" target="_blank" rel="noopener">&lt;img src="https://staging.forrt.org/replication-network-blog/image-28.webp">&lt;/a>&lt;/p>
 &lt;p>Having done this for “y” and “sample”, I now want to do the same thing for the different variable specifications. There were eight variable combinations. I create a “local macro” for each one, associating the names “var1” to “var8” with specific sets of variables.&lt;/p>
 &lt;p>For example, “var1” refers to the set of variables that Coupé collectively referred to “No Additional Controls”.&lt;/p>
 &lt;p>
-&lt;a href="https://replicationnetwork.com/wp-content/uploads/2024/11/image-29.png" target="_blank" rel="noopener">&lt;img src="https://staging.forrt.org/replication-network-blog/image-29.png">&lt;/a>&lt;/p>
+&lt;a href="https://replicationnetwork.com/wp-content/uploads/2024/11/image-29.webp" target="_blank" rel="noopener">&lt;img src="https://staging.forrt.org/replication-network-blog/image-29.webp">&lt;/a>&lt;/p>
 &lt;p>“var2” refers to the set of variables Coupé called “Other Controls”.&lt;/p>
 &lt;p>
-&lt;a href="https://replicationnetwork.com/wp-content/uploads/2024/11/image-30.png" target="_blank" rel="noopener">&lt;img src="https://staging.forrt.org/replication-network-blog/image-30.png">&lt;/a>&lt;/p>
+&lt;a href="https://replicationnetwork.com/wp-content/uploads/2024/11/image-30.webp" target="_blank" rel="noopener">&lt;img src="https://staging.forrt.org/replication-network-blog/image-30.webp">&lt;/a>&lt;/p>
 &lt;p>In this way, all eight of the variable sets receive “shorthand” names “var1” to “var8”.&lt;/p>
 &lt;p>
-&lt;a href="https://replicationnetwork.com/wp-content/uploads/2024/11/image-31.png" target="_blank" rel="noopener">&lt;img src="https://staging.forrt.org/replication-network-blog/image-31.png">&lt;/a>&lt;/p>
+&lt;a href="https://replicationnetwork.com/wp-content/uploads/2024/11/image-31.webp" target="_blank" rel="noopener">&lt;img src="https://staging.forrt.org/replication-network-blog/image-31.webp">&lt;/a>&lt;/p>
 &lt;p>&lt;strong>A For Loop for All the Djankovetal2016 Specifications&lt;/strong>&lt;/p>
 &lt;p>We now get to the heart of the program. I create another local macro called “no” that will assign a number (= “no”) to each of the models I estimate (model1-model320). I initialize “no” at “1”.&lt;/p>
 &lt;p>
-&lt;a href="https://replicationnetwork.com/wp-content/uploads/2024/11/image-32.png" target="_blank" rel="noopener">&lt;img src="https://staging.forrt.org/replication-network-blog/image-32.png">&lt;/a>&lt;/p>
+&lt;a href="https://replicationnetwork.com/wp-content/uploads/2024/11/image-32.webp" target="_blank" rel="noopener">&lt;img src="https://staging.forrt.org/replication-network-blog/image-32.webp">&lt;/a>&lt;/p>
 &lt;p>I write separate for loops for each of the five models, starting with Djankovetal2016.&lt;/p>
 &lt;p>
-&lt;a href="https://replicationnetwork.com/wp-content/uploads/2024/11/image-33.png" target="_blank" rel="noopener">&lt;img src="https://staging.forrt.org/replication-network-blog/image-33.png">&lt;/a>&lt;/p>
+&lt;a href="https://replicationnetwork.com/wp-content/uploads/2024/11/image-33.webp" target="_blank" rel="noopener">&lt;img src="https://staging.forrt.org/replication-network-blog/image-33.webp">&lt;/a>&lt;/p>
 &lt;p>I set up three levels of for loops. Starting from the outside (top), there are four types of samples (sample1-sample4), two types of dependent variables (y1-y2) and eight variable sets (var1-var8).&lt;/p>
 &lt;p>
-&lt;a href="https://replicationnetwork.com/wp-content/uploads/2024/11/image-34.png" target="_blank" rel="noopener">&lt;img src="https://staging.forrt.org/replication-network-blog/image-34.png">&lt;/a>&lt;/p>
+&lt;a href="https://replicationnetwork.com/wp-content/uploads/2024/11/image-34.webp" target="_blank" rel="noopener">&lt;img src="https://staging.forrt.org/replication-network-blog/image-34.webp">&lt;/a>&lt;/p>
 &lt;p>Djankovetal2016 estimates a weighted, linear regression model without fixed effects so I reproduce that estimation approach here.  Note how “i”, “j”, and “k” allow different combinations of variables, dependent variables, and samples, respectively.&lt;/p>
 &lt;p>
-&lt;a href="https://replicationnetwork.com/wp-content/uploads/2024/11/image-35.png" target="_blank" rel="noopener">&lt;img src="https://staging.forrt.org/replication-network-blog/image-35.png">&lt;/a>&lt;/p>
+&lt;a href="https://replicationnetwork.com/wp-content/uploads/2024/11/image-35.webp" target="_blank" rel="noopener">&lt;img src="https://staging.forrt.org/replication-network-blog/image-35.webp">&lt;/a>&lt;/p>
 &lt;p>The next lines of commands identify which model we are estimating. The “estadd” command creates a variable that assigns either a “1” or a “0” depending on the model. Since the first model is Djankovetal2016, Model1 = 1 and all the other Model variables  (Model2-Model5) are set = 0. ”estadd” saves the model variables so that we can identify the estimation model that each specification uses.&lt;/p>
 &lt;p>
-&lt;a href="https://replicationnetwork.com/wp-content/uploads/2024/11/image-36.png" target="_blank" rel="noopener">&lt;img src="https://staging.forrt.org/replication-network-blog/image-36.png">&lt;/a>&lt;/p>
+&lt;a href="https://replicationnetwork.com/wp-content/uploads/2024/11/image-36.webp" target="_blank" rel="noopener">&lt;img src="https://staging.forrt.org/replication-network-blog/image-36.webp">&lt;/a>&lt;/p>
 &lt;p>I next do the same thing for variable sets. Recall that the “i” indicator loops through eight variable specifications. When “i” = 1, the variable “Vars1” takes the value 1. When “i” = 2, the variable “Vars2” takes the value 1. And so on.&lt;/p>
 &lt;p>
-&lt;a href="https://replicationnetwork.com/wp-content/uploads/2024/11/image-37.png" target="_blank" rel="noopener">&lt;img src="https://staging.forrt.org/replication-network-blog/image-37.png">&lt;/a>&lt;/p>
+&lt;a href="https://replicationnetwork.com/wp-content/uploads/2024/11/image-37.webp" target="_blank" rel="noopener">&lt;img src="https://staging.forrt.org/replication-network-blog/image-37.webp">&lt;/a>&lt;/p>
 &lt;p>Having set the “right” Vars variable to “1”, I then set all the other Vars variables to “0”. That’s what the next set of commands do.&lt;/p>
 &lt;p>
-&lt;a href="https://replicationnetwork.com/wp-content/uploads/2024/11/image-38.png" target="_blank" rel="noopener">&lt;img src="https://staging.forrt.org/replication-network-blog/image-38.png">&lt;/a>&lt;/p>
+&lt;a href="https://replicationnetwork.com/wp-content/uploads/2024/11/image-38.webp" target="_blank" rel="noopener">&lt;img src="https://staging.forrt.org/replication-network-blog/image-38.webp">&lt;/a>&lt;/p>
 &lt;p>If “i” is not equal to 1, then Vars1 = 0. If “i” is not equal to 2, then Vars2 = 0. At the end of this section, all the Vars variables have been set = 0 except for the one variable combination that is being used in that regression.&lt;/p>
 &lt;p>I next do the exact same thing for the dependent variable, Y. “j” takes the values “1” or “2” depending on which dependent variable is being used. When “j” = 1, Y1 = 1. When “j” = 2, Y2 = 1. The remaining lines set Y2 = 0 or Y1 = 0 depending if “j” = 1 or 2, respectively.&lt;/p>
 &lt;p>
-&lt;a href="https://replicationnetwork.com/wp-content/uploads/2024/11/image-39.png" target="_blank" rel="noopener">&lt;img src="https://staging.forrt.org/replication-network-blog/image-39.png">&lt;/a>&lt;/p>
+&lt;a href="https://replicationnetwork.com/wp-content/uploads/2024/11/image-39.webp" target="_blank" rel="noopener">&lt;img src="https://staging.forrt.org/replication-network-blog/image-39.webp">&lt;/a>&lt;/p>
 &lt;p>And then the same thing for the sample variables.&lt;/p>
 &lt;p>
-&lt;a href="https://replicationnetwork.com/wp-content/uploads/2024/11/image-40.png" target="_blank" rel="noopener">&lt;img src="https://staging.forrt.org/replication-network-blog/image-40.png">&lt;/a>&lt;/p>
+&lt;a href="https://replicationnetwork.com/wp-content/uploads/2024/11/image-40.webp" target="_blank" rel="noopener">&lt;img src="https://staging.forrt.org/replication-network-blog/image-40.webp">&lt;/a>&lt;/p>
 &lt;p>The next two lines save the results in a (“.ster”) file called “WarSatisfaction” and assigns each set of results a unique model number (“model1”-“model320”).&lt;/p>
 &lt;p>
-&lt;a href="https://replicationnetwork.com/wp-content/uploads/2024/11/image-41.png" target="_blank" rel="noopener">&lt;img src="https://staging.forrt.org/replication-network-blog/image-41.png">&lt;/a>&lt;/p>
+&lt;a href="https://replicationnetwork.com/wp-content/uploads/2024/11/image-41.webp" target="_blank" rel="noopener">&lt;img src="https://staging.forrt.org/replication-network-blog/image-41.webp">&lt;/a>&lt;/p>
 &lt;p>The last few lines of this for loop increases the “no” count by 1, and then the three right hand brackets finish off the three levels of the for loop.&lt;/p>
 &lt;p>
-&lt;a href="https://replicationnetwork.com/wp-content/uploads/2024/11/image-42.png" target="_blank" rel="noopener">&lt;img src="https://staging.forrt.org/replication-network-blog/image-42.png">&lt;/a>&lt;/p>
+&lt;a href="https://replicationnetwork.com/wp-content/uploads/2024/11/image-42.webp" target="_blank" rel="noopener">&lt;img src="https://staging.forrt.org/replication-network-blog/image-42.webp">&lt;/a>&lt;/p>
 &lt;p>&lt;strong>For Loops for the Other 4 Estimation Models&lt;/strong>&lt;/p>
 &lt;p>Having estimated all the specifications associated with the Djankovetal2016 model, I proceed similarly for the other four estimation models.&lt;/p>
 &lt;p>
-&lt;a href="https://replicationnetwork.com/wp-content/uploads/2024/11/image-43.png" target="_blank" rel="noopener">&lt;img src="https://staging.forrt.org/replication-network-blog/image-43.png">&lt;/a>
-&lt;a href="https://replicationnetwork.com/wp-content/uploads/2024/11/image-44.png" target="_blank" rel="noopener">&lt;img src="https://staging.forrt.org/replication-network-blog/image-44.png">&lt;/a>
-&lt;a href="https://replicationnetwork.com/wp-content/uploads/2024/11/image-45.png" target="_blank" rel="noopener">&lt;img src="https://staging.forrt.org/replication-network-blog/image-45.png">&lt;/a>
-&lt;a href="https://replicationnetwork.com/wp-content/uploads/2024/11/image-46.png" target="_blank" rel="noopener">&lt;img src="https://staging.forrt.org/replication-network-blog/image-46.png">&lt;/a>&lt;/p>
+&lt;a href="https://replicationnetwork.com/wp-content/uploads/2024/11/image-43.webp" target="_blank" rel="noopener">&lt;img src="https://staging.forrt.org/replication-network-blog/image-43.webp">&lt;/a>
+&lt;a href="https://replicationnetwork.com/wp-content/uploads/2024/11/image-44.webp" target="_blank" rel="noopener">&lt;img src="https://staging.forrt.org/replication-network-blog/image-44.webp">&lt;/a>
+&lt;a href="https://replicationnetwork.com/wp-content/uploads/2024/11/image-45.webp" target="_blank" rel="noopener">&lt;img src="https://staging.forrt.org/replication-network-blog/image-45.webp">&lt;/a>
+&lt;a href="https://replicationnetwork.com/wp-content/uploads/2024/11/image-46.webp" target="_blank" rel="noopener">&lt;img src="https://staging.forrt.org/replication-network-blog/image-46.webp">&lt;/a>&lt;/p>
 &lt;p>&lt;strong>Producing the Specification Curve&lt;/strong>&lt;/p>
 &lt;p>After running all 320 model specifications and storing them in the file “WarSatisfaction”, the “&lt;strong>speccurve&lt;/strong>” command below produces the sought-after specification curve.&lt;/p>
 &lt;p>
-&lt;a href="https://replicationnetwork.com/wp-content/uploads/2024/11/image-47.png" target="_blank" rel="noopener">&lt;img src="https://staging.forrt.org/replication-network-blog/image-47.png">&lt;/a>&lt;/p>
+&lt;a href="https://replicationnetwork.com/wp-content/uploads/2024/11/image-47.webp" target="_blank" rel="noopener">&lt;img src="https://staging.forrt.org/replication-network-blog/image-47.webp">&lt;/a>&lt;/p>
 &lt;p>The option “param” lets “&lt;strong>speccurve&lt;/strong>” know which coefficient estimate it should use. “title” is the name given to the figure produced by “speccurve”. “panel” produces the box below the figure (see below), the analogue of FIGURE 2 in the “specr” post.&lt;/p>
 &lt;p>
-&lt;a href="https://replicationnetwork.com/wp-content/uploads/2024/11/image-48.png" target="_blank" rel="noopener">&lt;img src="https://staging.forrt.org/replication-network-blog/image-48.png">&lt;/a>&lt;/p>
+&lt;a href="https://replicationnetwork.com/wp-content/uploads/2024/11/image-48.webp" target="_blank" rel="noopener">&lt;img src="https://staging.forrt.org/replication-network-blog/image-48.webp">&lt;/a>&lt;/p>
 &lt;p>Ideally, the panel sits below the specification curve and identifies the specific model characteristics that are associated with each of the 320 estimates. However, with so many specifications, it is squished down to an illegible box . If the reader finds this annoying, they can safely omit the “panel’ option.&lt;/p>
 &lt;p>&lt;strong>Producing the Regression Results for TABLE 1&lt;/strong>&lt;/p>
 &lt;p>To produce TABLE 1, we need to access a table that is automatically produced by “&lt;strong>speccurve&lt;/strong>” and stored in a matrix called “r(table)”. The following command prints out “r(table)” for inspection.&lt;/p>
 &lt;p>
-&lt;a href="https://replicationnetwork.com/wp-content/uploads/2024/11/image-49.png" target="_blank" rel="noopener">&lt;img src="https://staging.forrt.org/replication-network-blog/image-49.png">&lt;/a>&lt;/p>
+&lt;a href="https://replicationnetwork.com/wp-content/uploads/2024/11/image-49.webp" target="_blank" rel="noopener">&lt;img src="https://staging.forrt.org/replication-network-blog/image-49.webp">&lt;/a>&lt;/p>
 &lt;p>“r(table)” stores variables for each of the 320 model specifications estimated by “&lt;strong>speccurve&lt;/strong>”. The first two stored variables are “modelno” and “specno”. We saw how “modelno” was created in the for loops above. “specno” simply sorts the models so that the model with the lowest estimate is “spec1” and the model with the largest is “spec320).&lt;/p>
 &lt;p>Then comes “estimate”, “min95”, “max95”, “min90”, and “max90”. These are the estimated coefficients for the war “treatment variable”, and the respective 95- and 90-confidence interval limits.&lt;/p>
 &lt;p>After these is a series of binary variables (“Model1”-“Model5”, “Vars1”-“Vars8”, “Y1”-“Y2”, and “Sample1”-“Sample4”) that identify the specific characteristics associated with each estimated model.&lt;/p>
 &lt;p>With the goal of producing TABLE 1, I next turn this matrix into a Stata dataset. The following command takes the variables stored in the matrix “r(table)” and adds them to the existing COUPE.dta dataset, giving them the same names they have in “r(table)”.&lt;/p>
 &lt;p>
-&lt;a href="https://replicationnetwork.com/wp-content/uploads/2024/11/image-50.png" target="_blank" rel="noopener">&lt;img src="https://staging.forrt.org/replication-network-blog/image-50.png">&lt;/a>&lt;/p>
+&lt;a href="https://replicationnetwork.com/wp-content/uploads/2024/11/image-50.webp" target="_blank" rel="noopener">&lt;img src="https://staging.forrt.org/replication-network-blog/image-50.webp">&lt;/a>&lt;/p>
 &lt;p>With these additions, the COUPE.dta dataset now consists of 38,843 observations and 90 variables, 26 more variables than before because of the addition of the “r(table)” variables.&lt;/p>
 &lt;p>I want to isolate these “r(table)” variables in order to estimate the regression of TABLE 1. To do that, I run the following lines of code:&lt;/p>
 &lt;p>
-&lt;a href="https://replicationnetwork.com/wp-content/uploads/2024/11/image-51.png" target="_blank" rel="noopener">&lt;img src="https://staging.forrt.org/replication-network-blog/image-51.png">&lt;/a>&lt;/p>
+&lt;a href="https://replicationnetwork.com/wp-content/uploads/2024/11/image-51.webp" target="_blank" rel="noopener">&lt;img src="https://staging.forrt.org/replication-network-blog/image-51.webp">&lt;/a>&lt;/p>
 &lt;p>Now the only observations and variables in Stata’s memory are the data from “r(table)”. I could run the regression now, regressing “estimate” on the respective model characteristics. However, matching variable names like “Model 1” and “Vars7” to the variable names that Coupé uses in his TABLE 1 is inconvenient and potentially confusing.&lt;/p>
 &lt;p>Instead, I want to produce a regression table that looks just like Coupé’s. To do that, I install a Stata package called “estout” (see below).&lt;/p>
 &lt;p>
-&lt;a href="https://replicationnetwork.com/wp-content/uploads/2024/11/image-52.png" target="_blank" rel="noopener">&lt;img src="https://staging.forrt.org/replication-network-blog/image-52.png">&lt;/a>&lt;/p>
+&lt;a href="https://replicationnetwork.com/wp-content/uploads/2024/11/image-52.webp" target="_blank" rel="noopener">&lt;img src="https://staging.forrt.org/replication-network-blog/image-52.webp">&lt;/a>&lt;/p>
 &lt;p>“estout” provides the option of reporting labels rather than variable names. To take advantage of that, I next assign a label to each of the model characteristic variable names.&lt;/p>
 &lt;p>
-&lt;a href="https://replicationnetwork.com/wp-content/uploads/2024/11/image-53.png" target="_blank" rel="noopener">&lt;img src="https://staging.forrt.org/replication-network-blog/image-53.png">&lt;/a>&lt;/p>
+&lt;a href="https://replicationnetwork.com/wp-content/uploads/2024/11/image-53.webp" target="_blank" rel="noopener">&lt;img src="https://staging.forrt.org/replication-network-blog/image-53.webp">&lt;/a>&lt;/p>
 &lt;p>Now I am finally in a position to estimate and report TABLE 1.&lt;/p>
 &lt;p>First, I regress the variable “estimate” on the respective model characteristics. To match Coupé’s table, I set the reference category equal to Model5=1, Sample4 = 1, Vars8=1, and Y2=1 and omit these from the regression.&lt;/p>
 &lt;p>
-&lt;a href="https://replicationnetwork.com/wp-content/uploads/2024/11/image-54.png" target="_blank" rel="noopener">&lt;img src="https://staging.forrt.org/replication-network-blog/image-54.png">&lt;/a>&lt;/p>
+&lt;a href="https://replicationnetwork.com/wp-content/uploads/2024/11/image-54.webp" target="_blank" rel="noopener">&lt;img src="https://staging.forrt.org/replication-network-blog/image-54.webp">&lt;/a>&lt;/p>
 &lt;p>Next I call up the command “&lt;strong>esttab&lt;/strong>”, part of “&lt;strong>estout&lt;/strong>”, and take advantage of the “label” option that replaces variable names with their labels.&lt;/p>
 &lt;p>
-&lt;a href="https://replicationnetwork.com/wp-content/uploads/2024/11/image-55.png" target="_blank" rel="noopener">&lt;img src="https://staging.forrt.org/replication-network-blog/image-55.png">&lt;/a>&lt;/p>
+&lt;a href="https://replicationnetwork.com/wp-content/uploads/2024/11/image-55.webp" target="_blank" rel="noopener">&lt;img src="https://staging.forrt.org/replication-network-blog/image-55.webp">&lt;/a>&lt;/p>
 &lt;p> “varwidth” formats the output table to look like Coupé’s TABLE 1. Likewise, “order” puts the variables in the same order as Coupé’s table. “se” has the table report standard errors rather than t-statistics, and b(%9.3f) reports coefficient estimates and standard errors to three decimal places, again to match Coupé’s table.&lt;/p>
 &lt;p>And voilá, we’re done! You can check that the resulting TABLE 1 exactly matches Coupé’s table by comparing it with TABLE 1 from the previous “&lt;strong>specr&lt;/strong>” post.&lt;/p>
 &lt;p>&lt;strong>Saving the Results&lt;/strong>&lt;/p>
 &lt;p>As a final action, you may want to save the table as a WORD doc for later editing. This can be done by inserting “using TABLE1.doc” (or whatever you want to call it) after “&lt;strong>esttab&lt;/strong>” but before the comma in the command line above.&lt;/p>
 &lt;p>One could also save the “&lt;strong>speccurve&lt;/strong>” dataset for later analysis using the “&lt;strong>save&lt;/strong>” command, as below, where I have called it “speccurve_output”. This is saved as a standard .dta Stata dataset.&lt;/p>
 &lt;p>
-&lt;a href="https://replicationnetwork.com/wp-content/uploads/2024/11/image-56.png" target="_blank" rel="noopener">&lt;img src="https://staging.forrt.org/replication-network-blog/image-56.png">&lt;/a>&lt;/p>
+&lt;a href="https://replicationnetwork.com/wp-content/uploads/2024/11/image-56.webp" target="_blank" rel="noopener">&lt;img src="https://staging.forrt.org/replication-network-blog/image-56.webp">&lt;/a>&lt;/p>
 &lt;p>&lt;strong>Conclusion&lt;/strong>&lt;/p>
 &lt;p>You are now all set to use Stata to reproduce the results from Coupé’s paper. Go to the OSF site given at the top of this blog, download the data and code, and run the code to produce the results in this blog. It took about 7 minutes to run on my laptop.&lt;/p>
 &lt;p>Of course the goal is not to just reproduce Coupé’s results, but rather to prepare you to do your own specification curve analyses. As noted above, for more examples, go  to the “&lt;strong>speccurve&lt;/strong>” GitHub site and check out “&lt;em>&lt;strong>
@@ -222,10 +222,10 @@ Facebook&lt;/a>&lt;/li>
 &lt;a href="https://www.sciencedirect.com/science/article/pii/S0167629606000750?casa_token=Qll1DeS9h-0AAAAA:vHnzVb1lTS-Yip6ea-Qfb50jOzuoBGqCeYseDS-tzumlkJmsYfOJV15WCwNH2ogyDVUkuW-idA" target="_blank" rel="noopener">&lt;em>&lt;strong>well-cited study&lt;/strong>&lt;/em>&lt;/a> on mortality and inequality by Andrew Leigh and Christopher Jencks (Journal of Health Economics, 2007). Their analysis focused on the relationship between life expectancy and income inequality, measured by the share of pre-tax income going to the richest 10% of the population. Their data consisted of annual observations from 1960-2004 for Australia, Canada, France, Germany, Ireland, the Netherlands, New Zealand, Spain, Sweden, Switzerland, the UK, and the US. We use their study both because their data and code are publicly available, and because much of the original data were missing.&lt;/p>
 &lt;p>The problem is highlighted in TABLE 1, which uses a reconstruction of L&amp;amp;J’s original dataset. The full dataset has 540 observations. The dependent variable, “Life expectancy”, has approximately 11 percent missing values. The focal variable, “Income share of the richest 10%”, has approximately 24 percent missing values. The remaining control variables vary widely in their missingness. Real GDP has no missing values. Education has the most missing values, with fully 80% of the variable’s values missing. This is driven by the fact that the Barro and Lee data used to measure education only reports values at five-year intervals.&lt;/p>
 &lt;p>
-&lt;a href="https://replicationnetwork.com/wp-content/uploads/2022/01/image.png" target="_blank" rel="noopener">&lt;img src="https://staging.forrt.org/replication-network-blog/image.png">&lt;/a>&lt;/p>
+&lt;a href="https://replicationnetwork.com/wp-content/uploads/2022/01/image.webp" target="_blank" rel="noopener">&lt;img src="https://staging.forrt.org/replication-network-blog/image.webp">&lt;/a>&lt;/p>
 &lt;p>In fact, the problem is more serious than TABLE 1 indicates. If we run the regression using L&amp;amp;J’s specification (cf. Column 7, Table 4 in their study), we obtain the results in Column (1) of TABLE 2. The estimates indicate that a one-percentage point increase in the income share of the richest 10% is associated with an increase in life expectancy of 0.003 years, a negligible effect in terms of economic significance, and statistically insignificant. Notably, this estimate is based on a mere 64 observations (out of 540).&lt;/p>
 &lt;p>
-&lt;a href="https://replicationnetwork.com/wp-content/uploads/2022/01/image-1.png" target="_blank" rel="noopener">&lt;img src="https://staging.forrt.org/replication-network-blog/image-1.png">&lt;/a>&lt;/p>
+&lt;a href="https://replicationnetwork.com/wp-content/uploads/2022/01/image-1.webp" target="_blank" rel="noopener">&lt;img src="https://staging.forrt.org/replication-network-blog/image-1.webp">&lt;/a>&lt;/p>
 &lt;p>In fact, these are not the results that L&amp;amp;J reported in their study. No doubt because of the small number of observations, they used linear interpolation on some (but not all) of their data to fill in missing values. Applying their approach to our data yields the results in Column (2) of Table 2 below. There are two problems with using their approach.&lt;/p>
 &lt;p>First, for various reasons, L&amp;amp;J did not fill in values for all the missing values. The ended up using only 430 out of a possible 540 observations. As a result, their estimates did not exploit all the information that was available to them. Second, interpolation replaces missing values with their predicted values without accounting for the randomness that occurs in real data. This biases standard errors, usually downwards. ML and MI allow one to do better.&lt;/p>
 &lt;p>ML is the easiest method to apply. To estimate the regression in Table 2 requires a one-line command:&lt;/p>
@@ -250,7 +250,7 @@ Facebook&lt;/a>&lt;/li>
 &lt;p>&lt;strong>ac wlf, title(Worst linear function) ytitle(Autocorrelations) note(“”) name(ac2,replace)&lt;/strong>&lt;/p>
 &lt;p>The “tsline” command produces a “time series” graph of the “worst linear function” where “time” is measured by number of simulated datasets. We are looking for trends in the data. That is, do the estimated parameters (which includes elements in the variance-covariance matrix) tend to systematically depart from the overall mean.&lt;/p>
 &lt;p>
-&lt;a href="https://replicationnetwork.com/wp-content/uploads/2022/01/image-2.png" target="_blank" rel="noopener">&lt;img src="https://staging.forrt.org/replication-network-blog/image-2.png">&lt;/a>&lt;/p>
+&lt;a href="https://replicationnetwork.com/wp-content/uploads/2022/01/image-2.webp" target="_blank" rel="noopener">&lt;img src="https://staging.forrt.org/replication-network-blog/image-2.webp">&lt;/a>&lt;/p>
 &lt;p>The graph above is somewhat concerning because it appears to first trend up and then trend down. As a result, we increase the “burnin” value to 500 from its default value of 100 with the following command. Why 500? We somewhat arbitrarily choose a number that is substantially larger than the previous “burnin” value.&lt;/p>
 &lt;p>&lt;strong>mi impute mvn le ts10 edu phealth thealth im  = gdp gdpsq id2-id12 year2-year45, prior(jeffreys) mcmconly burnin(500) rseed(123) savewlf(wlf, replace)&lt;/strong>&lt;/p>
 &lt;p>…&lt;/p>
@@ -259,11 +259,11 @@ Facebook&lt;/a>&lt;/li>
 &lt;p>&lt;strong>tsline wlf, ytitle(Worst linear function) xtitle(Burn-in period) name(stable2,replace)&lt;/strong>&lt;/p>
 &lt;p>&lt;strong>ac wlf, title(Worst linear function) ytitle(Autocorrelations) note(“”) name(ac2,replace)&lt;/strong>&lt;/p>
 &lt;p>
-&lt;a href="https://replicationnetwork.com/wp-content/uploads/2022/01/image-3.png" target="_blank" rel="noopener">&lt;img src="https://staging.forrt.org/replication-network-blog/image-3.png">&lt;/a>&lt;/p>
+&lt;a href="https://replicationnetwork.com/wp-content/uploads/2022/01/image-3.webp" target="_blank" rel="noopener">&lt;img src="https://staging.forrt.org/replication-network-blog/image-3.webp">&lt;/a>&lt;/p>
 &lt;p>This looks a lot better. The trending that is apparent in the first half of the graph is greatly reduced in the second half. We subjectively determine that this demonstrates sufficient “stationarity” to proceed. Note that there is no formal test to determine stationarity.&lt;/p>
 &lt;p>The next thing is to check for independence. The posterior distributions used to impute the missing values rely on Bayesian updating. While our use of the Jeffrys prior reduces the degree to which contiguous imputed datasets are related, there is still the opportunity for correlations across datasets. The “ac” command produces a correlogram of the “worst linear function” that allows us to assess independence. This is produced below.&lt;/p>
 &lt;p>
-&lt;a href="https://replicationnetwork.com/wp-content/uploads/2022/01/image-4.png" target="_blank" rel="noopener">&lt;img src="https://staging.forrt.org/replication-network-blog/image-4.png">&lt;/a>&lt;/p>
+&lt;a href="https://replicationnetwork.com/wp-content/uploads/2022/01/image-4.webp" target="_blank" rel="noopener">&lt;img src="https://staging.forrt.org/replication-network-blog/image-4.webp">&lt;/a>&lt;/p>
 &lt;p>This correlogram indicates that as long as we retain imputed datasets that are at least “10 datasets apart”, we should be fine. The default value of 100 for “burnbetween” is thus more than sufficient.&lt;/p>
 &lt;p>The remaining parameter to be set is the total number of imputed datasets to use for analysis. For this we use a handy, user-written Stata (and SAS) command from von Hippel (2020) called “how_many_imputations”.&lt;/p>
 &lt;p>The problem with random data is that it produces different results each time. “how_many_imputations” allows us to set the number of imputations so that the variation in estimates will remain within some pre-determined threshold value. The default value is to set the number of imputations so that the coefficient of variation of the standard error of the “worst linear function” is equal to 5%.&lt;/p>
@@ -275,7 +275,7 @@ Facebook&lt;/a>&lt;/li>
 &lt;p>&lt;strong>how_many_imputations&lt;/strong>&lt;/p>
 &lt;p>The command “how_many_imputations” determines the number of imputed datasets calculated to produce standard errors with a coefficient of variation for the standard errors equal to 5%. In this particular case, the output is given by:&lt;/p>
 &lt;p>
-&lt;a href="https://replicationnetwork.com/wp-content/uploads/2022/01/image-5.png" target="_blank" rel="noopener">&lt;img src="https://staging.forrt.org/replication-network-blog/image-5.png">&lt;/a>&lt;/p>
+&lt;a href="https://replicationnetwork.com/wp-content/uploads/2022/01/image-5.webp" target="_blank" rel="noopener">&lt;img src="https://staging.forrt.org/replication-network-blog/image-5.webp">&lt;/a>&lt;/p>
 &lt;p>The output says to create 182 more imputed datasets.&lt;/p>
 &lt;p>We can feed this number directly into the “mi impute” command using the “add(`r(add_M)’)” option:&lt;/p>
 &lt;p>&lt;strong>mi impute mvn le ts10 edu phealth thealth im  = gdp gdpsq id2-id12 year2-year45, prior(jeffreys) burnin(500) add(`r(add_M)’)&lt;/strong>&lt;/p>
@@ -335,7 +335,7 @@ Facebook&lt;/a>&lt;/li>
 &lt;h6 id="the-results-below-indicate-that-569-of-the-workers-changed-their-marital-status-during-the-sample-period-whether-this-is-a-sufficient-number-of-changers-to-represent-population-changers-is-an-open-question-however-if-the-number-were-only-5-or-10-of-workers-the-argument-for-representativeness-would-be-much-weaker">The results below indicate that 56.9% of the workers changed their marital status during the sample period. Whether this is a sufficient number of “changers” to represent population “changers” is an open question. However, if the number were only 5 or 10% of workers, the argument for representativeness would be much weaker.&lt;/h6>
 &lt;h6 id="trn520200425">TRN5(20200425)&lt;/h6>
 &lt;h6 id="what-does-this-have-to-do-with-replication-oftentimes-treatments-are-administered-over-time-in-panel-datasets-say-microcredit-loans-fixed-effects-estimates-may-be-used-to-identify-causal-estimates-of-the-treatment-sample-statistics-when-they-are-reported-typically-only-report-the-percent-of-observations-receiving-treatment-consider-the-two-samples-below">What does this have to do with replication? Oftentimes treatments are administered over time in panel datasets (say microcredit loans). Fixed effects estimates may be used to identify causal estimates of the treatment. Sample statistics, when they are reported, typically only report the percent of observations receiving treatment. Consider the two samples below.&lt;/h6>
-&lt;p>&lt;img alt="TRN6(20200425)" src="https://staging.forrt.org/replication-network-blog/trn620200425-1.png">&lt;/p>
+&lt;p>&lt;img alt="TRN6(20200425)" src="https://staging.forrt.org/replication-network-blog/trn620200425-1.webp">&lt;/p>
 &lt;h6 id="in-both-samples-30-of-the-observations-are-treatment-observations-thus-a-table-of-sample-statistics-would-show-identical-means-for-the-treatment-variable-in-the-two-samples">In both samples, 30% of the observations are treatment observations. Thus a table of sample statistics would show identical means for the treatment variable in the two samples.&lt;/h6>
 &lt;h6 id="however-in-the-first-sample-100-of-the-workers-received-treatment-and-75-of-year-to-year-transitions-involved-a-change-in-treatment-status-in-the-second-sample-only-50-of-the-workers-experienced-treatment-and-25-of-year-to-year-transitions-involved-a-change-in-treatment-status">However, in the first sample, 100% of the workers received treatment, and 75% of year-to-year transitions involved a change in treatment status. In the second sample, only 50% of the workers experienced treatment, and 25% of year-to-year transitions involved a change in treatment status.&lt;/h6>
 &lt;h6 id="these-are-the-kinds-of-differences-that-the-procedures-described-above-can-be-used-to-identify">These are the kinds of differences that the procedures described above can be used to identify.&lt;/h6>
@@ -489,7 +489,7 @@ Facebook&lt;/a>&lt;/li>
 &lt;h6 id="the-reason-for-combining-numbers-of-newspapers-greater-than-2-into-a-single-category-is-that-control-groups-need-to-have-the-same-number-of-treatments-as-the-treatment-group-from-the-histogram-below-it-is-apparent-that-relatively-few-counties-have-more-than-two-newspapers">The reason for combining numbers of newspapers greater than 2 into a single category is that control groups need to have the same number of “treatments” as the treatment group. From the histogram below, it is apparent that relatively few counties have more than two newspapers.&lt;/h6>
 &lt;h6 id="trn820190524">TRN8(20190524)&lt;/h6>
 &lt;h6 id="cd-estimates-of-the-effect-of-newspapers-on-presidential-turnout-are-given-below-they-estimate-an-additional-newspaper-increases-turnout-by-043-percentage-points-compared-to-026-and--009-for-the-first-difference-and-fixed-effects-estimators-their-placebo-test-produces-an-insignificant-estimate-suggesting-that-the-assumptions-of-the-wald-tc-estimator-are-valid-finally-as-the-placebo-estimate-uses-a-somewhat-restricted-sample-they-reestimate-the-treatment-effect-on-the-restricted-sample-and-obtain-an-estimate-very-close-to-what-they-obtain-using-the-larger-sample-00045-versus-00043">C&amp;amp;D estimates of the effect of newspapers on Presidential turnout are given below. They estimate an additional newspaper increases turnout by 0.43 percentage points (compared to 0.26 and -0.09 for the first-difference and fixed-effects estimators). Their placebo test produces an insignificant estimate, suggesting that the assumptions of the Wald-TC estimator are valid. Finally, as the placebo estimate uses a somewhat restricted sample, they reestimate the treatment effect on the restricted sample and obtain an estimate very close to what they obtain using the larger sample (0.0045 versus 0.0043).&lt;/h6>
-&lt;p>&lt;img alt="TRN9(20190524)" src="https://staging.forrt.org/replication-network-blog/trn920190524.png">&lt;/p>
+&lt;p>&lt;img alt="TRN9(20190524)" src="https://staging.forrt.org/replication-network-blog/trn920190524.webp">&lt;/p>
 &lt;h6 id="conclusion">&lt;strong>Conclusion&lt;/strong>&lt;/h6>
 &lt;h6 id="cd-show-that-conventional-estimates-of-treatment-effects-in-two-way-fixed-effects-models-consist-of-weighted-averages-of-individual-treatment-effects-when-treatment-effects-are-heterogeneous-this-can-cause-conventional-estimates-to-be-biased-cd-present-both-i-tests-to-identify-if-heterogeneous-treatment-effects-present-a-problem-for-conventional-estimators-and-ii-an-alternative-estimator-that-allows-unbiased-estimation-of-average-treatment-effects-on-the-treated">C&amp;amp;D show that conventional estimates of treatment effects in two-way fixed effects models consist of weighted averages of individual treatment effects. When treatment effects are heterogeneous, this can cause conventional estimates to be biased. C&amp;amp;D present both (i) tests to identify if heterogeneous treatment effects present a problem for conventional estimators, and (ii) an alternative estimator that allows unbiased estimation of average treatment effects on the treated.&lt;/h6>
 &lt;h6 id="replication-researchers-may-find-cds-procedures-useful-when-re-analyzing-original-studies-that-estimate-treatment-effects-within-a-two-way-fixed-effects-model">Replication researchers may find C&amp;amp;D’s procedures useful when re-analyzing original studies that estimate treatment effects within a two-way, fixed effects model.&lt;/h6>

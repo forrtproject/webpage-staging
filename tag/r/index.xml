@@ -48,7 +48,7 @@ print(power)
 &lt;/code>&lt;/pre>
 &lt;p>In this case, post hoc power is calculated to be 74.3% (see screen shot below).&lt;/p>
 &lt;p>
-&lt;a href="https://replicationnetwork.com/wp-content/uploads/2024/07/image-2.png" target="_blank" rel="noopener">&lt;img src="https://staging.forrt.org/replication-network-blog/image-2.png">&lt;/a>&lt;/p>
+&lt;a href="https://replicationnetwork.com/wp-content/uploads/2024/07/image-2.webp" target="_blank" rel="noopener">&lt;img src="https://staging.forrt.org/replication-network-blog/image-2.webp">&lt;/a>&lt;/p>
 &lt;p>Alternatively, rather than calculating a single power value, one might find it more useful to generate a power curve. To do that, you would first run the following program defining two functions: (i) the power_function (same as above), and (ii) the power_curve_function.&lt;/p>
 &lt;pre>&lt;code># Define the power function
 power_function &amp;lt;- function(effect_size, standard_error, df, alpha) {
@@ -110,7 +110,7 @@ View(power_data)
 &lt;/code>&lt;/pre>
 &lt;p>The power curve is given below.&lt;/p>
 &lt;p>
-&lt;a href="https://replicationnetwork.com/wp-content/uploads/2024/07/image-4.png" target="_blank" rel="noopener">&lt;img src="https://staging.forrt.org/replication-network-blog/image-4.png">&lt;/a>&lt;/p>
+&lt;a href="https://replicationnetwork.com/wp-content/uploads/2024/07/image-4.webp" target="_blank" rel="noopener">&lt;img src="https://staging.forrt.org/replication-network-blog/image-4.webp">&lt;/a>&lt;/p>
 &lt;p>The last line of the chunk produces a dataframe that lists all the effect size-power value pairs. From there one can see that given a standard error of 1.5, the associated regression equation has an 80% probability of producing a statistically significant estimate when the effect size = 4.3.&lt;/p>
 &lt;p>The code above allows one to calculate power values and power curves for one’s own research. But perhaps its greatest value is that it allows one to conduct post hoc power analyses of estimated effects from other studies. All one needs to supply the programs is the standard error of the estimated effect and the associated degrees of freedom.&lt;/p>
 &lt;p>&lt;strong>Limitation&lt;/strong>. The performance of the SE-ES method depends on the nature of the data and the type of estimator used for estimation. We found that it performed well when estimating linear models with clustered errors. However, one should be careful in applying the method to settings that are different from those investigated in our experiments. Accordingly, good practice would customize &lt;em>Tian et al.’s (2024)&lt;/em> Monte Carlo simulations to see if the results carry over to data environments that represent the data at hand. To facilitate that, we have provided the respective codes and posted them at OSF &lt;em>&lt;strong>

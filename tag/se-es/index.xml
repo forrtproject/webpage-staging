@@ -36,13 +36,13 @@
 &lt;p>To use the app, &lt;em>&lt;strong>
 &lt;a href="https://w87avq-bob-reed.shinyapps.io/retrospective_power_app/" target="_blank" rel="noopener">click here&lt;/a>&lt;/strong>&lt;/em>. Input the respective values in the Shiny app’s sidebar panel. The panel below provides an example with sample size set equal to 100; true power equal to 80% (for two-sided significance), alpha equal to 5%, and sets the number of simulations = 1000 and the random seed equal to 123.&lt;/p>
 &lt;p>
-&lt;a href="https://replicationnetwork.com/wp-content/uploads/2025/08/image-1.png" target="_blank" rel="noopener">&lt;img src="https://staging.forrt.org/replication-network-blog/image-1.png">&lt;/a>&lt;/p>
+&lt;a href="https://replicationnetwork.com/wp-content/uploads/2025/08/image-1.webp" target="_blank" rel="noopener">&lt;img src="https://staging.forrt.org/replication-network-blog/image-1.webp">&lt;/a>&lt;/p>
 &lt;p>Once you have entered your input values, click “Run simulation”. Two histograms will appear. The histogram to the left reports the distribution of estimated power values using the SE-ES method. The histogram to the right reports the same using Observed Power. The vertical dotted line indicates true power.&lt;/p>
 &lt;p>
-&lt;a href="https://replicationnetwork.com/wp-content/uploads/2025/08/image-2.png" target="_blank" rel="noopener">&lt;img src="https://staging.forrt.org/replication-network-blog/image-2.png">&lt;/a>&lt;/p>
+&lt;a href="https://replicationnetwork.com/wp-content/uploads/2025/08/image-2.webp" target="_blank" rel="noopener">&lt;img src="https://staging.forrt.org/replication-network-blog/image-2.webp">&lt;/a>&lt;/p>
 &lt;p>Immediately below this figure, the Shiny app produces a table that reports the mean and 95% estimation interval of estimated powers for the SE-ES and Observed Power methods. For this example, with the true power = 80%, the Observed Power distribution is left skewed, biased downwards (mean = 73.4%) with a 95% estimation interval of (14.5%, 99.8%). In contrast, the SE-ES distribution is approximately symmetric, approximately centered around the true of 80%, with a 95% estimation interval of (68.5%, 89.9%).&lt;/p>
 &lt;p>
-&lt;a href="https://replicationnetwork.com/wp-content/uploads/2025/08/image-3.png" target="_blank" rel="noopener">&lt;img src="https://staging.forrt.org/replication-network-blog/image-3.png">&lt;/a>&lt;/p>
+&lt;a href="https://replicationnetwork.com/wp-content/uploads/2025/08/image-3.webp" target="_blank" rel="noopener">&lt;img src="https://staging.forrt.org/replication-network-blog/image-3.webp">&lt;/a>&lt;/p>
 &lt;p>The reader is encouraged to try out different target power values and, most importantly, sample sizes. What you should see is that the SE-ES method works well at every true power value, but, in this context, it becomes less serviceable for sample sizes below 30.&lt;/p>
 &lt;h2 id="e-bottom-lineand-an-easy-calculator-you-can-use-now">&lt;strong>E. Bottom line—and an easy calculator you can use now&lt;/strong>&lt;/h2>
 &lt;p>Power estimation is useful for before estimation, for planning. But it is also useful after estimation, as an interpretative tool. Furthermore, it is easy to calculate. For readers interested in calculating retrospective power for their own research, Thomas Logchies and I have created an online calculator that is easy to use: &lt;em>&lt;strong>

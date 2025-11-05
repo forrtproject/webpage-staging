@@ -12,19 +12,19 @@
 &lt;p>In Coupé’s post, he studied five published articles, all of which investigated the long-term impact of war on life satisfaction. Despite using  the same dataset (the “Life in Transition Survey” dataset), the five articles came to different conclusions about both the sign and statistical significance of the relationship between war and life satisfaction.&lt;/p>
 &lt;p>Complicating their interpretation, the five studies used different estimation methods, different samples, different measures of life satisfaction, and different sets of control variables. Based on these five studies, Coupé identified 320 plausible alternatives. He then produced the following specification curve.&lt;/p>
 &lt;p>
-&lt;a href="https://replicationnetwork.com/wp-content/uploads/2024/11/image.png" target="_blank" rel="noopener">&lt;img src="https://staging.forrt.org/replication-network-blog/image.png">&lt;/a>&lt;/p>
+&lt;a href="https://replicationnetwork.com/wp-content/uploads/2024/11/image.webp" target="_blank" rel="noopener">&lt;img src="https://staging.forrt.org/replication-network-blog/image.webp">&lt;/a>&lt;/p>
 &lt;p>FIGURE 1 sorts the estimates from lowest to highest. Point estimates are indicated by dots, and around each dot is a 95% confidence interval. Red dots/intervals indicate the point estimate is statistically significant. Grey dots/ intervals indicate statistical insignificance.&lt;/p>
 &lt;p>This specification curve vividly demonstrates the range of point estimates and statistical significances that are possible depending on the combination of specification characteristics. One clearly sees three sets of results: negative and significant, negative and insignificant, and positive and insignificant.&lt;/p>
 &lt;p>“&lt;strong>specr&lt;/strong>” also comes with a feature that allows one to connect results to specific combinations of specification characteristics.&lt;/p>
 &lt;p>
-&lt;a href="https://replicationnetwork.com/wp-content/uploads/2024/11/image-1.png" target="_blank" rel="noopener">&lt;img src="https://staging.forrt.org/replication-network-blog/image-1.png">&lt;/a>&lt;/p>
+&lt;a href="https://replicationnetwork.com/wp-content/uploads/2024/11/image-1.webp" target="_blank" rel="noopener">&lt;img src="https://staging.forrt.org/replication-network-blog/image-1.webp">&lt;/a>&lt;/p>
 &lt;p>FIGURE 2 identifies the individual specification characteristics: There is one “x” variable (“WW2injury”). There are two “y” variables (“lifesatisfaction15” and “lifesatisfaction110”). There are five general estimation models corresponding to the five studies (“NikolovaSanfey2016”, “Kjewski2020”, “Ivlevs2015”, “Djankoveta2016”, and “ChildsNikolova2020”). There are 8 possible combinations of the variable sets “War Controls”, “Income”, and “Other Controls”. And there are four possible samples. This yields 1x2x5x8x4 = 320 model specifications.&lt;/p>
 &lt;p>The figure allows one to visually connect results to characteristics, with red (blue) markers indicating significant (insignificant) estimates, and estimates increasing in size as one moves from left to right in the figure. However, to investigate further, one needs to do a proper multivariate analysis.&lt;/p>
 &lt;p>Coupé chose to do this by estimating a linear regression, establishing one specification as the reference category and representing the other model characteristics with dummy variables. The reference case was defined as Model = ChildsNikolova2020, Subset = All, Controls = Income controls, and Dependent Variable  = lifesatisfaction110.
 &lt;a href="#_ftn1">[1]&lt;/a>&lt;/p>
 &lt;p>Because the model covariates are all dummy variables, the estimated coefficients can be directly compared. From TABLE 1 below (which is Table III in Coupé’s paper) we observe that specifications that include “Income Controls” are associated with larger (less negative, more positive) estimates of the effect of war injury on life satisfaction.&lt;/p>
 &lt;p>
-&lt;a href="https://replicationnetwork.com/wp-content/uploads/2024/11/image-2.png" target="_blank" rel="noopener">&lt;img src="https://staging.forrt.org/replication-network-blog/image-2.png">&lt;/a>&lt;/p>
+&lt;a href="https://replicationnetwork.com/wp-content/uploads/2024/11/image-2.webp" target="_blank" rel="noopener">&lt;img src="https://staging.forrt.org/replication-network-blog/image-2.webp">&lt;/a>&lt;/p>
 &lt;p>&lt;strong>Using “specr”&lt;/strong>&lt;/p>
 &lt;p>Now that we know what specification curve analysis can do, the next step is to go over the code that produced these results. The following provides line-by-line explanations of the code (
 &lt;a href="https://osf.io/e8mcf/" target="_blank" rel="noopener">&lt;em>&lt;strong>provided here&lt;/strong>&lt;/em>&lt;/a>) used to reproduce the two figures and the table above.&lt;/p>
@@ -32,72 +32,72 @@
 &lt;a href="https://github.com/dataisdifficult/war/blob/main/README.md" target="_blank" rel="noopener">see here&lt;/a>&lt;/strong>&lt;/em>&lt;em>)&lt;/em>.&lt;/p>
 &lt;p>Open R and start a new script by setting the working directory equal to that folder.&lt;/p>
 &lt;p>
-&lt;a href="https://replicationnetwork.com/wp-content/uploads/2024/11/image-3.png" target="_blank" rel="noopener">&lt;img src="https://staging.forrt.org/replication-network-blog/image-3.png">&lt;/a>&lt;/p>
+&lt;a href="https://replicationnetwork.com/wp-content/uploads/2024/11/image-3.webp" target="_blank" rel="noopener">&lt;img src="https://staging.forrt.org/replication-network-blog/image-3.webp">&lt;/a>&lt;/p>
 &lt;p>Use the library command to read in all the packages you need to run the program. Install any packages that you do not currently have installed.&lt;/p>
 &lt;p>
-&lt;a href="https://replicationnetwork.com/wp-content/uploads/2024/11/image-4.png" target="_blank" rel="noopener">&lt;img src="https://staging.forrt.org/replication-network-blog/image-4.png">&lt;/a>&lt;/p>
+&lt;a href="https://replicationnetwork.com/wp-content/uploads/2024/11/image-4.webp" target="_blank" rel="noopener">&lt;img src="https://staging.forrt.org/replication-network-blog/image-4.webp">&lt;/a>&lt;/p>
 &lt;p>The following command discourages R from reporting results using scientific notation.&lt;/p>
 &lt;p>
-&lt;a href="https://replicationnetwork.com/wp-content/uploads/2024/11/image-5.png" target="_blank" rel="noopener">&lt;img src="https://staging.forrt.org/replication-network-blog/image-5.png">&lt;/a>&lt;/p>
+&lt;a href="https://replicationnetwork.com/wp-content/uploads/2024/11/image-5.webp" target="_blank" rel="noopener">&lt;img src="https://staging.forrt.org/replication-network-blog/image-5.webp">&lt;/a>&lt;/p>
 &lt;p>Now we read in the dataset, COUPE, an R dataset.&lt;/p>
 &lt;p>
-&lt;a href="https://replicationnetwork.com/wp-content/uploads/2024/11/image-6.png" target="_blank" rel="noopener">&lt;img src="https://staging.forrt.org/replication-network-blog/image-6.png">&lt;/a>&lt;/p>
+&lt;a href="https://replicationnetwork.com/wp-content/uploads/2024/11/image-6.webp" target="_blank" rel="noopener">&lt;img src="https://staging.forrt.org/replication-network-blog/image-6.webp">&lt;/a>&lt;/p>
 &lt;p>&lt;strong>The “setup” command&lt;/strong>&lt;/p>
 &lt;p>The heart of the “&lt;strong>specr&lt;/strong>” package is the “&lt;strong>setup&lt;/strong>” command.  It lays out the individual components that will combined to produce a given specification. The syntax for the “&lt;strong>setup&lt;/strong>” command is given below (
 &lt;a href="https://masurp.github.io/specr/reference/setup.html" target="_blank" rel="noopener">&lt;em>&lt;strong>documentation here&lt;/strong>&lt;/em>&lt;/a>):&lt;/p>
 &lt;p>
-&lt;a href="https://replicationnetwork.com/wp-content/uploads/2024/11/image-7.png" target="_blank" rel="noopener">&lt;img src="https://staging.forrt.org/replication-network-blog/image-7.png">&lt;/a>&lt;/p>
+&lt;a href="https://replicationnetwork.com/wp-content/uploads/2024/11/image-7.webp" target="_blank" rel="noopener">&lt;img src="https://staging.forrt.org/replication-network-blog/image-7.webp">&lt;/a>&lt;/p>
 &lt;p>It involves specifying the dataset, the treatment variable(s) (“x”), the dependent variable(s) (“y”), the sets of control variables (“controls”), and the different subsets (“subsets”). The “add_to_formula” option identifies a constant set of control variables that are included in every specification.&lt;/p>
 &lt;p>You will have noticed that I skipped over “model”. This is where the different estimation procedures are identified. In Coupé’s analysis, he specified five different models, each representing one of the five papers in his study. This is the most complicated part of the “&lt;strong>setup&lt;/strong>” command, which is why I saved it for last.&lt;/p>
 &lt;p>Coupé named each of his models after the paper they represents. Here is how the model for Kijewski2020 is defined:&lt;/p>
 &lt;p>
-&lt;a href="https://replicationnetwork.com/wp-content/uploads/2024/11/image-8.png" target="_blank" rel="noopener">&lt;img src="https://staging.forrt.org/replication-network-blog/image-8.png">&lt;/a>&lt;/p>
+&lt;a href="https://replicationnetwork.com/wp-content/uploads/2024/11/image-8.webp" target="_blank" rel="noopener">&lt;img src="https://staging.forrt.org/replication-network-blog/image-8.webp">&lt;/a>&lt;/p>
 &lt;p>Kijewski2020 is a customized function that has three components. “formula” is defined by the combination of characteristics that define a particular specification. “data” is the dataset identified in the “&lt;strong>setup&lt;/strong>” command, and the third line indicates that Kijewski2020 used a two-level, mixed effects models. To estimate this model, Coupé uses the R function “&lt;strong>lmer&lt;/strong>”. The only twist here is the addition of “+(1|country)” that lets “&lt;strong>lmer&lt;/strong>” know to include random effects at the country level.&lt;/p>
 &lt;p>The other studies are represented similarly. Below is how the model for ChildsNikolova2020 is defined:&lt;/p>
 &lt;p>
-&lt;a href="https://replicationnetwork.com/wp-content/uploads/2024/11/image-9.png" target="_blank" rel="noopener">&lt;img src="https://staging.forrt.org/replication-network-blog/image-9.png">&lt;/a>&lt;/p>
+&lt;a href="https://replicationnetwork.com/wp-content/uploads/2024/11/image-9.webp" target="_blank" rel="noopener">&lt;img src="https://staging.forrt.org/replication-network-blog/image-9.webp">&lt;/a>&lt;/p>
 &lt;p>Rather than estimating a multi-level model, ChildsNikolova2020 estimates a fixed effects, OLS model. The component “|Region1” adds regional dummy variables to the variable specification. The “cluster” and “weights” options compute cluster robust standard errors (CR1-type) and allow for weighting, designed to give each country in the sample an equal weight.&lt;/p>
 &lt;p>The other models are defined similarly.&lt;/p>
 &lt;p>
-&lt;a href="https://replicationnetwork.com/wp-content/uploads/2024/11/image-10.png" target="_blank" rel="noopener">&lt;img src="https://staging.forrt.org/replication-network-blog/image-10.png">&lt;/a>&lt;/p>
+&lt;a href="https://replicationnetwork.com/wp-content/uploads/2024/11/image-10.webp" target="_blank" rel="noopener">&lt;img src="https://staging.forrt.org/replication-network-blog/image-10.webp">&lt;/a>&lt;/p>
 &lt;p>Having defined the individual models, we can now assemble the individual specification components in the “&lt;strong>setup&lt;/strong>” command.&lt;/p>
 &lt;p>
-&lt;a href="https://replicationnetwork.com/wp-content/uploads/2024/11/image-11.png" target="_blank" rel="noopener">&lt;img src="https://staging.forrt.org/replication-network-blog/image-11.png">&lt;/a>&lt;/p>
+&lt;a href="https://replicationnetwork.com/wp-content/uploads/2024/11/image-11.webp" target="_blank" rel="noopener">&lt;img src="https://staging.forrt.org/replication-network-blog/image-11.webp">&lt;/a>&lt;/p>
 &lt;p>The first several lines should be easy to interpret, having been discussed above. “subset” identifies two subsets: “sample15” = “Heavily affected countries only”; “under65” = “Under sixty-five”. “&lt;strong>specr&lt;/strong>” turns this into four samples: (i) “sample15”, (ii) under65”, (iii) “sample15” &amp;amp; “under65”, and (iv) the full sample (“all”).&lt;/p>
 &lt;p>“controls” identifies three sets of controls. I have separated the three sets of controls  to make them easier to identify. The first is what Coupé calls “Other controls”. The second is what he calls “War controls”; and the third, “Income Controls”. In combination with the option “simplify = FALSE”, “&lt;strong>specr&lt;/strong>” turns this into 8 sets of control variables, which is equal to all possible combinations of the three sets of control variables (none, each individually, each combination between each variable, all variables). If simplify = TRUE”, had been selected, only five sets of control variables would have been included (no covariates, each individually, and all covariates).&lt;/p>
 &lt;p>The last element in “&lt;strong>setup&lt;/strong>” command is “add_to_formula”. This identifies variables that are common to every specification. This option allows one to list these variables once, rather than repeating the list for each set of control variables.&lt;/p>
 &lt;p>&lt;strong>FIGURE 1&lt;/strong>&lt;/p>
 &lt;p>Together, the “&lt;strong>setup&lt;/strong>” command creates an object called “&lt;strong>specs&lt;/strong>”. In turn, “&lt;strong>specr&lt;/strong>” takes this object and creates another object, “&lt;strong>results&lt;/strong>”, which is then fed into subsequent “&lt;strong>specr&lt;/strong>” functions.&lt;/p>
 &lt;p>
-&lt;a href="https://replicationnetwork.com/wp-content/uploads/2024/11/image-12.png" target="_blank" rel="noopener">&lt;img src="https://staging.forrt.org/replication-network-blog/image-12.png">&lt;/a>&lt;/p>
+&lt;a href="https://replicationnetwork.com/wp-content/uploads/2024/11/image-12.webp" target="_blank" rel="noopener">&lt;img src="https://staging.forrt.org/replication-network-blog/image-12.webp">&lt;/a>&lt;/p>
 &lt;p>And just like that, we can now use the command “&lt;strong>plot&lt;/strong>” to produce our specification curve.&lt;/p>
 &lt;p>
-&lt;a href="https://replicationnetwork.com/wp-content/uploads/2024/11/image-13.png" target="_blank" rel="noopener">&lt;img src="https://staging.forrt.org/replication-network-blog/image-13.png">&lt;/a>&lt;/p>
+&lt;a href="https://replicationnetwork.com/wp-content/uploads/2024/11/image-13.webp" target="_blank" rel="noopener">&lt;img src="https://staging.forrt.org/replication-network-blog/image-13.webp">&lt;/a>&lt;/p>
 &lt;p>&lt;strong>FIGURE 2&lt;/strong>&lt;/p>
 &lt;p>Moving on to FIGURE 2, the next set of six commands renames the respective sets of control variables and sample subsets for more convenient representation in subsequent outputs. As it is not central to running “&lt;strong>specr&lt;/strong>”, but is only done to make the output more legible, I will only give a cursory explanation.&lt;/p>
 &lt;p>
-&lt;a href="https://replicationnetwork.com/wp-content/uploads/2024/11/image-14.png" target="_blank" rel="noopener">&lt;img src="https://staging.forrt.org/replication-network-blog/image-14.png">&lt;/a>&lt;/p>
+&lt;a href="https://replicationnetwork.com/wp-content/uploads/2024/11/image-14.webp" target="_blank" rel="noopener">&lt;img src="https://staging.forrt.org/replication-network-blog/image-14.webp">&lt;/a>&lt;/p>
 &lt;p>The “&lt;strong>specr&lt;/strong>” command produces an object called “results$data” (see below). Inside it are contained many columns, including “x”, “y”, “model”, “controls”, “subsets”, etc. It has 320 rows, with each row containing details about the respective model specifications.&lt;/p>
 &lt;p>
-&lt;a href="https://replicationnetwork.com/wp-content/uploads/2024/11/image-15.png" target="_blank" rel="noopener">&lt;img src="https://staging.forrt.org/replication-network-blog/image-15.png">&lt;/a>&lt;/p>
+&lt;a href="https://replicationnetwork.com/wp-content/uploads/2024/11/image-15.webp" target="_blank" rel="noopener">&lt;img src="https://staging.forrt.org/replication-network-blog/image-15.webp">&lt;/a>&lt;/p>
 &lt;p>“results$data$controls” reports the variables used for each of the model specifications. Each of the six renaming commands replaces the contents of “controls” with shorter descriptions.&lt;/p>
 &lt;p>For example, the command below creates a temporary dataset called “&lt;strong>tom&lt;/strong>” which is a copy of “results$data$controls”.&lt;/p>
 &lt;p>
-&lt;a href="https://replicationnetwork.com/wp-content/uploads/2024/11/image-16.png" target="_blank" rel="noopener">&lt;img src="https://staging.forrt.org/replication-network-blog/image-16.png">&lt;/a>&lt;/p>
+&lt;a href="https://replicationnetwork.com/wp-content/uploads/2024/11/image-16.webp" target="_blank" rel="noopener">&lt;img src="https://staging.forrt.org/replication-network-blog/image-16.webp">&lt;/a>&lt;/p>
 &lt;p>It looks for the text in the 10th row of “&lt;strong>tom&lt;/strong>”, tom[10]  = “recentwarmoved+recentwarinjury+recentwarHHinjury+ WW2moved”. Every time it sees that text in “&lt;strong>tom&lt;/strong>” it replaces it with “War Controls”. It then substitutes “&lt;strong>tom&lt;/strong>” back into “results$data$controls”.&lt;/p>
 &lt;p>The other five renaming commands all do something similar.&lt;/p>
 &lt;p>With the variable names cleaned up for legibility, we’re ready to produce FIGURE 2.&lt;/p>
 &lt;p>
-&lt;a href="https://replicationnetwork.com/wp-content/uploads/2024/11/image-17.png" target="_blank" rel="noopener">&lt;img src="https://staging.forrt.org/replication-network-blog/image-17.png">&lt;/a>&lt;/p>
+&lt;a href="https://replicationnetwork.com/wp-content/uploads/2024/11/image-17.webp" target="_blank" rel="noopener">&lt;img src="https://staging.forrt.org/replication-network-blog/image-17.webp">&lt;/a>&lt;/p>
 &lt;p>&lt;strong>TABLE 1&lt;/strong>&lt;/p>
 &lt;p>The last task is to produce TABLE 1. The estimates in TABLE 1 come from a standard OLS regression, which we again call “&lt;strong>tom&lt;/strong>” (I don’t know where Coupé comes up with these names!).&lt;/p>
 &lt;p>
-&lt;a href="https://replicationnetwork.com/wp-content/uploads/2024/11/image-18.png" target="_blank" rel="noopener">&lt;img src="https://staging.forrt.org/replication-network-blog/image-18.png">&lt;/a>&lt;/p>
+&lt;a href="https://replicationnetwork.com/wp-content/uploads/2024/11/image-18.webp" target="_blank" rel="noopener">&lt;img src="https://staging.forrt.org/replication-network-blog/image-18.webp">&lt;/a>&lt;/p>
 &lt;p>The only thing unusual about this regression is that the dependent variable “estimate” and the explanatory variables (“model”, “subsets”, etc.) come from the dataset “results$data” described above.&lt;/p>
 &lt;p>We could have printed out the regression results from “&lt;strong>tom&lt;/strong>” using the familiar “&lt;strong>summary&lt;/strong>” command, but the output is very messy and hard to read.&lt;/p>
 &lt;p>Instead, we take the regression results from “&lt;strong>tom&lt;/strong>” and use the “&lt;strong>stargazer&lt;/strong>” package to create an attractive table. Note, however, we had to first look at the regression results from “&lt;strong>tom&lt;/strong>” to get the correct order for naming the respective factor variables.&lt;/p>
 &lt;p>
-&lt;a href="https://replicationnetwork.com/wp-content/uploads/2024/11/image-19.png" target="_blank" rel="noopener">&lt;img src="https://staging.forrt.org/replication-network-blog/image-19.png">&lt;/a>&lt;/p>
+&lt;a href="https://replicationnetwork.com/wp-content/uploads/2024/11/image-19.webp" target="_blank" rel="noopener">&lt;img src="https://staging.forrt.org/replication-network-blog/image-19.webp">&lt;/a>&lt;/p>
 &lt;p>You can now go to the OSF site given at the top of this blog, download the data and code there, and produce the results in this blog (and Coupé’s paper). That should enable you to do your own specification curve analysis.&lt;/p>
 &lt;p>To learn more about “specr”, and see some more examples,
 &lt;a href="https://masurp.github.io/specr/index.html" target="_blank" rel="noopener">&lt;em>&lt;strong>go here&lt;/strong>&lt;/em>&lt;/a>.&lt;/p>
