@@ -7174,6 +7174,11 @@ body {
     margin-top: 50px;
     /* Offset body content by navbar height. */ } }
 
+@media (min-width: 992px) and (max-width: 1350px) {
+  body {
+    margin-top: 130px;
+    /* Offset for 2-row navbar height */ } }
+
 .max-width-640 {
   max-width: 640px; }
 
@@ -7190,7 +7195,9 @@ p {
   margin-bottom: 1rem; }
 
 /* Lists */
-ul, ol, dl {
+ul,
+ol,
+dl {
   margin-top: 0;
   margin-bottom: 1rem; }
 
@@ -7208,7 +7215,12 @@ ul.task-list li input[type="checkbox"] {
   text-rendering: optimizeLegibility; }
 
 /* Headings */
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: Domine, sans-serif;
   font-weight: 400;
   margin-top: 1rem;
@@ -7237,7 +7249,9 @@ h3 {
   margin-top: 1.5rem;
   font-size: 1.25rem; }
 
-h4, h5, h6 {
+h4,
+h5,
+h6 {
   font-weight: 700;
   margin-top: 1rem;
   font-size: 1rem; }
@@ -7662,7 +7676,7 @@ div.alert a {
   padding: 0 1rem; }
   .navbar .nav-item {
     position: relative; }
-  @media (max-width: 991.98px) {
+  @media (max-width: 1199.98px) {
     .navbar {
       height: 50px; }
       .navbar .navbar-nav-scroll {
@@ -7701,7 +7715,7 @@ div.alert a {
   outline: none !important;
   box-shadow: none !important; }
 
-@media (max-width: 991.98px) {
+@media (max-width: 1199.98px) {
   /* Match breakpoint for i18n dropdown in navbar.html. */
   .i18n-dropdown .nav-link::after {
     content: none; }
@@ -7736,120 +7750,7 @@ div.alert a {
 #navbar-main .main-menu-item ul li .nav-link {
   color: white; }
 
-/******************************************************************************
- * Navbar Layout Fix for iPad Pro and Similar Devices (lg breakpoint)
- * 
- * 
- * Solution: Optimize spacing, sizing, and layout only at lg breakpoint
- *           (992px - 1199px) to fit all content without truncation.
- * 
- * Note: These styles ONLY apply at lg breakpoint. On xl+ screens (1200px+),
- *       the navbar displays normally without these optimizations.
- ******************************************************************************/
-@media (min-width: 992px) and (max-width: 1199.98px) {
-  /* ==========================================================================
-     Navbar Container Padding
-     ========================================================================== */
-  #navbar-main {
-    padding-left: 0.375rem !important;
-    padding-right: 0.375rem !important; }
-  /* ==========================================================================
-     Navigation Items Spacing
-     ========================================================================== */
-  #navbar-main .main-menu-item .nav-item {
-    padding-left: 0.1rem !important;
-    padding-right: 0.1rem !important;
-    flex-shrink: 1;
-    min-width: 0; }
-  #navbar-main .main-menu-item .nav-item .nav-link {
-    padding-left: 0.2rem !important;
-    padding-right: 0.2rem !important; }
-  #navbar-main .main-menu-item .nav-link {
-    font-size: calc(16.17px - 3px);
-    letter-spacing: -0.015em; }
-  /* ==========================================================================
-     Navigation Icons Spacing
-     ========================================================================== */
-  ul.nav-icons {
-    padding-left: 0.2rem !important;
-    margin-left: 0 !important;
-    padding-top: 0.4rem !important;
-    padding-bottom: 0.4rem !important; }
-  ul.nav-icons li {
-    padding-right: 0.3rem !important; }
-  /* ==========================================================================
-     "Get Involved" Button - Two-Line Layout
-     ========================================================================== */
-  .nav-btn {
-    padding: 0.3rem 0.5rem !important;
-    font-size: calc(16.17px - 1px) !important;
-    line-height: 1.4 !important;
-    min-height: 2.4em;
-    white-space: normal !important;
-    letter-spacing: 0;
-    font-weight: 600 !important;
-    text-transform: none !important;
-    text-align: center;
-    display: inline-flex !important;
-    align-items: center;
-    justify-content: center;
-    height: auto !important;
-    min-width: 0;
-    flex-shrink: 1;
-    width: 5.5em !important;
-    max-width: 5.5em !important;
-    min-width: 5.5em !important;
-    word-break: normal;
-    overflow-wrap: normal;
-    font-variant-emoji: emoji; }
-  /* ==========================================================================
-     Logo Sizing
-     ========================================================================== */
-  #navbar-main .navbar-brand {
-    margin-right: 0.4rem !important; }
-  #navbar-main .navbar-brand img {
-    max-height: 48px !important; }
-  /* ==========================================================================
-     Container Padding
-     ========================================================================== */
-  #navbar-main .container {
-    padding-left: 0.5rem !important;
-    padding-right: 0.5rem !important; }
-  /* ==========================================================================
-     Navbar Collapse Container
-     ========================================================================== */
-  #navbar-main .navbar-collapse {
-    flex-wrap: nowrap;
-    overflow: visible;
-    margin-left: -0.5rem;
-    margin-right: -0.5rem;
-    padding-left: 0;
-    padding-right: 0; }
-  /* ==========================================================================
-     Main Menu Navigation Items
-     ========================================================================== */
-  #navbar-main .main-menu-item .navbar-nav {
-    flex-wrap: nowrap;
-    min-width: 0;
-    gap: 0;
-    margin-left: -0.25rem;
-    margin-right: -0.25rem; }
-  #navbar-main .main-menu-item {
-    margin-left: -0.5rem;
-    margin-right: -0.5rem;
-    padding-left: 0;
-    padding-right: 0; }
-  /* ==========================================================================
-     "Get Involved" Button Container
-     ========================================================================== */
-  #navbar-main .main-menu-item .nav-item .nav-btn {
-    margin-left: -0.05rem;
-    margin-right: -0.05rem; }
-  #navbar-main .main-menu-item .navbar-nav > .nav-item:last-child {
-    padding-left: 0.05rem !important;
-    padding-right: 0.05rem !important; } }
-
-@media (max-width: 991.98px) {
+@media (max-width: 1199.98px) {
   .navbar-brand-mobile-wrapper {
     position: absolute;
     left: 0;
@@ -7900,6 +7801,47 @@ ul.nav-icons li.nav-item a.nav-link {
 .dropdown-item {
   background-color: #3e3e3e !important;
   color: white !important; }
+
+/******************************************************************************
+ * Navbar Layout Fix for iPad Pro and Similar Devices (lg breakpoint)
+ * 
+ * Solution: Use a 2-row layout specifically for lg breakpoint (992px - 1199px)
+ *           and extended up to 1350px for Nest Hub Max support.
+ *           Row 1: Logo (left) + Icons (right)
+ *           Row 2: Navigation Links (centered)
+ ******************************************************************************/
+@media (min-width: 992px) and (max-width: 1350px) {
+  .navbar {
+    height: auto !important;
+    padding-top: 0.5rem !important;
+    padding-bottom: 0.5rem !important; }
+  #navbar-main .container {
+    flex-wrap: wrap !important;
+    justify-content: space-between !important; }
+  #navbar-main .navbar-brand {
+    order: 1;
+    margin-right: auto; }
+  #navbar-main .nav-icons {
+    order: 2;
+    margin-left: 0 !important;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important; }
+  #navbar-main .navbar-collapse {
+    order: 3;
+    width: 100% !important;
+    flex-basis: 100% !important;
+    margin-top: 0.5rem !important;
+    justify-content: center !important;
+    border-top: 1px solid rgba(255, 255, 255, 0.15);
+    padding-top: 0.5rem; }
+    #navbar-main .navbar-collapse .navbar-nav {
+      justify-content: center !important;
+      width: 100%; }
+  #navbar-main .main-menu-item .nav-item {
+    padding-left: 0.5rem !important;
+    padding-right: 0.5rem !important; }
+  #navbar-main .main-menu-item .nav-link {
+    font-size: 16.17px !important; } }
 
 /*************************************************
  *  Card component
