@@ -9200,3 +9200,6 @@ div.mermaid {
   .tab-content > .tab-pane {
     display: block !important;
     opacity: 1 !important; } }
+
+article.article:has(table) .article-container {
+  max-width: 960px; }
