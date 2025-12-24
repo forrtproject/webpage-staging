@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Abouts | FORRT - Framework for Open and Reproducible Research Training</title><link>https://forrt.org/about/</link><atom:link href="https://forrt.org/about/index.xml" rel="self" type="application/rss+xml"/><description>Abouts</description><generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2025 - FORRT > Framework for Open and Reproducible Research Training</copyright><image><url>https://forrt.org/img/FORRT_banner.svg</url><title>Abouts</title><link>https://forrt.org/about/</link></image><item><title>About us</title><link>https://forrt.org/about/us/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://forrt.org/about/us/</guid><description/></item><item><title>Cite us</title><link>https://forrt.org/about/cite_us/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://forrt.org/about/cite_us/</guid><description/></item><item><title>Community</title><link>https://forrt.org/about/community/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://forrt.org/about/community/</guid><description/></item><item><title>FORRT Germany e.V.</title><link>https://forrt.org/about/charity/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://forrt.org/about/charity/</guid><description/></item><item><title>Get Involved</title><link>https://forrt.org/about/get-involved/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://forrt.org/about/get-involved/</guid><description/></item><item><title>Mission</title><link>https://forrt.org/about/mission/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://forrt.org/about/mission/</guid><description/></item><item><title>Partnerships</title><link>https://forrt.org/about/partnerships/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://forrt.org/about/partnerships/</guid><description/></item><item><title>Principles</title><link>https://forrt.org/about/principles/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://forrt.org/about/principles/</guid><description/></item><item><title>Steering Committee</title><link>https://forrt.org/about/steering-committee/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://forrt.org/about/steering-committee/</guid><description>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Abouts | FORRT - Framework for Open and Reproducible Research Training</title><link>https://staging.forrt.org/about/</link><atom:link href="https://staging.forrt.org/about/index.xml" rel="self" type="application/rss+xml"/><description>Abouts</description><generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2025 - FORRT > Framework for Open and Reproducible Research Training</copyright><image><url>https://staging.forrt.org/img/FORRT_banner.svg</url><title>Abouts</title><link>https://staging.forrt.org/about/</link></image><item><title>About us</title><link>https://staging.forrt.org/about/us/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://staging.forrt.org/about/us/</guid><description/></item><item><title>Cite us</title><link>https://staging.forrt.org/about/cite_us/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://staging.forrt.org/about/cite_us/</guid><description/></item><item><title>Community</title><link>https://staging.forrt.org/about/community/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://staging.forrt.org/about/community/</guid><description/></item><item><title>FORRT Germany e.V.</title><link>https://staging.forrt.org/about/charity/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://staging.forrt.org/about/charity/</guid><description/></item><item><title>Get Involved</title><link>https://staging.forrt.org/about/get-involved/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://staging.forrt.org/about/get-involved/</guid><description/></item><item><title>Mission</title><link>https://staging.forrt.org/about/mission/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://staging.forrt.org/about/mission/</guid><description/></item><item><title>Partnerships</title><link>https://staging.forrt.org/about/partnerships/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://staging.forrt.org/about/partnerships/</guid><description/></item><item><title>Principles</title><link>https://staging.forrt.org/about/principles/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://staging.forrt.org/about/principles/</guid><description/></item><item><title>Steering Committee</title><link>https://staging.forrt.org/about/steering-committee/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://staging.forrt.org/about/steering-committee/</guid><description>
 &lt;!-- Google Fonts -->
 &lt;link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet">
 &lt;!-- External CSS -->
-&lt;link rel="stylesheet" href="https://forrt.org/css/steering-committee.css">
+&lt;link rel="stylesheet" href="https://staging.forrt.org/css/steering-committee.css">
 &lt;div id="sc-container" class="col-lg-12">
 &lt;h1 class="sc-page-title">Steering Committee&lt;/h1>
 &lt;nav class="sc-nav">
@@ -25,7 +25,7 @@
 &lt;span class="sc-title-label">Team&lt;/span>
 &lt;h3 class="sc-title-text">Community &amp; Sustainability&lt;/h3>
 &lt;/div>&lt;div class="sc-card" onclick="openModal('drstevenverheyen')">
-&lt;img src="https://forrt.org/authors/drstevenverheyen/avatar.webp" alt="dr. Steven Verheyen" class="sc-card-img" />
+&lt;img src="https://staging.forrt.org/authors/drstevenverheyen/avatar.webp" alt="dr. Steven Verheyen" class="sc-card-img" />
 &lt;div class="sc-card-overlay">&lt;/div>
 &lt;div class="sc-card-content">
 &lt;h4 class="sc-card-name">dr. Steven Verheyen&lt;/h4>
@@ -35,7 +35,7 @@
 &lt;span class="sc-title-label">Team&lt;/span>
 &lt;h3 class="sc-title-text">Social Justice &amp; DEIA&lt;/h3>
 &lt;/div>&lt;div class="sc-card" onclick="openModal('drsarahasauve')">
-&lt;img src="https://forrt.org/authors/drsarahasauve/avatar.webp" alt="Dr. Sarah A. Sauvé" class="sc-card-img" />
+&lt;img src="https://staging.forrt.org/authors/drsarahasauve/avatar.webp" alt="Dr. Sarah A. Sauvé" class="sc-card-img" />
 &lt;div class="sc-card-overlay">&lt;/div>
 &lt;div class="sc-card-content">
 &lt;h4 class="sc-card-name">Dr. Sarah A. Sauvé&lt;/h4>
@@ -45,21 +45,21 @@
 &lt;span class="sc-title-label">Team&lt;/span>
 &lt;h3 class="sc-title-text">Meta-science &amp; Research&lt;/h3>
 &lt;/div>&lt;div class="sc-card" onclick="openModal('drrachelheyard')">
-&lt;img src="https://forrt.org/authors/drrachelheyard/avatar.webp" alt="Dr Rachel Heyard" class="sc-card-img" />
+&lt;img src="https://staging.forrt.org/authors/drrachelheyard/avatar.webp" alt="Dr Rachel Heyard" class="sc-card-img" />
 &lt;div class="sc-card-overlay">&lt;/div>
 &lt;div class="sc-card-content">
 &lt;h4 class="sc-card-name">Dr Rachel Heyard&lt;/h4>
 &lt;p class="sc-card-role">Director&lt;/p>
 &lt;/div>
 &lt;/div>&lt;div class="sc-card" onclick="openModal('tomheyman')">
-&lt;img src="https://forrt.org/authors/tomheyman/avatar.webp" alt="Tom Heyman" class="sc-card-img" />
+&lt;img src="https://staging.forrt.org/authors/TomHeyman/avatar.webp" alt="Tom Heyman" class="sc-card-img" />
 &lt;div class="sc-card-overlay">&lt;/div>
 &lt;div class="sc-card-content">
 &lt;h4 class="sc-card-name">Tom Heyman&lt;/h4>
 &lt;p class="sc-card-role">Deputy-Director&lt;/p>
 &lt;/div>
 &lt;/div>&lt;div class="sc-card" onclick="openModal('berittbarthelmesmsc')">
-&lt;img src="https://forrt.org/authors/berittbarthelmesmsc/avatar.webp" alt="Berit T. Barthelmes, M.Sc." class="sc-card-img" />
+&lt;img src="https://staging.forrt.org/authors/berittbarthelmesmsc/avatar.webp" alt="Berit T. Barthelmes, M.Sc." class="sc-card-img" />
 &lt;div class="sc-card-overlay">&lt;/div>
 &lt;div class="sc-card-content">
 &lt;h4 class="sc-card-name">Berit T. Barthelmes, M.Sc.&lt;/h4>
@@ -69,14 +69,14 @@
 &lt;span class="sc-title-label">Team&lt;/span>
 &lt;h3 class="sc-title-text">Education &amp; Pedagogy&lt;/h3>
 &lt;/div>&lt;div class="sc-card" onclick="openModal('drmadeleinepownall')">
-&lt;img src="https://forrt.org/authors/drmadeleinepownall/avatar.webp" alt="Dr Madeleine Pownall" class="sc-card-img" />
+&lt;img src="https://staging.forrt.org/authors/drmadeleinepownall/avatar.webp" alt="Dr Madeleine Pownall" class="sc-card-img" />
 &lt;div class="sc-card-overlay">&lt;/div>
 &lt;div class="sc-card-content">
 &lt;h4 class="sc-card-name">Dr Madeleine Pownall&lt;/h4>
 &lt;p class="sc-card-role">Director&lt;/p>
 &lt;/div>
 &lt;/div>&lt;div class="sc-card" onclick="openModal('lornahamilton')">
-&lt;img src="https://forrt.org/authors/lornahamilton/avatar.webp" alt="Lorna Hamilton" class="sc-card-img" />
+&lt;img src="https://staging.forrt.org/authors/LornaHamilton/avatar.webp" alt="Lorna Hamilton" class="sc-card-img" />
 &lt;div class="sc-card-overlay">&lt;/div>
 &lt;div class="sc-card-content">
 &lt;h4 class="sc-card-name">Lorna Hamilton&lt;/h4>
@@ -97,21 +97,21 @@
 &lt;span class="sc-title-label">Team&lt;/span>
 &lt;h3 class="sc-title-text">Community Management&lt;/h3>
 &lt;/div>&lt;div class="sc-card" onclick="openModal('dramandakaymontoya')">
-&lt;img src="https://forrt.org/authors/dramandakaymontoya/avatar.webp" alt="Dr. Amanda Kay Montoya" class="sc-card-img" />
+&lt;img src="https://staging.forrt.org/authors/dramandakaymontoya/avatar.webp" alt="Dr. Amanda Kay Montoya" class="sc-card-img" />
 &lt;div class="sc-card-overlay">&lt;/div>
 &lt;div class="sc-card-content">
 &lt;h4 class="sc-card-name">Dr. Amanda Kay Montoya&lt;/h4>
 &lt;p class="sc-card-role">Director&lt;/p>
 &lt;/div>
 &lt;/div>&lt;div class="sc-card" onclick="openModal('drkellylloyd')">
-&lt;img src="https://forrt.org/authors/drkellylloyd/avatar.webp" alt="Dr Kelly Lloyd" class="sc-card-img" />
+&lt;img src="https://staging.forrt.org/authors/drkellylloyd/avatar.webp" alt="Dr Kelly Lloyd" class="sc-card-img" />
 &lt;div class="sc-card-overlay">&lt;/div>
 &lt;div class="sc-card-content">
 &lt;h4 class="sc-card-name">Dr Kelly Lloyd&lt;/h4>
 &lt;p class="sc-card-role">Cohesion-Liaison&lt;/p>
 &lt;/div>
 &lt;/div>&lt;div class="sc-card" onclick="openModal('giorgiaandreolli')">
-&lt;img src="https://forrt.org/authors/giorgiaandreolli/avatar.webp" alt="Giorgia Andreolli" class="sc-card-img" />
+&lt;img src="https://staging.forrt.org/authors/GiorgiaAndreolli/avatar.webp" alt="Giorgia Andreolli" class="sc-card-img" />
 &lt;div class="sc-card-overlay">&lt;/div>
 &lt;div class="sc-card-content">
 &lt;h4 class="sc-card-name">Giorgia Andreolli&lt;/h4>
@@ -131,14 +131,14 @@
 &lt;span class="sc-title-label">Team&lt;/span>
 &lt;h3 class="sc-title-text">Sustainability &amp; Strategy&lt;/h3>
 &lt;/div>&lt;div class="sc-card" onclick="openModal('drsarahashcroftjones')">
-&lt;img src="https://forrt.org/authors/drsarahashcroftjones/avatar.webp" alt="Dr Sarah Ashcroft-Jones" class="sc-card-img" />
+&lt;img src="https://staging.forrt.org/authors/drsarahashcroftjones/avatar.webp" alt="Dr Sarah Ashcroft-Jones" class="sc-card-img" />
 &lt;div class="sc-card-overlay">&lt;/div>
 &lt;div class="sc-card-content">
 &lt;h4 class="sc-card-name">Dr Sarah Ashcroft-Jones&lt;/h4>
 &lt;p class="sc-card-role">Director&lt;/p>
 &lt;/div>
 &lt;/div>&lt;div class="sc-card" onclick="openModal('saralilmiddleton')">
-&lt;img src="https://forrt.org/authors/sara-lil-middleton/avatar.webp" alt="Sara Lil Middleton" class="sc-card-img" />
+&lt;img src="https://staging.forrt.org/authors/saralilmiddleton/avatar.webp" alt="Sara Lil Middleton" class="sc-card-img" />
 &lt;div class="sc-card-overlay">&lt;/div>
 &lt;div class="sc-card-content">
 &lt;h4 class="sc-card-name">Sara Lil Middleton&lt;/h4>
@@ -148,14 +148,14 @@
 &lt;span class="sc-title-label">Team&lt;/span>
 &lt;h3 class="sc-title-text">Ethics and Inclusion&lt;/h3>
 &lt;/div>&lt;div class="sc-card" onclick="openModal('drjohnshaw')">
-&lt;img src="https://forrt.org/authors/drjohnshaw/avatar.webp" alt="Dr John Shaw" class="sc-card-img" />
+&lt;img src="https://staging.forrt.org/authors/drjohnshaw/avatar.webp" alt="Dr John Shaw" class="sc-card-img" />
 &lt;div class="sc-card-overlay">&lt;/div>
 &lt;div class="sc-card-content">
 &lt;h4 class="sc-card-name">Dr John Shaw&lt;/h4>
 &lt;p class="sc-card-role">Director&lt;/p>
 &lt;/div>
 &lt;/div>&lt;div class="sc-card" onclick="openModal('thomasrhysevans')">
-&lt;img src="https://forrt.org/authors/thomas-rhys-evans/avatar.webp" alt="Thomas Rhys Evans" class="sc-card-img" />
+&lt;img src="https://staging.forrt.org/authors/thomasrhysevans/avatar.webp" alt="Thomas Rhys Evans" class="sc-card-img" />
 &lt;div class="sc-card-overlay">&lt;/div>
 &lt;div class="sc-card-content">
 &lt;h4 class="sc-card-name">Thomas Rhys Evans&lt;/h4>
@@ -165,21 +165,21 @@
 &lt;span class="sc-title-label">Team&lt;/span>
 &lt;h3 class="sc-title-text">Fundraising&lt;/h3>
 &lt;/div>&lt;div class="sc-card" onclick="openModal('drmaxkorbmacher')">
-&lt;img src="https://forrt.org/authors/drmaxkorbmacher/avatar.webp" alt="Dr Max Korbmacher" class="sc-card-img" />
+&lt;img src="https://staging.forrt.org/authors/drmaxkorbmacher/avatar.webp" alt="Dr Max Korbmacher" class="sc-card-img" />
 &lt;div class="sc-card-overlay">&lt;/div>
 &lt;div class="sc-card-content">
 &lt;h4 class="sc-card-name">Dr Max Korbmacher&lt;/h4>
 &lt;p class="sc-card-role">Director&lt;/p>
 &lt;/div>
 &lt;/div>&lt;div class="sc-card" onclick="openModal('karenmatvienkosikar')">
-&lt;img src="https://forrt.org/authors/karenmatvienkosikar/avatar.webp" alt="Karen Matvienko-Sikar" class="sc-card-img" />
+&lt;img src="https://staging.forrt.org/authors/karenmatvienkosikar/avatar.webp" alt="Karen Matvienko-Sikar" class="sc-card-img" />
 &lt;div class="sc-card-overlay">&lt;/div>
 &lt;div class="sc-card-content">
 &lt;h4 class="sc-card-name">Karen Matvienko-Sikar&lt;/h4>
 &lt;p class="sc-card-role">Co-Director&lt;/p>
 &lt;/div>
 &lt;/div>&lt;div class="sc-card" onclick="openModal('fotismystakopoulosphdstudent')">
-&lt;img src="https://forrt.org/authors/fotismystakopoulosphdstudent/avatar.webp" alt="Fotis Mystakopoulos, PhD Student" class="sc-card-img" />
+&lt;img src="https://staging.forrt.org/authors/fotismystakopoulosphdstudent/avatar.webp" alt="Fotis Mystakopoulos, PhD Student" class="sc-card-img" />
 &lt;div class="sc-card-overlay">&lt;/div>
 &lt;div class="sc-card-content">
 &lt;h4 class="sc-card-name">Fotis Mystakopoulos, PhD Student&lt;/h4>
@@ -189,7 +189,7 @@
 &lt;span class="sc-title-label">Team&lt;/span>
 &lt;h3 class="sc-title-text">Financial Transparency&lt;/h3>
 &lt;/div>&lt;div class="sc-card" onclick="openModal('aliciatamaraveersmabarredo')">
-&lt;img src="https://forrt.org/authors/aliciatamaraveersmabarredo/avatar.webp" alt="Alicia Tamara Veersma Barredo" class="sc-card-img" />
+&lt;img src="https://staging.forrt.org/authors/aliciatamaraveersmabarredo/avatar.webp" alt="Alicia Tamara Veersma Barredo" class="sc-card-img" />
 &lt;div class="sc-card-overlay">&lt;/div>
 &lt;div class="sc-card-content">
 &lt;h4 class="sc-card-name">Alicia Tamara Veersma Barredo&lt;/h4>
@@ -199,7 +199,7 @@
 &lt;span class="sc-title-label">Team&lt;/span>
 &lt;h3 class="sc-title-text">Partnerships&lt;/h3>
 &lt;/div>&lt;div class="sc-card" onclick="openModal('adampartridge')">
-&lt;img src="https://forrt.org/authors/adampartridge/avatar.webp" alt="Adam Partridge" class="sc-card-img" />
+&lt;img src="https://staging.forrt.org/authors/adampartridge/avatar.webp" alt="Adam Partridge" class="sc-card-img" />
 &lt;div class="sc-card-overlay">&lt;/div>
 &lt;div class="sc-card-content">
 &lt;h4 class="sc-card-name">Adam Partridge&lt;/h4>
@@ -209,14 +209,14 @@
 &lt;span class="sc-title-label">Team&lt;/span>
 &lt;h3 class="sc-title-text">Digital Infrastructure Team&lt;/h3>
 &lt;/div>&lt;div class="sc-card" onclick="openModal('justinsulik')">
-&lt;img src="https://forrt.org/authors/justinsulik/avatar.webp" alt="Justin Sulik" class="sc-card-img" />
+&lt;img src="https://staging.forrt.org/authors/justinsulik/avatar.webp" alt="Justin Sulik" class="sc-card-img" />
 &lt;div class="sc-card-overlay">&lt;/div>
 &lt;div class="sc-card-content">
 &lt;h4 class="sc-card-name">Justin Sulik&lt;/h4>
 &lt;p class="sc-card-role">Director&lt;/p>
 &lt;/div>
 &lt;/div>&lt;div class="sc-card" onclick="openModal('dushimemudaherarichard')">
-&lt;img src="https://forrt.org/authors/dushimemudaherarichard/avatar.webp" alt="Dushime Mudahera Richard" class="sc-card-img" />
+&lt;img src="https://staging.forrt.org/authors/dushimemudaherarichard/avatar.webp" alt="Dushime Mudahera Richard" class="sc-card-img" />
 &lt;div class="sc-card-overlay">&lt;/div>
 &lt;div class="sc-card-content">
 &lt;h4 class="sc-card-name">Dushime Mudahera Richard&lt;/h4>
@@ -226,28 +226,28 @@
 &lt;span class="sc-title-label">Team&lt;/span>
 &lt;h3 class="sc-title-text">FORRT Stewards&lt;/h3>
 &lt;/div>&lt;div class="sc-card" onclick="openModal('adiradaniel')">
-&lt;img src="https://forrt.org/authors/adiradaniel/avatar.webp" alt="Adira Daniel" class="sc-card-img" />
+&lt;img src="https://staging.forrt.org/authors/adiradaniel/avatar.webp" alt="Adira Daniel" class="sc-card-img" />
 &lt;div class="sc-card-overlay">&lt;/div>
 &lt;div class="sc-card-content">
 &lt;h4 class="sc-card-name">Adira Daniel&lt;/h4>
 &lt;p class="sc-card-role">FORRT Steward&lt;/p>
 &lt;/div>
 &lt;/div>&lt;div class="sc-card" onclick="openModal('stephaniezellers')">
-&lt;img src="https://forrt.org/authors/stephanie-zellers/avatar.webp" alt="Stephanie Zellers" class="sc-card-img" />
+&lt;img src="https://staging.forrt.org/authors/stephaniezellers/avatar.webp" alt="Stephanie Zellers" class="sc-card-img" />
 &lt;div class="sc-card-overlay">&lt;/div>
 &lt;div class="sc-card-content">
 &lt;h4 class="sc-card-name">Stephanie Zellers&lt;/h4>
 &lt;p class="sc-card-role">FORRT Steward&lt;/p>
 &lt;/div>
 &lt;/div>&lt;div class="sc-card" onclick="openModal('meerachandra')">
-&lt;img src="https://forrt.org/authors/meerachandra/avatar.webp" alt="Meera Chandra" class="sc-card-img" />
+&lt;img src="https://staging.forrt.org/authors/MeeraChandra/avatar.webp" alt="Meera Chandra" class="sc-card-img" />
 &lt;div class="sc-card-overlay">&lt;/div>
 &lt;div class="sc-card-content">
 &lt;h4 class="sc-card-name">Meera Chandra&lt;/h4>
 &lt;p class="sc-card-role">FORRT Steward&lt;/p>
 &lt;/div>
 &lt;/div>&lt;div class="sc-card" onclick="openModal('cassgheoghe')">
-&lt;img src="https://forrt.org/authors/cassgheoghe/avatar.webp" alt="Cass Gheoghe" class="sc-card-img" />
+&lt;img src="https://staging.forrt.org/authors/cassgheoghe/avatar.webp" alt="Cass Gheoghe" class="sc-card-img" />
 &lt;div class="sc-card-overlay">&lt;/div>
 &lt;div class="sc-card-content">
 &lt;h4 class="sc-card-name">Cass Gheoghe&lt;/h4>
@@ -265,14 +265,14 @@
 &lt;/div>
 &lt;div class="sc-grid">
 &lt;div class="sc-card" onclick="openModal('drlukaswallrich')">
-&lt;img src="https://forrt.org/authors/drlukaswallrich/avatar.webp" alt="Dr Lukas Wallrich" class="sc-card-img" />
+&lt;img src="https://staging.forrt.org/authors/drlukaswallrich/avatar.webp" alt="Dr Lukas Wallrich" class="sc-card-img" />
 &lt;div class="sc-card-overlay">&lt;/div>
 &lt;div class="sc-card-content">
 &lt;h4 class="sc-card-name">Dr Lukas Wallrich&lt;/h4>
 &lt;p class="sc-card-role">Co-Chair&lt;/p>
 &lt;/div>
 &lt;/div>&lt;div class="sc-card" onclick="openModal('flavioazevedo')">
-&lt;img src="https://forrt.org/authors/flavioazevedo/avatar.webp" alt="Flavio Azevedo" class="sc-card-img" />
+&lt;img src="https://staging.forrt.org/authors/flavioazevedo/avatar.webp" alt="Flavio Azevedo" class="sc-card-img" />
 &lt;div class="sc-card-overlay">&lt;/div>
 &lt;div class="sc-card-content">
 &lt;h4 class="sc-card-name">Flavio Azevedo&lt;/h4>
@@ -290,14 +290,14 @@
 &lt;/div>
 &lt;div class="sc-grid">
 &lt;div class="sc-card" onclick="openModal('samparsons')">
-&lt;img src="https://forrt.org/authors/samparsons/avatar.webp" alt="Sam Parsons" class="sc-card-img" />
+&lt;img src="https://staging.forrt.org/authors/SamParsons/avatar.webp" alt="Sam Parsons" class="sc-card-img" />
 &lt;div class="sc-card-overlay">&lt;/div>
 &lt;div class="sc-card-content">
 &lt;h4 class="sc-card-name">Sam Parsons&lt;/h4>
 &lt;p class="sc-card-role">Stewardship Panel&lt;/p>
 &lt;/div>
 &lt;/div>&lt;div class="sc-card" onclick="openModal('thomasrhysevans')">
-&lt;img src="https://forrt.org/authors/thomasrhysevans/avatar.webp" alt="Thomas Rhys Evans" class="sc-card-img" />
+&lt;img src="https://staging.forrt.org/authors/thomasrhysevans/avatar.webp" alt="Thomas Rhys Evans" class="sc-card-img" />
 &lt;div class="sc-card-overlay">&lt;/div>
 &lt;div class="sc-card-content">
 &lt;h4 class="sc-card-name">Thomas Rhys Evans&lt;/h4>
@@ -319,7 +319,7 @@
 &lt;div class="sc-modal-layout">
 &lt;div class="sc-modal-sidebar">
 &lt;div class="sc-modal-img">
-&lt;img src="https://forrt.org/authors/drstevenverheyen/avatar.webp" alt="dr. Steven Verheyen" />
+&lt;img src="https://staging.forrt.org/authors/drstevenverheyen/avatar.webp" alt="dr. Steven Verheyen" />
 &lt;/div>
 &lt;div class="sc-social-links">
 &lt;a href="www.stevenverheyen.com" target="_blank" rel="noopener noreferrer" class="text-slate-400 hover:text-slate-800 transition-colors">&lt;svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">&lt;circle cx="12" cy="12" r="10"/>&lt;line x1="2" x2="22" y1="12" y2="12"/>&lt;path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>&lt;/svg>&lt;/a>&lt;a href="mailto:verheyen@essb.eur.nl" class="text-slate-400 hover:text-slate-800 transition-colors">&lt;svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">&lt;rect width="20" height="16" x="2" y="4" rx="2"/>&lt;path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/>&lt;/svg>&lt;/a>
@@ -344,7 +344,7 @@
 &lt;div class="sc-modal-layout">
 &lt;div class="sc-modal-sidebar">
 &lt;div class="sc-modal-img">
-&lt;img src="https://forrt.org/authors/drsarahasauve/avatar.webp" alt="Dr. Sarah A. Sauvé" />
+&lt;img src="https://staging.forrt.org/authors/drsarahasauve/avatar.webp" alt="Dr. Sarah A. Sauvé" />
 &lt;/div>
 &lt;div class="sc-social-links">
 &lt;a href="https://staff.lincoln.ac.uk/8ebcbc1e-6ca0-4fde-b6ad-42775c65d754" target="_blank" rel="noopener noreferrer" class="text-slate-400 hover:text-slate-800 transition-colors">&lt;svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">&lt;circle cx="12" cy="12" r="10"/>&lt;line x1="2" x2="22" y1="12" y2="12"/>&lt;path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>&lt;/svg>&lt;/a>&lt;a href="mailto:ssauve@lincoln.ac.uk" class="text-slate-400 hover:text-slate-800 transition-colors">&lt;svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">&lt;rect width="20" height="16" x="2" y="4" rx="2"/>&lt;path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/>&lt;/svg>&lt;/a>
@@ -370,7 +370,7 @@ In FORRT, she has been involved in co-leading Team Citational Politics and is ve
 &lt;div class="sc-modal-layout">
 &lt;div class="sc-modal-sidebar">
 &lt;div class="sc-modal-img">
-&lt;img src="https://forrt.org/authors/drrachelheyard/avatar.webp" alt="Dr Rachel Heyard" />
+&lt;img src="https://staging.forrt.org/authors/drrachelheyard/avatar.webp" alt="Dr Rachel Heyard" />
 &lt;/div>
 &lt;div class="sc-social-links">
 &lt;a href="http://rachelheyard.com/" target="_blank" rel="noopener noreferrer" class="text-slate-400 hover:text-slate-800 transition-colors">&lt;svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">&lt;circle cx="12" cy="12" r="10"/>&lt;line x1="2" x2="22" y1="12" y2="12"/>&lt;path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>&lt;/svg>&lt;/a>&lt;a href="mailto:rachel.heyard@uzh.ch" class="text-slate-400 hover:text-slate-800 transition-colors">&lt;svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">&lt;rect width="20" height="16" x="2" y="4" rx="2"/>&lt;path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/>&lt;/svg>&lt;/a>
@@ -395,7 +395,7 @@ In FORRT, she has been involved in co-leading Team Citational Politics and is ve
 &lt;div class="sc-modal-layout">
 &lt;div class="sc-modal-sidebar">
 &lt;div class="sc-modal-img">
-&lt;img src="https://forrt.org/authors/tomheyman/avatar.webp" alt="Tom Heyman" />
+&lt;img src="https://staging.forrt.org/authors/TomHeyman/avatar.webp" alt="Tom Heyman" />
 &lt;/div>
 &lt;div class="sc-social-links">
 &lt;a href="https://www.universiteitleiden.nl/en/staffmembers/tom-heyman" target="_blank" rel="noopener noreferrer" class="text-slate-400 hover:text-slate-800 transition-colors">&lt;svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">&lt;circle cx="12" cy="12" r="10"/>&lt;line x1="2" x2="22" y1="12" y2="12"/>&lt;path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>&lt;/svg>&lt;/a>
@@ -420,7 +420,7 @@ In FORRT, she has been involved in co-leading Team Citational Politics and is ve
 &lt;div class="sc-modal-layout">
 &lt;div class="sc-modal-sidebar">
 &lt;div class="sc-modal-img">
-&lt;img src="https://forrt.org/authors/berittbarthelmesmsc/avatar.webp" alt="Berit T. Barthelmes, M.Sc." />
+&lt;img src="https://staging.forrt.org/authors/berittbarthelmesmsc/avatar.webp" alt="Berit T. Barthelmes, M.Sc." />
 &lt;/div>
 &lt;div class="sc-social-links">
 &lt;a href="linkedin.com/in/beritbarthelmes" target="_blank" rel="noopener noreferrer" class="text-slate-400 hover:text-slate-800 transition-colors">&lt;svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">&lt;circle cx="12" cy="12" r="10"/>&lt;line x1="2" x2="22" y1="12" y2="12"/>&lt;path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>&lt;/svg>&lt;/a>&lt;a href="mailto:bbart10@uic.edu" class="text-slate-400 hover:text-slate-800 transition-colors">&lt;svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">&lt;rect width="20" height="16" x="2" y="4" rx="2"/>&lt;path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/>&lt;/svg>&lt;/a>
@@ -445,7 +445,7 @@ In FORRT, she has been involved in co-leading Team Citational Politics and is ve
 &lt;div class="sc-modal-layout">
 &lt;div class="sc-modal-sidebar">
 &lt;div class="sc-modal-img">
-&lt;img src="https://forrt.org/authors/drmadeleinepownall/avatar.webp" alt="Dr Madeleine Pownall" />
+&lt;img src="https://staging.forrt.org/authors/drmadeleinepownall/avatar.webp" alt="Dr Madeleine Pownall" />
 &lt;/div>
 &lt;div class="sc-social-links">
 &lt;a href="https://medicinehealth.leeds.ac.uk/psychology/staff/2870/dr-madeleine-pownall-" target="_blank" rel="noopener noreferrer" class="text-slate-400 hover:text-slate-800 transition-colors">&lt;svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">&lt;circle cx="12" cy="12" r="10"/>&lt;line x1="2" x2="22" y1="12" y2="12"/>&lt;path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>&lt;/svg>&lt;/a>&lt;a href="mailto:M.V.Pownall@leeds.ac.uk" class="text-slate-400 hover:text-slate-800 transition-colors">&lt;svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">&lt;rect width="20" height="16" x="2" y="4" rx="2"/>&lt;path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/>&lt;/svg>&lt;/a>
@@ -470,7 +470,7 @@ In FORRT, she has been involved in co-leading Team Citational Politics and is ve
 &lt;div class="sc-modal-layout">
 &lt;div class="sc-modal-sidebar">
 &lt;div class="sc-modal-img">
-&lt;img src="https://forrt.org/authors/lornahamilton/avatar.webp" alt="Lorna Hamilton" />
+&lt;img src="https://staging.forrt.org/authors/LornaHamilton/avatar.webp" alt="Lorna Hamilton" />
 &lt;/div>
 &lt;div class="sc-social-links">
 &lt;a href="https://www.yorksj.ac.uk/our-staff/staff-profiles/lorna-hamilton.php" target="_blank" rel="noopener noreferrer" class="text-slate-400 hover:text-slate-800 transition-colors">&lt;svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">&lt;circle cx="12" cy="12" r="10"/>&lt;line x1="2" x2="22" y1="12" y2="12"/>&lt;path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>&lt;/svg>&lt;/a>
@@ -495,7 +495,7 @@ In FORRT, she has been involved in co-leading Team Citational Politics and is ve
 &lt;div class="sc-modal-layout">
 &lt;div class="sc-modal-sidebar">
 &lt;div class="sc-modal-img">
-&lt;img src="https://forrt.org/authors/dramandakaymontoya/avatar.webp" alt="Dr. Amanda Kay Montoya" />
+&lt;img src="https://staging.forrt.org/authors/dramandakaymontoya/avatar.webp" alt="Dr. Amanda Kay Montoya" />
 &lt;/div>
 &lt;div class="sc-social-links">
 &lt;a href="akmontoya.com" target="_blank" rel="noopener noreferrer" class="text-slate-400 hover:text-slate-800 transition-colors">&lt;svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">&lt;circle cx="12" cy="12" r="10"/>&lt;line x1="2" x2="22" y1="12" y2="12"/>&lt;path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>&lt;/svg>&lt;/a>&lt;a href="mailto:akmontoya@ucla.edu" class="text-slate-400 hover:text-slate-800 transition-colors">&lt;svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">&lt;rect width="20" height="16" x="2" y="4" rx="2"/>&lt;path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/>&lt;/svg>&lt;/a>
@@ -520,7 +520,7 @@ In FORRT, she has been involved in co-leading Team Citational Politics and is ve
 &lt;div class="sc-modal-layout">
 &lt;div class="sc-modal-sidebar">
 &lt;div class="sc-modal-img">
-&lt;img src="https://forrt.org/authors/drkellylloyd/avatar.webp" alt="Dr Kelly Lloyd" />
+&lt;img src="https://staging.forrt.org/authors/drkellylloyd/avatar.webp" alt="Dr Kelly Lloyd" />
 &lt;/div>
 &lt;div class="sc-social-links">
 &lt;a href="https://medicinehealth.leeds.ac.uk/medicine/staff/11697/dr-kelly-lloyd" target="_blank" rel="noopener noreferrer" class="text-slate-400 hover:text-slate-800 transition-colors">&lt;svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">&lt;circle cx="12" cy="12" r="10"/>&lt;line x1="2" x2="22" y1="12" y2="12"/>&lt;path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>&lt;/svg>&lt;/a>&lt;a href="mailto:nan" class="text-slate-400 hover:text-slate-800 transition-colors">&lt;svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">&lt;rect width="20" height="16" x="2" y="4" rx="2"/>&lt;path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/>&lt;/svg>&lt;/a>
@@ -545,7 +545,7 @@ In FORRT, she has been involved in co-leading Team Citational Politics and is ve
 &lt;div class="sc-modal-layout">
 &lt;div class="sc-modal-sidebar">
 &lt;div class="sc-modal-img">
-&lt;img src="https://forrt.org/authors/giorgiaandreolli/avatar.webp" alt="Giorgia Andreolli" />
+&lt;img src="https://staging.forrt.org/authors/GiorgiaAndreolli/avatar.webp" alt="Giorgia Andreolli" />
 &lt;/div>
 &lt;div class="sc-social-links">
 &lt;a href="https://www.eurac.edu/en/people/giorgia-andreolli" target="_blank" rel="noopener noreferrer" class="text-slate-400 hover:text-slate-800 transition-colors">&lt;svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">&lt;circle cx="12" cy="12" r="10"/>&lt;line x1="2" x2="22" y1="12" y2="12"/>&lt;path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>&lt;/svg>&lt;/a>
@@ -595,7 +595,7 @@ In FORRT, she has been involved in co-leading Team Citational Politics and is ve
 &lt;div class="sc-modal-layout">
 &lt;div class="sc-modal-sidebar">
 &lt;div class="sc-modal-img">
-&lt;img src="https://forrt.org/authors/drsarahashcroftjones/avatar.webp" alt="Dr Sarah Ashcroft-Jones" />
+&lt;img src="https://staging.forrt.org/authors/drsarahashcroftjones/avatar.webp" alt="Dr Sarah Ashcroft-Jones" />
 &lt;/div>
 &lt;div class="sc-social-links">
 &lt;a href="https://sarahashcroftjones.com/" target="_blank" rel="noopener noreferrer" class="text-slate-400 hover:text-slate-800 transition-colors">&lt;svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">&lt;circle cx="12" cy="12" r="10"/>&lt;line x1="2" x2="22" y1="12" y2="12"/>&lt;path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>&lt;/svg>&lt;/a>&lt;a href="mailto:sarah.ashcroft-jones@columbia.edu" class="text-slate-400 hover:text-slate-800 transition-colors">&lt;svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">&lt;rect width="20" height="16" x="2" y="4" rx="2"/>&lt;path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/>&lt;/svg>&lt;/a>
@@ -620,7 +620,7 @@ In FORRT, she has been involved in co-leading Team Citational Politics and is ve
 &lt;div class="sc-modal-layout">
 &lt;div class="sc-modal-sidebar">
 &lt;div class="sc-modal-img">
-&lt;img src="https://forrt.org/authors/sara-lil-middleton/avatar.webp" alt="Sara Lil Middleton" />
+&lt;img src="https://staging.forrt.org/authors/saralilmiddleton/avatar.webp" alt="Sara Lil Middleton" />
 &lt;/div>
 &lt;div class="sc-social-links">
 &lt;a href="https://www.environmental-research.ox.ac.uk/people/sara-lil-middleton-0" target="_blank" rel="noopener noreferrer" class="text-slate-400 hover:text-slate-800 transition-colors">&lt;svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">&lt;circle cx="12" cy="12" r="10"/>&lt;line x1="2" x2="22" y1="12" y2="12"/>&lt;path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>&lt;/svg>&lt;/a>
@@ -645,7 +645,7 @@ In FORRT, she has been involved in co-leading Team Citational Politics and is ve
 &lt;div class="sc-modal-layout">
 &lt;div class="sc-modal-sidebar">
 &lt;div class="sc-modal-img">
-&lt;img src="https://forrt.org/authors/drjohnshaw/avatar.webp" alt="Dr John Shaw" />
+&lt;img src="https://staging.forrt.org/authors/drjohnshaw/avatar.webp" alt="Dr John Shaw" />
 &lt;/div>
 &lt;div class="sc-social-links">
 &lt;a href="https://www.edgehill.ac.uk/person/dr-john-shaw/staff/" target="_blank" rel="noopener noreferrer" class="text-slate-400 hover:text-slate-800 transition-colors">&lt;svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">&lt;circle cx="12" cy="12" r="10"/>&lt;line x1="2" x2="22" y1="12" y2="12"/>&lt;path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>&lt;/svg>&lt;/a>&lt;a href="mailto:john.shaw@edgehill.ac.uk" class="text-slate-400 hover:text-slate-800 transition-colors">&lt;svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">&lt;rect width="20" height="16" x="2" y="4" rx="2"/>&lt;path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/>&lt;/svg>&lt;/a>
@@ -670,7 +670,7 @@ In FORRT, she has been involved in co-leading Team Citational Politics and is ve
 &lt;div class="sc-modal-layout">
 &lt;div class="sc-modal-sidebar">
 &lt;div class="sc-modal-img">
-&lt;img src="https://forrt.org/authors/thomasrhysevans/avatar.webp" alt="Thomas Rhys Evans" />
+&lt;img src="https://staging.forrt.org/authors/thomasrhysevans/avatar.webp" alt="Thomas Rhys Evans" />
 &lt;/div>
 &lt;div class="sc-social-links">
 &lt;a href="https://www.gre.ac.uk/people/rep/faculty-of-education-and-health/thomas-rhys-evans" target="_blank" rel="noopener noreferrer" class="text-slate-400 hover:text-slate-800 transition-colors">&lt;svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">&lt;circle cx="12" cy="12" r="10"/>&lt;line x1="2" x2="22" y1="12" y2="12"/>&lt;path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>&lt;/svg>&lt;/a>
@@ -695,7 +695,7 @@ In FORRT, she has been involved in co-leading Team Citational Politics and is ve
 &lt;div class="sc-modal-layout">
 &lt;div class="sc-modal-sidebar">
 &lt;div class="sc-modal-img">
-&lt;img src="https://forrt.org/authors/drmaxkorbmacher/avatar.webp" alt="Dr Max Korbmacher" />
+&lt;img src="https://staging.forrt.org/authors/drmaxkorbmacher/avatar.webp" alt="Dr Max Korbmacher" />
 &lt;/div>
 &lt;div class="sc-social-links">
 &lt;a href="https://scholar.google.com/citations?user=aZbaBqQAAAAJ&amp;hl=no" target="_blank" rel="noopener noreferrer" class="text-slate-400 hover:text-slate-800 transition-colors">&lt;svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">&lt;circle cx="12" cy="12" r="10"/>&lt;line x1="2" x2="22" y1="12" y2="12"/>&lt;path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>&lt;/svg>&lt;/a>&lt;a href="mailto:nan" class="text-slate-400 hover:text-slate-800 transition-colors">&lt;svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">&lt;rect width="20" height="16" x="2" y="4" rx="2"/>&lt;path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/>&lt;/svg>&lt;/a>
@@ -720,7 +720,7 @@ In FORRT, she has been involved in co-leading Team Citational Politics and is ve
 &lt;div class="sc-modal-layout">
 &lt;div class="sc-modal-sidebar">
 &lt;div class="sc-modal-img">
-&lt;img src="https://forrt.org/authors/karenmatvienkosikar/avatar.webp" alt="Karen Matvienko-Sikar" />
+&lt;img src="https://staging.forrt.org/authors/karenmatvienkosikar/avatar.webp" alt="Karen Matvienko-Sikar" />
 &lt;/div>
 &lt;div class="sc-social-links">
 &lt;a href="https://www.ucc.ie/en/publichealth/people/estaff/ms-karen-matvienko-sikar/" target="_blank" rel="noopener noreferrer" class="text-slate-400 hover:text-slate-800 transition-colors">&lt;svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">&lt;circle cx="12" cy="12" r="10"/>&lt;line x1="2" x2="22" y1="12" y2="12"/>&lt;path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>&lt;/svg>&lt;/a>
@@ -745,7 +745,7 @@ In FORRT, she has been involved in co-leading Team Citational Politics and is ve
 &lt;div class="sc-modal-layout">
 &lt;div class="sc-modal-sidebar">
 &lt;div class="sc-modal-img">
-&lt;img src="https://forrt.org/authors/fotismystakopoulosphdstudent/avatar.webp" alt="Fotis Mystakopoulos, PhD Student" />
+&lt;img src="https://staging.forrt.org/authors/fotismystakopoulosphdstudent/avatar.webp" alt="Fotis Mystakopoulos, PhD Student" />
 &lt;/div>
 &lt;div class="sc-social-links">
 &lt;a href="nan" target="_blank" rel="noopener noreferrer" class="text-slate-400 hover:text-slate-800 transition-colors">&lt;svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">&lt;circle cx="12" cy="12" r="10"/>&lt;line x1="2" x2="22" y1="12" y2="12"/>&lt;path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>&lt;/svg>&lt;/a>&lt;a href="mailto:fmystakopoulos@uniwa.gr" class="text-slate-400 hover:text-slate-800 transition-colors">&lt;svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">&lt;rect width="20" height="16" x="2" y="4" rx="2"/>&lt;path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/>&lt;/svg>&lt;/a>
@@ -773,7 +773,7 @@ Currently, alongside his professional duties, he is pursuing a PhD at the Univer
 &lt;div class="sc-modal-layout">
 &lt;div class="sc-modal-sidebar">
 &lt;div class="sc-modal-img">
-&lt;img src="https://forrt.org/authors/aliciatamaraveersmabarredo/avatar.webp" alt="Alicia Tamara Veersma Barredo" />
+&lt;img src="https://staging.forrt.org/authors/aliciatamaraveersmabarredo/avatar.webp" alt="Alicia Tamara Veersma Barredo" />
 &lt;/div>
 &lt;div class="sc-social-links">
 &lt;a href="nan" target="_blank" rel="noopener noreferrer" class="text-slate-400 hover:text-slate-800 transition-colors">&lt;svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">&lt;circle cx="12" cy="12" r="10"/>&lt;line x1="2" x2="22" y1="12" y2="12"/>&lt;path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>&lt;/svg>&lt;/a>&lt;a href="mailto:nan" class="text-slate-400 hover:text-slate-800 transition-colors">&lt;svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">&lt;rect width="20" height="16" x="2" y="4" rx="2"/>&lt;path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/>&lt;/svg>&lt;/a>
@@ -798,7 +798,7 @@ Currently, alongside his professional duties, he is pursuing a PhD at the Univer
 &lt;div class="sc-modal-layout">
 &lt;div class="sc-modal-sidebar">
 &lt;div class="sc-modal-img">
-&lt;img src="https://forrt.org/authors/adampartridge/avatar.webp" alt="Adam Partridge" />
+&lt;img src="https://staging.forrt.org/authors/adampartridge/avatar.webp" alt="Adam Partridge" />
 &lt;/div>
 &lt;div class="sc-social-links">
 &lt;a href="https://fellowship.elixiruknode.org/adam-partridge" target="_blank" rel="noopener noreferrer" class="text-slate-400 hover:text-slate-800 transition-colors">&lt;svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">&lt;circle cx="12" cy="12" r="10"/>&lt;line x1="2" x2="22" y1="12" y2="12"/>&lt;path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>&lt;/svg>&lt;/a>
@@ -823,7 +823,7 @@ Currently, alongside his professional duties, he is pursuing a PhD at the Univer
 &lt;div class="sc-modal-layout">
 &lt;div class="sc-modal-sidebar">
 &lt;div class="sc-modal-img">
-&lt;img src="https://forrt.org/authors/justinsulik/avatar.webp" alt="Justin Sulik" />
+&lt;img src="https://staging.forrt.org/authors/justinsulik/avatar.webp" alt="Justin Sulik" />
 &lt;/div>
 &lt;div class="sc-social-links">
 &lt;a href="https://www.cvbe.philosophie.uni-muenchen.de/people/assistant-professors/justin-sulik/index.html" target="_blank" rel="noopener noreferrer" class="text-slate-400 hover:text-slate-800 transition-colors">&lt;svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">&lt;circle cx="12" cy="12" r="10"/>&lt;line x1="2" x2="22" y1="12" y2="12"/>&lt;path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>&lt;/svg>&lt;/a>
@@ -848,7 +848,7 @@ Currently, alongside his professional duties, he is pursuing a PhD at the Univer
 &lt;div class="sc-modal-layout">
 &lt;div class="sc-modal-sidebar">
 &lt;div class="sc-modal-img">
-&lt;img src="https://forrt.org/authors/dushime-mudahera-richard/avatar.webp" alt="Dushime Mudahera Richard" />
+&lt;img src="https://staging.forrt.org/authors/dushimemudaherarichard/avatar.webp" alt="Dushime Mudahera Richard" />
 &lt;/div>
 &lt;div class="sc-social-links">
 &lt;a href="https://richarddushime.netlify.app/" target="_blank" rel="noopener noreferrer" class="text-slate-400 hover:text-slate-800 transition-colors">&lt;svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">&lt;circle cx="12" cy="12" r="10"/>&lt;line x1="2" x2="22" y1="12" y2="12"/>&lt;path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>&lt;/svg>&lt;/a>&lt;a href="mailto:mudaherarich@gmail.com" class="text-slate-400 hover:text-slate-800 transition-colors">&lt;svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">&lt;rect width="20" height="16" x="2" y="4" rx="2"/>&lt;path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/>&lt;/svg>&lt;/a>
@@ -873,7 +873,7 @@ Currently, alongside his professional duties, he is pursuing a PhD at the Univer
 &lt;div class="sc-modal-layout">
 &lt;div class="sc-modal-sidebar">
 &lt;div class="sc-modal-img">
-&lt;img src="https://forrt.org/authors/adiradaniel/avatar.webp" alt="Adira Daniel" />
+&lt;img src="https://staging.forrt.org/authors/adiradaniel/avatar.webp" alt="Adira Daniel" />
 &lt;/div>
 &lt;div class="sc-social-links">
 &lt;a href="https://scholar.google.com/citations?user=VRDkDV8AAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer" class="text-slate-400 hover:text-slate-800 transition-colors">&lt;svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">&lt;circle cx="12" cy="12" r="10"/>&lt;line x1="2" x2="22" y1="12" y2="12"/>&lt;path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>&lt;/svg>&lt;/a>
@@ -898,7 +898,7 @@ Currently, alongside his professional duties, he is pursuing a PhD at the Univer
 &lt;div class="sc-modal-layout">
 &lt;div class="sc-modal-sidebar">
 &lt;div class="sc-modal-img">
-&lt;img src="https://forrt.org/authors/stephanie-zellers/avatar.webp" alt="Stephanie Zellers" />
+&lt;img src="https://staging.forrt.org/authors/stephaniezellers/avatar.webp" alt="Stephanie Zellers" />
 &lt;/div>
 &lt;div class="sc-social-links">
 &lt;a href="https://researchportal.helsinki.fi/en/persons/stephanie-zellers" target="_blank" rel="noopener noreferrer" class="text-slate-400 hover:text-slate-800 transition-colors">&lt;svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">&lt;circle cx="12" cy="12" r="10"/>&lt;line x1="2" x2="22" y1="12" y2="12"/>&lt;path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>&lt;/svg>&lt;/a>
@@ -923,7 +923,7 @@ Currently, alongside his professional duties, he is pursuing a PhD at the Univer
 &lt;div class="sc-modal-layout">
 &lt;div class="sc-modal-sidebar">
 &lt;div class="sc-modal-img">
-&lt;img src="https://forrt.org/authors/meerachandra/avatar.webp" alt="Meera Chandra" />
+&lt;img src="https://staging.forrt.org/authors/MeeraChandra/avatar.webp" alt="Meera Chandra" />
 &lt;/div>
 &lt;div class="sc-social-links">
 &lt;a href="https://www.iins.u-bordeaux.fr/en/person/153902-meera-chandra/" target="_blank" rel="noopener noreferrer" class="text-slate-400 hover:text-slate-800 transition-colors">&lt;svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">&lt;circle cx="12" cy="12" r="10"/>&lt;line x1="2" x2="22" y1="12" y2="12"/>&lt;path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>&lt;/svg>&lt;/a>
@@ -948,7 +948,7 @@ Currently, alongside his professional duties, he is pursuing a PhD at the Univer
 &lt;div class="sc-modal-layout">
 &lt;div class="sc-modal-sidebar">
 &lt;div class="sc-modal-img">
-&lt;img src="https://forrt.org/authors/cassgheoghe/avatar.webp" alt="Cass Gheoghe" />
+&lt;img src="https://staging.forrt.org/authors/cassgheoghe/avatar.webp" alt="Cass Gheoghe" />
 &lt;/div>
 &lt;div class="sc-social-links">
 &lt;a href="nan" target="_blank" rel="noopener noreferrer" class="text-slate-400 hover:text-slate-800 transition-colors">&lt;svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">&lt;circle cx="12" cy="12" r="10"/>&lt;line x1="2" x2="22" y1="12" y2="12"/>&lt;path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>&lt;/svg>&lt;/a>
@@ -973,7 +973,7 @@ Currently, alongside his professional duties, he is pursuing a PhD at the Univer
 &lt;div class="sc-modal-layout">
 &lt;div class="sc-modal-sidebar">
 &lt;div class="sc-modal-img">
-&lt;img src="https://forrt.org/authors/drlukaswallrich/avatar.webp" alt="Dr Lukas Wallrich" />
+&lt;img src="https://staging.forrt.org/authors/drlukaswallrich/avatar.webp" alt="Dr Lukas Wallrich" />
 &lt;/div>
 &lt;div class="sc-social-links">
 &lt;a href="www.lukaswallrich.coffee" target="_blank" rel="noopener noreferrer" class="text-slate-400 hover:text-slate-800 transition-colors">&lt;svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">&lt;circle cx="12" cy="12" r="10"/>&lt;line x1="2" x2="22" y1="12" y2="12"/>&lt;path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>&lt;/svg>&lt;/a>&lt;a href="mailto:l.wallrich@bbk.ac.uk" class="text-slate-400 hover:text-slate-800 transition-colors">&lt;svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">&lt;rect width="20" height="16" x="2" y="4" rx="2"/>&lt;path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/>&lt;/svg>&lt;/a>
@@ -999,7 +999,7 @@ I am also very interested in Open Science and an avid R user. In that space, I e
 &lt;div class="sc-modal-layout">
 &lt;div class="sc-modal-sidebar">
 &lt;div class="sc-modal-img">
-&lt;img src="https://forrt.org/authors/flavioazevedo/avatar.webp" alt="Flavio Azevedo" />
+&lt;img src="https://staging.forrt.org/authors/flavioazevedo/avatar.webp" alt="Flavio Azevedo" />
 &lt;/div>
 &lt;div class="sc-social-links">
 &lt;a href="http://flavioazevedo.com/about" target="_blank" rel="noopener noreferrer" class="text-slate-400 hover:text-slate-800 transition-colors">&lt;svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">&lt;circle cx="12" cy="12" r="10"/>&lt;line x1="2" x2="22" y1="12" y2="12"/>&lt;path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>&lt;/svg>&lt;/a>
@@ -1024,7 +1024,7 @@ I am also very interested in Open Science and an avid R user. In that space, I e
 &lt;div class="sc-modal-layout">
 &lt;div class="sc-modal-sidebar">
 &lt;div class="sc-modal-img">
-&lt;img src="https://forrt.org/authors/samparsons/avatar.webp" alt="Sam Parsons" />
+&lt;img src="https://staging.forrt.org/authors/SamParsons/avatar.webp" alt="Sam Parsons" />
 &lt;/div>
 &lt;div class="sc-social-links">
 &lt;a href="https://sdparsons.github.io/" target="_blank" rel="noopener noreferrer" class="text-slate-400 hover:text-slate-800 transition-colors">&lt;svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">&lt;circle cx="12" cy="12" r="10"/>&lt;line x1="2" x2="22" y1="12" y2="12"/>&lt;path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>&lt;/svg>&lt;/a>
@@ -1049,7 +1049,7 @@ I am also very interested in Open Science and an avid R user. In that space, I e
 &lt;div class="sc-modal-layout">
 &lt;div class="sc-modal-sidebar">
 &lt;div class="sc-modal-img">
-&lt;img src="https://forrt.org/authors/thomas-rhys-evans/avatar.webp" alt="Thomas Rhys Evans" />
+&lt;img src="https://staging.forrt.org/authors/thomasrhysevans/avatar.webp" alt="Thomas Rhys Evans" />
 &lt;/div>
 &lt;div class="sc-social-links">
 &lt;a href="https://www.gre.ac.uk/people/rep/faculty-of-education-and-health/thomas-rhys-evans" target="_blank" rel="noopener noreferrer" class="text-slate-400 hover:text-slate-800 transition-colors">&lt;svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">&lt;circle cx="12" cy="12" r="10"/>&lt;line x1="2" x2="22" y1="12" y2="12"/>&lt;path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>&lt;/svg>&lt;/a>
@@ -1292,7 +1292,7 @@ Object.entries(orders).forEach(([sectionId, teams]) => reorderAndLink(sectionId,
 })
 .catch((err) => console.warn('SC team linking failed', err));
 });
-&lt;/script></description></item><item><title>Teams</title><link>https://forrt.org/about/teams/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://forrt.org/about/teams/</guid><description/></item><item><title>Visitors</title><link>https://forrt.org/about/visitors/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://forrt.org/about/visitors/</guid><description>&lt;p>We are excited to see that our resources are useful for people from all over the world. Here are some statistics to show who has been here over the past 30 days.&lt;/p>
+&lt;/script></description></item><item><title>Teams</title><link>https://staging.forrt.org/about/teams/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://staging.forrt.org/about/teams/</guid><description/></item><item><title>Visitors</title><link>https://staging.forrt.org/about/visitors/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://staging.forrt.org/about/visitors/</guid><description>&lt;p>We are excited to see that our resources are useful for people from all over the world. Here are some statistics to show who has been here over the past 30 days.&lt;/p>
 &lt;h2 id="last-30-days">Last 30 Days&lt;/h2>
 &lt;h3 id="-by-country">&amp;hellip; by country&lt;/h3>
 &lt;div id="ga_map" style="height: 400px; background: #b3d9ff;">&lt;/div>
