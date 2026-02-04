@@ -9359,7 +9359,9 @@ article.article:has(table) .article-container {
   color: #333;
   cursor: pointer;
   transition: all 0.2s ease;
-  opacity: 0.8; }
+  opacity: 0.8;
+  background-color: #e0e0e0;
+  /* Default background color for all pills buttons */ }
 
 .pub-pill:hover {
   opacity: 1; }
@@ -9408,9 +9410,6 @@ article.article:has(table) .article-container {
 
 .pill-community-governance-sustainability {
   background-color: #BFCFC7 !important; }
-
-.pill-education-pedagogy {
-  background-color: #e8da99 !important; }
 
 /* -------------------------------------------------- */
 /* New Filter UI Styles (Pill Bar) */
