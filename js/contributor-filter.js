@@ -6,8 +6,7 @@
         const params = new URLSearchParams(window.location.search);
         return {
             project: params.get('project'),
-            role: params.get('role'),
-            collapseFilter: params.has('collapse-filter')
+            role: params.get('role')
         };
     }
 
@@ -189,48 +188,24 @@
         window.location.href = window.location.pathname;
     }
 
-    // Handle collapsed filter mode
-    function handleCollapsedFilter() {
-        const params = getURLParams();
-        if (!params.collapseFilter) return false;
-
-        const filterMenu = document.getElementById('filter-menu');
-        if (!filterMenu) return false;
-
-        // Create a minimal collapsed view
-        const collapsedView = document.createElement('div');
-        collapsedView.id = 'filter-collapsed';
-        collapsedView.innerHTML = '<a href="' + window.location.pathname + '">← Show contributions to all projects</a>';
-
-        // Replace the filter menu with the collapsed view
-        filterMenu.parentNode.replaceChild(collapsedView, filterMenu);
-
-        return true;
-    }
-
     // Initialize on page load
     document.addEventListener('DOMContentLoaded', function() {
-        // Check if filter should be collapsed
-        const isCollapsed = handleCollapsedFilter();
-
-        if (!isCollapsed) {
-            // Populate dropdowns if filter data is available
-            populateDropdowns();
-
-            // Sync dropdowns with URL parameters
-            syncDropdownsWithURL();
-
-            // Add event listener to apply filter button
-            const applyButton = document.getElementById('apply-filter');
-            if (applyButton) {
-                applyButton.addEventListener('click', applyFilterFromDropdowns);
-            }
-
-            // Add event listener to clear filter button
-            const clearButton = document.getElementById('clear-filters');
-            if (clearButton) {
-                clearButton.addEventListener('click', clearFilters);
-            }
+        // Populate dropdowns if filter data is available
+        populateDropdowns();
+        
+        // Sync dropdowns with URL parameters
+        syncDropdownsWithURL();
+        
+        // Add event listener to apply filter button
+        const applyButton = document.getElementById('apply-filter');
+        if (applyButton) {
+            applyButton.addEventListener('click', applyFilterFromDropdowns);
+        }
+        
+        // Add event listener to clear filter button
+        const clearButton = document.getElementById('clear-filters');
+        if (clearButton) {
+            clearButton.addEventListener('click', clearFilters);
         }
 
         // Apply filters based on current URL
