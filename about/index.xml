@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>About FORRT | FORRT - Framework for Open and Reproducible Research Training</title><link>https://staging.forrt.org/about/</link><atom:link href="https://staging.forrt.org/about/index.xml" rel="self" type="application/rss+xml"/><description>About FORRT</description><generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2026 - FORRT > Framework for Open and Reproducible Research Training</copyright><image><url>https://staging.forrt.org/img/FORRT_banner.svg</url><title>About FORRT</title><link>https://staging.forrt.org/about/</link></image><item><title>About us</title><link>https://staging.forrt.org/about/us/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://staging.forrt.org/about/us/</guid><description/></item><item><title>Cite us</title><link>https://staging.forrt.org/about/cite_us/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://staging.forrt.org/about/cite_us/</guid><description/></item><item><title>Community</title><link>https://staging.forrt.org/about/community/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://staging.forrt.org/about/community/</guid><description/></item><item><title>FORRT Germany e.V.</title><link>https://staging.forrt.org/about/charity/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://staging.forrt.org/about/charity/</guid><description/></item><item><title>Get Involved</title><link>https://staging.forrt.org/about/get-involved/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://staging.forrt.org/about/get-involved/</guid><description/></item><item><title>Mission</title><link>https://staging.forrt.org/about/mission/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://staging.forrt.org/about/mission/</guid><description/></item><item><title>Partnerships</title><link>https://staging.forrt.org/about/partnerships/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://staging.forrt.org/about/partnerships/</guid><description/></item><item><title>Principles</title><link>https://staging.forrt.org/about/principles/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://staging.forrt.org/about/principles/</guid><description/></item><item><title>Steering Committee</title><link>https://staging.forrt.org/about/steering-committee/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://staging.forrt.org/about/steering-committee/</guid><description>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>About FORRT | FORRT - Framework for Open and Reproducible Research Training</title><link>https://forrt.org/about/</link><atom:link href="https://forrt.org/about/index.xml" rel="self" type="application/rss+xml"/><description>About FORRT</description><generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2026 - FORRT > Framework for Open and Reproducible Research Training</copyright><image><url>https://forrt.org/img/FORRT_banner.svg</url><title>About FORRT</title><link>https://forrt.org/about/</link></image><item><title>About us</title><link>https://forrt.org/about/us/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://forrt.org/about/us/</guid><description/></item><item><title>Cite us</title><link>https://forrt.org/about/cite_us/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://forrt.org/about/cite_us/</guid><description/></item><item><title>Community</title><link>https://forrt.org/about/community/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://forrt.org/about/community/</guid><description/></item><item><title>FORRT Germany e.V.</title><link>https://forrt.org/about/charity/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://forrt.org/about/charity/</guid><description/></item><item><title>Get Involved</title><link>https://forrt.org/about/get-involved/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://forrt.org/about/get-involved/</guid><description/></item><item><title>Mission</title><link>https://forrt.org/about/mission/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://forrt.org/about/mission/</guid><description/></item><item><title>Partnerships</title><link>https://forrt.org/about/partnerships/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://forrt.org/about/partnerships/</guid><description/></item><item><title>Principles</title><link>https://forrt.org/about/principles/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://forrt.org/about/principles/</guid><description/></item><item><title>Steering Committee</title><link>https://forrt.org/about/steering-committee/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://forrt.org/about/steering-committee/</guid><description>
 &lt;!-- Google Fonts -->
 &lt;link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet">
 &lt;!-- External CSS -->
-&lt;link rel="stylesheet" href="https://staging.forrt.org/css/steering-committee.css">
+&lt;link rel="stylesheet" href="https://forrt.org/css/steering-committee.css">
 &lt;div id="sc-container" class="col-lg-12">
 &lt;h1 class="sc-page-title">Steering Committee&lt;/h1>
 &lt;nav class="sc-nav">
@@ -25,7 +25,7 @@
 &lt;span class="sc-title-label">Team&lt;/span>
 &lt;h3 class="sc-title-text">Community &amp; Sustainability&lt;/h3>
 &lt;/div>&lt;div class="sc-card" onclick="openModal('drstevenverheyen')">
-&lt;img src="https://staging.forrt.org/authors/drstevenverheyen/avatar.webp" alt="dr. Steven Verheyen" class="sc-card-img" />
+&lt;img src="https://forrt.org/authors/drstevenverheyen/avatar.webp" alt="dr. Steven Verheyen" class="sc-card-img" />
 &lt;div class="sc-card-overlay">&lt;/div>
 &lt;div class="sc-card-content">
 &lt;h4 class="sc-card-name">dr. Steven Verheyen&lt;/h4>
@@ -35,7 +35,7 @@
 &lt;span class="sc-title-label">Team&lt;/span>
 &lt;h3 class="sc-title-text">Social Justice &amp; DEIA&lt;/h3>
 &lt;/div>&lt;div class="sc-card" onclick="openModal('drsarahasauve')">
-&lt;img src="https://staging.forrt.org/authors/drsarahasauve/avatar.webp" alt="Dr. Sarah A. Sauvé" class="sc-card-img" />
+&lt;img src="https://forrt.org/authors/drsarahasauve/avatar.webp" alt="Dr. Sarah A. Sauvé" class="sc-card-img" />
 &lt;div class="sc-card-overlay">&lt;/div>
 &lt;div class="sc-card-content">
 &lt;h4 class="sc-card-name">Dr. Sarah A. Sauvé&lt;/h4>
@@ -45,21 +45,21 @@
 &lt;span class="sc-title-label">Team&lt;/span>
 &lt;h3 class="sc-title-text">Meta-science &amp; Research&lt;/h3>
 &lt;/div>&lt;div class="sc-card" onclick="openModal('drrachelheyard')">
-&lt;img src="https://staging.forrt.org/authors/drrachelheyard/avatar.webp" alt="Dr Rachel Heyard" class="sc-card-img" />
+&lt;img src="https://forrt.org/authors/drrachelheyard/avatar.webp" alt="Dr Rachel Heyard" class="sc-card-img" />
 &lt;div class="sc-card-overlay">&lt;/div>
 &lt;div class="sc-card-content">
 &lt;h4 class="sc-card-name">Dr Rachel Heyard&lt;/h4>
 &lt;p class="sc-card-role">Director&lt;/p>
 &lt;/div>
 &lt;/div>&lt;div class="sc-card" onclick="openModal('tomheyman')">
-&lt;img src="https://staging.forrt.org/authors/tomheyman/avatar.webp" alt="Tom Heyman" class="sc-card-img" />
+&lt;img src="https://forrt.org/authors/tomheyman/avatar.webp" alt="Tom Heyman" class="sc-card-img" />
 &lt;div class="sc-card-overlay">&lt;/div>
 &lt;div class="sc-card-content">
 &lt;h4 class="sc-card-name">Tom Heyman&lt;/h4>
 &lt;p class="sc-card-role">Deputy-Director&lt;/p>
 &lt;/div>
 &lt;/div>&lt;div class="sc-card" onclick="openModal('berittbarthelmesmsc')">
-&lt;img src="https://staging.forrt.org/authors/berittbarthelmesmsc/avatar.webp" alt="Berit T. Barthelmes, M.Sc." class="sc-card-img" />
+&lt;img src="https://forrt.org/authors/berittbarthelmesmsc/avatar.webp" alt="Berit T. Barthelmes, M.Sc." class="sc-card-img" />
 &lt;div class="sc-card-overlay">&lt;/div>
 &lt;div class="sc-card-content">
 &lt;h4 class="sc-card-name">Berit T. Barthelmes, M.Sc.&lt;/h4>
@@ -69,14 +69,14 @@
 &lt;span class="sc-title-label">Team&lt;/span>
 &lt;h3 class="sc-title-text">Education &amp; Pedagogy&lt;/h3>
 &lt;/div>&lt;div class="sc-card" onclick="openModal('drmadeleinepownall')">
-&lt;img src="https://staging.forrt.org/authors/drmadeleinepownall/avatar.webp" alt="Dr Madeleine Pownall" class="sc-card-img" />
+&lt;img src="https://forrt.org/authors/drmadeleinepownall/avatar.webp" alt="Dr Madeleine Pownall" class="sc-card-img" />
 &lt;div class="sc-card-overlay">&lt;/div>
 &lt;div class="sc-card-content">
 &lt;h4 class="sc-card-name">Dr Madeleine Pownall&lt;/h4>
 &lt;p class="sc-card-role">Director&lt;/p>
 &lt;/div>
 &lt;/div>&lt;div class="sc-card" onclick="openModal('lornahamilton')">
-&lt;img src="https://staging.forrt.org/authors/lornahamilton/avatar.webp" alt="Lorna Hamilton" class="sc-card-img" />
+&lt;img src="https://forrt.org/authors/lornahamilton/avatar.webp" alt="Lorna Hamilton" class="sc-card-img" />
 &lt;div class="sc-card-overlay">&lt;/div>
 &lt;div class="sc-card-content">
 &lt;h4 class="sc-card-name">Lorna Hamilton&lt;/h4>
@@ -97,21 +97,21 @@
 &lt;span class="sc-title-label">Team&lt;/span>
 &lt;h3 class="sc-title-text">Community Governance &amp; Management&lt;/h3>
 &lt;/div>&lt;div class="sc-card" onclick="openModal('dramandakaymontoya')">
-&lt;img src="https://staging.forrt.org/authors/dramandakaymontoya/avatar.webp" alt="Dr. Amanda Kay Montoya" class="sc-card-img" />
+&lt;img src="https://forrt.org/authors/dramandakaymontoya/avatar.webp" alt="Dr. Amanda Kay Montoya" class="sc-card-img" />
 &lt;div class="sc-card-overlay">&lt;/div>
 &lt;div class="sc-card-content">
 &lt;h4 class="sc-card-name">Dr. Amanda Kay Montoya&lt;/h4>
 &lt;p class="sc-card-role">Director&lt;/p>
 &lt;/div>
 &lt;/div>&lt;div class="sc-card" onclick="openModal('drkellylloyd')">
-&lt;img src="https://staging.forrt.org/authors/drkellylloyd/avatar.webp" alt="Dr Kelly Lloyd" class="sc-card-img" />
+&lt;img src="https://forrt.org/authors/drkellylloyd/avatar.webp" alt="Dr Kelly Lloyd" class="sc-card-img" />
 &lt;div class="sc-card-overlay">&lt;/div>
 &lt;div class="sc-card-content">
 &lt;h4 class="sc-card-name">Dr Kelly Lloyd&lt;/h4>
 &lt;p class="sc-card-role">Cohesion-Liaison&lt;/p>
 &lt;/div>
 &lt;/div>&lt;div class="sc-card" onclick="openModal('giorgiaandreolli')">
-&lt;img src="https://staging.forrt.org/authors/giorgiaandreolli/avatar.webp" alt="Giorgia Andreolli" class="sc-card-img" />
+&lt;img src="https://forrt.org/authors/giorgiaandreolli/avatar.webp" alt="Giorgia Andreolli" class="sc-card-img" />
 &lt;div class="sc-card-overlay">&lt;/div>
 &lt;div class="sc-card-content">
 &lt;h4 class="sc-card-name">Giorgia Andreolli&lt;/h4>
@@ -121,7 +121,7 @@
 &lt;span class="sc-title-label">Team&lt;/span>
 &lt;h3 class="sc-title-text">Community Engagement&lt;/h3>
 &lt;/div>&lt;div class="sc-card" onclick="openModal('drlukasroseler')">
-&lt;img src="https://staging.forrt.org/authors/drlukasroseler/avatar.webp" alt="Dr. Lukas Röseler" class="sc-card-img" />
+&lt;img src="https://forrt.org/authors/drlukasroseler/avatar.webp" alt="Dr. Lukas Röseler" class="sc-card-img" />
 &lt;div class="sc-card-overlay">&lt;/div>
 &lt;div class="sc-card-content">
 &lt;h4 class="sc-card-name">Dr. Lukas Röseler&lt;/h4>
@@ -131,14 +131,14 @@
 &lt;span class="sc-title-label">Team&lt;/span>
 &lt;h3 class="sc-title-text">Sustainability &amp; Strategy&lt;/h3>
 &lt;/div>&lt;div class="sc-card" onclick="openModal('drsarahashcroftjones')">
-&lt;img src="https://staging.forrt.org/authors/drsarahashcroftjones/avatar.webp" alt="Dr Sarah Ashcroft-Jones" class="sc-card-img" />
+&lt;img src="https://forrt.org/authors/drsarahashcroftjones/avatar.webp" alt="Dr Sarah Ashcroft-Jones" class="sc-card-img" />
 &lt;div class="sc-card-overlay">&lt;/div>
 &lt;div class="sc-card-content">
 &lt;h4 class="sc-card-name">Dr Sarah Ashcroft-Jones&lt;/h4>
 &lt;p class="sc-card-role">Director&lt;/p>
 &lt;/div>
 &lt;/div>&lt;div class="sc-card" onclick="openModal('saralilmiddleton')">
-&lt;img src="https://staging.forrt.org/authors/saralilmiddleton/avatar.webp" alt="Sara Lil Middleton" class="sc-card-img" />
+&lt;img src="https://forrt.org/authors/saralilmiddleton/avatar.webp" alt="Sara Lil Middleton" class="sc-card-img" />
 &lt;div class="sc-card-overlay">&lt;/div>
 &lt;div class="sc-card-content">
 &lt;h4 class="sc-card-name">Sara Lil Middleton&lt;/h4>
@@ -148,14 +148,14 @@
 &lt;span class="sc-title-label">Team&lt;/span>
 &lt;h3 class="sc-title-text">Ethics and Inclusion&lt;/h3>
 &lt;/div>&lt;div class="sc-card" onclick="openModal('drjohnshaw')">
-&lt;img src="https://staging.forrt.org/authors/drjohnshaw/avatar.webp" alt="Dr John Shaw" class="sc-card-img" />
+&lt;img src="https://forrt.org/authors/drjohnshaw/avatar.webp" alt="Dr John Shaw" class="sc-card-img" />
 &lt;div class="sc-card-overlay">&lt;/div>
 &lt;div class="sc-card-content">
 &lt;h4 class="sc-card-name">Dr John Shaw&lt;/h4>
 &lt;p class="sc-card-role">Director&lt;/p>
 &lt;/div>
 &lt;/div>&lt;div class="sc-card" onclick="openModal('thomasrhysevans')">
-&lt;img src="https://staging.forrt.org/authors/thomasrhysevans/avatar.webp" alt="Thomas Rhys Evans" class="sc-card-img" />
+&lt;img src="https://forrt.org/authors/thomasrhysevans/avatar.webp" alt="Thomas Rhys Evans" class="sc-card-img" />
 &lt;div class="sc-card-overlay">&lt;/div>
 &lt;div class="sc-card-content">
 &lt;h4 class="sc-card-name">Thomas Rhys Evans&lt;/h4>
@@ -165,21 +165,21 @@
 &lt;span class="sc-title-label">Team&lt;/span>
 &lt;h3 class="sc-title-text">Fundraising&lt;/h3>
 &lt;/div>&lt;div class="sc-card" onclick="openModal('drmaxkorbmacher')">
-&lt;img src="https://staging.forrt.org/authors/drmaxkorbmacher/avatar.webp" alt="Dr Max Korbmacher" class="sc-card-img" />
+&lt;img src="https://forrt.org/authors/drmaxkorbmacher/avatar.webp" alt="Dr Max Korbmacher" class="sc-card-img" />
 &lt;div class="sc-card-overlay">&lt;/div>
 &lt;div class="sc-card-content">
 &lt;h4 class="sc-card-name">Dr Max Korbmacher&lt;/h4>
 &lt;p class="sc-card-role">Director&lt;/p>
 &lt;/div>
 &lt;/div>&lt;div class="sc-card" onclick="openModal('karenmatvienkosikar')">
-&lt;img src="https://staging.forrt.org/authors/karenmatvienkosikar/avatar.webp" alt="Karen Matvienko-Sikar" class="sc-card-img" />
+&lt;img src="https://forrt.org/authors/karenmatvienkosikar/avatar.webp" alt="Karen Matvienko-Sikar" class="sc-card-img" />
 &lt;div class="sc-card-overlay">&lt;/div>
 &lt;div class="sc-card-content">
 &lt;h4 class="sc-card-name">Karen Matvienko-Sikar&lt;/h4>
 &lt;p class="sc-card-role">Co-Director&lt;/p>
 &lt;/div>
 &lt;/div>&lt;div class="sc-card" onclick="openModal('fotismystakopoulosphdstudent')">
-&lt;img src="https://staging.forrt.org/authors/fotismystakopoulosphdstudent/avatar.webp" alt="Fotis Mystakopoulos, PhD Student" class="sc-card-img" />
+&lt;img src="https://forrt.org/authors/fotismystakopoulosphdstudent/avatar.webp" alt="Fotis Mystakopoulos, PhD Student" class="sc-card-img" />
 &lt;div class="sc-card-overlay">&lt;/div>
 &lt;div class="sc-card-content">
 &lt;h4 class="sc-card-name">Fotis Mystakopoulos, PhD Student&lt;/h4>
@@ -189,7 +189,7 @@
 &lt;span class="sc-title-label">Team&lt;/span>
 &lt;h3 class="sc-title-text">Financial Transparency&lt;/h3>
 &lt;/div>&lt;div class="sc-card" onclick="openModal('aliciatamaraveersmabarredo')">
-&lt;img src="https://staging.forrt.org/authors/aliciatamaraveersmabarredo/avatar.webp" alt="Alicia Tamara Veersma Barredo" class="sc-card-img" />
+&lt;img src="https://forrt.org/authors/aliciatamaraveersmabarredo/avatar.webp" alt="Alicia Tamara Veersma Barredo" class="sc-card-img" />
 &lt;div class="sc-card-overlay">&lt;/div>
 &lt;div class="sc-card-content">
 &lt;h4 class="sc-card-name">Alicia Tamara Veersma Barredo&lt;/h4>
@@ -199,7 +199,7 @@
 &lt;span class="sc-title-label">Team&lt;/span>
 &lt;h3 class="sc-title-text">Partnerships&lt;/h3>
 &lt;/div>&lt;div class="sc-card" onclick="openModal('adampartridge')">
-&lt;img src="https://staging.forrt.org/authors/adampartridge/avatar.webp" alt="Adam Partridge" class="sc-card-img" />
+&lt;img src="https://forrt.org/authors/adampartridge/avatar.webp" alt="Adam Partridge" class="sc-card-img" />
 &lt;div class="sc-card-overlay">&lt;/div>
 &lt;div class="sc-card-content">
 &lt;h4 class="sc-card-name">Adam Partridge&lt;/h4>
@@ -209,14 +209,14 @@
 &lt;span class="sc-title-label">Team&lt;/span>
 &lt;h3 class="sc-title-text">Digital Infrastructure Team&lt;/h3>
 &lt;/div>&lt;div class="sc-card" onclick="openModal('justinsulik')">
-&lt;img src="https://staging.forrt.org/authors/justinsulik/avatar.webp" alt="Justin Sulik" class="sc-card-img" />
+&lt;img src="https://forrt.org/authors/justinsulik/avatar.webp" alt="Justin Sulik" class="sc-card-img" />
 &lt;div class="sc-card-overlay">&lt;/div>
 &lt;div class="sc-card-content">
 &lt;h4 class="sc-card-name">Justin Sulik&lt;/h4>
 &lt;p class="sc-card-role">Director&lt;/p>
 &lt;/div>
 &lt;/div>&lt;div class="sc-card" onclick="openModal('dushimemudaherarichard')">
-&lt;img src="https://staging.forrt.org/authors/dushimemudaherarichard/avatar.webp" alt="Dushime Mudahera Richard" class="sc-card-img" />
+&lt;img src="https://forrt.org/authors/dushimemudaherarichard/avatar.webp" alt="Dushime Mudahera Richard" class="sc-card-img" />
 &lt;div class="sc-card-overlay">&lt;/div>
 &lt;div class="sc-card-content">
 &lt;h4 class="sc-card-name">Dushime Mudahera Richard&lt;/h4>
@@ -226,7 +226,7 @@
 &lt;span class="sc-title-label">Team&lt;/span>
 &lt;h3 class="sc-title-text">Communication, Dissemination &amp; Impact&lt;/h3>
 &lt;/div>&lt;div class="sc-card" onclick="openModal('charlottepennington')">
-&lt;img src="https://staging.forrt.org/authors/charlottepennington/avatar.webp" alt="Charlotte Pennington" class="sc-card-img" />
+&lt;img src="https://forrt.org/authors/charlottepennington/avatar.webp" alt="Charlotte Pennington" class="sc-card-img" />
 &lt;div class="sc-card-overlay">&lt;/div>
 &lt;div class="sc-card-content">
 &lt;h4 class="sc-card-name">Charlotte Pennington&lt;/h4>
@@ -236,35 +236,35 @@
 &lt;span class="sc-title-label">Team&lt;/span>
 &lt;h3 class="sc-title-text">FORRT Stewards&lt;/h3>
 &lt;/div>&lt;div class="sc-card" onclick="openModal('adiradaniel')">
-&lt;img src="https://staging.forrt.org/authors/adiradaniel/avatar.webp" alt="Adira Daniel " class="sc-card-img" />
+&lt;img src="https://forrt.org/authors/adiradaniel/avatar.webp" alt="Adira Daniel " class="sc-card-img" />
 &lt;div class="sc-card-overlay">&lt;/div>
 &lt;div class="sc-card-content">
 &lt;h4 class="sc-card-name">Adira Daniel &lt;/h4>
 &lt;p class="sc-card-role">FORRT Steward&lt;/p>
 &lt;/div>
 &lt;/div>&lt;div class="sc-card" onclick="openModal('stephaniezellers')">
-&lt;img src="https://staging.forrt.org/authors/stephaniezellers/avatar.webp" alt="Stephanie Zellers" class="sc-card-img" />
+&lt;img src="https://forrt.org/authors/stephaniezellers/avatar.webp" alt="Stephanie Zellers" class="sc-card-img" />
 &lt;div class="sc-card-overlay">&lt;/div>
 &lt;div class="sc-card-content">
 &lt;h4 class="sc-card-name">Stephanie Zellers&lt;/h4>
 &lt;p class="sc-card-role">FORRT Steward&lt;/p>
 &lt;/div>
 &lt;/div>&lt;div class="sc-card" onclick="openModal('rivaquiroga')">
-&lt;img src="https://staging.forrt.org/authors/rivaquiroga/avatar.webp" alt="Riva Quiroga" class="sc-card-img" />
+&lt;img src="https://forrt.org/authors/rivaquiroga/avatar.webp" alt="Riva Quiroga" class="sc-card-img" />
 &lt;div class="sc-card-overlay">&lt;/div>
 &lt;div class="sc-card-content">
 &lt;h4 class="sc-card-name">Riva Quiroga&lt;/h4>
 &lt;p class="sc-card-role">FORRT Steward&lt;/p>
 &lt;/div>
 &lt;/div>&lt;div class="sc-card" onclick="openModal('meerachandra')">
-&lt;img src="https://staging.forrt.org/authors/meerachandra/avatar.webp" alt="Meera Chandra" class="sc-card-img" />
+&lt;img src="https://forrt.org/authors/meerachandra/avatar.webp" alt="Meera Chandra" class="sc-card-img" />
 &lt;div class="sc-card-overlay">&lt;/div>
 &lt;div class="sc-card-content">
 &lt;h4 class="sc-card-name">Meera Chandra&lt;/h4>
 &lt;p class="sc-card-role">FORRT Steward&lt;/p>
 &lt;/div>
 &lt;/div>&lt;div class="sc-card" onclick="openModal('cassgheoghe')">
-&lt;img src="https://staging.forrt.org/authors/cassgheoghe/avatar.webp" alt="Cass Gheoghe" class="sc-card-img" />
+&lt;img src="https://forrt.org/authors/cassgheoghe/avatar.webp" alt="Cass Gheoghe" class="sc-card-img" />
 &lt;div class="sc-card-overlay">&lt;/div>
 &lt;div class="sc-card-content">
 &lt;h4 class="sc-card-name">Cass Gheoghe&lt;/h4>
@@ -282,14 +282,14 @@
 &lt;/div>
 &lt;div class="sc-grid">
 &lt;div class="sc-card" onclick="openModal('drlukaswallrich')">
-&lt;img src="https://staging.forrt.org/authors/drlukaswallrich/avatar.webp" alt="Dr Lukas Wallrich" class="sc-card-img" />
+&lt;img src="https://forrt.org/authors/drlukaswallrich/avatar.webp" alt="Dr Lukas Wallrich" class="sc-card-img" />
 &lt;div class="sc-card-overlay">&lt;/div>
 &lt;div class="sc-card-content">
 &lt;h4 class="sc-card-name">Dr Lukas Wallrich&lt;/h4>
 &lt;p class="sc-card-role">Co-Chair&lt;/p>
 &lt;/div>
 &lt;/div>&lt;div class="sc-card" onclick="openModal('drflavioazevedo')">
-&lt;img src="https://staging.forrt.org/authors/drflavioazevedo/avatar.webp" alt="Dr Flavio Azevedo" class="sc-card-img" />
+&lt;img src="https://forrt.org/authors/drflavioazevedo/avatar.webp" alt="Dr Flavio Azevedo" class="sc-card-img" />
 &lt;div class="sc-card-overlay">&lt;/div>
 &lt;div class="sc-card-content">
 &lt;h4 class="sc-card-name">Dr Flavio Azevedo&lt;/h4>
@@ -307,14 +307,14 @@
 &lt;/div>
 &lt;div class="sc-grid">
 &lt;div class="sc-card" onclick="openModal('samparsons')">
-&lt;img src="https://staging.forrt.org/authors/samparsons/avatar.webp" alt="Sam Parsons" class="sc-card-img" />
+&lt;img src="https://forrt.org/authors/samparsons/avatar.webp" alt="Sam Parsons" class="sc-card-img" />
 &lt;div class="sc-card-overlay">&lt;/div>
 &lt;div class="sc-card-content">
 &lt;h4 class="sc-card-name">Sam Parsons&lt;/h4>
 &lt;p class="sc-card-role">Stewardship Panel&lt;/p>
 &lt;/div>
 &lt;/div>&lt;div class="sc-card" onclick="openModal('thomasrhysevans')">
-&lt;img src="https://staging.forrt.org/authors/thomasrhysevans/avatar.webp" alt="Thomas Rhys Evans" class="sc-card-img" />
+&lt;img src="https://forrt.org/authors/thomasrhysevans/avatar.webp" alt="Thomas Rhys Evans" class="sc-card-img" />
 &lt;div class="sc-card-overlay">&lt;/div>
 &lt;div class="sc-card-content">
 &lt;h4 class="sc-card-name">Thomas Rhys Evans&lt;/h4>
@@ -336,7 +336,7 @@
 &lt;div class="sc-modal-layout">
 &lt;div class="sc-modal-sidebar">
 &lt;div class="sc-modal-img">
-&lt;img src="https://staging.forrt.org/authors/drstevenverheyen/avatar.webp" alt="dr. Steven Verheyen" />
+&lt;img src="https://forrt.org/authors/drstevenverheyen/avatar.webp" alt="dr. Steven Verheyen" />
 &lt;/div>
 &lt;div class="sc-social-links">
 &lt;a href="https://www.stevenverheyen.com" target="_blank" rel="noopener noreferrer" class="text-slate-400 hover:text-slate-800 transition-colors">&lt;svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">&lt;circle cx="12" cy="12" r="10"/>&lt;line x1="2" x2="22" y1="12" y2="12"/>&lt;path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>&lt;/svg>&lt;/a>&lt;a href="mailto:verheyen@essb.eur.nl" class="text-slate-400 hover:text-slate-800 transition-colors">&lt;svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">&lt;rect width="20" height="16" x="2" y="4" rx="2"/>&lt;path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/>&lt;/svg>&lt;/a>
@@ -361,7 +361,7 @@
 &lt;div class="sc-modal-layout">
 &lt;div class="sc-modal-sidebar">
 &lt;div class="sc-modal-img">
-&lt;img src="https://staging.forrt.org/authors/drsarahasauve/avatar.webp" alt="Dr. Sarah A. Sauvé" />
+&lt;img src="https://forrt.org/authors/drsarahasauve/avatar.webp" alt="Dr. Sarah A. Sauvé" />
 &lt;/div>
 &lt;div class="sc-social-links">
 &lt;a href="https://staff.lincoln.ac.uk/8ebcbc1e-6ca0-4fde-b6ad-42775c65d754" target="_blank" rel="noopener noreferrer" class="text-slate-400 hover:text-slate-800 transition-colors">&lt;svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">&lt;circle cx="12" cy="12" r="10"/>&lt;line x1="2" x2="22" y1="12" y2="12"/>&lt;path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>&lt;/svg>&lt;/a>&lt;a href="mailto:ssauve@lincoln.ac.uk" class="text-slate-400 hover:text-slate-800 transition-colors">&lt;svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">&lt;rect width="20" height="16" x="2" y="4" rx="2"/>&lt;path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/>&lt;/svg>&lt;/a>
@@ -387,7 +387,7 @@ In FORRT, she has been involved in co-leading Team Citational Politics and is ve
 &lt;div class="sc-modal-layout">
 &lt;div class="sc-modal-sidebar">
 &lt;div class="sc-modal-img">
-&lt;img src="https://staging.forrt.org/authors/drrachelheyard/avatar.webp" alt="Dr Rachel Heyard" />
+&lt;img src="https://forrt.org/authors/drrachelheyard/avatar.webp" alt="Dr Rachel Heyard" />
 &lt;/div>
 &lt;div class="sc-social-links">
 &lt;a href="http://rachelheyard.com/" target="_blank" rel="noopener noreferrer" class="text-slate-400 hover:text-slate-800 transition-colors">&lt;svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">&lt;circle cx="12" cy="12" r="10"/>&lt;line x1="2" x2="22" y1="12" y2="12"/>&lt;path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>&lt;/svg>&lt;/a>&lt;a href="mailto:rachel.heyard@uzh.ch" class="text-slate-400 hover:text-slate-800 transition-colors">&lt;svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">&lt;rect width="20" height="16" x="2" y="4" rx="2"/>&lt;path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/>&lt;/svg>&lt;/a>
@@ -412,7 +412,7 @@ In FORRT, she has been involved in co-leading Team Citational Politics and is ve
 &lt;div class="sc-modal-layout">
 &lt;div class="sc-modal-sidebar">
 &lt;div class="sc-modal-img">
-&lt;img src="https://staging.forrt.org/authors/tomheyman/avatar.webp" alt="Tom Heyman" />
+&lt;img src="https://forrt.org/authors/tomheyman/avatar.webp" alt="Tom Heyman" />
 &lt;/div>
 &lt;div class="sc-social-links">
 &lt;a href="https://www.universiteitleiden.nl/en/staffmembers/tom-heyman" target="_blank" rel="noopener noreferrer" class="text-slate-400 hover:text-slate-800 transition-colors">&lt;svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">&lt;circle cx="12" cy="12" r="10"/>&lt;line x1="2" x2="22" y1="12" y2="12"/>&lt;path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>&lt;/svg>&lt;/a>
@@ -437,7 +437,7 @@ In FORRT, she has been involved in co-leading Team Citational Politics and is ve
 &lt;div class="sc-modal-layout">
 &lt;div class="sc-modal-sidebar">
 &lt;div class="sc-modal-img">
-&lt;img src="https://staging.forrt.org/authors/berittbarthelmesmsc/avatar.webp" alt="Berit T. Barthelmes, M.Sc." />
+&lt;img src="https://forrt.org/authors/berittbarthelmesmsc/avatar.webp" alt="Berit T. Barthelmes, M.Sc." />
 &lt;/div>
 &lt;div class="sc-social-links">
 &lt;a href="https://linkedin.com/in/beritbarthelmes" target="_blank" rel="noopener noreferrer" class="text-slate-400 hover:text-slate-800 transition-colors">&lt;svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">&lt;circle cx="12" cy="12" r="10"/>&lt;line x1="2" x2="22" y1="12" y2="12"/>&lt;path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>&lt;/svg>&lt;/a>&lt;a href="mailto:bbart10@uic.edu" class="text-slate-400 hover:text-slate-800 transition-colors">&lt;svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">&lt;rect width="20" height="16" x="2" y="4" rx="2"/>&lt;path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/>&lt;/svg>&lt;/a>
@@ -462,7 +462,7 @@ In FORRT, she has been involved in co-leading Team Citational Politics and is ve
 &lt;div class="sc-modal-layout">
 &lt;div class="sc-modal-sidebar">
 &lt;div class="sc-modal-img">
-&lt;img src="https://staging.forrt.org/authors/drmadeleinepownall/avatar.webp" alt="Dr Madeleine Pownall" />
+&lt;img src="https://forrt.org/authors/drmadeleinepownall/avatar.webp" alt="Dr Madeleine Pownall" />
 &lt;/div>
 &lt;div class="sc-social-links">
 &lt;a href="https://medicinehealth.leeds.ac.uk/psychology/staff/2870/dr-madeleine-pownall-" target="_blank" rel="noopener noreferrer" class="text-slate-400 hover:text-slate-800 transition-colors">&lt;svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">&lt;circle cx="12" cy="12" r="10"/>&lt;line x1="2" x2="22" y1="12" y2="12"/>&lt;path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>&lt;/svg>&lt;/a>&lt;a href="mailto:M.V.Pownall@leeds.ac.uk" class="text-slate-400 hover:text-slate-800 transition-colors">&lt;svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">&lt;rect width="20" height="16" x="2" y="4" rx="2"/>&lt;path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/>&lt;/svg>&lt;/a>
@@ -487,7 +487,7 @@ In FORRT, she has been involved in co-leading Team Citational Politics and is ve
 &lt;div class="sc-modal-layout">
 &lt;div class="sc-modal-sidebar">
 &lt;div class="sc-modal-img">
-&lt;img src="https://staging.forrt.org/authors/lornahamilton/avatar.webp" alt="Lorna Hamilton" />
+&lt;img src="https://forrt.org/authors/lornahamilton/avatar.webp" alt="Lorna Hamilton" />
 &lt;/div>
 &lt;div class="sc-social-links">
 &lt;a href="https://www.yorksj.ac.uk/our-staff/staff-profiles/lorna-hamilton.php" target="_blank" rel="noopener noreferrer" class="text-slate-400 hover:text-slate-800 transition-colors">&lt;svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">&lt;circle cx="12" cy="12" r="10"/>&lt;line x1="2" x2="22" y1="12" y2="12"/>&lt;path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>&lt;/svg>&lt;/a>
@@ -512,7 +512,7 @@ In FORRT, she has been involved in co-leading Team Citational Politics and is ve
 &lt;div class="sc-modal-layout">
 &lt;div class="sc-modal-sidebar">
 &lt;div class="sc-modal-img">
-&lt;img src="https://staging.forrt.org/authors/dramandakaymontoya/avatar.webp" alt="Dr. Amanda Kay Montoya" />
+&lt;img src="https://forrt.org/authors/dramandakaymontoya/avatar.webp" alt="Dr. Amanda Kay Montoya" />
 &lt;/div>
 &lt;div class="sc-social-links">
 &lt;a href="https://akmontoya.com" target="_blank" rel="noopener noreferrer" class="text-slate-400 hover:text-slate-800 transition-colors">&lt;svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">&lt;circle cx="12" cy="12" r="10"/>&lt;line x1="2" x2="22" y1="12" y2="12"/>&lt;path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>&lt;/svg>&lt;/a>&lt;a href="mailto:akmontoya@ucla.edu" class="text-slate-400 hover:text-slate-800 transition-colors">&lt;svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">&lt;rect width="20" height="16" x="2" y="4" rx="2"/>&lt;path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/>&lt;/svg>&lt;/a>
@@ -537,7 +537,7 @@ In FORRT, she has been involved in co-leading Team Citational Politics and is ve
 &lt;div class="sc-modal-layout">
 &lt;div class="sc-modal-sidebar">
 &lt;div class="sc-modal-img">
-&lt;img src="https://staging.forrt.org/authors/drkellylloyd/avatar.webp" alt="Dr Kelly Lloyd" />
+&lt;img src="https://forrt.org/authors/drkellylloyd/avatar.webp" alt="Dr Kelly Lloyd" />
 &lt;/div>
 &lt;div class="sc-social-links">
 &lt;a href="https://medicinehealth.leeds.ac.uk/medicine/staff/11697/dr-kelly-lloyd" target="_blank" rel="noopener noreferrer" class="text-slate-400 hover:text-slate-800 transition-colors">&lt;svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">&lt;circle cx="12" cy="12" r="10"/>&lt;line x1="2" x2="22" y1="12" y2="12"/>&lt;path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>&lt;/svg>&lt;/a>&lt;a href="mailto:nan" class="text-slate-400 hover:text-slate-800 transition-colors">&lt;svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">&lt;rect width="20" height="16" x="2" y="4" rx="2"/>&lt;path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/>&lt;/svg>&lt;/a>
@@ -562,7 +562,7 @@ In FORRT, she has been involved in co-leading Team Citational Politics and is ve
 &lt;div class="sc-modal-layout">
 &lt;div class="sc-modal-sidebar">
 &lt;div class="sc-modal-img">
-&lt;img src="https://staging.forrt.org/authors/giorgiaandreolli/avatar.webp" alt="Giorgia Andreolli" />
+&lt;img src="https://forrt.org/authors/giorgiaandreolli/avatar.webp" alt="Giorgia Andreolli" />
 &lt;/div>
 &lt;div class="sc-social-links">
 &lt;a href="https://www.eurac.edu/en/people/giorgia-andreolli" target="_blank" rel="noopener noreferrer" class="text-slate-400 hover:text-slate-800 transition-colors">&lt;svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">&lt;circle cx="12" cy="12" r="10"/>&lt;line x1="2" x2="22" y1="12" y2="12"/>&lt;path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>&lt;/svg>&lt;/a>
@@ -587,7 +587,7 @@ In FORRT, she has been involved in co-leading Team Citational Politics and is ve
 &lt;div class="sc-modal-layout">
 &lt;div class="sc-modal-sidebar">
 &lt;div class="sc-modal-img">
-&lt;img src="https://staging.forrt.org/authors/drlukasroseler/avatar.webp" alt="Dr. Lukas Röseler" />
+&lt;img src="https://forrt.org/authors/drlukasroseler/avatar.webp" alt="Dr. Lukas Röseler" />
 &lt;/div>
 &lt;div class="sc-social-links">
 &lt;a href="https://lukasroeseler.github.io/home/" target="_blank" rel="noopener noreferrer" class="text-slate-400 hover:text-slate-800 transition-colors">&lt;svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">&lt;circle cx="12" cy="12" r="10"/>&lt;line x1="2" x2="22" y1="12" y2="12"/>&lt;path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>&lt;/svg>&lt;/a>&lt;a href="mailto:lukas.roeseler@uni-muenster.de" class="text-slate-400 hover:text-slate-800 transition-colors">&lt;svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">&lt;rect width="20" height="16" x="2" y="4" rx="2"/>&lt;path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/>&lt;/svg>&lt;/a>
@@ -612,7 +612,7 @@ In FORRT, she has been involved in co-leading Team Citational Politics and is ve
 &lt;div class="sc-modal-layout">
 &lt;div class="sc-modal-sidebar">
 &lt;div class="sc-modal-img">
-&lt;img src="https://staging.forrt.org/authors/drsarahashcroftjones/avatar.webp" alt="Dr Sarah Ashcroft-Jones" />
+&lt;img src="https://forrt.org/authors/drsarahashcroftjones/avatar.webp" alt="Dr Sarah Ashcroft-Jones" />
 &lt;/div>
 &lt;div class="sc-social-links">
 &lt;a href="https://sarahashcroftjones.com/" target="_blank" rel="noopener noreferrer" class="text-slate-400 hover:text-slate-800 transition-colors">&lt;svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">&lt;circle cx="12" cy="12" r="10"/>&lt;line x1="2" x2="22" y1="12" y2="12"/>&lt;path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>&lt;/svg>&lt;/a>&lt;a href="mailto:sarah.ashcroft-jones@columbia.edu" class="text-slate-400 hover:text-slate-800 transition-colors">&lt;svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">&lt;rect width="20" height="16" x="2" y="4" rx="2"/>&lt;path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/>&lt;/svg>&lt;/a>
@@ -637,7 +637,7 @@ In FORRT, she has been involved in co-leading Team Citational Politics and is ve
 &lt;div class="sc-modal-layout">
 &lt;div class="sc-modal-sidebar">
 &lt;div class="sc-modal-img">
-&lt;img src="https://staging.forrt.org/authors/saralilmiddleton/avatar.webp" alt="Sara Lil Middleton" />
+&lt;img src="https://forrt.org/authors/saralilmiddleton/avatar.webp" alt="Sara Lil Middleton" />
 &lt;/div>
 &lt;div class="sc-social-links">
 &lt;a href="https://www.environmental-research.ox.ac.uk/people/sara-lil-middleton-0" target="_blank" rel="noopener noreferrer" class="text-slate-400 hover:text-slate-800 transition-colors">&lt;svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">&lt;circle cx="12" cy="12" r="10"/>&lt;line x1="2" x2="22" y1="12" y2="12"/>&lt;path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>&lt;/svg>&lt;/a>
@@ -662,7 +662,7 @@ In FORRT, she has been involved in co-leading Team Citational Politics and is ve
 &lt;div class="sc-modal-layout">
 &lt;div class="sc-modal-sidebar">
 &lt;div class="sc-modal-img">
-&lt;img src="https://staging.forrt.org/authors/drjohnshaw/avatar.webp" alt="Dr John Shaw" />
+&lt;img src="https://forrt.org/authors/drjohnshaw/avatar.webp" alt="Dr John Shaw" />
 &lt;/div>
 &lt;div class="sc-social-links">
 &lt;a href="https://www.edgehill.ac.uk/person/dr-john-shaw/staff/" target="_blank" rel="noopener noreferrer" class="text-slate-400 hover:text-slate-800 transition-colors">&lt;svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">&lt;circle cx="12" cy="12" r="10"/>&lt;line x1="2" x2="22" y1="12" y2="12"/>&lt;path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>&lt;/svg>&lt;/a>&lt;a href="mailto:john.shaw@edgehill.ac.uk" class="text-slate-400 hover:text-slate-800 transition-colors">&lt;svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">&lt;rect width="20" height="16" x="2" y="4" rx="2"/>&lt;path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/>&lt;/svg>&lt;/a>
@@ -687,7 +687,7 @@ In FORRT, she has been involved in co-leading Team Citational Politics and is ve
 &lt;div class="sc-modal-layout">
 &lt;div class="sc-modal-sidebar">
 &lt;div class="sc-modal-img">
-&lt;img src="https://staging.forrt.org/authors/thomasrhysevans/avatar.webp" alt="Thomas Rhys Evans" />
+&lt;img src="https://forrt.org/authors/thomasrhysevans/avatar.webp" alt="Thomas Rhys Evans" />
 &lt;/div>
 &lt;div class="sc-social-links">
 &lt;a href="https://www.gre.ac.uk/people/rep/faculty-of-education-and-health/thomas-rhys-evans" target="_blank" rel="noopener noreferrer" class="text-slate-400 hover:text-slate-800 transition-colors">&lt;svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">&lt;circle cx="12" cy="12" r="10"/>&lt;line x1="2" x2="22" y1="12" y2="12"/>&lt;path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>&lt;/svg>&lt;/a>
@@ -712,7 +712,7 @@ In FORRT, she has been involved in co-leading Team Citational Politics and is ve
 &lt;div class="sc-modal-layout">
 &lt;div class="sc-modal-sidebar">
 &lt;div class="sc-modal-img">
-&lt;img src="https://staging.forrt.org/authors/drmaxkorbmacher/avatar.webp" alt="Dr Max Korbmacher" />
+&lt;img src="https://forrt.org/authors/drmaxkorbmacher/avatar.webp" alt="Dr Max Korbmacher" />
 &lt;/div>
 &lt;div class="sc-social-links">
 &lt;a href="https://scholar.google.com/citations?user=aZbaBqQAAAAJ&amp;hl=no" target="_blank" rel="noopener noreferrer" class="text-slate-400 hover:text-slate-800 transition-colors">&lt;svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">&lt;circle cx="12" cy="12" r="10"/>&lt;line x1="2" x2="22" y1="12" y2="12"/>&lt;path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>&lt;/svg>&lt;/a>&lt;a href="mailto:nan" class="text-slate-400 hover:text-slate-800 transition-colors">&lt;svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">&lt;rect width="20" height="16" x="2" y="4" rx="2"/>&lt;path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/>&lt;/svg>&lt;/a>
@@ -737,7 +737,7 @@ In FORRT, she has been involved in co-leading Team Citational Politics and is ve
 &lt;div class="sc-modal-layout">
 &lt;div class="sc-modal-sidebar">
 &lt;div class="sc-modal-img">
-&lt;img src="https://staging.forrt.org/authors/karenmatvienkosikar/avatar.webp" alt="Karen Matvienko-Sikar" />
+&lt;img src="https://forrt.org/authors/karenmatvienkosikar/avatar.webp" alt="Karen Matvienko-Sikar" />
 &lt;/div>
 &lt;div class="sc-social-links">
 &lt;a href="https://research.ucc.ie/en/persons/karen-matvienko-sikar/" target="_blank" rel="noopener noreferrer" class="text-slate-400 hover:text-slate-800 transition-colors">&lt;svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">&lt;circle cx="12" cy="12" r="10"/>&lt;line x1="2" x2="22" y1="12" y2="12"/>&lt;path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>&lt;/svg>&lt;/a>&lt;a href="mailto:Karen.msikar@ucc.ie" class="text-slate-400 hover:text-slate-800 transition-colors">&lt;svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">&lt;rect width="20" height="16" x="2" y="4" rx="2"/>&lt;path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/>&lt;/svg>&lt;/a>
@@ -762,7 +762,7 @@ In FORRT, she has been involved in co-leading Team Citational Politics and is ve
 &lt;div class="sc-modal-layout">
 &lt;div class="sc-modal-sidebar">
 &lt;div class="sc-modal-img">
-&lt;img src="https://staging.forrt.org/authors/fotismystakopoulosphdstudent/avatar.webp" alt="Fotis Mystakopoulos, PhD Student" />
+&lt;img src="https://forrt.org/authors/fotismystakopoulosphdstudent/avatar.webp" alt="Fotis Mystakopoulos, PhD Student" />
 &lt;/div>
 &lt;div class="sc-social-links">
 &lt;a href="https://fair-impact.eu/eosc-fair-champions/fotis-mystakopoulos" target="_blank" rel="noopener noreferrer" class="text-slate-400 hover:text-slate-800 transition-colors">&lt;svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">&lt;circle cx="12" cy="12" r="10"/>&lt;line x1="2" x2="22" y1="12" y2="12"/>&lt;path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>&lt;/svg>&lt;/a>&lt;a href="mailto:fmystakopoulos@uniwa.gr" class="text-slate-400 hover:text-slate-800 transition-colors">&lt;svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">&lt;rect width="20" height="16" x="2" y="4" rx="2"/>&lt;path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/>&lt;/svg>&lt;/a>
@@ -790,7 +790,7 @@ Currently, alongside his professional duties, he is pursuing a PhD at the Univer
 &lt;div class="sc-modal-layout">
 &lt;div class="sc-modal-sidebar">
 &lt;div class="sc-modal-img">
-&lt;img src="https://staging.forrt.org/authors/aliciatamaraveersmabarredo/avatar.webp" alt="Alicia Tamara Veersma Barredo" />
+&lt;img src="https://forrt.org/authors/aliciatamaraveersmabarredo/avatar.webp" alt="Alicia Tamara Veersma Barredo" />
 &lt;/div>
 &lt;div class="sc-social-links">
 &lt;!--&lt;a href="nan" target="_blank" rel="noopener noreferrer" class="text-slate-400 hover:text-slate-800 transition-colors">&lt;svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">&lt;circle cx="12" cy="12" r="10"/>&lt;line x1="2" x2="22" y1="12" y2="12"/>&lt;path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>&lt;/svg>&lt;/a>&lt;a href="mailto:nan" class="text-slate-400 hover:text-slate-800 transition-colors">&lt;svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">&lt;rect width="20" height="16" x="2" y="4" rx="2"/>&lt;path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/>&lt;/svg>&lt;/a>-->
@@ -815,7 +815,7 @@ Currently, alongside his professional duties, he is pursuing a PhD at the Univer
 &lt;div class="sc-modal-layout">
 &lt;div class="sc-modal-sidebar">
 &lt;div class="sc-modal-img">
-&lt;img src="https://staging.forrt.org/authors/adampartridge/avatar.webp" alt="Adam Partridge" />
+&lt;img src="https://forrt.org/authors/adampartridge/avatar.webp" alt="Adam Partridge" />
 &lt;/div>
 &lt;div class="sc-social-links">
 &lt;a href="https://fellowship.elixiruknode.org/adam-partridge" target="_blank" rel="noopener noreferrer" class="text-slate-400 hover:text-slate-800 transition-colors">&lt;svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">&lt;circle cx="12" cy="12" r="10"/>&lt;line x1="2" x2="22" y1="12" y2="12"/>&lt;path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>&lt;/svg>&lt;/a>
@@ -840,7 +840,7 @@ Currently, alongside his professional duties, he is pursuing a PhD at the Univer
 &lt;div class="sc-modal-layout">
 &lt;div class="sc-modal-sidebar">
 &lt;div class="sc-modal-img">
-&lt;img src="https://staging.forrt.org/authors/justinsulik/avatar.webp" alt="Justin Sulik" />
+&lt;img src="https://forrt.org/authors/justinsulik/avatar.webp" alt="Justin Sulik" />
 &lt;/div>
 &lt;div class="sc-social-links">
 &lt;a href="https://www.cvbe.philosophie.uni-muenchen.de/people/assistant-professors/justin-sulik/index.html" target="_blank" rel="noopener noreferrer" class="text-slate-400 hover:text-slate-800 transition-colors">&lt;svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">&lt;circle cx="12" cy="12" r="10"/>&lt;line x1="2" x2="22" y1="12" y2="12"/>&lt;path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>&lt;/svg>&lt;/a>
@@ -865,7 +865,7 @@ Currently, alongside his professional duties, he is pursuing a PhD at the Univer
 &lt;div class="sc-modal-layout">
 &lt;div class="sc-modal-sidebar">
 &lt;div class="sc-modal-img">
-&lt;img src="https://staging.forrt.org/authors/dushimemudaherarichard/avatar.webp" alt="Dushime Mudahera Richard" />
+&lt;img src="https://forrt.org/authors/dushimemudaherarichard/avatar.webp" alt="Dushime Mudahera Richard" />
 &lt;/div>
 &lt;div class="sc-social-links">
 &lt;a href="https://richarddushime.netlify.app/" target="_blank" rel="noopener noreferrer" class="text-slate-400 hover:text-slate-800 transition-colors">&lt;svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">&lt;circle cx="12" cy="12" r="10"/>&lt;line x1="2" x2="22" y1="12" y2="12"/>&lt;path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>&lt;/svg>&lt;/a>&lt;a href="mailto:mudaherarich@gmail.com" class="text-slate-400 hover:text-slate-800 transition-colors">&lt;svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">&lt;rect width="20" height="16" x="2" y="4" rx="2"/>&lt;path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/>&lt;/svg>&lt;/a>
@@ -890,7 +890,7 @@ Currently, alongside his professional duties, he is pursuing a PhD at the Univer
 &lt;div class="sc-modal-layout">
 &lt;div class="sc-modal-sidebar">
 &lt;div class="sc-modal-img">
-&lt;img src="https://staging.forrt.org/authors/charlottepennington/avatar.webp" alt="Charlotte Pennington" />
+&lt;img src="https://forrt.org/authors/charlottepennington/avatar.webp" alt="Charlotte Pennington" />
 &lt;/div>
 &lt;div class="sc-social-links">
 &lt;a href="https://research.aston.ac.uk/en/persons/charlotte-rebecca-pennington/" target="_blank" rel="noopener noreferrer" class="text-slate-400 hover:text-slate-800 transition-colors">&lt;svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">&lt;circle cx="12" cy="12" r="10"/>&lt;line x1="2" x2="22" y1="12" y2="12"/>&lt;path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>&lt;/svg>&lt;/a>&lt;a href="mailto:c.pennington@aston.ac.uk" class="text-slate-400 hover:text-slate-800 transition-colors">&lt;svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">&lt;rect width="20" height="16" x="2" y="4" rx="2"/>&lt;path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/>&lt;/svg>&lt;/a>
@@ -915,7 +915,7 @@ Currently, alongside his professional duties, he is pursuing a PhD at the Univer
 &lt;div class="sc-modal-layout">
 &lt;div class="sc-modal-sidebar">
 &lt;div class="sc-modal-img">
-&lt;img src="https://staging.forrt.org/authors/adiradaniel/avatar.webp" alt="Adira Daniel " />
+&lt;img src="https://forrt.org/authors/adiradaniel/avatar.webp" alt="Adira Daniel " />
 &lt;/div>
 &lt;div class="sc-social-links">
 &lt;a href="https://www.linkedin.com/in/adiradaniel/" target="_blank" rel="noopener noreferrer" class="text-slate-400 hover:text-slate-800 transition-colors">&lt;svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">&lt;circle cx="12" cy="12" r="10"/>&lt;line x1="2" x2="22" y1="12" y2="12"/>&lt;path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>&lt;/svg>&lt;/a>&lt;a href="mailto:nan" class="text-slate-400 hover:text-slate-800 transition-colors">&lt;svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">&lt;rect width="20" height="16" x="2" y="4" rx="2"/>&lt;path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/>&lt;/svg>&lt;/a>
@@ -942,7 +942,7 @@ Outside of research, you’ll usually find me baking something cozy, tending to 
 &lt;div class="sc-modal-layout">
 &lt;div class="sc-modal-sidebar">
 &lt;div class="sc-modal-img">
-&lt;img src="https://staging.forrt.org/authors/stephaniezellers/avatar.webp" alt="Stephanie Zellers" />
+&lt;img src="https://forrt.org/authors/stephaniezellers/avatar.webp" alt="Stephanie Zellers" />
 &lt;/div>
 &lt;div class="sc-social-links">
 &lt;a href="https://researchportal.helsinki.fi/en/persons/stephanie-zellers" target="_blank" rel="noopener noreferrer" class="text-slate-400 hover:text-slate-800 transition-colors">&lt;svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">&lt;circle cx="12" cy="12" r="10"/>&lt;line x1="2" x2="22" y1="12" y2="12"/>&lt;path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>&lt;/svg>&lt;/a>
@@ -967,7 +967,7 @@ Outside of research, you’ll usually find me baking something cozy, tending to 
 &lt;div class="sc-modal-layout">
 &lt;div class="sc-modal-sidebar">
 &lt;div class="sc-modal-img">
-&lt;img src="https://staging.forrt.org/authors/rivaquiroga/avatar.webp" alt="Riva Quiroga" />
+&lt;img src="https://forrt.org/authors/rivaquiroga/avatar.webp" alt="Riva Quiroga" />
 &lt;/div>
 &lt;div class="sc-social-links">
 &lt;a href="https://rivaquiroga.cl/" target="_blank" rel="noopener noreferrer" class="text-slate-400 hover:text-slate-800 transition-colors">&lt;svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">&lt;circle cx="12" cy="12" r="10"/>&lt;line x1="2" x2="22" y1="12" y2="12"/>&lt;path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>&lt;/svg>&lt;/a>&lt;a href="mailto:rivaquiroga@gmail.com" class="text-slate-400 hover:text-slate-800 transition-colors">&lt;svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">&lt;rect width="20" height="16" x="2" y="4" rx="2"/>&lt;path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/>&lt;/svg>&lt;/a>
@@ -992,7 +992,7 @@ Outside of research, you’ll usually find me baking something cozy, tending to 
 &lt;div class="sc-modal-layout">
 &lt;div class="sc-modal-sidebar">
 &lt;div class="sc-modal-img">
-&lt;img src="https://staging.forrt.org/authors/meerachandra/avatar.webp" alt="Meera Chandra" />
+&lt;img src="https://forrt.org/authors/meerachandra/avatar.webp" alt="Meera Chandra" />
 &lt;/div>
 &lt;div class="sc-social-links">
 &lt;a href="https://www.iins.u-bordeaux.fr/en/person/153902-meera-chandra/" target="_blank" rel="noopener noreferrer" class="text-slate-400 hover:text-slate-800 transition-colors">&lt;svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">&lt;circle cx="12" cy="12" r="10"/>&lt;line x1="2" x2="22" y1="12" y2="12"/>&lt;path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>&lt;/svg>&lt;/a>
@@ -1017,7 +1017,7 @@ Outside of research, you’ll usually find me baking something cozy, tending to 
 &lt;div class="sc-modal-layout">
 &lt;div class="sc-modal-sidebar">
 &lt;div class="sc-modal-img">
-&lt;img src="https://staging.forrt.org/authors/cassgheoghe/avatar.webp" alt="Cass Gheoghe" />
+&lt;img src="https://forrt.org/authors/cassgheoghe/avatar.webp" alt="Cass Gheoghe" />
 &lt;/div>
 &lt;div class="sc-social-links">
 &lt;!--&lt;a href="nan" target="_blank" rel="noopener noreferrer" class="text-slate-400 hover:text-slate-800 transition-colors">&lt;svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">&lt;circle cx="12" cy="12" r="10"/>&lt;line x1="2" x2="22" y1="12" y2="12"/>&lt;path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>&lt;/svg>&lt;/a> -->
@@ -1042,7 +1042,7 @@ Outside of research, you’ll usually find me baking something cozy, tending to 
 &lt;div class="sc-modal-layout">
 &lt;div class="sc-modal-sidebar">
 &lt;div class="sc-modal-img">
-&lt;img src="https://staging.forrt.org/authors/drlukaswallrich/avatar.webp" alt="Dr Lukas Wallrich" />
+&lt;img src="https://forrt.org/authors/drlukaswallrich/avatar.webp" alt="Dr Lukas Wallrich" />
 &lt;/div>
 &lt;div class="sc-social-links">
 &lt;a href="https://www.lukaswallrich.coffee" target="_blank" rel="noopener noreferrer" class="text-slate-400 hover:text-slate-800 transition-colors">&lt;svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">&lt;circle cx="12" cy="12" r="10"/>&lt;line x1="2" x2="22" y1="12" y2="12"/>&lt;path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>&lt;/svg>&lt;/a>&lt;a href="mailto:l.wallrich@bbk.ac.uk" class="text-slate-400 hover:text-slate-800 transition-colors">&lt;svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">&lt;rect width="20" height="16" x="2" y="4" rx="2"/>&lt;path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/>&lt;/svg>&lt;/a>
@@ -1068,7 +1068,7 @@ I am also very interested in Open Science and an avid R user. In that space, I e
 &lt;div class="sc-modal-layout">
 &lt;div class="sc-modal-sidebar">
 &lt;div class="sc-modal-img">
-&lt;img src="https://staging.forrt.org/authors/drflavioazevedo/avatar.webp" alt="Dr Flavio Azevedo" />
+&lt;img src="https://forrt.org/authors/drflavioazevedo/avatar.webp" alt="Dr Flavio Azevedo" />
 &lt;/div>
 &lt;div class="sc-social-links">
 &lt;a href="http://flavioazevedo.com/about" target="_blank" rel="noopener noreferrer" class="text-slate-400 hover:text-slate-800 transition-colors">&lt;svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">&lt;circle cx="12" cy="12" r="10"/>&lt;line x1="2" x2="22" y1="12" y2="12"/>&lt;path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>&lt;/svg>&lt;/a>
@@ -1093,7 +1093,7 @@ I am also very interested in Open Science and an avid R user. In that space, I e
 &lt;div class="sc-modal-layout">
 &lt;div class="sc-modal-sidebar">
 &lt;div class="sc-modal-img">
-&lt;img src="https://staging.forrt.org/authors/samparsons/avatar.webp" alt="Sam Parsons" />
+&lt;img src="https://forrt.org/authors/samparsons/avatar.webp" alt="Sam Parsons" />
 &lt;/div>
 &lt;div class="sc-social-links">
 &lt;a href="https://sdparsons.github.io/" target="_blank" rel="noopener noreferrer" class="text-slate-400 hover:text-slate-800 transition-colors">&lt;svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">&lt;circle cx="12" cy="12" r="10"/>&lt;line x1="2" x2="22" y1="12" y2="12"/>&lt;path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>&lt;/svg>&lt;/a>
@@ -1118,7 +1118,7 @@ I am also very interested in Open Science and an avid R user. In that space, I e
 &lt;div class="sc-modal-layout">
 &lt;div class="sc-modal-sidebar">
 &lt;div class="sc-modal-img">
-&lt;img src="https://staging.forrt.org/authors/thomasrhysevans/avatar.webp" alt="Thomas Rhys Evans" />
+&lt;img src="https://forrt.org/authors/thomasrhysevans/avatar.webp" alt="Thomas Rhys Evans" />
 &lt;/div>
 &lt;div class="sc-social-links">
 &lt;a href="https://www.gre.ac.uk/people/rep/faculty-of-education-and-health/thomas-rhys-evans" target="_blank" rel="noopener noreferrer" class="text-slate-400 hover:text-slate-800 transition-colors">&lt;svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">&lt;circle cx="12" cy="12" r="10"/>&lt;line x1="2" x2="22" y1="12" y2="12"/>&lt;path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>&lt;/svg>&lt;/a>
@@ -1361,7 +1361,7 @@ Object.entries(orders).forEach(([sectionId, teams]) => reorderAndLink(sectionId,
 })
 .catch((err) => console.warn('SC team linking failed', err));
 });
-&lt;/script></description></item><item><title>Teams</title><link>https://staging.forrt.org/about/teams/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://staging.forrt.org/about/teams/</guid><description/></item><item><title>Visitors</title><link>https://staging.forrt.org/about/visitors/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://staging.forrt.org/about/visitors/</guid><description>&lt;p>We are excited to see that our resources are useful for people from all over the world. Here are some statistics to show who has been here over the past 30 days.&lt;/p>
+&lt;/script></description></item><item><title>Teams</title><link>https://forrt.org/about/teams/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://forrt.org/about/teams/</guid><description/></item><item><title>Visitors</title><link>https://forrt.org/about/visitors/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://forrt.org/about/visitors/</guid><description>&lt;p>We are excited to see that our resources are useful for people from all over the world. Here are some statistics to show who has been here over the past 30 days.&lt;/p>
 &lt;h2 id="last-30-days">Last 30 Days&lt;/h2>
 &lt;h3 id="-by-country">&amp;hellip; by country&lt;/h3>
 &lt;div id="ga_map" style="height: 400px; background: #b3d9ff;">&lt;/div>
@@ -1382,7 +1382,7 @@ doubleClickZoom: false,
 touchZoom: false,
 maxBoundsViscosity: 1.0
 }).setView([40, 0], 1.25);
-var gaRegionsData = [{"country":"China","users":6589},{"country":"United States of America","users":1026},{"country":"Germany","users":549},{"country":"United Kingdom","users":504},{"country":"Netherlands","users":311},{"country":"Brazil","users":232},{"country":"Ireland","users":225},{"country":"Vietnam","users":162},{"country":"Iraq","users":146},{"country":"India","users":127},{"country":"Argentina","users":113},{"country":"Saudi Arabia","users":94},{"country":"Canada","users":87},{"country":"Philippines","users":84},{"country":"Algeria","users":76},{"country":"Mexico","users":74},{"country":"Egypt","users":64},{"country":"Switzerland","users":64},{"country":"France","users":62},{"country":"Indonesia","users":50},{"country":"Bangladesh","users":49},{"country":"(not set)","users":48},{"country":"Spain","users":47},{"country":"Sweden","users":45},{"country":"Australia","users":44},{"country":"Venezuela","users":44},{"country":"Morocco","users":42},{"country":"Singapore","users":41},{"country":"Colombia","users":40},{"country":"Italy","users":40},{"country":"Kenya","users":40},{"country":"South Africa","users":40},{"country":"Austria","users":37},{"country":"Japan","users":35},{"country":"Jordan","users":34},{"country":"United Arab Emirates","users":32},{"country":"Türkiye","users":30},{"country":"Poland","users":28},{"country":"Russia","users":26},{"country":"Chile","users":24},{"country":"Ecuador","users":22},{"country":"Pakistan","users":22},{"country":"Syria","users":22},{"country":"Malaysia","users":21},{"country":"Peru","users":20},{"country":"Norway","users":19},{"country":"Uruguay","users":19},{"country":"Israel","users":18},{"country":"Belgium","users":17},{"country":"Tunisia","users":17},{"country":"Uzbekistan","users":16},{"country":"Kazakhstan","users":15},{"country":"Portugal","users":14},{"country":"Hong Kong","users":13},{"country":"Palestine","users":13},{"country":"Paraguay","users":13},{"country":"Nigeria","users":12},{"country":"Oman","users":11},{"country":"Bulgaria","users":10},{"country":"Croatia","users":10},{"country":"Denmark","users":10},{"country":"Finland","users":10},{"country":"Panama","users":10},{"country":"Azerbaijan","users":9},{"country":"Libya","users":9},{"country":"Ukraine","users":9},{"country":"Albania","users":8},{"country":"Czechia","users":8},{"country":"Greece","users":8},{"country":"Qatar","users":8},{"country":"Romania","users":8},{"country":"Senegal","users":8},{"country":"Bahrain","users":7},{"country":"Congo - Brazzaville","users":7},{"country":"Ethiopia","users":7},{"country":"Kuwait","users":7},{"country":"South Korea","users":7},{"country":"Hungary","users":6},{"country":"Sudan","users":6},{"country":"Kyrgyzstan","users":5},{"country":"Moldova","users":5},{"country":"Myanmar (Burma)","users":5},{"country":"Nepal","users":5},{"country":"New Zealand","users":5},{"country":"Slovenia","users":5},{"country":"Taiwan","users":5},{"country":"Thailand","users":5},{"country":"Cyprus","users":4},{"country":"Honduras","users":4},{"country":"Kosovo","users":4},{"country":"Lebanon","users":4},{"country":"Yemen","users":4},{"country":"Angola","users":3},{"country":"Belarus","users":3},{"country":"Bosnia \u0026 Herzegovina","users":3},{"country":"Cambodia","users":3},{"country":"Costa Rica","users":3},{"country":"Georgia","users":3},{"country":"Jamaica","users":3},{"country":"Lithuania","users":3},{"country":"Nicaragua","users":3},{"country":"Serbia","users":3},{"country":"Zimbabwe","users":3},{"country":"Bolivia","users":2},{"country":"Brunei","users":2},{"country":"Côte d’Ivoire","users":2},{"country":"Estonia","users":2},{"country":"Laos","users":2},{"country":"Latvia","users":2},{"country":"Mali","users":2},{"country":"Mauritania","users":2},{"country":"Montenegro","users":2},{"country":"Rwanda","users":2},{"country":"Slovakia","users":2},{"country":"Uganda","users":2},{"country":"Burkina Faso","users":1},{"country":"Cameroon","users":1},{"country":"Chad","users":1},{"country":"Dominican Republic","users":1},{"country":"El Salvador","users":1},{"country":"Gabon","users":1},{"country":"Gambia","users":1},{"country":"Ghana","users":1},{"country":"Guyana","users":1},{"country":"Iceland","users":1},{"country":"Luxembourg","users":1},{"country":"Malta","users":1},{"country":"Mongolia","users":1},{"country":"Mozambique","users":1},{"country":"North Macedonia","users":1},{"country":"Puerto Rico","users":1},{"country":"Sri Lanka","users":1},{"country":"St. Vincent \u0026 Grenadines","users":1},{"country":"Tanzania","users":1},{"country":"Western Sahara","users":1}];
+var gaRegionsData = [{"country":"China","users":6815},{"country":"United States of America","users":1040},{"country":"Germany","users":552},{"country":"United Kingdom","users":513},{"country":"Netherlands","users":318},{"country":"Ireland","users":236},{"country":"Brazil","users":233},{"country":"Vietnam","users":162},{"country":"Iraq","users":146},{"country":"India","users":131},{"country":"Argentina","users":112},{"country":"Saudi Arabia","users":96},{"country":"Canada","users":88},{"country":"Philippines","users":81},{"country":"Algeria","users":75},{"country":"Mexico","users":73},{"country":"Switzerland","users":67},{"country":"France","users":65},{"country":"Egypt","users":62},{"country":"Indonesia","users":52},{"country":"Bangladesh","users":49},{"country":"Australia","users":47},{"country":"Spain","users":47},{"country":"Sweden","users":47},{"country":"(not set)","users":46},{"country":"Morocco","users":44},{"country":"Venezuela","users":44},{"country":"Singapore","users":43},{"country":"Colombia","users":40},{"country":"Kenya","users":40},{"country":"South Africa","users":40},{"country":"Italy","users":38},{"country":"Japan","users":37},{"country":"Austria","users":35},{"country":"Jordan","users":34},{"country":"United Arab Emirates","users":33},{"country":"Türkiye","users":30},{"country":"Poland","users":28},{"country":"Russia","users":25},{"country":"Chile","users":24},{"country":"Pakistan","users":23},{"country":"Ecuador","users":22},{"country":"Syria","users":22},{"country":"Malaysia","users":21},{"country":"Norway","users":20},{"country":"Peru","users":20},{"country":"Uruguay","users":19},{"country":"Israel","users":18},{"country":"Tunisia","users":18},{"country":"Belgium","users":17},{"country":"Uzbekistan","users":16},{"country":"Kazakhstan","users":15},{"country":"Portugal","users":15},{"country":"Palestine","users":14},{"country":"Hong Kong","users":13},{"country":"Paraguay","users":13},{"country":"Nigeria","users":12},{"country":"Croatia","users":11},{"country":"Finland","users":11},{"country":"Oman","users":11},{"country":"Bulgaria","users":10},{"country":"Panama","users":10},{"country":"Ukraine","users":10},{"country":"Azerbaijan","users":9},{"country":"Denmark","users":9},{"country":"Libya","users":9},{"country":"Albania","users":8},{"country":"Greece","users":8},{"country":"Qatar","users":8},{"country":"Romania","users":8},{"country":"Senegal","users":8},{"country":"Sudan","users":8},{"country":"Bahrain","users":7},{"country":"Congo - Brazzaville","users":7},{"country":"Czechia","users":7},{"country":"Ethiopia","users":7},{"country":"Kuwait","users":7},{"country":"South Korea","users":7},{"country":"Hungary","users":6},{"country":"New Zealand","users":6},{"country":"Taiwan","users":6},{"country":"Moldova","users":5},{"country":"Nepal","users":5},{"country":"Slovenia","users":5},{"country":"Thailand","users":5},{"country":"Cyprus","users":4},{"country":"Honduras","users":4},{"country":"Kosovo","users":4},{"country":"Kyrgyzstan","users":4},{"country":"Lebanon","users":4},{"country":"Myanmar (Burma)","users":4},{"country":"Yemen","users":4},{"country":"Angola","users":3},{"country":"Belarus","users":3},{"country":"Bosnia \u0026 Herzegovina","users":3},{"country":"Cambodia","users":3},{"country":"Costa Rica","users":3},{"country":"Georgia","users":3},{"country":"Jamaica","users":3},{"country":"Latvia","users":3},{"country":"Lithuania","users":3},{"country":"Nicaragua","users":3},{"country":"Serbia","users":3},{"country":"Zimbabwe","users":3},{"country":"","users":2},{"country":"Bolivia","users":2},{"country":"Brunei","users":2},{"country":"Côte d’Ivoire","users":2},{"country":"Estonia","users":2},{"country":"Laos","users":2},{"country":"Mali","users":2},{"country":"Mauritania","users":2},{"country":"Montenegro","users":2},{"country":"Rwanda","users":2},{"country":"Slovakia","users":2},{"country":"Uganda","users":2},{"country":"Burkina Faso","users":1},{"country":"Cameroon","users":1},{"country":"Chad","users":1},{"country":"Congo - Kinshasa","users":1},{"country":"Dominican Republic","users":1},{"country":"El Salvador","users":1},{"country":"Gabon","users":1},{"country":"Gambia","users":1},{"country":"Ghana","users":1},{"country":"Guyana","users":1},{"country":"Iceland","users":1},{"country":"Luxembourg","users":1},{"country":"Malta","users":1},{"country":"Mongolia","users":1},{"country":"Mozambique","users":1},{"country":"North Macedonia","users":1},{"country":"Puerto Rico","users":1},{"country":"Sri Lanka","users":1},{"country":"St. Vincent \u0026 Grenadines","users":1},{"country":"Tanzania","users":1},{"country":"Western Sahara","users":1}];
 var gaRegions = {};
 gaRegionsData.forEach(function(entry) {
 gaRegions[entry.country] = entry.users;
@@ -1445,43 +1445,49 @@ console.error("Error loading GeoJSON:", error);
 &lt;td>
 &lt;a href="https://forrt.org/">https://forrt.org/&lt;/a>
 &lt;/td>
-&lt;td>1533&lt;/td>
+&lt;td>1566&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>
 &lt;a href="https://forrt.org/reversals/">https://forrt.org/reversals/&lt;/a>
 &lt;/td>
-&lt;td>591&lt;/td>
+&lt;td>583&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>
 &lt;a href="https://forrt.org/replication-hub/">https://forrt.org/replication-hub/&lt;/a>
 &lt;/td>
-&lt;td>287&lt;/td>
+&lt;td>306&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>
 &lt;a href="https://forrt.org/awop/">https://forrt.org/awop/&lt;/a>
 &lt;/td>
-&lt;td>283&lt;/td>
+&lt;td>300&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>
 &lt;a href="https://forrt.org/games/">https://forrt.org/games/&lt;/a>
 &lt;/td>
-&lt;td>183&lt;/td>
+&lt;td>186&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>
 &lt;a href="https://forrt.org/about/get-involved/">https://forrt.org/about/get-involved/&lt;/a>
 &lt;/td>
-&lt;td>178&lt;/td>
+&lt;td>183&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>
 &lt;a href="https://forrt.org/about/us/">https://forrt.org/about/us/&lt;/a>
 &lt;/td>
-&lt;td>135&lt;/td>
+&lt;td>140&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>
+&lt;a href="https://forrt.org/publications/">https://forrt.org/publications/&lt;/a>
+&lt;/td>
+&lt;td>140&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>
@@ -1491,15 +1497,9 @@ console.error("Error loading GeoJSON:", error);
 &lt;/tr>
 &lt;tr>
 &lt;td>
-&lt;a href="https://forrt.org/publications/">https://forrt.org/publications/&lt;/a>
-&lt;/td>
-&lt;td>132&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>
 &lt;a href="https://forrt.org/glossary/">https://forrt.org/glossary/&lt;/a>
 &lt;/td>
-&lt;td>112&lt;/td>
+&lt;td>116&lt;/td>
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>
@@ -1508,7 +1508,7 @@ console.error("Error loading GeoJSON:", error);
 &lt;script src="https://cdn.jsdelivr.net/npm/chart.js">&lt;/script>
 &lt;script>
 document.addEventListener('DOMContentLoaded', function() {
-var dailyData = [{"date":"2026-02-05","users":762},{"date":"2026-01-29","users":623},{"date":"2026-01-30","users":588},{"date":"2026-01-14","users":565},{"date":"2026-01-13","users":539},{"date":"2026-01-28","users":537},{"date":"2026-01-31","users":526},{"date":"2026-01-20","users":513},{"date":"2026-02-03","users":503},{"date":"2026-02-02","users":471},{"date":"2026-02-04","users":471},{"date":"2026-01-15","users":438},{"date":"2026-01-27","users":418},{"date":"2026-02-06","users":406},{"date":"2026-01-12","users":389},{"date":"2026-01-16","users":382},{"date":"2026-01-25","users":376},{"date":"2026-02-07","users":349},{"date":"2026-01-26","users":311},{"date":"2026-02-01","users":303},{"date":"2026-02-08","users":300},{"date":"2026-01-21","users":288},{"date":"2026-01-22","users":285},{"date":"2026-01-19","users":251},{"date":"2026-01-17","users":248},{"date":"2026-01-23","users":247},{"date":"2026-01-18","users":205},{"date":"2026-01-24","users":178},{"date":"2026-01-11","users":162},{"date":"2026-01-10","users":161}];
+var dailyData = [{"date":"2026-02-05","users":762},{"date":"2026-01-29","users":623},{"date":"2026-01-30","users":588},{"date":"2026-01-14","users":565},{"date":"2026-01-13","users":539},{"date":"2026-01-28","users":537},{"date":"2026-01-31","users":526},{"date":"2026-01-20","users":513},{"date":"2026-02-03","users":503},{"date":"2026-02-02","users":471},{"date":"2026-02-04","users":471},{"date":"2026-01-15","users":438},{"date":"2026-02-09","users":429},{"date":"2026-01-27","users":418},{"date":"2026-02-06","users":406},{"date":"2026-01-12","users":389},{"date":"2026-01-16","users":382},{"date":"2026-01-25","users":376},{"date":"2026-02-08","users":357},{"date":"2026-02-07","users":349},{"date":"2026-01-26","users":311},{"date":"2026-02-01","users":303},{"date":"2026-01-21","users":288},{"date":"2026-01-22","users":285},{"date":"2026-01-19","users":251},{"date":"2026-01-17","users":248},{"date":"2026-01-23","users":247},{"date":"2026-01-18","users":205},{"date":"2026-01-24","users":178},{"date":"2026-01-11","users":162}];
 if (dailyData &amp;&amp; dailyData.length) {
 dailyData.sort((a, b) => new Date(a.date) - new Date(b.date));
 dailyData.pop();
@@ -1564,7 +1564,7 @@ doubleClickZoom: false,
 touchZoom: false,
 maxBoundsViscosity: 1.0
 }).setView([40, 0], 1.25);
-var gaRegionsData = [{"country":"China","users":28913},{"country":"United States of America","users":10897},{"country":"Singapore","users":5990},{"country":"Germany","users":5692},{"country":"United Kingdom","users":3929},{"country":"Netherlands","users":2641},{"country":"Ireland","users":1723},{"country":"Canada","users":1069},{"country":"(not set)","users":901},{"country":"India","users":879},{"country":"Australia","users":765},{"country":"Brazil","users":736},{"country":"Switzerland","users":595},{"country":"Egypt","users":548},{"country":"Saudi Arabia","users":548},{"country":"France","users":525},{"country":"Austria","users":507},{"country":"Iraq","users":472},{"country":"Algeria","users":462},{"country":"Italy","users":408},{"country":"Sweden","users":354},{"country":"Spain","users":345},{"country":"Indonesia","users":342},{"country":"Poland","users":341},{"country":"Philippines","users":337},{"country":"Norway","users":318},{"country":"Japan","users":314},{"country":"Argentina","users":306},{"country":"Vietnam","users":285},{"country":"Belgium","users":254},{"country":"Mexico","users":234},{"country":"Türkiye","users":233},{"country":"South Africa","users":231},{"country":"Colombia","users":207},{"country":"Morocco","users":185},{"country":"Hong Kong","users":169},{"country":"Jordan","users":169},{"country":"Russia","users":166},{"country":"Finland","users":160},{"country":"Kenya","users":159},{"country":"United Arab Emirates","users":158},{"country":"Denmark","users":143},{"country":"Bangladesh","users":138},{"country":"Portugal","users":129},{"country":"Croatia","users":123},{"country":"Greece","users":117},{"country":"Malaysia","users":116},{"country":"Nigeria","users":114},{"country":"Israel","users":107},{"country":"Czechia","users":103},{"country":"Venezuela","users":99},{"country":"Syria","users":98},{"country":"Chile","users":96},{"country":"Pakistan","users":95},{"country":"New Zealand","users":92},{"country":"South Korea","users":91},{"country":"Hungary","users":87},{"country":"Libya","users":83},{"country":"Peru","users":80},{"country":"Romania","users":79},{"country":"Taiwan","users":79},{"country":"Tunisia","users":77},{"country":"Oman","users":72},{"country":"Ukraine","users":72},{"country":"Sudan","users":60},{"country":"Ecuador","users":59},{"country":"Palestine","users":54},{"country":"Serbia","users":54},{"country":"Thailand","users":52},{"country":"Qatar","users":49},{"country":"Lebanon","users":48},{"country":"Bahrain","users":45},{"country":"Iran","users":44},{"country":"Uruguay","users":44},{"country":"Kuwait","users":42},{"country":"Tanzania","users":41},{"country":"Bulgaria","users":39},{"country":"Uzbekistan","users":38},{"country":"Ethiopia","users":36},{"country":"Ghana","users":34},{"country":"Panama","users":34},{"country":"Slovenia","users":34},{"country":"Yemen","users":30},{"country":"Kazakhstan","users":28},{"country":"Uganda","users":27},{"country":"Cambodia","users":24},{"country":"Paraguay","users":24},{"country":"Azerbaijan","users":23},{"country":"Latvia","users":23},{"country":"Laos","users":20},{"country":"Slovakia","users":20},{"country":"Myanmar (Burma)","users":19},{"country":"Estonia","users":18},{"country":"Lithuania","users":18},{"country":"Nepal","users":18},{"country":"Rwanda","users":18},{"country":"Senegal","users":18},{"country":"Iceland","users":17},{"country":"Albania","users":15},{"country":"Bolivia","users":15},{"country":"Congo - Brazzaville","users":15},{"country":"Sri Lanka","users":15},{"country":"Costa Rica","users":14},{"country":"Armenia","users":13},{"country":"Cyprus","users":13},{"country":"Dominican Republic","users":13},{"country":"Luxembourg","users":13},{"country":"Bosnia \u0026 Herzegovina","users":12},{"country":"Puerto Rico","users":12},{"country":"Montenegro","users":11},{"country":"North Macedonia","users":11},{"country":"Côte d’Ivoire","users":10},{"country":"Georgia","users":10},{"country":"Honduras","users":10},{"country":"Moldova","users":10},{"country":"Zimbabwe","users":10},{"country":"Kyrgyzstan","users":9},{"country":"Tajikistan","users":9},{"country":"Kosovo","users":8},{"country":"Angola","users":7},{"country":"Trinidad \u0026 Tobago","users":7},{"country":"Belarus","users":6},{"country":"Mauritania","users":6},{"country":"Nicaragua","users":6},{"country":"Zambia","users":6},{"country":"Benin","users":5},{"country":"Congo - Kinshasa","users":5},{"country":"Jamaica","users":5},{"country":"Malawi","users":5},{"country":"Mauritius","users":5},{"country":"Botswana","users":4},{"country":"Liberia","users":4},{"country":"Macao","users":4},{"country":"Maldives","users":4},{"country":"Mongolia","users":4},{"country":"Sierra Leone","users":4},{"country":"Brunei","users":3},{"country":"Chad","users":3},{"country":"Gabon","users":3},{"country":"Guernsey","users":3},{"country":"Namibia","users":3},{"country":"Papua New Guinea","users":3},{"country":"Somalia","users":3},{"country":"Togo","users":3},{"country":"U.S. Virgin Islands","users":3},{"country":"El Salvador","users":2},{"country":"Eswatini","users":2},{"country":"Fiji","users":2},{"country":"Liechtenstein","users":2},{"country":"Mali","users":2},{"country":"Malta","users":2},{"country":"Mozambique","users":2},{"country":"South Sudan","users":2},{"country":"Suriname","users":2},{"country":"Timor-Leste","users":2},{"country":"Western Sahara","users":2},{"country":"Andorra","users":1},{"country":"Bahamas","users":1},{"country":"Belize","users":1},{"country":"Bhutan","users":1},{"country":"Burkina Faso","users":1},{"country":"Burundi","users":1},{"country":"Cameroon","users":1},{"country":"Caribbean Netherlands","users":1},{"country":"Cuba","users":1},{"country":"Djibouti","users":1},{"country":"Gambia","users":1},{"country":"Guam","users":1},{"country":"Guatemala","users":1},{"country":"Guinea","users":1},{"country":"Guyana","users":1},{"country":"Isle of Man","users":1},{"country":"Madagascar","users":1},{"country":"Martinique","users":1},{"country":"Niger","users":1},{"country":"Seychelles","users":1},{"country":"Solomon Islands","users":1},{"country":"St. Vincent \u0026 Grenadines","users":1},{"country":"Vanuatu","users":1}];
+var gaRegionsData = [{"country":"China","users":29187},{"country":"United States of America","users":10934},{"country":"Singapore","users":5991},{"country":"Germany","users":5697},{"country":"United Kingdom","users":3935},{"country":"Netherlands","users":2646},{"country":"Ireland","users":1732},{"country":"Canada","users":1073},{"country":"(not set)","users":901},{"country":"India","users":881},{"country":"Australia","users":766},{"country":"Brazil","users":738},{"country":"Switzerland","users":600},{"country":"Saudi Arabia","users":548},{"country":"Egypt","users":546},{"country":"France","users":529},{"country":"Austria","users":508},{"country":"Iraq","users":472},{"country":"Algeria","users":464},{"country":"Italy","users":408},{"country":"Sweden","users":356},{"country":"Indonesia","users":345},{"country":"Spain","users":344},{"country":"Poland","users":341},{"country":"Philippines","users":337},{"country":"Norway","users":319},{"country":"Japan","users":315},{"country":"Argentina","users":306},{"country":"Vietnam","users":285},{"country":"Belgium","users":254},{"country":"Mexico","users":234},{"country":"Türkiye","users":234},{"country":"South Africa","users":231},{"country":"Colombia","users":208},{"country":"Morocco","users":187},{"country":"Hong Kong","users":169},{"country":"Jordan","users":169},{"country":"Russia","users":166},{"country":"Finland","users":160},{"country":"United Arab Emirates","users":160},{"country":"Kenya","users":159},{"country":"Denmark","users":143},{"country":"Bangladesh","users":138},{"country":"Portugal","users":130},{"country":"Croatia","users":124},{"country":"Greece","users":117},{"country":"Malaysia","users":116},{"country":"Nigeria","users":114},{"country":"Israel","users":106},{"country":"Czechia","users":103},{"country":"Syria","users":99},{"country":"Venezuela","users":99},{"country":"Chile","users":96},{"country":"Pakistan","users":96},{"country":"New Zealand","users":93},{"country":"South Korea","users":91},{"country":"Hungary","users":87},{"country":"Libya","users":83},{"country":"Peru","users":80},{"country":"Taiwan","users":80},{"country":"Romania","users":79},{"country":"Tunisia","users":78},{"country":"Ukraine","users":73},{"country":"Oman","users":72},{"country":"Sudan","users":62},{"country":"Ecuador","users":59},{"country":"Palestine","users":55},{"country":"Serbia","users":53},{"country":"Thailand","users":52},{"country":"Qatar","users":49},{"country":"Lebanon","users":48},{"country":"Bahrain","users":45},{"country":"Iran","users":44},{"country":"Uruguay","users":44},{"country":"Kuwait","users":42},{"country":"Tanzania","users":41},{"country":"Bulgaria","users":39},{"country":"Uzbekistan","users":38},{"country":"Ethiopia","users":36},{"country":"Panama","users":34},{"country":"Slovenia","users":34},{"country":"Ghana","users":33},{"country":"Yemen","users":30},{"country":"Kazakhstan","users":28},{"country":"Uganda","users":27},{"country":"Cambodia","users":24},{"country":"Latvia","users":24},{"country":"Paraguay","users":24},{"country":"Azerbaijan","users":23},{"country":"Laos","users":20},{"country":"Slovakia","users":20},{"country":"Myanmar (Burma)","users":19},{"country":"Estonia","users":18},{"country":"Lithuania","users":18},{"country":"Nepal","users":18},{"country":"Rwanda","users":18},{"country":"Senegal","users":18},{"country":"Iceland","users":17},{"country":"Albania","users":15},{"country":"Bolivia","users":15},{"country":"Congo - Brazzaville","users":15},{"country":"Sri Lanka","users":15},{"country":"Costa Rica","users":14},{"country":"Armenia","users":13},{"country":"Cyprus","users":13},{"country":"Dominican Republic","users":13},{"country":"Luxembourg","users":13},{"country":"Bosnia \u0026 Herzegovina","users":12},{"country":"Puerto Rico","users":12},{"country":"Montenegro","users":11},{"country":"North Macedonia","users":11},{"country":"Côte d’Ivoire","users":10},{"country":"Georgia","users":10},{"country":"Honduras","users":10},{"country":"Moldova","users":10},{"country":"Zimbabwe","users":10},{"country":"Kyrgyzstan","users":9},{"country":"Tajikistan","users":9},{"country":"Kosovo","users":8},{"country":"Angola","users":7},{"country":"Trinidad \u0026 Tobago","users":7},{"country":"Belarus","users":6},{"country":"Congo - Kinshasa","users":6},{"country":"Mauritania","users":6},{"country":"Nicaragua","users":6},{"country":"Zambia","users":6},{"country":"Benin","users":5},{"country":"Jamaica","users":5},{"country":"Malawi","users":5},{"country":"Mauritius","users":5},{"country":"Botswana","users":4},{"country":"Liberia","users":4},{"country":"Macao","users":4},{"country":"Maldives","users":4},{"country":"Mongolia","users":4},{"country":"Sierra Leone","users":4},{"country":"Brunei","users":3},{"country":"Chad","users":3},{"country":"Gabon","users":3},{"country":"Guernsey","users":3},{"country":"Namibia","users":3},{"country":"Papua New Guinea","users":3},{"country":"Somalia","users":3},{"country":"Togo","users":3},{"country":"U.S. Virgin Islands","users":3},{"country":"","users":2},{"country":"El Salvador","users":2},{"country":"Eswatini","users":2},{"country":"Fiji","users":2},{"country":"Liechtenstein","users":2},{"country":"Mali","users":2},{"country":"Malta","users":2},{"country":"Mozambique","users":2},{"country":"South Sudan","users":2},{"country":"Suriname","users":2},{"country":"Timor-Leste","users":2},{"country":"Western Sahara","users":2},{"country":"Andorra","users":1},{"country":"Bahamas","users":1},{"country":"Belize","users":1},{"country":"Bhutan","users":1},{"country":"Burkina Faso","users":1},{"country":"Burundi","users":1},{"country":"Cameroon","users":1},{"country":"Caribbean Netherlands","users":1},{"country":"Cuba","users":1},{"country":"Djibouti","users":1},{"country":"Gambia","users":1},{"country":"Guam","users":1},{"country":"Guatemala","users":1},{"country":"Guinea","users":1},{"country":"Guyana","users":1},{"country":"Isle of Man","users":1},{"country":"Madagascar","users":1},{"country":"Martinique","users":1},{"country":"Niger","users":1},{"country":"Seychelles","users":1},{"country":"Solomon Islands","users":1},{"country":"St. Vincent \u0026 Grenadines","users":1},{"country":"Vanuatu","users":1}];
 if (!gaRegionsData) {
 document.getElementById('ga_map_yearly').innerHTML = '&lt;div style="display: flex; align-items: center; justify-content: center; height: 100%; color: #666;">Yearly data not available yet&lt;/div>';
 return;
@@ -1631,61 +1631,61 @@ console.error("Error loading GeoJSON:", error);
 &lt;td>
 &lt;a href="https://forrt.org/">https://forrt.org/&lt;/a>
 &lt;/td>
-&lt;td>16030&lt;/td>
+&lt;td>16052&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>
 &lt;a href="https://forrt.org/awop/">https://forrt.org/awop/&lt;/a>
 &lt;/td>
-&lt;td>5048&lt;/td>
+&lt;td>5066&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>
 &lt;a href="https://forrt.org/reversals/">https://forrt.org/reversals/&lt;/a>
 &lt;/td>
-&lt;td>4059&lt;/td>
+&lt;td>4060&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>
 &lt;a href="https://forrt.org/replication-hub/">https://forrt.org/replication-hub/&lt;/a>
 &lt;/td>
-&lt;td>2679&lt;/td>
+&lt;td>2697&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>
 &lt;a href="https://forrt.org/glossary/">https://forrt.org/glossary/&lt;/a>
 &lt;/td>
-&lt;td>1993&lt;/td>
+&lt;td>1989&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>
 &lt;a href="https://forrt.org/about/get-involved/">https://forrt.org/about/get-involved/&lt;/a>
 &lt;/td>
-&lt;td>1870&lt;/td>
+&lt;td>1877&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>
 &lt;a href="https://forrt.org/resources/">https://forrt.org/resources/&lt;/a>
 &lt;/td>
-&lt;td>1860&lt;/td>
+&lt;td>1861&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>
 &lt;a href="https://forrt.org/about/us/">https://forrt.org/about/us/&lt;/a>
 &lt;/td>
-&lt;td>1790&lt;/td>
+&lt;td>1794&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>
 &lt;a href="https://forrt.org/publications/">https://forrt.org/publications/&lt;/a>
 &lt;/td>
-&lt;td>1777&lt;/td>
+&lt;td>1780&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>
 &lt;a href="https://forrt.org/contributors/">https://forrt.org/contributors/&lt;/a>
 &lt;/td>
-&lt;td>1587&lt;/td>
+&lt;td>1578&lt;/td>
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>
@@ -1694,7 +1694,7 @@ console.error("Error loading GeoJSON:", error);
 &lt;script src="https://cdn.jsdelivr.net/npm/chart.js">&lt;/script>
 &lt;script>
 document.addEventListener('DOMContentLoaded', function() {
-var dailyData = [{"date":"2025-12-14","users":3687},{"date":"2025-11-13","users":802},{"date":"2025-11-12","users":797},{"date":"2025-12-27","users":783},{"date":"2025-11-28","users":773},{"date":"2026-02-05","users":762},{"date":"2025-10-09","users":680},{"date":"2025-10-28","users":651},{"date":"2025-11-29","users":646},{"date":"2026-01-29","users":623},{"date":"2025-09-10","users":605},{"date":"2025-12-30","users":593},{"date":"2025-12-15","users":590},{"date":"2026-01-30","users":588},{"date":"2026-01-14","users":565},{"date":"2025-10-29","users":547},{"date":"2025-10-30","users":540},{"date":"2026-01-13","users":539},{"date":"2026-01-28","users":537},{"date":"2026-01-31","users":526},{"date":"2025-11-14","users":521},{"date":"2025-12-13","users":520},{"date":"2025-06-09","users":519},{"date":"2025-10-03","users":518},{"date":"2026-01-20","users":513},{"date":"2025-10-27","users":510},{"date":"2025-10-13","users":509},{"date":"2025-11-11","users":504},{"date":"2026-02-03","users":503},{"date":"2025-12-29","users":491},{"date":"2025-11-27","users":483},{"date":"2026-02-02","users":471},{"date":"2026-02-04","users":471},{"date":"2025-10-08","users":453},{"date":"2026-01-15","users":438},{"date":"2025-12-16","users":419},{"date":"2026-01-27","users":418},{"date":"2025-10-12","users":416},{"date":"2026-02-06","users":406},{"date":"2025-11-25","users":400},{"date":"2025-08-26","users":392},{"date":"2025-11-21","users":391},{"date":"2026-01-12","users":389},{"date":"2025-08-27","users":386},{"date":"2025-12-31","users":386},{"date":"2026-01-16","users":382},{"date":"2026-01-25","users":376},{"date":"2025-12-12","users":366},{"date":"2025-08-25","users":362},{"date":"2026-02-07","users":349},{"date":"2025-12-01","users":348},{"date":"2025-08-28","users":342},{"date":"2025-11-04","users":335},{"date":"2025-11-17","users":334},{"date":"2025-12-11","users":331},{"date":"2025-12-28","users":326},{"date":"2025-10-07","users":321},{"date":"2025-10-20","users":317},{"date":"2025-11-03","users":317},{"date":"2025-11-24","users":316},{"date":"2026-01-26","users":311},{"date":"2026-01-07","users":307},{"date":"2025-10-06","users":306},{"date":"2026-02-01","users":303},{"date":"2025-11-15","users":300},{"date":"2026-02-08","users":300},{"date":"2026-01-01","users":293},{"date":"2025-09-22","users":292},{"date":"2026-01-21","users":288},{"date":"2025-09-16","users":286},{"date":"2025-11-30","users":286},{"date":"2026-01-22","users":285},{"date":"2026-01-05","users":279},{"date":"2026-01-02","users":276},{"date":"2026-01-06","users":275},{"date":"2025-11-07","users":271},{"date":"2025-12-10","users":270},{"date":"2025-10-14","users":269},{"date":"2025-11-06","users":266},{"date":"2025-09-11","users":264},{"date":"2025-11-01","users":264},{"date":"2025-11-26","users":264},{"date":"2026-01-08","users":254},{"date":"2025-09-15","users":253},{"date":"2025-10-19","users":252},{"date":"2026-01-19","users":251},{"date":"2025-10-23","users":249},{"date":"2026-01-17","users":248},{"date":"2025-08-29","users":247},{"date":"2026-01-23","users":247},{"date":"2025-10-22","users":246},{"date":"2025-12-05","users":245},{"date":"2025-12-02","users":240},{"date":"2025-11-18","users":239},{"date":"2025-11-05","users":238},{"date":"2025-10-24","users":236},{"date":"2025-10-01","users":235},{"date":"2025-03-17","users":234},{"date":"2025-09-17","users":233},{"date":"2025-11-22","users":226},{"date":"2025-09-30","users":224},{"date":"2025-12-09","users":223},{"date":"2025-09-23","users":222},{"date":"2025-10-21","users":222},{"date":"2026-01-09","users":222},{"date":"2025-12-04","users":220},{"date":"2025-06-19","users":219},{"date":"2025-09-19","users":218},{"date":"2026-01-04","users":218},{"date":"2025-07-03","users":216},{"date":"2025-09-29","users":214},{"date":"2025-02-17","users":213},{"date":"2025-05-14","users":212},{"date":"2025-11-02","users":212},{"date":"2025-12-17","users":212},{"date":"2025-11-19","users":210},{"date":"2025-11-10","users":209},{"date":"2025-12-03","users":209},{"date":"2025-09-14","users":207},{"date":"2025-12-08","users":207},{"date":"2025-10-15","users":206},{"date":"2025-07-01","users":205},{"date":"2025-10-10","users":205},{"date":"2026-01-18","users":205},{"date":"2026-01-03","users":203},{"date":"2025-10-04","users":202},{"date":"2025-10-31","users":202},{"date":"2025-02-12","users":201},{"date":"2025-11-20","users":197},{"date":"2025-10-02","users":196},{"date":"2025-10-17","users":191},{"date":"2025-10-26","users":191},{"date":"2025-12-23","users":191},{"date":"2025-05-09","users":189},{"date":"2025-11-23","users":187},{"date":"2025-09-01","users":185},{"date":"2025-10-16","users":185},{"date":"2025-09-18","users":184},{"date":"2026-01-24","users":178},{"date":"2025-09-08","users":177},{"date":"2025-12-18","users":177},{"date":"2025-12-22","users":177},{"date":"2025-08-21","users":176},{"date":"2025-10-11","users":172},{"date":"2025-11-16","users":171},{"date":"2025-03-20","users":170},{"date":"2025-09-27","users":169},{"date":"2025-09-12","users":168},{"date":"2025-04-24","users":167},{"date":"2025-05-13","users":166},{"date":"2025-07-10","users":164},{"date":"2025-09-02","users":164},{"date":"2025-09-25","users":164},{"date":"2025-10-25","users":164},{"date":"2025-12-19","users":164},{"date":"2025-07-09","users":162},{"date":"2026-01-11","users":162},{"date":"2025-09-03","users":161},{"date":"2026-01-10","users":161},{"date":"2025-04-08","users":160},{"date":"2025-09-05","users":160},{"date":"2025-09-21","users":159},{"date":"2025-03-05","users":158},{"date":"2025-07-02","users":158},{"date":"2025-04-02","users":156},{"date":"2025-09-24","users":155},{"date":"2025-09-04","users":153},{"date":"2025-06-30","users":152},{"date":"2025-09-09","users":152},{"date":"2025-03-18","users":150},{"date":"2025-02-19","users":149},{"date":"2025-11-09","users":149},{"date":"2025-02-27","users":148},{"date":"2025-03-14","users":147},{"date":"2025-09-26","users":147},{"date":"2025-07-31","users":146},{"date":"2025-12-25","users":146},{"date":"2025-04-14","users":145},{"date":"2025-08-05","users":145},{"date":"2025-08-13","users":145},{"date":"2025-08-30","users":145},{"date":"2025-11-08","users":145},{"date":"2025-02-18","users":143},{"date":"2025-04-22","users":143},{"date":"2025-02-13","users":142},{"date":"2025-03-25","users":142},{"date":"2025-07-07","users":142},{"date":"2025-04-30","users":140},{"date":"2025-05-12","users":140},{"date":"2025-07-08","users":139},{"date":"2025-07-17","users":138},{"date":"2025-12-20","users":138},{"date":"2025-04-28","users":137},{"date":"2025-05-21","users":137},{"date":"2025-08-20","users":137},{"date":"2025-12-26","users":137},{"date":"2025-04-07","users":135},{"date":"2025-05-15","users":135},{"date":"2025-06-11","users":135},{"date":"2025-02-21","users":134},{"date":"2025-03-04","users":134},{"date":"2025-03-19","users":134},{"date":"2025-03-26","users":134},{"date":"2025-04-25","users":134},{"date":"2025-05-06","users":134},{"date":"2025-05-28","users":134},{"date":"2025-06-18","users":134},{"date":"2025-03-07","users":133},{"date":"2025-04-10","users":133},{"date":"2025-07-22","users":133},{"date":"2025-12-06","users":133},{"date":"2025-03-13","users":131},{"date":"2025-09-28","users":131},{"date":"2025-03-31","users":130},{"date":"2025-06-25","users":130},{"date":"2025-03-21","users":129},{"date":"2025-02-28","users":128},{"date":"2025-04-16","users":128},{"date":"2025-05-19","users":128},{"date":"2025-09-13","users":128},{"date":"2025-12-24","users":128},{"date":"2025-07-04","users":127},{"date":"2025-12-07","users":127},{"date":"2025-12-21","users":127},{"date":"2025-05-16","users":126},{"date":"2025-07-11","users":126},{"date":"2025-03-27","users":125},{"date":"2025-04-09","users":125},{"date":"2025-08-24","users":125},{"date":"2025-02-11","users":124},{"date":"2025-05-08","users":124},{"date":"2025-02-14","users":123},{"date":"2025-02-24","users":123},{"date":"2025-08-06","users":123},{"date":"2025-08-23","users":123},{"date":"2025-04-03","users":122},{"date":"2025-04-15","users":122},{"date":"2025-08-31","users":122},{"date":"2025-04-01","users":121},{"date":"2025-04-21","users":121},{"date":"2025-06-17","users":121},{"date":"2025-03-12","users":120},{"date":"2025-03-24","users":120},{"date":"2025-05-20","users":120},{"date":"2025-04-23","users":119},{"date":"2025-06-16","users":119},{"date":"2025-07-16","users":119},{"date":"2025-08-07","users":119},{"date":"2025-03-06","users":118},{"date":"2025-03-11","users":117},{"date":"2025-05-01","users":117},{"date":"2025-08-11","users":117},{"date":"2025-02-25","users":116},{"date":"2025-07-14","users":116},{"date":"2025-07-24","users":116},{"date":"2025-08-04","users":116},{"date":"2025-08-12","users":116},{"date":"2025-09-20","users":116},{"date":"2025-10-05","users":116},{"date":"2025-05-05","users":115},{"date":"2025-02-20","users":112},{"date":"2025-06-26","users":112},{"date":"2025-04-29","users":111},{"date":"2025-06-24","users":111},{"date":"2025-03-15","users":110},{"date":"2025-06-04","users":110},{"date":"2025-06-10","users":110},{"date":"2025-03-10","users":109},{"date":"2025-04-04","users":109},{"date":"2025-06-05","users":109},{"date":"2025-06-02","users":108},{"date":"2025-06-06","users":108},{"date":"2025-08-14","users":108},{"date":"2025-09-06","users":108},{"date":"2025-10-18","users":107},{"date":"2025-03-28","users":106},{"date":"2025-06-03","users":105},{"date":"2025-06-13","users":104},{"date":"2025-07-21","users":104},{"date":"2025-08-01","users":104},{"date":"2025-09-07","users":104},{"date":"2025-02-26","users":103},{"date":"2025-05-22","users":103},{"date":"2025-07-28","users":103},{"date":"2025-06-12","users":102},{"date":"2025-06-27","users":102},{"date":"2025-02-10","users":101},{"date":"2025-05-27","users":101},{"date":"2025-07-23","users":101},{"date":"2025-06-08","users":100},{"date":"2025-07-05","users":100},{"date":"2025-08-22","users":100},{"date":"2025-04-17","users":98},{"date":"2025-05-26","users":98},{"date":"2025-06-23","users":97},{"date":"2025-08-19","users":97},{"date":"2025-05-23","users":96},{"date":"2025-03-03","users":95},{"date":"2025-06-28","users":95},{"date":"2025-07-15","users":95},{"date":"2025-05-02","users":93},{"date":"2025-05-17","users":93},{"date":"2025-07-30","users":93},{"date":"2025-06-20","users":92},{"date":"2025-05-18","users":91},{"date":"2025-05-29","users":91},{"date":"2025-08-18","users":90},{"date":"2025-02-16","users":89},{"date":"2025-05-07","users":89},{"date":"2025-05-30","users":89},{"date":"2025-08-02","users":89},{"date":"2025-05-25","users":88},{"date":"2025-03-16","users":87},{"date":"2025-04-11","users":85},{"date":"2025-08-08","users":85},{"date":"2025-03-22","users":84},{"date":"2025-06-22","users":84},{"date":"2025-07-26","users":82},{"date":"2025-04-12","users":81},{"date":"2025-07-18","users":80},{"date":"2025-02-15","users":79},{"date":"2025-07-29","users":79},{"date":"2025-06-15","users":78},{"date":"2025-07-25","users":78},{"date":"2025-08-15","users":78},{"date":"2025-05-24","users":76},{"date":"2025-03-30","users":74},{"date":"2025-04-18","users":71},{"date":"2025-08-17","users":71},{"date":"2025-04-13","users":70},{"date":"2025-02-23","users":69},{"date":"2025-05-11","users":68},{"date":"2025-03-29","users":67},{"date":"2025-04-26","users":67},{"date":"2025-06-07","users":66},{"date":"2025-07-12","users":65},{"date":"2025-02-22","users":64},{"date":"2025-05-10","users":62},{"date":"2025-06-14","users":62},{"date":"2025-04-05","users":61},{"date":"2025-04-06","users":61},{"date":"2025-04-27","users":61},{"date":"2025-03-01","users":60},{"date":"2025-03-02","users":60},{"date":"2025-02-09","users":59},{"date":"2025-03-09","users":58},{"date":"2025-07-13","users":58},{"date":"2025-03-08","users":57},{"date":"2025-04-19","users":56},{"date":"2025-06-01","users":56},{"date":"2025-06-29","users":56},{"date":"2025-04-20","users":55},{"date":"2025-03-23","users":54},{"date":"2025-05-04","users":54},{"date":"2025-06-21","users":54},{"date":"2025-08-03","users":54},{"date":"2025-08-10","users":53},{"date":"2025-07-06","users":49},{"date":"2025-07-27","users":49},{"date":"2025-08-09","users":49},{"date":"2025-08-16","users":47},{"date":"2025-05-31","users":46},{"date":"2025-07-20","users":39},{"date":"2025-07-19","users":38},{"date":"2025-05-03","users":33}];
+var dailyData = [{"date":"2025-12-14","users":3687},{"date":"2025-11-13","users":802},{"date":"2025-11-12","users":797},{"date":"2025-12-27","users":783},{"date":"2025-11-28","users":773},{"date":"2026-02-05","users":762},{"date":"2025-10-09","users":680},{"date":"2025-10-28","users":651},{"date":"2025-11-29","users":646},{"date":"2026-01-29","users":623},{"date":"2025-09-10","users":605},{"date":"2025-12-30","users":593},{"date":"2025-12-15","users":590},{"date":"2026-01-30","users":588},{"date":"2026-01-14","users":565},{"date":"2025-10-29","users":547},{"date":"2025-10-30","users":540},{"date":"2026-01-13","users":539},{"date":"2026-01-28","users":537},{"date":"2026-01-31","users":526},{"date":"2025-11-14","users":521},{"date":"2025-12-13","users":520},{"date":"2025-06-09","users":519},{"date":"2025-10-03","users":518},{"date":"2026-01-20","users":513},{"date":"2025-10-27","users":510},{"date":"2025-10-13","users":509},{"date":"2025-11-11","users":504},{"date":"2026-02-03","users":503},{"date":"2025-12-29","users":491},{"date":"2025-11-27","users":483},{"date":"2026-02-02","users":471},{"date":"2026-02-04","users":471},{"date":"2025-10-08","users":453},{"date":"2026-01-15","users":438},{"date":"2026-02-09","users":429},{"date":"2025-12-16","users":419},{"date":"2026-01-27","users":418},{"date":"2025-10-12","users":416},{"date":"2026-02-06","users":406},{"date":"2025-11-25","users":400},{"date":"2025-08-26","users":392},{"date":"2025-11-21","users":391},{"date":"2026-01-12","users":389},{"date":"2025-08-27","users":386},{"date":"2025-12-31","users":386},{"date":"2026-01-16","users":382},{"date":"2026-01-25","users":376},{"date":"2025-12-12","users":366},{"date":"2025-08-25","users":362},{"date":"2026-02-08","users":357},{"date":"2026-02-07","users":349},{"date":"2025-12-01","users":348},{"date":"2025-08-28","users":342},{"date":"2025-11-04","users":335},{"date":"2025-11-17","users":334},{"date":"2025-12-11","users":331},{"date":"2025-12-28","users":326},{"date":"2025-10-07","users":321},{"date":"2025-10-20","users":317},{"date":"2025-11-03","users":317},{"date":"2025-11-24","users":316},{"date":"2026-01-26","users":311},{"date":"2026-01-07","users":307},{"date":"2025-10-06","users":306},{"date":"2026-02-01","users":303},{"date":"2025-11-15","users":300},{"date":"2026-01-01","users":293},{"date":"2025-09-22","users":292},{"date":"2026-01-21","users":288},{"date":"2025-09-16","users":286},{"date":"2025-11-30","users":286},{"date":"2026-01-22","users":285},{"date":"2026-01-05","users":279},{"date":"2026-01-02","users":276},{"date":"2026-01-06","users":275},{"date":"2025-11-07","users":271},{"date":"2025-12-10","users":270},{"date":"2025-10-14","users":269},{"date":"2025-11-06","users":266},{"date":"2025-09-11","users":264},{"date":"2025-11-01","users":264},{"date":"2025-11-26","users":264},{"date":"2026-01-08","users":254},{"date":"2025-09-15","users":253},{"date":"2025-10-19","users":252},{"date":"2026-01-19","users":251},{"date":"2025-10-23","users":249},{"date":"2026-01-17","users":248},{"date":"2025-08-29","users":247},{"date":"2026-01-23","users":247},{"date":"2025-10-22","users":246},{"date":"2025-12-05","users":245},{"date":"2025-12-02","users":240},{"date":"2025-11-18","users":239},{"date":"2025-11-05","users":238},{"date":"2025-10-24","users":236},{"date":"2025-10-01","users":235},{"date":"2025-03-17","users":234},{"date":"2025-09-17","users":233},{"date":"2025-11-22","users":226},{"date":"2025-09-30","users":224},{"date":"2025-12-09","users":223},{"date":"2025-09-23","users":222},{"date":"2025-10-21","users":222},{"date":"2026-01-09","users":222},{"date":"2025-12-04","users":220},{"date":"2025-06-19","users":219},{"date":"2025-09-19","users":218},{"date":"2026-01-04","users":218},{"date":"2025-07-03","users":216},{"date":"2025-09-29","users":214},{"date":"2025-02-17","users":213},{"date":"2025-05-14","users":212},{"date":"2025-11-02","users":212},{"date":"2025-12-17","users":212},{"date":"2025-11-19","users":210},{"date":"2025-11-10","users":209},{"date":"2025-12-03","users":209},{"date":"2025-09-14","users":207},{"date":"2025-12-08","users":207},{"date":"2025-10-15","users":206},{"date":"2025-07-01","users":205},{"date":"2025-10-10","users":205},{"date":"2026-01-18","users":205},{"date":"2026-01-03","users":203},{"date":"2025-10-04","users":202},{"date":"2025-10-31","users":202},{"date":"2025-02-12","users":201},{"date":"2025-11-20","users":197},{"date":"2025-10-02","users":196},{"date":"2025-10-17","users":191},{"date":"2025-10-26","users":191},{"date":"2025-12-23","users":191},{"date":"2025-05-09","users":189},{"date":"2025-11-23","users":187},{"date":"2025-09-01","users":185},{"date":"2025-10-16","users":185},{"date":"2025-09-18","users":184},{"date":"2026-01-24","users":178},{"date":"2025-09-08","users":177},{"date":"2025-12-18","users":177},{"date":"2025-12-22","users":177},{"date":"2025-08-21","users":176},{"date":"2025-10-11","users":172},{"date":"2025-11-16","users":171},{"date":"2025-03-20","users":170},{"date":"2025-09-27","users":169},{"date":"2025-09-12","users":168},{"date":"2025-04-24","users":167},{"date":"2025-05-13","users":166},{"date":"2025-07-10","users":164},{"date":"2025-09-02","users":164},{"date":"2025-09-25","users":164},{"date":"2025-10-25","users":164},{"date":"2025-12-19","users":164},{"date":"2025-07-09","users":162},{"date":"2026-01-11","users":162},{"date":"2025-09-03","users":161},{"date":"2026-01-10","users":161},{"date":"2025-04-08","users":160},{"date":"2025-09-05","users":160},{"date":"2025-09-21","users":159},{"date":"2025-03-05","users":158},{"date":"2025-07-02","users":158},{"date":"2025-04-02","users":156},{"date":"2025-09-24","users":155},{"date":"2025-09-04","users":153},{"date":"2025-06-30","users":152},{"date":"2025-09-09","users":152},{"date":"2025-03-18","users":150},{"date":"2025-02-19","users":149},{"date":"2025-11-09","users":149},{"date":"2025-02-27","users":148},{"date":"2025-03-14","users":147},{"date":"2025-09-26","users":147},{"date":"2025-07-31","users":146},{"date":"2025-12-25","users":146},{"date":"2025-04-14","users":145},{"date":"2025-08-05","users":145},{"date":"2025-08-13","users":145},{"date":"2025-08-30","users":145},{"date":"2025-11-08","users":145},{"date":"2025-02-18","users":143},{"date":"2025-04-22","users":143},{"date":"2025-02-13","users":142},{"date":"2025-03-25","users":142},{"date":"2025-07-07","users":142},{"date":"2025-04-30","users":140},{"date":"2025-05-12","users":140},{"date":"2025-07-08","users":139},{"date":"2025-07-17","users":138},{"date":"2025-12-20","users":138},{"date":"2025-04-28","users":137},{"date":"2025-05-21","users":137},{"date":"2025-08-20","users":137},{"date":"2025-12-26","users":137},{"date":"2025-04-07","users":135},{"date":"2025-05-15","users":135},{"date":"2025-06-11","users":135},{"date":"2025-02-21","users":134},{"date":"2025-03-04","users":134},{"date":"2025-03-19","users":134},{"date":"2025-03-26","users":134},{"date":"2025-04-25","users":134},{"date":"2025-05-06","users":134},{"date":"2025-05-28","users":134},{"date":"2025-06-18","users":134},{"date":"2025-03-07","users":133},{"date":"2025-04-10","users":133},{"date":"2025-07-22","users":133},{"date":"2025-12-06","users":133},{"date":"2025-03-13","users":131},{"date":"2025-09-28","users":131},{"date":"2025-03-31","users":130},{"date":"2025-06-25","users":130},{"date":"2025-03-21","users":129},{"date":"2025-02-28","users":128},{"date":"2025-04-16","users":128},{"date":"2025-05-19","users":128},{"date":"2025-09-13","users":128},{"date":"2025-12-24","users":128},{"date":"2025-07-04","users":127},{"date":"2025-12-07","users":127},{"date":"2025-12-21","users":127},{"date":"2025-05-16","users":126},{"date":"2025-07-11","users":126},{"date":"2025-03-27","users":125},{"date":"2025-04-09","users":125},{"date":"2025-08-24","users":125},{"date":"2025-02-11","users":124},{"date":"2025-05-08","users":124},{"date":"2025-02-14","users":123},{"date":"2025-02-24","users":123},{"date":"2025-08-06","users":123},{"date":"2025-08-23","users":123},{"date":"2025-04-03","users":122},{"date":"2025-04-15","users":122},{"date":"2025-08-31","users":122},{"date":"2025-04-01","users":121},{"date":"2025-04-21","users":121},{"date":"2025-06-17","users":121},{"date":"2025-03-12","users":120},{"date":"2025-03-24","users":120},{"date":"2025-05-20","users":120},{"date":"2025-04-23","users":119},{"date":"2025-06-16","users":119},{"date":"2025-07-16","users":119},{"date":"2025-08-07","users":119},{"date":"2025-03-06","users":118},{"date":"2025-03-11","users":117},{"date":"2025-05-01","users":117},{"date":"2025-08-11","users":117},{"date":"2025-02-25","users":116},{"date":"2025-07-14","users":116},{"date":"2025-07-24","users":116},{"date":"2025-08-04","users":116},{"date":"2025-08-12","users":116},{"date":"2025-09-20","users":116},{"date":"2025-10-05","users":116},{"date":"2025-05-05","users":115},{"date":"2025-02-20","users":112},{"date":"2025-06-26","users":112},{"date":"2025-04-29","users":111},{"date":"2025-06-24","users":111},{"date":"2025-03-15","users":110},{"date":"2025-06-04","users":110},{"date":"2025-06-10","users":110},{"date":"2025-03-10","users":109},{"date":"2025-04-04","users":109},{"date":"2025-06-05","users":109},{"date":"2025-06-02","users":108},{"date":"2025-06-06","users":108},{"date":"2025-08-14","users":108},{"date":"2025-09-06","users":108},{"date":"2025-10-18","users":107},{"date":"2025-03-28","users":106},{"date":"2025-06-03","users":105},{"date":"2025-06-13","users":104},{"date":"2025-07-21","users":104},{"date":"2025-08-01","users":104},{"date":"2025-09-07","users":104},{"date":"2025-02-26","users":103},{"date":"2025-05-22","users":103},{"date":"2025-07-28","users":103},{"date":"2025-06-12","users":102},{"date":"2025-06-27","users":102},{"date":"2025-02-10","users":101},{"date":"2025-05-27","users":101},{"date":"2025-07-23","users":101},{"date":"2025-06-08","users":100},{"date":"2025-07-05","users":100},{"date":"2025-08-22","users":100},{"date":"2025-04-17","users":98},{"date":"2025-05-26","users":98},{"date":"2025-06-23","users":97},{"date":"2025-08-19","users":97},{"date":"2025-05-23","users":96},{"date":"2025-03-03","users":95},{"date":"2025-06-28","users":95},{"date":"2025-07-15","users":95},{"date":"2025-05-02","users":93},{"date":"2025-05-17","users":93},{"date":"2025-07-30","users":93},{"date":"2025-06-20","users":92},{"date":"2025-05-18","users":91},{"date":"2025-05-29","users":91},{"date":"2025-08-18","users":90},{"date":"2025-02-16","users":89},{"date":"2025-05-07","users":89},{"date":"2025-05-30","users":89},{"date":"2025-08-02","users":89},{"date":"2025-05-25","users":88},{"date":"2025-03-16","users":87},{"date":"2025-04-11","users":85},{"date":"2025-08-08","users":85},{"date":"2025-03-22","users":84},{"date":"2025-06-22","users":84},{"date":"2025-07-26","users":82},{"date":"2025-04-12","users":81},{"date":"2025-07-18","users":80},{"date":"2025-02-15","users":79},{"date":"2025-07-29","users":79},{"date":"2025-06-15","users":78},{"date":"2025-07-25","users":78},{"date":"2025-08-15","users":78},{"date":"2025-05-24","users":76},{"date":"2025-03-30","users":74},{"date":"2025-04-18","users":71},{"date":"2025-08-17","users":71},{"date":"2025-04-13","users":70},{"date":"2025-02-23","users":69},{"date":"2025-05-11","users":68},{"date":"2025-03-29","users":67},{"date":"2025-04-26","users":67},{"date":"2025-06-07","users":66},{"date":"2025-07-12","users":65},{"date":"2025-02-22","users":64},{"date":"2025-05-10","users":62},{"date":"2025-06-14","users":62},{"date":"2025-04-05","users":61},{"date":"2025-04-06","users":61},{"date":"2025-04-27","users":61},{"date":"2025-03-01","users":60},{"date":"2025-03-02","users":60},{"date":"2025-03-09","users":58},{"date":"2025-07-13","users":58},{"date":"2025-03-08","users":57},{"date":"2025-04-19","users":56},{"date":"2025-06-01","users":56},{"date":"2025-06-29","users":56},{"date":"2025-04-20","users":55},{"date":"2025-03-23","users":54},{"date":"2025-05-04","users":54},{"date":"2025-06-21","users":54},{"date":"2025-08-03","users":54},{"date":"2025-08-10","users":53},{"date":"2025-07-06","users":49},{"date":"2025-07-27","users":49},{"date":"2025-08-09","users":49},{"date":"2025-08-16","users":47},{"date":"2025-05-31","users":46},{"date":"2025-07-20","users":39},{"date":"2025-07-19","users":38},{"date":"2025-05-03","users":33}];
 if (dailyData &amp;&amp; dailyData.length) {
 dailyData.sort((a, b) => new Date(a.date) - new Date(b.date));
 dailyData.pop();
