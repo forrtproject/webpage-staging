@@ -450,12 +450,6 @@
 
   window.newJustOSChat = newChat;
 
-  window.dismissJustOS = function () {
-    var widget = document.getElementById('just-os-widget');
-    if (widget) widget.style.display = 'none';
-    sessionStorage.setItem('just-os-dismissed', '1');
-  };
-
   /* -------------------------------------------------- */
   /*  Custom drag-resize (bottom-left handle)            */
   /* -------------------------------------------------- */
@@ -515,13 +509,6 @@
   /* -------------------------------------------------- */
 
   function init() {
-    // Hide widget if dismissed this session
-    if (sessionStorage.getItem('just-os-dismissed')) {
-      var widget = document.getElementById('just-os-widget');
-      if (widget) widget.style.display = 'none';
-      return;
-    }
-
     const container = getContainer();
     if (!container) return;
 
@@ -542,11 +529,7 @@
   window.addEventListener('beforeunload', saveState);
 
   // Auto-toggle helper bubble every 10 seconds (widget only)
-  var bubbleInterval = setInterval(function () {
-    if (sessionStorage.getItem('just-os-dismissed')) {
-      clearInterval(bubbleInterval);
-      return;
-    }
+  setInterval(function () {
     const bubble = document.getElementById('just-os-bubble');
     const win = document.getElementById('just-os-window');
     if (bubble && win && win.style.display !== 'flex') {
