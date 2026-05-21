@@ -7693,9 +7693,14 @@ div.alert a {
       color: rgba(255, 255, 255, 0.85); }
       .navbar .navbar-nav .nav-link.active, .navbar .navbar-nav .nav-link:hover, .navbar .navbar-nav .nav-link:focus {
         color: white; }
+      .navbar .navbar-nav .nav-link:hover, .navbar .navbar-nav .nav-link:focus {
+        text-decoration: underline;
+        text-underline-offset: 3px; }
       .navbar .navbar-nav .nav-link.active {
         font-weight: bold !important;
-        color: #b8336a !important; }
+        color: #b8336a !important;
+        text-decoration: underline;
+        text-underline-offset: 3px; }
   .navbar .dropdown-menu {
     font-size: 16.17px; }
   .navbar .dropdown-item.active,
@@ -7802,6 +7807,11 @@ ul.nav-icons li.nav-item a.nav-link {
 .dropdown-item {
   background-color: #3e3e3e !important;
   color: white !important; }
+  .dropdown-item:hover, .dropdown-item:focus {
+    background-color: rgba(255, 255, 255, 0.12) !important;
+    color: white !important;
+    text-decoration: underline;
+    text-underline-offset: 3px; }
 
 /******************************************************************************
  * Navbar Layout Fix for iPad Pro and Similar Devices (lg breakpoint)
@@ -9179,6 +9189,12 @@ div.mermaid {
   width: 100%;
   text-align: center;
   margin-bottom: 1rem; }
+
+/* -------------------------------------------------- */
+/* Navbar accessibility & readability  fonts          */
+/* -------------------------------------------------- */
+.navbar-light {
+  font-family: "Inter", "Open Sans", "Lexend", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !important; }
 
 .border-3 {
   border-width: 3px !important; }
