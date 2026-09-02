@@ -10516,14 +10516,10 @@ article.article:has(table) .article-container {
   height: auto; }
 
 .disciplines-partner__caption {
-  font-size: 0.78rem;
-  color: #666;
-  margin-bottom: 0.4rem; }
-
-.disciplines-partner__name {
   font-size: 0.8rem;
-  color: #444;
-  margin: 0.4rem 0 0; }
+  color: #666;
+  margin-bottom: 0.4rem;
+  white-space: nowrap; }
 
 /* Lead-in label in front of each citation in the disciplines "How to cite" box */
 .disciplines-cite-lead {
