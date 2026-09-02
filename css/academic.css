@@ -7279,8 +7279,10 @@ video {
   max-height: 400px; }
 
 .img-responsive {
-  /* Extend Bootstrap declaration with centering. */
-  margin: 0 auto; }
+  /* Extend Bootstrap declaration with centering; keep intrinsic-size images fluid. */
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto; }
 
 figcaption {
   display: block;
@@ -8009,9 +8011,11 @@ ul.nav-icons li.nav-item a.nav-link {
 .dark .search-header {
   background-color: #23252f; }
 
-.search-header h1 {
+/* The search overlay is a subordinate region, so its heading is an h2; keep the h1 size. */
+.search-header h2 {
   margin: 0;
-  line-height: 1; }
+  line-height: 1;
+  font-size: 2.25rem; }
 
 .col-search-close {
   text-align: right; }
@@ -8116,6 +8120,7 @@ article {
 .featured-image {
   position: relative;
   width: 100%;
+  height: auto;
   display: block;
   margin: 0 auto; }
 
@@ -8476,8 +8481,11 @@ ul.share li:hover i {
   .home-section:first-of-type {
     padding-top: 40px; } }
 
-.section-heading h1 {
-  margin: 0 0 10px 0; }
+/* Section titles are h2 (the page's h1 belongs to its hero); keep the h1 size. */
+.section-heading h1,
+.section-heading h2 {
+  margin: 0 0 10px 0;
+  font-size: 2.25rem; }
 
 .section-heading p {
   font-weight: 400;
@@ -8638,6 +8646,7 @@ a.hero-cta-alt:hover {
 .avatar-square {
   border-radius: 3px; }
 
+#profile .portrait-title h1,
 .portrait-title h2 {
   font-size: 1.75em;
   font-weight: 300;
@@ -9135,6 +9144,7 @@ body.dark,
 .dark .article-title a {
   color: #fff; }
 
+.dark #profile .portrait-title h1,
 .dark .portrait-title h2 {
   color: #fff; }
 
@@ -12285,8 +12295,8 @@ h1.clusters-site-heading.clusters-hub-page__title {
  *  `subtitle = "---"` / `***` content dividers (which some sections had and
  *  others didn't). Scoped to .home-section so inner pages are unaffected.
  * ============================================================ */
-.home-section .section-heading h1::after,
-.home-section.wg-about-welcome h1::after {
+.home-section .section-heading h2::after,
+.home-section.wg-about-welcome h2::after {
   content: "";
   display: block;
   height: 1px;
@@ -12519,6 +12529,16 @@ h1.clusters-site-heading.clusters-hub-page__title {
     display: block; } }
 
 /* ---- "What is FORRT?" media column: logo + video stacked, text beside it. ---- */
+/* Featurette images carry intrinsic width/height attributes; scale them with the column. */
+.wg-featurette-alternative img,
+.wg-featurette-welcome img,
+.wg-featurette-team img {
+  height: auto; }
+
+/* About section title: same size as the section headings. */
+.home-section.wg-about-welcome h2 {
+  font-size: 2.25rem; }
+
 .wg-about-welcome .avatar {
   width: 170px;
   height: 170px; }
