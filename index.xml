@@ -10545,10 +10545,22 @@ days.forEach(function (day) { observer.observe(day); });
 &lt;a href="https://forrt.org/about/confidential-advisor-ombuds/" target="_blank" rel="noopener"&gt;confidential advisor&lt;/a&gt; is there if you would like to talk something through first.&lt;/p&gt;
 &lt;h2 id="questions"&gt;Questions&lt;/h2&gt;
 &lt;p&gt;Email the organiser, Lukas Wallrich, at
-&lt;a href="mailto:l.wallrich@bbk.ac.uk"&gt;l.wallrich@bbk.ac.uk&lt;/a&gt;, or message him on the FORRT Slack.&lt;/p&gt;</description></item><item><title>FORRT Community Map</title><link>https://staging.forrt.org/community-map/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://staging.forrt.org/community-map/</guid><description>&lt;!-- The map and its description are served live by the Shiny app, https://forrtapps.shinyapps.io/Forrt-Mapping/ --&gt;
-&lt;iframe src="https://forrtapps.shinyapps.io/Forrt-Mapping/"
-title="Community Map" loading="lazy"
-style="height:1050px;width:100%;border:none;overflow:auto;" scrolling="auto"&gt;&lt;/iframe&gt;</description></item><item><title>FORRT Contributor Analyses</title><link>https://staging.forrt.org/contributor-analysis/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://staging.forrt.org/contributor-analysis/</guid><description>&lt;p&gt;As of 10 June 2026, FORRT has a total of 109 completed or ongoing
+&lt;a href="mailto:l.wallrich@bbk.ac.uk"&gt;l.wallrich@bbk.ac.uk&lt;/a&gt;, or message him on the FORRT Slack.&lt;/p&gt;</description></item><item><title>FORRT Community Map</title><link>https://staging.forrt.org/community-map/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://staging.forrt.org/community-map/</guid><description>&lt;p&gt;The FORRT Community Map is a visualization tool that illustrates the global reach and
+diversity of the Framework for Open and Reproducible Research Training (FORRT) community.
+As of January 2024, this map provides a snapshot of FORRT&amp;rsquo;s members worldwide,
+highlighting FORRT&amp;rsquo;s extensive international collaboration and
+its commitment to fostering open and reproducible research practices across various regions.
+The map underscores FORRT&amp;rsquo;s dedication to inclusivity and its efforts to build a
+diverse network of scholars, educators, and researchers united in advancing open science principles.&lt;/p&gt;
+&lt;iframe src="https://staging.forrt.org/apps/community_map.html"
+title="FORRT Community Map" loading="lazy"
+style="height:600px;width:100%;border:none;"&gt;&lt;/iframe&gt;
+&lt;iframe
+src="https://forrtproject.github.io/map-community/Forrt-map/Forrt-Mapping/community_map.html"
+title="FORRT Community Map"
+style="width: 100%; height: 600px; border: 0;"
+loading="lazy"&gt;
+&lt;/iframe&gt;</description></item><item><title>FORRT Contributor Analyses</title><link>https://staging.forrt.org/contributor-analysis/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://staging.forrt.org/contributor-analysis/</guid><description>&lt;p&gt;As of 10 June 2026, FORRT has a total of 109 completed or ongoing
 projects and support teams, with a total of 647 contributors. There is
 an average (mean) of 2.44 contributions per person across all FORRT
 projects, and the average number of contributors per project is 14. You
