@@ -9838,7 +9838,8 @@ div.mermaid {
   border: 1px solid rgba(47, 107, 79, 0.2);
   border-radius: 3px;
   padding: 0.12rem 0.45rem;
-  white-space: nowrap; }
+  max-width: 100%;
+  overflow-wrap: anywhere; }
 
 .lp-chip__formats {
   font-weight: 400;
@@ -9869,10 +9870,7 @@ div.mermaid {
 .lp-strip__meta a:hover {
   color: #2f6b4f; }
 
-/* Filter chip: same footprint as .fr-tag-btn; pressed state fills green */
-.lp-filter-toggle {
-  color: #2f6b4f; }
-
+/* Lesson-plan filter: a .fr-specificity-toggle checkbox whose label includes the dot */
 .lp-filter-toggle .lp-dot {
   margin: 0 0.2rem 0 0; }
 
