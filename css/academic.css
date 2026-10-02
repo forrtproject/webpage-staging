@@ -9870,34 +9870,11 @@ div.mermaid {
   color: #2f6b4f; }
 
 /* Filter chip: same footprint as .fr-tag-btn; pressed state fills green */
-.lp-filter-btn {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.35rem;
-  font-family: inherit;
-  font-size: 0.62rem;
-  font-weight: 600;
-  padding: 0.18rem 0.55rem;
-  border-radius: 3px;
-  border: 1px solid rgba(47, 107, 79, 0.35);
-  background: transparent;
-  color: #2f6b4f;
-  cursor: pointer;
-  transition: background 0.15s, color 0.15s, border-color 0.15s; }
+.lp-filter-toggle {
+  color: #2f6b4f; }
 
-.lp-filter-btn .lp-dot {
-  margin-left: 0; }
-
-.lp-filter-btn:hover {
-  background: rgba(47, 107, 79, 0.08); }
-
-.lp-filter-btn[aria-pressed="true"] {
-  background: #2f6b4f;
-  border-color: #2f6b4f;
-  color: #fff; }
-
-.lp-filter-btn[aria-pressed="true"] .lp-dot {
-  background: #fff; }
+.lp-filter-toggle .lp-dot {
+  margin: 0 0.2rem 0 0; }
 
 /* Lesson-plan filter on (.lp-filter-on set by featured-resources.js): hide everything without a set */
 .lp-filter-on .cluster-section:not([data-lp]),
@@ -11202,7 +11179,7 @@ h1.clusters-site-heading.clusters-hub-page__title {
   display: flex;
   flex-wrap: wrap;
   gap: 0.75rem;
-  align-items: flex-start;
+  align-items: center;
   margin-bottom: 0.75rem;
   padding: 0.65rem 0.75rem;
   background: rgba(255, 255, 255, 0.5);
