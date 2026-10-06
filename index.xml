@@ -10007,26 +10007,24 @@ line-height: 1.35;
 }
 @media (max-width: 640px) { .am-facts { grid-template-columns: 1fr 1fr; } }
 @media (max-width: 400px) { .am-facts { grid-template-columns: 1fr; } }
-.am-reg-cta { margin: 1.6rem 0 0.5rem; }
-.am-reg-note {
-margin: 0 0 1.6rem;
-color: var(--am-muted);
-font-size: 0.9rem;
+.am-watch {
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+gap: 0.6rem;
+margin: 1.6rem 0;
+}
+.am-watch a {
+display: block;
+padding: 0.75rem 0.9rem;
+border-radius: 6px;
+background: var(--am-deep);
+color: #fff;
+font-weight: 700;
 text-align: center;
 }
-.am-reg-again {
-display: flex;
-flex-wrap: wrap;
-align-items: center;
-justify-content: space-between;
-gap: 0.8rem;
-margin: 2.2rem 0;
-padding: 1rem 1.1rem;
-border: 1px solid var(--am-rule);
-border-radius: 8px;
-background: var(--am-card);
-}
-.am-reg-again p { margin: 0; font-size: 1.05rem; }
+.am-watch a::before { content: "\25B6\00A0"; font-size: 0.8em; }
+.am-watch a:hover { background: var(--am-accent); color: #fff; text-decoration: none; }
+@media (max-width: 560px) { .am-watch { grid-template-columns: 1fr; } }
 .am-days {
 display: grid;
 grid-template-columns: repeat(3, 1fr);
@@ -10381,44 +10379,44 @@ text-transform: uppercase;
 .am-day-card:hover, .am-day-card:focus { transform: none; }
 }
 &lt;/style&gt;
-&lt;p&gt;How is AI changing the way research is done, checked and understood? The &lt;strong&gt;FORRT AI in Metascience Online Conference&lt;/strong&gt; takes three days over that question, with 35+ talks and workshops from people who are studying it or building with it. Registration is now open, and everyone is welcome.&lt;/p&gt;
+&lt;p&gt;How is AI changing the way research is done, checked and understood? The &lt;strong&gt;FORRT AI in Metascience Online Conference&lt;/strong&gt; spent three days on that question, with 35+ talks and workshops from people who are studying it or building with it. Most talks are now on the
+&lt;a href="https://youtube.com/@forrtproject9995" target="_blank" rel="noopener"&gt;FORRT YouTube channel&lt;/a&gt;, one playlist per day.&lt;/p&gt;
 &lt;div class="am-facts"&gt;
-&lt;div class="am-fact"&gt;&lt;span class="am-fact-label"&gt;When&lt;/span&gt;&lt;span class="am-fact-value"&gt;28–30 Sept 2026 · 09:30–18:00 CEST (UTC+2)&lt;/span&gt;&lt;/div&gt;
-&lt;div class="am-fact"&gt;&lt;span class="am-fact-label"&gt;Where&lt;/span&gt;&lt;span class="am-fact-value"&gt;Online, Google Meet&lt;/span&gt;&lt;/div&gt;
-&lt;div class="am-fact"&gt;&lt;span class="am-fact-label"&gt;Cost&lt;/span&gt;&lt;span class="am-fact-value"&gt;Free&lt;/span&gt;&lt;/div&gt;
-&lt;div class="am-fact"&gt;&lt;span class="am-fact-label"&gt;Format&lt;/span&gt;&lt;span class="am-fact-value"&gt;Single track, 35+ talks &amp;amp; workshops. Follow it all or dip in.&lt;/span&gt;&lt;/div&gt;
+&lt;div class="am-fact"&gt;&lt;span class="am-fact-label"&gt;When&lt;/span&gt;&lt;span class="am-fact-value"&gt;28–30 September 2026&lt;/span&gt;&lt;/div&gt;
+&lt;div class="am-fact"&gt;&lt;span class="am-fact-label"&gt;Where&lt;/span&gt;&lt;span class="am-fact-value"&gt;Online&lt;/span&gt;&lt;/div&gt;
+&lt;div class="am-fact"&gt;&lt;span class="am-fact-label"&gt;Programme&lt;/span&gt;&lt;span class="am-fact-value"&gt;35+ talks &amp;amp; workshops&lt;/span&gt;&lt;/div&gt;
+&lt;div class="am-fact"&gt;&lt;span class="am-fact-label"&gt;Recordings&lt;/span&gt;&lt;span class="am-fact-value"&gt;32 talks on YouTube&lt;/span&gt;&lt;/div&gt;
 &lt;/div&gt;
-&lt;div class="am-reg-cta"&gt;
-&lt;a href="https://docs.google.com/forms/d/e/1FAIpQLSdFF-BdifNeBEkOrt-gjfDqAYON5xA3N5YzM40B3aBt-A2ejA/viewform" class="btn btn-primary btn-lg btn-block" style="line-height:1;border-radius:6px;font-size:1.4rem;" target="_blank" rel="noopener"&gt;
-Register
-&lt;/a&gt;
+&lt;div class="am-watch"&gt;
+&lt;a class="am-day-mon" href="https://www.youtube.com/playlist?list=PLS3VdaYKcrew" target="_blank" rel="noopener"&gt;Monday talks&lt;/a&gt;
+&lt;a class="am-day-tue" href="https://www.youtube.com/playlist?list=PLSItTTcc91ac" target="_blank" rel="noopener"&gt;Tuesday talks&lt;/a&gt;
+&lt;a class="am-day-wed" href="https://www.youtube.com/playlist?list=PLZYxy57rykQU" target="_blank" rel="noopener"&gt;Wednesday talks&lt;/a&gt;
 &lt;/div&gt;
-&lt;p class="am-reg-note"&gt;Free. Takes a minute. Joining links go out the week before.&lt;/p&gt;
 &lt;div class="am-days"&gt;
 &lt;a class="am-day-card am-day-mon" href="#am-day-mon"&gt;
 &lt;span class="am-day-name"&gt;Monday&lt;/span&gt;
 &lt;span class="am-day-date"&gt;28 September&lt;/span&gt;
 &lt;span class="am-day-theme"&gt;AI in the research pipeline&lt;/span&gt;
 &lt;span class="am-day-blurb"&gt;What AI is already doing to the literature, whether it can carry out evidence synthesis, how it can inform research evaluation, and what legitimate, ethical adoption looks like.&lt;/span&gt;
-&lt;span class="am-day-go"&gt;See the programme ↓&lt;/span&gt;
+&lt;span class="am-day-go"&gt;Programme and recordings ↓&lt;/span&gt;
 &lt;/a&gt;
 &lt;a class="am-day-card am-day-tue" href="#am-day-tue"&gt;
 &lt;span class="am-day-name"&gt;Tuesday&lt;/span&gt;
 &lt;span class="am-day-date"&gt;29 September&lt;/span&gt;
 &lt;span class="am-day-theme"&gt;Replications and reproductions&lt;/span&gt;
 &lt;span class="am-day-blurb"&gt;Replications and reproductions are key to credible science, yet hard to do and hard to find. Can AI help with both, and what are the risks of handing the work to machines?&lt;/span&gt;
-&lt;span class="am-day-go"&gt;See the programme ↓&lt;/span&gt;
+&lt;span class="am-day-go"&gt;Programme and recordings ↓&lt;/span&gt;
 &lt;/a&gt;
 &lt;a class="am-day-card am-day-wed" href="#am-day-wed"&gt;
 &lt;span class="am-day-name"&gt;Wednesday&lt;/span&gt;
 &lt;span class="am-day-date"&gt;30 September&lt;/span&gt;
 &lt;span class="am-day-theme"&gt;Workshops, and analyst variability&lt;/span&gt;
 &lt;span class="am-day-blurb"&gt;Three 90-minute hands-on sessions on AI for knowledge management, evidence synthesis and pre-registration review, plus talks on whether a finding survives another analyst.&lt;/span&gt;
-&lt;span class="am-day-go"&gt;See the programme ↓&lt;/span&gt;
+&lt;span class="am-day-go"&gt;Programme and recordings ↓&lt;/span&gt;
 &lt;/a&gt;
 &lt;/div&gt;
 &lt;h2 id="programme"&gt;Programme&lt;/h2&gt;
-&lt;p&gt;Here are the sessions and the talks in each, in the order they run. &lt;strong&gt;Click any talk to read its abstract.&lt;/strong&gt; All times are CEST (UTC+2), and everything runs in a single track, so nothing clashes. A time marked TBC is still awaiting the speaker&amp;rsquo;s confirmation and may shift by a few minutes.&lt;/p&gt;
+&lt;p&gt;Here are the sessions and the talks in each, in the order they ran. &lt;strong&gt;Click any talk to read its abstract&lt;/strong&gt;, and use &lt;strong&gt;Watch&lt;/strong&gt; to open its recording. All times are CEST (UTC+2).&lt;/p&gt;
 &lt;nav class="am-switch" aria-label="Jump to a day"&gt;
 &lt;a class="am-pill am-day-mon" href="#am-day-mon"&gt;Mon 28&lt;/a&gt;
 &lt;a class="am-pill am-day-tue" href="#am-day-tue"&gt;Tue 29&lt;/a&gt;
@@ -10645,23 +10643,16 @@ if (entry.isIntersecting) light(entry.target.id);
 days.forEach(function (day) { observer.observe(day); });
 })();
 &lt;/script&gt;
-&lt;div class="am-reg-again"&gt;
-&lt;p&gt;Seen something you want to attend?&lt;/p&gt;
-&lt;a href="https://docs.google.com/forms/d/e/1FAIpQLSdFF-BdifNeBEkOrt-gjfDqAYON5xA3N5YzM40B3aBt-A2ejA/viewform" class="btn btn-primary" target="_blank" rel="noopener"&gt;Register&lt;/a&gt;
-&lt;/div&gt;
-&lt;h2 id="joining-the-sessions"&gt;Joining the sessions&lt;/h2&gt;
-&lt;p&gt;Everything runs on Google Meet. We will email joining details to everyone who has registered in the week before the conference, so use an email address you check.&lt;/p&gt;
-&lt;p&gt;Live captions are on in every session. If anything else would help you take part, tell us on the registration form, and we will do what we can.&lt;/p&gt;
-&lt;p&gt;Recordings of the talks whose speakers opted in are on the
+&lt;h2 id="recordings"&gt;Recordings&lt;/h2&gt;
+&lt;p&gt;The talks whose speakers agreed to publication are on the
 &lt;a href="https://youtube.com/@forrtproject9995" target="_blank" rel="noopener"&gt;FORRT YouTube channel&lt;/a&gt;, with one playlist per day:
 &lt;a href="https://www.youtube.com/playlist?list=PLS3VdaYKcrew" target="_blank" rel="noopener"&gt;Monday&lt;/a&gt;,
 &lt;a href="https://www.youtube.com/playlist?list=PLSItTTcc91ac" target="_blank" rel="noopener"&gt;Tuesday&lt;/a&gt; and
-&lt;a href="https://www.youtube.com/playlist?list=PLZYxy57rykQU" target="_blank" rel="noopener"&gt;Wednesday&lt;/a&gt;. The &lt;strong&gt;Watch&lt;/strong&gt; links in the programme above open each talk.&lt;/p&gt;
+&lt;a href="https://www.youtube.com/playlist?list=PLZYxy57rykQU" target="_blank" rel="noopener"&gt;Wednesday&lt;/a&gt;. Talks without a &lt;strong&gt;Watch&lt;/strong&gt; link in the programme were not recorded or are not public. For two of the Wednesday workshops, the playlist has a shorter version.&lt;/p&gt;
 &lt;h2 id="code-of-conduct"&gt;Code of conduct&lt;/h2&gt;
-&lt;p&gt;Everyone taking part, whether presenting or watching, follows the
-&lt;a href="https://forrt.org/coc/" target="_blank" rel="noopener"&gt;FORRT code of conduct&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;During the conference, raise a concern with the organising committee — message a session chair or the organiser, or email
-&lt;a href="mailto:l.wallrich@bbk.ac.uk"&gt;l.wallrich@bbk.ac.uk&lt;/a&gt;. We will act on it the same day. Afterwards, or if you would rather not come to us, report it to the FORRT ethics committee, either by contacting any of its members or through the
+&lt;p&gt;The conference followed the
+&lt;a href="https://forrt.org/coc/" target="_blank" rel="noopener"&gt;FORRT code of conduct&lt;/a&gt;. To raise a concern about anything that happened at the conference, email the organiser at
+&lt;a href="mailto:l.wallrich@bbk.ac.uk"&gt;l.wallrich@bbk.ac.uk&lt;/a&gt;. If you would rather not come to us, report it to the FORRT ethics committee, either by contacting any of its members or through the
 &lt;a href="https://forms.gle/nQ51x1c8a8nnfQ7a9" target="_blank" rel="noopener"&gt;anonymous reporting form&lt;/a&gt;. FORRT&amp;rsquo;s
 &lt;a href="https://forrt.org/about/confidential-advisor-ombuds/" target="_blank" rel="noopener"&gt;confidential advisor&lt;/a&gt; is there if you would like to talk something through first.&lt;/p&gt;
 &lt;h2 id="questions"&gt;Questions&lt;/h2&gt;
