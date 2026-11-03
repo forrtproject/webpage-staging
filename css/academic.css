@@ -12965,3 +12965,17 @@ code.tex {
 .dark code.tex {
   color: #8be9fd;
   background: #44475a; }
+
+/* Keep pages within the screen width on phones */
+@media (max-width: 767.98px) {
+  section.wg-featurette-welcome > .row {
+    margin-left: 0;
+    margin-right: 0; }
+  .article-style,
+  .citation-text {
+    overflow-wrap: anywhere; }
+  .home-section img,
+  .article-style img,
+  .mobile-image img {
+    max-width: 100%;
+    height: auto; } }
