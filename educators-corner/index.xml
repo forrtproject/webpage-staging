@@ -413,7 +413,7 @@ Community building emerges as a vital strategy for survival and success in acade
 &lt;br&gt;
 &lt;div class="click-to-load" data-embed-src="https://www.youtube-nocookie.com/embed/9ywi-SKLj64" data-embed-title="YouTube video" data-embed-style="aspect-ratio: 16 / 9; width: 100%;" style="aspect-ratio: 16 / 9; width: 100%;"&gt;
 &lt;p&gt;This video comes from YouTube (Google). Loading it sends your IP address to them and they may set cookies. See our &lt;a href="https://staging.forrt.org/privacy/#embedded-content"&gt;privacy policy&lt;/a&gt;.&lt;/p&gt;
-&lt;button type="button" class="btn btn-primary"&gt;Load&lt;/button&gt;
+&lt;button type="button" class="btn btn-primary" aria-label="Load: This video"&gt;Load&lt;/button&gt;
 &lt;a class="click-to-load-link" href="https://www.youtube.com/watch?v=9ywi-SKLj64" target="_blank" rel="noopener"&gt;Open on the provider's site&lt;/a&gt;
 &lt;/div&gt;
 &lt;br&gt;
@@ -489,7 +489,7 @@ Journal of Experimental Psychology: General, 152(12), 3546–3565.
 &lt;p&gt;
 &lt;div class="click-to-load" data-embed-src="https://www.youtube-nocookie.com/embed/jAVGsRDzA1A" data-embed-title="YouTube video" data-embed-style="aspect-ratio: 16 / 9; width: 100%;" style="aspect-ratio: 16 / 9; width: 100%;"&gt;
 &lt;p&gt;This video comes from YouTube (Google). Loading it sends your IP address to them and they may set cookies. See our &lt;a href="https://staging.forrt.org/privacy/#embedded-content"&gt;privacy policy&lt;/a&gt;.&lt;/p&gt;
-&lt;button type="button" class="btn btn-primary"&gt;Load&lt;/button&gt;
+&lt;button type="button" class="btn btn-primary" aria-label="Load: This video"&gt;Load&lt;/button&gt;
 &lt;a class="click-to-load-link" href="https://www.youtube.com/watch?v=jAVGsRDzA1A" target="_blank" rel="noopener"&gt;Open on the provider's site&lt;/a&gt;
 &lt;/div&gt;
 &lt;br &gt;&lt;/p&gt;
@@ -711,7 +711,7 @@ Nowhere Lab has partnered with FORRT as part of FORRT’s efforts to promote soc
 &lt;br&gt;
 &lt;div class="click-to-load" data-embed-src="https://www.youtube-nocookie.com/embed/L-B8YasT-UE" data-embed-title="YouTube video" data-embed-style="aspect-ratio: 16 / 9; width: 100%;" style="aspect-ratio: 16 / 9; width: 100%;"&gt;
 &lt;p&gt;This video comes from YouTube (Google). Loading it sends your IP address to them and they may set cookies. See our &lt;a href="https://staging.forrt.org/privacy/#embedded-content"&gt;privacy policy&lt;/a&gt;.&lt;/p&gt;
-&lt;button type="button" class="btn btn-primary"&gt;Load&lt;/button&gt;
+&lt;button type="button" class="btn btn-primary" aria-label="Load: This video"&gt;Load&lt;/button&gt;
 &lt;a class="click-to-load-link" href="https://www.youtube.com/watch?v=L-B8YasT-UE" target="_blank" rel="noopener"&gt;Open on the provider's site&lt;/a&gt;
 &lt;/div&gt;
 &lt;br&gt;
@@ -961,9 +961,9 @@ Nowhere Lab has partnered with FORRT as part of FORRT’s efforts to promote soc
 &lt;p&gt;&lt;img src="https://staging.forrt.org/educators-corner/007-easy-steps-to-elevate-your-mentoring/fig1.webp" alt="Illustration of people helping one another climb a series of rising blocks, the person on the highest block cheering with raised arms" width="2000" height="1200"&gt;
 &lt;/p&gt;
 &lt;p&gt;To get a handle on how my students are doing, and if there are issues in the lab that need addressing, I do an anonymous poll once per year. The poll covers a range of topics on the quality of life, what is working, and what isn’t. This has been VERY HELPFUL in identifying things that need fixing (and some surprises of things that I thought were issues but are fine). I use a variation of this:&lt;/p&gt;
-&lt;div class="click-to-load" data-embed-src="https://docs.google.com/forms/d/e/1FAIpQLScGCi7iACgmVBhFcE7G90oPwuTs-g9CQkrDmOUoQ4FvoT9CfA/viewform?embedded=true" data-embed-title="Loading..." data-embed-width="100%" data-embed-height="700px"&gt;
+&lt;div class="click-to-load" data-embed-src="https://docs.google.com/forms/d/e/1FAIpQLScGCi7iACgmVBhFcE7G90oPwuTs-g9CQkrDmOUoQ4FvoT9CfA/viewform?embedded=true" data-embed-title="Google Form" data-embed-width="100%" data-embed-height="700px"&gt;
 &lt;p&gt;This form comes from Google Forms. Loading it sends your IP address to them and they may set cookies. See our &lt;a href="https://staging.forrt.org/privacy/#embedded-content"&gt;privacy policy&lt;/a&gt;.&lt;/p&gt;
-&lt;button type="button" class="btn btn-primary"&gt;Load&lt;/button&gt;
+&lt;button type="button" class="btn btn-primary" aria-label="Load: This form"&gt;Load&lt;/button&gt;
 &lt;a class="click-to-load-link" href="https://docs.google.com/forms/d/e/1FAIpQLScGCi7iACgmVBhFcE7G90oPwuTs-g9CQkrDmOUoQ4FvoT9CfA/viewform" target="_blank" rel="noopener"&gt;Open on the provider's site&lt;/a&gt;
 &lt;/div&gt;
 &lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
@@ -1035,7 +1035,7 @@ Nowhere Lab has partnered with FORRT as part of FORRT’s efforts to promote soc
 &lt;br&gt;
 &lt;div class="click-to-load" data-embed-src="https://www.youtube-nocookie.com/embed/5kyjnPFSmog" data-embed-title="YouTube video" data-embed-style="aspect-ratio: 16 / 9; width: 100%;" style="aspect-ratio: 16 / 9; width: 100%;"&gt;
 &lt;p&gt;This video comes from YouTube (Google). Loading it sends your IP address to them and they may set cookies. See our &lt;a href="https://staging.forrt.org/privacy/#embedded-content"&gt;privacy policy&lt;/a&gt;.&lt;/p&gt;
-&lt;button type="button" class="btn btn-primary"&gt;Load&lt;/button&gt;
+&lt;button type="button" class="btn btn-primary" aria-label="Load: This video"&gt;Load&lt;/button&gt;
 &lt;a class="click-to-load-link" href="https://www.youtube.com/watch?v=5kyjnPFSmog" target="_blank" rel="noopener"&gt;Open on the provider's site&lt;/a&gt;
 &lt;/div&gt;
 &lt;br&gt;

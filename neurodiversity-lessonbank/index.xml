@@ -61,7 +61,7 @@ TEXT
 &lt;div style="position: relative; padding-bottom: 70%; height: 0; overflow: hidden; margin: 20px 0;"&gt;
 &lt;div class="click-to-load" data-embed-src="https://www.youtube-nocookie.com/embed/mzEdTyA06cU" data-embed-title="YouTube video player" data-embed-style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"&gt;
 &lt;p&gt;This video comes from YouTube (Google). Loading it sends your IP address to them and they may set cookies. See our &lt;a href="https://staging.forrt.org/privacy/#embedded-content"&gt;privacy policy&lt;/a&gt;.&lt;/p&gt;
-&lt;button type="button" class="btn btn-primary"&gt;Load&lt;/button&gt;
+&lt;button type="button" class="btn btn-primary" aria-label="Load: This video"&gt;Load&lt;/button&gt;
 &lt;a class="click-to-load-link" href="https://www.youtube-nocookie.com/embed/mzEdTyA06cU" target="_blank" rel="noopener"&gt;Open on the provider's site&lt;/a&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -97,7 +97,7 @@ TEXT
 &lt;div style="position: relative; padding-bottom: 70%; height: 0; overflow: hidden; margin: 20px 0;"&gt;
 &lt;div class="click-to-load" data-embed-src="https://www.youtube-nocookie.com/embed/axiZhCkMiDc" data-embed-title="YouTube video player" data-embed-style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"&gt;
 &lt;p&gt;This video comes from YouTube (Google). Loading it sends your IP address to them and they may set cookies. See our &lt;a href="https://staging.forrt.org/privacy/#embedded-content"&gt;privacy policy&lt;/a&gt;.&lt;/p&gt;
-&lt;button type="button" class="btn btn-primary"&gt;Load&lt;/button&gt;
+&lt;button type="button" class="btn btn-primary" aria-label="Load: This video"&gt;Load&lt;/button&gt;
 &lt;a class="click-to-load-link" href="https://www.youtube-nocookie.com/embed/axiZhCkMiDc" target="_blank" rel="noopener"&gt;Open on the provider's site&lt;/a&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -148,9 +148,9 @@ Open the activity in a new window
 &lt;/button&gt;&lt;/p&gt;
 &lt;p&gt;TIP: click on the question marks on both sides of the text to see hints or click on the button above to see the activity in full screen.&lt;/p&gt;
 &lt;div style="position: relative; padding-bottom: 70%; height: 0; overflow: hidden; margin: 20px 0;"&gt;
-&lt;div class="click-to-load" data-embed-src="https://msgrose-hodge.github.io/ND/h5p-standalone-1.3.x/demo/content-example-2.html" data-embed-style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"&gt;
+&lt;div class="click-to-load" data-embed-src="https://msgrose-hodge.github.io/ND/h5p-standalone-1.3.x/demo/content-example-2.html" data-embed-title="This activity from GitHub Pages" data-embed-style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"&gt;
 &lt;p&gt;This activity comes from GitHub Pages. Loading it sends your IP address to them and they may set cookies. See our &lt;a href="https://staging.forrt.org/privacy/#embedded-content"&gt;privacy policy&lt;/a&gt;.&lt;/p&gt;
-&lt;button type="button" class="btn btn-primary"&gt;Load&lt;/button&gt;
+&lt;button type="button" class="btn btn-primary" aria-label="Load: This activity"&gt;Load&lt;/button&gt;
 &lt;a class="click-to-load-link" href="https://msgrose-hodge.github.io/ND/h5p-standalone-1.3.x/demo/content-example-2.html" target="_blank" rel="noopener"&gt;Open on the provider's site&lt;/a&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -210,9 +210,9 @@ decide if the statements are true
 &lt;p&gt;&lt;em&gt;Look at some examples of language taken from these and other articles published in the last 20 years in influential journals and discuss the language use. Can you identify the implicit bias? What does it suggest about the perception of different neurotypes held by the authors?&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;Instructions: drag and drop the fields to match the language found in papers (orange pin) and the corresponding comment (blue pin). Once you find a pair, put the fields side by side. Once you complete the task, check by clicking the icon in the bottom right corner. For full screen view, click on the square in the top right corner.&lt;/p&gt;
 &lt;div style="position: relative; padding-bottom: 60%; height: 0; overflow: hidden; margin: 20px 0;"&gt;
-&lt;div class="click-to-load" data-embed-src="https://learningapps.org/watch?v=pi3j02pkt23" data-embed-style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"&gt;
+&lt;div class="click-to-load" data-embed-src="https://learningapps.org/watch?v=pi3j02pkt23" data-embed-title="This activity from LearningApps" data-embed-style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"&gt;
 &lt;p&gt;This activity comes from LearningApps. Loading it sends your IP address to them and they may set cookies. See our &lt;a href="https://staging.forrt.org/privacy/#embedded-content"&gt;privacy policy&lt;/a&gt;.&lt;/p&gt;
-&lt;button type="button" class="btn btn-primary"&gt;Load&lt;/button&gt;
+&lt;button type="button" class="btn btn-primary" aria-label="Load: This activity"&gt;Load&lt;/button&gt;
 &lt;a class="click-to-load-link" href="https://learningapps.org/watch?v=pi3j02pkt23" target="_blank" rel="noopener"&gt;Open on the provider's site&lt;/a&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -224,9 +224,9 @@ decide if the statements are true
 &lt;/ul&gt;
 &lt;p&gt;Post your reflection below.&lt;/p&gt;
 &lt;div style="position: relative; padding-bottom: 70%; height: 0; overflow: hidden; margin: 20px 0;"&gt;
-&lt;div class="click-to-load" data-embed-src="https://padlet.com/magdalena_carlo/xfzxjebag7ln693r" data-embed-style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"&gt;
+&lt;div class="click-to-load" data-embed-src="https://padlet.com/magdalena_carlo/xfzxjebag7ln693r" data-embed-title="This board from Padlet" data-embed-style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"&gt;
 &lt;p&gt;This board comes from Padlet. Loading it sends your IP address to them and they may set cookies. See our &lt;a href="https://staging.forrt.org/privacy/#embedded-content"&gt;privacy policy&lt;/a&gt;.&lt;/p&gt;
-&lt;button type="button" class="btn btn-primary"&gt;Load&lt;/button&gt;
+&lt;button type="button" class="btn btn-primary" aria-label="Load: This board"&gt;Load&lt;/button&gt;
 &lt;a class="click-to-load-link" href="https://padlet.com/magdalena_carlo/xfzxjebag7ln693r" target="_blank" rel="noopener"&gt;Open on the provider's site&lt;/a&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -254,7 +254,7 @@ Posts are moderated so they may not appear immediately.
 &lt;div style="position: relative; padding-bottom: 120%; height: 0; overflow: hidden; margin: 20px 0; min-height: 400px;"&gt;
 &lt;div class="click-to-load" data-embed-src="https://press.rebus.community/introductiontocommunitypsychology/chapter/oppression-and-power/" data-embed-title="Oppression and Power" data-embed-style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"&gt;
 &lt;p&gt;This content comes from Rebus Press. Loading it sends your IP address to them and they may set cookies. See our &lt;a href="https://staging.forrt.org/privacy/#embedded-content"&gt;privacy policy&lt;/a&gt;.&lt;/p&gt;
-&lt;button type="button" class="btn btn-primary"&gt;Load&lt;/button&gt;
+&lt;button type="button" class="btn btn-primary" aria-label="Load: This content"&gt;Load&lt;/button&gt;
 &lt;a class="click-to-load-link" href="https://press.rebus.community/introductiontocommunitypsychology/chapter/oppression-and-power/" target="_blank" rel="noopener"&gt;Open on the provider's site&lt;/a&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -276,7 +276,7 @@ Posts are moderated so they may not appear immediately.
 &lt;div style="position: relative; padding-bottom: 70%; height: 0; overflow: hidden; margin: 20px 0;"&gt;
 &lt;div class="click-to-load" data-embed-src="https://www.youtube-nocookie.com/embed/bLdj7Ad4V_c" data-embed-title="YouTube video player" data-embed-style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"&gt;
 &lt;p&gt;This video comes from YouTube (Google). Loading it sends your IP address to them and they may set cookies. See our &lt;a href="https://staging.forrt.org/privacy/#embedded-content"&gt;privacy policy&lt;/a&gt;.&lt;/p&gt;
-&lt;button type="button" class="btn btn-primary"&gt;Load&lt;/button&gt;
+&lt;button type="button" class="btn btn-primary" aria-label="Load: This video"&gt;Load&lt;/button&gt;
 &lt;a class="click-to-load-link" href="https://www.youtube-nocookie.com/embed/bLdj7Ad4V_c" target="_blank" rel="noopener"&gt;Open on the provider's site&lt;/a&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -290,7 +290,7 @@ Posts are moderated so they may not appear immediately.
 &lt;div style="position: relative; padding-bottom: 120%; height: 0; overflow: hidden; margin: 20px 0; min-height: 400px;"&gt;
 &lt;div class="click-to-load" data-embed-src="https://neuroqueer.com/throw-away-the-masters-tools/" data-embed-title="Nick Walker" data-embed-style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"&gt;
 &lt;p&gt;This page comes from NeuroQueer. Loading it sends your IP address to them and they may set cookies. See our &lt;a href="https://staging.forrt.org/privacy/#embedded-content"&gt;privacy policy&lt;/a&gt;.&lt;/p&gt;
-&lt;button type="button" class="btn btn-primary"&gt;Load&lt;/button&gt;
+&lt;button type="button" class="btn btn-primary" aria-label="Load: This page"&gt;Load&lt;/button&gt;
 &lt;a class="click-to-load-link" href="https://neuroqueer.com/throw-away-the-masters-tools/" target="_blank" rel="noopener"&gt;Open on the provider's site&lt;/a&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -312,9 +312,9 @@ What do Critical gender Theory, Critical Race Theory and Critical Neurodiversity
 What factors contribute to it?&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Activity 1&lt;/strong&gt;&lt;/p&gt;
 &lt;div style="position: relative; padding-bottom: 60%; height: 0; overflow: hidden; margin: 20px 0;"&gt;
-&lt;div class="click-to-load" data-embed-src="https://learningapps.org/watch?v=pruq63b4k23" data-embed-style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"&gt;
+&lt;div class="click-to-load" data-embed-src="https://learningapps.org/watch?v=pruq63b4k23" data-embed-title="This activity from LearningApps" data-embed-style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"&gt;
 &lt;p&gt;This activity comes from LearningApps. Loading it sends your IP address to them and they may set cookies. See our &lt;a href="https://staging.forrt.org/privacy/#embedded-content"&gt;privacy policy&lt;/a&gt;.&lt;/p&gt;
-&lt;button type="button" class="btn btn-primary"&gt;Load&lt;/button&gt;
+&lt;button type="button" class="btn btn-primary" aria-label="Load: This activity"&gt;Load&lt;/button&gt;
 &lt;a class="click-to-load-link" href="https://learningapps.org/watch?v=pruq63b4k23" target="_blank" rel="noopener"&gt;Open on the provider's site&lt;/a&gt;
 &lt;/div&gt;
 &lt;/div&gt;
