@@ -751,7 +751,7 @@
                     "Bayesian statistics",
                     "Likelihood function",
                     "Null Hypothesis Significance Testing (NHST)",
-                    "*p*\\-value"
+                    "p-value"
                 ],
                 "references": [
                     "Hoijtink, H., Mulder, J., van Lissa, C., & Gu, X. (2019). A tutorial on testing hypotheses using the Bayes factor. <i>Psychological Methods</i>, <i>24</i>(5), 539–556. https://doi.org/10.1037/met0000201",
@@ -783,7 +783,7 @@
                     "Alaa M. Saleh",
                     "Mohammed Mohsen"
                 ],
-                "lastmod": "2026-08-05"
+                "lastmod": "2026-11-08"
             },
             {
                 "type": "glossary",
@@ -3733,11 +3733,11 @@
                 "en_title": "Gaming (the system)",
                 "title": "التَّلاعب بالنِّظام [Gaming (the system)]",
                 "sort_key": "التَّلاعب بالنِّظام [gaming (the system)]",
-                "definition": "التَّعريف: اتباع ممارسات بحثيَّة مشبوهة (كالتَّجزئة غير المبررة لورقة أكاديميَّة) والتي من شأنها أن تتماشى مع أنظمة الحوافز الأكاديميَّة التي تفيد الباحث، مثلًا: في المكانة، أو التَّوظيف، أو التَّرقية، بغض النَّظر عمَّا إذا كانت تدعم المعرفة. إذا كانت الأنظمة تعتمد على المقاييس لتحديد نتيجة ما (مثل السُّمعة الأكاديميَّة)، فقد تتعرَّض هذه المقاييس للتَّلاعب المتعمَّد (Naudet et al., 2018). وعندما تستند التَّرقيات، والتَّوظيف، والتَّثبيت الوظيفي إلى مقاييس معيبة، فقد لا يحبذ البعض الانفتاح، والصَّرامة، والعمل الشَّفاف (Naudet et al., 2018) - وذلك كتفضيل “البحوث الكميَّة على النوعية” - وتؤدي إلى تفاقم أوجه عدم المساواة القائمة. المصطلحات ذات الصِّلة: هيكل الحوافز، معامل تأثير المجلَّة، قرصنة القيمة الاحتماليَّة.",
+                "definition": "اتباع ممارسات بحثيَّة مشبوهة (كالتَّجزئة غير المبررة لورقة أكاديميَّة) والتي من شأنها أن تتماشى مع أنظمة الحوافز الأكاديميَّة التي تفيد الباحث، مثلًا: في المكانة، أو التَّوظيف، أو التَّرقية، بغض النَّظر عمَّا إذا كانت تدعم المعرفة. إذا كانت الأنظمة تعتمد على المقاييس لتحديد نتيجة ما (مثل السُّمعة الأكاديميَّة)، فقد تتعرَّض هذه المقاييس للتَّلاعب المتعمَّد (Naudet et al., 2018). وعندما تستند التَّرقيات، والتَّوظيف، والتَّثبيت الوظيفي إلى مقاييس معيبة، فقد لا يحبذ البعض الانفتاح، والصَّرامة، والعمل الشَّفاف (Naudet et al., 2018) - وذلك كتفضيل “البحوث الكميَّة على النوعية” - وتؤدي إلى تفاقم أوجه عدم المساواة القائمة. المصطلحات ذات الصِّلة: هيكل الحوافز، معامل تأثير المجلَّة، قرصنة القيمة الاحتماليَّة.",
                 "related_terms": [
                     "Incentive structure",
                     "Journal Impact Factor",
-                    "*P*\\-hacking"
+                    "p-hacking"
                 ],
                 "references": [
                     "Moher, D., Naudet, F., Cristea, I. A., Miedema, F., Ioannidis, J. P. A., & Goodman, S. N. (2018). Assessing scientists for hiring, promotion, and tenure. <i>PLOS Biology</i>, <i>16</i>(3), e2004089. https://doi.org/10.1371/journal.pbio.2004089",
@@ -6423,7 +6423,7 @@
                 "sort_key": "الإيقاف الاختياري [optional stopping]",
                 "definition": "ممارسة تحليل البيانات بشكلٍ متكرِّر أثناء عمليَّة جمع البيانات، واتِّخاذ قرار بإيقاف جمع البيانات إذا وصل معيار إحصائي (مثل قيمة الاحتماليَّة، أو عامل بايز) إلى حدٍّ معيّن.  وإذا تم اتِّخاذ الاحتياطات المنهجيَّة المناسبة للتَّحكُّم في معدَّل الخطأ من النُّوع الأوَّل، فقد يكون هذا إجراءً فعالًا (مثل Lakens ، 2014). ومع ذلك ، بدون الإبلاغ الشَّفاف، أو التَّحكُّم المناسب في الخطأ ، يمكن أن يزيد الخطأ من النُّوع الأوَّل بشكل كبير، ويمكن اعتبار التوقف الاختياري ممارسة بحث مشكوك فيها، أو شكلًا من أشكال قرصنة القيمة الاحتماليَّة.  **المصطلحات ذات الصِّلة:** قرصنة القيمة الاحتماليَّة، ممارسات البحث المشكوك فيها، أو ممارسات إعداد التَّقارير المشكوك فيها، الاختبار المتسلسل",
                 "related_terms": [
-                    "*P*\\-hacking",
+                    "p-hacking",
                     "Questionable Research Practices or Questionable Reporting Practices (QRPs)",
                     "Sequential testing"
                 ],
@@ -6549,8 +6549,8 @@
                 "related_terms": [
                     "File-drawer",
                     "Hypothesis",
-                    "*P*\\-hacking",
-                    "*p*\\-value",
+                    "p-hacking",
+                    "p-value",
                     "Publication bias (File Drawer Problem)",
                     "Questionable Research Practices or Questionable Reporting Practices (QRPs)",
                     "Selective reporting",
@@ -6585,7 +6585,7 @@
                     "Asma Alzahrani",
                     "Mohammed Mohsen"
                 ],
-                "lastmod": "2026-08-05"
+                "lastmod": "2026-11-08"
             },
             {
                 "type": "glossary",
@@ -7967,14 +7967,14 @@
                     "Garden of forking paths",
                     "HARKing",
                     "Nonpublication of data",
-                    "*P*\\-hacking",
-                    "*P*\\-value fishing",
+                    "p-hacking",
+                    "p-value fishing",
                     "Partial publication of data",
                     "Post-hoc storytelling",
                     "Preregistration",
                     "Questionable Measurement Practices (QMP)",
                     "Researcher degrees of freedom",
-                    "Reverse *p*\\-hacking",
+                    "Reverse p-hacking",
                     "Salami slicing"
                 ],
                 "references": [
@@ -8022,7 +8022,7 @@
                 "related_terms": [
                     "Construct validity",
                     "Measurement schmeasurement",
-                    "*P*\\-hacking",
+                    "p-hacking",
                     "Psychometrics",
                     "Questionable Research Practices or Questionable Reporting Practices (QRPs)",
                     "Validity"
@@ -8941,7 +8941,7 @@
                     "Garden of forking paths",
                     "Model uncertainty",
                     "Multiverse analysis",
-                    "*P*\\-hacking",
+                    "p-hacking",
                     "Robustness (analyses)",
                     "Specification curve analysis"
                 ],
@@ -9797,7 +9797,7 @@
                     "Frequentist statistics",
                     "Null hypothesis",
                     "Null Hypothesis Significance Testing (NHST)",
-                    "*P*\\-value",
+                    "p-value",
                     "Type I error **Incorrect definition:** Statistical significance describes the likelihood of the observed result against chance (regardless of the null hypotheses)"
                 ],
                 "references": [
@@ -10126,7 +10126,7 @@
                     "Replication",
                     "Reproducibility",
                     "Null Hypothesis Significance Testing (NHST)",
-                    "*P*\\-hacking",
+                    "p-hacking",
                     "Questionable Research Practices or Questionable Reporting Practices (QRPs)"
                 ],
                 "references": [
@@ -10154,7 +10154,7 @@
                     "Asma Alzahrani",
                     "Mohammed Mohsen"
                 ],
-                "lastmod": "2026-08-05"
+                "lastmod": "2026-11-08"
             },
             {
                 "type": "glossary",
@@ -10368,7 +10368,7 @@
                     "Frequentist statistics",
                     "Null Hypothesis Significance Testing (NHST)",
                     "Null Result",
-                    "*P* value",
+                    "p-value",
                     "Questionable Research Practices or Questionable Reporting Practices (QRPs)",
                     "Reproducibility crisis (aka Replicability or replication crisis)",
                     "Scientific integrity",
@@ -10407,7 +10407,7 @@
                     "Hiba Alomary",
                     "Mohammed Mohsen"
                 ],
-                "lastmod": "2026-08-05"
+                "lastmod": "2026-11-08"
             },
             {
                 "type": "glossary",
@@ -11577,7 +11577,7 @@
                     "Bayesian statistics",
                     "Likelihood function",
                     "Null Hypothesis Significance Testing (NHST)",
-                    "*p*\\-value"
+                    "p-value"
                 ],
                 "references": [
                     "Hoijtink, H., Mulder, J., van Lissa, C., & Gu, X. (2019). A tutorial on testing hypotheses using the Bayes factor. <i>Psychological Methods</i>, <i>24</i>(5), 539–556. https://doi.org/10.1037/met0000201",
@@ -11608,7 +11608,7 @@
                     "Ruoting Liu",
                     "Shuxian Jin"
                 ],
-                "lastmod": "2026-08-05"
+                "lastmod": "2026-11-08"
             },
             {
                 "type": "glossary",
@@ -14536,7 +14536,7 @@
                 "related_terms": [
                     "Incentive structure",
                     "Journal Impact Factor",
-                    "*P*\\-hacking"
+                    "p-hacking"
                 ],
                 "references": [
                     "Moher, D., Naudet, F., Cristea, I. A., Miedema, F., Ioannidis, J. P. A., & Goodman, S. N. (2018). Assessing scientists for hiring, promotion, and tenure. <i>PLOS Biology</i>, <i>16</i>(3), e2004089. https://doi.org/10.1371/journal.pbio.2004089",
@@ -14564,7 +14564,7 @@
                     "Ruoting Liu",
                     "Shuxian Jin"
                 ],
-                "lastmod": "2026-08-05"
+                "lastmod": "2026-11-08"
             },
             {
                 "type": "glossary",
@@ -17214,7 +17214,7 @@
                 "sort_key": "xuanzexingzhongzhi",
                 "definition": "选择性终止是指在数据收集的过程中，研究人员频繁进行分析，并在统计标准（如p值或贝叶斯因子）达到指定阈值时决定停止数据收集的做法。如果采取适当的统计方法控制一类错误率，选择性终止可以成为一种高效的分析程序（参见：Lakens, 2014）。然而，如果没有透明报告和适当的错误控制，一类错误率可能急剧上升，选择性终止可能被认为是不当研究行为（QRP）或p值操纵的表现。",
                 "related_terms": [
-                    "*P*\\-hacking",
+                    "p-hacking",
                     "Questionable Research Practices or Questionable Reporting Practices (QRPs)",
                     "Sequential testing"
                 ],
@@ -17246,7 +17246,7 @@
                     "Ruoting Liu",
                     "Shuxian Jin"
                 ],
-                "lastmod": "2026-08-05"
+                "lastmod": "2026-11-08"
             },
             {
                 "type": "glossary",
@@ -17337,8 +17337,8 @@
                 "related_terms": [
                     "File-drawer",
                     "Hypothesis",
-                    "*P*\\-hacking",
-                    "*p*\\-value",
+                    "p-hacking",
+                    "p-value",
                     "Publication bias (File Drawer Problem)",
                     "Questionable Research Practices or Questionable Reporting Practices (QRPs)",
                     "Selective reporting",
@@ -17373,7 +17373,7 @@
                     "Ruoting Liu",
                     "Shuxian Jin"
                 ],
-                "lastmod": "2026-08-05"
+                "lastmod": "2026-11-08"
             },
             {
                 "type": "glossary",
@@ -18748,14 +18748,14 @@
                     "Garden of forking paths",
                     "HARKing",
                     "Nonpublication of data",
-                    "*P*\\-hacking",
-                    "*P*\\-value fishing",
+                    "p-hacking",
+                    "p-value fishing",
                     "Partial publication of data",
                     "Post-hoc storytelling",
                     "Preregistration",
                     "Questionable Measurement Practices (QMP)",
                     "Researcher degrees of freedom",
-                    "Reverse *p*\\-hacking",
+                    "Reverse p-hacking",
                     "Salami slicing"
                 ],
                 "references": [
@@ -18792,7 +18792,7 @@
                     "Ruoting Liu",
                     "Shuxian Jin"
                 ],
-                "lastmod": "2026-08-05"
+                "lastmod": "2026-11-08"
             },
             {
                 "type": "glossary",
@@ -18803,7 +18803,7 @@
                 "related_terms": [
                     "Construct validity",
                     "Measurement schmeasurement",
-                    "*P*\\-hacking",
+                    "p-hacking",
                     "Psychometrics",
                     "Questionable Research Practices or Questionable Reporting Practices (QRPs)",
                     "Validity"
@@ -18834,7 +18834,7 @@
                     "Ruoting Liu",
                     "Shuxian Jin"
                 ],
-                "lastmod": "2026-08-05"
+                "lastmod": "2026-11-08"
             },
             {
                 "type": "glossary",
@@ -19717,7 +19717,7 @@
                     "Garden of forking paths",
                     "Model uncertainty",
                     "Multiverse analysis",
-                    "*P*\\-hacking",
+                    "p-hacking",
                     "Robustness (analyses)",
                     "Specification curve analysis"
                 ],
@@ -19749,7 +19749,7 @@
                     "Ruoting Liu",
                     "Shuxian Jin"
                 ],
-                "lastmod": "2026-08-05"
+                "lastmod": "2026-11-08"
             },
             {
                 "type": "glossary",
@@ -20594,7 +20594,7 @@
                     "Frequentist statistics",
                     "Null hypothesis",
                     "Null Hypothesis Significance Testing (NHST)",
-                    "*P*\\-value",
+                    "p-value",
                     "Type I error **Incorrect definition:** Statistical significance describes the likelihood of the observed result against chance (regardless of the null hypotheses)"
                 ],
                 "references": [
@@ -20628,7 +20628,7 @@
                     "Xiujuan Wen",
                     "Shuxian Jin"
                 ],
-                "lastmod": "2026-08-05"
+                "lastmod": "2026-11-08"
             },
             {
                 "type": "glossary",
@@ -20932,7 +20932,7 @@
                     "Replication",
                     "Reproducibility",
                     "Null Hypothesis Significance Testing (NHST)",
-                    "*P*\\-hacking",
+                    "p-hacking",
                     "Questionable Research Practices or Questionable Reporting Practices (QRPs)"
                 ],
                 "references": [
@@ -20961,7 +20961,7 @@
                     "Xiujuan Wen",
                     "Shuxian Jin"
                 ],
-                "lastmod": "2026-08-05"
+                "lastmod": "2026-11-08"
             },
             {
                 "type": "glossary",
@@ -21180,7 +21180,7 @@
                     "Frequentist statistics",
                     "Null Hypothesis Significance Testing (NHST)",
                     "Null Result",
-                    "*P* value",
+                    "p-value",
                     "Questionable Research Practices or Questionable Reporting Practices (QRPs)",
                     "Reproducibility crisis (aka Replicability or replication crisis)",
                     "Scientific integrity",
@@ -21219,7 +21219,7 @@
                     "Xiujuan Wen",
                     "Shuxian Jin"
                 ],
-                "lastmod": "2026-08-05"
+                "lastmod": "2026-11-08"
             },
             {
                 "type": "glossary",
@@ -22362,7 +22362,7 @@
                     "Bayesian statistics",
                     "Likelihood function",
                     "Null Hypothesis Significance Testing (NHST)",
-                    "*p*\\-value"
+                    "p-value"
                 ],
                 "references": [
                     "Hoijtink, H., Mulder, J., van Lissa, C., & Gu, X. (2019). A tutorial on testing hypotheses using the Bayes factor. <i>Psychological Methods</i>, <i>24</i>(5), 539–556. https://doi.org/10.1037/met0000201",
@@ -22391,7 +22391,7 @@
                     "Susanne Vogel",
                     "Jennifer Mattschey"
                 ],
-                "lastmod": "2026-08-05"
+                "lastmod": "2026-11-08"
             },
             {
                 "type": "glossary",
@@ -25177,7 +25177,7 @@
                 "related_terms": [
                     "Incentive structure",
                     "Journal Impact Factor",
-                    "*P*\\-hacking"
+                    "p-hacking"
                 ],
                 "references": [
                     "Moher, D., Naudet, F., Cristea, I. A., Miedema, F., Ioannidis, J. P. A., & Goodman, S. N. (2018). Assessing scientists for hiring, promotion, and tenure. <i>PLOS Biology</i>, <i>16</i>(3), e2004089. https://doi.org/10.1371/journal.pbio.2004089",
@@ -25203,7 +25203,7 @@
                     "Birgit Schmidt",
                     "Susanne Vogel"
                 ],
-                "lastmod": "2026-08-05"
+                "lastmod": "2026-11-08"
             },
             {
                 "type": "glossary",
@@ -27721,7 +27721,7 @@
                 "sort_key": "optionales stoppen [optional stopping]",
                 "definition": "Die Praxis der (wiederholten) Analyse von Daten während der Datenerhebung und die Entscheidung, die Datenerhebung zu beenden, wenn ein statistisches Kriterium (z. B. der *p*\\-Wert oder der Bayes-Faktor) einen bestimmten Schwellenwert erreicht. Wenn geeignete methodische Vorkehrungen zur Kontrolle der Fehlerquote vom Typ 1 getroffen werden, kann dies ein effizientes Analyseverfahren sein (z. B. Lakens, 2014). Ohne eine transparente Berichterstattung oder eine angemessene Fehlerkontrolle kann der Typ-1-Fehler jedoch stark ansteigen, und Optionales Stoppen könnte als fragwürdige Forschungspraxis (questionable research practice; QRP) oder als eine Form des *p*\\-hacking betrachtet werden.",
                 "related_terms": [
-                    "*P*\\-hacking",
+                    "p-hacking",
                     "Questionable Research Practices or Questionable Reporting Practices (QRPs)",
                     "Sequential testing"
                 ],
@@ -27751,7 +27751,7 @@
                     "Helena Hartmann",
                     "Jennifer Mattschey"
                 ],
-                "lastmod": "2026-08-05"
+                "lastmod": "2026-11-08"
             },
             {
                 "type": "glossary",
@@ -27838,8 +27838,8 @@
                 "related_terms": [
                     "File-drawer",
                     "Hypothesis",
-                    "*P*\\-hacking",
-                    "*p*\\-value",
+                    "p-hacking",
+                    "p-value",
                     "Publication bias (File Drawer Problem)",
                     "Questionable Research Practices or Questionable Reporting Practices (QRPs)",
                     "Selective reporting",
@@ -27872,7 +27872,7 @@
                     "Susanne Vogel",
                     "Jennifer Mattschey"
                 ],
-                "lastmod": "2026-08-05"
+                "lastmod": "2026-11-08"
             },
             {
                 "type": "glossary",
@@ -29181,14 +29181,14 @@
                     "Garden of forking paths",
                     "HARKing",
                     "Nonpublication of data",
-                    "*P*\\-hacking",
-                    "*P*\\-value fishing",
+                    "p-hacking",
+                    "p-value fishing",
                     "Partial publication of data",
                     "Post-hoc storytelling",
                     "Preregistration",
                     "Questionable Measurement Practices (QMP)",
                     "Researcher degrees of freedom",
-                    "Reverse *p*\\-hacking",
+                    "Reverse p-hacking",
                     "Salami slicing"
                 ],
                 "references": [
@@ -29223,7 +29223,7 @@
                     "Susanne Vogel",
                     "Jennifer Mattschey"
                 ],
-                "lastmod": "2026-08-05"
+                "lastmod": "2026-11-08"
             },
             {
                 "type": "glossary",
@@ -29234,7 +29234,7 @@
                 "related_terms": [
                     "Construct validity",
                     "Measurement schmeasurement",
-                    "*P*\\-hacking",
+                    "p-hacking",
                     "Psychometrics",
                     "Questionable Research Practices or Questionable Reporting Practices (QRPs)",
                     "Validity"
@@ -29263,7 +29263,7 @@
                     "Helena Hartmann",
                     "Jennifer Mattschey"
                 ],
-                "lastmod": "2026-08-05"
+                "lastmod": "2026-11-08"
             },
             {
                 "type": "glossary",
@@ -30104,7 +30104,7 @@
                     "Garden of forking paths",
                     "Model uncertainty",
                     "Multiverse analysis",
-                    "*P*\\-hacking",
+                    "p-hacking",
                     "Robustness (analyses)",
                     "Specification curve analysis"
                 ],
@@ -30134,7 +30134,7 @@
                     "Susanne Vogel",
                     "Jennifer Mattschey"
                 ],
-                "lastmod": "2026-08-05"
+                "lastmod": "2026-11-08"
             },
             {
                 "type": "glossary",
@@ -30928,7 +30928,7 @@
                     "Frequentist statistics",
                     "Null hypothesis",
                     "Null Hypothesis Significance Testing (NHST)",
-                    "*P*\\-value",
+                    "p-value",
                     "Type I error **Incorrect definition:** Statistical significance describes the likelihood of the observed result against chance (regardless of the null hypotheses)"
                 ],
                 "references": [
@@ -30959,7 +30959,7 @@
                     "Helena Hartmann",
                     "Joris Frese"
                 ],
-                "lastmod": "2026-08-05"
+                "lastmod": "2026-11-08"
             },
             {
                 "type": "glossary",
@@ -31243,7 +31243,7 @@
                     "Replication",
                     "Reproducibility",
                     "Null Hypothesis Significance Testing (NHST)",
-                    "*P*\\-hacking",
+                    "p-hacking",
                     "Questionable Research Practices or Questionable Reporting Practices (QRPs)"
                 ],
                 "references": [
@@ -31269,7 +31269,7 @@
                     "Susanne Vogel",
                     "Joris Frese"
                 ],
-                "lastmod": "2026-08-05"
+                "lastmod": "2026-11-08"
             },
             {
                 "type": "glossary",
@@ -31475,7 +31475,7 @@
                     "Frequentist statistics",
                     "Null Hypothesis Significance Testing (NHST)",
                     "Null Result",
-                    "*P* value",
+                    "p-value",
                     "Questionable Research Practices or Questionable Reporting Practices (QRPs)",
                     "Reproducibility crisis (aka Replicability or replication crisis)",
                     "Scientific integrity",
@@ -31512,7 +31512,7 @@
                     "Susanne Vogel",
                     "Joris Frese"
                 ],
-                "lastmod": "2026-08-05"
+                "lastmod": "2026-11-08"
             },
             {
                 "type": "glossary",
@@ -32555,7 +32555,7 @@
                     "Bayesian statistics",
                     "Likelihood function",
                     "Null Hypothesis Significance Testing (NHST)",
-                    "*p*\\-value"
+                    "p-value"
                 ],
                 "references": [
                     "Hoijtink, H., Mulder, J., van Lissa, C., & Gu, X. (2019). A tutorial on testing hypotheses using the Bayes factor. <i>Psychological Methods</i>, <i>24</i>(5), 539–556. https://doi.org/10.1037/met0000201",
@@ -32580,7 +32580,7 @@
                 "aliases": [
                     "/glossary/bayes_factor"
                 ],
-                "lastmod": "2026-08-05"
+                "lastmod": "2026-11-08"
             },
             {
                 "type": "glossary",
@@ -35046,7 +35046,7 @@
                 "related_terms": [
                     "Incentive structure",
                     "Journal Impact Factor",
-                    "*P*\\-hacking"
+                    "p-hacking"
                 ],
                 "references": [
                     "Moher, D., Naudet, F., Cristea, I. A., Miedema, F., Ioannidis, J. P. A., & Goodman, S. N. (2018). Assessing scientists for hiring, promotion, and tenure. <i>PLOS Biology</i>, <i>16</i>(3), e2004089. https://doi.org/10.1371/journal.pbio.2004089",
@@ -35068,7 +35068,7 @@
                 "aliases": [
                     "/glossary/gaming_the_system_"
                 ],
-                "lastmod": "2026-08-05"
+                "lastmod": "2026-11-08"
             },
             {
                 "type": "glossary",
@@ -37328,7 +37328,7 @@
                 "sort_key": "optional stopping",
                 "definition": "The practice of (repeatedly) analyzing data during the data collection process and deciding to stop data collection if a statistical criterion (e.g. *p*\\-value, or bayes factor) reaches a specified threshold. If appropriate methodological precautions are taken to control the type 1 error rate, this can be an efficient analysis procedure (e.g. Lakens, 2014). However, without transparent reporting or appropriate error control the type 1 error can increase greatly and optional stopping could be considered a Questionable Research Practice (QRP) or a form of p-hacking.",
                 "related_terms": [
-                    "*P*\\-hacking",
+                    "p-hacking",
                     "Questionable Research Practices or Questionable Reporting Practices (QRPs)",
                     "Sequential testing"
                 ],
@@ -37354,7 +37354,7 @@
                 "aliases": [
                     "/glossary/optional_stopping"
                 ],
-                "lastmod": "2026-08-05"
+                "lastmod": "2026-11-08"
             },
             {
                 "type": "glossary",
@@ -37433,8 +37433,8 @@
                 "related_terms": [
                     "File-drawer",
                     "Hypothesis",
-                    "*P*\\-hacking",
-                    "*p*\\-value",
+                    "p-hacking",
+                    "p-value",
                     "Publication bias (File Drawer Problem)",
                     "Questionable Research Practices or Questionable Reporting Practices (QRPs)",
                     "Selective reporting",
@@ -37463,7 +37463,7 @@
                 "aliases": [
                     "/glossary/p_curve"
                 ],
-                "lastmod": "2026-08-05"
+                "lastmod": "2026-11-08"
             },
             {
                 "type": "glossary",
@@ -38640,14 +38640,14 @@
                     "Garden of forking paths",
                     "HARKing",
                     "Nonpublication of data",
-                    "*P*\\-hacking",
-                    "*P*\\-value fishing",
+                    "p-hacking",
+                    "p-value fishing",
                     "Partial publication of data",
                     "Post-hoc storytelling",
                     "Preregistration",
                     "Questionable Measurement Practices (QMP)",
                     "Researcher degrees of freedom",
-                    "Reverse *p*\\-hacking",
+                    "Reverse p-hacking",
                     "Salami slicing"
                 ],
                 "references": [
@@ -38678,7 +38678,7 @@
                 "aliases": [
                     "/glossary/questionable_research_practices_or_questionable_reporting_practices_qrps_"
                 ],
-                "lastmod": "2026-08-05"
+                "lastmod": "2026-11-08"
             },
             {
                 "type": "glossary",
@@ -38689,7 +38689,7 @@
                 "related_terms": [
                     "Construct validity",
                     "Measurement schmeasurement",
-                    "*P*\\-hacking",
+                    "p-hacking",
                     "Psychometrics",
                     "Questionable Research Practices or Questionable Reporting Practices (QRPs)",
                     "Validity"
@@ -38714,7 +38714,7 @@
                 "aliases": [
                     "/glossary/questionable_measurement_practices_qmp_"
                 ],
-                "lastmod": "2026-08-05"
+                "lastmod": "2026-11-08"
             },
             {
                 "type": "glossary",
@@ -39471,7 +39471,7 @@
                     "Garden of forking paths",
                     "Model uncertainty",
                     "Multiverse analysis",
-                    "*P*\\-hacking",
+                    "p-hacking",
                     "Robustness (analyses)",
                     "Specification curve analysis"
                 ],
@@ -39497,7 +39497,7 @@
                 "aliases": [
                     "/glossary/researcher_degrees_of_freedom"
                 ],
-                "lastmod": "2026-08-05"
+                "lastmod": "2026-11-08"
             },
             {
                 "type": "glossary",
@@ -40207,7 +40207,7 @@
                     "Frequentist statistics",
                     "Null hypothesis",
                     "Null Hypothesis Significance Testing (NHST)",
-                    "*P*\\-value",
+                    "p-value",
                     "Type I error **Incorrect definition:** Statistical significance describes the likelihood of the observed result against chance (regardless of the null hypotheses)"
                 ],
                 "references": [
@@ -40234,7 +40234,7 @@
                 "aliases": [
                     "/glossary/statistical_significance"
                 ],
-                "lastmod": "2026-08-05"
+                "lastmod": "2026-11-08"
             },
             {
                 "type": "glossary",
@@ -40489,7 +40489,7 @@
                     "Replication",
                     "Reproducibility",
                     "Null Hypothesis Significance Testing (NHST)",
-                    "*P*\\-hacking",
+                    "p-hacking",
                     "Questionable Research Practices or Questionable Reporting Practices (QRPs)"
                 ],
                 "references": [
@@ -40511,7 +40511,7 @@
                 "aliases": [
                     "/glossary/the_troubling_trio"
                 ],
-                "lastmod": "2026-08-05"
+                "lastmod": "2026-11-08"
             },
             {
                 "type": "glossary",
@@ -40695,7 +40695,7 @@
                     "Frequentist statistics",
                     "Null Hypothesis Significance Testing (NHST)",
                     "Null Result",
-                    "*P* value",
+                    "p-value",
                     "Questionable Research Practices or Questionable Reporting Practices (QRPs)",
                     "Reproducibility crisis (aka Replicability or replication crisis)",
                     "Scientific integrity",
@@ -40727,7 +40727,7 @@
                 "aliases": [
                     "/glossary/type_i_error"
                 ],
-                "lastmod": "2026-08-05"
+                "lastmod": "2026-11-08"
             },
             {
                 "type": "glossary",
@@ -41757,7 +41757,7 @@
                     "Bayesian statistics",
                     "Likelihood function",
                     "Null Hypothesis Significance Testing (NHST)",
-                    "*p*\\-value"
+                    "p-value"
                 ],
                 "references": [
                     "Hoijtink, H., Mulder, J., van Lissa, C., & Gu, X. (2019). A tutorial on testing hypotheses using the Bayes factor. <i>Psychological Methods</i>, <i>24</i>(5), 539–556. https://doi.org/10.1037/met0000201",
@@ -41785,7 +41785,7 @@
                 "translation_reviewed_by": [
                     "Elif Baştan"
                 ],
-                "lastmod": "2026-08-05"
+                "lastmod": "2026-11-08"
             },
             {
                 "type": "glossary",
@@ -44461,7 +44461,7 @@
                 "related_terms": [
                     "Incentive structure",
                     "Journal Impact Factor",
-                    "*P*\\-hacking"
+                    "p-hacking"
                 ],
                 "references": [
                     "Moher, D., Naudet, F., Cristea, I. A., Miedema, F., Ioannidis, J. P. A., & Goodman, S. N. (2018). Assessing scientists for hiring, promotion, and tenure. <i>PLOS Biology</i>, <i>16</i>(3), e2004089. https://doi.org/10.1371/journal.pbio.2004089",
@@ -44486,7 +44486,7 @@
                 "translation_reviewed_by": [
                     "Ege Emek"
                 ],
-                "lastmod": "2026-08-05"
+                "lastmod": "2026-11-08"
             },
             {
                 "type": "glossary",
@@ -46827,7 +46827,7 @@
                 "sort_key": "opsiyonel durdurma [optional stopping]",
                 "definition": "Veri toplama süreci sırasında (tekrar tekrar) verilerin analiz edilmesi ve istatistiksel bir ölçütün (örn., p-değeri veya Bayes faktörü) belirli bir eşiğe ulaşması durumunda veri toplamayı durdurmaya karar verilmesi uygulamasıdır. Eğer Tip I hata oranını kontrol altına almak için uygun metodolojik önlemler alınırsa, bu yöntem verimli bir analiz süreci olabilir (örn., Lakens, 2014). Ancak, şeffaf raporlama yapılmadığında veya uygun hata kontrolü sağlanmadığında Tip I hata oranı önemli ölçüde artabilir ve bu tür opsiyonel durdurma uygulaması Şüpheli Araştırma Uygulaması (QRP; Questionable Research Practice) ya da bir tür p-hackleme olarak değerlendirilebilir.",
                 "related_terms": [
-                    "*P*\\-hacking",
+                    "p-hacking",
                     "Questionable Research Practices or Questionable Reporting Practices (QRPs)",
                     "Sequential testing"
                 ],
@@ -46856,7 +46856,7 @@
                 "translation_reviewed_by": [
                     "Nihan Selin Soylu-Konak"
                 ],
-                "lastmod": "2026-08-05"
+                "lastmod": "2026-11-08"
             },
             {
                 "type": "glossary",
@@ -46941,8 +46941,8 @@
                 "related_terms": [
                     "File-drawer",
                     "Hypothesis",
-                    "*P*\\-hacking",
-                    "*p*\\-value",
+                    "p-hacking",
+                    "p-value",
                     "Publication bias (File Drawer Problem)",
                     "Questionable Research Practices or Questionable Reporting Practices (QRPs)",
                     "Selective reporting",
@@ -46974,7 +46974,7 @@
                 "translation_reviewed_by": [
                     "Nihan Selin Soylu-Konak"
                 ],
-                "lastmod": "2026-08-05"
+                "lastmod": "2026-11-08"
             },
             {
                 "type": "glossary",
@@ -48250,14 +48250,14 @@
                     "Garden of forking paths",
                     "HARKing",
                     "Nonpublication of data",
-                    "*P*\\-hacking",
-                    "*P*\\-value fishing",
+                    "p-hacking",
+                    "p-value fishing",
                     "Partial publication of data",
                     "Post-hoc storytelling",
                     "Preregistration",
                     "Questionable Measurement Practices (QMP)",
                     "Researcher degrees of freedom",
-                    "Reverse *p*\\-hacking",
+                    "Reverse p-hacking",
                     "Salami slicing"
                 ],
                 "references": [
@@ -48291,7 +48291,7 @@
                 "translation_reviewed_by": [
                     "Nihan Selin Soylu-Konak"
                 ],
-                "lastmod": "2026-08-05"
+                "lastmod": "2026-11-08"
             },
             {
                 "type": "glossary",
@@ -48302,7 +48302,7 @@
                 "related_terms": [
                     "Construct validity",
                     "Measurement schmeasurement",
-                    "*P*\\-hacking",
+                    "p-hacking",
                     "Psychometrics",
                     "Questionable Research Practices or Questionable Reporting Practices (QRPs)",
                     "Validity"
@@ -48330,7 +48330,7 @@
                 "translation_reviewed_by": [
                     "Nihan Selin Soylu-Konak"
                 ],
-                "lastmod": "2026-08-05"
+                "lastmod": "2026-11-08"
             },
             {
                 "type": "glossary",
@@ -49111,7 +49111,7 @@
                     "Garden of forking paths",
                     "Model uncertainty",
                     "Multiverse analysis",
-                    "*P*\\-hacking",
+                    "p-hacking",
                     "Robustness (analyses)",
                     "Specification curve analysis"
                 ],
@@ -49140,7 +49140,7 @@
                 "translation_reviewed_by": [
                     "Neslihan Özhan"
                 ],
-                "lastmod": "2026-08-05"
+                "lastmod": "2026-11-08"
             },
             {
                 "type": "glossary",
@@ -49837,7 +49837,7 @@
                     "Frequentist statistics",
                     "Null hypothesis",
                     "Null Hypothesis Significance Testing (NHST)",
-                    "*P*\\-value",
+                    "p-value",
                     "Type I error **Incorrect definition:** Statistical significance describes the likelihood of the observed result against chance (regardless of the null hypotheses)"
                 ],
                 "references": [
@@ -49867,7 +49867,7 @@
                 "translation_reviewed_by": [
                     "Neslihan Özhan"
                 ],
-                "lastmod": "2026-08-05"
+                "lastmod": "2026-11-08"
             },
             {
                 "type": "glossary",
@@ -50143,7 +50143,7 @@
                     "Replication",
                     "Reproducibility",
                     "Null Hypothesis Significance Testing (NHST)",
-                    "*P*\\-hacking",
+                    "p-hacking",
                     "Questionable Research Practices or Questionable Reporting Practices (QRPs)"
                 ],
                 "references": [
@@ -50168,7 +50168,7 @@
                 "translation_reviewed_by": [
                     "Neslihan Özhan"
                 ],
-                "lastmod": "2026-08-05"
+                "lastmod": "2026-11-08"
             },
             {
                 "type": "glossary",
@@ -50332,7 +50332,7 @@
                     "Frequentist statistics",
                     "Null Hypothesis Significance Testing (NHST)",
                     "Null Result",
-                    "*P* value",
+                    "p-value",
                     "Questionable Research Practices or Questionable Reporting Practices (QRPs)",
                     "Reproducibility crisis (aka Replicability or replication crisis)",
                     "Scientific integrity",
@@ -50367,7 +50367,7 @@
                 "translation_reviewed_by": [
                     "Neslihan Özhan"
                 ],
-                "lastmod": "2026-08-05"
+                "lastmod": "2026-11-08"
             },
             {
                 "type": "glossary",
