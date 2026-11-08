@@ -7044,7 +7044,7 @@
                 "en_title": "Positionality",
                 "title": "الموضعيَّة [Positionality]",
                 "sort_key": "الموضعيَّة [positionality]",
-                "definition": "تحديد سياق كلٌّ من بيئة البحث والباحث، لتحديد الحدود التي أُنتِج البحث داخلها (Jaraf, 2018). عادة ما يتم التَّركيز على الموضعيَّة والاحتفاء بها في البحث النُّوعي، ولكن هناك دعوات حديثة لاستخدامها في البحث الكمي أيضًا. تم اقتراح صياغات لبيان الموضعيَّة، حيث يحدِّد الباحث خلفيته و\"موقعه\" داخل البحث واتجاهه كطريقة للتَّعرُّف على تحيُّز الباحث وتركيزه.  **المصطلحات ذات الصِّلة:**  التَّحيز، الانعكاسيَّة، وجهات النَّظر.",
+                "definition": "تحديد سياق كلٌّ من بيئة البحث والباحث، لتحديد الحدود التي أُنتِج البحث داخلها (Jafar, 2018). عادة ما يتم التَّركيز على الموضعيَّة والاحتفاء بها في البحث النُّوعي، ولكن هناك دعوات حديثة لاستخدامها في البحث الكمي أيضًا. تم اقتراح صياغات لبيان الموضعيَّة، حيث يحدِّد الباحث خلفيته و\"موقعه\" داخل البحث واتجاهه كطريقة للتَّعرُّف على تحيُّز الباحث وتركيزه.  **المصطلحات ذات الصِّلة:**  التَّحيز، الانعكاسيَّة، وجهات النَّظر.",
                 "related_terms": [
                     "Bias",
                     "Reflexivity",
@@ -7076,7 +7076,7 @@
                     "Asma Alzahrani",
                     "Mohammed Mohsen"
                 ],
-                "lastmod": "2026-08-05"
+                "lastmod": "2026-11-08"
             },
             {
                 "type": "glossary",
@@ -10290,11 +10290,11 @@
                     "Publication bias (File Drawer Problem)"
                 ],
                 "references": [
-                    "[https://doi.org/10.1111/j.0006-341x.2000.00455.x](https://doi.org/10.1111/j.0006-341x.2000.00455.x)",
-                    "[https://doi.org/10.1097/MD.0000000000015987](https://doi.org/10.1097/MD.0000000000015987)",
-                    "[https://doi.org/10.1186/1471-2288-9-2](https://doi.org/10.1186/1471-2288-9-2)",
-                    "[https://doi.org/10.1177/2515245919847196](https://doi.org/10.1177/2515245919847196)",
-                    "[https://wviechtb.github.io/metafor/reference/trimfill.html](https://wviechtb.github.io/metafor/reference/trimfill.html)"
+                    "Duval, S., & Tweedie, R. (2000). Trim and fill: A simple funnel-plot–based method of testing and adjusting for publication bias in meta-analysis. <i>Biometrics</i>, <i>56</i>, 455–463. https://doi.org/10.1111/j.0006-341x.2000.00455.x",
+                    "Shi, L., & Lin, L. (2019). The trim-and-fill method for publication bias: Practical guidelines and recommendations based on a large database of meta-analyses. <i>Medicine</i>, <i>98</i>(23), e15987. https://doi.org/10.1097/MD.0000000000015987",
+                    "Moreno, S. G., Sutton, A. J., Ades, A. E., Stanley, T. D., Abrams, K. R., Peters, J. L., & Cooper, N. J. (2009). Assessment of regression-based methods to adjust for publication bias through a comprehensive simulation study. <i>BMC Medical Research Methodology</i>, <i>9</i>, 2. https://doi.org/10.1186/1471-2288-9-2",
+                    "Carter, E. C., Schönbrodt, F. D., Gervais, W. M., & Hilgard, J. (2019). Correcting for Bias in Psychology: A Comparison of Meta-Analytic Methods. <i>Advances in Methods and Practices in Psychological Science</i>, <i>2</i>(2), 115–144. https://doi.org/10.1177/2515245919847196",
+                    "Viechtbauer, W. (n.d.). <i>Trim and Fill Analysis for “rma.uni” Objects (trimfill), metafor package documentation</i>. https://wviechtb.github.io/metafor/reference/trimfill.html"
                 ],
                 "drafted_by": [
                     "Mahmoud Elsherif"
@@ -10718,7 +10718,7 @@
                 "en_title": "Webometrics",
                 "title": "قياسات الويب [Webometrics]",
                 "sort_key": "قياسات الويب [webometrics]",
-                "definition": "تتضمَّن قياسات الويب دراسة المحتوى عبر الإنترنت، وتركِّز على أعداد، وأنواع الارتباطات التَّشعبيَّة بين مواقع الإنترنت المختلفة. وتعدُّ هذه الأساليب كنوع من المقاييس البديلة. \"دراسة الجوانب الكميَّة لبناء واستخدام موارد المعلومات، والهياكل، والتِّقنيَّات على الويب بالاعتماد على المناهج الببليومتريَّة والمعلوماتيَّة\" (Björneborn & Ingwersen, 2004).  **المصطلحات ذات الصِّلة:** المقاييس البديلة، القياسات الببليومتريَّة.",
+                "definition": "تتضمَّن قياسات الويب دراسة المحتوى عبر الإنترنت، وتركِّز على أعداد، وأنواع الارتباطات التَّشعبيَّة بين مواقع الإنترنت المختلفة. وتعدُّ هذه الأساليب كنوع من المقاييس البديلة. \"دراسة الجوانب الكميَّة لبناء واستخدام موارد المعلومات، والهياكل، والتِّقنيَّات على الويب بالاعتماد على المناهج الببليومتريَّة والمعلوماتيَّة\" (Bjørneborn & Ingwersen, 2004).  **المصطلحات ذات الصِّلة:** المقاييس البديلة، القياسات الببليومتريَّة.",
                 "related_terms": [
                     "Altmetrics",
                     "Bibliometrics"
@@ -17831,7 +17831,7 @@
                 "en_title": "Positionality",
                 "title": "立场性 [Positionality]",
                 "sort_key": "lichangxing",
-                "definition": "立场性是指将研究环境和研究者情境化，以界定研究的边界范围（Jaraf, 2018）。立场性一直在定性研究中被重视和推崇，但近年来也有研究者呼吁在定量研究中应用这一概念。研究者撰写“立场声明”阐明其背景以及在研究中的立场定位，已被视为识别与聚焦研究者偏见的有效方法之一。",
+                "definition": "立场性是指将研究环境和研究者情境化，以界定研究的边界范围（Jafar, 2018）。立场性一直在定性研究中被重视和推崇，但近年来也有研究者呼吁在定量研究中应用这一概念。研究者撰写“立场声明”阐明其背景以及在研究中的立场定位，已被视为识别与聚焦研究者偏见的有效方法之一。",
                 "related_terms": [
                     "Bias",
                     "Reflexivity",
@@ -17863,7 +17863,7 @@
                     "Ruoting Liu",
                     "Shuxian Jin"
                 ],
-                "lastmod": "2026-08-05"
+                "lastmod": "2026-11-08"
             },
             {
                 "type": "glossary",
@@ -21100,11 +21100,11 @@
                     "Publication bias (File Drawer Problem)"
                 ],
                 "references": [
-                    "[https://doi.org/10.1111/j.0006-341x.2000.00455.x](https://doi.org/10.1111/j.0006-341x.2000.00455.x)",
-                    "[https://doi.org/10.1097/MD.0000000000015987](https://doi.org/10.1097/MD.0000000000015987)",
-                    "[https://doi.org/10.1186/1471-2288-9-2](https://doi.org/10.1186/1471-2288-9-2)",
-                    "[https://doi.org/10.1177/2515245919847196](https://doi.org/10.1177/2515245919847196)",
-                    "[https://wviechtb.github.io/metafor/reference/trimfill.html](https://wviechtb.github.io/metafor/reference/trimfill.html)"
+                    "Duval, S., & Tweedie, R. (2000). Trim and fill: A simple funnel-plot–based method of testing and adjusting for publication bias in meta-analysis. <i>Biometrics</i>, <i>56</i>, 455–463. https://doi.org/10.1111/j.0006-341x.2000.00455.x",
+                    "Shi, L., & Lin, L. (2019). The trim-and-fill method for publication bias: Practical guidelines and recommendations based on a large database of meta-analyses. <i>Medicine</i>, <i>98</i>(23), e15987. https://doi.org/10.1097/MD.0000000000015987",
+                    "Moreno, S. G., Sutton, A. J., Ades, A. E., Stanley, T. D., Abrams, K. R., Peters, J. L., & Cooper, N. J. (2009). Assessment of regression-based methods to adjust for publication bias through a comprehensive simulation study. <i>BMC Medical Research Methodology</i>, <i>9</i>, 2. https://doi.org/10.1186/1471-2288-9-2",
+                    "Carter, E. C., Schönbrodt, F. D., Gervais, W. M., & Hilgard, J. (2019). Correcting for Bias in Psychology: A Comparison of Meta-Analytic Methods. <i>Advances in Methods and Practices in Psychological Science</i>, <i>2</i>(2), 115–144. https://doi.org/10.1177/2515245919847196",
+                    "Viechtbauer, W. (n.d.). <i>Trim and Fill Analysis for “rma.uni” Objects (trimfill), metafor package documentation</i>. https://wviechtb.github.io/metafor/reference/trimfill.html"
                 ],
                 "drafted_by": [
                     "Mahmoud Elsherif"
@@ -21533,7 +21533,7 @@
                 "en_title": "Webometrics",
                 "title": "网络计量学 [Webometrics]",
                 "sort_key": "wangluojiliangxue",
-                "definition": "网络计量学聚焦对在线内容的研究，关注不同网站间超链接的数量与类型。这种方法被认为是替代度量的一种，“基于文献计量学与信息计量学方法，对网络信息资源、结构和技术的构建和应用进行定量研究”（Björneborn & Ingwersen, 2004）。",
+                "definition": "网络计量学聚焦对在线内容的研究，关注不同网站间超链接的数量与类型。这种方法被认为是替代度量的一种，“基于文献计量学与信息计量学方法，对网络信息资源、结构和技术的构建和应用进行定量研究”（Bjørneborn & Ingwersen, 2004）。",
                 "related_terms": [
                     "Altmetrics",
                     "Bibliometrics"
@@ -21562,7 +21562,7 @@
                     "Xiujuan Wen",
                     "Shuxian Jin"
                 ],
-                "lastmod": "2026-08-05"
+                "lastmod": "2026-11-08"
             },
             {
                 "type": "glossary",
@@ -28308,7 +28308,7 @@
                 "en_title": "Positionality",
                 "title": "Positionalität [Positionality]",
                 "sort_key": "positionalität [positionality]",
-                "definition": "Die Kontextualisierung sowohl der Forschungsumgebung als auch der Forschenden, um zu definieren, innerhalb welcher Grenzen die Forschungsarbeit durchgeführt wurde (Jaraf, 2018). Positionalität wird in der Regel in der qualitativen Forschung in den Mittelpunkt gestellt und gewürdigt, aber in jüngster Zeit wurde gefordert, sie auch in der quantitativen Forschung zu verwenden. Positionalitätserklärungen, in denen Forschende ihren Hintergrund und ihre \"Position\" innerhalb und gegenüber der Forschung darlegen, wurden als eine Methode zur Erkennung und Zentrierung des Bias (Voreingenommenheit) von Forschenden vorgeschlagen.",
+                "definition": "Die Kontextualisierung sowohl der Forschungsumgebung als auch der Forschenden, um zu definieren, innerhalb welcher Grenzen die Forschungsarbeit durchgeführt wurde (Jafar, 2018). Positionalität wird in der Regel in der qualitativen Forschung in den Mittelpunkt gestellt und gewürdigt, aber in jüngster Zeit wurde gefordert, sie auch in der quantitativen Forschung zu verwenden. Positionalitätserklärungen, in denen Forschende ihren Hintergrund und ihre \"Position\" innerhalb und gegenüber der Forschung darlegen, wurden als eine Methode zur Erkennung und Zentrierung des Bias (Voreingenommenheit) von Forschenden vorgeschlagen.",
                 "related_terms": [
                     "Bias",
                     "Reflexivity",
@@ -28338,7 +28338,7 @@
                     "Jennifer Mattschey",
                     "Helena Hartmann"
                 ],
-                "lastmod": "2026-08-05"
+                "lastmod": "2026-11-08"
             },
             {
                 "type": "glossary",
@@ -31401,11 +31401,11 @@
                     "Publication bias (File Drawer Problem)"
                 ],
                 "references": [
-                    "[https://doi.org/10.1111/j.0006-341x.2000.00455.x](https://doi.org/10.1111/j.0006-341x.2000.00455.x)",
-                    "[https://doi.org/10.1097/MD.0000000000015987](https://doi.org/10.1097/MD.0000000000015987)",
-                    "[https://doi.org/10.1186/1471-2288-9-2](https://doi.org/10.1186/1471-2288-9-2)",
-                    "[https://doi.org/10.1177/2515245919847196](https://doi.org/10.1177/2515245919847196)",
-                    "[https://wviechtb.github.io/metafor/reference/trimfill.html](https://wviechtb.github.io/metafor/reference/trimfill.html)"
+                    "Duval, S., & Tweedie, R. (2000). Trim and fill: A simple funnel-plot–based method of testing and adjusting for publication bias in meta-analysis. <i>Biometrics</i>, <i>56</i>, 455–463. https://doi.org/10.1111/j.0006-341x.2000.00455.x",
+                    "Shi, L., & Lin, L. (2019). The trim-and-fill method for publication bias: Practical guidelines and recommendations based on a large database of meta-analyses. <i>Medicine</i>, <i>98</i>(23), e15987. https://doi.org/10.1097/MD.0000000000015987",
+                    "Moreno, S. G., Sutton, A. J., Ades, A. E., Stanley, T. D., Abrams, K. R., Peters, J. L., & Cooper, N. J. (2009). Assessment of regression-based methods to adjust for publication bias through a comprehensive simulation study. <i>BMC Medical Research Methodology</i>, <i>9</i>, 2. https://doi.org/10.1186/1471-2288-9-2",
+                    "Carter, E. C., Schönbrodt, F. D., Gervais, W. M., & Hilgard, J. (2019). Correcting for Bias in Psychology: A Comparison of Meta-Analytic Methods. <i>Advances in Methods and Practices in Psychological Science</i>, <i>2</i>(2), 115–144. https://doi.org/10.1177/2515245919847196",
+                    "Viechtbauer, W. (n.d.). <i>Trim and Fill Analysis for “rma.uni” Objects (trimfill), metafor package documentation</i>. https://wviechtb.github.io/metafor/reference/trimfill.html"
                 ],
                 "drafted_by": [
                     "Mahmoud Elsherif"
@@ -31806,7 +31806,7 @@
                 "en_title": "Webometrics",
                 "title": "Webometrie [Webometrics]",
                 "sort_key": "webometrie [webometrics]",
-                "definition": "Die Webometrie befasst sich mit der Untersuchung von Online-Inhalten. Die Webometrie konzentriert sich auf die Anzahl und Art der Hyperlinks zwischen verschiedenen Online-Seiten. Solche Ansätze werden als eine Art von Altmetrik betrachtet. \"The study of the quantitative aspects of the construction and use of information resources, structures and technologies on the Web drawing on [bibliometric](https://en.wikipedia.org/wiki/Bibliometrics) and [informetric](https://en.wikipedia.org/wiki/Informetrics) approaches” (dt. Die Untersuchung der quantitativen Aspekte des Aufbaus und der Nutzung von Informationsressourcen, \\-strukturen und \\-technologien im Web auf der Grundlage bibliometrischer und informatischer Ansätze; Björneborn & Ingwersen, 2004).",
+                "definition": "Die Webometrie befasst sich mit der Untersuchung von Online-Inhalten. Die Webometrie konzentriert sich auf die Anzahl und Art der Hyperlinks zwischen verschiedenen Online-Seiten. Solche Ansätze werden als eine Art von Altmetrik betrachtet. \"The study of the quantitative aspects of the construction and use of information resources, structures and technologies on the Web drawing on [bibliometric](https://en.wikipedia.org/wiki/Bibliometrics) and [informetric](https://en.wikipedia.org/wiki/Informetrics) approaches” (dt. Die Untersuchung der quantitativen Aspekte des Aufbaus und der Nutzung von Informationsressourcen, \\-strukturen und \\-technologien im Web auf der Grundlage bibliometrischer und informatischer Ansätze; Bjørneborn & Ingwersen, 2004).",
                 "related_terms": [
                     "Altmetrics",
                     "Bibliometrics"
@@ -31832,7 +31832,7 @@
                     "Helena Hartmann",
                     "Joris Frese"
                 ],
-                "lastmod": "2026-08-05"
+                "lastmod": "2026-11-08"
             },
             {
                 "type": "glossary",
@@ -34883,7 +34883,7 @@
                 "en_title": "Feminist psychology",
                 "title": "Feminist psychology",
                 "sort_key": "feminist psychology",
-                "definition": "With a particular focus on gender and sexuality, feminist psychology is inherently concerned with representation, diversity, inclusion, accessibility, and equality. Feminist psychology initially grew out out of a concern for representing the lived experiences of girls and women, but has since evolved into a more nuanced, intersectional and comprehensive concern for all aspects of equality (e.g., Eagly & Riger, 2014). Feminist psychologists have advocated for more rigorous consideration of equality, diversity, and inclusion within Open Science spaces (Pownall et al., 2021).",
+                "definition": "With a particular focus on gender and sexuality, feminist psychology is inherently concerned with representation, diversity, inclusion, accessibility, and equality. Feminist psychology initially grew out of a concern for representing the lived experiences of girls and women, but has since evolved into a more nuanced, intersectional and comprehensive concern for all aspects of equality (e.g., Eagly & Riger, 2014). Feminist psychologists have advocated for more rigorous consideration of equality, diversity, and inclusion within Open Science spaces (Pownall et al., 2021).",
                 "related_terms": [
                     "Inclusion",
                     "Positionality",
@@ -34912,7 +34912,7 @@
                 "aliases": [
                     "/glossary/feminist_psychology"
                 ],
-                "lastmod": "2026-08-05"
+                "lastmod": "2026-11-08"
             },
             {
                 "type": "glossary",
@@ -37855,7 +37855,7 @@
                 "en_title": "Positionality",
                 "title": "Positionality",
                 "sort_key": "positionality",
-                "definition": "The contextualization of both the research environment and the researcher, to define the boundaries within the research was produced (Jaraf, 2018). Positionality is typically centred and celebrated in qualitative research, but there have been recent calls for it to also be used in quantitative research as well. Positionality statements, whereby a researcher outlines their background and ‘position’ within and towards the research, have been suggested as one method of recognising and centring researcher bias.",
+                "definition": "The contextualization of both the research environment and the researcher, to define the boundaries within the research was produced (Jafar, 2018). Positionality is typically centred and celebrated in qualitative research, but there have been recent calls for it to also be used in quantitative research as well. Positionality statements, whereby a researcher outlines their background and ‘position’ within and towards the research, have been suggested as one method of recognising and centring researcher bias.",
                 "related_terms": [
                     "Bias",
                     "Reflexivity",
@@ -37881,7 +37881,7 @@
                 "aliases": [
                     "/glossary/positionality"
                 ],
-                "lastmod": "2026-08-05"
+                "lastmod": "2026-11-08"
             },
             {
                 "type": "glossary",
@@ -40623,17 +40623,17 @@
                 "en_title": "Trim-and-fill method",
                 "title": "Trim-and-fill method",
                 "sort_key": "trim-and-fill method",
-                "definition": "A method used in meta-analysis to assess how publication bias might affect the pooled effect estimate. It assumes that missing studies on one side of a funnel plot account for the plot’s asymmetry. The procedure temporarily removes (“trims”) extreme studies from the more populated side and repeatedly re-estimates the centre of the plot. It then restores the trimmed studies and adds hypothetical studies that mirror them on the opposite side (“fills”). The pooled effect and its confidence interval are recalculated using the observed and imputed studies (Duval & Tweedie, 2000).\n\nFunnel-plot asymmetry can arise for reasons other than publication bias, including differences in the underlying effects across studies. Trim-and-fill therefore provides a sensitivity analysis under particular assumptions about missing studies; it does not establish that publication bias occurred or guarantee an unbiased effect estimate (Shi & Lin, 2019; metafor documentation).\n\nSeveral methodologists recommend using other approaches, such as selection models or suitable regression-based methods, instead of trim-and-fill because it can leave substantial bias uncorrected and perform poorly when effects differ across studies (Moreno et al., 2009; Carter et al., 2019).",
+                "definition": "A method used in meta-analysis to assess how publication bias might affect the pooled effect estimate. It assumes that missing studies on one side of a funnel plot account for the plot’s asymmetry. The procedure temporarily removes (“trims”) extreme studies from the more populated side and repeatedly re-estimates the centre of the plot. It then restores the trimmed studies and adds hypothetical studies that mirror them on the opposite side (“fills”). The pooled effect and its confidence interval are recalculated using the observed and imputed studies (Duval & Tweedie, 2000).\n\nFunnel-plot asymmetry can arise for reasons other than publication bias, including differences in the underlying effects across studies. Trim-and-fill therefore provides a sensitivity analysis under particular assumptions about missing studies; it does not establish that publication bias occurred or guarantee an unbiased effect estimate (Shi & Lin, 2019; Viechtbauer, n.d.).\n\nSeveral methodologists recommend using other approaches, such as selection models or suitable regression-based methods, instead of trim-and-fill because it can leave substantial bias uncorrected and perform poorly when effects differ across studies (Moreno et al., 2009; Carter et al., 2019).",
                 "related_terms": [
                     "Meta-analysis",
                     "Publication bias (File Drawer Problem)"
                 ],
                 "references": [
-                    "[https://doi.org/10.1111/j.0006-341x.2000.00455.x](https://doi.org/10.1111/j.0006-341x.2000.00455.x)",
-                    "[https://doi.org/10.1097/MD.0000000000015987](https://doi.org/10.1097/MD.0000000000015987)",
-                    "[https://doi.org/10.1186/1471-2288-9-2](https://doi.org/10.1186/1471-2288-9-2)",
-                    "[https://doi.org/10.1177/2515245919847196](https://doi.org/10.1177/2515245919847196)",
-                    "[https://wviechtb.github.io/metafor/reference/trimfill.html](https://wviechtb.github.io/metafor/reference/trimfill.html)"
+                    "Duval, S., & Tweedie, R. (2000). Trim and fill: A simple funnel-plot–based method of testing and adjusting for publication bias in meta-analysis. <i>Biometrics</i>, <i>56</i>, 455–463. https://doi.org/10.1111/j.0006-341x.2000.00455.x",
+                    "Shi, L., & Lin, L. (2019). The trim-and-fill method for publication bias: Practical guidelines and recommendations based on a large database of meta-analyses. <i>Medicine</i>, <i>98</i>(23), e15987. https://doi.org/10.1097/MD.0000000000015987",
+                    "Moreno, S. G., Sutton, A. J., Ades, A. E., Stanley, T. D., Abrams, K. R., Peters, J. L., & Cooper, N. J. (2009). Assessment of regression-based methods to adjust for publication bias through a comprehensive simulation study. <i>BMC Medical Research Methodology</i>, <i>9</i>, 2. https://doi.org/10.1186/1471-2288-9-2",
+                    "Carter, E. C., Schönbrodt, F. D., Gervais, W. M., & Hilgard, J. (2019). Correcting for Bias in Psychology: A Comparison of Meta-Analytic Methods. <i>Advances in Methods and Practices in Psychological Science</i>, <i>2</i>(2), 115–144. https://doi.org/10.1177/2515245919847196",
+                    "Viechtbauer, W. (n.d.). <i>Trim and Fill Analysis for “rma.uni” Objects (trimfill), metafor package documentation</i>. https://wviechtb.github.io/metafor/reference/trimfill.html"
                 ],
                 "drafted_by": [
                     "Mahmoud Elsherif"
@@ -40992,7 +40992,7 @@
                 "en_title": "Webometrics",
                 "title": "Webometrics",
                 "sort_key": "webometrics",
-                "definition": "Webometrics involves the study of online content. Webometrics focuses on the numbers and types of hyperlinks between different online sites. Such approaches have been considered as a type of altmetrics. “The study of the quantitative aspects of the construction and use of information resources, structures and technologies on the Web drawing on [bibliometric](https://en.wikipedia.org/wiki/Bibliometrics) and [informetric](https://en.wikipedia.org/wiki/Informetrics) approaches” (Björneborn & Ingwersen, 2004).",
+                "definition": "Webometrics involves the study of online content. Webometrics focuses on the numbers and types of hyperlinks between different online sites. Such approaches have been considered as a type of altmetrics. “The study of the quantitative aspects of the construction and use of information resources, structures and technologies on the Web drawing on [bibliometric](https://en.wikipedia.org/wiki/Bibliometrics) and [informetric](https://en.wikipedia.org/wiki/Informetrics) approaches” (Bjørneborn & Ingwersen, 2004).",
                 "related_terms": [
                     "Altmetrics",
                     "Bibliometrics"
@@ -41014,7 +41014,7 @@
                 "aliases": [
                     "/glossary/webometrics"
                 ],
-                "lastmod": "2026-08-05"
+                "lastmod": "2026-11-08"
             },
             {
                 "type": "glossary",
@@ -46316,7 +46316,7 @@
                 "en_title": "Open Code",
                 "title": "Açık Kod [Open Code]",
                 "sort_key": "aczizk kod [open code]",
-                "definition": "Araştırma metodolojisini ve analizini şeffaf hale getirmek ve yeniden üretilebilirlik ve iş birliğine olanak sağlamak için bilgisayar kodunu (örn. programlama, analiz kodu, uyaran üretimi) serbestçe ve herkese açık hale getirmek. Kod, GitHub, Open Science Framewrok ve Codeshare (birkaçını saymak gerekirse) gibi açık kod web siteleri aracılığıyla kullanılabilir hale getirilebilir ve bu da başkalarının hataları değerlendirip düzeltmesini ve sonraki araştırmalar için kodu yeniden kullanmasını ve değiştirmesini sağlar.",
+                "definition": "Araştırma metodolojisini ve analizini şeffaf hale getirmek ve yeniden üretilebilirlik ve iş birliğine olanak sağlamak için bilgisayar kodunu (örn. programlama, analiz kodu, uyaran üretimi) serbestçe ve herkese açık hale getirmek. Kod, GitHub, Open Science Framework ve Codeshare (birkaçını saymak gerekirse) gibi açık kod web siteleri aracılığıyla kullanılabilir hale getirilebilir ve bu da başkalarının hataları değerlendirip düzeltmesini ve sonraki araştırmalar için kodu yeniden kullanmasını ve değiştirmesini sağlar.",
                 "related_terms": [
                     "Computational Reproducibility",
                     "Open Access",
@@ -46349,7 +46349,7 @@
                 "translation_reviewed_by": [
                     "Merve Öztürk"
                 ],
-                "lastmod": "2026-08-05"
+                "lastmod": "2026-11-08"
             },
             {
                 "type": "glossary",
@@ -47399,7 +47399,7 @@
                 "en_title": "Positionality",
                 "title": "Konumsallık [Positionality]",
                 "sort_key": "konumsallizk [positionality]",
-                "definition": "Üretilen araştırma dahilinde, sınırları tanımlamak için hem araştırma ortamı hem araştırmacının bağlamsallaştırılması (Jaraf, 2018). Konumsallık, genellikle nitel araştırmalarda merkezde tutulur ve önemsenir; ancak son zamanlarda bunun nicel araştırmalarda da kullanılmasına yönelik çağrılar yapılmıştır. Araştırmacının kendi geçmişini ve araştırma içerisindeki ve araştırmaya dair 'konumunu' belirttiği konumsallık ifadeleri, araştırmacı ön yargısını tanımak ve merkeze almak için önerilen yöntemlerden biri olarak önerilmiştir.",
+                "definition": "Üretilen araştırma dahilinde, sınırları tanımlamak için hem araştırma ortamı hem araştırmacının bağlamsallaştırılması (Jafar, 2018). Konumsallık, genellikle nitel araştırmalarda merkezde tutulur ve önemsenir; ancak son zamanlarda bunun nicel araştırmalarda da kullanılmasına yönelik çağrılar yapılmıştır. Araştırmacının kendi geçmişini ve araştırma içerisindeki ve araştırmaya dair 'konumunu' belirttiği konumsallık ifadeleri, araştırmacı ön yargısını tanımak ve merkeze almak için önerilen yöntemlerden biri olarak önerilmiştir.",
                 "related_terms": [
                     "Bias",
                     "Reflexivity",
@@ -47428,7 +47428,7 @@
                 "translation_reviewed_by": [
                     "Nihan Selin Soylu-Konak"
                 ],
-                "lastmod": "2026-08-05"
+                "lastmod": "2026-11-08"
             },
             {
                 "type": "glossary",
@@ -47579,7 +47579,7 @@
                 "en_title": "Predatory Publishing",
                 "title": "Yağmacı Yayın [Predatory Publishing]",
                 "sort_key": "yagzmaciz yayizn [predatory publishing]",
-                "definition": "Yağmacı (bazen ‘şaibeli’ olarak da adlandırılan) yayıncılık, yayınevlerinin bilimsel çalışmaları yayımlarken meşru kalite kontrol süreçlerini (örn., hakem değerlendirmesi) veya editöryal hizmetleri sağlamaksızın, esas olarak makale işlem ücretleri (APCs; Article Pressing Charges) üzerinden kâr elde etmeyi amaçladığı çeşitli ticari uygulamaları tanımlar. Bu durumun en uç örneğinde, yağmacı yayınevleri ücret ödendiği sürece her türlü çalışmayı yayımlar. Ücret odaklı özel sayılarda yayın yapma ya da editörlük için çok sayıda talep edilmemiş davet gönderme gibi daha az belirgin stratejiler de yağmacı olarak nitelendirilmiştir (Crosetto, 2021).",
+                "definition": "Yağmacı (bazen ‘şaibeli’ olarak da adlandırılan) yayıncılık, yayınevlerinin bilimsel çalışmaları yayımlarken meşru kalite kontrol süreçlerini (örn., hakem değerlendirmesi) veya editöryal hizmetleri sağlamaksızın, esas olarak makale işlem ücretleri (APCs; Article Processing Charges) üzerinden kâr elde etmeyi amaçladığı çeşitli ticari uygulamaları tanımlar. Bu durumun en uç örneğinde, yağmacı yayınevleri ücret ödendiği sürece her türlü çalışmayı yayımlar. Ücret odaklı özel sayılarda yayın yapma ya da editörlük için çok sayıda talep edilmemiş davet gönderme gibi daha az belirgin stratejiler de yağmacı olarak nitelendirilmiştir (Crosetto, 2021).",
                 "related_terms": [
                     "Article Processing Charge (APC)",
                     "Gaming (the system)"
@@ -47608,7 +47608,7 @@
                 "translation_reviewed_by": [
                     "Nihan Selin Soylu-Konak"
                 ],
-                "lastmod": "2026-08-05"
+                "lastmod": "2026-11-08"
             },
             {
                 "type": "glossary",
@@ -50653,7 +50653,7 @@
                 "en_title": "Webometrics",
                 "title": "Webometriler [Webometrics]",
                 "sort_key": "webometriler [webometrics]",
-                "definition": "Webometrik, çevrim içi içeriklerin incelenmesini kapsar. Webometrik, farklı çevrim içi siteler arasındaki bağlantıların sayısı ve türlerine odaklanır. Bu yaklaşımlar genellikle altmetrik türü olarak kabul edilir. “Bilgi kaynaklarının, yapıların ve teknolojilerin web üzerindeki inşası ve kullanımının niceliksel yönlerini, bibliyometrik ve informetrik yaklaşımlardan yararlanarak incelenmesi” (Björneborn ve Ingwersen, 2004).",
+                "definition": "Webometrik, çevrim içi içeriklerin incelenmesini kapsar. Webometrik, farklı çevrim içi siteler arasındaki bağlantıların sayısı ve türlerine odaklanır. Bu yaklaşımlar genellikle altmetrik türü olarak kabul edilir. “Bilgi kaynaklarının, yapıların ve teknolojilerin web üzerindeki inşası ve kullanımının niceliksel yönlerini, bibliyometrik ve informetrik yaklaşımlardan yararlanarak incelenmesi” (Bjørneborn ve Ingwersen, 2004).",
                 "related_terms": [
                     "Altmetrics",
                     "Bibliometrics"
@@ -50678,7 +50678,7 @@
                 "translation_reviewed_by": [
                     "Neslihan Özhan"
                 ],
-                "lastmod": "2026-08-05"
+                "lastmod": "2026-11-08"
             },
             {
                 "type": "glossary",
