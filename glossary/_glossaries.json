@@ -751,7 +751,7 @@
                     "Bayesian statistics",
                     "Likelihood function",
                     "Null Hypothesis Significance Testing (NHST)",
-                    "p-value"
+                    "*p*-value"
                 ],
                 "references": [
                     "Hoijtink, H., Mulder, J., van Lissa, C., & Gu, X. (2019). A tutorial on testing hypotheses using the Bayes factor. <i>Psychological Methods</i>, <i>24</i>(5), 539–556. https://doi.org/10.1037/met0000201",
@@ -783,7 +783,7 @@
                     "Alaa M. Saleh",
                     "Mohammed Mohsen"
                 ],
-                "lastmod": "2026-11-08"
+                "lastmod": "2026-11-09"
             },
             {
                 "type": "glossary",
@@ -2047,7 +2047,7 @@
                 "en_title": "Contribution",
                 "title": "الإسهام [Contribution]",
                 "sort_key": "الإسهام [contribution]",
-                "definition": "هو إضافة رسميَّة، أو نشاط في سياق البحث. يتم إرفاق بيانات المساهمين، بما في ذلك أقسام الشُّكر في مقالات المجلات، بمنتجات البحث؛ لتصنيفها بشكل أفضل، والاعتراف بتنوع العمل الذي يتجاوز \"التَّأليف\" الذي يتطلبه أي عمل، أو إنتاج فكري.  إن المساهمة تتطوَّر باعتبارها \"مصدر بيانات لفهم العلاقة بين التَّأليف، والإنتاج المعرفي\" (Lariviere et al., p.430).  يُمكن اعتبار المساهمة في مجال تطوير البرمجيات مفتوحة المصدر بمثابة تغييرات يتم إدراجها في مخزن برامج المشروع بعد مراجعة الأقران المعروف تقنيًا باسم \"طلب السَّحب\". يعتبر NumPy مثالًا على مشروع مفتوح المصدر يقبل المساهمات (Harris et al., 2020). **المصطلحات ذات الصِّلة:** التَّأليف، تصنيف أدوار المؤلفين، القياسات الدِّلالية.",
+                "definition": "هو إضافة رسميَّة، أو نشاط في سياق البحث. يتم إرفاق بيانات المساهمين، بما في ذلك أقسام الشُّكر في مقالات المجلات، بمنتجات البحث؛ لتصنيفها بشكل أفضل، والاعتراف بتنوع العمل الذي يتجاوز \"التَّأليف\" الذي يتطلبه أي عمل، أو إنتاج فكري.  إن المساهمة تتطوَّر باعتبارها \"مصدر بيانات لفهم العلاقة بين التَّأليف، والإنتاج المعرفي\" (Larivière et al., 2016, p. 430).  يُمكن اعتبار المساهمة في مجال تطوير البرمجيات مفتوحة المصدر بمثابة تغييرات على مخزن برامج المشروع، يقترحها المساهمون عادةً في ما يُعرف تقنيًا باسم \"طلب السَّحب\"، ثم يراجعها أعضاء آخرون في المشروع قبل دمجها في المخزن. يعتبر NumPy مثالًا على مشروع مفتوح المصدر يقبل المساهمات (Harris et al., 2020). **المصطلحات ذات الصِّلة:** التَّأليف، تصنيف أدوار المؤلفين، القياسات الدِّلالية.",
                 "related_terms": [
                     "Authorship",
                     "CRediT",
@@ -3743,7 +3743,7 @@
                 "related_terms": [
                     "Incentive structure",
                     "Journal Impact Factor",
-                    "p-hacking"
+                    "*p*-hacking"
                 ],
                 "references": [
                     "Moher, D., Naudet, F., Cristea, I. A., Miedema, F., Ioannidis, J. P. A., & Goodman, S. N. (2018). Assessing scientists for hiring, promotion, and tenure. <i>PLOS Biology</i>, <i>16</i>(3), e2004089. https://doi.org/10.1371/journal.pbio.2004089",
@@ -3776,7 +3776,7 @@
                 "aliases": [
                     "/glossary/arabic/the_system_الت_لاعب_بالن_ظام"
                 ],
-                "lastmod": "2026-11-08"
+                "lastmod": "2026-11-09"
             },
             {
                 "type": "glossary",
@@ -6471,7 +6471,7 @@
                 "sort_key": "الإيقاف الاختياري [optional stopping]",
                 "definition": "ممارسة تحليل البيانات بشكلٍ متكرِّر أثناء عمليَّة جمع البيانات، واتِّخاذ قرار بإيقاف جمع البيانات إذا وصل معيار إحصائي (مثل قيمة الاحتماليَّة، أو عامل بايز) إلى حدٍّ معيّن.  وإذا تم اتِّخاذ الاحتياطات المنهجيَّة المناسبة للتَّحكُّم في معدَّل الخطأ من النُّوع الأوَّل، فقد يكون هذا إجراءً فعالًا (مثل Lakens ، 2014). ومع ذلك ، بدون الإبلاغ الشَّفاف، أو التَّحكُّم المناسب في الخطأ ، يمكن أن يزيد الخطأ من النُّوع الأوَّل بشكل كبير، ويمكن اعتبار التوقف الاختياري ممارسة بحث مشكوك فيها، أو شكلًا من أشكال قرصنة القيمة الاحتماليَّة.  **المصطلحات ذات الصِّلة:** قرصنة القيمة الاحتماليَّة، ممارسات البحث المشكوك فيها، أو ممارسات إعداد التَّقارير المشكوك فيها، الاختبار المتسلسل",
                 "related_terms": [
-                    "p-hacking",
+                    "*p*-hacking",
                     "Questionable Research Practices or Questionable Reporting Practices (QRPs)",
                     "Sequential testing"
                 ],
@@ -6503,7 +6503,7 @@
                     "Asma Alzahrani",
                     "Mohammed Mohsen"
                 ],
-                "lastmod": "2026-11-08"
+                "lastmod": "2026-11-09"
             },
             {
                 "type": "glossary",
@@ -6597,8 +6597,8 @@
                 "related_terms": [
                     "File-drawer",
                     "Hypothesis",
-                    "p-hacking",
-                    "p-value",
+                    "*p*-hacking",
+                    "*p*-value",
                     "Publication bias (File Drawer Problem)",
                     "Questionable Research Practices or Questionable Reporting Practices (QRPs)",
                     "Selective reporting",
@@ -6633,7 +6633,7 @@
                     "Asma Alzahrani",
                     "Mohammed Mohsen"
                 ],
-                "lastmod": "2026-11-08"
+                "lastmod": "2026-11-09"
             },
             {
                 "type": "glossary",
@@ -8017,14 +8017,14 @@
                     "Garden of forking paths",
                     "HARKing",
                     "Nonpublication of data",
-                    "p-hacking",
-                    "p-value fishing",
+                    "*p*-hacking",
+                    "*p*-value fishing",
                     "Partial publication of data",
                     "Post-hoc storytelling",
                     "Preregistration",
                     "Questionable Measurement Practices (QMP)",
                     "Researcher degrees of freedom",
-                    "Reverse p-hacking",
+                    "Reverse *p*-hacking",
                     "Salami slicing"
                 ],
                 "references": [
@@ -8061,7 +8061,7 @@
                     "Asma Alzahrani",
                     "Mohammed Mohsen"
                 ],
-                "lastmod": "2026-11-08"
+                "lastmod": "2026-11-09"
             },
             {
                 "type": "glossary",
@@ -8072,7 +8072,7 @@
                 "related_terms": [
                     "Construct validity",
                     "Measurement schmeasurement",
-                    "p-hacking",
+                    "*p*-hacking",
                     "Psychometrics",
                     "Questionable Research Practices or Questionable Reporting Practices (QRPs)",
                     "Validity"
@@ -8103,7 +8103,7 @@
                     "Asma Alzahrani",
                     "Mohammed Mohsen"
                 ],
-                "lastmod": "2026-11-08"
+                "lastmod": "2026-11-09"
             },
             {
                 "type": "glossary",
@@ -8873,7 +8873,7 @@
                     "Trustworthy research"
                 ],
                 "references": [
-                    "ALLEA - All European Academies. (2023). <i>The European Code of Conduct for Research Integrity</i> (Revised Edition 2023). ALLEA - All European Academies. https://doi.org/10.26356/ECoC",
+                    "ALLEA - All European Academies. (2017). <i>The European Code of Conduct for Research Integrity</i> (Revised Edition). ALLEA - All European Academies. https://allea.org/wp-content/uploads/2017/05/ALLEA-European-Code-of-Conduct-for-Research-Integrity-2017.pdf",
                     "Medin, D. L. (2012). Rigor without rigor mortis: The APS Board discusses research integrity. <i>APS Observer</i>, <i>25</i>(5–9), 27–28. https://www.psychologicalscience.org/observer/scientific-rigor",
                     "Moher, D., Bouter, L., Kleinert, S., Glasziou, P., Sham, M. H., Barbour, V., & Dirnagl, U. (2020). The Hong Kong Principles for assessing researchers: Fostering research integrity. <i>PLoS Biology</i>, <i>18</i>(7), e3000737. https://doi.org/10.1371/journal.pbio.3000737"
                 ],
@@ -8900,7 +8900,7 @@
                     "Asma Alzahrani",
                     "Mohammed Mohsen"
                 ],
-                "lastmod": "2026-11-08"
+                "lastmod": "2026-11-09"
             },
             {
                 "type": "glossary",
@@ -8993,7 +8993,7 @@
                     "Garden of forking paths",
                     "Model uncertainty",
                     "Multiverse analysis",
-                    "p-hacking",
+                    "*p*-hacking",
                     "Robustness (analyses)",
                     "Specification curve analysis"
                 ],
@@ -9849,7 +9849,7 @@
                     "Frequentist statistics",
                     "Null hypothesis",
                     "Null Hypothesis Significance Testing (NHST)",
-                    "p-value",
+                    "*p*-value",
                     "Type I error **Incorrect definition:** Statistical significance describes the likelihood of the observed result against chance (regardless of the null hypotheses)"
                 ],
                 "references": [
@@ -9881,7 +9881,7 @@
                     "Alaa M. Saleh",
                     "Mohammed Mohsen"
                 ],
-                "lastmod": "2026-11-08"
+                "lastmod": "2026-11-09"
             },
             {
                 "type": "glossary",
@@ -10178,7 +10178,7 @@
                     "Replication",
                     "Reproducibility",
                     "Null Hypothesis Significance Testing (NHST)",
-                    "p-hacking",
+                    "*p*-hacking",
                     "Questionable Research Practices or Questionable Reporting Practices (QRPs)"
                 ],
                 "references": [
@@ -10206,7 +10206,7 @@
                     "Asma Alzahrani",
                     "Mohammed Mohsen"
                 ],
-                "lastmod": "2026-11-08"
+                "lastmod": "2026-11-09"
             },
             {
                 "type": "glossary",
@@ -10420,7 +10420,7 @@
                     "Frequentist statistics",
                     "Null Hypothesis Significance Testing (NHST)",
                     "Null Result",
-                    "p-value",
+                    "*p*-value",
                     "Questionable Research Practices or Questionable Reporting Practices (QRPs)",
                     "Reproducibility crisis (aka Replicability or replication crisis)",
                     "Scientific integrity",
@@ -10459,7 +10459,7 @@
                     "Hiba Alomary",
                     "Mohammed Mohsen"
                 ],
-                "lastmod": "2026-11-08"
+                "lastmod": "2026-11-09"
             },
             {
                 "type": "glossary",
@@ -10805,14 +10805,11 @@
                 "en_title": "WEIRD",
                 "title": "وِيرد [WEIRD]",
                 "sort_key": "وِيرد [weird]",
-                "definition": "التَّعريف: يشير هذا الاختصار إلى المجتمعات الغربيَّة، والمتعلِّمة، والصِّناعيَّة، والغنيَّة، والدِّيمقراطية. يتم إجراء معظم البحوث على، وبواسطة، عيِّنات متجانسة نسبيًا من مجتمعات ويرد، وهذا ما يحد من قابليَّة تعميم عدد كبير من نتائج البحوث، لا سيما بالنَّظر إلى أنَّ الأشخاص الغريبين غالبًا ما يكونون متطرِّفين نفسيًا. لقد قيل أنَّ \"علم نفس ويرد\" بدأ في التَّطور ثقافيًا نتيجة للتَّغيُّرات المجتمعيَّة، والمعتقدات الدِّينيَّة في العصور الوسطى في أوروبا. يقترح نقّاد هذا المصطلح أنَّه يقدِّم وجهة نظر ثنائيَّة لسكان العالم، ويمحو التَّباين الموجود بين وداخل المجتمعات .وأنَّ الجوانب الأخرى للتَّنوُّع لا يتم التقاطها.\nالمصطلحات ذات الصِّلة: التَّحيُّز، بيزار، التَّنوع، القابليَّة للتَّعميم، السُّكان، تحيُّز أخذ العيِّنات، سترينج: الخلفية الاجتماعيَّة والقابليَّة للتَّتبُّع والاختيار الذَّاتي وتاريخ التَّربية، والتَّأقلم، والتَّعود.",
+                "definition": "التَّعريف: يشير هذا الاختصار إلى المجتمعات الغربيَّة، والمتعلِّمة، والصِّناعيَّة، والغنيَّة، والدِّيمقراطية. يتم إجراء معظم البحوث على عيِّنات متجانسة نسبيًا من مجتمعات ويرد، ويُجريها باحثون من هذه المجتمعات، وهذا ما يحد من قابليَّة تعميم عدد كبير من نتائج البحوث، لا سيما بالنَّظر إلى أنَّ الأشخاص الغريبين غالبًا ما يكونون متطرِّفين نفسيًا. لقد قيل أنَّ \"علم نفس ويرد\" بدأ في التَّطور ثقافيًا نتيجة للتَّغيُّرات المجتمعيَّة، والمعتقدات الدِّينيَّة في العصور الوسطى في أوروبا. يقترح نقّاد هذا المصطلح أنَّه يقدِّم وجهة نظر ثنائيَّة لسكان العالم، ويمحو التَّباين الموجود بين وداخل المجتمعات .وأنَّ الجوانب الأخرى للتَّنوُّع لا يتم التقاطها.\nالمصطلحات ذات الصِّلة: بيزار، التَّنوع، القابليَّة للتَّعميم، سترينج: الخلفية الاجتماعيَّة والقابليَّة للتَّتبُّع والاختيار الذَّاتي وتاريخ التَّربية، والتَّأقلم، والتَّعود.",
                 "related_terms": [
-                    "Bias",
                     "BIZARRE",
                     "Diversity",
                     "Generalizability",
-                    "Populations",
-                    "Sampling bias",
                     "STRANGE"
                 ],
                 "references": [
@@ -11653,7 +11650,7 @@
                     "Bayesian statistics",
                     "Likelihood function",
                     "Null Hypothesis Significance Testing (NHST)",
-                    "p-value"
+                    "*p*-value"
                 ],
                 "references": [
                     "Hoijtink, H., Mulder, J., van Lissa, C., & Gu, X. (2019). A tutorial on testing hypotheses using the Bayes factor. <i>Psychological Methods</i>, <i>24</i>(5), 539–556. https://doi.org/10.1037/met0000201",
@@ -11684,7 +11681,7 @@
                     "Ruoting Liu",
                     "Shuxian Jin"
                 ],
-                "lastmod": "2026-11-08"
+                "lastmod": "2026-11-09"
             },
             {
                 "type": "glossary",
@@ -12925,7 +12922,7 @@
                 "en_title": "Contribution",
                 "title": "贡献 [Contribution]",
                 "sort_key": "gongxian",
-                "definition": "在研究语境下，贡献是指对研究产出的正式补充或参与活动。贡献与贡献者声明（包括期刊论文中的致谢部分等）被附加在研究工作中，旨在更好地分类和认可超越传统“作者身份”范畴的各类智力劳动。贡献是一种不断发展的“用于理解作者身份与知识生产之间关系的数据来源”（Lariviere et al., p.430）。在开源软件开发中，贡献可能体现为通过同行评审（技术上称为“拉取请求”）后提交至项目软件仓库的更改，例如，NumPy（Harris et al., 2020）就是接受这类贡献的典型代表。",
+                "definition": "在研究语境下，贡献是指对研究产出的正式补充或参与活动。贡献与贡献者声明（包括期刊论文中的致谢部分等）被附加在研究工作中，旨在更好地分类和认可超越传统“作者身份”范畴的各类智力劳动。贡献是一种不断发展的“用于理解作者身份与知识生产之间关系的数据来源”（Larivière et al., 2016, p. 430）。在开源软件开发中，贡献可能体现为对项目软件仓库的更改：贡献者通常通过“拉取请求”（pull request）提出这些更改，由项目其他成员审查后再合并到仓库中。例如，NumPy（Harris et al., 2020）就是接受这类贡献的典型代表。",
                 "related_terms": [
                     "Authorship",
                     "CRediT",
@@ -14618,7 +14615,7 @@
                 "related_terms": [
                     "Incentive structure",
                     "Journal Impact Factor",
-                    "p-hacking"
+                    "*p*-hacking"
                 ],
                 "references": [
                     "Moher, D., Naudet, F., Cristea, I. A., Miedema, F., Ioannidis, J. P. A., & Goodman, S. N. (2018). Assessing scientists for hiring, promotion, and tenure. <i>PLOS Biology</i>, <i>16</i>(3), e2004089. https://doi.org/10.1371/journal.pbio.2004089",
@@ -14646,7 +14643,7 @@
                     "Ruoting Liu",
                     "Shuxian Jin"
                 ],
-                "lastmod": "2026-11-08"
+                "lastmod": "2026-11-09"
             },
             {
                 "type": "glossary",
@@ -17296,7 +17293,7 @@
                 "sort_key": "xuanzexingzhongzhi",
                 "definition": "选择性终止是指在数据收集的过程中，研究人员频繁进行分析，并在统计标准（如p值或贝叶斯因子）达到指定阈值时决定停止数据收集的做法。如果采取适当的统计方法控制一类错误率，选择性终止可以成为一种高效的分析程序（参见：Lakens, 2014）。然而，如果没有透明报告和适当的错误控制，一类错误率可能急剧上升，选择性终止可能被认为是不当研究行为（QRP）或p值操纵的表现。",
                 "related_terms": [
-                    "p-hacking",
+                    "*p*-hacking",
                     "Questionable Research Practices or Questionable Reporting Practices (QRPs)",
                     "Sequential testing"
                 ],
@@ -17328,7 +17325,7 @@
                     "Ruoting Liu",
                     "Shuxian Jin"
                 ],
-                "lastmod": "2026-11-08"
+                "lastmod": "2026-11-09"
             },
             {
                 "type": "glossary",
@@ -17419,8 +17416,8 @@
                 "related_terms": [
                     "File-drawer",
                     "Hypothesis",
-                    "p-hacking",
-                    "p-value",
+                    "*p*-hacking",
+                    "*p*-value",
                     "Publication bias (File Drawer Problem)",
                     "Questionable Research Practices or Questionable Reporting Practices (QRPs)",
                     "Selective reporting",
@@ -17455,7 +17452,7 @@
                     "Ruoting Liu",
                     "Shuxian Jin"
                 ],
-                "lastmod": "2026-11-08"
+                "lastmod": "2026-11-09"
             },
             {
                 "type": "glossary",
@@ -18832,14 +18829,14 @@
                     "Garden of forking paths",
                     "HARKing",
                     "Nonpublication of data",
-                    "p-hacking",
-                    "p-value fishing",
+                    "*p*-hacking",
+                    "*p*-value fishing",
                     "Partial publication of data",
                     "Post-hoc storytelling",
                     "Preregistration",
                     "Questionable Measurement Practices (QMP)",
                     "Researcher degrees of freedom",
-                    "Reverse p-hacking",
+                    "Reverse *p*-hacking",
                     "Salami slicing"
                 ],
                 "references": [
@@ -18876,7 +18873,7 @@
                     "Ruoting Liu",
                     "Shuxian Jin"
                 ],
-                "lastmod": "2026-11-08"
+                "lastmod": "2026-11-09"
             },
             {
                 "type": "glossary",
@@ -18887,7 +18884,7 @@
                 "related_terms": [
                     "Construct validity",
                     "Measurement schmeasurement",
-                    "p-hacking",
+                    "*p*-hacking",
                     "Psychometrics",
                     "Questionable Research Practices or Questionable Reporting Practices (QRPs)",
                     "Validity"
@@ -18918,7 +18915,7 @@
                     "Ruoting Liu",
                     "Shuxian Jin"
                 ],
-                "lastmod": "2026-11-08"
+                "lastmod": "2026-11-09"
             },
             {
                 "type": "glossary",
@@ -19683,7 +19680,7 @@
                     "Trustworthy research"
                 ],
                 "references": [
-                    "ALLEA - All European Academies. (2023). <i>The European Code of Conduct for Research Integrity</i> (Revised Edition 2023). ALLEA - All European Academies. https://doi.org/10.26356/ECoC",
+                    "ALLEA - All European Academies. (2017). <i>The European Code of Conduct for Research Integrity</i> (Revised Edition). ALLEA - All European Academies. https://allea.org/wp-content/uploads/2017/05/ALLEA-European-Code-of-Conduct-for-Research-Integrity-2017.pdf",
                     "Medin, D. L. (2012). Rigor without rigor mortis: The APS Board discusses research integrity. <i>APS Observer</i>, <i>25</i>(5–9), 27–28. https://www.psychologicalscience.org/observer/scientific-rigor",
                     "Moher, D., Bouter, L., Kleinert, S., Glasziou, P., Sham, M. H., Barbour, V., & Dirnagl, U. (2020). The Hong Kong Principles for assessing researchers: Fostering research integrity. <i>PLoS Biology</i>, <i>18</i>(7), e3000737. https://doi.org/10.1371/journal.pbio.3000737"
                 ],
@@ -19710,7 +19707,7 @@
                     "Ruoting Liu",
                     "Shuxian Jin"
                 ],
-                "lastmod": "2026-08-05"
+                "lastmod": "2026-11-09"
             },
             {
                 "type": "glossary",
@@ -19803,7 +19800,7 @@
                     "Garden of forking paths",
                     "Model uncertainty",
                     "Multiverse analysis",
-                    "p-hacking",
+                    "*p*-hacking",
                     "Robustness (analyses)",
                     "Specification curve analysis"
                 ],
@@ -20680,7 +20677,7 @@
                     "Frequentist statistics",
                     "Null hypothesis",
                     "Null Hypothesis Significance Testing (NHST)",
-                    "p-value",
+                    "*p*-value",
                     "Type I error **Incorrect definition:** Statistical significance describes the likelihood of the observed result against chance (regardless of the null hypotheses)"
                 ],
                 "references": [
@@ -20714,7 +20711,7 @@
                     "Xiujuan Wen",
                     "Shuxian Jin"
                 ],
-                "lastmod": "2026-11-08"
+                "lastmod": "2026-11-09"
             },
             {
                 "type": "glossary",
@@ -21018,7 +21015,7 @@
                     "Replication",
                     "Reproducibility",
                     "Null Hypothesis Significance Testing (NHST)",
-                    "p-hacking",
+                    "*p*-hacking",
                     "Questionable Research Practices or Questionable Reporting Practices (QRPs)"
                 ],
                 "references": [
@@ -21047,7 +21044,7 @@
                     "Xiujuan Wen",
                     "Shuxian Jin"
                 ],
-                "lastmod": "2026-11-08"
+                "lastmod": "2026-11-09"
             },
             {
                 "type": "glossary",
@@ -21266,7 +21263,7 @@
                     "Frequentist statistics",
                     "Null Hypothesis Significance Testing (NHST)",
                     "Null Result",
-                    "p-value",
+                    "*p*-value",
                     "Questionable Research Practices or Questionable Reporting Practices (QRPs)",
                     "Reproducibility crisis (aka Replicability or replication crisis)",
                     "Scientific integrity",
@@ -21305,7 +21302,7 @@
                     "Xiujuan Wen",
                     "Shuxian Jin"
                 ],
-                "lastmod": "2026-11-08"
+                "lastmod": "2026-11-09"
             },
             {
                 "type": "glossary",
@@ -21658,12 +21655,9 @@
                 "sort_key": "xifangde、shouguojiaoyude、gongyehuade、fuyude、minzhudeshehui",
                 "definition": "WEIRD 这个缩写词指的是西方的（Western）、受过教育的（Educated）、工业化的（Industrialized）、富裕的（Rich）和民主的（Democratic）的社会。大多数研究都是在WEIRD社会中进行的，研究对象也往往是这些社会中相对同质化的群体样本。这极大地限制了大量研究结果的普适性，尤其是考虑到WEIRD群体在心理上常常属于“离群值”。有观点认为，“WEIRD 心理学”是欧洲中世纪社会变革和宗教信仰影响下逐渐演化形成的文化产物。对该术语的批评者指出，它将全球人口简单二元对立，忽略了社会之间和社会内部存在的差异，同时也未能涵盖多样性的其他维度。",
                 "related_terms": [
-                    "Bias",
                     "BIZARRE",
                     "Diversity",
                     "Generalizability",
-                    "Populations",
-                    "Sampling bias",
                     "STRANGE"
                 ],
                 "references": [
@@ -22472,7 +22466,7 @@
                     "Bayesian statistics",
                     "Likelihood function",
                     "Null Hypothesis Significance Testing (NHST)",
-                    "p-value"
+                    "*p*-value"
                 ],
                 "references": [
                     "Hoijtink, H., Mulder, J., van Lissa, C., & Gu, X. (2019). A tutorial on testing hypotheses using the Bayes factor. <i>Psychological Methods</i>, <i>24</i>(5), 539–556. https://doi.org/10.1037/met0000201",
@@ -22501,7 +22495,7 @@
                     "Susanne Vogel",
                     "Jennifer Mattschey"
                 ],
-                "lastmod": "2026-11-08"
+                "lastmod": "2026-11-09"
             },
             {
                 "type": "glossary",
@@ -23682,7 +23676,7 @@
                 "en_title": "Contribution",
                 "title": "Beitrag [Contribution]",
                 "sort_key": "beitrag [contribution]",
-                "definition": "Eine formale Ergänzung oder Aktivität in einem Forschungskontext. Erklärungen zu Beiträgen und Mitwirkenden, einschließlich der Danksagungen in Zeitschriftenartikeln, werden an Forschungsprodukte angehängt, um die Vielfalt der Arbeit, die über \"Autor:innenschaft\" hinausgeht und die jede intellektuelle Tätigkeit erfordert, besser zu klassifizieren und anzuerkennen. Contributions sind eine sich entwickelnde “source of data for understanding the relationship between authorship and knowledge production.” (dt. Datenquelle für das Verständnis der Beziehung zwischen Autor:innenschaft und Wissensproduktion; Lariviere et al., S.430). Bei der Entwicklung von Open-Source-Software kann ein solcher Beitrag eine Änderung sein, die nach Begutachtung in das Software-Repositorium eines Projekts aufgenommen wird (technisch als Pull-Request bezeichnet). Ein Beispiel für ein Open-Source-Projekt, das Beiträge akzeptiert, ist NumPy (Harris et al., 2020).",
+                "definition": "Eine formale Ergänzung oder Aktivität in einem Forschungskontext. Erklärungen zu Beiträgen und Mitwirkenden, einschließlich der Danksagungen in Zeitschriftenartikeln, werden an Forschungsprodukte angehängt, um die Vielfalt der Arbeit, die über \"Autor:innenschaft\" hinausgeht und die jede intellektuelle Tätigkeit erfordert, besser zu klassifizieren und anzuerkennen. Contributions sind eine sich entwickelnde “source of data for understanding the relationship between authorship and knowledge production.” (dt. Datenquelle für das Verständnis der Beziehung zwischen Autor:innenschaft und Wissensproduktion; Larivière et al., 2016, S. 430). Bei der Entwicklung von Open-Source-Software kann ein Beitrag aus Änderungen am Software-Repositorium eines Projekts bestehen. Solche Änderungen werden meist in einem Pull-Request vorgeschlagen, den andere Projektmitglieder begutachten, bevor die Änderungen übernommen werden. Ein Beispiel für ein Open-Source-Projekt, das Beiträge akzeptiert, ist NumPy (Harris et al., 2020).",
                 "related_terms": [
                     "Authorship",
                     "CRediT",
@@ -25293,7 +25287,7 @@
                 "related_terms": [
                     "Incentive structure",
                     "Journal Impact Factor",
-                    "p-hacking"
+                    "*p*-hacking"
                 ],
                 "references": [
                     "Moher, D., Naudet, F., Cristea, I. A., Miedema, F., Ioannidis, J. P. A., & Goodman, S. N. (2018). Assessing scientists for hiring, promotion, and tenure. <i>PLOS Biology</i>, <i>16</i>(3), e2004089. https://doi.org/10.1371/journal.pbio.2004089",
@@ -25319,7 +25313,7 @@
                     "Birgit Schmidt",
                     "Susanne Vogel"
                 ],
-                "lastmod": "2026-11-08"
+                "lastmod": "2026-11-09"
             },
             {
                 "type": "glossary",
@@ -26811,9 +26805,6 @@
                     "Helena Hartmann",
                     "Jennifer Mattschey"
                 ],
-                "aliases": [
-                    "/glossary/german/computational_rechenmodell"
-                ],
                 "lastmod": "2026-11-09"
             },
             {
@@ -26851,9 +26842,6 @@
                 "translation_reviewed_by": [
                     "Helena Hartmann",
                     "Jennifer Mattschey"
-                ],
-                "aliases": [
-                    "/glossary/german/statistical_statistisches_modell"
                 ],
                 "lastmod": "2026-11-09"
             },
@@ -27843,7 +27831,7 @@
                 "sort_key": "optionales stoppen [optional stopping]",
                 "definition": "Die Praxis der (wiederholten) Analyse von Daten während der Datenerhebung und die Entscheidung, die Datenerhebung zu beenden, wenn ein statistisches Kriterium (z. B. der *p*\\-Wert oder der Bayes-Faktor) einen bestimmten Schwellenwert erreicht. Wenn geeignete methodische Vorkehrungen zur Kontrolle der Fehlerquote vom Typ 1 getroffen werden, kann dies ein effizientes Analyseverfahren sein (z. B. Lakens, 2014). Ohne eine transparente Berichterstattung oder eine angemessene Fehlerkontrolle kann der Typ-1-Fehler jedoch stark ansteigen, und Optionales Stoppen könnte als fragwürdige Forschungspraxis (questionable research practice; QRP) oder als eine Form des *p*\\-hacking betrachtet werden.",
                 "related_terms": [
-                    "p-hacking",
+                    "*p*-hacking",
                     "Questionable Research Practices or Questionable Reporting Practices (QRPs)",
                     "Sequential testing"
                 ],
@@ -27873,7 +27861,7 @@
                     "Helena Hartmann",
                     "Jennifer Mattschey"
                 ],
-                "lastmod": "2026-11-08"
+                "lastmod": "2026-11-09"
             },
             {
                 "type": "glossary",
@@ -27960,8 +27948,8 @@
                 "related_terms": [
                     "File-drawer",
                     "Hypothesis",
-                    "p-hacking",
-                    "p-value",
+                    "*p*-hacking",
+                    "*p*-value",
                     "Publication bias (File Drawer Problem)",
                     "Questionable Research Practices or Questionable Reporting Practices (QRPs)",
                     "Selective reporting",
@@ -27994,7 +27982,7 @@
                     "Susanne Vogel",
                     "Jennifer Mattschey"
                 ],
-                "lastmod": "2026-11-08"
+                "lastmod": "2026-11-09"
             },
             {
                 "type": "glossary",
@@ -29305,14 +29293,14 @@
                     "Garden of forking paths",
                     "HARKing",
                     "Nonpublication of data",
-                    "p-hacking",
-                    "p-value fishing",
+                    "*p*-hacking",
+                    "*p*-value fishing",
                     "Partial publication of data",
                     "Post-hoc storytelling",
                     "Preregistration",
                     "Questionable Measurement Practices (QMP)",
                     "Researcher degrees of freedom",
-                    "Reverse p-hacking",
+                    "Reverse *p*-hacking",
                     "Salami slicing"
                 ],
                 "references": [
@@ -29347,7 +29335,7 @@
                     "Susanne Vogel",
                     "Jennifer Mattschey"
                 ],
-                "lastmod": "2026-11-08"
+                "lastmod": "2026-11-09"
             },
             {
                 "type": "glossary",
@@ -29358,7 +29346,7 @@
                 "related_terms": [
                     "Construct validity",
                     "Measurement schmeasurement",
-                    "p-hacking",
+                    "*p*-hacking",
                     "Psychometrics",
                     "Questionable Research Practices or Questionable Reporting Practices (QRPs)",
                     "Validity"
@@ -29387,7 +29375,7 @@
                     "Helena Hartmann",
                     "Jennifer Mattschey"
                 ],
-                "lastmod": "2026-11-08"
+                "lastmod": "2026-11-09"
             },
             {
                 "type": "glossary",
@@ -30116,7 +30104,7 @@
                     "Trustworthy research"
                 ],
                 "references": [
-                    "ALLEA - All European Academies. (2023). <i>The European Code of Conduct for Research Integrity</i> (Revised Edition 2023). ALLEA - All European Academies. https://doi.org/10.26356/ECoC",
+                    "ALLEA - All European Academies. (2017). <i>The European Code of Conduct for Research Integrity</i> (Revised Edition). ALLEA - All European Academies. https://allea.org/wp-content/uploads/2017/05/ALLEA-European-Code-of-Conduct-for-Research-Integrity-2017.pdf",
                     "Medin, D. L. (2012). Rigor without rigor mortis: The APS Board discusses research integrity. <i>APS Observer</i>, <i>25</i>(5–9), 27–28. https://www.psychologicalscience.org/observer/scientific-rigor",
                     "Moher, D., Bouter, L., Kleinert, S., Glasziou, P., Sham, M. H., Barbour, V., & Dirnagl, U. (2020). The Hong Kong Principles for assessing researchers: Fostering research integrity. <i>PLoS Biology</i>, <i>18</i>(7), e3000737. https://doi.org/10.1371/journal.pbio.3000737"
                 ],
@@ -30141,7 +30129,7 @@
                     "Susanne Vogel",
                     "Jennifer Mattschey"
                 ],
-                "lastmod": "2026-08-05"
+                "lastmod": "2026-11-09"
             },
             {
                 "type": "glossary",
@@ -30230,7 +30218,7 @@
                     "Garden of forking paths",
                     "Model uncertainty",
                     "Multiverse analysis",
-                    "p-hacking",
+                    "*p*-hacking",
                     "Robustness (analyses)",
                     "Specification curve analysis"
                 ],
@@ -31054,7 +31042,7 @@
                     "Frequentist statistics",
                     "Null hypothesis",
                     "Null Hypothesis Significance Testing (NHST)",
-                    "p-value",
+                    "*p*-value",
                     "Type I error **Incorrect definition:** Statistical significance describes the likelihood of the observed result against chance (regardless of the null hypotheses)"
                 ],
                 "references": [
@@ -31085,7 +31073,7 @@
                     "Helena Hartmann",
                     "Joris Frese"
                 ],
-                "lastmod": "2026-11-08"
+                "lastmod": "2026-11-09"
             },
             {
                 "type": "glossary",
@@ -31369,7 +31357,7 @@
                     "Replication",
                     "Reproducibility",
                     "Null Hypothesis Significance Testing (NHST)",
-                    "p-hacking",
+                    "*p*-hacking",
                     "Questionable Research Practices or Questionable Reporting Practices (QRPs)"
                 ],
                 "references": [
@@ -31395,7 +31383,7 @@
                     "Susanne Vogel",
                     "Joris Frese"
                 ],
-                "lastmod": "2026-11-08"
+                "lastmod": "2026-11-09"
             },
             {
                 "type": "glossary",
@@ -31601,7 +31589,7 @@
                     "Frequentist statistics",
                     "Null Hypothesis Significance Testing (NHST)",
                     "Null Result",
-                    "p-value",
+                    "*p*-value",
                     "Questionable Research Practices or Questionable Reporting Practices (QRPs)",
                     "Reproducibility crisis (aka Replicability or replication crisis)",
                     "Scientific integrity",
@@ -31638,7 +31626,7 @@
                     "Susanne Vogel",
                     "Joris Frese"
                 ],
-                "lastmod": "2026-11-08"
+                "lastmod": "2026-11-09"
             },
             {
                 "type": "glossary",
@@ -31966,14 +31954,11 @@
                 "en_title": "WEIRD",
                 "title": "WEIRD",
                 "sort_key": "weird",
-                "definition": "Dieses Akronym steht für westliche, gebildete, industrialisierte, reiche und demokratische (Western, Educated, Industrialized, Rich and Democratic) Gesellschaften. Die meisten Forschungsarbeiten werden an relativ homogenen Stichproben aus WEIRD-Gesellschaften durchgeführt und von diesen durchgeführt. Dies schränkt die Verallgemeinerbarkeit zahlreicher Forschungsergebnisse ein, zumal WEIRD-Personen oft psychologische Ausreißer sind. Es wurde argumentiert, dass sich die \"WEIRD Psychologie\" kulturell als Ergebnis gesellschaftlicher Veränderungen und religiöser Überzeugungen im Mittelalter in Europa zu entwickeln begann. Kritiker\\*innen dieses Begriffs sind der Meinung, dass er ein binäres Bild der Weltbevölkerung zeichnet und die Unterschiede zwischen und innerhalb von Gesellschaften ausblendet und dass andere Aspekte der Vielfalt nicht erfasst werden.",
+                "definition": "Dieses Akronym steht für westliche, gebildete, industrialisierte, reiche und demokratische (Western, Educated, Industrialized, Rich and Democratic) Gesellschaften. Die meisten Forschungsarbeiten werden mit relativ homogenen Stichproben aus WEIRD-Gesellschaften und von Forschenden aus diesen Gesellschaften durchgeführt. Dies schränkt die Verallgemeinerbarkeit zahlreicher Forschungsergebnisse ein, zumal WEIRD-Personen oft psychologische Ausreißer sind. Es wurde argumentiert, dass sich die \"WEIRD Psychologie\" kulturell als Ergebnis gesellschaftlicher Veränderungen und religiöser Überzeugungen im Mittelalter in Europa zu entwickeln begann. Kritiker\\*innen dieses Begriffs sind der Meinung, dass er ein binäres Bild der Weltbevölkerung zeichnet und die Unterschiede zwischen und innerhalb von Gesellschaften ausblendet und dass andere Aspekte der Vielfalt nicht erfasst werden.",
                 "related_terms": [
-                    "Bias",
                     "BIZARRE",
                     "Diversity",
                     "Generalizability",
-                    "Populations",
-                    "Sampling bias",
                     "STRANGE"
                 ],
                 "references": [
@@ -32705,7 +32690,7 @@
                     "Bayesian statistics",
                     "Likelihood function",
                     "Null Hypothesis Significance Testing (NHST)",
-                    "p-value"
+                    "*p*-value"
                 ],
                 "references": [
                     "Hoijtink, H., Mulder, J., van Lissa, C., & Gu, X. (2019). A tutorial on testing hypotheses using the Bayes factor. <i>Psychological Methods</i>, <i>24</i>(5), 539–556. https://doi.org/10.1037/met0000201",
@@ -32730,7 +32715,7 @@
                 "aliases": [
                     "/glossary/bayes_factor"
                 ],
-                "lastmod": "2026-11-08"
+                "lastmod": "2026-11-09"
             },
             {
                 "type": "glossary",
@@ -33791,7 +33776,7 @@
                 "en_title": "Contribution",
                 "title": "Contribution",
                 "sort_key": "contribution",
-                "definition": "A formal addition or activity in a research context. Contribution and contributor statements, including acknowledgments sections in journal articles, are attached to research products to better classify and recognize the variety of labor beyond “authorship” that any intellectual pursuit requires. Contribution is an evolving “source of data for understanding the relationship between authorship and knowledge production.” (Lariviere et al., p.430). In open source software development, a contribution may count as changes committed onto a project's software repository following a peer-review (known technically as a pull request). An example of an open-source project accepting contributions is NumPy (Harris et al., 2020).",
+                "definition": "A formal addition or activity in a research context. Contribution and contributor statements, including acknowledgments sections in journal articles, are attached to research products to better classify and recognize the variety of labor beyond “authorship” that any intellectual pursuit requires. Contribution is an evolving “source of data for understanding the relationship between authorship and knowledge production” (Larivière et al., 2016, p. 430). In open source software development, a contribution may be a set of changes to a project's software repository. Contributors usually propose such changes in a pull request, which other project members review before the changes are merged. An example of an open-source project accepting contributions is NumPy (Harris et al., 2020).",
                 "related_terms": [
                     "Authorship",
                     "CRediT",
@@ -35238,7 +35223,7 @@
                 "related_terms": [
                     "Incentive structure",
                     "Journal Impact Factor",
-                    "p-hacking"
+                    "*p*-hacking"
                 ],
                 "references": [
                     "Moher, D., Naudet, F., Cristea, I. A., Miedema, F., Ioannidis, J. P. A., & Goodman, S. N. (2018). Assessing scientists for hiring, promotion, and tenure. <i>PLOS Biology</i>, <i>16</i>(3), e2004089. https://doi.org/10.1371/journal.pbio.2004089",
@@ -35260,7 +35245,7 @@
                 "aliases": [
                     "/glossary/gaming_the_system_"
                 ],
-                "lastmod": "2026-11-08"
+                "lastmod": "2026-11-09"
             },
             {
                 "type": "glossary",
@@ -37520,7 +37505,7 @@
                 "sort_key": "optional stopping",
                 "definition": "The practice of (repeatedly) analyzing data during the data collection process and deciding to stop data collection if a statistical criterion (e.g. *p*\\-value, or bayes factor) reaches a specified threshold. If appropriate methodological precautions are taken to control the type 1 error rate, this can be an efficient analysis procedure (e.g. Lakens, 2014). However, without transparent reporting or appropriate error control the type 1 error can increase greatly and optional stopping could be considered a Questionable Research Practice (QRP) or a form of p-hacking.",
                 "related_terms": [
-                    "p-hacking",
+                    "*p*-hacking",
                     "Questionable Research Practices or Questionable Reporting Practices (QRPs)",
                     "Sequential testing"
                 ],
@@ -37546,7 +37531,7 @@
                 "aliases": [
                     "/glossary/optional_stopping"
                 ],
-                "lastmod": "2026-11-08"
+                "lastmod": "2026-11-09"
             },
             {
                 "type": "glossary",
@@ -37625,8 +37610,8 @@
                 "related_terms": [
                     "File-drawer",
                     "Hypothesis",
-                    "p-hacking",
-                    "p-value",
+                    "*p*-hacking",
+                    "*p*-value",
                     "Publication bias (File Drawer Problem)",
                     "Questionable Research Practices or Questionable Reporting Practices (QRPs)",
                     "Selective reporting",
@@ -37655,7 +37640,7 @@
                 "aliases": [
                     "/glossary/p_curve"
                 ],
-                "lastmod": "2026-11-08"
+                "lastmod": "2026-11-09"
             },
             {
                 "type": "glossary",
@@ -38834,14 +38819,14 @@
                     "Garden of forking paths",
                     "HARKing",
                     "Nonpublication of data",
-                    "p-hacking",
-                    "p-value fishing",
+                    "*p*-hacking",
+                    "*p*-value fishing",
                     "Partial publication of data",
                     "Post-hoc storytelling",
                     "Preregistration",
                     "Questionable Measurement Practices (QMP)",
                     "Researcher degrees of freedom",
-                    "Reverse p-hacking",
+                    "Reverse *p*-hacking",
                     "Salami slicing"
                 ],
                 "references": [
@@ -38872,7 +38857,7 @@
                 "aliases": [
                     "/glossary/questionable_research_practices_or_questionable_reporting_practices_qrps_"
                 ],
-                "lastmod": "2026-11-08"
+                "lastmod": "2026-11-09"
             },
             {
                 "type": "glossary",
@@ -38883,7 +38868,7 @@
                 "related_terms": [
                     "Construct validity",
                     "Measurement schmeasurement",
-                    "p-hacking",
+                    "*p*-hacking",
                     "Psychometrics",
                     "Questionable Research Practices or Questionable Reporting Practices (QRPs)",
                     "Validity"
@@ -38908,7 +38893,7 @@
                 "aliases": [
                     "/glossary/questionable_measurement_practices_qmp_"
                 ],
-                "lastmod": "2026-11-08"
+                "lastmod": "2026-11-09"
             },
             {
                 "type": "glossary",
@@ -39565,7 +39550,7 @@
                     "Trustworthy research"
                 ],
                 "references": [
-                    "ALLEA - All European Academies. (2023). <i>The European Code of Conduct for Research Integrity</i> (Revised Edition 2023). ALLEA - All European Academies. https://doi.org/10.26356/ECoC",
+                    "ALLEA - All European Academies. (2017). <i>The European Code of Conduct for Research Integrity</i> (Revised Edition). ALLEA - All European Academies. https://allea.org/wp-content/uploads/2017/05/ALLEA-European-Code-of-Conduct-for-Research-Integrity-2017.pdf",
                     "Medin, D. L. (2012). Rigor without rigor mortis: The APS Board discusses research integrity. <i>APS Observer</i>, <i>25</i>(5–9), 27–28. https://www.psychologicalscience.org/observer/scientific-rigor",
                     "Moher, D., Bouter, L., Kleinert, S., Glasziou, P., Sham, M. H., Barbour, V., & Dirnagl, U. (2020). The Hong Kong Principles for assessing researchers: Fostering research integrity. <i>PLoS Biology</i>, <i>18</i>(7), e3000737. https://doi.org/10.1371/journal.pbio.3000737"
                 ],
@@ -39586,7 +39571,7 @@
                 "aliases": [
                     "/glossary/research_integrity"
                 ],
-                "lastmod": "2026-08-05"
+                "lastmod": "2026-11-09"
             },
             {
                 "type": "glossary",
@@ -39667,7 +39652,7 @@
                     "Garden of forking paths",
                     "Model uncertainty",
                     "Multiverse analysis",
-                    "p-hacking",
+                    "*p*-hacking",
                     "Robustness (analyses)",
                     "Specification curve analysis"
                 ],
@@ -40403,7 +40388,7 @@
                     "Frequentist statistics",
                     "Null hypothesis",
                     "Null Hypothesis Significance Testing (NHST)",
-                    "p-value",
+                    "*p*-value",
                     "Type I error **Incorrect definition:** Statistical significance describes the likelihood of the observed result against chance (regardless of the null hypotheses)"
                 ],
                 "references": [
@@ -40430,7 +40415,7 @@
                 "aliases": [
                     "/glossary/statistical_significance"
                 ],
-                "lastmod": "2026-11-08"
+                "lastmod": "2026-11-09"
             },
             {
                 "type": "glossary",
@@ -40685,7 +40670,7 @@
                     "Replication",
                     "Reproducibility",
                     "Null Hypothesis Significance Testing (NHST)",
-                    "p-hacking",
+                    "*p*-hacking",
                     "Questionable Research Practices or Questionable Reporting Practices (QRPs)"
                 ],
                 "references": [
@@ -40707,7 +40692,7 @@
                 "aliases": [
                     "/glossary/the_troubling_trio"
                 ],
-                "lastmod": "2026-11-08"
+                "lastmod": "2026-11-09"
             },
             {
                 "type": "glossary",
@@ -40891,7 +40876,7 @@
                     "Frequentist statistics",
                     "Null Hypothesis Significance Testing (NHST)",
                     "Null Result",
-                    "p-value",
+                    "*p*-value",
                     "Questionable Research Practices or Questionable Reporting Practices (QRPs)",
                     "Reproducibility crisis (aka Replicability or replication crisis)",
                     "Scientific integrity",
@@ -40923,7 +40908,7 @@
                 "aliases": [
                     "/glossary/type_i_error"
                 ],
-                "lastmod": "2026-11-08"
+                "lastmod": "2026-11-09"
             },
             {
                 "type": "glossary",
@@ -41218,14 +41203,11 @@
                 "en_title": "WEIRD",
                 "title": "WEIRD",
                 "sort_key": "weird",
-                "definition": "This acronym refers to Western, Educated, Industrialized, Rich and Democratic societies. Most research is conducted on, and conducted by, relatively homogeneous samples from WEIRD societies. This limits the generalizability of a large number of research findings, particularly given that WEIRD people are often psychological outliers. It has been argued that “WEIRD psychology” started to evolve culturally as a result of societal changes and religious beliefs in the Middle Ages in Europe. Critics of this term suggest it presents a binary view of the global population and erases variation that exists both between and within societies, and that other aspects of diversity are not captured.",
+                "definition": "This acronym refers to Western, Educated, Industrialized, Rich and Democratic societies. Most research is conducted with relatively homogeneous samples from WEIRD societies, and by researchers from those societies. This limits the generalizability of a large number of research findings, particularly given that WEIRD people are often psychological outliers. It has been argued that “WEIRD psychology” started to evolve culturally as a result of societal changes and religious beliefs in the Middle Ages in Europe. Critics of this term suggest it presents a binary view of the global population and erases variation that exists both between and within societies, and that other aspects of diversity are not captured.",
                 "related_terms": [
-                    "Bias",
                     "BIZARRE",
                     "Diversity",
                     "Generalizability",
-                    "Populations",
-                    "Sampling bias",
                     "STRANGE"
                 ],
                 "references": [
@@ -41996,7 +41978,7 @@
                     "Bayesian statistics",
                     "Likelihood function",
                     "Null Hypothesis Significance Testing (NHST)",
-                    "p-value"
+                    "*p*-value"
                 ],
                 "references": [
                     "Hoijtink, H., Mulder, J., van Lissa, C., & Gu, X. (2019). A tutorial on testing hypotheses using the Bayes factor. <i>Psychological Methods</i>, <i>24</i>(5), 539–556. https://doi.org/10.1037/met0000201",
@@ -42024,7 +42006,7 @@
                 "translation_reviewed_by": [
                     "Elif Baştan"
                 ],
-                "lastmod": "2026-11-08"
+                "lastmod": "2026-11-09"
             },
             {
                 "type": "glossary",
@@ -44705,7 +44687,7 @@
                 "related_terms": [
                     "Incentive structure",
                     "Journal Impact Factor",
-                    "p-hacking"
+                    "*p*-hacking"
                 ],
                 "references": [
                     "Moher, D., Naudet, F., Cristea, I. A., Miedema, F., Ioannidis, J. P. A., & Goodman, S. N. (2018). Assessing scientists for hiring, promotion, and tenure. <i>PLOS Biology</i>, <i>16</i>(3), e2004089. https://doi.org/10.1371/journal.pbio.2004089",
@@ -44730,7 +44712,7 @@
                 "translation_reviewed_by": [
                     "Ege Emek"
                 ],
-                "lastmod": "2026-11-08"
+                "lastmod": "2026-11-09"
             },
             {
                 "type": "glossary",
@@ -47071,7 +47053,7 @@
                 "sort_key": "opsiyonel durdurma [optional stopping]",
                 "definition": "Veri toplama süreci sırasında (tekrar tekrar) verilerin analiz edilmesi ve istatistiksel bir ölçütün (örn., p-değeri veya Bayes faktörü) belirli bir eşiğe ulaşması durumunda veri toplamayı durdurmaya karar verilmesi uygulamasıdır. Eğer Tip I hata oranını kontrol altına almak için uygun metodolojik önlemler alınırsa, bu yöntem verimli bir analiz süreci olabilir (örn., Lakens, 2014). Ancak, şeffaf raporlama yapılmadığında veya uygun hata kontrolü sağlanmadığında Tip I hata oranı önemli ölçüde artabilir ve bu tür opsiyonel durdurma uygulaması Şüpheli Araştırma Uygulaması (QRP; Questionable Research Practice) ya da bir tür p-hackleme olarak değerlendirilebilir.",
                 "related_terms": [
-                    "p-hacking",
+                    "*p*-hacking",
                     "Questionable Research Practices or Questionable Reporting Practices (QRPs)",
                     "Sequential testing"
                 ],
@@ -47100,7 +47082,7 @@
                 "translation_reviewed_by": [
                     "Nihan Selin Soylu-Konak"
                 ],
-                "lastmod": "2026-11-08"
+                "lastmod": "2026-11-09"
             },
             {
                 "type": "glossary",
@@ -47185,8 +47167,8 @@
                 "related_terms": [
                     "File-drawer",
                     "Hypothesis",
-                    "p-hacking",
-                    "p-value",
+                    "*p*-hacking",
+                    "*p*-value",
                     "Publication bias (File Drawer Problem)",
                     "Questionable Research Practices or Questionable Reporting Practices (QRPs)",
                     "Selective reporting",
@@ -47218,7 +47200,7 @@
                 "translation_reviewed_by": [
                     "Nihan Selin Soylu-Konak"
                 ],
-                "lastmod": "2026-11-08"
+                "lastmod": "2026-11-09"
             },
             {
                 "type": "glossary",
@@ -48496,14 +48478,14 @@
                     "Garden of forking paths",
                     "HARKing",
                     "Nonpublication of data",
-                    "p-hacking",
-                    "p-value fishing",
+                    "*p*-hacking",
+                    "*p*-value fishing",
                     "Partial publication of data",
                     "Post-hoc storytelling",
                     "Preregistration",
                     "Questionable Measurement Practices (QMP)",
                     "Researcher degrees of freedom",
-                    "Reverse p-hacking",
+                    "Reverse *p*-hacking",
                     "Salami slicing"
                 ],
                 "references": [
@@ -48537,7 +48519,7 @@
                 "translation_reviewed_by": [
                     "Nihan Selin Soylu-Konak"
                 ],
-                "lastmod": "2026-11-08"
+                "lastmod": "2026-11-09"
             },
             {
                 "type": "glossary",
@@ -48548,7 +48530,7 @@
                 "related_terms": [
                     "Construct validity",
                     "Measurement schmeasurement",
-                    "p-hacking",
+                    "*p*-hacking",
                     "Psychometrics",
                     "Questionable Research Practices or Questionable Reporting Practices (QRPs)",
                     "Validity"
@@ -48576,7 +48558,7 @@
                 "translation_reviewed_by": [
                     "Nihan Selin Soylu-Konak"
                 ],
-                "lastmod": "2026-11-08"
+                "lastmod": "2026-11-09"
             },
             {
                 "type": "glossary",
@@ -49248,7 +49230,7 @@
                     "Trustworthy research"
                 ],
                 "references": [
-                    "ALLEA - All European Academies. (2023). <i>The European Code of Conduct for Research Integrity</i> (Revised Edition 2023). ALLEA - All European Academies. https://doi.org/10.26356/ECoC",
+                    "ALLEA - All European Academies. (2017). <i>The European Code of Conduct for Research Integrity</i> (Revised Edition). ALLEA - All European Academies. https://allea.org/wp-content/uploads/2017/05/ALLEA-European-Code-of-Conduct-for-Research-Integrity-2017.pdf",
                     "Medin, D. L. (2012). Rigor without rigor mortis: The APS Board discusses research integrity. <i>APS Observer</i>, <i>25</i>(5–9), 27–28. https://www.psychologicalscience.org/observer/scientific-rigor",
                     "Moher, D., Bouter, L., Kleinert, S., Glasziou, P., Sham, M. H., Barbour, V., & Dirnagl, U. (2020). The Hong Kong Principles for assessing researchers: Fostering research integrity. <i>PLoS Biology</i>, <i>18</i>(7), e3000737. https://doi.org/10.1371/journal.pbio.3000737"
                 ],
@@ -49272,7 +49254,7 @@
                 "translation_reviewed_by": [
                     "Neslihan Özhan"
                 ],
-                "lastmod": "2026-08-05"
+                "lastmod": "2026-11-09"
             },
             {
                 "type": "glossary",
@@ -49359,7 +49341,7 @@
                     "Garden of forking paths",
                     "Model uncertainty",
                     "Multiverse analysis",
-                    "p-hacking",
+                    "*p*-hacking",
                     "Robustness (analyses)",
                     "Specification curve analysis"
                 ],
@@ -50085,7 +50067,7 @@
                     "Frequentist statistics",
                     "Null hypothesis",
                     "Null Hypothesis Significance Testing (NHST)",
-                    "p-value",
+                    "*p*-value",
                     "Type I error **Incorrect definition:** Statistical significance describes the likelihood of the observed result against chance (regardless of the null hypotheses)"
                 ],
                 "references": [
@@ -50115,7 +50097,7 @@
                 "translation_reviewed_by": [
                     "Neslihan Özhan"
                 ],
-                "lastmod": "2026-11-08"
+                "lastmod": "2026-11-09"
             },
             {
                 "type": "glossary",
@@ -50391,7 +50373,7 @@
                     "Replication",
                     "Reproducibility",
                     "Null Hypothesis Significance Testing (NHST)",
-                    "p-hacking",
+                    "*p*-hacking",
                     "Questionable Research Practices or Questionable Reporting Practices (QRPs)"
                 ],
                 "references": [
@@ -50416,7 +50398,7 @@
                 "translation_reviewed_by": [
                     "Neslihan Özhan"
                 ],
-                "lastmod": "2026-11-08"
+                "lastmod": "2026-11-09"
             },
             {
                 "type": "glossary",
@@ -50580,7 +50562,7 @@
                     "Frequentist statistics",
                     "Null Hypothesis Significance Testing (NHST)",
                     "Null Result",
-                    "p-value",
+                    "*p*-value",
                     "Questionable Research Practices or Questionable Reporting Practices (QRPs)",
                     "Reproducibility crisis (aka Replicability or replication crisis)",
                     "Scientific integrity",
@@ -50615,7 +50597,7 @@
                 "translation_reviewed_by": [
                     "Neslihan Özhan"
                 ],
-                "lastmod": "2026-11-08"
+                "lastmod": "2026-11-09"
             },
             {
                 "type": "glossary",
