@@ -1,11 +1,7 @@
 {
-    "german": {
-        "Model (computational)": [
-            "computational_rechenmodell"
-        ],
-        "Model (statistical)": [
-            "statistical_statistisches_modell"
-        ]
+    "bulgarian": {
+        "The Troubling Trio": ["tревожещата_тройка"],
+        "Single-blind peer review": ["едностранно_анонимна_реценция"]
     },
     "arabic": {
         "Adversarial (collaborative) commentary": [
