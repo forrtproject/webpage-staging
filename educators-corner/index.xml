@@ -18,7 +18,7 @@
 &lt;h2 id="about-the-author"&gt;About the author&lt;/h2&gt;
 &lt;div style="display: flex; flex-wrap: wrap; gap: 2rem; align-items: flex-start;"&gt;
 &lt;div style="flex: 0 0 180px;"&gt;
-&lt;img src="./Abbie_Cahoon.webp" alt="Abbie Cahoon" style="max-width: 100%; height: auto; border-radius: 8px;"&gt;
+&lt;img src="./Abbie_Cahoon.webp" alt="Abbie Cahoon" style="display: block; margin: 0; max-width: 100%; height: auto; border-radius: 8px;"&gt;
 &lt;/div&gt;
 &lt;div style="flex: 1; min-width: 250px;"&gt;
 &lt;strong&gt;Dr Abbie Cahoon&lt;/strong&gt; is a Lecturer in Developmental Psychology at Ulster University and the university's open research champion.&lt;br&gt;
