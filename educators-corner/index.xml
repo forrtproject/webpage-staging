@@ -15,12 +15,24 @@
 &lt;h2 id="resources"&gt;Resources&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;The lesson plan for this workshop is available on FORRT&amp;rsquo;s
-&lt;a href="https://staging.forrt.org/lesson-plans/"&gt;Lesson Plans page&lt;/a&gt; (
+&lt;a href="https://staging.forrt.org/lesson-plans/#open-research-phd"&gt;Lesson Plans page&lt;/a&gt; (
 &lt;a href="https://staging.forrt.org/lesson-plans/LessonPlan_OpenResearchPhD.pdf"&gt;PDF&lt;/a&gt;,
 &lt;a href="https://staging.forrt.org/lesson-plans/LessonPlan_OpenResearchPhD.docx"&gt;editable Word version&lt;/a&gt;).&lt;/li&gt;
 &lt;li&gt;The project and workshop slides are on
 &lt;a href="https://osf.io/82t9c/overview" target="_blank" rel="noopener"&gt;OSF&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Meaningful results for meaningful hypotheses</title><link>https://staging.forrt.org/educators-corner/024-meaningful_results_for_meaningful_hypotheses/</link><pubDate>Mon, 16 Feb 2026 00:00:00 -0300</pubDate><guid>https://staging.forrt.org/educators-corner/024-meaningful_results_for_meaningful_hypotheses/</guid><description>&lt;p&gt;&lt;img src="https://staging.forrt.org/educators-corner/024-meaningful_results_for_meaningful_hypotheses/meaningful_r_for_m_hypotheses.webp" alt="Meaningful results for meaningful hypotheses" width="512" height="362"&gt;
+&lt;/ul&gt;
+&lt;h2 id="about-the-author"&gt;About the author&lt;/h2&gt;
+&lt;div style="display: flex; flex-wrap: wrap; gap: 2rem; align-items: flex-start;"&gt;
+&lt;div style="flex: 0 0 180px;"&gt;
+&lt;img src="./Abbie_Cahoon.webp" alt="Abbie Cahoon" style="max-width: 100%; height: auto; border-radius: 8px;"&gt;
+&lt;/div&gt;
+&lt;div style="flex: 1; min-width: 250px;"&gt;
+&lt;strong&gt;Dr Abbie Cahoon&lt;/strong&gt; is a Lecturer in Developmental Psychology at Ulster University and the university's open research champion.&lt;br&gt;
+Email: &lt;a href="mailto:a.cahoon@ulster.ac.uk"&gt;a.cahoon@ulster.ac.uk&lt;/a&gt;&lt;br&gt;
+Staff profile: &lt;a href="https://www.ulster.ac.uk/staff/a-cahoon"&gt;ulster.ac.uk/staff/a-cahoon&lt;/a&gt;&lt;br&gt;
+OSF: &lt;a href="https://osf.io/qpxrw/"&gt;osf.io/qpxrw&lt;/a&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description></item><item><title>Meaningful results for meaningful hypotheses</title><link>https://staging.forrt.org/educators-corner/024-meaningful_results_for_meaningful_hypotheses/</link><pubDate>Mon, 16 Feb 2026 00:00:00 -0300</pubDate><guid>https://staging.forrt.org/educators-corner/024-meaningful_results_for_meaningful_hypotheses/</guid><description>&lt;p&gt;&lt;img src="https://staging.forrt.org/educators-corner/024-meaningful_results_for_meaningful_hypotheses/meaningful_r_for_m_hypotheses.webp" alt="Meaningful results for meaningful hypotheses" width="512" height="362"&gt;
 &lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Stop asking if an effect is “exactly zero” for experimental designs. It’s not a helpful question. Instead, concentrate on interpreting the actual meaning of the difference between two conditions using Bayesian inference.&lt;/p&gt;
