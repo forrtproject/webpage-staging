@@ -1,0 +1,528 @@
+{
+  "generated_at": "2026-11-09T02:10:57Z",
+  "source": "forrtproject.github.io data/ and content/glossary/",
+  "publications": {
+    "total": 31,
+    "by_type": [
+      {
+        "type": "Peer-reviewed article",
+        "count": 12
+      },
+      {
+        "type": "Preprint",
+        "count": 6
+      },
+      {
+        "type": "Media",
+        "count": 6
+      },
+      {
+        "type": "Policy",
+        "count": 3
+      },
+      {
+        "type": "Affiliated work",
+        "count": 3
+      },
+      {
+        "type": "Work in progress",
+        "count": 1
+      }
+    ],
+    "by_year": [
+      {
+        "year": 2019,
+        "type": "Preprint",
+        "count": 1
+      },
+      {
+        "year": 2020,
+        "type": "Policy",
+        "count": 1
+      },
+      {
+        "year": 2021,
+        "type": "Peer-reviewed article",
+        "count": 2
+      },
+      {
+        "year": 2021,
+        "type": "Policy",
+        "count": 1
+      },
+      {
+        "year": 2022,
+        "type": "Media",
+        "count": 3
+      },
+      {
+        "year": 2022,
+        "type": "Peer-reviewed article",
+        "count": 1
+      },
+      {
+        "year": 2022,
+        "type": "Preprint",
+        "count": 1
+      },
+      {
+        "year": 2023,
+        "type": "Media",
+        "count": 2
+      },
+      {
+        "year": 2023,
+        "type": "Peer-reviewed article",
+        "count": 3
+      },
+      {
+        "year": 2023,
+        "type": "Policy",
+        "count": 1
+      },
+      {
+        "year": 2024,
+        "type": "Affiliated work",
+        "count": 2
+      },
+      {
+        "year": 2024,
+        "type": "Media",
+        "count": 1
+      },
+      {
+        "year": 2024,
+        "type": "Peer-reviewed article",
+        "count": 2
+      },
+      {
+        "year": 2025,
+        "type": "Affiliated work",
+        "count": 1
+      },
+      {
+        "year": 2025,
+        "type": "Peer-reviewed article",
+        "count": 3
+      },
+      {
+        "year": 2025,
+        "type": "Preprint",
+        "count": 3
+      },
+      {
+        "year": 2026,
+        "type": "Peer-reviewed article",
+        "count": 1
+      },
+      {
+        "year": 2026,
+        "type": "Preprint",
+        "count": 1
+      }
+    ],
+    "focus_areas": [
+      {
+        "name": "Education & Pedagogy",
+        "count": 11
+      },
+      {
+        "name": "Meta-Research & Scientific Reform",
+        "count": 8
+      },
+      {
+        "name": "Community, Governance & Sustainability",
+        "count": 6
+      },
+      {
+        "name": "Equity, Diversity & Social Justice",
+        "count": 6
+      }
+    ],
+    "items": [
+      {
+        "title": "Making Open Science Multilingual: Lessons from the Turkish Adaptation of FORRT’s Open Science Glossary",
+        "type": "Preprint",
+        "year": 2026,
+        "status": "preprint",
+        "venue": "OSF Preprints",
+        "focus_area": "Education & Pedagogy",
+        "url": "https://doi.org/10.31234/osf.io/c4jqr_v1"
+      },
+      {
+        "title": "No room at the inn? The case for dedicated replication journals",
+        "type": "Peer-reviewed article",
+        "year": 2026,
+        "status": "Published",
+        "venue": "Journal of Behavioral and Experimental Economics",
+        "focus_area": "Meta-Research & Scientific Reform",
+        "url": "https://doi.org/10.1016/j.socec.2025.102502"
+      },
+      {
+        "title": "A Community Model for Rigorous and Inclusive Scholarship",
+        "type": "Peer-reviewed article",
+        "year": 2025,
+        "status": "Published",
+        "venue": "Replication Research",
+        "focus_area": "Meta-Research & Scientific Reform",
+        "url": "https://doi.org/10.17879/replicationresearch-2025-9022"
+      },
+      {
+        "title": "A scoping review on metrics to quantify reproducibility",
+        "type": "Affiliated work",
+        "year": 2025,
+        "status": "Published",
+        "venue": "Royal Society Open Science",
+        "focus_area": "Meta-Research & Scientific Reform",
+        "url": "https://doi.org/10.1098/rsos.242076"
+      },
+      {
+        "title": "Bridging Neurodiversity and Open Scholarship: How Shared Values Can Guide Best Practices for Research Integrity, Social Justice, and Principled Education",
+        "type": "Peer-reviewed article",
+        "year": 2025,
+        "status": "Published",
+        "venue": "Journal of Social Issues",
+        "focus_area": "Equity, Diversity & Social Justice",
+        "url": "https://doi.org/10.1111/josi.70035"
+      },
+      {
+        "title": "How to Develop and Use Open Educational Resources",
+        "type": "Preprint",
+        "year": 2025,
+        "status": "Preprint",
+        "venue": "MetaArxiv",
+        "focus_area": "Education & Pedagogy",
+        "url": "https://doi.org/10.35542/osf.io/sn693_v1"
+      },
+      {
+        "title": "In Pursuit of Citational Justice: A Toolkit for Equitable Scholarship",
+        "type": "Preprint",
+        "year": 2025,
+        "status": "Preprint",
+        "venue": "MetaArxiv",
+        "focus_area": "Equity, Diversity & Social Justice",
+        "url": "https://doi.org/10.31222/osf.io/qjecy_v2"
+      },
+      {
+        "title": "Mapping Open Science Communities in Psychology: A Systematic Narrative Review",
+        "type": "Peer-reviewed article",
+        "year": 2025,
+        "status": "Published",
+        "venue": "Royal Society Open Science",
+        "focus_area": "Community, Governance & Sustainability",
+        "url": "https://doi.org/10.1098/rsos.241726"
+      },
+      {
+        "title": "Tracking and mainstreaming replications in the social, cognitive, and behavioral sciences",
+        "type": "Preprint",
+        "year": 2025,
+        "status": "Published",
+        "venue": "MetaArXiv",
+        "focus_area": "Meta-Research & Scientific Reform",
+        "url": "https://doi.org/10.31222/osf.io/ad2w6_v1"
+      },
+      {
+        "title": "An annotated introductory reading list for neurodiversity",
+        "type": "Peer-reviewed article",
+        "year": 2024,
+        "status": "Published",
+        "venue": "eLife",
+        "focus_area": "Equity, Diversity & Social Justice",
+        "url": "https://doi.org/10.7554/eLife.102467"
+      },
+      {
+        "title": "The Potential of Preregistration in Psychology",
+        "type": "Affiliated work",
+        "year": 2024,
+        "status": "Published",
+        "venue": "Psychological Methods",
+        "focus_area": "Meta-Research & Scientific Reform",
+        "url": "https://doi.org/10.1037/met0000687"
+      },
+      {
+        "title": "The Replication Database: Documenting the Replicability of Psychological Science",
+        "type": "Peer-reviewed article",
+        "year": 2024,
+        "status": "Published",
+        "venue": "Journal of Open Psychology Data",
+        "focus_area": "Meta-Research & Scientific Reform",
+        "url": "https://doi.org/10.5334/jopd.101"
+      },
+      {
+        "title": "Towards FAIRification of learning resources and catalogues—lessons learnt from research communities",
+        "type": "Affiliated work",
+        "year": 2024,
+        "status": "Published",
+        "venue": "Frontiers in Education",
+        "focus_area": "Education & Pedagogy",
+        "url": "https://doi.org/10.3389/feduc.2024.1390444"
+      },
+      {
+        "title": "Unveiling the Truth in Science",
+        "type": "Media",
+        "year": 2024,
+        "status": "Op-Ed",
+        "venue": "Official PLOS Blog",
+        "focus_area": "Meta-Research & Scientific Reform",
+        "url": "https://theplosblog.plos.org/2024/02/unveiling-the-truth-in-science-the-quest-for-reliable-knowledge/"
+      },
+      {
+        "title": "Improvements since the Replication Crisis: The Structural, Procedural, and Community Changes",
+        "type": "Peer-reviewed article",
+        "year": 2023,
+        "status": "Published",
+        "venue": "Communications Psychology",
+        "focus_area": "Meta-Research & Scientific Reform",
+        "url": "https://doi.org/10.1038/s44271-023-00003-2"
+      },
+      {
+        "title": "Letter to UNESCO’s Principles of Open Science Monitoring",
+        "type": "Media",
+        "year": 2023,
+        "status": "Letter",
+        "venue": "UNESCO",
+        "focus_area": "Community, Governance & Sustainability",
+        "url": "Letter_to_UNESCO’s_Principles_of_Open_Science_Monitoring.pdf"
+      },
+      {
+        "title": "Open Scholarship Pedagogical Communities",
+        "type": "Media",
+        "year": 2023,
+        "status": "Op-Ed",
+        "venue": "The Psychologist",
+        "focus_area": "Education & Pedagogy",
+        "url": "https://www.bps.org.uk/psychologist/open-scholarship-pedagogical-communities"
+      },
+      {
+        "title": "Open Scholarship in QAA Briefing",
+        "type": "Policy",
+        "year": 2023,
+        "status": "Policy Brief",
+        "venue": "QAA / UKRN",
+        "focus_area": "Community, Governance & Sustainability",
+        "url": "2023_QAA _ FORRT_UKRN.pdf"
+      },
+      {
+        "title": "Participatory Research Primer",
+        "type": "Peer-reviewed article",
+        "year": 2023,
+        "status": "Published",
+        "venue": "The Cognitive Psychology Bulletin",
+        "focus_area": "Equity, Diversity & Social Justice",
+        "url": "https://doi.org/10.53841/bpscog.2023.1.8.23"
+      },
+      {
+        "title": "Teaching open and reproducible scholarship: a critical review of the evidence base for current pedagogical methods and their outcomes",
+        "type": "Peer-reviewed article",
+        "year": 2023,
+        "status": "Published",
+        "venue": "Royal Society Open Science",
+        "focus_area": "Education & Pedagogy",
+        "url": "https://doi.org/10.1098/rsos.221255"
+      },
+      {
+        "title": "Educating in the Open Scholarship Era",
+        "type": "Media",
+        "year": 2022,
+        "status": "Op-Ed",
+        "venue": "Center for Open Science Blog",
+        "focus_area": "Education & Pedagogy",
+        "url": "https://www.cos.io/blog/educating-in-the-open-scholarship-eara"
+      },
+      {
+        "title": "FORRT's Glossary",
+        "type": "Peer-reviewed article",
+        "year": 2022,
+        "status": "Published",
+        "venue": "Nature Human Behaviour",
+        "focus_area": "Education & Pedagogy",
+        "url": "https://doi.org/10.1038/s41562-021-01269-4"
+      },
+      {
+        "title": "Navigating Academia as Neurodivergent Researchers",
+        "type": "Media",
+        "year": 2022,
+        "status": "Op-Ed",
+        "venue": "APS Observer",
+        "focus_area": "Equity, Diversity & Social Justice",
+        "url": "https://www.psychologicalscience.org/observer/gs-navigating-academia-as-neurodivergent-researchers"
+      },
+      {
+        "title": "Neurodiversity & Open Scholarship in Academia",
+        "type": "Preprint",
+        "year": 2022,
+        "status": "Preprint",
+        "venue": "MetaArxiv",
+        "focus_area": "Equity, Diversity & Social Justice",
+        "url": "https://doi.org/10.31222/osf.io/k7a9p"
+      },
+      {
+        "title": "What is 'Open Science'? And why does it need a glossary?",
+        "type": "Media",
+        "year": 2022,
+        "status": "Op-Ed",
+        "venue": "In-Mind Magazine",
+        "focus_area": "Education & Pedagogy",
+        "url": "https://de.in-mind.org/blog/post/was-ist-offene-wissenschaft-und-warum-braucht-sie-ein-woerterbuch"
+      },
+      {
+        "title": "Building Community (UK Parliament)",
+        "type": "Policy",
+        "year": 2021,
+        "status": "Policy Brief",
+        "venue": "UK Parliament Science & Technology",
+        "focus_area": "Community, Governance & Sustainability",
+        "url": "Azevedo_et.al._FORRT_Science_Technology_Committee_UK_Inquiry.pdf"
+      },
+      {
+        "title": "FORRT's Lesson Plans",
+        "type": "Peer-reviewed article",
+        "year": 2021,
+        "status": "Published",
+        "venue": "Scholarship of Teaching and Learning in Psychology",
+        "focus_area": "Education & Pedagogy",
+        "url": "https://doi.org/10.1037/stl0000307"
+      },
+      {
+        "title": "The Role of Pedagogical Communities",
+        "type": "Peer-reviewed article",
+        "year": 2021,
+        "status": "Published",
+        "venue": "BMC Research Notes",
+        "focus_area": "Education & Pedagogy",
+        "url": "https://doi.org/10.1186/s13104-022-05944-1"
+      },
+      {
+        "title": "Briefing Note for Degree Accrediting Societies",
+        "type": "Policy",
+        "year": 2020,
+        "status": "Policy Brief",
+        "venue": "UKRN / BPS",
+        "focus_area": "Community, Governance & Sustainability",
+        "url": "Parsons_Azevedo_FORRT_UKRN_Briefing_note_for_degree_accrediting_societies.pdf"
+      },
+      {
+        "title": "FORRT's Manifesto",
+        "type": "Preprint",
+        "year": 2019,
+        "status": "preprint",
+        "venue": "OSF Preprints",
+        "focus_area": "Community, Governance & Sustainability",
+        "url": "https://doi.org/10.31219/osf.io/bnh7p"
+      },
+      {
+        "title": "Open Social Psychology",
+        "type": "Work in progress",
+        "year": null,
+        "status": "Work in Progress",
+        "venue": "Open Educational Resource",
+        "focus_area": "Education & Pedagogy",
+        "url": "https://forrt.org/open-social-psychology/"
+      }
+    ]
+  },
+  "summaries": {
+    "total": 196
+  },
+  "glossary": {
+    "languages": [
+      {
+        "slug": "english",
+        "label": "English",
+        "terms": 260
+      },
+      {
+        "slug": "german",
+        "label": "Deutsch (German)",
+        "terms": 262
+      },
+      {
+        "slug": "arabic",
+        "label": "عربي (Arabic)",
+        "terms": 261
+      },
+      {
+        "slug": "turkish",
+        "label": "Türkçe (Turkish)",
+        "terms": 253
+      },
+      {
+        "slug": "chinese",
+        "label": "中文 (Chinese)",
+        "terms": 262
+      }
+    ],
+    "max_terms": 262
+  },
+  "curated_resources": {
+    "total_resources": 1300,
+    "clusters": [
+      {
+        "number": 1,
+        "name": "Replication Crisis and Credibility Revolution",
+        "sub_clusters": 7,
+        "resources": 147
+      },
+      {
+        "number": 2,
+        "name": "Conceptual and Statistical Knowledge",
+        "sub_clusters": 7,
+        "resources": 82
+      },
+      {
+        "number": 3,
+        "name": "Ways of Working",
+        "sub_clusters": 12,
+        "resources": 115
+      },
+      {
+        "number": 4,
+        "name": "Pre-analysis Planning",
+        "sub_clusters": 5,
+        "resources": 41
+      },
+      {
+        "number": 5,
+        "name": "Transparency and reproducibility in computation and analysis",
+        "sub_clusters": 5,
+        "resources": 55
+      },
+      {
+        "number": 6,
+        "name": "FAIR data and materials",
+        "sub_clusters": 7,
+        "resources": 82
+      },
+      {
+        "number": 7,
+        "name": "Publication Sharing",
+        "sub_clusters": 6,
+        "resources": 51
+      },
+      {
+        "number": 8,
+        "name": "Replication and meta-research",
+        "sub_clusters": 7,
+        "resources": 82
+      },
+      {
+        "number": 9,
+        "name": "Academic Structures and Institutions",
+        "sub_clusters": 19,
+        "resources": 306
+      },
+      {
+        "number": 10,
+        "name": "Qualitative Research",
+        "sub_clusters": 10,
+        "resources": 180
+      },
+      {
+        "number": 11,
+        "name": "Research Integrity",
+        "sub_clusters": 7,
+        "resources": 159
+      }
+    ]
+  }
+}

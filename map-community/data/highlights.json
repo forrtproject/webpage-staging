@@ -1,0 +1,535 @@
+{
+  "generated_at": "2026-11-19T02:10:16Z",
+  "source": "forrtproject.github.io content/awards, content/reversals, static/data/open_research_games.json, content/educators-corner, content/testimonials",
+  "awards": {
+    "total": 20,
+    "first_year": 2020,
+    "last_year": 2025,
+    "by_year": [
+      {
+        "year": 2020,
+        "type": "commendation",
+        "count": 1
+      },
+      {
+        "year": 2021,
+        "type": "award",
+        "count": 2
+      },
+      {
+        "year": 2021,
+        "type": "commendation",
+        "count": 1
+      },
+      {
+        "year": 2022,
+        "type": "award",
+        "count": 2
+      },
+      {
+        "year": 2022,
+        "type": "commendation",
+        "count": 1
+      },
+      {
+        "year": 2022,
+        "type": "grant",
+        "count": 1
+      },
+      {
+        "year": 2023,
+        "type": "award",
+        "count": 3
+      },
+      {
+        "year": 2023,
+        "type": "commendation",
+        "count": 1
+      },
+      {
+        "year": 2023,
+        "type": "finalist",
+        "count": 1
+      },
+      {
+        "year": 2023,
+        "type": "recognition",
+        "count": 1
+      },
+      {
+        "year": 2025,
+        "type": "award",
+        "count": 1
+      },
+      {
+        "year": 2025,
+        "type": "commendation",
+        "count": 4
+      }
+    ],
+    "by_awarder": [
+      {
+        "name": "Society for the Improvement of Psychological Science",
+        "count": 10
+      },
+      {
+        "name": "UNESCO and the United Nations (IDSSD 2024–2033)",
+        "count": 1
+      },
+      {
+        "name": "UK Reproducibility Network",
+        "count": 1
+      },
+      {
+        "name": "Einstein Foundation",
+        "count": 1
+      },
+      {
+        "name": "Open Science Community Amsterdam",
+        "count": 1
+      },
+      {
+        "name": "JISC",
+        "count": 1
+      },
+      {
+        "name": "Atlantic Technological University and the Open Science Community Galway",
+        "count": 1
+      },
+      {
+        "name": "Association for Learning Technology",
+        "count": 1
+      },
+      {
+        "name": "HiddenREF",
+        "count": 1
+      },
+      {
+        "name": "Open Scholarship Community Galway",
+        "count": 1
+      }
+    ],
+    "items": [
+      {
+        "year": null,
+        "title": "FORWARD: A UNESCO Decade of Science Programme",
+        "awarder": "UNESCO and the United Nations (IDSSD 2024–2033)",
+        "type": "recognition",
+        "amount": null
+      },
+      {
+        "year": 2025,
+        "title": "Mission Award for Educational resources on the replication crisis",
+        "awarder": "Society for the Improvement of Psychological Science",
+        "type": "award",
+        "amount": null
+      },
+      {
+        "year": 2025,
+        "title": "Commendation Award for Pownall et al. (2023): Teaching open and reproducible scholarship: a critical review of the evidence base for current pedagogical methods and their outcomes",
+        "awarder": "Society for the Improvement of Psychological Science",
+        "type": "commendation",
+        "amount": null
+      },
+      {
+        "year": 2025,
+        "title": "Commendation Award for Open Science in the Developing World: A Collection of Practical Guides for Researchers in Developing Countries",
+        "awarder": "Society for the Improvement of Psychological Science",
+        "type": "commendation",
+        "amount": null
+      },
+      {
+        "year": 2025,
+        "title": "Commendation Award for International Initiatives to Enhance Awareness and Uptake of Open Research in Psychology: A Systematic Mapping Review",
+        "awarder": "Society for the Improvement of Psychological Science",
+        "type": "commendation",
+        "amount": null
+      },
+      {
+        "year": 2025,
+        "title": "Commendation Award for FORRT Credit Project",
+        "awarder": "Society for the Improvement of Psychological Science",
+        "type": "commendation",
+        "amount": null
+      },
+      {
+        "year": 2023,
+        "title": "Dorothy Bishop Prize",
+        "awarder": "UK Reproducibility Network",
+        "type": "award",
+        "amount": null
+      },
+      {
+        "year": 2023,
+        "title": "Early Career Award",
+        "awarder": "Einstein Foundation",
+        "type": "finalist",
+        "amount": null
+      },
+      {
+        "year": 2023,
+        "title": "OSC Award",
+        "awarder": "Open Science Community Amsterdam",
+        "type": "award",
+        "amount": "€200"
+      },
+      {
+        "year": 2023,
+        "title": "Mission Award",
+        "awarder": "Society for the Improvement of Psychological Science",
+        "type": "award",
+        "amount": null
+      },
+      {
+        "year": 2023,
+        "title": "Community Champion for UK education and research communities",
+        "awarder": "JISC",
+        "type": "recognition",
+        "amount": null
+      },
+      {
+        "year": 2023,
+        "title": "Commendation award",
+        "awarder": "Society for the Improvement of Psychological Science",
+        "type": "commendation",
+        "amount": null
+      },
+      {
+        "year": 2022,
+        "title": "Open Scholarship Prize (1st Place)",
+        "awarder": "Atlantic Technological University and the Open Science Community Galway",
+        "type": "award",
+        "amount": "€200"
+      },
+      {
+        "year": 2022,
+        "title": "Grants-In-Aid to Reduce Barriers to Improving Psychological Science",
+        "awarder": "Society for the Improvement of Psychological Science",
+        "type": "grant",
+        "amount": "$1250"
+      },
+      {
+        "year": 2022,
+        "title": "Open Scholarship Conference award",
+        "awarder": "Association for Learning Technology",
+        "type": "award",
+        "amount": "€200"
+      },
+      {
+        "year": 2022,
+        "title": "Commendation",
+        "awarder": "Society for the Improvement of Psychological Science",
+        "type": "commendation",
+        "amount": null
+      },
+      {
+        "year": 2021,
+        "title": "Commendation",
+        "awarder": "HiddenREF",
+        "type": "commendation",
+        "amount": null
+      },
+      {
+        "year": 2021,
+        "title": "Open Scholarship Award (2nd Place)",
+        "awarder": "Open Scholarship Community Galway",
+        "type": "award",
+        "amount": null
+      },
+      {
+        "year": 2021,
+        "title": "Kellogg School of Management Consultancy on “Leading & Managing Teams”",
+        "awarder": null,
+        "type": "award",
+        "amount": null
+      },
+      {
+        "year": 2020,
+        "title": "Commendation",
+        "awarder": "Society for the Improvement of Psychological Science",
+        "type": "commendation",
+        "amount": null
+      }
+    ]
+  },
+  "achievements": [
+    {
+      "value": 4,
+      "text": "Four of our projects are featured in UNESCO's Open Science Capacity Building Index."
+    },
+    {
+      "value": 4,
+      "text": "FORRT projects have been discussed in podcasts in four different languages: English, Polish, Finnish and Dutch."
+    },
+    {
+      "value": 3,
+      "text": "We've shared our expertise in three policy briefings to the UK House of Commons Science and Technology Committee, British Psychological Society, and Quality Assurance Agency for Higher Education (see our Publications page for more information)."
+    },
+    {
+      "value": 2,
+      "text": "FORRT has broken two Google Docs by exceeding their 1.02 million character limit!"
+    },
+    {
+      "value": 2,
+      "text": "Our work is cited in two Wikipedia pages."
+    },
+    {
+      "value": 1,
+      "text": "The FORRT Glossary has been featured on television once, in a segment on Al Ekhbariya."
+    },
+    {
+      "value": 1,
+      "text": "Our work has been highlighted by NASA once."
+    }
+  ],
+  "replications": {
+    "total_effects": 436,
+    "disciplines": [
+      {
+        "name": "Cognitive Psychology",
+        "effects": 130
+      },
+      {
+        "name": "Social Psychology",
+        "effects": 108
+      },
+      {
+        "name": "Judgment and Decision Making",
+        "effects": 58
+      },
+      {
+        "name": "Comparative Psychology",
+        "effects": 29
+      },
+      {
+        "name": "Neuroscience (humans)",
+        "effects": 21
+      },
+      {
+        "name": "Marketing",
+        "effects": 15
+      },
+      {
+        "name": "Developmental Psychology",
+        "effects": 12
+      },
+      {
+        "name": "Evolutionary psychology",
+        "effects": 12
+      },
+      {
+        "name": "Political Psychology",
+        "effects": 11
+      },
+      {
+        "name": "Speech Language Therapy",
+        "effects": 9
+      },
+      {
+        "name": "Educational Psychology",
+        "effects": 7
+      },
+      {
+        "name": "Positive Psychology",
+        "effects": 4
+      },
+      {
+        "name": "Differential psychology",
+        "effects": 4
+      },
+      {
+        "name": "Psychiatry",
+        "effects": 4
+      },
+      {
+        "name": "Applied Linguistics",
+        "effects": 2
+      },
+      {
+        "name": "Health Psychology",
+        "effects": 2
+      },
+      {
+        "name": "Experimental Philosophy",
+        "effects": 2
+      },
+      {
+        "name": "Personality Psychology",
+        "effects": 2
+      },
+      {
+        "name": "Parapsychology",
+        "effects": 1
+      },
+      {
+        "name": "Psychophysiology",
+        "effects": 1
+      },
+      {
+        "name": "Behavioural Genetics",
+        "effects": 1
+      },
+      {
+        "name": "Evolutionary Linguistics",
+        "effects": 1
+      }
+    ],
+    "statuses": [
+      {
+        "status": "not replicated",
+        "count": 125
+      },
+      {
+        "status": "reversed",
+        "count": 6
+      },
+      {
+        "status": "mixed",
+        "count": 151
+      },
+      {
+        "status": "replicated",
+        "count": 140
+      },
+      {
+        "status": "n/a",
+        "count": 14
+      }
+    ]
+  },
+  "games": {
+    "total": 39,
+    "delivery": [
+      {
+        "name": "Online",
+        "count": 19
+      },
+      {
+        "name": "In-person",
+        "count": 15
+      },
+      {
+        "name": "Hybrid",
+        "count": 5
+      }
+    ],
+    "style": [
+      {
+        "name": "Competitive",
+        "count": 16
+      },
+      {
+        "name": "Solo",
+        "count": 14
+      },
+      {
+        "name": "Cooperative/Collaborative",
+        "count": 8
+      },
+      {
+        "name": "Team-Based Competition",
+        "count": 5
+      }
+    ],
+    "languages": [
+      {
+        "name": "English",
+        "count": 37
+      },
+      {
+        "name": "French",
+        "count": 4
+      },
+      {
+        "name": "Chinese",
+        "count": 1
+      },
+      {
+        "name": "Welsh",
+        "count": 1
+      }
+    ],
+    "clusters": [
+      {
+        "cluster": 1,
+        "count": 5
+      },
+      {
+        "cluster": 2,
+        "count": 1
+      },
+      {
+        "cluster": 3,
+        "count": 15
+      },
+      {
+        "cluster": 4,
+        "count": 1
+      },
+      {
+        "cluster": 5,
+        "count": 6
+      },
+      {
+        "cluster": 6,
+        "count": 24
+      },
+      {
+        "cluster": 7,
+        "count": 25
+      },
+      {
+        "cluster": 8,
+        "count": 3
+      },
+      {
+        "cluster": 9,
+        "count": 22
+      },
+      {
+        "cluster": 10,
+        "count": 1
+      },
+      {
+        "cluster": 11,
+        "count": 18
+      }
+    ]
+  },
+  "educators_corner": {
+    "total": 25,
+    "by_year": [
+      {
+        "year": 2020,
+        "count": 2
+      },
+      {
+        "year": 2021,
+        "count": 6
+      },
+      {
+        "year": 2022,
+        "count": 5
+      },
+      {
+        "year": 2023,
+        "count": 2
+      },
+      {
+        "year": 2024,
+        "count": 4
+      },
+      {
+        "year": 2025,
+        "count": 4
+      },
+      {
+        "year": 2026,
+        "count": 2
+      }
+    ]
+  },
+  "testimonials": {
+    "total": 7
+  }
+}

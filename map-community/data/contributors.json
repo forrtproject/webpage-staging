@@ -1,0 +1,1173 @@
+{
+  "generated_at": "2026-09-13T13:54:30Z",
+  "source": "forrtproject.github.io scripts/forrt_contribs/contributors_cache.csv",
+  "totals": {
+    "contributors": 643,
+    "projects": 73,
+    "contributions": 1412,
+    "multi_project_contributors": 242,
+    "with_orcid": 503
+  },
+  "roles": [
+    {
+      "role": "Writing - review & editing",
+      "kind": "credit",
+      "contributors": 391,
+      "contributions": 765
+    },
+    {
+      "role": "Resources",
+      "kind": "credit",
+      "contributors": 231,
+      "contributions": 348
+    },
+    {
+      "role": "Writing - original draft",
+      "kind": "credit",
+      "contributors": 220,
+      "contributions": 385
+    },
+    {
+      "role": "Investigation",
+      "kind": "credit",
+      "contributors": 202,
+      "contributions": 381
+    },
+    {
+      "role": "Data curation",
+      "kind": "credit",
+      "contributors": 122,
+      "contributions": 171
+    },
+    {
+      "role": "Conceptualization",
+      "kind": "credit",
+      "contributors": 89,
+      "contributions": 225
+    },
+    {
+      "role": "Translation",
+      "kind": "credit",
+      "contributors": 69,
+      "contributions": 72
+    },
+    {
+      "role": "Validation",
+      "kind": "credit",
+      "contributors": 63,
+      "contributions": 84
+    },
+    {
+      "role": "Methodology",
+      "kind": "credit",
+      "contributors": 53,
+      "contributions": 68
+    },
+    {
+      "role": "Formal analysis",
+      "kind": "credit",
+      "contributors": 50,
+      "contributions": 62
+    },
+    {
+      "role": "Visualization",
+      "kind": "credit",
+      "contributors": 50,
+      "contributions": 65
+    },
+    {
+      "role": "Software",
+      "kind": "credit",
+      "contributors": 48,
+      "contributions": 78
+    },
+    {
+      "role": "Project administration",
+      "kind": "credit",
+      "contributors": 46,
+      "contributions": 98
+    },
+    {
+      "role": "Supervision",
+      "kind": "credit",
+      "contributors": 41,
+      "contributions": 82
+    },
+    {
+      "role": "Funding acquisition",
+      "kind": "credit",
+      "contributors": 30,
+      "contributions": 62
+    },
+    {
+      "role": "Project Managers",
+      "kind": "leadership",
+      "contributors": 22,
+      "contributions": 29
+    },
+    {
+      "role": "Project Coordinators",
+      "kind": "leadership",
+      "contributors": 2,
+      "contributions": 2
+    }
+  ],
+  "projects": [
+    {
+      "name": "FORRT Replication Databases (FReD and FLoRA)",
+      "url": "https://forrt.org/flora",
+      "contributors": 208,
+      "roles": {
+        "Conceptualization": 6,
+        "Data curation": 52,
+        "Formal analysis": 6,
+        "Funding acquisition": 8,
+        "Investigation": 120,
+        "Methodology": 6,
+        "Project administration": 6,
+        "Resources": 41,
+        "Software": 10,
+        "Supervision": 6,
+        "Validation": 21,
+        "Visualization": 3,
+        "Writing - original draft": 4,
+        "Writing - review & editing": 4,
+        "Project Managers": 14
+      }
+    },
+    {
+      "name": "Glossary",
+      "url": "https://forrt.org/glossary/",
+      "contributors": 112,
+      "roles": {
+        "Conceptualization": 3,
+        "Data curation": 2,
+        "Formal analysis": 2,
+        "Investigation": 2,
+        "Methodology": 2,
+        "Project administration": 2,
+        "Software": 3,
+        "Validation": 4,
+        "Visualization": 2,
+        "Writing - original draft": 90,
+        "Writing - review & editing": 104
+      }
+    },
+    {
+      "name": "Reversals & Replications",
+      "url": "https://forrt.org/reversals/",
+      "contributors": 101,
+      "roles": {
+        "Conceptualization": 5,
+        "Data curation": 15,
+        "Formal analysis": 2,
+        "Funding acquisition": 6,
+        "Investigation": 88,
+        "Project administration": 3,
+        "Software": 3,
+        "Writing - original draft": 3,
+        "Writing - review & editing": 6,
+        "Project Managers": 10,
+        "Project Coordinators": 2
+      }
+    },
+    {
+      "name": "Impact on students",
+      "url": "https://forrt.org/impact/",
+      "contributors": 72,
+      "roles": {
+        "Conceptualization": 2,
+        "Formal analysis": 2,
+        "Investigation": 31,
+        "Methodology": 11,
+        "Project administration": 2,
+        "Resources": 20,
+        "Software": 2,
+        "Supervision": 2,
+        "Validation": 2,
+        "Writing - original draft": 37,
+        "Writing - review & editing": 56
+      }
+    },
+    {
+      "name": "Accessible Feedback in Academia",
+      "url": null,
+      "contributors": 62,
+      "roles": {
+        "Conceptualization": 1,
+        "Formal analysis": 28,
+        "Funding acquisition": 1,
+        "Resources": 57,
+        "Supervision": 1,
+        "Translation": 31,
+        "Writing - original draft": 30,
+        "Writing - review & editing": 46
+      }
+    },
+    {
+      "name": "FORRT's Manifesto",
+      "url": "https://osf.io/bnh7p_v1",
+      "contributors": 60,
+      "roles": {
+        "Conceptualization": 2,
+        "Supervision": 5,
+        "Visualization": 4
+      }
+    },
+    {
+      "name": "Summaries",
+      "url": "https://forrt.org/summaries/",
+      "contributors": 59,
+      "roles": {
+        "Conceptualization": 3,
+        "Investigation": 3,
+        "Methodology": 5,
+        "Project administration": 10,
+        "Resources": 50,
+        "Supervision": 3,
+        "Visualization": 2,
+        "Writing - review & editing": 59
+      }
+    },
+    {
+      "name": "Open Science in Developing Countries",
+      "url": "https://forrt.org/os-developing-world/",
+      "contributors": 45,
+      "roles": {
+        "Conceptualization": 1,
+        "Data curation": 12,
+        "Funding acquisition": 1,
+        "Investigation": 45,
+        "Project administration": 3,
+        "Supervision": 2,
+        "Visualization": 3,
+        "Writing - original draft": 15,
+        "Writing - review & editing": 45
+      }
+    },
+    {
+      "name": "Educators' Corner",
+      "url": "https://forrt.org/educators-corner/",
+      "contributors": 41,
+      "roles": {
+        "Conceptualization": 8,
+        "Data curation": 2,
+        "Formal analysis": 2,
+        "Investigation": 2,
+        "Methodology": 2,
+        "Project administration": 5,
+        "Resources": 2,
+        "Software": 3,
+        "Supervision": 3,
+        "Validation": 6,
+        "Visualization": 5,
+        "Writing - original draft": 38,
+        "Writing - review & editing": 41
+      }
+    },
+    {
+      "name": "Landscape",
+      "url": null,
+      "contributors": 36,
+      "roles": {
+        "Conceptualization": 2,
+        "Data curation": 31,
+        "Investigation": 10,
+        "Methodology": 11,
+        "Project Managers": 5
+      }
+    },
+    {
+      "name": "Paper: \"Positive Changes from the Replication Crisis\"",
+      "url": "https://forrt.org/positive-changes-replication-crisis/",
+      "contributors": 32,
+      "roles": {
+        "Conceptualization": 1,
+        "Investigation": 1,
+        "Methodology": 3,
+        "Project administration": 2,
+        "Supervision": 2,
+        "Visualization": 2,
+        "Writing - original draft": 1,
+        "Writing - review & editing": 31
+      }
+    },
+    {
+      "name": "Academic Wheel of Privilege",
+      "url": "https://forrt.org/awop/",
+      "contributors": 26,
+      "roles": {
+        "Conceptualization": 5,
+        "Methodology": 5,
+        "Project administration": 2,
+        "Software": 4,
+        "Supervision": 2,
+        "Visualization": 1,
+        "Writing - original draft": 3,
+        "Writing - review & editing": 26
+      }
+    },
+    {
+      "name": "FORRT's Clusters",
+      "url": "https://forrt.org/clusters/",
+      "contributors": 24,
+      "roles": {
+        "Conceptualization": 1,
+        "Data curation": 8,
+        "Funding acquisition": 1,
+        "Investigation": 6,
+        "Project administration": 1,
+        "Resources": 1,
+        "Supervision": 1,
+        "Visualization": 1,
+        "Writing - original draft": 23,
+        "Writing - review & editing": 24
+      }
+    },
+    {
+      "name": "Neurodiversity Annotated Reading List",
+      "url": "https://elifesciences.org/articles/102467",
+      "contributors": 22,
+      "roles": {
+        "Conceptualization": 2,
+        "Data curation": 2,
+        "Formal analysis": 7,
+        "Investigation": 20,
+        "Methodology": 3,
+        "Project administration": 4,
+        "Supervision": 4,
+        "Validation": 7,
+        "Writing - original draft": 9,
+        "Writing - review & editing": 20
+      }
+    },
+    {
+      "name": "Glossary - Arabic Translation",
+      "url": "https://forrt.org/glossary/arabic/",
+      "contributors": 21,
+      "roles": {
+        "Resources": 12,
+        "Supervision": 7,
+        "Writing - review & editing": 20
+      }
+    },
+    {
+      "name": "FORRT Lesson Plans",
+      "url": "https://forrt.org/lesson-plans/",
+      "contributors": 19,
+      "roles": {
+        "Conceptualization": 2,
+        "Data curation": 2,
+        "Investigation": 2,
+        "Project administration": 2,
+        "Resources": 19,
+        "Supervision": 2,
+        "Writing - original draft": 2,
+        "Writing - review & editing": 19
+      }
+    },
+    {
+      "name": "Replication Research Journal - Advisory Board",
+      "url": "http://replicationresearch.org",
+      "contributors": 19,
+      "roles": {
+        "Conceptualization": 19
+      }
+    },
+    {
+      "name": "Adopting Principled Education",
+      "url": "https://forrt.org/adopting/",
+      "contributors": 18,
+      "roles": {
+        "Conceptualization": 3,
+        "Data curation": 12,
+        "Project administration": 2,
+        "Resources": 13,
+        "Supervision": 3,
+        "Writing - original draft": 4,
+        "Writing - review & editing": 16
+      }
+    },
+    {
+      "name": "Guide to Carrying out Replication Studies",
+      "url": "https://lukasroeseler.github.io/replicationresearch_mockup/",
+      "contributors": 18,
+      "roles": {
+        "Conceptualization": 4,
+        "Project administration": 1,
+        "Supervision": 1,
+        "Writing - original draft": 4,
+        "Writing - review & editing": 17
+      }
+    },
+    {
+      "name": "Replication Research Journal - External Member",
+      "url": "http://replicationresearch.org",
+      "contributors": 17,
+      "roles": {
+        "Funding acquisition": 3,
+        "Software": 3,
+        "Writing - review & editing": 14
+      }
+    },
+    {
+      "name": "CERES Manuscript",
+      "url": "https://osf.io/preprints/edarxiv/s73xb",
+      "contributors": 16,
+      "roles": {
+        "Conceptualization": 7,
+        "Project administration": 1,
+        "Writing - original draft": 1,
+        "Writing - review & editing": 12
+      }
+    },
+    {
+      "name": "Replication Research Journal - Editorial Team",
+      "url": "http://replicationresearch.org",
+      "contributors": 16,
+      "roles": {
+        "Conceptualization": 3,
+        "Data curation": 3,
+        "Funding acquisition": 1,
+        "Investigation": 1,
+        "Methodology": 1,
+        "Project administration": 1,
+        "Resources": 4,
+        "Software": 1,
+        "Supervision": 3,
+        "Validation": 4,
+        "Visualization": 1,
+        "Writing - original draft": 5,
+        "Writing - review & editing": 14
+      }
+    },
+    {
+      "name": "Autism & Open Science",
+      "url": null,
+      "contributors": 14,
+      "roles": {
+        "Conceptualization": 1,
+        "Project administration": 1,
+        "Supervision": 2,
+        "Writing - original draft": 2,
+        "Writing - review & editing": 12
+      }
+    },
+    {
+      "name": "Participatory Research Primer (BPS)",
+      "url": "https://doi.org/10.53841/bpscog.2023.1.8.23",
+      "contributors": 14,
+      "roles": {
+        "Conceptualization": 4,
+        "Project administration": 2,
+        "Writing - original draft": 5,
+        "Writing - review & editing": 14
+      }
+    },
+    {
+      "name": "Team Outreach",
+      "url": null,
+      "contributors": 14,
+      "roles": {
+        "Conceptualization": 14,
+        "Data curation": 1,
+        "Funding acquisition": 1,
+        "Investigation": 5,
+        "Methodology": 1,
+        "Project administration": 1,
+        "Resources": 10,
+        "Software": 3,
+        "Visualization": 11
+      }
+    },
+    {
+      "name": "Team Website",
+      "url": "https://forrt.org/",
+      "contributors": 14,
+      "roles": {
+        "Conceptualization": 1,
+        "Data curation": 1,
+        "Project administration": 1,
+        "Resources": 13,
+        "Software": 2,
+        "Supervision": 1
+      }
+    },
+    {
+      "name": "FLoRA - Notify preprint alerts",
+      "url": null,
+      "contributors": 13,
+      "roles": {
+        "Conceptualization": 5,
+        "Data curation": 5,
+        "Formal analysis": 1,
+        "Funding acquisition": 3,
+        "Investigation": 1,
+        "Software": 11,
+        "Supervision": 1,
+        "Visualization": 3,
+        "Writing - original draft": 1,
+        "Writing - review & editing": 6
+      }
+    },
+    {
+      "name": "FLoRA Zotero plugin",
+      "url": "https://forrt.org/flora-zotero/",
+      "contributors": 13,
+      "roles": {
+        "Conceptualization": 2,
+        "Software": 4,
+        "Validation": 9,
+        "Visualization": 3
+      }
+    },
+    {
+      "name": "Getting Started with FORRT",
+      "url": "https://docs.google.com/document/d/17ECRs6J8spO3CU6siheGL8weQ-TzdyAUpXIiIE8cUeI/edit?tab=t.0#heading=h.9uywlkccaw1",
+      "contributors": 13,
+      "roles": {
+        "Conceptualization": 3,
+        "Writing - original draft": 5,
+        "Writing - review & editing": 12
+      }
+    },
+    {
+      "name": "FORRT's Curated Resources",
+      "url": "https://forrt.org/resources/",
+      "contributors": 12,
+      "roles": {
+        "Conceptualization": 3,
+        "Funding acquisition": 3,
+        "Project administration": 2,
+        "Resources": 9,
+        "Supervision": 1,
+        "Writing - review & editing": 1
+      }
+    },
+    {
+      "name": "Glossary - Chinese Translation",
+      "url": null,
+      "contributors": 12,
+      "roles": {
+        "Methodology": 7,
+        "Resources": 12,
+        "Software": 7,
+        "Supervision": 2,
+        "Validation": 4,
+        "Translation": 10
+      }
+    },
+    {
+      "name": "German teaching network grant",
+      "url": null,
+      "contributors": 11,
+      "roles": {
+        "Conceptualization": 6,
+        "Funding acquisition": 10,
+        "Project administration": 1,
+        "Resources": 3,
+        "Software": 3,
+        "Supervision": 2,
+        "Writing - original draft": 6,
+        "Writing - review & editing": 3
+      }
+    },
+    {
+      "name": "Open Educational Resources Chapter",
+      "url": "https://doi.org/10.35542/osf.io/sn693_v2",
+      "contributors": 11,
+      "roles": {
+        "Conceptualization": 1,
+        "Project administration": 2,
+        "Supervision": 1,
+        "Visualization": 2,
+        "Writing - original draft": 1,
+        "Writing - review & editing": 10
+      }
+    },
+    {
+      "name": "Team Credit",
+      "url": "https://forrt.org/contributors/",
+      "contributors": 11,
+      "roles": {
+        "Conceptualization": 3,
+        "Data curation": 2,
+        "Formal analysis": 3,
+        "Investigation": 1,
+        "Project administration": 3,
+        "Resources": 9,
+        "Software": 1,
+        "Supervision": 3,
+        "Visualization": 5,
+        "Writing - original draft": 1,
+        "Writing - review & editing": 1
+      }
+    },
+    {
+      "name": "BMC Pedagogical Communities",
+      "url": "https://doi.org/10.1186/s13104-022-05944-1",
+      "contributors": 10,
+      "roles": {
+        "Conceptualization": 1,
+        "Project administration": 1,
+        "Writing - original draft": 9,
+        "Writing - review & editing": 10
+      }
+    },
+    {
+      "name": "Team Curations",
+      "url": "https://forrt.org/resources/",
+      "contributors": 10,
+      "roles": {
+        "Conceptualization": 2,
+        "Project administration": 2,
+        "Resources": 8,
+        "Supervision": 2,
+        "Writing - original draft": 2,
+        "Writing - review & editing": 3
+      }
+    },
+    {
+      "name": "APS Observer",
+      "url": "https://www.psychologicalscience.org/observer/gs-navigating-academia-as-neurodivergent-researchers",
+      "contributors": 8,
+      "roles": {
+        "Conceptualization": 8,
+        "Project administration": 1,
+        "Supervision": 1,
+        "Writing - original draft": 8,
+        "Writing - review & editing": 8
+      }
+    },
+    {
+      "name": "FLoRA Extractor",
+      "url": null,
+      "contributors": 8,
+      "roles": {
+        "Conceptualization": 3,
+        "Software": 4,
+        "Validation": 4,
+        "Visualization": 1
+      }
+    },
+    {
+      "name": "FORRT Self Assessment",
+      "url": "https://forrt.org/self-assessment/",
+      "contributors": 8,
+      "roles": {
+        "Conceptualization": 5,
+        "Investigation": 5,
+        "Project administration": 2,
+        "Software": 3,
+        "Supervision": 1,
+        "Writing - original draft": 8,
+        "Writing - review & editing": 8
+      }
+    },
+    {
+      "name": "OSCARS Grant Application",
+      "url": null,
+      "contributors": 8,
+      "roles": {
+        "Conceptualization": 3,
+        "Investigation": 2,
+        "Project administration": 2,
+        "Resources": 8,
+        "Supervision": 1,
+        "Validation": 1,
+        "Writing - original draft": 4,
+        "Writing - review & editing": 8
+      }
+    },
+    {
+      "name": "Pedagogies",
+      "url": "https://forrt.org/pedagogies/",
+      "contributors": 8,
+      "roles": {
+        "Conceptualization": 6,
+        "Data curation": 2,
+        "Investigation": 6,
+        "Project administration": 1,
+        "Supervision": 1,
+        "Visualization": 3,
+        "Writing - original draft": 6,
+        "Writing - review & editing": 6
+      }
+    },
+    {
+      "name": "FORRT Booklet",
+      "url": "https://forrt.org/booklet/",
+      "contributors": 7,
+      "roles": {
+        "Conceptualization": 2,
+        "Project administration": 1,
+        "Resources": 1,
+        "Visualization": 2,
+        "Writing - original draft": 3,
+        "Writing - review & editing": 6
+      }
+    },
+    {
+      "name": "FORRT Germany Verein",
+      "url": "https://forrt.org/about/charity/",
+      "contributors": 7,
+      "roles": {
+        "Conceptualization": 5,
+        "Funding acquisition": 5,
+        "Project administration": 4,
+        "Supervision": 1,
+        "Writing - original draft": 3,
+        "Writing - review & editing": 4
+      }
+    },
+    {
+      "name": "Glossary - Serbian Translation",
+      "url": "https://forrt.org/glossary/",
+      "contributors": 7,
+      "roles": {
+        "Resources": 7,
+        "Translation": 7
+      }
+    },
+    {
+      "name": "JUST-OS",
+      "url": "https://www.just-os.org/",
+      "contributors": 7,
+      "roles": {
+        "Conceptualization": 4,
+        "Data curation": 5,
+        "Funding acquisition": 5,
+        "Investigation": 5,
+        "Methodology": 5,
+        "Project administration": 2,
+        "Resources": 6,
+        "Software": 1,
+        "Supervision": 2,
+        "Visualization": 2,
+        "Writing - original draft": 3,
+        "Writing - review & editing": 5
+      }
+    },
+    {
+      "name": "Team Einstein 2025",
+      "url": null,
+      "contributors": 7,
+      "roles": {
+        "Conceptualization": 2,
+        "Funding acquisition": 2,
+        "Resources": 7,
+        "Writing - original draft": 2,
+        "Writing - review & editing": 6
+      }
+    },
+    {
+      "name": "FORRT Lighthouse",
+      "url": "https://www.lighthouse.forrt.org/",
+      "contributors": 6,
+      "roles": {
+        "Conceptualization": 3,
+        "Software": 3,
+        "Visualization": 1
+      }
+    },
+    {
+      "name": "Glossary - Bulgarian Translation",
+      "url": null,
+      "contributors": 6,
+      "roles": {
+        "Resources": 6,
+        "Validation": 6,
+        "Translation": 6,
+        "Writing - original draft": 6,
+        "Writing - review & editing": 6
+      }
+    },
+    {
+      "name": "International Coordination Action Research Foundation - Flanders grant",
+      "url": null,
+      "contributors": 6,
+      "roles": {
+        "Conceptualization": 1,
+        "Project administration": 2,
+        "Resources": 1,
+        "Writing - original draft": 1,
+        "Writing - review & editing": 5
+      }
+    },
+    {
+      "name": "Mapping Open Science Communities",
+      "url": "https://forrt.org/mapping_os/",
+      "contributors": 6,
+      "roles": {
+        "Conceptualization": 1,
+        "Data curation": 1,
+        "Formal analysis": 1,
+        "Funding acquisition": 1,
+        "Investigation": 6,
+        "Project administration": 3,
+        "Supervision": 3,
+        "Validation": 6,
+        "Writing - original draft": 4,
+        "Writing - review & editing": 6
+      }
+    },
+    {
+      "name": "NWO POST-EDU Grant",
+      "url": null,
+      "contributors": 6,
+      "roles": {
+        "Conceptualization": 6,
+        "Visualization": 1,
+        "Writing - original draft": 4,
+        "Writing - review & editing": 6
+      }
+    },
+    {
+      "name": "Pubpeer RepNote",
+      "url": null,
+      "contributors": 6,
+      "roles": {
+        "Conceptualization": 4,
+        "Data curation": 3,
+        "Validation": 2,
+        "Writing - original draft": 1,
+        "Writing - review & editing": 4
+      }
+    },
+    {
+      "name": "Team Ideas",
+      "url": null,
+      "contributors": 6,
+      "roles": {
+        "Conceptualization": 1,
+        "Project administration": 2,
+        "Resources": 1,
+        "Supervision": 1,
+        "Writing - original draft": 1,
+        "Writing - review & editing": 1
+      }
+    },
+    {
+      "name": "Glossary - German Translation",
+      "url": "https://forrt.org/glossary/german/",
+      "contributors": 5,
+      "roles": {
+        "Project administration": 2,
+        "Resources": 5,
+        "Validation": 2,
+        "Translation": 5
+      }
+    },
+    {
+      "name": "Glossary - Portuguese Translation",
+      "url": null,
+      "contributors": 5,
+      "roles": {
+        "Resources": 5,
+        "Translation": 5
+      }
+    },
+    {
+      "name": "IOI Grant",
+      "url": null,
+      "contributors": 5,
+      "roles": {
+        "Conceptualization": 2,
+        "Funding acquisition": 5,
+        "Investigation": 2,
+        "Project administration": 2,
+        "Supervision": 2,
+        "Writing - original draft": 1,
+        "Writing - review & editing": 4
+      }
+    },
+    {
+      "name": "International Initiatives to Enhance Awareness and Uptake of Open Research in Psychology",
+      "url": "https://doi.org/10.1098/rsos.241726",
+      "contributors": 5,
+      "roles": {
+        "Conceptualization": 4,
+        "Data curation": 2,
+        "Formal analysis": 5,
+        "Funding acquisition": 1,
+        "Investigation": 2,
+        "Methodology": 2,
+        "Project administration": 1,
+        "Resources": 2,
+        "Software": 1,
+        "Supervision": 1,
+        "Validation": 4,
+        "Visualization": 2,
+        "Writing - original draft": 2,
+        "Writing - review & editing": 5
+      }
+    },
+    {
+      "name": "NWO TRACKREP Grant",
+      "url": null,
+      "contributors": 5,
+      "roles": {
+        "Conceptualization": 5,
+        "Visualization": 1,
+        "Writing - original draft": 5,
+        "Writing - review & editing": 5
+      }
+    },
+    {
+      "name": "Neurodivergent Authors Database",
+      "url": "https://docs.google.com/spreadsheets/d/1OnfQB1OqC00OflwTuRPBhG5NfX-_oLxxoTM_F_J5t5c/edit?gid=699666261#gid=699666261",
+      "contributors": 5,
+      "roles": {
+        "Conceptualization": 4,
+        "Data curation": 2,
+        "Formal analysis": 1,
+        "Funding acquisition": 4
+      }
+    },
+    {
+      "name": "Piece for the Educator’s corner",
+      "url": null,
+      "contributors": 5,
+      "roles": {
+        "Conceptualization": 2,
+        "Data curation": 2,
+        "Formal analysis": 2,
+        "Investigation": 2,
+        "Methodology": 2,
+        "Project administration": 2,
+        "Resources": 2,
+        "Software": 2,
+        "Validation": 2,
+        "Visualization": 2,
+        "Writing - original draft": 2,
+        "Writing - review & editing": 5
+      }
+    },
+    {
+      "name": "Replication Tracker Chromium Plugin",
+      "url": null,
+      "contributors": 5,
+      "roles": {
+        "Conceptualization": 3,
+        "Project administration": 1,
+        "Software": 2,
+        "Supervision": 1,
+        "Visualization": 1
+      }
+    },
+    {
+      "name": "Team Einstein 2022",
+      "url": null,
+      "contributors": 5,
+      "roles": {
+        "Conceptualization": 5,
+        "Investigation": 5,
+        "Project administration": 1,
+        "Supervision": 1,
+        "Writing - original draft": 5,
+        "Writing - review & editing": 5
+      }
+    },
+    {
+      "name": "Team Einstein 2023",
+      "url": null,
+      "contributors": 5,
+      "roles": {
+        "Conceptualization": 5,
+        "Investigation": 5,
+        "Project administration": 1,
+        "Supervision": 1,
+        "Writing - original draft": 5,
+        "Writing - review & editing": 5
+      }
+    },
+    {
+      "name": "Equity in Open Scholarship",
+      "url": null,
+      "contributors": 4,
+      "roles": {
+        "Conceptualization": 4,
+        "Data curation": 4,
+        "Investigation": 2,
+        "Methodology": 2,
+        "Writing - original draft": 4,
+        "Writing - review & editing": 4
+      }
+    },
+    {
+      "name": "FReD R package",
+      "url": "https://forrt.org/FReD/",
+      "contributors": 4,
+      "roles": {
+        "Conceptualization": 4,
+        "Software": 2
+      }
+    },
+    {
+      "name": "Glossary - Italian Translation",
+      "url": null,
+      "contributors": 4,
+      "roles": {
+        "Resources": 4,
+        "Translation": 4
+      }
+    },
+    {
+      "name": "Team Cohesion",
+      "url": null,
+      "contributors": 4,
+      "roles": {
+        "Conceptualization": 1,
+        "Project administration": 1,
+        "Resources": 4,
+        "Supervision": 1,
+        "Writing - original draft": 3,
+        "Writing - review & editing": 4
+      }
+    },
+    {
+      "name": "FORRT Robustness Lighthouse",
+      "url": null,
+      "contributors": 3,
+      "roles": {
+        "Conceptualization": 3
+      }
+    },
+    {
+      "name": "Open Research Book",
+      "url": "https://forrt.org/open-research-course/",
+      "contributors": 3,
+      "roles": {
+        "Conceptualization": 1,
+        "Project administration": 1,
+        "Resources": 1,
+        "Supervision": 1,
+        "Visualization": 1,
+        "Writing - original draft": 1,
+        "Writing - review & editing": 2
+      }
+    },
+    {
+      "name": "Glossary - Bengali Translation",
+      "url": null,
+      "contributors": 2,
+      "roles": {
+        "Project administration": 1,
+        "Resources": 2,
+        "Supervision": 1,
+        "Translation": 2
+      }
+    },
+    {
+      "name": "Glossary - Spanish Translation",
+      "url": null,
+      "contributors": 2,
+      "roles": {
+        "Resources": 2,
+        "Translation": 2
+      }
+    },
+    {
+      "name": "UNESCO/UN Application",
+      "url": null,
+      "contributors": 2,
+      "roles": {
+        "Conceptualization": 1,
+        "Funding acquisition": 1,
+        "Investigation": 1,
+        "Project administration": 1,
+        "Writing - original draft": 1,
+        "Writing - review & editing": 1
+      }
+    },
+    {
+      "name": "FORRTifying Open Science in The Netherlands: Grant",
+      "url": null,
+      "contributors": 1,
+      "roles": {
+        "Conceptualization": 1,
+        "Project administration": 1,
+        "Resources": 1,
+        "Writing - original draft": 1
+      }
+    }
+  ],
+  "projects_per_contributor": [
+    {
+      "projects": 1,
+      "contributors": 401
+    },
+    {
+      "projects": 2,
+      "contributors": 126
+    },
+    {
+      "projects": 3,
+      "contributors": 43
+    },
+    {
+      "projects": 4,
+      "contributors": 20
+    },
+    {
+      "projects": 5,
+      "contributors": 9
+    },
+    {
+      "projects": 6,
+      "contributors": 8
+    },
+    {
+      "projects": 7,
+      "contributors": 7
+    },
+    {
+      "projects": 8,
+      "contributors": 9
+    },
+    {
+      "projects": 9,
+      "contributors": 3
+    },
+    {
+      "projects": 10,
+      "contributors": 1
+    },
+    {
+      "projects": 11,
+      "contributors": 6
+    },
+    {
+      "projects": 12,
+      "contributors": 1
+    },
+    {
+      "projects": 15,
+      "contributors": 1
+    },
+    {
+      "projects": 16,
+      "contributors": 1
+    },
+    {
+      "projects": 17,
+      "contributors": 1
+    },
+    {
+      "projects": 20,
+      "contributors": 1
+    },
+    {
+      "projects": 23,
+      "contributors": 1
+    },
+    {
+      "projects": 24,
+      "contributors": 3
+    },
+    {
+      "projects": 58,
+      "contributors": 1
+    }
+  ]
+}

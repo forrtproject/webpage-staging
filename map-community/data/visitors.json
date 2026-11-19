@@ -1,0 +1,4809 @@
+{
+  "generated_at": "2026-09-13T14:29:20Z",
+  "source": "data/ga_data.json (monthly GA export)",
+  "has_engagement": false,
+  "automation_rule": null,
+  "ranges": {
+    "30d": {
+      "label": "Last 30 days",
+      "totals": {
+        "active_users": 16921,
+        "active_users_excluding_flagged": 16921,
+        "engaged_sessions": null,
+        "countries": 145,
+        "flagged_countries": 0
+      },
+      "countries": [
+        {
+          "name": "Singapore",
+          "map_name": "Singapore",
+          "active_users": 9120,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "United States of America",
+          "map_name": "United States of America",
+          "active_users": 1502,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "China",
+          "map_name": "China",
+          "active_users": 669,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Brazil",
+          "map_name": "Brazil",
+          "active_users": 487,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Germany",
+          "map_name": "Germany",
+          "active_users": 288,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "India",
+          "map_name": "India",
+          "active_users": 250,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "United Kingdom",
+          "map_name": "United Kingdom",
+          "active_users": 232,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Vietnam",
+          "map_name": "Vietnam",
+          "active_users": 232,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Ukraine",
+          "map_name": "Ukraine",
+          "active_users": 211,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Unknown",
+          "map_name": null,
+          "active_users": 200,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Pakistan",
+          "map_name": "Pakistan",
+          "active_users": 185,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "France",
+          "map_name": "France",
+          "active_users": 159,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Netherlands",
+          "map_name": "Netherlands",
+          "active_users": 153,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Argentina",
+          "map_name": "Argentina",
+          "active_users": 151,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Canada",
+          "map_name": "Canada",
+          "active_users": 138,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Russia",
+          "map_name": "Russia",
+          "active_users": 133,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Colombia",
+          "map_name": "Colombia",
+          "active_users": 121,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Mexico",
+          "map_name": "Mexico",
+          "active_users": 104,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Bangladesh",
+          "map_name": "Bangladesh",
+          "active_users": 97,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Iraq",
+          "map_name": "Iraq",
+          "active_users": 93,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "South Africa",
+          "map_name": "South Africa",
+          "active_users": 90,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Israel",
+          "map_name": "Israel",
+          "active_users": 84,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Saudi Arabia",
+          "map_name": "Saudi Arabia",
+          "active_users": 82,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Australia",
+          "map_name": "Australia",
+          "active_users": 79,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Türkiye",
+          "map_name": "Türkiye",
+          "active_users": 72,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Indonesia",
+          "map_name": "Indonesia",
+          "active_users": 71,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Chile",
+          "map_name": "Chile",
+          "active_users": 70,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Morocco",
+          "map_name": "Morocco",
+          "active_users": 67,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Uzbekistan",
+          "map_name": "Uzbekistan",
+          "active_users": 64,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Japan",
+          "map_name": "Japan",
+          "active_users": 59,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Venezuela",
+          "map_name": "Venezuela",
+          "active_users": 58,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "United Arab Emirates",
+          "map_name": "United Arab Emirates",
+          "active_users": 57,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Ireland",
+          "map_name": "Ireland",
+          "active_users": 54,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Philippines",
+          "map_name": "Philippines",
+          "active_users": 52,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Nigeria",
+          "map_name": "Nigeria",
+          "active_users": 51,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Tunisia",
+          "map_name": "Tunisia",
+          "active_users": 51,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Hong Kong",
+          "map_name": "Hong Kong",
+          "active_users": 48,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Italy",
+          "map_name": "Italy",
+          "active_users": 45,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Egypt",
+          "map_name": "Egypt",
+          "active_users": 44,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Ecuador",
+          "map_name": "Ecuador",
+          "active_users": 42,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Spain",
+          "map_name": "Spain",
+          "active_users": 39,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Kenya",
+          "map_name": "Kenya",
+          "active_users": 38,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Oman",
+          "map_name": "Oman",
+          "active_users": 35,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Kazakhstan",
+          "map_name": "Kazakhstan",
+          "active_users": 33,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Malaysia",
+          "map_name": "Malaysia",
+          "active_users": 33,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Belgium",
+          "map_name": "Belgium",
+          "active_users": 32,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Sweden",
+          "map_name": "Sweden",
+          "active_users": 32,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Azerbaijan",
+          "map_name": "Azerbaijan",
+          "active_users": 31,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Jordan",
+          "map_name": "Jordan",
+          "active_users": 31,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Peru",
+          "map_name": "Peru",
+          "active_users": 29,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Algeria",
+          "map_name": "Algeria",
+          "active_users": 28,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Taiwan",
+          "map_name": "Taiwan",
+          "active_users": 26,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Palestine",
+          "map_name": "West Bank",
+          "active_users": 25,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Switzerland",
+          "map_name": "Switzerland",
+          "active_users": 25,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Thailand",
+          "map_name": "Thailand",
+          "active_users": 24,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Denmark",
+          "map_name": "Denmark",
+          "active_users": 22,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "South Korea",
+          "map_name": "South Korea",
+          "active_users": 22,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Dominican Republic",
+          "map_name": "Dominican Republic",
+          "active_users": 21,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Nepal",
+          "map_name": "Nepal",
+          "active_users": 21,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "New Zealand",
+          "map_name": "New Zealand",
+          "active_users": 20,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Paraguay",
+          "map_name": "Paraguay",
+          "active_users": 20,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Iran",
+          "map_name": "Iran",
+          "active_users": 19,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Bolivia",
+          "map_name": "Bolivia",
+          "active_users": 17,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Senegal",
+          "map_name": "Senegal",
+          "active_users": 17,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Syria",
+          "map_name": "Syria",
+          "active_users": 17,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Albania",
+          "map_name": "Albania",
+          "active_users": 16,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Romania",
+          "map_name": "Romania",
+          "active_users": 16,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Unknown",
+          "map_name": null,
+          "active_users": 15,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Finland",
+          "map_name": "Finland",
+          "active_users": 15,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Georgia",
+          "map_name": "Georgia",
+          "active_users": 15,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Portugal",
+          "map_name": "Portugal",
+          "active_users": 15,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Austria",
+          "map_name": "Austria",
+          "active_users": 14,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Ethiopia",
+          "map_name": "Ethiopia",
+          "active_users": 14,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Moldova",
+          "map_name": "Moldova",
+          "active_users": 14,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Poland",
+          "map_name": "Poland",
+          "active_users": 14,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Uruguay",
+          "map_name": "Uruguay",
+          "active_users": 14,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Greece",
+          "map_name": "Greece",
+          "active_users": 13,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Hungary",
+          "map_name": "Hungary",
+          "active_users": 13,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Jamaica",
+          "map_name": "Jamaica",
+          "active_users": 12,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Qatar",
+          "map_name": "Qatar",
+          "active_users": 12,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Armenia",
+          "map_name": "Armenia",
+          "active_users": 11,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Lebanon",
+          "map_name": "Lebanon",
+          "active_users": 11,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Bahrain",
+          "map_name": null,
+          "active_users": 10,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Bulgaria",
+          "map_name": "Bulgaria",
+          "active_users": 10,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Côte d’Ivoire",
+          "map_name": "Côte d’Ivoire",
+          "active_users": 10,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Serbia",
+          "map_name": "Serbia",
+          "active_users": 10,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Belarus",
+          "map_name": "Belarus",
+          "active_users": 9,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Cambodia",
+          "map_name": "Cambodia",
+          "active_users": 9,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Norway",
+          "map_name": "Norway",
+          "active_users": 9,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Panama",
+          "map_name": "Panama",
+          "active_users": 9,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Sri Lanka",
+          "map_name": "Sri Lanka",
+          "active_users": 9,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Bosnia & Herzegovina",
+          "map_name": "Bosnia and Herzegovina",
+          "active_users": 7,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Congo - Brazzaville",
+          "map_name": "Republic of the Congo",
+          "active_users": 7,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Costa Rica",
+          "map_name": "Costa Rica",
+          "active_users": 7,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Guatemala",
+          "map_name": "Guatemala",
+          "active_users": 7,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Kosovo",
+          "map_name": "Kosovo",
+          "active_users": 7,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Kuwait",
+          "map_name": "Kuwait",
+          "active_users": 7,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Myanmar (Burma)",
+          "map_name": "Myanmar (Burma)",
+          "active_users": 7,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Slovenia",
+          "map_name": "Slovenia",
+          "active_users": 7,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Togo",
+          "map_name": "Togo",
+          "active_users": 7,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Angola",
+          "map_name": "Angola",
+          "active_users": 6,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Cyprus",
+          "map_name": "Cyprus",
+          "active_users": 6,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Honduras",
+          "map_name": "Honduras",
+          "active_users": 6,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Mauritius",
+          "map_name": null,
+          "active_users": 6,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Czechia",
+          "map_name": "Czechia",
+          "active_users": 5,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Gabon",
+          "map_name": "Gabon",
+          "active_users": 4,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Ghana",
+          "map_name": "Ghana",
+          "active_users": 4,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Latvia",
+          "map_name": "Latvia",
+          "active_users": 4,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Libya",
+          "map_name": "Libya",
+          "active_users": 4,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Lithuania",
+          "map_name": "Lithuania",
+          "active_users": 4,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Luxembourg",
+          "map_name": "Luxembourg",
+          "active_users": 4,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Mali",
+          "map_name": "Mali",
+          "active_users": 4,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Nicaragua",
+          "map_name": "Nicaragua",
+          "active_users": 4,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Brunei",
+          "map_name": "Brunei",
+          "active_users": 3,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "El Salvador",
+          "map_name": "El Salvador",
+          "active_users": 3,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Estonia",
+          "map_name": "Estonia",
+          "active_users": 3,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Kyrgyzstan",
+          "map_name": "Kyrgyzstan",
+          "active_users": 3,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Malta",
+          "map_name": "Malta",
+          "active_users": 3,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Botswana",
+          "map_name": "Botswana",
+          "active_users": 2,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Croatia",
+          "map_name": "Croatia",
+          "active_users": 2,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Guyana",
+          "map_name": "Guyana",
+          "active_users": 2,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Isle of Man",
+          "map_name": null,
+          "active_users": 2,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Martinique",
+          "map_name": null,
+          "active_users": 2,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "North Macedonia",
+          "map_name": "Macedonia",
+          "active_users": 2,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Puerto Rico",
+          "map_name": "Puerto Rico",
+          "active_users": 2,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Sudan",
+          "map_name": "Sudan",
+          "active_users": 2,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Trinidad & Tobago",
+          "map_name": null,
+          "active_users": 2,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Western Sahara",
+          "map_name": "Western Sahara",
+          "active_users": 2,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Zambia",
+          "map_name": "Zambia",
+          "active_users": 2,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Zimbabwe",
+          "map_name": "Zimbabwe",
+          "active_users": 2,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Bahamas",
+          "map_name": "The Bahamas",
+          "active_users": 1,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Burkina Faso",
+          "map_name": "Burkina Faso",
+          "active_users": 1,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Cayman Islands",
+          "map_name": null,
+          "active_users": 1,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Laos",
+          "map_name": "Laos",
+          "active_users": 1,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Macao",
+          "map_name": null,
+          "active_users": 1,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Mongolia",
+          "map_name": "Mongolia",
+          "active_users": 1,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Namibia",
+          "map_name": "Namibia",
+          "active_users": 1,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Rwanda",
+          "map_name": "Rwanda",
+          "active_users": 1,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Réunion",
+          "map_name": null,
+          "active_users": 1,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Sint Maarten",
+          "map_name": null,
+          "active_users": 1,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Slovakia",
+          "map_name": "Slovakia",
+          "active_users": 1,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "St. Lucia",
+          "map_name": null,
+          "active_users": 1,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Suriname",
+          "map_name": "Suriname",
+          "active_users": 1,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Tanzania",
+          "map_name": "Tanzania",
+          "active_users": 1,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "U.S. Virgin Islands",
+          "map_name": null,
+          "active_users": 1,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Uganda",
+          "map_name": "Uganda",
+          "active_users": 1,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Vanuatu",
+          "map_name": "Vanuatu",
+          "active_users": 1,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        }
+      ],
+      "daily": [
+        {
+          "date": "2026-08-02",
+          "active_users": 216,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-08-03",
+          "active_users": 253,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-08-04",
+          "active_users": 354,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-08-05",
+          "active_users": 286,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-08-06",
+          "active_users": 266,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-08-07",
+          "active_users": 301,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-08-08",
+          "active_users": 254,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-08-09",
+          "active_users": 351,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-08-10",
+          "active_users": 4356,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-08-11",
+          "active_users": 374,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-08-12",
+          "active_users": 329,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-08-13",
+          "active_users": 354,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-08-14",
+          "active_users": 538,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-08-15",
+          "active_users": 595,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-08-16",
+          "active_users": 365,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-08-17",
+          "active_users": 284,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-08-18",
+          "active_users": 265,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-08-19",
+          "active_users": 368,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-08-20",
+          "active_users": 446,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-08-21",
+          "active_users": 447,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-08-22",
+          "active_users": 358,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-08-23",
+          "active_users": 293,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-08-24",
+          "active_users": 338,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-08-25",
+          "active_users": 407,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-08-26",
+          "active_users": 312,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-08-27",
+          "active_users": 376,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-08-28",
+          "active_users": 360,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-08-29",
+          "active_users": 224,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-08-30",
+          "active_users": 269,
+          "engaged_sessions": null
+        }
+      ],
+      "top_pages": [
+        {
+          "path": "/",
+          "title": null,
+          "views": 989
+        },
+        {
+          "path": "/resources/",
+          "title": null,
+          "views": 643
+        },
+        {
+          "path": "/reversals/",
+          "title": null,
+          "views": 350
+        },
+        {
+          "path": "/about/get-involved/",
+          "title": null,
+          "views": 226
+        },
+        {
+          "path": "/glossary/english/",
+          "title": null,
+          "views": 213
+        },
+        {
+          "path": "/ai-metascience/",
+          "title": null,
+          "views": 211
+        },
+        {
+          "path": "/awop/",
+          "title": null,
+          "views": 196
+        },
+        {
+          "path": "/about/us/",
+          "title": null,
+          "views": 160
+        },
+        {
+          "path": "/clusters/",
+          "title": null,
+          "views": 155
+        },
+        {
+          "path": "/publications/",
+          "title": null,
+          "views": 133
+        }
+      ]
+    },
+    "12m": {
+      "label": "Last 12 months",
+      "totals": {
+        "active_users": 149168,
+        "active_users_excluding_flagged": 149168,
+        "engaged_sessions": null,
+        "countries": 189,
+        "flagged_countries": 0
+      },
+      "countries": [
+        {
+          "name": "Singapore",
+          "map_name": "Singapore",
+          "active_users": 56115,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "China",
+          "map_name": "China",
+          "active_users": 35204,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "United States of America",
+          "map_name": "United States of America",
+          "active_users": 14679,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Germany",
+          "map_name": "Germany",
+          "active_users": 5212,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "United Kingdom",
+          "map_name": "United Kingdom",
+          "active_users": 4497,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Netherlands",
+          "map_name": "Netherlands",
+          "active_users": 2812,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Ireland",
+          "map_name": "Ireland",
+          "active_users": 1665,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Brazil",
+          "map_name": "Brazil",
+          "active_users": 1505,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Vietnam",
+          "map_name": "Vietnam",
+          "active_users": 1493,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "India",
+          "map_name": "India",
+          "active_users": 1455,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Unknown",
+          "map_name": null,
+          "active_users": 1363,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Canada",
+          "map_name": "Canada",
+          "active_users": 1354,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Türkiye",
+          "map_name": "Türkiye",
+          "active_users": 871,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Poland",
+          "map_name": "Poland",
+          "active_users": 830,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "France",
+          "map_name": "France",
+          "active_users": 820,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Australia",
+          "map_name": "Australia",
+          "active_users": 788,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Indonesia",
+          "map_name": "Indonesia",
+          "active_users": 708,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Switzerland",
+          "map_name": "Switzerland",
+          "active_users": 676,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Saudi Arabia",
+          "map_name": "Saudi Arabia",
+          "active_users": 658,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Iraq",
+          "map_name": "Iraq",
+          "active_users": 655,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Hong Kong",
+          "map_name": "Hong Kong",
+          "active_users": 639,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Japan",
+          "map_name": "Japan",
+          "active_users": 594,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Philippines",
+          "map_name": "Philippines",
+          "active_users": 568,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Argentina",
+          "map_name": "Argentina",
+          "active_users": 565,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Algeria",
+          "map_name": "Algeria",
+          "active_users": 534,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Egypt",
+          "map_name": "Egypt",
+          "active_users": 523,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Sweden",
+          "map_name": "Sweden",
+          "active_users": 501,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Austria",
+          "map_name": "Austria",
+          "active_users": 472,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Italy",
+          "map_name": "Italy",
+          "active_users": 469,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Spain",
+          "map_name": "Spain",
+          "active_users": 457,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Colombia",
+          "map_name": "Colombia",
+          "active_users": 437,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Malaysia",
+          "map_name": "Malaysia",
+          "active_users": 411,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Bangladesh",
+          "map_name": "Bangladesh",
+          "active_users": 407,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Mexico",
+          "map_name": "Mexico",
+          "active_users": 394,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Pakistan",
+          "map_name": "Pakistan",
+          "active_users": 394,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "South Africa",
+          "map_name": "South Africa",
+          "active_users": 379,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Russia",
+          "map_name": "Russia",
+          "active_users": 365,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Ukraine",
+          "map_name": "Ukraine",
+          "active_users": 304,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Morocco",
+          "map_name": "Morocco",
+          "active_users": 298,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "United Arab Emirates",
+          "map_name": "United Arab Emirates",
+          "active_users": 287,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Belgium",
+          "map_name": "Belgium",
+          "active_users": 281,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Norway",
+          "map_name": "Norway",
+          "active_users": 258,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Venezuela",
+          "map_name": "Venezuela",
+          "active_users": 253,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Ecuador",
+          "map_name": "Ecuador",
+          "active_users": 235,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Jordan",
+          "map_name": "Jordan",
+          "active_users": 211,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Israel",
+          "map_name": "Israel",
+          "active_users": 208,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Chile",
+          "map_name": "Chile",
+          "active_users": 204,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "South Korea",
+          "map_name": "South Korea",
+          "active_users": 202,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Kenya",
+          "map_name": "Kenya",
+          "active_users": 189,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Nigeria",
+          "map_name": "Nigeria",
+          "active_users": 184,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Portugal",
+          "map_name": "Portugal",
+          "active_users": 181,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Denmark",
+          "map_name": "Denmark",
+          "active_users": 165,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Croatia",
+          "map_name": "Croatia",
+          "active_users": 160,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Taiwan",
+          "map_name": "Taiwan",
+          "active_users": 147,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Tunisia",
+          "map_name": "Tunisia",
+          "active_users": 145,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Greece",
+          "map_name": "Greece",
+          "active_users": 144,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Syria",
+          "map_name": "Syria",
+          "active_users": 141,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Peru",
+          "map_name": "Peru",
+          "active_users": 135,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "New Zealand",
+          "map_name": "New Zealand",
+          "active_users": 134,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Uzbekistan",
+          "map_name": "Uzbekistan",
+          "active_users": 133,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Finland",
+          "map_name": "Finland",
+          "active_users": 129,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Nepal",
+          "map_name": "Nepal",
+          "active_users": 129,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Czechia",
+          "map_name": "Czechia",
+          "active_users": 125,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Oman",
+          "map_name": "Oman",
+          "active_users": 108,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Thailand",
+          "map_name": "Thailand",
+          "active_users": 106,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Romania",
+          "map_name": "Romania",
+          "active_users": 100,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Palestine",
+          "map_name": "West Bank",
+          "active_users": 84,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Serbia",
+          "map_name": "Serbia",
+          "active_users": 79,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Iran",
+          "map_name": "Iran",
+          "active_users": 77,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Libya",
+          "map_name": "Libya",
+          "active_users": 76,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Qatar",
+          "map_name": "Qatar",
+          "active_users": 76,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Kazakhstan",
+          "map_name": "Kazakhstan",
+          "active_users": 74,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Bahrain",
+          "map_name": null,
+          "active_users": 70,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Azerbaijan",
+          "map_name": "Azerbaijan",
+          "active_users": 68,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Hungary",
+          "map_name": "Hungary",
+          "active_users": 67,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Lebanon",
+          "map_name": "Lebanon",
+          "active_users": 66,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Uruguay",
+          "map_name": "Uruguay",
+          "active_users": 60,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Bulgaria",
+          "map_name": "Bulgaria",
+          "active_users": 58,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Ethiopia",
+          "map_name": "Ethiopia",
+          "active_users": 58,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Panama",
+          "map_name": "Panama",
+          "active_users": 58,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Paraguay",
+          "map_name": "Paraguay",
+          "active_users": 58,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Bolivia",
+          "map_name": "Bolivia",
+          "active_users": 56,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Sudan",
+          "map_name": "Sudan",
+          "active_users": 55,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Cambodia",
+          "map_name": "Cambodia",
+          "active_users": 51,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Kuwait",
+          "map_name": "Kuwait",
+          "active_users": 51,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Senegal",
+          "map_name": "Senegal",
+          "active_users": 44,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Slovenia",
+          "map_name": "Slovenia",
+          "active_users": 42,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Dominican Republic",
+          "map_name": "Dominican Republic",
+          "active_users": 39,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Georgia",
+          "map_name": "Georgia",
+          "active_users": 36,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Myanmar (Burma)",
+          "map_name": "Myanmar (Burma)",
+          "active_users": 36,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Albania",
+          "map_name": "Albania",
+          "active_users": 34,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Jamaica",
+          "map_name": "Jamaica",
+          "active_users": 34,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Tanzania",
+          "map_name": "Tanzania",
+          "active_users": 33,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Costa Rica",
+          "map_name": "Costa Rica",
+          "active_users": 32,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Ghana",
+          "map_name": "Ghana",
+          "active_users": 31,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Sri Lanka",
+          "map_name": "Sri Lanka",
+          "active_users": 31,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Armenia",
+          "map_name": "Armenia",
+          "active_users": 28,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Lithuania",
+          "map_name": "Lithuania",
+          "active_users": 28,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Congo - Brazzaville",
+          "map_name": "Republic of the Congo",
+          "active_users": 27,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Laos",
+          "map_name": "Laos",
+          "active_users": 27,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Moldova",
+          "map_name": "Moldova",
+          "active_users": 27,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Uganda",
+          "map_name": "Uganda",
+          "active_users": 27,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Puerto Rico",
+          "map_name": "Puerto Rico",
+          "active_users": 24,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Latvia",
+          "map_name": "Latvia",
+          "active_users": 23,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Côte d’Ivoire",
+          "map_name": "Côte d’Ivoire",
+          "active_users": 22,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Yemen",
+          "map_name": "Yemen",
+          "active_users": 22,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Honduras",
+          "map_name": "Honduras",
+          "active_users": 20,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Angola",
+          "map_name": "Angola",
+          "active_users": 19,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Kyrgyzstan",
+          "map_name": "Kyrgyzstan",
+          "active_users": 19,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Belarus",
+          "map_name": "Belarus",
+          "active_users": 18,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Cyprus",
+          "map_name": "Cyprus",
+          "active_users": 18,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Estonia",
+          "map_name": "Estonia",
+          "active_users": 18,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Iceland",
+          "map_name": "Iceland",
+          "active_users": 18,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Kosovo",
+          "map_name": "Kosovo",
+          "active_users": 17,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Slovakia",
+          "map_name": "Slovakia",
+          "active_users": 17,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Bosnia & Herzegovina",
+          "map_name": "Bosnia and Herzegovina",
+          "active_users": 16,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "North Macedonia",
+          "map_name": "Macedonia",
+          "active_users": 16,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Unknown",
+          "map_name": null,
+          "active_users": 15,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Brunei",
+          "map_name": "Brunei",
+          "active_users": 13,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Luxembourg",
+          "map_name": "Luxembourg",
+          "active_users": 13,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Zimbabwe",
+          "map_name": "Zimbabwe",
+          "active_users": 13,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "El Salvador",
+          "map_name": "El Salvador",
+          "active_users": 11,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Montenegro",
+          "map_name": "Montenegro",
+          "active_users": 11,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Nicaragua",
+          "map_name": "Nicaragua",
+          "active_users": 11,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Togo",
+          "map_name": "Togo",
+          "active_users": 11,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Gabon",
+          "map_name": "Gabon",
+          "active_users": 10,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Tajikistan",
+          "map_name": "Tajikistan",
+          "active_users": 10,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Guatemala",
+          "map_name": "Guatemala",
+          "active_users": 9,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Rwanda",
+          "map_name": "Rwanda",
+          "active_users": 9,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Trinidad & Tobago",
+          "map_name": null,
+          "active_users": 9,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Mongolia",
+          "map_name": "Mongolia",
+          "active_users": 8,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Zambia",
+          "map_name": "Zambia",
+          "active_users": 8,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Botswana",
+          "map_name": "Botswana",
+          "active_users": 7,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Macao",
+          "map_name": null,
+          "active_users": 7,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Mali",
+          "map_name": "Mali",
+          "active_users": 7,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Mauritania",
+          "map_name": "Mauritania",
+          "active_users": 7,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Mauritius",
+          "map_name": null,
+          "active_users": 7,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Malawi",
+          "map_name": "Malawi",
+          "active_users": 6,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Maldives",
+          "map_name": null,
+          "active_users": 6,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Chad",
+          "map_name": "Chad",
+          "active_users": 5,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Guyana",
+          "map_name": "Guyana",
+          "active_users": 5,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Liberia",
+          "map_name": "Liberia",
+          "active_users": 5,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Malta",
+          "map_name": "Malta",
+          "active_users": 5,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Somalia",
+          "map_name": "Somalia",
+          "active_users": 5,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Burkina Faso",
+          "map_name": "Burkina Faso",
+          "active_users": 4,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Cameroon",
+          "map_name": "Cameroon",
+          "active_users": 4,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Gambia",
+          "map_name": "Gambia",
+          "active_users": 4,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Western Sahara",
+          "map_name": "Western Sahara",
+          "active_users": 4,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Barbados",
+          "map_name": null,
+          "active_users": 3,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Benin",
+          "map_name": "Benin",
+          "active_users": 3,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Congo - Kinshasa",
+          "map_name": "Democratic Republic of the Congo",
+          "active_users": 3,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Mozambique",
+          "map_name": "Mozambique",
+          "active_users": 3,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Timor-Leste",
+          "map_name": "East Timor",
+          "active_users": 3,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Aruba",
+          "map_name": null,
+          "active_users": 2,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Cape Verde",
+          "map_name": null,
+          "active_users": 2,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Cayman Islands",
+          "map_name": null,
+          "active_users": 2,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Dominica",
+          "map_name": null,
+          "active_users": 2,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Fiji",
+          "map_name": "Fiji",
+          "active_users": 2,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Guernsey",
+          "map_name": null,
+          "active_users": 2,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Isle of Man",
+          "map_name": null,
+          "active_users": 2,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Lesotho",
+          "map_name": "Lesotho",
+          "active_users": 2,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Martinique",
+          "map_name": null,
+          "active_users": 2,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Namibia",
+          "map_name": "Namibia",
+          "active_users": 2,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Papua New Guinea",
+          "map_name": "Papua New Guinea",
+          "active_users": 2,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Sierra Leone",
+          "map_name": "Sierra Leone",
+          "active_users": 2,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "St. Lucia",
+          "map_name": null,
+          "active_users": 2,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "St. Vincent & Grenadines",
+          "map_name": null,
+          "active_users": 2,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Suriname",
+          "map_name": "Suriname",
+          "active_users": 2,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "U.S. Virgin Islands",
+          "map_name": null,
+          "active_users": 2,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Andorra",
+          "map_name": null,
+          "active_users": 1,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Bahamas",
+          "map_name": "The Bahamas",
+          "active_users": 1,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Belize",
+          "map_name": "Belize",
+          "active_users": 1,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Bermuda",
+          "map_name": "Bermuda",
+          "active_users": 1,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Bhutan",
+          "map_name": "Bhutan",
+          "active_users": 1,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Burundi",
+          "map_name": "Burundi",
+          "active_users": 1,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Caribbean Netherlands",
+          "map_name": null,
+          "active_users": 1,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Cuba",
+          "map_name": "Cuba",
+          "active_users": 1,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Curaçao",
+          "map_name": null,
+          "active_users": 1,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Eswatini",
+          "map_name": "Swaziland",
+          "active_users": 1,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Grenada",
+          "map_name": null,
+          "active_users": 1,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Guam",
+          "map_name": null,
+          "active_users": 1,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Guinea",
+          "map_name": "Guinea",
+          "active_users": 1,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Haiti",
+          "map_name": "Haiti",
+          "active_users": 1,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Kiribati",
+          "map_name": null,
+          "active_users": 1,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Liechtenstein",
+          "map_name": null,
+          "active_users": 1,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Réunion",
+          "map_name": null,
+          "active_users": 1,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Seychelles",
+          "map_name": null,
+          "active_users": 1,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Sint Maarten",
+          "map_name": null,
+          "active_users": 1,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "South Sudan",
+          "map_name": "South Sudan",
+          "active_users": 1,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "St. Kitts & Nevis",
+          "map_name": null,
+          "active_users": 1,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        },
+        {
+          "name": "Vanuatu",
+          "map_name": "Vanuatu",
+          "active_users": 1,
+          "engaged_sessions": null,
+          "engagement_rate": null,
+          "likely_automated": false
+        }
+      ],
+      "daily": [
+        {
+          "date": "2025-09-01",
+          "active_users": 185,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2025-09-02",
+          "active_users": 164,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2025-09-03",
+          "active_users": 161,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2025-09-04",
+          "active_users": 153,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2025-09-05",
+          "active_users": 160,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2025-09-06",
+          "active_users": 108,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2025-09-07",
+          "active_users": 104,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2025-09-08",
+          "active_users": 177,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2025-09-09",
+          "active_users": 152,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2025-09-10",
+          "active_users": 605,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2025-09-11",
+          "active_users": 264,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2025-09-12",
+          "active_users": 168,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2025-09-13",
+          "active_users": 128,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2025-09-14",
+          "active_users": 207,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2025-09-15",
+          "active_users": 253,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2025-09-16",
+          "active_users": 286,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2025-09-17",
+          "active_users": 233,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2025-09-18",
+          "active_users": 184,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2025-09-19",
+          "active_users": 218,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2025-09-20",
+          "active_users": 116,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2025-09-21",
+          "active_users": 159,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2025-09-22",
+          "active_users": 292,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2025-09-23",
+          "active_users": 222,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2025-09-24",
+          "active_users": 155,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2025-09-25",
+          "active_users": 164,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2025-09-26",
+          "active_users": 147,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2025-09-27",
+          "active_users": 169,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2025-09-28",
+          "active_users": 131,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2025-09-29",
+          "active_users": 214,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2025-09-30",
+          "active_users": 224,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2025-10-01",
+          "active_users": 235,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2025-10-02",
+          "active_users": 196,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2025-10-03",
+          "active_users": 518,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2025-10-04",
+          "active_users": 202,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2025-10-05",
+          "active_users": 116,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2025-10-06",
+          "active_users": 306,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2025-10-07",
+          "active_users": 321,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2025-10-08",
+          "active_users": 453,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2025-10-09",
+          "active_users": 680,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2025-10-10",
+          "active_users": 205,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2025-10-11",
+          "active_users": 172,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2025-10-12",
+          "active_users": 416,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2025-10-13",
+          "active_users": 509,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2025-10-14",
+          "active_users": 269,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2025-10-15",
+          "active_users": 206,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2025-10-16",
+          "active_users": 185,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2025-10-17",
+          "active_users": 191,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2025-10-18",
+          "active_users": 107,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2025-10-19",
+          "active_users": 252,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2025-10-20",
+          "active_users": 317,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2025-10-21",
+          "active_users": 222,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2025-10-22",
+          "active_users": 246,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2025-10-23",
+          "active_users": 249,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2025-10-24",
+          "active_users": 236,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2025-10-25",
+          "active_users": 164,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2025-10-26",
+          "active_users": 191,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2025-10-27",
+          "active_users": 510,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2025-10-28",
+          "active_users": 651,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2025-10-29",
+          "active_users": 547,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2025-10-30",
+          "active_users": 540,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2025-10-31",
+          "active_users": 202,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2025-11-01",
+          "active_users": 264,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2025-11-02",
+          "active_users": 212,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2025-11-03",
+          "active_users": 317,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2025-11-04",
+          "active_users": 335,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2025-11-05",
+          "active_users": 238,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2025-11-06",
+          "active_users": 266,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2025-11-07",
+          "active_users": 271,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2025-11-08",
+          "active_users": 145,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2025-11-09",
+          "active_users": 149,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2025-11-10",
+          "active_users": 209,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2025-11-11",
+          "active_users": 504,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2025-11-12",
+          "active_users": 797,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2025-11-13",
+          "active_users": 802,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2025-11-14",
+          "active_users": 521,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2025-11-15",
+          "active_users": 300,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2025-11-16",
+          "active_users": 171,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2025-11-17",
+          "active_users": 334,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2025-11-18",
+          "active_users": 239,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2025-11-19",
+          "active_users": 210,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2025-11-20",
+          "active_users": 197,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2025-11-21",
+          "active_users": 391,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2025-11-22",
+          "active_users": 226,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2025-11-23",
+          "active_users": 187,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2025-11-24",
+          "active_users": 316,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2025-11-25",
+          "active_users": 400,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2025-11-26",
+          "active_users": 264,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2025-11-27",
+          "active_users": 483,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2025-11-28",
+          "active_users": 773,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2025-11-29",
+          "active_users": 646,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2025-11-30",
+          "active_users": 286,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2025-12-01",
+          "active_users": 348,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2025-12-02",
+          "active_users": 240,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2025-12-03",
+          "active_users": 209,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2025-12-04",
+          "active_users": 220,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2025-12-05",
+          "active_users": 245,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2025-12-06",
+          "active_users": 133,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2025-12-07",
+          "active_users": 127,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2025-12-08",
+          "active_users": 207,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2025-12-09",
+          "active_users": 223,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2025-12-10",
+          "active_users": 270,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2025-12-11",
+          "active_users": 331,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2025-12-12",
+          "active_users": 366,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2025-12-13",
+          "active_users": 520,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2025-12-14",
+          "active_users": 3687,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2025-12-15",
+          "active_users": 590,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2025-12-16",
+          "active_users": 419,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2025-12-17",
+          "active_users": 212,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2025-12-18",
+          "active_users": 177,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2025-12-19",
+          "active_users": 164,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2025-12-20",
+          "active_users": 138,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2025-12-21",
+          "active_users": 127,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2025-12-22",
+          "active_users": 177,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2025-12-23",
+          "active_users": 191,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2025-12-24",
+          "active_users": 128,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2025-12-25",
+          "active_users": 146,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2025-12-26",
+          "active_users": 137,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2025-12-27",
+          "active_users": 783,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2025-12-28",
+          "active_users": 326,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2025-12-29",
+          "active_users": 491,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2025-12-30",
+          "active_users": 593,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2025-12-31",
+          "active_users": 386,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-01-01",
+          "active_users": 293,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-01-02",
+          "active_users": 276,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-01-03",
+          "active_users": 203,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-01-04",
+          "active_users": 218,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-01-05",
+          "active_users": 279,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-01-06",
+          "active_users": 275,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-01-07",
+          "active_users": 307,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-01-08",
+          "active_users": 254,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-01-09",
+          "active_users": 222,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-01-10",
+          "active_users": 161,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-01-11",
+          "active_users": 162,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-01-12",
+          "active_users": 389,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-01-13",
+          "active_users": 539,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-01-14",
+          "active_users": 565,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-01-15",
+          "active_users": 438,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-01-16",
+          "active_users": 382,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-01-17",
+          "active_users": 248,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-01-18",
+          "active_users": 205,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-01-19",
+          "active_users": 251,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-01-20",
+          "active_users": 513,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-01-21",
+          "active_users": 288,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-01-22",
+          "active_users": 285,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-01-23",
+          "active_users": 247,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-01-24",
+          "active_users": 178,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-01-25",
+          "active_users": 376,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-01-26",
+          "active_users": 311,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-01-27",
+          "active_users": 418,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-01-28",
+          "active_users": 537,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-01-29",
+          "active_users": 623,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-01-30",
+          "active_users": 588,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-01-31",
+          "active_users": 526,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-02-01",
+          "active_users": 303,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-02-02",
+          "active_users": 471,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-02-03",
+          "active_users": 503,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-02-04",
+          "active_users": 471,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-02-05",
+          "active_users": 762,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-02-06",
+          "active_users": 406,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-02-07",
+          "active_users": 349,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-02-08",
+          "active_users": 357,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-02-09",
+          "active_users": 529,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-02-10",
+          "active_users": 534,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-02-11",
+          "active_users": 343,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-02-12",
+          "active_users": 468,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-02-13",
+          "active_users": 466,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-02-14",
+          "active_users": 430,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-02-15",
+          "active_users": 473,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-02-16",
+          "active_users": 489,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-02-17",
+          "active_users": 509,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-02-18",
+          "active_users": 485,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-02-19",
+          "active_users": 540,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-02-20",
+          "active_users": 486,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-02-21",
+          "active_users": 415,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-02-22",
+          "active_users": 404,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-02-23",
+          "active_users": 474,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-02-24",
+          "active_users": 488,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-02-25",
+          "active_users": 472,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-02-26",
+          "active_users": 512,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-02-27",
+          "active_users": 543,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-02-28",
+          "active_users": 383,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-03-01",
+          "active_users": 384,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-03-02",
+          "active_users": 391,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-03-03",
+          "active_users": 405,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-03-04",
+          "active_users": 422,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-03-05",
+          "active_users": 437,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-03-06",
+          "active_users": 419,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-03-07",
+          "active_users": 379,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-03-08",
+          "active_users": 353,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-03-09",
+          "active_users": 498,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-03-10",
+          "active_users": 476,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-03-11",
+          "active_users": 417,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-03-12",
+          "active_users": 382,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-03-13",
+          "active_users": 331,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-03-14",
+          "active_users": 390,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-03-15",
+          "active_users": 362,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-03-16",
+          "active_users": 396,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-03-17",
+          "active_users": 335,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-03-18",
+          "active_users": 431,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-03-19",
+          "active_users": 485,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-03-20",
+          "active_users": 327,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-03-21",
+          "active_users": 201,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-03-22",
+          "active_users": 246,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-03-23",
+          "active_users": 300,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-03-24",
+          "active_users": 325,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-03-25",
+          "active_users": 331,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-03-26",
+          "active_users": 309,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-03-27",
+          "active_users": 263,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-03-28",
+          "active_users": 159,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-03-29",
+          "active_users": 142,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-03-30",
+          "active_users": 257,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-03-31",
+          "active_users": 435,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-04-01",
+          "active_users": 364,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-04-02",
+          "active_users": 375,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-04-03",
+          "active_users": 275,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-04-04",
+          "active_users": 291,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-04-05",
+          "active_users": 253,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-04-06",
+          "active_users": 289,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-04-07",
+          "active_users": 315,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-04-08",
+          "active_users": 282,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-04-09",
+          "active_users": 304,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-04-10",
+          "active_users": 280,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-04-11",
+          "active_users": 183,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-04-12",
+          "active_users": 149,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-04-13",
+          "active_users": 261,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-04-14",
+          "active_users": 262,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-04-15",
+          "active_users": 214,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-04-16",
+          "active_users": 225,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-04-17",
+          "active_users": 203,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-04-18",
+          "active_users": 235,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-04-19",
+          "active_users": 285,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-04-20",
+          "active_users": 429,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-04-21",
+          "active_users": 516,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-04-22",
+          "active_users": 601,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-04-23",
+          "active_users": 316,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-04-24",
+          "active_users": 280,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-04-25",
+          "active_users": 230,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-04-26",
+          "active_users": 249,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-04-27",
+          "active_users": 315,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-04-28",
+          "active_users": 364,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-04-29",
+          "active_users": 400,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-04-30",
+          "active_users": 578,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-05-01",
+          "active_users": 511,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-05-02",
+          "active_users": 371,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-05-03",
+          "active_users": 333,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-05-04",
+          "active_users": 429,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-05-05",
+          "active_users": 536,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-05-06",
+          "active_users": 532,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-05-07",
+          "active_users": 442,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-05-08",
+          "active_users": 2983,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-05-09",
+          "active_users": 391,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-05-10",
+          "active_users": 378,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-05-11",
+          "active_users": 559,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-05-12",
+          "active_users": 580,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-05-13",
+          "active_users": 1098,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-05-14",
+          "active_users": 823,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-05-15",
+          "active_users": 572,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-05-16",
+          "active_users": 459,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-05-17",
+          "active_users": 455,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-05-18",
+          "active_users": 488,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-05-19",
+          "active_users": 449,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-05-20",
+          "active_users": 451,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-05-21",
+          "active_users": 606,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-05-22",
+          "active_users": 538,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-05-23",
+          "active_users": 369,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-05-24",
+          "active_users": 302,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-05-25",
+          "active_users": 346,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-05-26",
+          "active_users": 444,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-05-27",
+          "active_users": 536,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-05-28",
+          "active_users": 507,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-05-29",
+          "active_users": 489,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-05-30",
+          "active_users": 343,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-05-31",
+          "active_users": 606,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-06-01",
+          "active_users": 613,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-06-02",
+          "active_users": 440,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-06-03",
+          "active_users": 901,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-06-04",
+          "active_users": 419,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-06-05",
+          "active_users": 402,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-06-06",
+          "active_users": 324,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-06-07",
+          "active_users": 338,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-06-08",
+          "active_users": 418,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-06-09",
+          "active_users": 2491,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-06-10",
+          "active_users": 341,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-06-11",
+          "active_users": 494,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-06-12",
+          "active_users": 561,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-06-13",
+          "active_users": 549,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-06-14",
+          "active_users": 654,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-06-15",
+          "active_users": 719,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-06-16",
+          "active_users": 563,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-06-17",
+          "active_users": 607,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-06-18",
+          "active_users": 612,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-06-19",
+          "active_users": 676,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-06-20",
+          "active_users": 668,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-06-21",
+          "active_users": 551,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-06-22",
+          "active_users": 822,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-06-23",
+          "active_users": 610,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-06-24",
+          "active_users": 500,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-06-25",
+          "active_users": 457,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-06-26",
+          "active_users": 605,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-06-27",
+          "active_users": 536,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-06-28",
+          "active_users": 338,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-06-29",
+          "active_users": 295,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-06-30",
+          "active_users": 827,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-07-01",
+          "active_users": 471,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-07-02",
+          "active_users": 431,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-07-03",
+          "active_users": 388,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-07-04",
+          "active_users": 287,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-07-05",
+          "active_users": 417,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-07-06",
+          "active_users": 397,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-07-07",
+          "active_users": 369,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-07-08",
+          "active_users": 344,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-07-09",
+          "active_users": 773,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-07-10",
+          "active_users": 731,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-07-11",
+          "active_users": 397,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-07-12",
+          "active_users": 201,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-07-13",
+          "active_users": 343,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-07-14",
+          "active_users": 279,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-07-15",
+          "active_users": 227,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-07-16",
+          "active_users": 303,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-07-17",
+          "active_users": 379,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-07-18",
+          "active_users": 328,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-07-19",
+          "active_users": 243,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-07-20",
+          "active_users": 289,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-07-21",
+          "active_users": 363,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-07-22",
+          "active_users": 437,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-07-23",
+          "active_users": 438,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-07-24",
+          "active_users": 269,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-07-25",
+          "active_users": 201,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-07-26",
+          "active_users": 211,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-07-27",
+          "active_users": 230,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-07-28",
+          "active_users": 339,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-07-29",
+          "active_users": 318,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-07-30",
+          "active_users": 350,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-07-31",
+          "active_users": 426,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-08-01",
+          "active_users": 281,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-08-02",
+          "active_users": 216,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-08-03",
+          "active_users": 253,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-08-04",
+          "active_users": 354,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-08-05",
+          "active_users": 286,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-08-06",
+          "active_users": 266,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-08-07",
+          "active_users": 301,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-08-08",
+          "active_users": 254,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-08-09",
+          "active_users": 351,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-08-10",
+          "active_users": 4356,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-08-11",
+          "active_users": 374,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-08-12",
+          "active_users": 329,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-08-13",
+          "active_users": 354,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-08-14",
+          "active_users": 538,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-08-15",
+          "active_users": 595,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-08-16",
+          "active_users": 365,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-08-17",
+          "active_users": 284,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-08-18",
+          "active_users": 265,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-08-19",
+          "active_users": 368,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-08-20",
+          "active_users": 446,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-08-21",
+          "active_users": 447,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-08-22",
+          "active_users": 358,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-08-23",
+          "active_users": 293,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-08-24",
+          "active_users": 338,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-08-25",
+          "active_users": 407,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-08-26",
+          "active_users": 312,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-08-27",
+          "active_users": 376,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-08-28",
+          "active_users": 360,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-08-29",
+          "active_users": 224,
+          "engaged_sessions": null
+        },
+        {
+          "date": "2026-08-30",
+          "active_users": 269,
+          "engaged_sessions": null
+        }
+      ],
+      "top_pages": [
+        {
+          "path": "/",
+          "title": null,
+          "views": 17421
+        },
+        {
+          "path": "/resources/",
+          "title": null,
+          "views": 6367
+        },
+        {
+          "path": "/awop/",
+          "title": null,
+          "views": 4883
+        },
+        {
+          "path": "/reversals/",
+          "title": null,
+          "views": 3560
+        },
+        {
+          "path": "/replication-hub/",
+          "title": null,
+          "views": 3085
+        },
+        {
+          "path": "/glossary/english/",
+          "title": null,
+          "views": 2487
+        },
+        {
+          "path": "/games/",
+          "title": null,
+          "views": 2404
+        },
+        {
+          "path": "/about/get-involved/",
+          "title": null,
+          "views": 2242
+        },
+        {
+          "path": "/about/us/",
+          "title": null,
+          "views": 2113
+        },
+        {
+          "path": "/contributors/",
+          "title": null,
+          "views": 1911
+        }
+      ]
+    }
+  }
+}

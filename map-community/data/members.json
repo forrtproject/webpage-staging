@@ -1,0 +1,852 @@
+{
+  "generated_at": "2026-09-14T16:24:36Z",
+  "source": "Forrt-map/Forrt-Mapping/data/coords_data.csv",
+  "snapshot_date": "2026-09",
+  "totals": {
+    "members": 1849,
+    "cities": 58,
+    "countries": 43
+  },
+  "locations": [
+    {
+      "id": "city-amsterdam",
+      "name": "Amsterdam",
+      "country": "Netherlands",
+      "iso2": "NL",
+      "region": "Europe",
+      "lat": 52.3731,
+      "lon": 4.8925,
+      "members": 483
+    },
+    {
+      "id": "city-london",
+      "name": "London",
+      "country": "United Kingdom",
+      "iso2": "GB",
+      "region": "Europe",
+      "lat": 51.5074,
+      "lon": -0.1278,
+      "members": 360
+    },
+    {
+      "id": "city-new-york",
+      "name": "New York",
+      "country": "United States of America",
+      "iso2": "US",
+      "region": "North America",
+      "lat": 40.7127,
+      "lon": -74.006,
+      "members": 202
+    },
+    {
+      "id": "city-chicago",
+      "name": "Chicago",
+      "country": "United States of America",
+      "iso2": "US",
+      "region": "North America",
+      "lat": 41.8756,
+      "lon": -87.6244,
+      "members": 73
+    },
+    {
+      "id": "city-los-angeles",
+      "name": "Los Angeles",
+      "country": "United States of America",
+      "iso2": "US",
+      "region": "North America",
+      "lat": 34.0537,
+      "lon": -118.2428,
+      "members": 71
+    },
+    {
+      "id": "city-brussels",
+      "name": "Brussels",
+      "country": "Belgium",
+      "iso2": "BE",
+      "region": "Europe",
+      "lat": 50.8467,
+      "lon": 4.3525,
+      "members": 67
+    },
+    {
+      "id": "city-kuwait",
+      "name": "Kuwait",
+      "country": "Kuwait",
+      "iso2": "KW",
+      "region": "Asia",
+      "lat": 29.2734,
+      "lon": 47.4979,
+      "members": 63
+    },
+    {
+      "id": "city-kolkata",
+      "name": "Kolkata",
+      "country": "India",
+      "iso2": "IN",
+      "region": "Asia",
+      "lat": 22.5726,
+      "lon": 88.3639,
+      "members": 62
+    },
+    {
+      "id": "city-sao-paulo",
+      "name": "Sao Paulo",
+      "country": "Brazil",
+      "iso2": "BR",
+      "region": "South America",
+      "lat": -23.5507,
+      "lon": -46.6334,
+      "members": 39
+    },
+    {
+      "id": "city-belgrade",
+      "name": "Belgrade",
+      "country": "Serbia",
+      "iso2": "RS",
+      "region": "Europe",
+      "lat": 44.8153,
+      "lon": 20.4457,
+      "members": 38
+    },
+    {
+      "id": "city-chongqing",
+      "name": "Chongqing",
+      "country": "China",
+      "iso2": "CN",
+      "region": "Asia",
+      "lat": 30.0552,
+      "lon": 107.8749,
+      "members": 35
+    },
+    {
+      "id": "city-warsaw",
+      "name": "Warsaw",
+      "country": "Poland",
+      "iso2": "PL",
+      "region": "Europe",
+      "lat": 52.2334,
+      "lon": 21.0711,
+      "members": 32
+    },
+    {
+      "id": "city-algiers",
+      "name": "Algiers",
+      "country": "Algeria",
+      "iso2": "DZ",
+      "region": "Africa",
+      "lat": 36.7729,
+      "lon": 3.0588,
+      "members": 29
+    },
+    {
+      "id": "city-istanbul",
+      "name": "Istanbul",
+      "country": "Türkiye",
+      "iso2": "TR",
+      "region": "Europe",
+      "lat": 41.0064,
+      "lon": 28.9759,
+      "members": 27
+    },
+    {
+      "id": "city-athens",
+      "name": "Athens",
+      "country": "Greece",
+      "iso2": "GR",
+      "region": "Europe",
+      "lat": 37.9838,
+      "lon": 23.7275,
+      "members": 22
+    },
+    {
+      "id": "city-bogota",
+      "name": "Bogota",
+      "country": "Colombia",
+      "iso2": "CO",
+      "region": "South America",
+      "lat": 4.6534,
+      "lon": -74.0836,
+      "members": 19
+    },
+    {
+      "id": "city-canberra",
+      "name": "Canberra",
+      "country": "Australia",
+      "iso2": "AU",
+      "region": "Oceania",
+      "lat": -35.2976,
+      "lon": 149.1013,
+      "members": 19
+    },
+    {
+      "id": "city-moscow",
+      "name": "Moscow",
+      "country": "Russia",
+      "iso2": "RU",
+      "region": "Europe",
+      "lat": 55.6256,
+      "lon": 37.6064,
+      "members": 18
+    },
+    {
+      "id": "city-buenos-aires",
+      "name": "Buenos Aires",
+      "country": "Argentina",
+      "iso2": "AR",
+      "region": "South America",
+      "lat": -34.6096,
+      "lon": -58.3888,
+      "members": 16
+    },
+    {
+      "id": "city-monrovia",
+      "name": "Monrovia",
+      "country": "Liberia",
+      "iso2": "LR",
+      "region": "Africa",
+      "lat": 6.3204,
+      "lon": -10.806,
+      "members": 12
+    },
+    {
+      "id": "city-nairobi",
+      "name": "Nairobi",
+      "country": "Kenya",
+      "iso2": "KE",
+      "region": "Africa",
+      "lat": -1.3024,
+      "lon": 36.8289,
+      "members": 12
+    },
+    {
+      "id": "city-denver",
+      "name": "Denver",
+      "country": "United States of America",
+      "iso2": "US",
+      "region": "North America",
+      "lat": 39.7392,
+      "lon": -104.9849,
+      "members": 11
+    },
+    {
+      "id": "city-harare",
+      "name": "Harare",
+      "country": "Zimbabwe",
+      "iso2": "ZW",
+      "region": "Africa",
+      "lat": -17.8567,
+      "lon": 31.0602,
+      "members": 11
+    },
+    {
+      "id": "city-bangkok",
+      "name": "Bangkok",
+      "country": "Thailand",
+      "iso2": "TH",
+      "region": "Asia",
+      "lat": 13.7525,
+      "lon": 100.4935,
+      "members": 10
+    },
+    {
+      "id": "city-kuala-lumpur",
+      "name": "Kuala Lumpur",
+      "country": "Malaysia",
+      "iso2": "MY",
+      "region": "Asia",
+      "lat": 3.1517,
+      "lon": 101.6942,
+      "members": 10
+    },
+    {
+      "id": "city-seoul",
+      "name": "Seoul",
+      "country": "South Korea",
+      "iso2": "KR",
+      "region": "Asia",
+      "lat": 37.5667,
+      "lon": 126.9783,
+      "members": 9
+    },
+    {
+      "id": "city-cairo",
+      "name": "Cairo",
+      "country": "Egypt",
+      "iso2": "EG",
+      "region": "Africa",
+      "lat": 30.0444,
+      "lon": 31.2357,
+      "members": 8
+    },
+    {
+      "id": "city-helsinki",
+      "name": "Helsinki",
+      "country": "Finland",
+      "iso2": "FI",
+      "region": "Europe",
+      "lat": 60.1666,
+      "lon": 24.9435,
+      "members": 8
+    },
+    {
+      "id": "city-tokyo",
+      "name": "Tokyo",
+      "country": "Japan",
+      "iso2": "JP",
+      "region": "Asia",
+      "lat": 35.6769,
+      "lon": 139.7639,
+      "members": 8
+    },
+    {
+      "id": "city-tehran",
+      "name": "Tehran",
+      "country": "Iran",
+      "iso2": "IR",
+      "region": "Asia",
+      "lat": 35.6893,
+      "lon": 51.3896,
+      "members": 7
+    },
+    {
+      "id": "city-taipei",
+      "name": "Taipei",
+      "country": "Taiwan",
+      "iso2": "TW",
+      "region": "Asia",
+      "lat": 25.0375,
+      "lon": 121.5637,
+      "members": 6
+    },
+    {
+      "id": "city-adelaide",
+      "name": "Adelaide",
+      "country": "Australia",
+      "iso2": "AU",
+      "region": "Oceania",
+      "lat": -34.9282,
+      "lon": 138.5999,
+      "members": 5
+    },
+    {
+      "id": "city-karachi",
+      "name": "Karachi",
+      "country": "Pakistan",
+      "iso2": "PK",
+      "region": "Asia",
+      "lat": 24.8547,
+      "lon": 67.0207,
+      "members": 5
+    },
+    {
+      "id": "city-mexico-city",
+      "name": "Mexico City",
+      "country": "Mexico",
+      "iso2": "MX",
+      "region": "North America",
+      "lat": 19.3208,
+      "lon": -99.1515,
+      "members": 5
+    },
+    {
+      "id": "city-brisbane",
+      "name": "Brisbane",
+      "country": "Australia",
+      "iso2": "AU",
+      "region": "Oceania",
+      "lat": -27.469,
+      "lon": 153.0235,
+      "members": 4
+    },
+    {
+      "id": "city-perth",
+      "name": "Perth",
+      "country": "Australia",
+      "iso2": "AU",
+      "region": "Oceania",
+      "lat": -31.9559,
+      "lon": 115.8606,
+      "members": 4
+    },
+    {
+      "id": "city-auckland",
+      "name": "Auckland",
+      "country": "New Zealand",
+      "iso2": "NZ",
+      "region": "Oceania",
+      "lat": -36.8521,
+      "lon": 174.7632,
+      "members": 3
+    },
+    {
+      "id": "city-casablanca",
+      "name": "Casablanca",
+      "country": "Morocco",
+      "iso2": "MA",
+      "region": "Africa",
+      "lat": 33.5945,
+      "lon": -7.62,
+      "members": 3
+    },
+    {
+      "id": "city-jerusalem",
+      "name": "Jerusalem",
+      "country": "Israel",
+      "iso2": "IL",
+      "region": "Asia",
+      "lat": 31.7788,
+      "lon": 35.2258,
+      "members": 3
+    },
+    {
+      "id": "city-manaus",
+      "name": "Manaus",
+      "country": "Brazil",
+      "iso2": "BR",
+      "region": "South America",
+      "lat": -3.1316,
+      "lon": -59.9825,
+      "members": 3
+    },
+    {
+      "id": "city-phoenix",
+      "name": "Phoenix",
+      "country": "United States of America",
+      "iso2": "US",
+      "region": "North America",
+      "lat": 33.4484,
+      "lon": -112.0741,
+      "members": 3
+    },
+    {
+      "id": "city-anchorage",
+      "name": "Anchorage",
+      "country": "United States of America",
+      "iso2": "US",
+      "region": "North America",
+      "lat": 61.2163,
+      "lon": -149.8949,
+      "members": 2
+    },
+    {
+      "id": "city-baghdad",
+      "name": "Baghdad",
+      "country": "Iraq",
+      "iso2": "IQ",
+      "region": "Asia",
+      "lat": 33.3062,
+      "lon": 44.3872,
+      "members": 2
+    },
+    {
+      "id": "city-bahia",
+      "name": "Bahia",
+      "country": "Brazil",
+      "iso2": "BR",
+      "region": "South America",
+      "lat": -12.9833,
+      "lon": -38.5167,
+      "members": 2
+    },
+    {
+      "id": "city-fortaleza",
+      "name": "Fortaleza",
+      "country": "Brazil",
+      "iso2": "BR",
+      "region": "South America",
+      "lat": -3.7932,
+      "lon": -38.528,
+      "members": 2
+    },
+    {
+      "id": "city-muscat",
+      "name": "Muscat",
+      "country": "Oman",
+      "iso2": "OM",
+      "region": "Asia",
+      "lat": 23.6124,
+      "lon": 58.5938,
+      "members": 2
+    },
+    {
+      "id": "city-regina",
+      "name": "Regina",
+      "country": "Canada",
+      "iso2": "CA",
+      "region": "North America",
+      "lat": 50.448,
+      "lon": -104.6159,
+      "members": 2
+    },
+    {
+      "id": "city-santiago",
+      "name": "Santiago",
+      "country": "Chile",
+      "iso2": "CL",
+      "region": "South America",
+      "lat": -33.4489,
+      "lon": -70.6693,
+      "members": 2
+    },
+    {
+      "id": "city-almaty",
+      "name": "Almaty",
+      "country": "Kazakhstan",
+      "iso2": "KZ",
+      "region": "Asia",
+      "lat": 43.2364,
+      "lon": 76.9457,
+      "members": 1
+    },
+    {
+      "id": "city-cancun",
+      "name": "Cancun",
+      "country": "Mexico",
+      "iso2": "MX",
+      "region": "North America",
+      "lat": 21.1527,
+      "lon": -86.8426,
+      "members": 1
+    },
+    {
+      "id": "city-cayenne",
+      "name": "Cayenne",
+      "country": "French Guiana",
+      "iso2": "GF",
+      "region": "South America",
+      "lat": 4.9372,
+      "lon": -52.3259,
+      "members": 1
+    },
+    {
+      "id": "city-dhaka",
+      "name": "Dhaka",
+      "country": "Bangladesh",
+      "iso2": "BD",
+      "region": "Asia",
+      "lat": 23.7644,
+      "lon": 90.389,
+      "members": 1
+    },
+    {
+      "id": "city-halifax",
+      "name": "Halifax",
+      "country": "Canada",
+      "iso2": "CA",
+      "region": "North America",
+      "lat": 44.6486,
+      "lon": -63.5859,
+      "members": 1
+    },
+    {
+      "id": "city-havana",
+      "name": "Havana",
+      "country": "Cuba",
+      "iso2": "CU",
+      "region": "North America",
+      "lat": 23.1353,
+      "lon": -82.359,
+      "members": 1
+    },
+    {
+      "id": "city-hobart",
+      "name": "Hobart",
+      "country": "Australia",
+      "iso2": "AU",
+      "region": "Oceania",
+      "lat": -42.8825,
+      "lon": 147.3281,
+      "members": 1
+    },
+    {
+      "id": "city-katmandu",
+      "name": "Katmandu",
+      "country": "Nepal",
+      "iso2": "NP",
+      "region": "Asia",
+      "lat": 27.7083,
+      "lon": 85.3206,
+      "members": 1
+    },
+    {
+      "id": "city-st-johns",
+      "name": "St Johns",
+      "country": "Canada",
+      "iso2": "CA",
+      "region": "North America",
+      "lat": 47.5667,
+      "lon": -52.7167,
+      "members": 1
+    },
+    {
+      "id": "city-tripoli",
+      "name": "Tripoli",
+      "country": "Libya",
+      "iso2": "LY",
+      "region": "Africa",
+      "lat": 32.8967,
+      "lon": 13.1778,
+      "members": 1
+    }
+  ],
+  "countries": [
+    {
+      "country": "Netherlands",
+      "iso2": "NL",
+      "region": "Europe",
+      "members": 483
+    },
+    {
+      "country": "United States of America",
+      "iso2": "US",
+      "region": "North America",
+      "members": 362
+    },
+    {
+      "country": "United Kingdom",
+      "iso2": "GB",
+      "region": "Europe",
+      "members": 360
+    },
+    {
+      "country": "Belgium",
+      "iso2": "BE",
+      "region": "Europe",
+      "members": 67
+    },
+    {
+      "country": "Kuwait",
+      "iso2": "KW",
+      "region": "Asia",
+      "members": 63
+    },
+    {
+      "country": "India",
+      "iso2": "IN",
+      "region": "Asia",
+      "members": 62
+    },
+    {
+      "country": "Brazil",
+      "iso2": "BR",
+      "region": "South America",
+      "members": 46
+    },
+    {
+      "country": "Serbia",
+      "iso2": "RS",
+      "region": "Europe",
+      "members": 38
+    },
+    {
+      "country": "China",
+      "iso2": "CN",
+      "region": "Asia",
+      "members": 35
+    },
+    {
+      "country": "Australia",
+      "iso2": "AU",
+      "region": "Oceania",
+      "members": 33
+    },
+    {
+      "country": "Poland",
+      "iso2": "PL",
+      "region": "Europe",
+      "members": 32
+    },
+    {
+      "country": "Algeria",
+      "iso2": "DZ",
+      "region": "Africa",
+      "members": 29
+    },
+    {
+      "country": "Türkiye",
+      "iso2": "TR",
+      "region": "Europe",
+      "members": 27
+    },
+    {
+      "country": "Greece",
+      "iso2": "GR",
+      "region": "Europe",
+      "members": 22
+    },
+    {
+      "country": "Colombia",
+      "iso2": "CO",
+      "region": "South America",
+      "members": 19
+    },
+    {
+      "country": "Russia",
+      "iso2": "RU",
+      "region": "Europe",
+      "members": 18
+    },
+    {
+      "country": "Argentina",
+      "iso2": "AR",
+      "region": "South America",
+      "members": 16
+    },
+    {
+      "country": "Kenya",
+      "iso2": "KE",
+      "region": "Africa",
+      "members": 12
+    },
+    {
+      "country": "Liberia",
+      "iso2": "LR",
+      "region": "Africa",
+      "members": 12
+    },
+    {
+      "country": "Zimbabwe",
+      "iso2": "ZW",
+      "region": "Africa",
+      "members": 11
+    },
+    {
+      "country": "Malaysia",
+      "iso2": "MY",
+      "region": "Asia",
+      "members": 10
+    },
+    {
+      "country": "Thailand",
+      "iso2": "TH",
+      "region": "Asia",
+      "members": 10
+    },
+    {
+      "country": "South Korea",
+      "iso2": "KR",
+      "region": "Asia",
+      "members": 9
+    },
+    {
+      "country": "Egypt",
+      "iso2": "EG",
+      "region": "Africa",
+      "members": 8
+    },
+    {
+      "country": "Finland",
+      "iso2": "FI",
+      "region": "Europe",
+      "members": 8
+    },
+    {
+      "country": "Japan",
+      "iso2": "JP",
+      "region": "Asia",
+      "members": 8
+    },
+    {
+      "country": "Iran",
+      "iso2": "IR",
+      "region": "Asia",
+      "members": 7
+    },
+    {
+      "country": "Mexico",
+      "iso2": "MX",
+      "region": "North America",
+      "members": 6
+    },
+    {
+      "country": "Taiwan",
+      "iso2": "TW",
+      "region": "Asia",
+      "members": 6
+    },
+    {
+      "country": "Pakistan",
+      "iso2": "PK",
+      "region": "Asia",
+      "members": 5
+    },
+    {
+      "country": "Canada",
+      "iso2": "CA",
+      "region": "North America",
+      "members": 4
+    },
+    {
+      "country": "Israel",
+      "iso2": "IL",
+      "region": "Asia",
+      "members": 3
+    },
+    {
+      "country": "Morocco",
+      "iso2": "MA",
+      "region": "Africa",
+      "members": 3
+    },
+    {
+      "country": "New Zealand",
+      "iso2": "NZ",
+      "region": "Oceania",
+      "members": 3
+    },
+    {
+      "country": "Chile",
+      "iso2": "CL",
+      "region": "South America",
+      "members": 2
+    },
+    {
+      "country": "Iraq",
+      "iso2": "IQ",
+      "region": "Asia",
+      "members": 2
+    },
+    {
+      "country": "Oman",
+      "iso2": "OM",
+      "region": "Asia",
+      "members": 2
+    },
+    {
+      "country": "Bangladesh",
+      "iso2": "BD",
+      "region": "Asia",
+      "members": 1
+    },
+    {
+      "country": "Cuba",
+      "iso2": "CU",
+      "region": "North America",
+      "members": 1
+    },
+    {
+      "country": "French Guiana",
+      "iso2": "GF",
+      "region": "South America",
+      "members": 1
+    },
+    {
+      "country": "Kazakhstan",
+      "iso2": "KZ",
+      "region": "Asia",
+      "members": 1
+    },
+    {
+      "country": "Libya",
+      "iso2": "LY",
+      "region": "Africa",
+      "members": 1
+    },
+    {
+      "country": "Nepal",
+      "iso2": "NP",
+      "region": "Asia",
+      "members": 1
+    }
+  ]
+}

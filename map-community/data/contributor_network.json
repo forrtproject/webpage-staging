@@ -1,0 +1,8612 @@
+{
+  "generated_at": "2026-11-19T02:10:16Z",
+  "source": "forrtproject.github.io scripts/forrt_contribs/contributors_cache.csv",
+  "totals": {
+    "contributors": 615,
+    "projects": 73,
+    "connections": 32111
+  },
+  "projects": [
+    {
+      "name": "FORRT Replication Databases (FReD and FLoRA)",
+      "url": "https://forrt.org/flora",
+      "members": [
+        5,
+        11,
+        13,
+        15,
+        16,
+        20,
+        21,
+        24,
+        25,
+        26,
+        27,
+        37,
+        40,
+        42,
+        45,
+        49,
+        53,
+        58,
+        60,
+        62,
+        67,
+        71,
+        74,
+        79,
+        80,
+        84,
+        89,
+        95,
+        97,
+        99,
+        106,
+        107,
+        111,
+        115,
+        117,
+        119,
+        125,
+        137,
+        138,
+        139,
+        140,
+        141,
+        144,
+        145,
+        158,
+        159,
+        161,
+        168,
+        171,
+        172,
+        177,
+        179,
+        180,
+        186,
+        188,
+        192,
+        193,
+        194,
+        205,
+        206,
+        209,
+        213,
+        215,
+        217,
+        218,
+        220,
+        222,
+        231,
+        234,
+        235,
+        239,
+        240,
+        241,
+        245,
+        246,
+        254,
+        256,
+        260,
+        264,
+        265,
+        266,
+        268,
+        270,
+        272,
+        273,
+        279,
+        281,
+        284,
+        286,
+        287,
+        292,
+        296,
+        298,
+        300,
+        309,
+        310,
+        311,
+        312,
+        313,
+        315,
+        317,
+        318,
+        319,
+        322,
+        325,
+        329,
+        331,
+        332,
+        343,
+        346,
+        350,
+        353,
+        354,
+        355,
+        361,
+        363,
+        368,
+        376,
+        377,
+        378,
+        379,
+        382,
+        386,
+        387,
+        398,
+        406,
+        410,
+        413,
+        419,
+        420,
+        422,
+        423,
+        426,
+        429,
+        430,
+        433,
+        435,
+        437,
+        438,
+        441,
+        446,
+        448,
+        450,
+        455,
+        465,
+        476,
+        477,
+        496,
+        500,
+        501,
+        507,
+        509,
+        513,
+        515,
+        516,
+        517,
+        518,
+        523,
+        525,
+        529,
+        533,
+        534,
+        535,
+        540,
+        541,
+        549,
+        554,
+        557,
+        561,
+        562,
+        565,
+        568,
+        569,
+        573,
+        576,
+        577,
+        583,
+        585,
+        589,
+        592,
+        601,
+        602,
+        606,
+        610,
+        613
+      ]
+    },
+    {
+      "name": "Glossary",
+      "url": "https://forrt.org/glossary/",
+      "members": [
+        2,
+        5,
+        9,
+        11,
+        14,
+        19,
+        21,
+        36,
+        38,
+        39,
+        46,
+        53,
+        60,
+        63,
+        66,
+        71,
+        73,
+        75,
+        76,
+        80,
+        81,
+        82,
+        85,
+        89,
+        92,
+        94,
+        101,
+        107,
+        113,
+        117,
+        121,
+        127,
+        130,
+        141,
+        148,
+        149,
+        155,
+        157,
+        162,
+        166,
+        167,
+        170,
+        172,
+        173,
+        185,
+        186,
+        193,
+        194,
+        197,
+        199,
+        205,
+        213,
+        232,
+        233,
+        237,
+        239,
+        250,
+        258,
+        272,
+        278,
+        281,
+        294,
+        315,
+        320,
+        335,
+        336,
+        341,
+        343,
+        360,
+        366,
+        370,
+        371,
+        373,
+        375,
+        386,
+        389,
+        393,
+        398,
+        408,
+        418,
+        423,
+        432,
+        439,
+        440,
+        441,
+        442,
+        461,
+        477,
+        483,
+        488,
+        496,
+        501,
+        504,
+        507,
+        521,
+        529,
+        531,
+        540,
+        548,
+        549,
+        554,
+        559,
+        560,
+        563,
+        565,
+        569,
+        581,
+        584,
+        598,
+        600,
+        611,
+        612
+      ]
+    },
+    {
+      "name": "Reversals & Replications",
+      "url": "https://forrt.org/reversals/",
+      "members": [
+        5,
+        11,
+        15,
+        16,
+        20,
+        21,
+        24,
+        25,
+        26,
+        27,
+        37,
+        40,
+        42,
+        45,
+        49,
+        53,
+        60,
+        71,
+        79,
+        80,
+        84,
+        89,
+        99,
+        107,
+        117,
+        141,
+        144,
+        145,
+        159,
+        161,
+        171,
+        186,
+        192,
+        194,
+        205,
+        213,
+        217,
+        218,
+        234,
+        239,
+        241,
+        245,
+        246,
+        260,
+        264,
+        270,
+        272,
+        279,
+        281,
+        286,
+        292,
+        298,
+        305,
+        309,
+        315,
+        318,
+        331,
+        332,
+        343,
+        353,
+        354,
+        355,
+        376,
+        377,
+        378,
+        379,
+        386,
+        387,
+        398,
+        406,
+        410,
+        422,
+        423,
+        431,
+        441,
+        446,
+        450,
+        476,
+        477,
+        489,
+        495,
+        496,
+        501,
+        517,
+        525,
+        529,
+        540,
+        549,
+        554,
+        568,
+        569,
+        577,
+        585,
+        610,
+        613
+      ]
+    },
+    {
+      "name": "Impact on students",
+      "url": "https://forrt.org/impact/",
+      "members": [
+        21,
+        37,
+        48,
+        60,
+        81,
+        84,
+        89,
+        107,
+        118,
+        130,
+        131,
+        134,
+        141,
+        185,
+        186,
+        201,
+        208,
+        213,
+        237,
+        241,
+        247,
+        250,
+        261,
+        278,
+        280,
+        281,
+        282,
+        285,
+        286,
+        289,
+        303,
+        315,
+        333,
+        336,
+        343,
+        365,
+        371,
+        372,
+        376,
+        386,
+        387,
+        394,
+        398,
+        408,
+        409,
+        423,
+        446,
+        454,
+        477,
+        498,
+        501,
+        502,
+        503,
+        507,
+        522,
+        525,
+        529,
+        540,
+        548,
+        549,
+        552,
+        554,
+        555,
+        558,
+        563,
+        591,
+        610,
+        611,
+        614
+      ]
+    },
+    {
+      "name": "Accessible Feedback in Academia",
+      "url": null,
+      "members": [
+        6,
+        37,
+        44,
+        47,
+        59,
+        68,
+        84,
+        88,
+        90,
+        117,
+        122,
+        143,
+        146,
+        154,
+        163,
+        176,
+        185,
+        186,
+        196,
+        198,
+        205,
+        256,
+        272,
+        301,
+        307,
+        340,
+        355,
+        361,
+        367,
+        379,
+        398,
+        423,
+        432,
+        443,
+        449,
+        454,
+        466,
+        470,
+        481,
+        485,
+        497,
+        505,
+        508,
+        511,
+        514,
+        517,
+        526,
+        528,
+        540,
+        542,
+        547,
+        554,
+        564,
+        566,
+        568,
+        570,
+        575,
+        577,
+        586,
+        595,
+        596,
+        607
+      ]
+    },
+    {
+      "name": "Summaries",
+      "url": "https://forrt.org/summaries/",
+      "members": [
+        3,
+        16,
+        22,
+        30,
+        60,
+        78,
+        84,
+        89,
+        98,
+        104,
+        112,
+        117,
+        120,
+        127,
+        133,
+        150,
+        169,
+        175,
+        181,
+        184,
+        186,
+        196,
+        199,
+        224,
+        230,
+        232,
+        241,
+        242,
+        258,
+        293,
+        313,
+        315,
+        337,
+        343,
+        365,
+        371,
+        398,
+        423,
+        446,
+        468,
+        478,
+        496,
+        517,
+        521,
+        536,
+        537,
+        540,
+        546,
+        549,
+        550,
+        551,
+        554,
+        556,
+        568,
+        577,
+        584,
+        591,
+        598,
+        610
+      ]
+    },
+    {
+      "name": "Open Science in Developing Countries",
+      "url": "https://forrt.org/os-developing-world/",
+      "members": [
+        14,
+        21,
+        26,
+        32,
+        64,
+        84,
+        86,
+        110,
+        123,
+        132,
+        136,
+        141,
+        182,
+        186,
+        189,
+        207,
+        219,
+        226,
+        236,
+        267,
+        269,
+        308,
+        314,
+        321,
+        343,
+        352,
+        386,
+        398,
+        411,
+        412,
+        424,
+        434,
+        436,
+        456,
+        457,
+        491,
+        493,
+        494,
+        499,
+        517,
+        553,
+        593,
+        603,
+        608,
+        610
+      ]
+    },
+    {
+      "name": "Educators' Corner",
+      "url": "https://forrt.org/educators-corner/",
+      "members": [
+        29,
+        37,
+        43,
+        51,
+        52,
+        60,
+        61,
+        71,
+        81,
+        108,
+        116,
+        135,
+        145,
+        152,
+        186,
+        210,
+        238,
+        261,
+        282,
+        283,
+        315,
+        326,
+        340,
+        341,
+        343,
+        348,
+        388,
+        391,
+        447,
+        460,
+        463,
+        464,
+        481,
+        490,
+        496,
+        498,
+        504,
+        529,
+        554,
+        559,
+        579
+      ]
+    },
+    {
+      "name": "Landscape",
+      "url": null,
+      "members": [
+        14,
+        19,
+        21,
+        25,
+        26,
+        60,
+        81,
+        84,
+        89,
+        91,
+        107,
+        117,
+        120,
+        141,
+        174,
+        186,
+        191,
+        213,
+        227,
+        264,
+        272,
+        277,
+        320,
+        340,
+        343,
+        347,
+        360,
+        374,
+        386,
+        392,
+        398,
+        422,
+        503,
+        511,
+        548,
+        566
+      ]
+    },
+    {
+      "name": "Paper: \"Positive Changes from the Replication Crisis\"",
+      "url": "https://forrt.org/positive-changes-replication-crisis/",
+      "members": [
+        21,
+        60,
+        84,
+        89,
+        107,
+        130,
+        186,
+        213,
+        241,
+        248,
+        261,
+        276,
+        286,
+        303,
+        315,
+        336,
+        343,
+        379,
+        386,
+        423,
+        439,
+        441,
+        467,
+        503,
+        524,
+        525,
+        529,
+        549,
+        554,
+        563,
+        600
+      ]
+    },
+    {
+      "name": "Academic Wheel of Privilege",
+      "url": "https://forrt.org/awop/",
+      "members": [
+        35,
+        51,
+        81,
+        129,
+        175,
+        186,
+        202,
+        213,
+        219,
+        238,
+        249,
+        253,
+        262,
+        263,
+        275,
+        295,
+        299,
+        303,
+        334,
+        343,
+        403,
+        404,
+        460,
+        504,
+        511,
+        594
+      ]
+    },
+    {
+      "name": "FORRT's Clusters",
+      "url": "https://forrt.org/clusters/",
+      "members": [
+        6,
+        81,
+        129,
+        152,
+        186,
+        212,
+        213,
+        259,
+        261,
+        315,
+        331,
+        337,
+        343,
+        348,
+        381,
+        396,
+        444,
+        460,
+        464,
+        496,
+        504,
+        511,
+        554,
+        568
+      ]
+    },
+    {
+      "name": "Neurodiversity Annotated Reading List",
+      "url": "https://elifesciences.org/articles/102467",
+      "members": [
+        6,
+        23,
+        28,
+        44,
+        50,
+        84,
+        117,
+        169,
+        186,
+        213,
+        343,
+        357,
+        379,
+        398,
+        477,
+        529,
+        538,
+        549,
+        551,
+        568,
+        575,
+        596
+      ]
+    },
+    {
+      "name": "Glossary - Arabic Translation",
+      "url": "https://forrt.org/glossary/arabic/",
+      "members": [
+        0,
+        7,
+        8,
+        12,
+        21,
+        31,
+        65,
+        69,
+        204,
+        216,
+        221,
+        342,
+        344,
+        402,
+        407,
+        414,
+        416,
+        487,
+        506,
+        604
+      ]
+    },
+    {
+      "name": "FORRT Lesson Plans",
+      "url": "https://forrt.org/lesson-plans/",
+      "members": [
+        11,
+        102,
+        107,
+        141,
+        186,
+        261,
+        324,
+        336,
+        341,
+        343,
+        371,
+        376,
+        386,
+        409,
+        415,
+        439,
+        482,
+        486,
+        496
+      ]
+    },
+    {
+      "name": "Replication Research Journal - Advisory Board",
+      "url": "http://replicationresearch.org",
+      "members": [
+        18,
+        93,
+        114,
+        129,
+        200,
+        211,
+        252,
+        297,
+        323,
+        356,
+        362,
+        390,
+        401,
+        403,
+        460,
+        473,
+        510,
+        544,
+        561
+      ]
+    },
+    {
+      "name": "Adopting Principled Education",
+      "url": "https://forrt.org/adopting/",
+      "members": [
+        4,
+        56,
+        72,
+        129,
+        169,
+        186,
+        190,
+        261,
+        315,
+        331,
+        340,
+        343,
+        371,
+        444,
+        481,
+        496,
+        507,
+        554
+      ]
+    },
+    {
+      "name": "Guide to Carrying out Replication Studies",
+      "url": "https://lukasroeseler.github.io/replicationresearch_mockup/",
+      "members": [
+        1,
+        55,
+        107,
+        151,
+        186,
+        194,
+        213,
+        243,
+        257,
+        327,
+        331,
+        332,
+        364,
+        387,
+        452,
+        512,
+        576
+      ]
+    },
+    {
+      "name": "Replication Research Journal - External Member",
+      "url": "http://replicationresearch.org",
+      "members": [
+        1,
+        87,
+        124,
+        143,
+        164,
+        183,
+        194,
+        213,
+        214,
+        251,
+        345,
+        356,
+        403,
+        425,
+        460,
+        471,
+        561
+      ]
+    },
+    {
+      "name": "CERES Manuscript",
+      "url": "https://osf.io/preprints/edarxiv/s73xb",
+      "members": [
+        34,
+        41,
+        109,
+        126,
+        186,
+        195,
+        228,
+        244,
+        306,
+        328,
+        336,
+        400,
+        472,
+        492,
+        494,
+        518
+      ]
+    },
+    {
+      "name": "Replication Research Journal - Editorial Team",
+      "url": "http://replicationresearch.org",
+      "members": [
+        160,
+        186,
+        223,
+        243,
+        331,
+        332,
+        380,
+        399,
+        458,
+        518,
+        540,
+        545,
+        554,
+        567,
+        578
+      ]
+    },
+    {
+      "name": "Participatory Research Primer (BPS)",
+      "url": "https://doi.org/10.53841/bpscog.2023.1.8.23",
+      "members": [
+        37,
+        57,
+        81,
+        186,
+        213,
+        249,
+        261,
+        290,
+        343,
+        359,
+        398,
+        529,
+        539,
+        549
+      ]
+    },
+    {
+      "name": "Team Outreach",
+      "url": null,
+      "members": [
+        45,
+        56,
+        81,
+        101,
+        127,
+        153,
+        213,
+        272,
+        293,
+        315,
+        386,
+        566,
+        571,
+        575
+      ]
+    },
+    {
+      "name": "Team Website",
+      "url": "https://forrt.org/",
+      "members": [
+        77,
+        81,
+        128,
+        148,
+        186,
+        332,
+        381,
+        451,
+        470,
+        475,
+        496,
+        501,
+        520,
+        543
+      ]
+    },
+    {
+      "name": "FLoRA - Notify preprint alerts",
+      "url": null,
+      "members": [
+        10,
+        83,
+        160,
+        165,
+        186,
+        224,
+        265,
+        291,
+        331,
+        332,
+        428,
+        445,
+        470
+      ]
+    },
+    {
+      "name": "FLoRA Zotero plugin",
+      "url": "https://forrt.org/flora-zotero/",
+      "members": [
+        54,
+        105,
+        143,
+        209,
+        229,
+        265,
+        331,
+        332,
+        354,
+        399,
+        443,
+        446,
+        480
+      ]
+    },
+    {
+      "name": "Getting Started with FORRT",
+      "url": "https://docs.google.com/document/d/17ECRs6J8spO3CU6siheGL8weQ-TzdyAUpXIiIE8cUeI/edit?tab=t.0#heading=h.9uywlkccaw1",
+      "members": [
+        186,
+        196,
+        213,
+        237,
+        258,
+        261,
+        293,
+        299,
+        315,
+        332,
+        371,
+        496,
+        549
+      ]
+    },
+    {
+      "name": "Autism & Open Science",
+      "url": null,
+      "members": [
+        57,
+        84,
+        186,
+        241,
+        249,
+        261,
+        290,
+        343,
+        398,
+        462,
+        529,
+        539
+      ]
+    },
+    {
+      "name": "FORRT's Curated Resources",
+      "url": "https://forrt.org/resources/",
+      "members": [
+        56,
+        129,
+        186,
+        288,
+        339,
+        343,
+        395,
+        427,
+        474,
+        479,
+        496,
+        574
+      ]
+    },
+    {
+      "name": "Glossary - Chinese Translation",
+      "url": null,
+      "members": [
+        103,
+        255,
+        274,
+        316,
+        453,
+        484,
+        527,
+        587,
+        588,
+        590,
+        597,
+        609
+      ]
+    },
+    {
+      "name": "German teaching network grant",
+      "url": null,
+      "members": [
+        142,
+        160,
+        186,
+        303,
+        331,
+        332,
+        351,
+        473,
+        519,
+        532,
+        544
+      ]
+    },
+    {
+      "name": "Open Educational Resources Chapter",
+      "url": "https://doi.org/10.35542/osf.io/sn693_v2",
+      "members": [
+        56,
+        169,
+        186,
+        196,
+        203,
+        293,
+        315,
+        379,
+        460,
+        470,
+        507
+      ]
+    },
+    {
+      "name": "BMC Pedagogical Communities",
+      "url": "https://doi.org/10.1186/s13104-022-05944-1",
+      "members": [
+        107,
+        186,
+        187,
+        315,
+        336,
+        343,
+        386,
+        496,
+        502,
+        554
+      ]
+    },
+    {
+      "name": "Team Credit",
+      "url": "https://forrt.org/contributors/",
+      "members": [
+        56,
+        169,
+        186,
+        332,
+        343,
+        444,
+        475,
+        540,
+        545,
+        572
+      ]
+    },
+    {
+      "name": "APS Observer",
+      "url": "https://www.psychologicalscience.org/observer/gs-navigating-academia-as-neurodivergent-researchers",
+      "members": [
+        37,
+        81,
+        186,
+        249,
+        261,
+        343,
+        504,
+        539
+      ]
+    },
+    {
+      "name": "FLoRA Extractor",
+      "url": null,
+      "members": [
+        10,
+        33,
+        156,
+        186,
+        331,
+        332,
+        469,
+        480
+      ]
+    },
+    {
+      "name": "FORRT Self Assessment",
+      "url": "https://forrt.org/self-assessment/",
+      "members": [
+        100,
+        129,
+        186,
+        263,
+        315,
+        343,
+        371,
+        496
+      ]
+    },
+    {
+      "name": "OSCARS Grant Application",
+      "url": null,
+      "members": [
+        169,
+        178,
+        186,
+        261,
+        315,
+        332,
+        338,
+        507
+      ]
+    },
+    {
+      "name": "Pedagogies",
+      "url": "https://forrt.org/pedagogies/",
+      "members": [
+        17,
+        30,
+        186,
+        196,
+        232,
+        272,
+        315,
+        550
+      ]
+    },
+    {
+      "name": "Team Curations",
+      "url": "https://forrt.org/resources/",
+      "members": [
+        186,
+        261,
+        293,
+        315,
+        331,
+        340,
+        444,
+        481
+      ]
+    },
+    {
+      "name": "FORRT Booklet",
+      "url": "https://forrt.org/booklet/",
+      "members": [
+        186,
+        225,
+        261,
+        331,
+        504,
+        511,
+        530
+      ]
+    },
+    {
+      "name": "FORRT Germany Verein",
+      "url": "https://forrt.org/about/charity/",
+      "members": [
+        186,
+        213,
+        275,
+        315,
+        331,
+        332,
+        349
+      ]
+    },
+    {
+      "name": "Glossary - Serbian Translation",
+      "url": "https://forrt.org/glossary/",
+      "members": [
+        88,
+        136,
+        226,
+        321,
+        412,
+        580,
+        613
+      ]
+    },
+    {
+      "name": "JUST-OS",
+      "url": "https://www.just-os.org/",
+      "members": [
+        186,
+        339,
+        395,
+        427,
+        474,
+        479,
+        574
+      ]
+    },
+    {
+      "name": "Team Einstein 2025",
+      "url": null,
+      "members": [
+        169,
+        186,
+        261,
+        293,
+        331,
+        332,
+        507
+      ]
+    },
+    {
+      "name": "FORRT Lighthouse",
+      "url": "https://www.lighthouse.forrt.org/",
+      "members": [
+        186,
+        300,
+        331,
+        332,
+        459,
+        475
+      ]
+    },
+    {
+      "name": "FORRT's Manifesto",
+      "url": "https://osf.io/bnh7p_v1",
+      "members": [
+        157,
+        186,
+        271,
+        315,
+        371,
+        496
+      ]
+    },
+    {
+      "name": "Glossary - Bulgarian Translation",
+      "url": null,
+      "members": [
+        56,
+        147,
+        358,
+        405,
+        579,
+        610
+      ]
+    },
+    {
+      "name": "International Coordination Action Research Foundation - Flanders grant",
+      "url": null,
+      "members": [
+        304,
+        385,
+        421,
+        540,
+        582,
+        585
+      ]
+    },
+    {
+      "name": "Mapping Open Science Communities",
+      "url": "https://forrt.org/mapping_os/",
+      "members": [
+        107,
+        186,
+        265,
+        340,
+        379,
+        554
+      ]
+    },
+    {
+      "name": "NWO POST-EDU Grant",
+      "url": null,
+      "members": [
+        186,
+        213,
+        282,
+        315,
+        336,
+        554
+      ]
+    },
+    {
+      "name": "Pubpeer RepNote",
+      "url": null,
+      "members": [
+        186,
+        265,
+        331,
+        332,
+        541,
+        605
+      ]
+    },
+    {
+      "name": "Glossary - German Translation",
+      "url": "https://forrt.org/glossary/german/",
+      "members": [
+        82,
+        213,
+        247,
+        264,
+        547
+      ]
+    },
+    {
+      "name": "Glossary - Portuguese Translation",
+      "url": null,
+      "members": [
+        96,
+        123,
+        302,
+        330,
+        446
+      ]
+    },
+    {
+      "name": "IOI Grant",
+      "url": null,
+      "members": [
+        81,
+        148,
+        186,
+        213,
+        315
+      ]
+    },
+    {
+      "name": "International Initiatives to Enhance Awareness and Uptake of Open Research in Psychology",
+      "url": "https://doi.org/10.1098/rsos.241726",
+      "members": [
+        107,
+        186,
+        340,
+        379,
+        554
+      ]
+    },
+    {
+      "name": "NWO TRACKREP Grant",
+      "url": null,
+      "members": [
+        186,
+        213,
+        315,
+        332,
+        496
+      ]
+    },
+    {
+      "name": "Neurodivergent Authors Database",
+      "url": "https://docs.google.com/spreadsheets/d/1OnfQB1OqC00OflwTuRPBhG5NfX-_oLxxoTM_F_J5t5c/edit?gid=699666261#gid=699666261",
+      "members": [
+        37,
+        174,
+        186,
+        261,
+        343
+      ]
+    },
+    {
+      "name": "Piece for the Educator’s corner",
+      "url": null,
+      "members": [
+        152,
+        186,
+        391,
+        559,
+        579
+      ]
+    },
+    {
+      "name": "Replication Tracker Chromium Plugin",
+      "url": null,
+      "members": [
+        186,
+        291,
+        331,
+        332,
+        417
+      ]
+    },
+    {
+      "name": "Team Einstein 2022",
+      "url": null,
+      "members": [
+        52,
+        186,
+        213,
+        336,
+        343
+      ]
+    },
+    {
+      "name": "Team Einstein 2023",
+      "url": null,
+      "members": [
+        186,
+        213,
+        315,
+        331,
+        332
+      ]
+    },
+    {
+      "name": "Equity in Open Scholarship",
+      "url": null,
+      "members": [
+        70,
+        186,
+        384,
+        599
+      ]
+    },
+    {
+      "name": "FReD R package",
+      "url": "https://forrt.org/FReD/",
+      "members": [
+        186,
+        213,
+        331,
+        332
+      ]
+    },
+    {
+      "name": "Glossary - Italian Translation",
+      "url": null,
+      "members": [
+        355,
+        369,
+        397,
+        569
+      ]
+    },
+    {
+      "name": "Team Cohesion",
+      "url": null,
+      "members": [
+        186,
+        196,
+        261,
+        293
+      ]
+    },
+    {
+      "name": "FORRT Robustness Lighthouse",
+      "url": null,
+      "members": [
+        186,
+        331,
+        332
+      ]
+    },
+    {
+      "name": "Open Research Book",
+      "url": "https://forrt.org/open-research-course/",
+      "members": [
+        186,
+        381,
+        460
+      ]
+    },
+    {
+      "name": "Glossary - Bengali Translation",
+      "url": null,
+      "members": [
+        383,
+        499
+      ]
+    },
+    {
+      "name": "Glossary - Spanish Translation",
+      "url": null,
+      "members": [
+        443,
+        551
+      ]
+    },
+    {
+      "name": "Team Ideas",
+      "url": null,
+      "members": [
+        186,
+        293
+      ]
+    },
+    {
+      "name": "UNESCO/UN Application",
+      "url": null,
+      "members": [
+        186,
+        511
+      ]
+    },
+    {
+      "name": "FORRTifying Open Science in The Netherlands: Grant",
+      "url": null,
+      "members": [
+        540
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "abdulsamad-humaidan",
+      "label": "Abdulsamad Humaidan",
+      "x": 24.31,
+      "y": -99.04,
+      "projects": [
+        13
+      ],
+      "roles": 2
+    },
+    {
+      "id": "abel-brodeur",
+      "label": "Abel Brodeur",
+      "x": -33.65,
+      "y": 9.42,
+      "projects": [
+        17,
+        18
+      ],
+      "roles": 2
+    },
+    {
+      "id": "adam-parker",
+      "label": "Adam Parker",
+      "x": -41.19,
+      "y": -75.63,
+      "projects": [
+        1
+      ],
+      "roles": 2
+    },
+    {
+      "id": "adelina-mihaela-halchin",
+      "label": "Adelina-Mihaela Halchin",
+      "x": -56.19,
+      "y": -7.62,
+      "projects": [
+        5
+      ],
+      "roles": 2
+    },
+    {
+      "id": "adira-daniel",
+      "label": "Adira Daniel",
+      "x": -61.77,
+      "y": -5.72,
+      "projects": [
+        16
+      ],
+      "roles": 1
+    },
+    {
+      "id": "adrien-fillon",
+      "label": "Adrien Fillon",
+      "x": 24.32,
+      "y": -17.05,
+      "projects": [
+        0,
+        1,
+        2
+      ],
+      "roles": 4
+    },
+    {
+      "id": "adrien-mathy",
+      "label": "Adrien Mathy",
+      "x": -71.26,
+      "y": 20.71,
+      "projects": [
+        4,
+        11,
+        12
+      ],
+      "roles": 8
+    },
+    {
+      "id": "ahlam-almehmadi",
+      "label": "Ahlam Almehmadi",
+      "x": 23.57,
+      "y": -99.7,
+      "projects": [
+        13
+      ],
+      "roles": 2
+    },
+    {
+      "id": "ahmed-hakami",
+      "label": "Ahmed Hakami",
+      "x": 24.99,
+      "y": -98.87,
+      "projects": [
+        13
+      ],
+      "roles": 1
+    },
+    {
+      "id": "aidan-cashin",
+      "label": "Aidan Cashin",
+      "x": -22.85,
+      "y": -70.33,
+      "projects": [
+        1
+      ],
+      "roles": 2
+    },
+    {
+      "id": "akanksha-gupta",
+      "label": "Akanksha Gupta",
+      "x": -49.46,
+      "y": 28.22,
+      "projects": [
+        24,
+        35
+      ],
+      "roles": 7
+    },
+    {
+      "id": "alaa-aldoh",
+      "label": "Alaa Aldoh",
+      "x": 2.73,
+      "y": -13.11,
+      "projects": [
+        0,
+        1,
+        2,
+        14
+      ],
+      "roles": 10
+    },
+    {
+      "id": "alaa-saleh",
+      "label": "Alaa Saleh",
+      "x": 23.47,
+      "y": -98.04,
+      "projects": [
+        13
+      ],
+      "roles": 3
+    },
+    {
+      "id": "alejandro-sandoval-lentisco",
+      "label": "Alejandro Sandoval-Lentisco",
+      "x": 21.36,
+      "y": 42.53,
+      "projects": [
+        0
+      ],
+      "roles": 2
+    },
+    {
+      "id": "aleksandra-lazi",
+      "label": "Aleksandra Lazić",
+      "x": -66.11,
+      "y": -49.69,
+      "projects": [
+        1,
+        6,
+        8
+      ],
+      "roles": 8
+    },
+    {
+      "id": "aleksandra-to-opi-o",
+      "label": "Aleksandra Tołopiło",
+      "x": 5.72,
+      "y": 28.07,
+      "projects": [
+        0,
+        2
+      ],
+      "roles": 2
+    },
+    {
+      "id": "aleksandrina-skvortsova",
+      "label": "Aleksandrina Skvortsova",
+      "x": -12.05,
+      "y": 22.39,
+      "projects": [
+        0,
+        2,
+        5
+      ],
+      "roles": 10
+    },
+    {
+      "id": "alessio-merighi",
+      "label": "Alessio Merighi",
+      "x": -59.27,
+      "y": -10.67,
+      "projects": [
+        38
+      ],
+      "roles": 1
+    },
+    {
+      "id": "alex-holcombe",
+      "label": "Alex Holcombe",
+      "x": -74.26,
+      "y": 17.15,
+      "projects": [
+        15
+      ],
+      "roles": 1
+    },
+    {
+      "id": "alexander-hart",
+      "label": "Alexander Hart",
+      "x": -30.18,
+      "y": -53.49,
+      "projects": [
+        1,
+        8
+      ],
+      "roles": 3
+    },
+    {
+      "id": "alexandros-kastrinogiannis",
+      "label": "Alexandros Kastrinogiannis",
+      "x": 7.75,
+      "y": 23.15,
+      "projects": [
+        0,
+        2
+      ],
+      "roles": 2
+    },
+    {
+      "id": "ali-al-hoorie",
+      "label": "Ali Al-Hoorie",
+      "x": 4.56,
+      "y": -45.89,
+      "projects": [
+        0,
+        1,
+        2,
+        3,
+        6,
+        8,
+        9,
+        13
+      ],
+      "roles": 14
+    },
+    {
+      "id": "alice-rees",
+      "label": "Alice Rees",
+      "x": -58.43,
+      "y": -10.35,
+      "projects": [
+        5
+      ],
+      "roles": 2
+    },
+    {
+      "id": "alicja-koperska",
+      "label": "Alicja Koperska",
+      "x": -52.15,
+      "y": 7.26,
+      "projects": [
+        12
+      ],
+      "roles": 3
+    },
+    {
+      "id": "alina-herderich",
+      "label": "Alina Herderich",
+      "x": 8.05,
+      "y": 37.13,
+      "projects": [
+        0,
+        2
+      ],
+      "roles": 2
+    },
+    {
+      "id": "alina-koppold",
+      "label": "Alina Koppold",
+      "x": -4.84,
+      "y": 20.68,
+      "projects": [
+        0,
+        2,
+        8
+      ],
+      "roles": 5
+    },
+    {
+      "id": "alma-jefti",
+      "label": "Alma Jeftić",
+      "x": -18.67,
+      "y": 26.69,
+      "projects": [
+        0,
+        2,
+        6,
+        8
+      ],
+      "roles": 7
+    },
+    {
+      "id": "alvin-tan",
+      "label": "Alvin Tan",
+      "x": 10.64,
+      "y": 19.0,
+      "projects": [
+        0,
+        2
+      ],
+      "roles": 2
+    },
+    {
+      "id": "alyssa-zisk",
+      "label": "Alyssa Zisk",
+      "x": -51.59,
+      "y": 7.25,
+      "projects": [
+        12
+      ],
+      "roles": 7
+    },
+    {
+      "id": "amanda-moehring",
+      "label": "Amanda Moehring",
+      "x": -67.87,
+      "y": -24.02,
+      "projects": [
+        7
+      ],
+      "roles": 2
+    },
+    {
+      "id": "amanda-woodward",
+      "label": "Amanda Woodward",
+      "x": -60.72,
+      "y": -10.15,
+      "projects": [
+        5,
+        38
+      ],
+      "roles": 5
+    },
+    {
+      "id": "amani-aloufi",
+      "label": "Amani Aloufi",
+      "x": 25.58,
+      "y": -98.75,
+      "projects": [
+        13
+      ],
+      "roles": 3
+    },
+    {
+      "id": "amna-ben-amara",
+      "label": "Amna Ben Amara",
+      "x": -81.06,
+      "y": -2.15,
+      "projects": [
+        6
+      ],
+      "roles": 2
+    },
+    {
+      "id": "amy-heather",
+      "label": "Amy Heather",
+      "x": -47.87,
+      "y": 27.99,
+      "projects": [
+        35
+      ],
+      "roles": 2
+    },
+    {
+      "id": "amy-orben",
+      "label": "Amy Orben",
+      "x": -68.11,
+      "y": 9.87,
+      "projects": [
+        19
+      ],
+      "roles": 1
+    },
+    {
+      "id": "amy-pearson",
+      "label": "Amy Pearson",
+      "x": -82.76,
+      "y": -17.64,
+      "projects": [
+        10
+      ],
+      "roles": 1
+    },
+    {
+      "id": "am-lie-bret",
+      "label": "Amélie Bret",
+      "x": -42.28,
+      "y": -71.03,
+      "projects": [
+        1
+      ],
+      "roles": 2
+    },
+    {
+      "id": "am-lie-gourdon-kanhukamwe",
+      "label": "Amélie Gourdon-Kanhukamwe",
+      "x": -34.27,
+      "y": 23.2,
+      "projects": [
+        0,
+        2,
+        3,
+        4,
+        7,
+        21,
+        34,
+        57
+      ],
+      "roles": 21
+    },
+    {
+      "id": "ana-barbosa-mendes",
+      "label": "Ana Barbosa Mendes",
+      "x": -22.65,
+      "y": -63.9,
+      "projects": [
+        1
+      ],
+      "roles": 1
+    },
+    {
+      "id": "ana-todorovic",
+      "label": "Ana Todorovic",
+      "x": -39.14,
+      "y": -69.36,
+      "projects": [
+        1
+      ],
+      "roles": 1
+    },
+    {
+      "id": "anabel-belaus",
+      "label": "Anabel Belaus",
+      "x": 13.12,
+      "y": 22.63,
+      "projects": [
+        0,
+        2
+      ],
+      "roles": 2
+    },
+    {
+      "id": "anamara-ritt-olson",
+      "label": "Anamara Ritt-Olson",
+      "x": -67.85,
+      "y": 11.04,
+      "projects": [
+        19
+      ],
+      "roles": 2
+    },
+    {
+      "id": "andis-draguns",
+      "label": "Andis Draguns",
+      "x": 20.17,
+      "y": 26.58,
+      "projects": [
+        0,
+        2
+      ],
+      "roles": 2
+    },
+    {
+      "id": "andre-kalmendal",
+      "label": "Andre Kalmendal",
+      "x": -67.95,
+      "y": -21.39,
+      "projects": [
+        7
+      ],
+      "roles": 3
+    },
+    {
+      "id": "andrea-kis",
+      "label": "Andrea Kis",
+      "x": -63.86,
+      "y": 25.69,
+      "projects": [
+        4,
+        12
+      ],
+      "roles": 4
+    },
+    {
+      "id": "andrew-pua",
+      "label": "Andrew Pua",
+      "x": 8.37,
+      "y": 9.08,
+      "projects": [
+        0,
+        2,
+        22
+      ],
+      "roles": 4
+    },
+    {
+      "id": "andrew-stewart",
+      "label": "Andrew Stewart",
+      "x": -42.86,
+      "y": -67.88,
+      "projects": [
+        1
+      ],
+      "roles": 2
+    },
+    {
+      "id": "angel-garc-a-o-diana",
+      "label": "Angel García O' Diana",
+      "x": -66.76,
+      "y": 30.17,
+      "projects": [
+        4
+      ],
+      "roles": 5
+    },
+    {
+      "id": "ann-marie-creaven",
+      "label": "Ann-Marie Creaven",
+      "x": -37.46,
+      "y": -28.59,
+      "projects": [
+        3
+      ],
+      "roles": 1
+    },
+    {
+      "id": "anna-exner",
+      "label": "Anna Exner",
+      "x": 16.74,
+      "y": 31.01,
+      "projects": [
+        0,
+        2
+      ],
+      "roles": 2
+    },
+    {
+      "id": "anna-hollis",
+      "label": "Anna Hollis",
+      "x": -52.3,
+      "y": 7.85,
+      "projects": [
+        12
+      ],
+      "roles": 3
+    },
+    {
+      "id": "anna-meier",
+      "label": "Anna Meier",
+      "x": -77.62,
+      "y": -22.1,
+      "projects": [
+        7,
+        10
+      ],
+      "roles": 3
+    },
+    {
+      "id": "annalisa-myer",
+      "label": "Annalisa Myer",
+      "x": -70.11,
+      "y": -22.98,
+      "projects": [
+        7,
+        60
+      ],
+      "roles": 6
+    },
+    {
+      "id": "annalise-laplume",
+      "label": "Annalise LaPlume",
+      "x": 18.63,
+      "y": -13.85,
+      "projects": [
+        0,
+        1,
+        2
+      ],
+      "roles": 4
+    },
+    {
+      "id": "anne-fouilloux",
+      "label": "Anne Fouilloux",
+      "x": -29.12,
+      "y": 42.7,
+      "projects": [
+        25
+      ],
+      "roles": 1
+    },
+    {
+      "id": "annette-van-randenborgh",
+      "label": "Annette van Randenborgh",
+      "x": -20.93,
+      "y": 4.33,
+      "projects": [
+        17
+      ],
+      "roles": 1
+    },
+    {
+      "id": "antonia-krasteva",
+      "label": "Antonia Krasteva",
+      "x": -64.78,
+      "y": -6.42,
+      "projects": [
+        16,
+        22,
+        28,
+        31,
+        33,
+        47
+      ],
+      "roles": 15
+    },
+    {
+      "id": "anusha-ramji",
+      "label": "Anusha Ramji",
+      "x": -55.59,
+      "y": -8.81,
+      "projects": [
+        21,
+        27
+      ],
+      "roles": 3
+    },
+    {
+      "id": "anya-butler",
+      "label": "Anya Butler",
+      "x": 48.28,
+      "y": 47.67,
+      "projects": [
+        0
+      ],
+      "roles": 1
+    },
+    {
+      "id": "aoife-mahony",
+      "label": "Aoife Mahony",
+      "x": -73.67,
+      "y": 30.32,
+      "projects": [
+        4
+      ],
+      "roles": 3
+    },
+    {
+      "id": "aoife-o-mahony",
+      "label": "Aoife O'Mahony",
+      "x": -20.45,
+      "y": -30.9,
+      "projects": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        7,
+        8,
+        9
+      ],
+      "roles": 17
+    },
+    {
+      "id": "aritra-mukherjee",
+      "label": "Aritra Mukherjee",
+      "x": -68.94,
+      "y": -23.49,
+      "projects": [
+        7
+      ],
+      "roles": 4
+    },
+    {
+      "id": "arnon-weinberg",
+      "label": "Arnon Weinberg",
+      "x": 41.42,
+      "y": 45.62,
+      "projects": [
+        0
+      ],
+      "roles": 1
+    },
+    {
+      "id": "ashley-blake",
+      "label": "Ashley Blake",
+      "x": -27.87,
+      "y": -60.51,
+      "projects": [
+        1
+      ],
+      "roles": 1
+    },
+    {
+      "id": "asil-zdo-ru",
+      "label": "Asil Özdoğru",
+      "x": -81.32,
+      "y": 2.15,
+      "projects": [
+        6
+      ],
+      "roles": 4
+    },
+    {
+      "id": "asma-alzahrani",
+      "label": "Asma Alzahrani",
+      "x": 24.76,
+      "y": -99.45,
+      "projects": [
+        13
+      ],
+      "roles": 3
+    },
+    {
+      "id": "asma-assaneea",
+      "label": "Asma Assaneea",
+      "x": -35.57,
+      "y": -67.71,
+      "projects": [
+        1
+      ],
+      "roles": 1
+    },
+    {
+      "id": "astrid-sch-tz",
+      "label": "Astrid Schütz",
+      "x": 53.04,
+      "y": 30.28,
+      "projects": [
+        0
+      ],
+      "roles": 3
+    },
+    {
+      "id": "aswathi-surendran",
+      "label": "Aswathi Surendran",
+      "x": -68.51,
+      "y": 30.99,
+      "projects": [
+        4
+      ],
+      "roles": 5
+    },
+    {
+      "id": "awatif-alruwaili",
+      "label": "Awatif Alruwaili",
+      "x": 23.13,
+      "y": -99.28,
+      "projects": [
+        13
+      ],
+      "roles": 1
+    },
+    {
+      "id": "ayanna-thomas",
+      "label": "Ayanna Thomas",
+      "x": -99.13,
+      "y": -3.09,
+      "projects": [
+        62
+      ],
+      "roles": 6
+    },
+    {
+      "id": "balazs-aczel",
+      "label": "Balazs Aczel",
+      "x": 10.54,
+      "y": -32.94,
+      "projects": [
+        0,
+        1,
+        2,
+        7
+      ],
+      "roles": 7
+    },
+    {
+      "id": "barbara-sinicic",
+      "label": "Barbara Sinicic",
+      "x": -61.76,
+      "y": -6.12,
+      "projects": [
+        16
+      ],
+      "roles": 2
+    },
+    {
+      "id": "barnabas-szaszi",
+      "label": "Barnabas Szaszi",
+      "x": -22.49,
+      "y": -74.25,
+      "projects": [
+        1
+      ],
+      "roles": 2
+    },
+    {
+      "id": "bastian-greshake-tzovaras",
+      "label": "Bastian Greshake Tzovaras",
+      "x": 29.33,
+      "y": 57.21,
+      "projects": [
+        0
+      ],
+      "roles": 1
+    },
+    {
+      "id": "beatrice-valentini",
+      "label": "Beatrice Valentini",
+      "x": -33.0,
+      "y": -70.62,
+      "projects": [
+        1
+      ],
+      "roles": 2
+    },
+    {
+      "id": "beatrix-arendt",
+      "label": "Beatrix Arendt",
+      "x": -25.28,
+      "y": -76.08,
+      "projects": [
+        1
+      ],
+      "roles": 2
+    },
+    {
+      "id": "belay-moges",
+      "label": "Belay Moges",
+      "x": -53.74,
+      "y": -10.2,
+      "projects": [
+        23
+      ],
+      "roles": 1
+    },
+    {
+      "id": "ben-saunders",
+      "label": "Ben Saunders",
+      "x": -54.39,
+      "y": -8.0,
+      "projects": [
+        5
+      ],
+      "roles": 2
+    },
+    {
+      "id": "benjamin-brummernhenrich",
+      "label": "Benjamin Brummernhenrich",
+      "x": 2.57,
+      "y": 23.85,
+      "projects": [
+        0,
+        2
+      ],
+      "roles": 2
+    },
+    {
+      "id": "benjamin-farrar",
+      "label": "Benjamin Farrar",
+      "x": 21.86,
+      "y": -22.21,
+      "projects": [
+        0,
+        1,
+        2
+      ],
+      "roles": 4
+    },
+    {
+      "id": "bethan-iley",
+      "label": "Bethan Iley",
+      "x": -73.41,
+      "y": -43.47,
+      "projects": [
+        1,
+        3,
+        7,
+        8,
+        10,
+        11,
+        21,
+        22,
+        23,
+        34,
+        54
+      ],
+      "roles": 32
+    },
+    {
+      "id": "bettina-kern",
+      "label": "Bettina Kern",
+      "x": -43.41,
+      "y": -64.22,
+      "projects": [
+        1,
+        52
+      ],
+      "roles": 4
+    },
+    {
+      "id": "betul-kan-kilinc",
+      "label": "Betul Kan-Kilinc",
+      "x": -50.25,
+      "y": 27.96,
+      "projects": [
+        24
+      ],
+      "roles": 5
+    },
+    {
+      "id": "biljana-gjoneska",
+      "label": "Biljana Gjoneska",
+      "x": -49.1,
+      "y": 36.76,
+      "projects": [
+        0,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        9,
+        12,
+        27
+      ],
+      "roles": 18
+    },
+    {
+      "id": "birgit-schmidt",
+      "label": "Birgit Schmidt",
+      "x": -38.12,
+      "y": -76.81,
+      "projects": [
+        1
+      ],
+      "roles": 2
+    },
+    {
+      "id": "bita-vahdani",
+      "label": "Bita Vahdani",
+      "x": -77.83,
+      "y": 1.42,
+      "projects": [
+        6
+      ],
+      "roles": 2
+    },
+    {
+      "id": "bj-rn-brembs",
+      "label": "Björn Brembs",
+      "x": -45.68,
+      "y": 12.88,
+      "projects": [
+        18
+      ],
+      "roles": 1
+    },
+    {
+      "id": "bojana-dini",
+      "label": "Bojana Dinić",
+      "x": -76.28,
+      "y": 30.71,
+      "projects": [
+        4,
+        42
+      ],
+      "roles": 4
+    },
+    {
+      "id": "bradley-baker",
+      "label": "Bradley Baker",
+      "x": -9.62,
+      "y": -23.81,
+      "projects": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        8,
+        9
+      ],
+      "roles": 13
+    },
+    {
+      "id": "brendan-ch-ng",
+      "label": "Brendan Ch'ng",
+      "x": -70.43,
+      "y": 28.6,
+      "projects": [
+        4
+      ],
+      "roles": 1
+    },
+    {
+      "id": "brendan-williams",
+      "label": "Brendan Williams",
+      "x": -41.59,
+      "y": -16.29,
+      "projects": [
+        8
+      ],
+      "roles": 1
+    },
+    {
+      "id": "brett-gall",
+      "label": "Brett Gall",
+      "x": -33.07,
+      "y": -65.38,
+      "projects": [
+        1
+      ],
+      "roles": 2
+    },
+    {
+      "id": "brian-nosek",
+      "label": "Brian Nosek",
+      "x": -73.15,
+      "y": 18.16,
+      "projects": [
+        15
+      ],
+      "roles": 1
+    },
+    {
+      "id": "brice-beffara-bret",
+      "label": "Brice Beffara Bret",
+      "x": -34.8,
+      "y": -77.48,
+      "projects": [
+        1
+      ],
+      "roles": 2
+    },
+    {
+      "id": "brinna-mawhinney",
+      "label": "Brinna Mawhinney",
+      "x": 6.99,
+      "y": 55.42,
+      "projects": [
+        0
+      ],
+      "roles": 2
+    },
+    {
+      "id": "bruna-val-rio-gomes",
+      "label": "Bruna Valério Gomes",
+      "x": -51.57,
+      "y": 12.37,
+      "projects": [
+        53
+      ],
+      "roles": 2
+    },
+    {
+      "id": "burak-tunca",
+      "label": "Burak Tunca",
+      "x": 38.08,
+      "y": 50.88,
+      "projects": [
+        0
+      ],
+      "roles": 1
+    },
+    {
+      "id": "caleb-onoja-akogwu",
+      "label": "Caleb Onoja Akogwu",
+      "x": -57.23,
+      "y": -4.47,
+      "projects": [
+        5
+      ],
+      "roles": 2
+    },
+    {
+      "id": "cameron-brick",
+      "label": "Cameron Brick",
+      "x": 25.45,
+      "y": 8.85,
+      "projects": [
+        0,
+        2
+      ],
+      "roles": 2
+    },
+    {
+      "id": "carl-galang",
+      "label": "Carl Galang",
+      "x": -68.08,
+      "y": -15.8,
+      "projects": [
+        36
+      ],
+      "roles": 2
+    },
+    {
+      "id": "catherine-laverty",
+      "label": "Catherine Laverty",
+      "x": -38.15,
+      "y": -59.05,
+      "projects": [
+        1,
+        22
+      ],
+      "roles": 4
+    },
+    {
+      "id": "catherine-talbot",
+      "label": "Catherine Talbot",
+      "x": -42.53,
+      "y": -25.97,
+      "projects": [
+        14
+      ],
+      "roles": 2
+    },
+    {
+      "id": "cathy-fang",
+      "label": "Cathy Fang",
+      "x": 84.73,
+      "y": 10.8,
+      "projects": [
+        29
+      ],
+      "roles": 2
+    },
+    {
+      "id": "catia-oliveira",
+      "label": "Catia Oliveira",
+      "x": -52.86,
+      "y": -7.72,
+      "projects": [
+        5
+      ],
+      "roles": 2
+    },
+    {
+      "id": "cecilia-baldoni",
+      "label": "Cecilia Baldoni",
+      "x": -29.6,
+      "y": 42.56,
+      "projects": [
+        25
+      ],
+      "roles": 2
+    },
+    {
+      "id": "charlotte-barth",
+      "label": "Charlotte Barth",
+      "x": 11.41,
+      "y": 58.12,
+      "projects": [
+        0
+      ],
+      "roles": 1
+    },
+    {
+      "id": "charlotte-pennington",
+      "label": "Charlotte Pennington",
+      "x": -10.5,
+      "y": -15.71,
+      "projects": [
+        0,
+        1,
+        2,
+        3,
+        8,
+        9,
+        14,
+        17,
+        32,
+        49,
+        55
+      ],
+      "roles": 38
+    },
+    {
+      "id": "charlotte-pennington-2",
+      "label": "Charlotte Pennington",
+      "x": -66.2,
+      "y": -24.66,
+      "projects": [
+        7
+      ],
+      "roles": 2
+    },
+    {
+      "id": "chimezie-amaefule",
+      "label": "Chimezie Amaefule",
+      "x": -68.74,
+      "y": 11.81,
+      "projects": [
+        19
+      ],
+      "roles": 1
+    },
+    {
+      "id": "chinchu-c",
+      "label": "Chinchu C.",
+      "x": -80.06,
+      "y": 2.07,
+      "projects": [
+        6
+      ],
+      "roles": 2
+    },
+    {
+      "id": "christian-seida",
+      "label": "Christian Seida",
+      "x": 41.81,
+      "y": 3.43,
+      "projects": [
+        0
+      ],
+      "roles": 4
+    },
+    {
+      "id": "christian-sodano",
+      "label": "Christian Sodano",
+      "x": -57.11,
+      "y": -9.6,
+      "projects": [
+        5
+      ],
+      "roles": 2
+    },
+    {
+      "id": "christina-pomareda",
+      "label": "Christina Pomareda",
+      "x": -39.32,
+      "y": -72.93,
+      "projects": [
+        1
+      ],
+      "roles": 2
+    },
+    {
+      "id": "christof-sch-ch",
+      "label": "Christof Schöch",
+      "x": -73.87,
+      "y": 17.89,
+      "projects": [
+        15
+      ],
+      "roles": 1
+    },
+    {
+      "id": "christopher-doetsch",
+      "label": "Christopher Doetsch",
+      "x": 22.14,
+      "y": 55.38,
+      "projects": [
+        0
+      ],
+      "roles": 5
+    },
+    {
+      "id": "christopher-eaker",
+      "label": "Christopher Eaker",
+      "x": -65.61,
+      "y": -23.48,
+      "projects": [
+        7
+      ],
+      "roles": 2
+    },
+    {
+      "id": "christopher-graham",
+      "label": "Christopher Graham",
+      "x": -30.32,
+      "y": 5.77,
+      "projects": [
+        0,
+        1,
+        2,
+        4,
+        5,
+        8,
+        12
+      ],
+      "roles": 14
+    },
+    {
+      "id": "christopher-madan",
+      "label": "Christopher Madan",
+      "x": -43.23,
+      "y": -28.44,
+      "projects": [
+        3
+      ],
+      "roles": 1
+    },
+    {
+      "id": "chun-yu-lin",
+      "label": "Chun-Yu Lin",
+      "x": 30.29,
+      "y": 37.12,
+      "projects": [
+        0
+      ],
+      "roles": 1
+    },
+    {
+      "id": "ciara-egan",
+      "label": "Ciara Egan",
+      "x": -52.84,
+      "y": -14.93,
+      "projects": [
+        5,
+        8
+      ],
+      "roles": 5
+    },
+    {
+      "id": "claire-melia",
+      "label": "Claire Melia",
+      "x": -36.8,
+      "y": -64.51,
+      "projects": [
+        1
+      ],
+      "roles": 2
+    },
+    {
+      "id": "clara-akpan",
+      "label": "Clara Akpan",
+      "x": -66.25,
+      "y": 33.74,
+      "projects": [
+        4
+      ],
+      "roles": 1
+    },
+    {
+      "id": "clarissa-fran-a-dias-carneiro",
+      "label": "Clarissa França Dias Carneiro",
+      "x": -76.73,
+      "y": 3.83,
+      "projects": [
+        6,
+        53
+      ],
+      "roles": 4
+    },
+    {
+      "id": "claudia-mohr",
+      "label": "Claudia Mohr",
+      "x": -45.67,
+      "y": 12.64,
+      "projects": [
+        18
+      ],
+      "roles": 2
+    },
+    {
+      "id": "clove-haviva",
+      "label": "Clove Haviva",
+      "x": 46.93,
+      "y": 22.73,
+      "projects": [
+        0
+      ],
+      "roles": 1
+    },
+    {
+      "id": "colleen-russo-johnson",
+      "label": "Colleen Russo Johnson",
+      "x": -68.49,
+      "y": 10.71,
+      "projects": [
+        19
+      ],
+      "roles": 1
+    },
+    {
+      "id": "connor-keating",
+      "label": "Connor Keating",
+      "x": -59.34,
+      "y": -48.74,
+      "projects": [
+        1,
+        5,
+        22
+      ],
+      "roles": 7
+    },
+    {
+      "id": "cosmas-knowen",
+      "label": "Cosmas Knowen",
+      "x": -53.64,
+      "y": -9.51,
+      "projects": [
+        23
+      ],
+      "roles": 1
+    },
+    {
+      "id": "crystal-steltenpohl",
+      "label": "Crystal Steltenpohl",
+      "x": -78.79,
+      "y": -7.29,
+      "projects": [
+        10,
+        11,
+        15,
+        16,
+        28,
+        36
+      ],
+      "roles": 16
+    },
+    {
+      "id": "c-tia-ferreira-de-oliveira",
+      "label": "Cátia Ferreira de Oliveira",
+      "x": -36.73,
+      "y": -45.36,
+      "projects": [
+        1,
+        3,
+        9
+      ],
+      "roles": 7
+    },
+    {
+      "id": "daniel-cox",
+      "label": "Daniel Cox",
+      "x": -40.13,
+      "y": -30.99,
+      "projects": [
+        3
+      ],
+      "roles": 1
+    },
+    {
+      "id": "daniel-fatori",
+      "label": "Daniel Fatori",
+      "x": -81.05,
+      "y": 3.73,
+      "projects": [
+        6
+      ],
+      "roles": 2
+    },
+    {
+      "id": "daniel-manrique-castano",
+      "label": "Daniel Manrique-Castano",
+      "x": -54.96,
+      "y": -4.65,
+      "projects": [
+        5
+      ],
+      "roles": 2
+    },
+    {
+      "id": "daniel-walker",
+      "label": "Daniel Walker",
+      "x": -36.19,
+      "y": -31.42,
+      "projects": [
+        3
+      ],
+      "roles": 1
+    },
+    {
+      "id": "daniela-duca",
+      "label": "Daniela Duca",
+      "x": -66.68,
+      "y": -21.24,
+      "projects": [
+        7
+      ],
+      "roles": 2
+    },
+    {
+      "id": "danka-puri",
+      "label": "Danka Purić",
+      "x": -78.16,
+      "y": 5.54,
+      "projects": [
+        6,
+        42
+      ],
+      "roles": 4
+    },
+    {
+      "id": "danna-oomen",
+      "label": "Danna Oomen",
+      "x": 40.55,
+      "y": 30.39,
+      "projects": [
+        0
+      ],
+      "roles": 1
+    },
+    {
+      "id": "dar-as-holgado",
+      "label": "Darías Holgado",
+      "x": 32.09,
+      "y": 67.38,
+      "projects": [
+        0
+      ],
+      "roles": 1
+    },
+    {
+      "id": "david-bauer",
+      "label": "David Bauer",
+      "x": 17.35,
+      "y": 65.48,
+      "projects": [
+        0
+      ],
+      "roles": 1
+    },
+    {
+      "id": "david-mcsharry",
+      "label": "David McSharry",
+      "x": 33.74,
+      "y": 61.04,
+      "projects": [
+        0
+      ],
+      "roles": 1
+    },
+    {
+      "id": "david-moreau",
+      "label": "David Moreau",
+      "x": -11.4,
+      "y": -30.56,
+      "projects": [
+        0,
+        1,
+        2,
+        3,
+        6,
+        8,
+        14
+      ],
+      "roles": 11
+    },
+    {
+      "id": "david-urschler",
+      "label": "David Urschler",
+      "x": -57.77,
+      "y": 16.67,
+      "projects": [
+        30
+      ],
+      "roles": 3
+    },
+    {
+      "id": "david-vaidis",
+      "label": "David Vaidis",
+      "x": -61.18,
+      "y": 38.09,
+      "projects": [
+        4,
+        18,
+        25
+      ],
+      "roles": 6
+    },
+    {
+      "id": "david-zimmermann",
+      "label": "David Zimmermann",
+      "x": 23.0,
+      "y": 5.17,
+      "projects": [
+        0,
+        2
+      ],
+      "roles": 2
+    },
+    {
+      "id": "dermot-lynott",
+      "label": "Dermot Lynott",
+      "x": -11.06,
+      "y": 28.25,
+      "projects": [
+        0,
+        2,
+        7
+      ],
+      "roles": 4
+    },
+    {
+      "id": "dilhan-toredi",
+      "label": "Dilhan Toredi",
+      "x": -70.73,
+      "y": 37.47,
+      "projects": [
+        4
+      ],
+      "roles": 3
+    },
+    {
+      "id": "dilyana-hristova",
+      "label": "Dilyana Hristova",
+      "x": -58.72,
+      "y": 1.78,
+      "projects": [
+        47
+      ],
+      "roles": 5
+    },
+    {
+      "id": "dominik-kiersz",
+      "label": "Dominik Kiersz",
+      "x": -48.01,
+      "y": -61.6,
+      "projects": [
+        1,
+        23,
+        54
+      ],
+      "roles": 4
+    },
+    {
+      "id": "dominique-roche",
+      "label": "Dominique Roche",
+      "x": -31.62,
+      "y": -77.36,
+      "projects": [
+        1
+      ],
+      "roles": 2
+    },
+    {
+      "id": "don-moore",
+      "label": "Don Moore",
+      "x": -54.43,
+      "y": -11.2,
+      "projects": [
+        5
+      ],
+      "roles": 2
+    },
+    {
+      "id": "don-van-ravenzwaaij",
+      "label": "Don van Ravenzwaaij",
+      "x": -19.99,
+      "y": 3.35,
+      "projects": [
+        17
+      ],
+      "roles": 1
+    },
+    {
+      "id": "dora-butkovic",
+      "label": "Dora Butkovic",
+      "x": -70.45,
+      "y": -17.75,
+      "projects": [
+        7,
+        11,
+        58
+      ],
+      "roles": 3
+    },
+    {
+      "id": "ebuka-ezeike",
+      "label": "Ebuka Ezeike",
+      "x": -45.99,
+      "y": -14.05,
+      "projects": [
+        22
+      ],
+      "roles": 2
+    },
+    {
+      "id": "eduarda-centeno",
+      "label": "Eduarda Centeno",
+      "x": -74.27,
+      "y": 34.36,
+      "projects": [
+        4
+      ],
+      "roles": 1
+    },
+    {
+      "id": "eduardo-garcia-garzon",
+      "label": "Eduardo Garcia-Garzon",
+      "x": -18.5,
+      "y": -69.39,
+      "projects": [
+        1
+      ],
+      "roles": 2
+    },
+    {
+      "id": "eftychia-koukouraki",
+      "label": "Eftychia Koukouraki",
+      "x": -47.52,
+      "y": 28.48,
+      "projects": [
+        35
+      ],
+      "roles": 1
+    },
+    {
+      "id": "eike-rinke",
+      "label": "Eike Rinke",
+      "x": -40.6,
+      "y": -62.15,
+      "projects": [
+        1,
+        46
+      ],
+      "roles": 3
+    },
+    {
+      "id": "ekaterina-leksina",
+      "label": "Ekaterina Leksina",
+      "x": 46.19,
+      "y": 33.44,
+      "projects": [
+        0
+      ],
+      "roles": 2
+    },
+    {
+      "id": "ekaterina-pronizius",
+      "label": "Ekaterina Pronizius",
+      "x": 17.74,
+      "y": 22.22,
+      "projects": [
+        0,
+        2
+      ],
+      "roles": 2
+    },
+    {
+      "id": "elen-le-foll",
+      "label": "Elen Le Foll",
+      "x": -49.66,
+      "y": 23.1,
+      "projects": [
+        20,
+        24,
+        30
+      ],
+      "roles": 7
+    },
+    {
+      "id": "elena-richert",
+      "label": "Elena Richert",
+      "x": 7.15,
+      "y": 16.24,
+      "projects": [
+        0,
+        2
+      ],
+      "roles": 2
+    },
+    {
+      "id": "elias-garcia-pelegrin",
+      "label": "Elias Garcia-Pelegrin",
+      "x": -31.13,
+      "y": -61.06,
+      "projects": [
+        1
+      ],
+      "roles": 1
+    },
+    {
+      "id": "elis-gabriela",
+      "label": "Elis Gabriela",
+      "x": -71.07,
+      "y": 33.6,
+      "projects": [
+        4
+      ],
+      "roles": 1
+    },
+    {
+      "id": "elisabeth-sawatzky",
+      "label": "Elisabeth Sawatzky",
+      "x": -45.28,
+      "y": 12.75,
+      "projects": [
+        18
+      ],
+      "roles": 2
+    },
+    {
+      "id": "eliska-blazek",
+      "label": "Eliska Blazek",
+      "x": -50.01,
+      "y": 27.16,
+      "projects": [
+        24
+      ],
+      "roles": 2
+    },
+    {
+      "id": "eliza-woodward",
+      "label": "Eliza Woodward",
+      "x": -36.23,
+      "y": -70.97,
+      "projects": [
+        1
+      ],
+      "roles": 1
+    },
+    {
+      "id": "elizabeth-collins",
+      "label": "Elizabeth Collins",
+      "x": -20.06,
+      "y": -72.17,
+      "projects": [
+        1
+      ],
+      "roles": 1
+    },
+    {
+      "id": "emily-budd",
+      "label": "Emily Budd",
+      "x": 37.46,
+      "y": 10.5,
+      "projects": [
+        0
+      ],
+      "roles": 1
+    },
+    {
+      "id": "emily-friedel",
+      "label": "Emily Friedel",
+      "x": -61.27,
+      "y": -1.48,
+      "projects": [
+        5,
+        12,
+        16,
+        31,
+        33,
+        37,
+        44
+      ],
+      "roles": 22
+    },
+    {
+      "id": "emily-williams",
+      "label": "Emily Williams",
+      "x": -17.97,
+      "y": -66.09,
+      "projects": [
+        1
+      ],
+      "roles": 1
+    },
+    {
+      "id": "emir-efendic",
+      "label": "Emir Efendic",
+      "x": 10.23,
+      "y": 26.78,
+      "projects": [
+        0,
+        2
+      ],
+      "roles": 2
+    },
+    {
+      "id": "emma-henderson",
+      "label": "Emma Henderson",
+      "x": 32.13,
+      "y": -30.39,
+      "projects": [
+        0,
+        1
+      ],
+      "roles": 3
+    },
+    {
+      "id": "emma-norris",
+      "label": "Emma Norris",
+      "x": -25.8,
+      "y": -72.82,
+      "projects": [
+        1
+      ],
+      "roles": 2
+    },
+    {
+      "id": "emma-wilson",
+      "label": "Emma Wilson",
+      "x": -44.18,
+      "y": -15.18,
+      "projects": [
+        8,
+        57
+      ],
+      "roles": 2
+    },
+    {
+      "id": "esther-plomp",
+      "label": "Esther Plomp",
+      "x": -73.43,
+      "y": -12.98,
+      "projects": [
+        5,
+        10
+      ],
+      "roles": 3
+    },
+    {
+      "id": "fabienne-ennigkeit",
+      "label": "Fabienne Ennigkeit",
+      "x": -70.39,
+      "y": 30.32,
+      "projects": [
+        4
+      ],
+      "roles": 5
+    },
+    {
+      "id": "farid-anvari",
+      "label": "Farid Anvari",
+      "x": 46.7,
+      "y": 2.72,
+      "projects": [
+        0
+      ],
+      "roles": 1
+    },
+    {
+      "id": "federica-stablum",
+      "label": "Federica Stablum",
+      "x": -46.97,
+      "y": -7.18,
+      "projects": [
+        37
+      ],
+      "roles": 3
+    },
+    {
+      "id": "feline-lohkamp",
+      "label": "Feline Lohkamp",
+      "x": 43.86,
+      "y": 50.88,
+      "projects": [
+        0
+      ],
+      "roles": 1
+    },
+    {
+      "id": "felipe-fontana-vieira",
+      "label": "Felipe Fontana Vieira",
+      "x": 18.99,
+      "y": 51.23,
+      "projects": [
+        0
+      ],
+      "roles": 1
+    },
+    {
+      "id": "felipe-vieira",
+      "label": "Felipe Vieira",
+      "x": -59.65,
+      "y": -8.62,
+      "projects": [
+        5
+      ],
+      "roles": 4
+    },
+    {
+      "id": "felipe-vilanova",
+      "label": "Felipe Vilanova",
+      "x": -83.46,
+      "y": -1.17,
+      "projects": [
+        6
+      ],
+      "roles": 2
+    },
+    {
+      "id": "felix-sch-nbrodt",
+      "label": "Felix Schönbrodt",
+      "x": -46.07,
+      "y": 12.76,
+      "projects": [
+        18
+      ],
+      "roles": 1
+    },
+    {
+      "id": "fernando-steeb",
+      "label": "Fernando Steeb",
+      "x": -55.35,
+      "y": -6.18,
+      "projects": [
+        5
+      ],
+      "roles": 3
+    },
+    {
+      "id": "filip-d-cht-renko",
+      "label": "Filip Děchtěrenko",
+      "x": -67.56,
+      "y": -39.96,
+      "projects": [
+        1,
+        3,
+        4
+      ],
+      "roles": 9
+    },
+    {
+      "id": "flavio-azevedo",
+      "label": "Flavio Azevedo",
+      "x": -94.8,
+      "y": -2.9,
+      "projects": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        14,
+        16,
+        17,
+        19,
+        20,
+        21,
+        23,
+        24,
+        26,
+        27,
+        28,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        43,
+        44,
+        45,
+        46,
+        49,
+        50,
+        51,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        65,
+        66,
+        67,
+        70,
+        71
+      ],
+      "roles": 263
+    },
+    {
+      "id": "forrt-forrt",
+      "label": "FORRT FORRT",
+      "x": -48.53,
+      "y": -14.8,
+      "projects": [
+        32
+      ],
+      "roles": 1
+    },
+    {
+      "id": "frank-papenmeier",
+      "label": "Frank Papenmeier",
+      "x": 54.49,
+      "y": 44.75,
+      "projects": [
+        0
+      ],
+      "roles": 1
+    },
+    {
+      "id": "frankie-fong",
+      "label": "Frankie Fong",
+      "x": -82.31,
+      "y": 4.4,
+      "projects": [
+        6
+      ],
+      "roles": 2
+    },
+    {
+      "id": "frederica-stabulm",
+      "label": "Frederica Stabulm",
+      "x": -61.42,
+      "y": -5.85,
+      "projects": [
+        16
+      ],
+      "roles": 1
+    },
+    {
+      "id": "gabriela-hofer",
+      "label": "Gabriela Hofer",
+      "x": -40.4,
+      "y": -16.2,
+      "projects": [
+        8
+      ],
+      "roles": 1
+    },
+    {
+      "id": "gavin-leech",
+      "label": "Gavin Leech",
+      "x": 14.47,
+      "y": 8.46,
+      "projects": [
+        0,
+        2
+      ],
+      "roles": 13
+    },
+    {
+      "id": "gerald-vineyard",
+      "label": "Gerald Vineyard",
+      "x": 22.87,
+      "y": -39.4,
+      "projects": [
+        0,
+        1
+      ],
+      "roles": 2
+    },
+    {
+      "id": "gilad-feldman",
+      "label": "Gilad Feldman",
+      "x": 16.31,
+      "y": -26.03,
+      "projects": [
+        0,
+        1,
+        2,
+        17,
+        18
+      ],
+      "roles": 5
+    },
+    {
+      "id": "gillian-hayes",
+      "label": "Gillian Hayes",
+      "x": -67.54,
+      "y": 10.87,
+      "projects": [
+        19
+      ],
+      "roles": 1
+    },
+    {
+      "id": "giorgia-andreolli",
+      "label": "Giorgia Andreolli",
+      "x": -71.44,
+      "y": 10.63,
+      "projects": [
+        4,
+        5,
+        26,
+        31,
+        38,
+        65
+      ],
+      "roles": 21
+    },
+    {
+      "id": "gisela-govaart",
+      "label": "Gisela Govaart",
+      "x": -19.2,
+      "y": -63.17,
+      "projects": [
+        1
+      ],
+      "roles": 2
+    },
+    {
+      "id": "godfrey-ikahu",
+      "label": "Godfrey Ikahu",
+      "x": -72.64,
+      "y": 34.8,
+      "projects": [
+        4
+      ],
+      "roles": 3
+    },
+    {
+      "id": "graham-reid",
+      "label": "Graham Reid",
+      "x": -59.55,
+      "y": -54.47,
+      "projects": [
+        1,
+        5
+      ],
+      "roles": 3
+    },
+    {
+      "id": "guido-scherp",
+      "label": "Guido Scherp",
+      "x": -73.57,
+      "y": 18.44,
+      "projects": [
+        15
+      ],
+      "roles": 1
+    },
+    {
+      "id": "gwen-brekelmans",
+      "label": "Gwen Brekelmans",
+      "x": -36.45,
+      "y": -26.98,
+      "projects": [
+        3
+      ],
+      "roles": 1
+    },
+    {
+      "id": "hakan-akmak",
+      "label": "Hakan Çakmak",
+      "x": -82.12,
+      "y": -18.01,
+      "projects": [
+        10
+      ],
+      "roles": 1
+    },
+    {
+      "id": "hakile-resulbegoviq",
+      "label": "Hakile Resulbegoviq",
+      "x": -59.13,
+      "y": -1.19,
+      "projects": [
+        31
+      ],
+      "roles": 1
+    },
+    {
+      "id": "hala-alghamdi",
+      "label": "Hala Alghamdi",
+      "x": 24.58,
+      "y": -98.29,
+      "projects": [
+        13
+      ],
+      "roles": 3
+    },
+    {
+      "id": "halil-kocalar",
+      "label": "Halil Kocalar",
+      "x": -12.37,
+      "y": -4.36,
+      "projects": [
+        0,
+        1,
+        2,
+        4
+      ],
+      "roles": 5
+    },
+    {
+      "id": "hamidreza-behbood",
+      "label": "Hamidreza Behbood",
+      "x": 58.78,
+      "y": 29.75,
+      "projects": [
+        0
+      ],
+      "roles": 6
+    },
+    {
+      "id": "han-wu-shuang-bao",
+      "label": "Han-Wu-Shuang Bao",
+      "x": -82.97,
+      "y": 0.26,
+      "projects": [
+        6
+      ],
+      "roles": 5
+    },
+    {
+      "id": "hannah-slack",
+      "label": "Hannah Slack",
+      "x": -43.96,
+      "y": -30.52,
+      "projects": [
+        3
+      ],
+      "roles": 2
+    },
+    {
+      "id": "harry-coulson",
+      "label": "Harry Coulson",
+      "x": 1.5,
+      "y": 66.63,
+      "projects": [
+        0,
+        25
+      ],
+      "roles": 2
+    },
+    {
+      "id": "heather-urry",
+      "label": "Heather Urry",
+      "x": -66.98,
+      "y": -22.43,
+      "projects": [
+        7
+      ],
+      "roles": 2
+    },
+    {
+      "id": "heidi-seibold",
+      "label": "Heidi Seibold",
+      "x": -73.05,
+      "y": 16.91,
+      "projects": [
+        15
+      ],
+      "roles": 1
+    },
+    {
+      "id": "helena-gellersen",
+      "label": "Helena Gellersen",
+      "x": -67.84,
+      "y": -6.69,
+      "projects": [
+        11
+      ],
+      "roles": 2
+    },
+    {
+      "id": "helena-hartmann",
+      "label": "Helena Hartmann",
+      "x": -30.44,
+      "y": -10.45,
+      "projects": [
+        0,
+        1,
+        2,
+        3,
+        8,
+        9,
+        10,
+        11,
+        12,
+        17,
+        18,
+        21,
+        22,
+        26,
+        41,
+        50,
+        52,
+        54,
+        56,
+        60,
+        61,
+        63
+      ],
+      "roles": 68
+    },
+    {
+      "id": "helene-richter",
+      "label": "Helene Richter",
+      "x": -45.04,
+      "y": 12.14,
+      "projects": [
+        18
+      ],
+      "roles": 1
+    },
+    {
+      "id": "hetvi-bhatt",
+      "label": "Hetvi Bhatt",
+      "x": 57.58,
+      "y": 34.85,
+      "projects": [
+        0
+      ],
+      "roles": 1
+    },
+    {
+      "id": "hiba-alomary",
+      "label": "Hiba Alomary",
+      "x": 24.77,
+      "y": -97.74,
+      "projects": [
+        13
+      ],
+      "roles": 3
+    },
+    {
+      "id": "hilmar-brohmer",
+      "label": "Hilmar Brohmer",
+      "x": 18.17,
+      "y": 5.72,
+      "projects": [
+        0,
+        2
+      ],
+      "roles": 2
+    },
+    {
+      "id": "hirotaka-imada",
+      "label": "Hirotaka Imada",
+      "x": 15.44,
+      "y": 26.71,
+      "projects": [
+        0,
+        2
+      ],
+      "roles": 2
+    },
+    {
+      "id": "hu-chuan-peng",
+      "label": "Hu Chuan-Peng",
+      "x": -88.45,
+      "y": -8.38,
+      "projects": [
+        6,
+        10
+      ],
+      "roles": 9
+    },
+    {
+      "id": "hugh-panton",
+      "label": "Hugh Panton",
+      "x": 22.76,
+      "y": 65.26,
+      "projects": [
+        0
+      ],
+      "roles": 1
+    },
+    {
+      "id": "hussain-alzubaidi",
+      "label": "Hussain Alzubaidi",
+      "x": 24.53,
+      "y": -99.98,
+      "projects": [
+        13
+      ],
+      "roles": 1
+    },
+    {
+      "id": "ian-hussey",
+      "label": "Ian Hussey",
+      "x": 56.17,
+      "y": 14.46,
+      "projects": [
+        0
+      ],
+      "roles": 1
+    },
+    {
+      "id": "ingmar-visser",
+      "label": "Ingmar Visser",
+      "x": -40.1,
+      "y": 20.96,
+      "projects": [
+        20
+      ],
+      "roles": 1
+    },
+    {
+      "id": "irene-sophia-plank",
+      "label": "Irene Sophia Plank",
+      "x": -58.15,
+      "y": 2.32,
+      "projects": [
+        5,
+        24
+      ],
+      "roles": 5
+    },
+    {
+      "id": "iris-smal",
+      "label": "Iris Smal",
+      "x": -68.74,
+      "y": -4.94,
+      "projects": [
+        40
+      ],
+      "roles": 6
+    },
+    {
+      "id": "iris-e-elj",
+      "label": "Iris Žeželj",
+      "x": -81.08,
+      "y": 6.4,
+      "projects": [
+        6,
+        42
+      ],
+      "roles": 4
+    },
+    {
+      "id": "isaac-thornton",
+      "label": "Isaac Thornton",
+      "x": -41.13,
+      "y": -15.31,
+      "projects": [
+        8
+      ],
+      "roles": 1
+    },
+    {
+      "id": "isabela-figueira",
+      "label": "Isabela Figueira",
+      "x": -68.65,
+      "y": 10.44,
+      "projects": [
+        19
+      ],
+      "roles": 1
+    },
+    {
+      "id": "isis-trajano",
+      "label": "Isis Trajano",
+      "x": -29.45,
+      "y": 42.7,
+      "projects": [
+        25
+      ],
+      "roles": 1
+    },
+    {
+      "id": "iva-kapovi",
+      "label": "Iva Kapović",
+      "x": -58.02,
+      "y": -8.1,
+      "projects": [
+        5
+      ],
+      "roles": 2
+    },
+    {
+      "id": "j-lukas-th-rmer",
+      "label": "J. Lukas Thürmer",
+      "x": 42.57,
+      "y": 8.55,
+      "projects": [
+        0
+      ],
+      "roles": 1
+    },
+    {
+      "id": "jacob-miranda",
+      "label": "Jacob Miranda",
+      "x": -55.49,
+      "y": -47.15,
+      "projects": [
+        1,
+        5,
+        38
+      ],
+      "roles": 7
+    },
+    {
+      "id": "jade-pickering",
+      "label": "Jade Pickering",
+      "x": -29.17,
+      "y": -73.95,
+      "projects": [
+        1
+      ],
+      "roles": 2
+    },
+    {
+      "id": "jaeho-lee",
+      "label": "Jaeho Lee",
+      "x": 15.46,
+      "y": 12.65,
+      "projects": [
+        0,
+        2
+      ],
+      "roles": 2
+    },
+    {
+      "id": "jake-floyd",
+      "label": "Jake Floyd",
+      "x": 41.07,
+      "y": 61.41,
+      "projects": [
+        0
+      ],
+      "roles": 1
+    },
+    {
+      "id": "jamal-amani-rad",
+      "label": "Jamal Amani Rad",
+      "x": -78.66,
+      "y": 2.56,
+      "projects": [
+        6
+      ],
+      "roles": 2
+    },
+    {
+      "id": "james-bartlett",
+      "label": "James Bartlett",
+      "x": -45.48,
+      "y": -50.39,
+      "projects": [
+        1,
+        3,
+        26
+      ],
+      "roles": 5
+    },
+    {
+      "id": "jamie-chan",
+      "label": "Jamie Chan",
+      "x": -79.0,
+      "y": -22.47,
+      "projects": [
+        7,
+        10
+      ],
+      "roles": 3
+    },
+    {
+      "id": "jamie-cockcroft",
+      "label": "Jamie Cockcroft",
+      "x": 11.93,
+      "y": -12.56,
+      "projects": [
+        0,
+        1,
+        2
+      ],
+      "roles": 4
+    },
+    {
+      "id": "jamie-cummins",
+      "label": "Jamie Cummins",
+      "x": 34.65,
+      "y": 22.93,
+      "projects": [
+        0
+      ],
+      "roles": 1
+    },
+    {
+      "id": "jan-r-er",
+      "label": "Jan Röer",
+      "x": -20.24,
+      "y": 10.28,
+      "projects": [
+        0,
+        2,
+        3,
+        5,
+        9,
+        27
+      ],
+      "roles": 9
+    },
+    {
+      "id": "jane-hergert",
+      "label": "Jane Hergert",
+      "x": -57.98,
+      "y": -12.36,
+      "projects": [
+        5
+      ],
+      "roles": 2
+    },
+    {
+      "id": "janik-goltermann",
+      "label": "Janik Goltermann",
+      "x": -30.17,
+      "y": 12.8,
+      "projects": [
+        17,
+        20
+      ],
+      "roles": 2
+    },
+    {
+      "id": "jasmin-breitwieser",
+      "label": "Jasmin Breitwieser",
+      "x": -68.29,
+      "y": 11.43,
+      "projects": [
+        19
+      ],
+      "roles": 1
+    },
+    {
+      "id": "jason-hausenloy",
+      "label": "Jason Hausenloy",
+      "x": 11.18,
+      "y": 13.8,
+      "projects": [
+        0,
+        2
+      ],
+      "roles": 2
+    },
+    {
+      "id": "jeffrey-stevens",
+      "label": "Jeffrey Stevens",
+      "x": 24.83,
+      "y": 13.2,
+      "projects": [
+        0,
+        2
+      ],
+      "roles": 2
+    },
+    {
+      "id": "jennifer-mattschey",
+      "label": "Jennifer Mattschey",
+      "x": -38.44,
+      "y": -24.99,
+      "projects": [
+        3,
+        52
+      ],
+      "roles": 4
+    },
+    {
+      "id": "jennifer-murphy",
+      "label": "Jennifer Murphy",
+      "x": -33.1,
+      "y": -17.67,
+      "projects": [
+        9
+      ],
+      "roles": 1
+    },
+    {
+      "id": "jenny-phan",
+      "label": "Jenny Phan",
+      "x": -70.48,
+      "y": -14.34,
+      "projects": [
+        10,
+        21,
+        27,
+        34
+      ],
+      "roles": 6
+    },
+    {
+      "id": "jenny-terry",
+      "label": "Jenny Terry",
+      "x": -43.35,
+      "y": -55.67,
+      "projects": [
+        1,
+        3
+      ],
+      "roles": 2
+    },
+    {
+      "id": "jens-unkenholz",
+      "label": "Jens Unkenholz",
+      "x": -45.56,
+      "y": 11.91,
+      "projects": [
+        18
+      ],
+      "roles": 2
+    },
+    {
+      "id": "jeroen-sondervan",
+      "label": "Jeroen Sondervan",
+      "x": -74.17,
+      "y": 16.73,
+      "projects": [
+        15
+      ],
+      "roles": 1
+    },
+    {
+      "id": "jesica-formoso",
+      "label": "Jesica Formoso",
+      "x": -83.26,
+      "y": -19.32,
+      "projects": [
+        10
+      ],
+      "roles": 1
+    },
+    {
+      "id": "jessica-r-seler",
+      "label": "Jessica Röseler",
+      "x": 35.31,
+      "y": 46.44,
+      "projects": [
+        0
+      ],
+      "roles": 2
+    },
+    {
+      "id": "jinbiao-yang",
+      "label": "Jinbiao Yang",
+      "x": 73.39,
+      "y": -2.34,
+      "projects": [
+        29
+      ],
+      "roles": 5
+    },
+    {
+      "id": "ji-n-dvorn-k",
+      "label": "Jiří Nádvorník",
+      "x": -25.27,
+      "y": 62.85,
+      "projects": [
+        0,
+        4
+      ],
+      "roles": 4
+    },
+    {
+      "id": "joachim-h-ffmeier",
+      "label": "Joachim Hüffmeier",
+      "x": -19.99,
+      "y": 4.68,
+      "projects": [
+        17
+      ],
+      "roles": 1
+    },
+    {
+      "id": "joanne-mccuaig",
+      "label": "Joanne McCuaig",
+      "x": -52.3,
+      "y": -45.34,
+      "projects": [
+        1,
+        5,
+        26
+      ],
+      "roles": 4
+    },
+    {
+      "id": "joeri-tijdink",
+      "label": "Joeri Tijdink",
+      "x": -67.61,
+      "y": -5.92,
+      "projects": [
+        11
+      ],
+      "roles": 2
+    },
+    {
+      "id": "johanna-tomczak",
+      "label": "Johanna Tomczak",
+      "x": 4.0,
+      "y": 38.82,
+      "projects": [
+        0,
+        2
+      ],
+      "roles": 2
+    },
+    {
+      "id": "john-shaw",
+      "label": "John Shaw",
+      "x": -59.56,
+      "y": -19.89,
+      "projects": [
+        3,
+        7,
+        9,
+        11,
+        14,
+        16,
+        21,
+        26,
+        27,
+        34,
+        37,
+        39,
+        40,
+        44,
+        57,
+        65
+      ],
+      "roles": 36
+    },
+    {
+      "id": "jojanneke-van-der-toorn",
+      "label": "Jojanneke van der Toorn",
+      "x": -82.83,
+      "y": -18.54,
+      "projects": [
+        10
+      ],
+      "roles": 1
+    },
+    {
+      "id": "jordan-wagge",
+      "label": "Jordan Wagge",
+      "x": -79.92,
+      "y": -18.09,
+      "projects": [
+        10,
+        36
+      ],
+      "roles": 7
+    },
+    {
+      "id": "joris-frese",
+      "label": "Joris Frese",
+      "x": 1.82,
+      "y": 10.28,
+      "projects": [
+        0,
+        2,
+        8,
+        52
+      ],
+      "roles": 6
+    },
+    {
+      "id": "josefina-weinerova",
+      "label": "Josefina Weinerova",
+      "x": -6.61,
+      "y": 57.25,
+      "projects": [
+        0,
+        24,
+        25,
+        49,
+        51
+      ],
+      "roles": 13
+    },
+    {
+      "id": "josefine-krapp",
+      "label": "Josefine Krapp",
+      "x": 52.4,
+      "y": 25.06,
+      "projects": [
+        0
+      ],
+      "roles": 4
+    },
+    {
+      "id": "joseph-almazan",
+      "label": "Joseph Almazan",
+      "x": -82.71,
+      "y": 1.65,
+      "projects": [
+        6
+      ],
+      "roles": 2
+    },
+    {
+      "id": "joshua-muthu",
+      "label": "Joshua Muthu",
+      "x": 23.55,
+      "y": 47.82,
+      "projects": [
+        0
+      ],
+      "roles": 1
+    },
+    {
+      "id": "juan-garc-a-castro",
+      "label": "Juan García-Castro",
+      "x": -77.93,
+      "y": 0.04,
+      "projects": [
+        6
+      ],
+      "roles": 2
+    },
+    {
+      "id": "julia-beitner",
+      "label": "Julia Beitner",
+      "x": 7.47,
+      "y": 32.73,
+      "projects": [
+        0,
+        2
+      ],
+      "roles": 2
+    },
+    {
+      "id": "julia-strand",
+      "label": "Julia Strand",
+      "x": -54.8,
+      "y": -24.48,
+      "projects": [
+        46
+      ],
+      "roles": 1
+    },
+    {
+      "id": "julia-wolska",
+      "label": "Julia Wolska",
+      "x": -22.5,
+      "y": -1.35,
+      "projects": [
+        0,
+        1,
+        2,
+        4,
+        8,
+        22,
+        38
+      ],
+      "roles": 17
+    },
+    {
+      "id": "julian-packheiser",
+      "label": "Julian Packheiser",
+      "x": 26.58,
+      "y": 69.28,
+      "projects": [
+        0
+      ],
+      "roles": 1
+    },
+    {
+      "id": "junlin-jing",
+      "label": "Junlin Jing",
+      "x": 100.0,
+      "y": -7.39,
+      "projects": [
+        29
+      ],
+      "roles": 3
+    },
+    {
+      "id": "justin-sulik",
+      "label": "Justin Sulik",
+      "x": -76.45,
+      "y": -13.35,
+      "projects": [
+        10,
+        41
+      ],
+      "roles": 6
+    },
+    {
+      "id": "j-rgen-olsnes",
+      "label": "Jørgen Olsnes",
+      "x": -32.29,
+      "y": -18.09,
+      "projects": [
+        9
+      ],
+      "roles": 1
+    },
+    {
+      "id": "j-rgen-schneider",
+      "label": "Jürgen Schneider",
+      "x": -39.16,
+      "y": -16.12,
+      "projects": [
+        8
+      ],
+      "roles": 1
+    },
+    {
+      "id": "kai-krautter",
+      "label": "Kai Krautter",
+      "x": -46.83,
+      "y": -56.46,
+      "projects": [
+        1,
+        3
+      ],
+      "roles": 3
+    },
+    {
+      "id": "kai-li-chung",
+      "label": "Kai Li Chung",
+      "x": 19.86,
+      "y": 13.86,
+      "projects": [
+        0,
+        2
+      ],
+      "roles": 2
+    },
+    {
+      "id": "kait-clark",
+      "label": "Kait Clark",
+      "x": -41.24,
+      "y": -27.81,
+      "projects": [
+        3
+      ],
+      "roles": 1
+    },
+    {
+      "id": "kamil-izydorczak",
+      "label": "Kamil Izydorczak",
+      "x": 7.09,
+      "y": -26.85,
+      "projects": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "roles": 5
+    },
+    {
+      "id": "karen-matvienko-sikar",
+      "label": "Karen Matvienko-Sikar",
+      "x": -56.79,
+      "y": -28.7,
+      "projects": [
+        3,
+        7,
+        50
+      ],
+      "roles": 6
+    },
+    {
+      "id": "karolina-urbanska",
+      "label": "Karolina Urbanska",
+      "x": -65.78,
+      "y": -22.23,
+      "projects": [
+        7
+      ],
+      "roles": 2
+    },
+    {
+      "id": "katarzyna-pypno-blajda",
+      "label": "Katarzyna Pypno-Blajda",
+      "x": 50.54,
+      "y": 5.93,
+      "projects": [
+        0
+      ],
+      "roles": 1
+    },
+    {
+      "id": "katherine-button",
+      "label": "Katherine Button",
+      "x": -39.65,
+      "y": -29.03,
+      "projects": [
+        3
+      ],
+      "roles": 3
+    },
+    {
+      "id": "kathleen-schmidt",
+      "label": "Kathleen Schmidt",
+      "x": 0.39,
+      "y": -0.65,
+      "projects": [
+        0,
+        2,
+        3,
+        9
+      ],
+      "roles": 4
+    },
+    {
+      "id": "kathryn-bottitta",
+      "label": "Kathryn Bottitta",
+      "x": 3.47,
+      "y": 59.46,
+      "projects": [
+        0
+      ],
+      "roles": 2
+    },
+    {
+      "id": "katie-corker",
+      "label": "Katie Corker",
+      "x": -78.03,
+      "y": -10.01,
+      "projects": [
+        28
+      ],
+      "roles": 2
+    },
+    {
+      "id": "katie-gilligan-lee",
+      "label": "Katie Gilligan-Lee",
+      "x": -40.8,
+      "y": -25.79,
+      "projects": [
+        3
+      ],
+      "roles": 1
+    },
+    {
+      "id": "kayleigh-warrington",
+      "label": "Kayleigh Warrington",
+      "x": -55.7,
+      "y": -9.49,
+      "projects": [
+        21,
+        27
+      ],
+      "roles": 2
+    },
+    {
+      "id": "keegan-vaz",
+      "label": "Keegan Vaz",
+      "x": -49.98,
+      "y": 26.3,
+      "projects": [
+        24,
+        59
+      ],
+      "roles": 5
+    },
+    {
+      "id": "kellen-mrkva",
+      "label": "Kellen Mrkva",
+      "x": 24.47,
+      "y": 17.65,
+      "projects": [
+        0,
+        2
+      ],
+      "roles": 2
+    },
+    {
+      "id": "kelly-lloyd",
+      "label": "Kelly Lloyd",
+      "x": -62.63,
+      "y": -8.4,
+      "projects": [
+        5,
+        22,
+        26,
+        31,
+        39,
+        44,
+        65,
+        70
+      ],
+      "roles": 19
+    },
+    {
+      "id": "kerry-fox",
+      "label": "Kerry Fox",
+      "x": -32.53,
+      "y": -73.97,
+      "projects": [
+        1
+      ],
+      "roles": 1
+    },
+    {
+      "id": "kevin-gannon",
+      "label": "Kevin Gannon",
+      "x": -82.03,
+      "y": -18.77,
+      "projects": [
+        10
+      ],
+      "roles": 1
+    },
+    {
+      "id": "kevin-kamermans",
+      "label": "Kevin Kamermans",
+      "x": 7.27,
+      "y": 63.09,
+      "projects": [
+        0
+      ],
+      "roles": 1
+    },
+    {
+      "id": "kevin-mcmanus",
+      "label": "Kevin McManus",
+      "x": -74.65,
+      "y": 18.18,
+      "projects": [
+        15
+      ],
+      "roles": 1
+    },
+    {
+      "id": "kimberly-meidenbauer",
+      "label": "Kimberly Meidenbauer",
+      "x": 12.45,
+      "y": 34.92,
+      "projects": [
+        0,
+        2
+      ],
+      "roles": 2
+    },
+    {
+      "id": "kimberly-quinn",
+      "label": "Kimberly Quinn",
+      "x": -75.2,
+      "y": -17.6,
+      "projects": [
+        10,
+        26
+      ],
+      "roles": 2
+    },
+    {
+      "id": "kudakwashe-siziva",
+      "label": "Kudakwashe Siziva",
+      "x": 25.42,
+      "y": 35.6,
+      "projects": [
+        0,
+        45
+      ],
+      "roles": 6
+    },
+    {
+      "id": "lamis-elkheir",
+      "label": "Lamis Elkheir",
+      "x": -64.52,
+      "y": 33.44,
+      "projects": [
+        4
+      ],
+      "roles": 5
+    },
+    {
+      "id": "larrie-laporte",
+      "label": "Larrie Laporte",
+      "x": -51.28,
+      "y": 11.7,
+      "projects": [
+        53
+      ],
+      "roles": 2
+    },
+    {
+      "id": "laura-k-nig",
+      "label": "Laura König",
+      "x": -55.9,
+      "y": -23.89,
+      "projects": [
+        3,
+        9,
+        10,
+        30
+      ],
+      "roles": 7
+    },
+    {
+      "id": "laura-rosseel",
+      "label": "Laura Rosseel",
+      "x": -6.76,
+      "y": -3.9,
+      "projects": [
+        48
+      ],
+      "roles": 1
+    },
+    {
+      "id": "laurence-aitchison",
+      "label": "Laurence Aitchison",
+      "x": -7.25,
+      "y": 5.98,
+      "projects": [
+        2
+      ],
+      "roles": 1
+    },
+    {
+      "id": "lea-nobbe",
+      "label": "Lea Nobbe",
+      "x": -68.18,
+      "y": 9.92,
+      "projects": [
+        19
+      ],
+      "roles": 1
+    },
+    {
+      "id": "leal-oburoglu",
+      "label": "Leal Oburoglu",
+      "x": -66.59,
+      "y": 31.93,
+      "projects": [
+        4
+      ],
+      "roles": 3
+    },
+    {
+      "id": "leher-singh",
+      "label": "Leher Singh",
+      "x": -84.13,
+      "y": 1.32,
+      "projects": [
+        6
+      ],
+      "roles": 2
+    },
+    {
+      "id": "leigh-ann-vaughn",
+      "label": "Leigh Ann Vaughn",
+      "x": 11.9,
+      "y": 30.69,
+      "projects": [
+        0,
+        2
+      ],
+      "roles": 3
+    },
+    {
+      "id": "leon-hilbert",
+      "label": "Leon Hilbert",
+      "x": 41.24,
+      "y": 55.78,
+      "projects": [
+        0
+      ],
+      "roles": 1
+    },
+    {
+      "id": "leon-kasseckert",
+      "label": "Leon Kasseckert",
+      "x": 58.16,
+      "y": 24.61,
+      "projects": [
+        0
+      ],
+      "roles": 2
+    },
+    {
+      "id": "leonard-kaiser",
+      "label": "Leonard Kaiser",
+      "x": 41.96,
+      "y": 25.55,
+      "projects": [
+        0
+      ],
+      "roles": 5
+    },
+    {
+      "id": "leonardo-bergmann",
+      "label": "Leonardo Bergmann",
+      "x": -17.46,
+      "y": 50.75,
+      "projects": [
+        0,
+        5
+      ],
+      "roles": 4
+    },
+    {
+      "id": "leonardo-seda",
+      "label": "Leonardo Seda",
+      "x": -81.68,
+      "y": 0.69,
+      "projects": [
+        6
+      ],
+      "roles": 4
+    },
+    {
+      "id": "leticia-micheli",
+      "label": "Leticia Micheli",
+      "x": -39.11,
+      "y": -9.52,
+      "projects": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        7,
+        9,
+        11,
+        16,
+        22,
+        26,
+        31,
+        32,
+        36,
+        37,
+        38,
+        39,
+        41,
+        46,
+        50,
+        54,
+        56,
+        61
+      ],
+      "roles": 69
+    },
+    {
+      "id": "liangjie-chen",
+      "label": "Liangjie Chen",
+      "x": 93.66,
+      "y": -14.77,
+      "projects": [
+        29
+      ],
+      "roles": 5
+    },
+    {
+      "id": "ligayaa-breemer",
+      "label": "Ligayaa Breemer",
+      "x": 32.33,
+      "y": 31.08,
+      "projects": [
+        0
+      ],
+      "roles": 1
+    },
+    {
+      "id": "lina-koppel",
+      "label": "Lina Koppel",
+      "x": 15.12,
+      "y": 17.49,
+      "projects": [
+        0,
+        2
+      ],
+      "roles": 2
+    },
+    {
+      "id": "lisa-mathes",
+      "label": "Lisa Mathes",
+      "x": 29.15,
+      "y": 46.78,
+      "projects": [
+        0
+      ],
+      "roles": 1
+    },
+    {
+      "id": "lisa-spitzer",
+      "label": "Lisa Spitzer",
+      "x": -33.43,
+      "y": -52.4,
+      "projects": [
+        1,
+        8
+      ],
+      "roles": 3
+    },
+    {
+      "id": "ljiljana-lazarevic",
+      "label": "Ljiljana Lazarevic",
+      "x": -79.77,
+      "y": 6.63,
+      "projects": [
+        6,
+        42
+      ],
+      "roles": 5
+    },
+    {
+      "id": "lotta-h-fer",
+      "label": "Lotta Höfer",
+      "x": 12.93,
+      "y": 48.9,
+      "projects": [
+        0
+      ],
+      "roles": 2
+    },
+    {
+      "id": "louise-bezuidenhout",
+      "label": "Louise Bezuidenhout",
+      "x": -72.74,
+      "y": 17.52,
+      "projects": [
+        15
+      ],
+      "roles": 1
+    },
+    {
+      "id": "loukia-tzavella",
+      "label": "Loukia Tzavella",
+      "x": -43.52,
+      "y": -26.55,
+      "projects": [
+        14
+      ],
+      "roles": 2
+    },
+    {
+      "id": "lucia-weber",
+      "label": "Lucia Weber",
+      "x": 48.9,
+      "y": 54.04,
+      "projects": [
+        0
+      ],
+      "roles": 1
+    },
+    {
+      "id": "lucija-batinovi",
+      "label": "Lucija Batinović",
+      "x": -67.31,
+      "y": -25.21,
+      "projects": [
+        7
+      ],
+      "roles": 4
+    },
+    {
+      "id": "luisa-altegoer",
+      "label": "Luisa Altegoer",
+      "x": -20.67,
+      "y": 3.5,
+      "projects": [
+        17
+      ],
+      "roles": 1
+    },
+    {
+      "id": "luisa-fassi",
+      "label": "Luisa Fassi",
+      "x": -68.58,
+      "y": 10.54,
+      "projects": [
+        19
+      ],
+      "roles": 2
+    },
+    {
+      "id": "luisa-kulke",
+      "label": "Luisa Kulke",
+      "x": 12.64,
+      "y": 63.41,
+      "projects": [
+        0
+      ],
+      "roles": 1
+    },
+    {
+      "id": "luiza-behrens",
+      "label": "Luiza Behrens",
+      "x": -51.31,
+      "y": 12.39,
+      "projects": [
+        53
+      ],
+      "roles": 2
+    },
+    {
+      "id": "lukas-r-seler",
+      "label": "Lukas Röseler",
+      "x": -28.16,
+      "y": 36.28,
+      "projects": [
+        0,
+        2,
+        11,
+        16,
+        17,
+        20,
+        24,
+        25,
+        30,
+        35,
+        39,
+        40,
+        41,
+        44,
+        45,
+        51,
+        59,
+        61,
+        63,
+        66
+      ],
+      "roles": 69
+    },
+    {
+      "id": "lukas-wallrich",
+      "label": "Lukas Wallrich",
+      "x": -21.36,
+      "y": 34.58,
+      "projects": [
+        0,
+        2,
+        17,
+        20,
+        23,
+        24,
+        25,
+        26,
+        30,
+        33,
+        35,
+        37,
+        41,
+        44,
+        45,
+        51,
+        56,
+        59,
+        61,
+        63,
+        66
+      ],
+      "roles": 73
+    },
+    {
+      "id": "lydia-riedl",
+      "label": "Lydia Riedl",
+      "x": -38.92,
+      "y": -27.04,
+      "projects": [
+        3
+      ],
+      "roles": 1
+    },
+    {
+      "id": "maarten-derksen",
+      "label": "Maarten Derksen",
+      "x": -83.44,
+      "y": -17.96,
+      "projects": [
+        10
+      ],
+      "roles": 1
+    },
+    {
+      "id": "madeleine-ingham",
+      "label": "Madeleine Ingham",
+      "x": -29.49,
+      "y": -70.77,
+      "projects": [
+        1
+      ],
+      "roles": 2
+    },
+    {
+      "id": "madeleine-pownall",
+      "label": "Madeleine Pownall",
+      "x": -47.54,
+      "y": -41.2,
+      "projects": [
+        1,
+        3,
+        9,
+        14,
+        19,
+        32,
+        50,
+        60
+      ],
+      "roles": 35
+    },
+    {
+      "id": "madeleine-pownall-2",
+      "label": "Madeleine Pownall",
+      "x": -66.67,
+      "y": -9.47,
+      "projects": [
+        5,
+        11
+      ],
+      "roles": 3
+    },
+    {
+      "id": "madeleine-pownall-3",
+      "label": "Madeleine Pownall",
+      "x": -47.12,
+      "y": -6.64,
+      "projects": [
+        37
+      ],
+      "roles": 2
+    },
+    {
+      "id": "madelief-van-der-velden",
+      "label": "Madelief van der Velden",
+      "x": -79.17,
+      "y": -8.66,
+      "projects": [
+        28,
+        43
+      ],
+      "roles": 3
+    },
+    {
+      "id": "magda-skubera",
+      "label": "Magda Skubera",
+      "x": -70.81,
+      "y": 4.86,
+      "projects": [
+        4,
+        7,
+        8,
+        16,
+        39,
+        49,
+        55
+      ],
+      "roles": 27
+    },
+    {
+      "id": "magdalena-grose-hodge",
+      "label": "Magdalena Grose-Hodge",
+      "x": -59.25,
+      "y": -60.12,
+      "projects": [
+        1,
+        7,
+        14
+      ],
+      "roles": 5
+    },
+    {
+      "id": "mahdi-aben-ahmed",
+      "label": "Mahdi Aben Ahmed",
+      "x": 25.45,
+      "y": -99.31,
+      "projects": [
+        13
+      ],
+      "roles": 2
+    },
+    {
+      "id": "mahmoud-elsherif",
+      "label": "Mahmoud Elsherif",
+      "x": -78.21,
+      "y": -28.47,
+      "projects": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        14,
+        16,
+        21,
+        27,
+        28,
+        32,
+        33,
+        34,
+        36,
+        57,
+        60
+      ],
+      "roles": 71
+    },
+    {
+      "id": "mai-helmy",
+      "label": "Mai Helmy",
+      "x": 23.19,
+      "y": -98.62,
+      "projects": [
+        13
+      ],
+      "roles": 2
+    },
+    {
+      "id": "maike-richter",
+      "label": "Maike Richter",
+      "x": -45.15,
+      "y": 12.64,
+      "projects": [
+        18
+      ],
+      "roles": 1
+    },
+    {
+      "id": "malak-el-halabi",
+      "label": "Malak El Halabi",
+      "x": 20.39,
+      "y": 70.47,
+      "projects": [
+        0
+      ],
+      "roles": 1
+    },
+    {
+      "id": "malgorzata-lagisz",
+      "label": "Malgorzata Lagisz",
+      "x": -40.86,
+      "y": -17.12,
+      "projects": [
+        8
+      ],
+      "roles": 3
+    },
+    {
+      "id": "malika-ihle",
+      "label": "Malika Ihle",
+      "x": -68.75,
+      "y": -16.63,
+      "projects": [
+        7,
+        11
+      ],
+      "roles": 4
+    },
+    {
+      "id": "malte-elson",
+      "label": "Malte Elson",
+      "x": -49.58,
+      "y": 5.42,
+      "projects": [
+        41
+      ],
+      "roles": 1
+    },
+    {
+      "id": "manuel-rausch",
+      "label": "Manuel Rausch",
+      "x": 35.81,
+      "y": 56.41,
+      "projects": [
+        0
+      ],
+      "roles": 1
+    },
+    {
+      "id": "manuel-spitschan",
+      "label": "Manuel Spitschan",
+      "x": -57.32,
+      "y": 15.58,
+      "projects": [
+        30
+      ],
+      "roles": 1
+    },
+    {
+      "id": "marcelo-batistuzzo",
+      "label": "Marcelo Batistuzzo",
+      "x": -79.45,
+      "y": -0.26,
+      "projects": [
+        6
+      ],
+      "roles": 2
+    },
+    {
+      "id": "maren-klingelh-fer-jens",
+      "label": "Maren Klingelhöfer-Jens",
+      "x": 19.84,
+      "y": 18.2,
+      "projects": [
+        0,
+        2
+      ],
+      "roles": 2
+    },
+    {
+      "id": "maria-meier",
+      "label": "Maria Meier",
+      "x": -2.23,
+      "y": 40.7,
+      "projects": [
+        0,
+        2,
+        25
+      ],
+      "roles": 3
+    },
+    {
+      "id": "maria-montefinese",
+      "label": "Maria Montefinese",
+      "x": -15.9,
+      "y": 43.59,
+      "projects": [
+        0,
+        2,
+        4,
+        64
+      ],
+      "roles": 8
+    },
+    {
+      "id": "marianne-saam",
+      "label": "Marianne Saam",
+      "x": -61.54,
+      "y": 16.06,
+      "projects": [
+        15,
+        18
+      ],
+      "roles": 2
+    },
+    {
+      "id": "marie-adrienne-manalili",
+      "label": "Marie Adrienne Manalili",
+      "x": -51.56,
+      "y": 7.89,
+      "projects": [
+        12
+      ],
+      "roles": 3
+    },
+    {
+      "id": "marie-dokovova",
+      "label": "Marie Dokovova",
+      "x": -58.97,
+      "y": 1.14,
+      "projects": [
+        47
+      ],
+      "roles": 5
+    },
+    {
+      "id": "marie-dokovova-2",
+      "label": "Marie Dokovova",
+      "x": -55.18,
+      "y": -12.84,
+      "projects": [
+        21
+      ],
+      "roles": 1
+    },
+    {
+      "id": "mariella-paul",
+      "label": "Mariella Paul",
+      "x": -35.97,
+      "y": -54.59,
+      "projects": [
+        1,
+        8
+      ],
+      "roles": 3
+    },
+    {
+      "id": "marina-tiulpakova",
+      "label": "Marina Tiulpakova",
+      "x": -20.93,
+      "y": 67.1,
+      "projects": [
+        0,
+        4
+      ],
+      "roles": 4
+    },
+    {
+      "id": "mario-gollwitzer",
+      "label": "Mario Gollwitzer",
+      "x": -74.16,
+      "y": 18.49,
+      "projects": [
+        15
+      ],
+      "roles": 1
+    },
+    {
+      "id": "mariola-paruzel-czachura",
+      "label": "Mariola Paruzel-Czachura",
+      "x": 40.14,
+      "y": 35.33,
+      "projects": [
+        0
+      ],
+      "roles": 1
+    },
+    {
+      "id": "mark-jekel",
+      "label": "Mark Jekel",
+      "x": -20.5,
+      "y": 4.72,
+      "projects": [
+        17
+      ],
+      "roles": 1
+    },
+    {
+      "id": "markus-konkol",
+      "label": "Markus Konkol",
+      "x": -52.87,
+      "y": -23.68,
+      "projects": [
+        3,
+        5
+      ],
+      "roles": 3
+    },
+    {
+      "id": "markus-weinmann",
+      "label": "Markus Weinmann",
+      "x": -31.17,
+      "y": -67.84,
+      "projects": [
+        1
+      ],
+      "roles": 2
+    },
+    {
+      "id": "marta-kowal",
+      "label": "Marta Kowal",
+      "x": -68.15,
+      "y": 32.95,
+      "projects": [
+        4
+      ],
+      "roles": 3
+    },
+    {
+      "id": "marta-ko-czy-ska",
+      "label": "Marta Kołczyńska",
+      "x": 51.05,
+      "y": 40.28,
+      "projects": [
+        0
+      ],
+      "roles": 2
+    },
+    {
+      "id": "marta-mangiarulo",
+      "label": "Marta Mangiarulo",
+      "x": -0.74,
+      "y": 11.69,
+      "projects": [
+        64
+      ],
+      "roles": 2
+    },
+    {
+      "id": "marta-topor",
+      "label": "Marta Topor",
+      "x": -24.63,
+      "y": -60.25,
+      "projects": [
+        1
+      ],
+      "roles": 2
+    },
+    {
+      "id": "martin-vasilev",
+      "label": "Martin Vasilev",
+      "x": -59.14,
+      "y": -40.93,
+      "projects": [
+        1,
+        3,
+        5,
+        14,
+        16,
+        26,
+        36,
+        46
+      ],
+      "roles": 15
+    },
+    {
+      "id": "martina-sladekova",
+      "label": "Martina Sladekova",
+      "x": -40.57,
+      "y": -32.78,
+      "projects": [
+        3
+      ],
+      "roles": 1
+    },
+    {
+      "id": "marton-kovacs",
+      "label": "Marton Kovacs",
+      "x": -39.58,
+      "y": -66.28,
+      "projects": [
+        1
+      ],
+      "roles": 1
+    },
+    {
+      "id": "mary-depascale",
+      "label": "Mary DePascale",
+      "x": -39.95,
+      "y": -15.3,
+      "projects": [
+        8
+      ],
+      "roles": 1
+    },
+    {
+      "id": "matt-jaquiery",
+      "label": "Matt Jaquiery",
+      "x": -46.16,
+      "y": -68.17,
+      "projects": [
+        1
+      ],
+      "roles": 2
+    },
+    {
+      "id": "matthew-makel",
+      "label": "Matthew Makel",
+      "x": -10.77,
+      "y": 11.71,
+      "projects": [
+        0,
+        2,
+        3,
+        14
+      ],
+      "roles": 7
+    },
+    {
+      "id": "matthias-sperl",
+      "label": "Matthias Sperl",
+      "x": 3.08,
+      "y": 32.08,
+      "projects": [
+        0,
+        2
+      ],
+      "roles": 3
+    },
+    {
+      "id": "max-gattie",
+      "label": "Max Gattie",
+      "x": 1.01,
+      "y": 35.74,
+      "projects": [
+        0,
+        2
+      ],
+      "roles": 2
+    },
+    {
+      "id": "max-korbmacher",
+      "label": "Max Korbmacher",
+      "x": -25.51,
+      "y": 30.92,
+      "projects": [
+        0,
+        2,
+        4,
+        9,
+        12,
+        31,
+        49,
+        55
+      ],
+      "roles": 25
+    },
+    {
+      "id": "max-korbmacher-2",
+      "label": "Max Korbmacher",
+      "x": -40.37,
+      "y": 20.9,
+      "projects": [
+        20
+      ],
+      "roles": 1
+    },
+    {
+      "id": "max-wan",
+      "label": "Max Wan",
+      "x": -66.0,
+      "y": -7.77,
+      "projects": [
+        11,
+        23,
+        67
+      ],
+      "roles": 7
+    },
+    {
+      "id": "maximilian-maier",
+      "label": "Maximilian Maier",
+      "x": 47.16,
+      "y": 10.68,
+      "projects": [
+        0
+      ],
+      "roles": 1
+    },
+    {
+      "id": "md-burhan-zubair",
+      "label": "Md. Burhan Zubair",
+      "x": -85.92,
+      "y": 2.63,
+      "projects": [
+        68
+      ],
+      "roles": 2
+    },
+    {
+      "id": "melissa-kline-struhl",
+      "label": "Melissa Kline Struhl",
+      "x": -99.35,
+      "y": -2.4,
+      "projects": [
+        62
+      ],
+      "roles": 4
+    },
+    {
+      "id": "melissa-schuring",
+      "label": "Melissa Schuring",
+      "x": -6.57,
+      "y": -3.84,
+      "projects": [
+        48
+      ],
+      "roles": 1
+    },
+    {
+      "id": "meng-liu",
+      "label": "Meng Liu",
+      "x": -24.24,
+      "y": -21.68,
+      "projects": [
+        0,
+        1,
+        2,
+        3,
+        6,
+        8,
+        9,
+        14,
+        22,
+        32
+      ],
+      "roles": 21
+    },
+    {
+      "id": "merle-marie-pittelkow",
+      "label": "Merle-Marie Pittelkow",
+      "x": 6.79,
+      "y": -0.54,
+      "projects": [
+        0,
+        2,
+        3,
+        17
+      ],
+      "roles": 5
+    },
+    {
+      "id": "mete-sefa-uysal",
+      "label": "Mete Sefa Uysal",
+      "x": -69.23,
+      "y": -21.94,
+      "projects": [
+        7
+      ],
+      "roles": 2
+    },
+    {
+      "id": "micah-vandegrift",
+      "label": "Micah Vandegrift",
+      "x": -34.17,
+      "y": -62.34,
+      "projects": [
+        1
+      ],
+      "roles": 2
+    },
+    {
+      "id": "michael-frank",
+      "label": "Michael Frank",
+      "x": -73.59,
+      "y": 16.71,
+      "projects": [
+        15
+      ],
+      "roles": 1
+    },
+    {
+      "id": "michael-franke",
+      "label": "Michael Franke",
+      "x": -69.85,
+      "y": -24.45,
+      "projects": [
+        7,
+        58
+      ],
+      "roles": 24
+    },
+    {
+      "id": "michael-matthews",
+      "label": "Michael Matthews",
+      "x": -39.65,
+      "y": -17.05,
+      "projects": [
+        8
+      ],
+      "roles": 1
+    },
+    {
+      "id": "michele-lim",
+      "label": "Michele Lim",
+      "x": -27.97,
+      "y": -66.75,
+      "projects": [
+        1
+      ],
+      "roles": 1
+    },
+    {
+      "id": "michelle-jamieson",
+      "label": "Michelle Jamieson",
+      "x": -45.07,
+      "y": -28.01,
+      "projects": [
+        3
+      ],
+      "roles": 2
+    },
+    {
+      "id": "michiel-van-der-ree",
+      "label": "Michiel van der Ree",
+      "x": -80.17,
+      "y": -10.29,
+      "projects": [
+        28,
+        43
+      ],
+      "roles": 7
+    },
+    {
+      "id": "mike-galang",
+      "label": "Mike Galang",
+      "x": -68.24,
+      "y": -6.23,
+      "projects": [
+        11
+      ],
+      "roles": 2
+    },
+    {
+      "id": "milena-rota",
+      "label": "Milena Rota",
+      "x": -0.98,
+      "y": 12.67,
+      "projects": [
+        64
+      ],
+      "roles": 2
+    },
+    {
+      "id": "mirela-zaneva",
+      "label": "Mirela Zaneva",
+      "x": -48.19,
+      "y": 7.53,
+      "projects": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        12,
+        21,
+        27
+      ],
+      "roles": 30
+    },
+    {
+      "id": "miriam-m-ller",
+      "label": "Miriam Müller",
+      "x": -35.94,
+      "y": 32.57,
+      "projects": [
+        20,
+        25
+      ],
+      "roles": 2
+    },
+    {
+      "id": "mirijam-schaaf",
+      "label": "Mirijam Schaaf",
+      "x": -68.91,
+      "y": 10.89,
+      "projects": [
+        19
+      ],
+      "roles": 1
+    },
+    {
+      "id": "mitja-back",
+      "label": "Mitja Back",
+      "x": -74.74,
+      "y": 17.29,
+      "projects": [
+        15
+      ],
+      "roles": 1
+    },
+    {
+      "id": "mohammed-mohsen",
+      "label": "Mohammed Mohsen",
+      "x": 24.12,
+      "y": -97.73,
+      "projects": [
+        13
+      ],
+      "roles": 1
+    },
+    {
+      "id": "moin-syed",
+      "label": "Moin Syed",
+      "x": -73.12,
+      "y": 1.44,
+      "projects": [
+        10,
+        15,
+        18
+      ],
+      "roles": 3
+    },
+    {
+      "id": "molly-metz",
+      "label": "Molly Metz",
+      "x": -83.66,
+      "y": -18.69,
+      "projects": [
+        10
+      ],
+      "roles": 1
+    },
+    {
+      "id": "momchil-terziev",
+      "label": "Momchil Terziev",
+      "x": -58.82,
+      "y": 1.69,
+      "projects": [
+        47
+      ],
+      "roles": 5
+    },
+    {
+      "id": "monika-nemcova",
+      "label": "Monika Nemcova",
+      "x": 20.37,
+      "y": 9.6,
+      "projects": [
+        0,
+        2
+      ],
+      "roles": 2
+    },
+    {
+      "id": "moustafa-shalaby",
+      "label": "Moustafa Shalaby",
+      "x": 23.74,
+      "y": -99.05,
+      "projects": [
+        13
+      ],
+      "roles": 2
+    },
+    {
+      "id": "myriam-baum",
+      "label": "Myriam Baum",
+      "x": -41.06,
+      "y": -53.07,
+      "projects": [
+        1,
+        3
+      ],
+      "roles": 3
+    },
+    {
+      "id": "myrthe-vel-tromp",
+      "label": "Myrthe Vel Tromp",
+      "x": -46.25,
+      "y": -30.62,
+      "projects": [
+        3,
+        14
+      ],
+      "roles": 3
+    },
+    {
+      "id": "nadia-adelina",
+      "label": "Nadia Adelina",
+      "x": 0.6,
+      "y": 27.38,
+      "projects": [
+        0,
+        2
+      ],
+      "roles": 2
+    },
+    {
+      "id": "nadia-corral-fr-as",
+      "label": "Nadia Corral-Frías",
+      "x": -82.0,
+      "y": -0.73,
+      "projects": [
+        6
+      ],
+      "roles": 2
+    },
+    {
+      "id": "nadica-miljkovi",
+      "label": "Nadica Miljković",
+      "x": -79.41,
+      "y": 5.51,
+      "projects": [
+        6,
+        42
+      ],
+      "roles": 6
+    },
+    {
+      "id": "nadja-moser",
+      "label": "Nadja Moser",
+      "x": 26.36,
+      "y": 41.67,
+      "projects": [
+        0
+      ],
+      "roles": 1
+    },
+    {
+      "id": "naif-masrahi",
+      "label": "Naif Masrahi",
+      "x": 25.28,
+      "y": -98.13,
+      "projects": [
+        13
+      ],
+      "roles": 1
+    },
+    {
+      "id": "natasha-tonge",
+      "label": "Natasha Tonge",
+      "x": -43.43,
+      "y": -25.77,
+      "projects": [
+        14
+      ],
+      "roles": 2
+    },
+    {
+      "id": "nazik-alnour",
+      "label": "Nazik Alnour",
+      "x": 24.19,
+      "y": -99.67,
+      "projects": [
+        13
+      ],
+      "roles": 1
+    },
+    {
+      "id": "neea-rusch",
+      "label": "Neea Rusch",
+      "x": -49.37,
+      "y": 24.64,
+      "projects": [
+        59
+      ],
+      "roles": 1
+    },
+    {
+      "id": "nick-ballou",
+      "label": "Nick Ballou",
+      "x": -21.46,
+      "y": -60.72,
+      "projects": [
+        1
+      ],
+      "roles": 2
+    },
+    {
+      "id": "niclas-kuper",
+      "label": "Niclas Kuper",
+      "x": 14.19,
+      "y": 70.09,
+      "projects": [
+        0
+      ],
+      "roles": 1
+    },
+    {
+      "id": "nico-f-rster",
+      "label": "Nico Förster",
+      "x": 28.49,
+      "y": 63.23,
+      "projects": [
+        0
+      ],
+      "roles": 1
+    },
+    {
+      "id": "nicolas-ruytenbeek",
+      "label": "Nicolas Ruytenbeek",
+      "x": -6.34,
+      "y": -4.12,
+      "projects": [
+        48
+      ],
+      "roles": 2
+    },
+    {
+      "id": "nigel-mantou-lou",
+      "label": "Nigel Mantou Lou",
+      "x": -1.85,
+      "y": 15.93,
+      "projects": [
+        0,
+        2,
+        8
+      ],
+      "roles": 5
+    },
+    {
+      "id": "nihan-albayrak-aydemir",
+      "label": "Nihan Albayrak-Aydemir",
+      "x": -36.87,
+      "y": 7.0,
+      "projects": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        9
+      ],
+      "roles": 16
+    },
+    {
+      "id": "nikita-ghodke",
+      "label": "Nikita Ghodke",
+      "x": -80.45,
+      "y": 0.72,
+      "projects": [
+        6
+      ],
+      "roles": 4
+    },
+    {
+      "id": "niko-busch",
+      "label": "Niko Busch",
+      "x": -45.38,
+      "y": 12.36,
+      "projects": [
+        18
+      ],
+      "roles": 1
+    },
+    {
+      "id": "nikolay-petrov",
+      "label": "Nikolay Petrov",
+      "x": 17.25,
+      "y": 46.0,
+      "projects": [
+        0
+      ],
+      "roles": 2
+    },
+    {
+      "id": "nina-schwarzbach",
+      "label": "Nina Schwarzbach",
+      "x": -79.9,
+      "y": -9.22,
+      "projects": [
+        28,
+        43
+      ],
+      "roles": 12
+    },
+    {
+      "id": "nishka-dasgupta",
+      "label": "Nishka Dasgupta",
+      "x": -50.66,
+      "y": 27.28,
+      "projects": [
+        24
+      ],
+      "roles": 2
+    },
+    {
+      "id": "niyatee-narkar",
+      "label": "Niyatee Narkar",
+      "x": 46.5,
+      "y": 43.07,
+      "projects": [
+        0
+      ],
+      "roles": 1
+    },
+    {
+      "id": "noah-klett",
+      "label": "Noah Klett",
+      "x": 8.94,
+      "y": 68.42,
+      "projects": [
+        0
+      ],
+      "roles": 4
+    },
+    {
+      "id": "nora-ammann",
+      "label": "Nora Ammann",
+      "x": -9.06,
+      "y": 7.79,
+      "projects": [
+        2
+      ],
+      "roles": 1
+    },
+    {
+      "id": "norbert-vanek",
+      "label": "Norbert Vanek",
+      "x": -65.56,
+      "y": -36.04,
+      "projects": [
+        1,
+        4
+      ],
+      "roles": 6
+    },
+    {
+      "id": "nu-o-sempere",
+      "label": "Nuño Sempere",
+      "x": 57.87,
+      "y": 19.48,
+      "projects": [
+        0
+      ],
+      "roles": 1
+    },
+    {
+      "id": "obrad-vu-kovac",
+      "label": "Obrad Vučkovac",
+      "x": -82.39,
+      "y": -2.02,
+      "projects": [
+        6
+      ],
+      "roles": 2
+    },
+    {
+      "id": "ognjen-bobi-i",
+      "label": "Ognjen Bobičić",
+      "x": 23.93,
+      "y": 60.06,
+      "projects": [
+        0
+      ],
+      "roles": 2
+    },
+    {
+      "id": "olavo-amaral",
+      "label": "Olavo Amaral",
+      "x": -78.56,
+      "y": -1.19,
+      "projects": [
+        6
+      ],
+      "roles": 4
+    },
+    {
+      "id": "oliver-deane",
+      "label": "Oliver Deane",
+      "x": 32.28,
+      "y": 51.84,
+      "projects": [
+        0
+      ],
+      "roles": 1
+    },
+    {
+      "id": "oliver-genschow",
+      "label": "Oliver Genschow",
+      "x": 35.7,
+      "y": 27.66,
+      "projects": [
+        0
+      ],
+      "roles": 1
+    },
+    {
+      "id": "olly-robertson",
+      "label": "Olly Robertson",
+      "x": -29.92,
+      "y": -49.59,
+      "projects": [
+        1,
+        9,
+        14
+      ],
+      "roles": 5
+    },
+    {
+      "id": "olmo-van-den-akker",
+      "label": "Olmo van den Akker",
+      "x": -26.28,
+      "y": -69.68,
+      "projects": [
+        1
+      ],
+      "roles": 2
+    },
+    {
+      "id": "oscar-lecuona",
+      "label": "Oscar Lecuona",
+      "x": 6.75,
+      "y": -17.72,
+      "projects": [
+        0,
+        1,
+        2,
+        9
+      ],
+      "roles": 5
+    },
+    {
+      "id": "owen-shahim",
+      "label": "Owen Shahim",
+      "x": -46.05,
+      "y": -71.3,
+      "projects": [
+        1
+      ],
+      "roles": 2
+    },
+    {
+      "id": "pablo-flores-kanter",
+      "label": "Pablo Flores-Kanter",
+      "x": -62.92,
+      "y": 40.27,
+      "projects": [
+        4,
+        25,
+        69
+      ],
+      "roles": 7
+    },
+    {
+      "id": "panos-vasilikos",
+      "label": "Panos Vasilikos",
+      "x": -64.83,
+      "y": -4.21,
+      "projects": [
+        11,
+        16,
+        33,
+        39
+      ],
+      "roles": 9
+    },
+    {
+      "id": "pasquale-pellegrini",
+      "label": "Pasquale Pellegrini",
+      "x": -50.87,
+      "y": 27.86,
+      "projects": [
+        24
+      ],
+      "roles": 2
+    },
+    {
+      "id": "patricia-arriaga",
+      "label": "Patricia Arriaga",
+      "x": -22.31,
+      "y": 18.79,
+      "projects": [
+        0,
+        2,
+        3,
+        5,
+        25,
+        53
+      ],
+      "roles": 9
+    },
+    {
+      "id": "patrick-forscher",
+      "label": "Patrick Forscher",
+      "x": -68.15,
+      "y": -22.61,
+      "projects": [
+        7
+      ],
+      "roles": 2
+    },
+    {
+      "id": "paul-crowe",
+      "label": "Paul Crowe",
+      "x": 40.14,
+      "y": 20.8,
+      "projects": [
+        0
+      ],
+      "roles": 1
+    },
+    {
+      "id": "paul-ilegbusi",
+      "label": "Paul Ilegbusi",
+      "x": -70.85,
+      "y": 35.62,
+      "projects": [
+        4
+      ],
+      "roles": 1
+    },
+    {
+      "id": "paul-plonski",
+      "label": "Paul Plonski",
+      "x": 4.5,
+      "y": 19.95,
+      "projects": [
+        0,
+        2
+      ],
+      "roles": 2
+    },
+    {
+      "id": "pauline-karega",
+      "label": "Pauline Karega",
+      "x": -52.55,
+      "y": -10.05,
+      "projects": [
+        23
+      ],
+      "roles": 1
+    },
+    {
+      "id": "peder-isager",
+      "label": "Peder Isager",
+      "x": -19.58,
+      "y": 3.96,
+      "projects": [
+        17
+      ],
+      "roles": 1
+    },
+    {
+      "id": "pengfeng-hao",
+      "label": "Pengfeng Hao",
+      "x": 90.65,
+      "y": -5.81,
+      "projects": [
+        29
+      ],
+      "roles": 3
+    },
+    {
+      "id": "peter-branney",
+      "label": "Peter Branney",
+      "x": -63.55,
+      "y": 4.96,
+      "projects": [
+        3,
+        4
+      ],
+      "roles": 6
+    },
+    {
+      "id": "pius-imwene",
+      "label": "Pius Imwene",
+      "x": 38.63,
+      "y": 41.05,
+      "projects": [
+        0
+      ],
+      "roles": 1
+    },
+    {
+      "id": "piyali-bhattacharya",
+      "label": "Piyali Bhattacharya",
+      "x": -83.62,
+      "y": 4.01,
+      "projects": [
+        6
+      ],
+      "roles": 4
+    },
+    {
+      "id": "pooja-kulkarni",
+      "label": "Pooja Kulkarni",
+      "x": -84.24,
+      "y": 0.01,
+      "projects": [
+        6
+      ],
+      "roles": 2
+    },
+    {
+      "id": "prince-oppong-boakye",
+      "label": "Prince Oppong Boakye",
+      "x": -40.11,
+      "y": 21.06,
+      "projects": [
+        20
+      ],
+      "roles": 4
+    },
+    {
+      "id": "priti-chahal",
+      "label": "Priti Chahal",
+      "x": -34.81,
+      "y": 20.45,
+      "projects": [
+        45
+      ],
+      "roles": 2
+    },
+    {
+      "id": "priya-silverstein",
+      "label": "Priya Silverstein",
+      "x": -81.09,
+      "y": -10.53,
+      "projects": [
+        7,
+        10,
+        11,
+        15,
+        18,
+        31,
+        67
+      ],
+      "roles": 10
+    },
+    {
+      "id": "qinyu-xiao",
+      "label": "Qinyu Xiao",
+      "x": -26.14,
+      "y": -63.55,
+      "projects": [
+        1
+      ],
+      "roles": 2
+    },
+    {
+      "id": "quinnehtukqut-mclamore",
+      "label": "Quinnehtukqut McLamore",
+      "x": -56.83,
+      "y": -5.0,
+      "projects": [
+        27
+      ],
+      "roles": 1
+    },
+    {
+      "id": "rachel-heyard",
+      "label": "Rachel Heyard",
+      "x": -66.81,
+      "y": -23.6,
+      "projects": [
+        7
+      ],
+      "roles": 4
+    },
+    {
+      "id": "rachel-renbarger",
+      "label": "Rachel Renbarger",
+      "x": -69.97,
+      "y": -16.25,
+      "projects": [
+        7,
+        11
+      ],
+      "roles": 4
+    },
+    {
+      "id": "radoslaw-lach",
+      "label": "Radoslaw Lach",
+      "x": 15.11,
+      "y": 54.7,
+      "projects": [
+        0
+      ],
+      "roles": 2
+    },
+    {
+      "id": "rafael-bastos",
+      "label": "Rafael Bastos",
+      "x": -71.99,
+      "y": 31.14,
+      "projects": [
+        4
+      ],
+      "roles": 3
+    },
+    {
+      "id": "rashid-zafir",
+      "label": "Rashid Zafir",
+      "x": -33.39,
+      "y": -18.5,
+      "projects": [
+        9
+      ],
+      "roles": 1
+    },
+    {
+      "id": "raul-zurita-milla",
+      "label": "Raul Zurita-Milla",
+      "x": -56.49,
+      "y": -11.91,
+      "projects": [
+        5
+      ],
+      "roles": 2
+    },
+    {
+      "id": "renu-kumari",
+      "label": "Renu Kumari",
+      "x": -47.33,
+      "y": 27.87,
+      "projects": [
+        35
+      ],
+      "roles": 1
+    },
+    {
+      "id": "richard-dushime",
+      "label": "Richard Dushime",
+      "x": -73.18,
+      "y": 24.12,
+      "projects": [
+        4,
+        23,
+        24,
+        31
+      ],
+      "roles": 6
+    },
+    {
+      "id": "rickard-carlsson",
+      "label": "Rickard Carlsson",
+      "x": -45.99,
+      "y": 12.29,
+      "projects": [
+        18
+      ],
+      "roles": 1
+    },
+    {
+      "id": "riddhi-divanhi",
+      "label": "Riddhi Divanhi",
+      "x": -68.07,
+      "y": 10.55,
+      "projects": [
+        19
+      ],
+      "roles": 1
+    },
+    {
+      "id": "rima-maria-rahal",
+      "label": "Rima-Maria Rahal",
+      "x": -69.29,
+      "y": 17.54,
+      "projects": [
+        15,
+        30
+      ],
+      "roles": 2
+    },
+    {
+      "id": "rink-hoekstra",
+      "label": "Rink Hoekstra",
+      "x": -79.76,
+      "y": -9.48,
+      "projects": [
+        28,
+        43
+      ],
+      "roles": 12
+    },
+    {
+      "id": "riva-quiroga",
+      "label": "Riva Quiroga",
+      "x": -51.31,
+      "y": -1.06,
+      "projects": [
+        23,
+        33,
+        45
+      ],
+      "roles": 5
+    },
+    {
+      "id": "robert-reason",
+      "label": "Robert Reason",
+      "x": 22.71,
+      "y": 22.34,
+      "projects": [
+        0,
+        2
+      ],
+      "roles": 2
+    },
+    {
+      "id": "robert-ross",
+      "label": "Robert Ross",
+      "x": 0.91,
+      "y": -29.62,
+      "projects": [
+        0,
+        1,
+        2,
+        3,
+        12
+      ],
+      "roles": 11
+    },
+    {
+      "id": "robin-beckenbach",
+      "label": "Robin Beckenbach",
+      "x": -53.53,
+      "y": -5.98,
+      "projects": [
+        5
+      ],
+      "roles": 2
+    },
+    {
+      "id": "robin-hoekstra",
+      "label": "Robin Hoekstra",
+      "x": -79.64,
+      "y": -9.38,
+      "projects": [
+        28,
+        43
+      ],
+      "roles": 3
+    },
+    {
+      "id": "rohan-tondlekar",
+      "label": "Rohan Tondlekar",
+      "x": -36.9,
+      "y": 37.55,
+      "projects": [
+        25,
+        35
+      ],
+      "roles": 6
+    },
+    {
+      "id": "roksana-sobolak",
+      "label": "Roksana Sobolak",
+      "x": -79.79,
+      "y": 13.16,
+      "projects": [
+        4,
+        7,
+        16,
+        39
+      ],
+      "roles": 11
+    },
+    {
+      "id": "ronan-mcgarrigle",
+      "label": "Ronan McGarrigle",
+      "x": -42.98,
+      "y": -25.45,
+      "projects": [
+        14
+      ],
+      "roles": 2
+    },
+    {
+      "id": "ross-mounce",
+      "label": "Ross Mounce",
+      "x": -24.46,
+      "y": -66.79,
+      "projects": [
+        1
+      ],
+      "roles": 1
+    },
+    {
+      "id": "ruoting-liu",
+      "label": "Ruoting Liu",
+      "x": 76.61,
+      "y": -11.52,
+      "projects": [
+        29
+      ],
+      "roles": 5
+    },
+    {
+      "id": "ruslana-margova",
+      "label": "Ruslana Margova",
+      "x": -66.91,
+      "y": 36.91,
+      "projects": [
+        4
+      ],
+      "roles": 5
+    },
+    {
+      "id": "ruth-horry",
+      "label": "Ruth Horry",
+      "x": -42.9,
+      "y": -26.48,
+      "projects": [
+        14
+      ],
+      "roles": 2
+    },
+    {
+      "id": "ruwayshid-alruwaili",
+      "label": "Ruwayshid Alruwaili",
+      "x": 23.87,
+      "y": -100.0,
+      "projects": [
+        13
+      ],
+      "roles": 2
+    },
+    {
+      "id": "ryan-millager",
+      "label": "Ryan Millager",
+      "x": -28.41,
+      "y": -77.12,
+      "projects": [
+        1
+      ],
+      "roles": 2
+    },
+    {
+      "id": "r-an-o-mahoney",
+      "label": "Rían O'Mahoney",
+      "x": -6.79,
+      "y": 9.75,
+      "projects": [
+        2
+      ],
+      "roles": 4
+    },
+    {
+      "id": "sa-kiera-hudson",
+      "label": "Sa-Kiera Hudson",
+      "x": -68.55,
+      "y": -25.03,
+      "projects": [
+        7
+      ],
+      "roles": 2
+    },
+    {
+      "id": "saad-almajed",
+      "label": "Saad Almajed",
+      "x": -82.28,
+      "y": 3.06,
+      "projects": [
+        6
+      ],
+      "roles": 2
+    },
+    {
+      "id": "sabrina-shajeen-alam",
+      "label": "Sabrina Shajeen Alam",
+      "x": -67.82,
+      "y": 11.4,
+      "projects": [
+        19
+      ],
+      "roles": 1
+    },
+    {
+      "id": "saida-heshmati",
+      "label": "Saida Heshmati",
+      "x": -79.76,
+      "y": -1.85,
+      "projects": [
+        6
+      ],
+      "roles": 2
+    },
+    {
+      "id": "sakshi-ghai",
+      "label": "Sakshi Ghai",
+      "x": -84.02,
+      "y": 7.71,
+      "projects": [
+        6,
+        19
+      ],
+      "roles": 3
+    },
+    {
+      "id": "sam-enright",
+      "label": "Sam Enright",
+      "x": -4.95,
+      "y": 7.44,
+      "projects": [
+        2
+      ],
+      "roles": 1
+    },
+    {
+      "id": "sam-parsons",
+      "label": "Sam Parsons",
+      "x": -36.91,
+      "y": -2.81,
+      "projects": [
+        0,
+        1,
+        2,
+        5,
+        7,
+        11,
+        14,
+        16,
+        23,
+        26,
+        28,
+        32,
+        36,
+        46,
+        56
+      ],
+      "roles": 45
+    },
+    {
+      "id": "samaneh-v-m-masuleh",
+      "label": "Samaneh V.M Masuleh",
+      "x": -72.63,
+      "y": 36.53,
+      "projects": [
+        4
+      ],
+      "roles": 5
+    },
+    {
+      "id": "samantha-tyler",
+      "label": "Samantha Tyler",
+      "x": -57.72,
+      "y": -31.02,
+      "projects": [
+        3,
+        7
+      ],
+      "roles": 3
+    },
+    {
+      "id": "samiul-hossain",
+      "label": "Samiul Hossain",
+      "x": -85.08,
+      "y": 2.59,
+      "projects": [
+        6,
+        68
+      ],
+      "roles": 8
+    },
+    {
+      "id": "samuel-alarie",
+      "label": "Samuel Alarie",
+      "x": 50.16,
+      "y": 14.85,
+      "projects": [
+        0
+      ],
+      "roles": 1
+    },
+    {
+      "id": "samuel-guay",
+      "label": "Samuel Guay",
+      "x": -0.58,
+      "y": -22.07,
+      "projects": [
+        0,
+        1,
+        2,
+        3,
+        23
+      ],
+      "roles": 12
+    },
+    {
+      "id": "samuel-westwood",
+      "label": "Samuel Westwood",
+      "x": -44.81,
+      "y": -24.57,
+      "projects": [
+        3,
+        32
+      ],
+      "roles": 3
+    },
+    {
+      "id": "sandra-grinschgl",
+      "label": "Sandra Grinschgl",
+      "x": -40.2,
+      "y": -22.11,
+      "projects": [
+        3,
+        8,
+        9
+      ],
+      "roles": 7
+    },
+    {
+      "id": "sara-middleton",
+      "label": "Sara Middleton",
+      "x": -72.71,
+      "y": -50.4,
+      "projects": [
+        1,
+        7,
+        10,
+        11,
+        34,
+        40
+      ],
+      "roles": 17
+    },
+    {
+      "id": "sara-priem",
+      "label": "Sara Priem",
+      "x": -72.32,
+      "y": 29.1,
+      "projects": [
+        4
+      ],
+      "roles": 3
+    },
+    {
+      "id": "sarah-almutairi",
+      "label": "Sarah Almutairi",
+      "x": 25.1,
+      "y": -99.73,
+      "projects": [
+        13
+      ],
+      "roles": 1
+    },
+    {
+      "id": "sarah-ashcroft-jones",
+      "label": "Sarah Ashcroft-Jones",
+      "x": -0.69,
+      "y": -42.34,
+      "projects": [
+        0,
+        1,
+        3,
+        16,
+        31,
+        37,
+        44
+      ],
+      "roles": 25
+    },
+    {
+      "id": "sarah-hassan",
+      "label": "Sarah Hassan",
+      "x": -72.66,
+      "y": 32.77,
+      "projects": [
+        4
+      ],
+      "roles": 3
+    },
+    {
+      "id": "sarah-jaubert",
+      "label": "Sarah Jaubert",
+      "x": 26.71,
+      "y": 52.35,
+      "projects": [
+        0
+      ],
+      "roles": 1
+    },
+    {
+      "id": "sarah-mccann",
+      "label": "Sarah McCann",
+      "x": -73.44,
+      "y": 17.43,
+      "projects": [
+        15
+      ],
+      "roles": 1
+    },
+    {
+      "id": "sarah-sauve",
+      "label": "Sarah Sauve",
+      "x": -78.18,
+      "y": 10.24,
+      "projects": [
+        4,
+        8,
+        10,
+        11,
+        40,
+        71
+      ],
+      "roles": 9
+    },
+    {
+      "id": "sarahanne-field",
+      "label": "Sarahanne Field",
+      "x": -20.24,
+      "y": 3.98,
+      "projects": [
+        17
+      ],
+      "roles": 1
+    },
+    {
+      "id": "sau-chin-chen",
+      "label": "Sau-Chin Chen",
+      "x": 35.19,
+      "y": 35.85,
+      "projects": [
+        0
+      ],
+      "roles": 1
+    },
+    {
+      "id": "saule-anafinova",
+      "label": "Saule Anafinova",
+      "x": -67.46,
+      "y": 35.09,
+      "projects": [
+        4
+      ],
+      "roles": 1
+    },
+    {
+      "id": "scott-swain",
+      "label": "Scott Swain",
+      "x": 51.42,
+      "y": 35.22,
+      "projects": [
+        0
+      ],
+      "roles": 1
+    },
+    {
+      "id": "sean-mackinnon",
+      "label": "Sean Mackinnon",
+      "x": 52.88,
+      "y": 49.92,
+      "projects": [
+        0
+      ],
+      "roles": 1
+    },
+    {
+      "id": "sebastian-garcia",
+      "label": "Sebastian Garcia",
+      "x": -41.72,
+      "y": 50.37,
+      "projects": [
+        0,
+        2,
+        4,
+        5,
+        6
+      ],
+      "roles": 11
+    },
+    {
+      "id": "sebastian-kurten",
+      "label": "Sebastian Kurten",
+      "x": -7.64,
+      "y": 64.18,
+      "projects": [
+        0,
+        19,
+        20
+      ],
+      "roles": 4
+    },
+    {
+      "id": "sebastian-ocklenburg",
+      "label": "Sebastian Ocklenburg",
+      "x": -58.05,
+      "y": 16.36,
+      "projects": [
+        30
+      ],
+      "roles": 3
+    },
+    {
+      "id": "seun-olufemi",
+      "label": "Seun Olufemi",
+      "x": -53.22,
+      "y": -10.75,
+      "projects": [
+        23
+      ],
+      "roles": 1
+    },
+    {
+      "id": "shannon-francis",
+      "label": "Shannon Francis",
+      "x": -55.89,
+      "y": -52.47,
+      "projects": [
+        1,
+        5
+      ],
+      "roles": 4
+    },
+    {
+      "id": "shanu-sadhwani",
+      "label": "Shanu Sadhwani",
+      "x": -35.57,
+      "y": -29.32,
+      "projects": [
+        3
+      ],
+      "roles": 1
+    },
+    {
+      "id": "sharan-maiya",
+      "label": "Sharan Maiya",
+      "x": 36.45,
+      "y": 16.88,
+      "projects": [
+        0
+      ],
+      "roles": 1
+    },
+    {
+      "id": "shijun-yu",
+      "label": "Shijun Yu",
+      "x": -32.59,
+      "y": -18.92,
+      "projects": [
+        9
+      ],
+      "roles": 1
+    },
+    {
+      "id": "shilaan-alzahawi",
+      "label": "Shilaan Alzahawi",
+      "x": -3.78,
+      "y": 2.12,
+      "projects": [
+        0,
+        2,
+        3,
+        9
+      ],
+      "roles": 10
+    },
+    {
+      "id": "shubham-pandey",
+      "label": "Shubham Pandey",
+      "x": -69.0,
+      "y": 36.13,
+      "projects": [
+        4
+      ],
+      "roles": 1
+    },
+    {
+      "id": "shuxian-jin",
+      "label": "Shuxian Jin",
+      "x": 99.45,
+      "y": 1.59,
+      "projects": [
+        29
+      ],
+      "roles": 6
+    },
+    {
+      "id": "simon-porcher",
+      "label": "Simon Porcher",
+      "x": -74.3,
+      "y": 32.35,
+      "projects": [
+        4
+      ],
+      "roles": 2
+    },
+    {
+      "id": "siu-kit-yeung",
+      "label": "Siu Kit Yeung",
+      "x": -17.19,
+      "y": -20.51,
+      "projects": [
+        0,
+        1,
+        2,
+        3,
+        7,
+        9,
+        12,
+        21,
+        27
+      ],
+      "roles": 21
+    },
+    {
+      "id": "sofie-smal",
+      "label": "Sofie Smal",
+      "x": -68.59,
+      "y": -5.39,
+      "projects": [
+        40
+      ],
+      "roles": 1
+    },
+    {
+      "id": "sonia-rishi",
+      "label": "Sonia Rishi",
+      "x": -21.17,
+      "y": -67.2,
+      "projects": [
+        1
+      ],
+      "roles": 1
+    },
+    {
+      "id": "sonja-eisenbeiss",
+      "label": "Sonja Eisenbeiss",
+      "x": -58.71,
+      "y": 15.26,
+      "projects": [
+        30
+      ],
+      "roles": 4
+    },
+    {
+      "id": "sophia-wingen",
+      "label": "Sophia Wingen",
+      "x": 45.34,
+      "y": 17.72,
+      "projects": [
+        0
+      ],
+      "roles": 1
+    },
+    {
+      "id": "sophie-sch-ller",
+      "label": "Sophie Schüller",
+      "x": 41.54,
+      "y": 14.33,
+      "projects": [
+        0
+      ],
+      "roles": 3
+    },
+    {
+      "id": "sriraj-aiyer",
+      "label": "Sriraj Aiyer",
+      "x": 8.53,
+      "y": 50.71,
+      "projects": [
+        0
+      ],
+      "roles": 2
+    },
+    {
+      "id": "stephanie-chan",
+      "label": "Stephanie Chan",
+      "x": -57.41,
+      "y": -6.35,
+      "projects": [
+        5
+      ],
+      "roles": 2
+    },
+    {
+      "id": "stephanie-chang",
+      "label": "Stephanie Chang",
+      "x": -58.91,
+      "y": -5.28,
+      "projects": [
+        5
+      ],
+      "roles": 2
+    },
+    {
+      "id": "stephanie-fuller",
+      "label": "Stephanie Fuller",
+      "x": -51.93,
+      "y": 8.37,
+      "projects": [
+        12
+      ],
+      "roles": 2
+    },
+    {
+      "id": "steven-kapp",
+      "label": "Steven Kapp",
+      "x": -59.14,
+      "y": -11.97,
+      "projects": [
+        21,
+        27,
+        34
+      ],
+      "roles": 6
+    },
+    {
+      "id": "steven-verheyen",
+      "label": "Steven Verheyen",
+      "x": -10.83,
+      "y": -36.78,
+      "projects": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        20,
+        33,
+        48,
+        72
+      ],
+      "roles": 27
+    },
+    {
+      "id": "subramanya-prasad-chandrashekar",
+      "label": "Subramanya Prasad Chandrashekar",
+      "x": 1.71,
+      "y": 53.09,
+      "projects": [
+        0,
+        51
+      ],
+      "roles": 3
+    },
+    {
+      "id": "sujeet-yadav",
+      "label": "Sujeet Yadav",
+      "x": -69.33,
+      "y": 34.26,
+      "projects": [
+        4
+      ],
+      "roles": 3
+    },
+    {
+      "id": "susana-gonz-lez-sahag-n",
+      "label": "Susana González-Sahagún",
+      "x": -53.35,
+      "y": -9.35,
+      "projects": [
+        23
+      ],
+      "roles": 1
+    },
+    {
+      "id": "susann-auer",
+      "label": "Susann Auer",
+      "x": -68.67,
+      "y": 17.75,
+      "projects": [
+        15,
+        30
+      ],
+      "roles": 7
+    },
+    {
+      "id": "susanne-adler",
+      "label": "Susanne Adler",
+      "x": -47.02,
+      "y": 11.51,
+      "projects": [
+        20,
+        33
+      ],
+      "roles": 3
+    },
+    {
+      "id": "susanne-kerschbaumer",
+      "label": "Susanne Kerschbaumer",
+      "x": -55.6,
+      "y": -10.33,
+      "projects": [
+        5
+      ],
+      "roles": 2
+    },
+    {
+      "id": "susanne-vogel",
+      "label": "Susanne Vogel",
+      "x": -65.22,
+      "y": 27.91,
+      "projects": [
+        4,
+        52
+      ],
+      "roles": 8
+    },
+    {
+      "id": "suzanne-stewart",
+      "label": "Suzanne Stewart",
+      "x": -42.46,
+      "y": -46.43,
+      "projects": [
+        1,
+        3,
+        8
+      ],
+      "roles": 6
+    },
+    {
+      "id": "tamara-kalandadze",
+      "label": "Tamara Kalandadze",
+      "x": -20.75,
+      "y": -12.28,
+      "projects": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        9,
+        12,
+        21,
+        26
+      ],
+      "roles": 19
+    },
+    {
+      "id": "tamara-marques",
+      "label": "Tamara Marques",
+      "x": -60.37,
+      "y": -11.79,
+      "projects": [
+        5,
+        38
+      ],
+      "roles": 3
+    },
+    {
+      "id": "tao-coll-mart-n",
+      "label": "Tao Coll-Martín",
+      "x": -57.34,
+      "y": -0.33,
+      "projects": [
+        5,
+        12,
+        69
+      ],
+      "roles": 6
+    },
+    {
+      "id": "theofilos-gkinopoulos",
+      "label": "Theofilos Gkinopoulos",
+      "x": -42.68,
+      "y": -32.14,
+      "projects": [
+        3
+      ],
+      "roles": 2
+    },
+    {
+      "id": "thipparapu-rajesh",
+      "label": "Thipparapu Rajesh",
+      "x": -83.61,
+      "y": 2.7,
+      "projects": [
+        6
+      ],
+      "roles": 2
+    },
+    {
+      "id": "thomas-evans",
+      "label": "Thomas Evans",
+      "x": -51.18,
+      "y": 17.03,
+      "projects": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        9,
+        11,
+        16,
+        20,
+        32,
+        49,
+        50,
+        55
+      ],
+      "roles": 39
+    },
+    {
+      "id": "thomas-gallagher-mitchell",
+      "label": "Thomas Gallagher-Mitchell",
+      "x": -37.95,
+      "y": -30.54,
+      "projects": [
+        3
+      ],
+      "roles": 1
+    },
+    {
+      "id": "thomas-metherell",
+      "label": "Thomas Metherell",
+      "x": -59.47,
+      "y": -6.89,
+      "projects": [
+        5
+      ],
+      "roles": 2
+    },
+    {
+      "id": "timo-gnambs",
+      "label": "Timo Gnambs",
+      "x": 53.83,
+      "y": 9.79,
+      "projects": [
+        0
+      ],
+      "roles": 1
+    },
+    {
+      "id": "timo-lueke",
+      "label": "Timo Lueke",
+      "x": -41.92,
+      "y": -30.07,
+      "projects": [
+        3
+      ],
+      "roles": 2
+    },
+    {
+      "id": "timo-roettger",
+      "label": "Timo Roettger",
+      "x": -57.88,
+      "y": -63.48,
+      "projects": [
+        1,
+        7,
+        58
+      ],
+      "roles": 25
+    },
+    {
+      "id": "tina-lonsdorf",
+      "label": "Tina Lonsdorf",
+      "x": -43.93,
+      "y": -73.87,
+      "projects": [
+        1
+      ],
+      "roles": 2
+    },
+    {
+      "id": "tobias-dienlin",
+      "label": "Tobias Dienlin",
+      "x": -13.58,
+      "y": 60.97,
+      "projects": [
+        0,
+        15,
+        18
+      ],
+      "roles": 3
+    },
+    {
+      "id": "tobias-rebholz",
+      "label": "Tobias Rebholz",
+      "x": 56.93,
+      "y": 39.94,
+      "projects": [
+        0
+      ],
+      "roles": 1
+    },
+    {
+      "id": "tobias-wingen",
+      "label": "Tobias Wingen",
+      "x": -32.76,
+      "y": -45.48,
+      "projects": [
+        1,
+        3,
+        9
+      ],
+      "roles": 5
+    },
+    {
+      "id": "tosan-okome",
+      "label": "Tosan Okome",
+      "x": -65.46,
+      "y": 35.45,
+      "projects": [
+        4
+      ],
+      "roles": 1
+    },
+    {
+      "id": "tsvetomira-dumbalska",
+      "label": "Tsvetomira Dumbalska",
+      "x": 28.21,
+      "y": -35.7,
+      "projects": [
+        0,
+        1
+      ],
+      "roles": 3
+    },
+    {
+      "id": "tugce-varol",
+      "label": "Tugce Varol",
+      "x": -62.23,
+      "y": 12.89,
+      "projects": [
+        4,
+        8,
+        22
+      ],
+      "roles": 9
+    },
+    {
+      "id": "ulrike-gut",
+      "label": "Ulrike Gut",
+      "x": -40.02,
+      "y": 20.8,
+      "projects": [
+        20
+      ],
+      "roles": 1
+    },
+    {
+      "id": "vaitsa-giannouli",
+      "label": "Vaitsa Giannouli",
+      "x": -36.62,
+      "y": 42.35,
+      "projects": [
+        0,
+        2,
+        4,
+        5,
+        11,
+        12
+      ],
+      "roles": 13
+    },
+    {
+      "id": "valeria-agostini",
+      "label": "Valeria Agostini",
+      "x": 14.91,
+      "y": -18.94,
+      "projects": [
+        0,
+        1,
+        2,
+        64
+      ],
+      "roles": 30
+    },
+    {
+      "id": "valeria-occelli",
+      "label": "Valeria Occelli",
+      "x": -68.56,
+      "y": 29.1,
+      "projects": [
+        4
+      ],
+      "roles": 4
+    },
+    {
+      "id": "vanessa-stan-ugbene",
+      "label": "Vanessa Stan-Ugbene",
+      "x": -46.43,
+      "y": -14.95,
+      "projects": [
+        22
+      ],
+      "roles": 3
+    },
+    {
+      "id": "vanessa-vanessa-stan-ugbene",
+      "label": "Vanessa Vanessa Stan-Ugbene",
+      "x": -56.16,
+      "y": -3.46,
+      "projects": [
+        33
+      ],
+      "roles": 1
+    },
+    {
+      "id": "veli-matti-karhulahti",
+      "label": "Veli-Matti Karhulahti",
+      "x": 47.26,
+      "y": 28.4,
+      "projects": [
+        0
+      ],
+      "roles": 1
+    },
+    {
+      "id": "vera-heininga",
+      "label": "Vera Heininga",
+      "x": -79.48,
+      "y": -9.29,
+      "projects": [
+        28,
+        43
+      ],
+      "roles": 7
+    },
+    {
+      "id": "veronica-allen",
+      "label": "Veronica Allen",
+      "x": -64.64,
+      "y": 20.8,
+      "projects": [
+        4,
+        12,
+        22
+      ],
+      "roles": 7
+    },
+    {
+      "id": "veronica-boyce",
+      "label": "Veronica Boyce",
+      "x": 35.82,
+      "y": 2.65,
+      "projects": [
+        0,
+        17
+      ],
+      "roles": 4
+    },
+    {
+      "id": "veronica-diveica",
+      "label": "Veronica Diveica",
+      "x": -28.05,
+      "y": 46.63,
+      "projects": [
+        0,
+        2,
+        4,
+        5
+      ],
+      "roles": 6
+    },
+    {
+      "id": "victoria-moser",
+      "label": "Victoria Moser",
+      "x": -40.46,
+      "y": 21.21,
+      "projects": [
+        20
+      ],
+      "roles": 2
+    },
+    {
+      "id": "vladislava-trashlieva",
+      "label": "Vladislava Trashlieva",
+      "x": -69.14,
+      "y": -19.78,
+      "projects": [
+        7,
+        47,
+        58
+      ],
+      "roles": 7
+    },
+    {
+      "id": "vojin-simunovi",
+      "label": "Vojin Simunović",
+      "x": -67.81,
+      "y": 15.42,
+      "projects": [
+        42
+      ],
+      "roles": 2
+    },
+    {
+      "id": "wanyin-li",
+      "label": "Wanyin Li",
+      "x": -35.88,
+      "y": -74.2,
+      "projects": [
+        1
+      ],
+      "roles": 1
+    },
+    {
+      "id": "willem-louter",
+      "label": "Willem Louter",
+      "x": -6.66,
+      "y": -4.43,
+      "projects": [
+        48
+      ],
+      "roles": 1
+    },
+    {
+      "id": "willem-plomp",
+      "label": "Willem Plomp",
+      "x": 32.65,
+      "y": 42.01,
+      "projects": [
+        0
+      ],
+      "roles": 1
+    },
+    {
+      "id": "william-ngiam",
+      "label": "William Ngiam",
+      "x": -54.62,
+      "y": -56.1,
+      "projects": [
+        1,
+        5
+      ],
+      "roles": 3
+    },
+    {
+      "id": "wolf-vanpaemel",
+      "label": "Wolf Vanpaemel",
+      "x": -2.06,
+      "y": 30.63,
+      "projects": [
+        0,
+        2,
+        48
+      ],
+      "roles": 3
+    },
+    {
+      "id": "xiaoli-chen",
+      "label": "Xiaoli Chen",
+      "x": -68.71,
+      "y": 37.8,
+      "projects": [
+        4
+      ],
+      "roles": 1
+    },
+    {
+      "id": "xinyu-wang",
+      "label": "Xinyu Wang",
+      "x": 77.22,
+      "y": 5.83,
+      "projects": [
+        29
+      ],
+      "roles": 2
+    },
+    {
+      "id": "xiujuan-wen",
+      "label": "Xiujuan Wen",
+      "x": 88.03,
+      "y": 1.91,
+      "projects": [
+        29
+      ],
+      "roles": 5
+    },
+    {
+      "id": "xuechun-huang",
+      "label": "Xuechun Huang",
+      "x": 45.91,
+      "y": 58.48,
+      "projects": [
+        0
+      ],
+      "roles": 1
+    },
+    {
+      "id": "xuejun-ji",
+      "label": "Xuejun Ji",
+      "x": 94.29,
+      "y": 9.0,
+      "projects": [
+        29
+      ],
+      "roles": 2
+    },
+    {
+      "id": "yanna-weisberg",
+      "label": "Yanna Weisberg",
+      "x": -52.79,
+      "y": -21.01,
+      "projects": [
+        3,
+        5
+      ],
+      "roles": 4
+    },
+    {
+      "id": "yi-liu",
+      "label": "Yi Liu",
+      "x": 37.32,
+      "y": 64.94,
+      "projects": [
+        0
+      ],
+      "roles": 1
+    },
+    {
+      "id": "yin-wang",
+      "label": "Yin Wang",
+      "x": -79.8,
+      "y": 3.34,
+      "projects": [
+        6
+      ],
+      "roles": 2
+    },
+    {
+      "id": "ymke-de-bruijn",
+      "label": "Ymke de Bruijn",
+      "x": -82.52,
+      "y": -19.36,
+      "projects": [
+        10
+      ],
+      "roles": 1
+    },
+    {
+      "id": "yo-yehudi",
+      "label": "Yo Yehudi",
+      "x": -64.87,
+      "y": 31.51,
+      "projects": [
+        4
+      ],
+      "roles": 1
+    },
+    {
+      "id": "yseult-h-jja-brichard",
+      "label": "Yseult Héjja-Brichard",
+      "x": -65.99,
+      "y": 24.96,
+      "projects": [
+        4,
+        12
+      ],
+      "roles": 4
+    },
+    {
+      "id": "yu-xu",
+      "label": "Yu Xu",
+      "x": 82.66,
+      "y": -4.22,
+      "projects": [
+        29
+      ],
+      "roles": 2
+    },
+    {
+      "id": "yu-fang-yang",
+      "label": "Yu-Fang Yang",
+      "x": -51.95,
+      "y": -51.34,
+      "projects": [
+        1,
+        5
+      ],
+      "roles": 6
+    },
+    {
+      "id": "yuichi-shoda",
+      "label": "Yuichi Shoda",
+      "x": -100.0,
+      "y": -3.09,
+      "projects": [
+        62
+      ],
+      "roles": 4
+    },
+    {
+      "id": "yuki-yamada",
+      "label": "Yuki Yamada",
+      "x": -25.59,
+      "y": -53.14,
+      "projects": [
+        1,
+        9
+      ],
+      "roles": 3
+    },
+    {
+      "id": "yuri-pavlov",
+      "label": "Yuri Pavlov",
+      "x": 52.15,
+      "y": 19.74,
+      "projects": [
+        0
+      ],
+      "roles": 1
+    },
+    {
+      "id": "yvonne-oberholzer",
+      "label": "Yvonne Oberholzer",
+      "x": 44.46,
+      "y": 38.55,
+      "projects": [
+        0
+      ],
+      "roles": 1
+    },
+    {
+      "id": "zahra-khorami",
+      "label": "Zahra Khorami",
+      "x": -80.71,
+      "y": -0.75,
+      "projects": [
+        6
+      ],
+      "roles": 2
+    },
+    {
+      "id": "zainab-alsuhaibani",
+      "label": "Zainab Alsuhaibani",
+      "x": 23.97,
+      "y": -98.32,
+      "projects": [
+        13
+      ],
+      "roles": 2
+    },
+    {
+      "id": "ze-freeman",
+      "label": "Ze Freeman",
+      "x": -30.9,
+      "y": 36.86,
+      "projects": [
+        51
+      ],
+      "roles": 3
+    },
+    {
+      "id": "zeno-kujawa",
+      "label": "Zeno Kujawa",
+      "x": 17.9,
+      "y": 59.78,
+      "projects": [
+        0
+      ],
+      "roles": 1
+    },
+    {
+      "id": "zhenya-kalenkovich",
+      "label": "Zhenya Kalenkovich",
+      "x": -70.05,
+      "y": 32.15,
+      "projects": [
+        4
+      ],
+      "roles": 4
+    },
+    {
+      "id": "zhiqi-xu",
+      "label": "Zhiqi Xu",
+      "x": -79.08,
+      "y": 1.08,
+      "projects": [
+        6
+      ],
+      "roles": 5
+    },
+    {
+      "id": "zixi-wang",
+      "label": "Zixi Wang",
+      "x": 84.67,
+      "y": -15.54,
+      "projects": [
+        29
+      ],
+      "roles": 2
+    },
+    {
+      "id": "zlatomira-ilchovska",
+      "label": "Zlatomira Ilchovska",
+      "x": -36.87,
+      "y": 29.37,
+      "projects": [
+        0,
+        2,
+        3,
+        5,
+        6,
+        47
+      ],
+      "roles": 16
+    },
+    {
+      "id": "zoe-flack",
+      "label": "Zoe Flack",
+      "x": -37.95,
+      "y": -51.08,
+      "projects": [
+        1,
+        3
+      ],
+      "roles": 5
+    },
+    {
+      "id": "zoltan-kekecs",
+      "label": "Zoltan Kekecs",
+      "x": -29.76,
+      "y": -64.0,
+      "projects": [
+        1
+      ],
+      "roles": 1
+    },
+    {
+      "id": "zoran-pavlovi",
+      "label": "Zoran Pavlović",
+      "x": -4.72,
+      "y": 35.67,
+      "projects": [
+        0,
+        2,
+        42
+      ],
+      "roles": 9
+    },
+    {
+      "id": "agata-bochynska",
+      "label": "‪Agata Bochynska",
+      "x": -38.26,
+      "y": -32.55,
+      "projects": [
+        3
+      ],
+      "roles": 1
+    }
+  ]
+}
