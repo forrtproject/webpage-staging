@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="/flora-replication-atlas/icon_hub.webp" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#853953" />
+    <title>Revisiting the building of past… — a replication attempt</title>
+    <meta name="description" content="Maes-Bermejo et al. (2022, Empirical Software Engineering). A replication attempt of Tufano et al., indexed in the FLoRA Replication Atlas." />
+    <link rel="canonical" href="https://forrt.org/flora-replication-atlas/doi/10.1007/s10664-022-10117-6/" />
+
+    <!-- Vite prepends the configured base to root-relative HTML asset paths.
+         (CSS url() is left alone, so src/fonts.css carries the base itself.) -->
+    <link rel="preload" as="font" type="font/woff2" href="/flora-replication-atlas/fonts/domine-latin-normal.woff2" crossorigin />
+    <link rel="preload" as="font" type="font/woff2" href="/flora-replication-atlas/fonts/sourcesans3-latin-normal.woff2" crossorigin />
+
+    <!-- Nothing paints until this cross-origin POST returns, so pay DNS and TLS up front. -->
+    <link rel="preconnect" href="https://rep-api.forrt.org" crossorigin />
+    <link rel="dns-prefetch" href="https://rep-api.forrt.org" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="Revisiting the building of past… — a replication attempt" />
+    <meta property="og:description" content="Maes-Bermejo et al. (2022, Empirical Software Engineering). A replication attempt of Tufano et al., indexed in the FLoRA Replication Atlas." />
+    <meta property="og:url" content="https://forrt.org/flora-replication-atlas/doi/10.1007/s10664-022-10117-6/" />
+    <meta property="og:site_name" content="FLoRA Replication Atlas" />
+    <meta property="og:image" content="https://forrt.org/flora-replication-atlas/doi/10.1007/s10664-022-10117-6/og.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="FLoRA Replication Atlas. Has this study been replicated?" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Revisiting the building of past… — a replication attempt" />
+    <meta name="twitter:description" content="Maes-Bermejo et al. (2022, Empirical Software Engineering). A replication attempt of Tufano et al., indexed in the FLoRA Replication Atlas." />
+    <meta name="twitter:image" content="https://forrt.org/flora-replication-atlas/doi/10.1007/s10664-022-10117-6/og.png" />
+    <meta name="twitter:image:alt" content="FLoRA Replication Atlas. Has this study been replicated?" />
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {"@context":"https://schema.org","@graph":[{"@type":"ScholarlyArticle","@id":"https://forrt.org/flora-replication-atlas/doi/10.1007/s10664-022-10117-6/#article","mainEntityOfPage":"https://forrt.org/flora-replication-atlas/doi/10.1007/s10664-022-10117-6/","name":"Revisiting the building of past snapshots — a replication and reproduction study","headline":"Revisiting the building of past snapshots — a replication and reproduction study","author":[{"@type":"Person","givenName":"Michel","familyName":"Maes-Bermejo","name":"Michel Maes-Bermejo"},{"@type":"Person","givenName":"Micael","familyName":"Gallego","name":"Micael Gallego"},{"@type":"Person","givenName":"Francisco","familyName":"Gortázar","name":"Francisco Gortázar"},{"@type":"Person","givenName":"Gregorio","familyName":"Robles","name":"Gregorio Robles"},{"@type":"Person","givenName":"Jesus M.","familyName":"Gonzalez-Barahona","name":"Jesus M. Gonzalez-Barahona"}],"datePublished":"2022","isPartOf":{"@type":"Periodical","name":"Empirical Software Engineering"},"identifier":{"@type":"PropertyValue","propertyID":"DOI","value":"10.1007/s10664-022-10117-6"},"url":"https://forrt.org/flora-replication-atlas/doi/10.1007/s10664-022-10117-6/","sameAs":"https://doi.org/10.1007/s10664-022-10117-6","description":"Maes-Bermejo et al. (2022, Empirical Software Engineering). A replication attempt of Tufano et al., indexed in the FLoRA Replication Atlas.","keywords":["Maes-Bermejo","Gallego","Gortázar","Robles","Gonzalez-Barahona","Empirical Software Engineering","2022","replication","reproducibility","open science"],"isBasedOn":{"@id":"https://forrt.org/flora-replication-atlas/#dataset"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"FLoRA Replication Atlas","item":"https://forrt.org/flora-replication-atlas/"},{"@type":"ListItem","position":2,"name":"Studies","item":"https://forrt.org/flora-replication-atlas/browse/"},{"@type":"ListItem","position":3,"name":"Revisiting the building of past snapshots — a replication and reproduction study","item":"https://forrt.org/flora-replication-atlas/doi/10.1007/s10664-022-10117-6/"}]}]}
+    </script>
+    <script type="module" crossorigin src="/flora-replication-atlas/assets/index-CV4E7fj6.js"></script>
+    <link rel="stylesheet" crossorigin href="/flora-replication-atlas/assets/index-Bmral-5j.css">
+    <meta property="article:author" content="Michel Maes-Bermejo">
+  <meta property="article:author" content="Micael Gallego">
+  <meta property="article:author" content="Francisco Gortázar">
+  <meta property="article:author" content="Gregorio Robles">
+  <meta property="article:author" content="Jesus M. Gonzalez-Barahona">
+</head>
+  <body>
+    <div id="root">
+      <!--ssg-start-->
+      <main class="ssg">
+        <p class="ssg-meta"><a href="https://forrt.org/flora-replication-atlas/">FLoRA Replication Atlas</a> &rsaquo; <a href="https://forrt.org/flora-replication-atlas/browse/">Browse</a></p>
+        <h1>Revisiting the building of past snapshots — a replication and reproduction study</h1>
+        <p class="ssg-meta">Michel Maes-Bermejo, Micael Gallego, Francisco Gortázar, Gregorio Robles, Jesus M. Gonzalez-Barahona</p>
+        <p class="ssg-meta">Empirical Software Engineering, 2022. DOI <a href="https://doi.org/10.1007/s10664-022-10117-6">10.1007/s10664-022-10117-6</a></p>
+
+        <h2>Has this study been replicated?</h2>
+        <p>This paper is itself a replication attempt. The study it set out to replicate is listed below.</p>
+        
+        
+        <h3>Study replicated</h3>
+        <ul>
+        <li><strong><a href="https://forrt.org/flora-replication-atlas/doi/10.1002/smr.1838/">There and back again: Can you compile that snapshot?</a></strong>, Tufano et al. (2016). Journal of Software: Evolution and Process. <a href="https://doi.org/10.1002/smr.1838">View paper</a></li>
+        </ul>
+        
+
+        <h2>Cite this record</h2>
+        <p class="ssg-cite">Maes-Bermejo, M., Gallego, M., Gortázar, F., Robles, G., &amp; Gonzalez-Barahona, J. M. (2022). Revisiting the building of past snapshots — a replication and reproduction study. Empirical Software Engineering, 27(3). https://doi.org/10.1007/s10664-022-10117-6</p>
+
+        <h2>Other studies in the atlas</h2>
+        <ul class="ssg-related">
+        <li><a href="https://forrt.org/flora-replication-atlas/doi/10.1177/0022002715587053/">The Beheading of Criminal Organizations and the Dynamics of Violence in Mexico</a></li>
+        <li><a href="https://forrt.org/flora-replication-atlas/doi/10.1073/pnas.0711555105/">Reduced social interaction and ultrasonic communication in a mouse model of monogenic…</a></li>
+        <li><a href="https://forrt.org/flora-replication-atlas/doi/10.1007/s10664-025-10739-6/">Interruptibility of software developers and its prediction using psycho-physiological…</a></li>
+        <li><a href="https://forrt.org/flora-replication-atlas/doi/10.1097/00001888-200203000-00007/">The Hidden Curriculum in Multicultural Medical Education</a></li>
+        <li><a href="https://forrt.org/flora-replication-atlas/doi/10.1186/s12909-022-03665-4/">Race, ethnicity, and gender representation in clinical case vignettes: a 20-year…</a></li>
+        <li><a href="https://forrt.org/flora-replication-atlas/doi/10.1016/j.jom.2007.08.002/">The impact of power and relationship commitment on the integration between manufacturers…</a></li>
+        </ul>
+        <p><a href="https://forrt.org/flora-replication-atlas/browse/outcome/failed/">Failed replications</a> &middot;
+        <a href="https://forrt.org/flora-replication-atlas/browse/outcome/successful/">Successful replications</a> &middot;
+        <a href="https://forrt.org/flora-replication-atlas/browse/">All browse pages</a></p>
+      </main>
+      <!--ssg-end-->
+    </div>
+    <!-- GitHub Pages SPA redirect restore -->
+    <script>
+      (function () {
+        var redirect = sessionStorage.redirect;
+        delete sessionStorage.redirect;
+        if (redirect && redirect !== location.href) {
+          history.replaceState(null, "", redirect);
+        }
+      })();
+      // Handle 404.html redirect query format: /?/doi/10.xxx
+      (function () {
+        var l = window.location;
+        if (l.search[1] === "/") {
+          var decoded = l.search
+            .slice(1)
+            .split("&")
+            .map(function (s) {
+              return s.replace(/~and~/g, "&");
+            })
+            .join("?");
+          var path = decoded.split("?")[0];
+          var query = decoded.split("?")[1] || "";
+          history.replaceState(
+            null,
+            "",
+            l.pathname.slice(0, -1) +
+              path +
+              (query ? "?" + query : "") +
+              l.hash,
+          );
+        }
+      })();
+    </script>
+  </body>
+</html>

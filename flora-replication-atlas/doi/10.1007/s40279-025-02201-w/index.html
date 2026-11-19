@@ -1,0 +1,242 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="/flora-replication-atlas/icon_hub.webp" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#853953" />
+    <title>Estimating the Replicability of Sports… — replicates 25 studies</title>
+    <meta name="description" content="Estimating the Replicability of… — Murphy et al. (2025, Sports Medicine). A replication attempt targeting 25 studies, indexed in the FLoRA Replication Atlas." />
+    <link rel="canonical" href="https://forrt.org/flora-replication-atlas/doi/10.1007/s40279-025-02201-w/" />
+
+    <!-- Vite prepends the configured base to root-relative HTML asset paths.
+         (CSS url() is left alone, so src/fonts.css carries the base itself.) -->
+    <link rel="preload" as="font" type="font/woff2" href="/flora-replication-atlas/fonts/domine-latin-normal.woff2" crossorigin />
+    <link rel="preload" as="font" type="font/woff2" href="/flora-replication-atlas/fonts/sourcesans3-latin-normal.woff2" crossorigin />
+
+    <!-- Nothing paints until this cross-origin POST returns, so pay DNS and TLS up front. -->
+    <link rel="preconnect" href="https://rep-api.forrt.org" crossorigin />
+    <link rel="dns-prefetch" href="https://rep-api.forrt.org" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="Estimating the Replicability of Sports… — replicates 25 studies" />
+    <meta property="og:description" content="Estimating the Replicability of… — Murphy et al. (2025, Sports Medicine). A replication attempt targeting 25 studies, indexed in the FLoRA Replication Atlas." />
+    <meta property="og:url" content="https://forrt.org/flora-replication-atlas/doi/10.1007/s40279-025-02201-w/" />
+    <meta property="og:site_name" content="FLoRA Replication Atlas" />
+    <meta property="og:image" content="https://forrt.org/flora-replication-atlas/doi/10.1007/s40279-025-02201-w/og.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="FLoRA Replication Atlas. Has this study been replicated?" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Estimating the Replicability of Sports… — replicates 25 studies" />
+    <meta name="twitter:description" content="Estimating the Replicability of… — Murphy et al. (2025, Sports Medicine). A replication attempt targeting 25 studies, indexed in the FLoRA Replication Atlas." />
+    <meta name="twitter:image" content="https://forrt.org/flora-replication-atlas/doi/10.1007/s40279-025-02201-w/og.png" />
+    <meta name="twitter:image:alt" content="FLoRA Replication Atlas. Has this study been replicated?" />
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {"@context":"https://schema.org","@graph":[{"@type":"ScholarlyArticle","@id":"https://forrt.org/flora-replication-atlas/doi/10.1007/s40279-025-02201-w/#article","mainEntityOfPage":"https://forrt.org/flora-replication-atlas/doi/10.1007/s40279-025-02201-w/","name":"Estimating the Replicability of Sports and Exercise Science Research","headline":"Estimating the Replicability of Sports and Exercise Science Research","author":[{"@type":"Person","givenName":"Jennifer","familyName":"Murphy","name":"Jennifer Murphy"},{"@type":"Person","givenName":"Aaron R.","familyName":"Caldwell","name":"Aaron R. Caldwell"},{"@type":"Person","givenName":"Cristian","familyName":"Mesquida","name":"Cristian Mesquida"},{"@type":"Person","givenName":"Aera J. M.","familyName":"Ladell","name":"Aera J. M. Ladell"},{"@type":"Person","givenName":"Alberto","familyName":"Encarnación-Martínez","name":"Alberto Encarnación-Martínez"},{"@type":"Person","givenName":"Alexandre","familyName":"Tual","name":"Alexandre Tual"},{"@type":"Person","givenName":"Andrew","familyName":"Denys","name":"Andrew Denys"},{"@type":"Person","givenName":"Bailey","familyName":"Cameron","name":"Bailey Cameron"},{"@type":"Person","givenName":"Bas","familyName":"Van Hooren","name":"Bas Van Hooren"},{"@type":"Person","givenName":"Ben","familyName":"Parr","name":"Ben Parr"},{"@type":"Person","givenName":"Bianca","familyName":"DeLucia","name":"Bianca DeLucia"},{"@type":"Person","givenName":"Billy R. J.","familyName":"Mason","name":"Billy R. J. Mason"},{"@type":"Person","givenName":"Brad","familyName":"Clark","name":"Brad Clark"},{"@type":"Person","givenName":"Brendan","familyName":"Egan","name":"Brendan Egan"},{"@type":"Person","givenName":"Calum","familyName":"Brown","name":"Calum Brown"},{"@type":"Person","givenName":"Carl","familyName":"Ade","name":"Carl Ade"},{"@type":"Person","givenName":"Chiarella","familyName":"Sforza","name":"Chiarella Sforza"},{"@type":"Person","givenName":"Christopher B.","familyName":"Taber","name":"Christopher B. Taber"},{"@type":"Person","givenName":"Christopher","familyName":"Kirk","name":"Christopher Kirk"},{"@type":"Person","givenName":"Christopher","familyName":"McCrum","name":"Christopher McCrum"},{"@type":"Person","givenName":"Cian OKeeffe","familyName":"Tighe","name":"Cian OKeeffe Tighe"},{"@type":"Person","givenName":"Ciara","familyName":"Byrne","name":"Ciara Byrne"},{"@type":"Person","givenName":"Claudia","familyName":"Brunetti","name":"Claudia Brunetti"},{"@type":"Person","givenName":"Cyril","familyName":"Forestier","name":"Cyril Forestier"},{"@type":"Person","givenName":"Dan","familyName":"Martin","name":"Dan Martin"},{"@type":"Person","givenName":"Danny","familyName":"Taylor","name":"Danny Taylor"},{"@type":"Person","givenName":"David","familyName":"Diggin","name":"David Diggin"},{"@type":"Person","givenName":"Dearbhla","familyName":"Gallagher","name":"Dearbhla Gallagher"},{"@type":"Person","givenName":"Deborah L.","familyName":"King","name":"Deborah L. King"},{"@type":"Person","givenName":"Elizabeth","familyName":"Rogers","name":"Elizabeth Rogers"},{"@type":"Person","givenName":"Eric C.","familyName":"Bennett","name":"Eric C. Bennett"},{"@type":"Person","givenName":"Eric T.","familyName":"Lopatofsky","name":"Eric T. Lopatofsky"},{"@type":"Person","givenName":"Gemma","familyName":"Dunn","name":"Gemma Dunn"},{"@type":"Person","givenName":"Gérome C.","familyName":"Gauchard","name":"Gérome C. Gauchard"},{"@type":"Person","givenName":"Guillaume","familyName":"Mornieux","name":"Guillaume Mornieux"},{"@type":"Person","givenName":"Ignacio","familyName":"Catalá-Vilaplana","name":"Ignacio Catalá-Vilaplana"},{"@type":"Person","givenName":"Ines","familyName":"Caetan","name":"Ines Caetan"},{"@type":"Person","givenName":"Inmaculada","familyName":"Aparicio-Aparicio","name":"Inmaculada Aparicio-Aparicio"},{"@type":"Person","givenName":"Jack","familyName":"Barnes","name":"Jack Barnes"},{"@type":"Person","givenName":"Jake","familyName":"Blaisdell","name":"Jake Blaisdell"},{"@type":"Person","givenName":"James","familyName":"Steele","name":"James Steele"},{"@type":"Person","givenName":"Jared R.","familyName":"Fletcher","name":"Jared R. Fletcher"},{"@type":"Person","givenName":"Jasmin","familyName":"Hutchinson","name":"Jasmin Hutchinson"},{"@type":"Person","givenName":"Jason","familyName":"Au","name":"Jason Au"},{"@type":"Person","givenName":"Jason P.","familyName":"Oliemans","name":"Jason P. Oliemans"},{"@type":"Person","givenName":"Javad","familyName":"Bakhshinejad","name":"Javad Bakhshinejad"},{"@type":"Person","givenName":"Joaquin","familyName":"Barrios","name":"Joaquin Barrios"},{"@type":"Person","givenName":"Jose Ignacio Priego","familyName":"Quesada","name":"Jose Ignacio Priego Quesada"},{"@type":"Person","givenName":"Joseph","familyName":"Rager","name":"Joseph Rager"},{"@type":"Person","givenName":"Julia B.","familyName":"Capone","name":"Julia B. Capone"},{"@type":"Person","givenName":"Julie S. J.","familyName":"Walton","name":"Julie S. J. Walton"},{"@type":"Person","givenName":"Kailey","familyName":"Stevens","name":"Kailey Stevens"},{"@type":"Person","givenName":"Katie","familyName":"Heinrich","name":"Katie Heinrich"},{"@type":"Person","givenName":"Kelly","familyName":"Wu","name":"Kelly Wu"},{"@type":"Person","givenName":"Kenneth","familyName":"Meijer","name":"Kenneth Meijer"},{"@type":"Person","givenName":"Laura","familyName":"Richards","name":"Laura Richards"},{"@type":"Person","givenName":"Lauren","familyName":"Jutlah","name":"Lauren Jutlah"},{"@type":"Person","givenName":"Le","familyName":"Tong","name":"Le Tong"},{"@type":"Person","givenName":"Lee","familyName":"Bridgeman","name":"Lee Bridgeman"},{"@type":"Person","givenName":"Leo","familyName":"Banet","name":"Leo Banet"},{"@type":"Person","givenName":"Leonard","familyName":"Mbiyu","name":"Leonard Mbiyu"},{"@type":"Person","givenName":"Lucy","familyName":"Sefton","name":"Lucy Sefton"},{"@type":"Person","givenName":"Margaux","familyName":"de Chanaleilles","name":"Margaux de Chanaleilles"},{"@type":"Person","givenName":"Maria","familyName":"Charisi","name":"Maria Charisi"},{"@type":"Person","givenName":"Matthew","familyName":"Beerse","name":"Matthew Beerse"},{"@type":"Person","givenName":"Matthew J.","familyName":"Major","name":"Matthew J. Major"},{"@type":"Person","givenName":"Maya","familyName":"Caon","name":"Maya Caon"},{"@type":"Person","givenName":"Mel","familyName":"Bargh","name":"Mel Bargh"},{"@type":"Person","givenName":"Michael","familyName":"Rowley","name":"Michael Rowley"},{"@type":"Person","givenName":"Miguel Vaca","familyName":"Moran","name":"Miguel Vaca Moran"},{"@type":"Person","givenName":"Nicholas","familyName":"Croker","name":"Nicholas Croker"},{"@type":"Person","givenName":"Nicolas C.","familyName":"Hanen","name":"Nicolas C. Hanen"},{"@type":"Person","givenName":"Nicole","familyName":"Montague","name":"Nicole Montague"},{"@type":"Person","givenName":"Noel E.","familyName":"Brick","name":"Noel E. Brick"},{"@type":"Person","givenName":"Oliver R.","familyName":"Runswick","name":"Oliver R. Runswick"},{"@type":"Person","givenName":"Paul","familyName":"Willems","name":"Paul Willems"},{"@type":"Person","givenName":"Pedro","familyName":"Pérez-Soriano","name":"Pedro Pérez-Soriano"},{"@type":"Person","givenName":"Rebecca","familyName":"Blake","name":"Rebecca Blake"},{"@type":"Person","givenName":"Rebecca","familyName":"Jones","name":"Rebecca Jones"},{"@type":"Person","givenName":"Rebecca Louise","familyName":"Quinn","name":"Rebecca Louise Quinn"},{"@type":"Person","givenName":"Roberto","familyName":"Sanchis-Sanchis","name":"Roberto Sanchis-Sanchis"},{"@type":"Person","givenName":"Rodrigo","familyName":"Rabello","name":"Rodrigo Rabello"},{"@type":"Person","givenName":"Roisin","familyName":"Bolger","name":"Roisin Bolger"},{"@type":"Person","givenName":"Roy","familyName":"Shohat","name":"Roy Shohat"},{"@type":"Person","givenName":"Sadie","familyName":"Cotton","name":"Sadie Cotton"},{"@type":"Person","givenName":"Samantha","familyName":"Chua","name":"Samantha Chua"},{"@type":"Person","givenName":"Samuel","familyName":"Norwood","name":"Samuel Norwood"},{"@type":"Person","givenName":"Samuel","familyName":"Vimeau","name":"Samuel Vimeau"},{"@type":"Person","givenName":"Sandro","familyName":"Dias","name":"Sandro Dias"},{"@type":"Person","givenName":"Sissel","familyName":"Pedersen","name":"Sissel Pedersen"},{"@type":"Person","givenName":"Spencer S.","familyName":"Skaper","name":"Spencer S. Skaper"},{"@type":"Person","givenName":"Taylor","familyName":"Coyle","name":"Taylor Coyle"},{"@type":"Person","givenName":"Terun","familyName":"Desai","name":"Terun Desai"},{"@type":"Person","givenName":"Thomas I.","familyName":"Gee","name":"Thomas I. Gee"},{"@type":"Person","givenName":"Tobias","familyName":"Edwards","name":"Tobias Edwards"},{"@type":"Person","givenName":"Torsten","familyName":"Pohl","name":"Torsten Pohl"},{"@type":"Person","givenName":"Vanessa","familyName":"Yingling","name":"Vanessa Yingling"},{"@type":"Person","givenName":"Vinicius","familyName":"Ribeiro","name":"Vinicius Ribeiro"},{"@type":"Person","givenName":"Youri","familyName":"Duchene","name":"Youri Duchene"},{"@type":"Person","givenName":"Zacharias","familyName":"Papadakis","name":"Zacharias Papadakis"},{"@type":"Person","givenName":"Joe P.","familyName":"Warne","name":"Joe P. Warne"}],"datePublished":"2025","isPartOf":{"@type":"Periodical","name":"Sports Medicine"},"identifier":{"@type":"PropertyValue","propertyID":"DOI","value":"10.1007/s40279-025-02201-w"},"url":"https://forrt.org/flora-replication-atlas/doi/10.1007/s40279-025-02201-w/","sameAs":"https://doi.org/10.1007/s40279-025-02201-w","description":"Estimating the Replicability of… — Murphy et al. (2025, Sports Medicine). A replication attempt targeting 25 studies, indexed in the FLoRA Replication Atlas.","keywords":["Murphy","Caldwell","Mesquida","Ladell","Encarnación-Martínez","Tual","Denys","Cameron","Van Hooren","Parr","DeLucia","Mason","Clark","Egan","Brown","Ade","Sforza","Taber","Kirk","McCrum","Tighe","Byrne","Brunetti","Forestier","Martin","Taylor","Diggin","Gallagher","King","Rogers","Bennett","Lopatofsky","Dunn","Gauchard","Mornieux","Catalá-Vilaplana","Caetan","Aparicio-Aparicio","Barnes","Blaisdell","Steele","Fletcher","Hutchinson","Au","Oliemans","Bakhshinejad","Barrios","Quesada","Rager","Capone","Walton","Stevens","Heinrich","Wu","Meijer","Richards","Jutlah","Tong","Bridgeman","Banet","Mbiyu","Sefton","de Chanaleilles","Charisi","Beerse","Major","Caon","Bargh","Rowley","Moran","Croker","Hanen","Montague","Brick","Runswick","Willems","Pérez-Soriano","Blake","Jones","Quinn","Sanchis-Sanchis","Rabello","Bolger","Shohat","Cotton","Chua","Norwood","Vimeau","Dias","Pedersen","Skaper","Coyle","Desai","Gee","Edwards","Pohl","Yingling","Ribeiro","Duchene","Papadakis","Warne","Sports Medicine","2025","replication","reproducibility","open science"],"isBasedOn":{"@id":"https://forrt.org/flora-replication-atlas/#dataset"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"FLoRA Replication Atlas","item":"https://forrt.org/flora-replication-atlas/"},{"@type":"ListItem","position":2,"name":"Studies","item":"https://forrt.org/flora-replication-atlas/browse/"},{"@type":"ListItem","position":3,"name":"Estimating the Replicability of Sports and Exercise Science Research","item":"https://forrt.org/flora-replication-atlas/doi/10.1007/s40279-025-02201-w/"}]}]}
+    </script>
+    <script type="module" crossorigin src="/flora-replication-atlas/assets/index-CV4E7fj6.js"></script>
+    <link rel="stylesheet" crossorigin href="/flora-replication-atlas/assets/index-Bmral-5j.css">
+    <meta property="article:author" content="Jennifer Murphy">
+  <meta property="article:author" content="Aaron R. Caldwell">
+  <meta property="article:author" content="Cristian Mesquida">
+  <meta property="article:author" content="Aera J. M. Ladell">
+  <meta property="article:author" content="Alberto Encarnación-Martínez">
+  <meta property="article:author" content="Alexandre Tual">
+  <meta property="article:author" content="Andrew Denys">
+  <meta property="article:author" content="Bailey Cameron">
+  <meta property="article:author" content="Bas Van Hooren">
+  <meta property="article:author" content="Ben Parr">
+  <meta property="article:author" content="Bianca DeLucia">
+  <meta property="article:author" content="Billy R. J. Mason">
+  <meta property="article:author" content="Brad Clark">
+  <meta property="article:author" content="Brendan Egan">
+  <meta property="article:author" content="Calum Brown">
+  <meta property="article:author" content="Carl Ade">
+  <meta property="article:author" content="Chiarella Sforza">
+  <meta property="article:author" content="Christopher B. Taber">
+  <meta property="article:author" content="Christopher Kirk">
+  <meta property="article:author" content="Christopher McCrum">
+  <meta property="article:author" content="Cian OKeeffe Tighe">
+  <meta property="article:author" content="Ciara Byrne">
+  <meta property="article:author" content="Claudia Brunetti">
+  <meta property="article:author" content="Cyril Forestier">
+  <meta property="article:author" content="Dan Martin">
+  <meta property="article:author" content="Danny Taylor">
+  <meta property="article:author" content="David Diggin">
+  <meta property="article:author" content="Dearbhla Gallagher">
+  <meta property="article:author" content="Deborah L. King">
+  <meta property="article:author" content="Elizabeth Rogers">
+  <meta property="article:author" content="Eric C. Bennett">
+  <meta property="article:author" content="Eric T. Lopatofsky">
+  <meta property="article:author" content="Gemma Dunn">
+  <meta property="article:author" content="Gérome C. Gauchard">
+  <meta property="article:author" content="Guillaume Mornieux">
+  <meta property="article:author" content="Ignacio Catalá-Vilaplana">
+  <meta property="article:author" content="Ines Caetan">
+  <meta property="article:author" content="Inmaculada Aparicio-Aparicio">
+  <meta property="article:author" content="Jack Barnes">
+  <meta property="article:author" content="Jake Blaisdell">
+  <meta property="article:author" content="James Steele">
+  <meta property="article:author" content="Jared R. Fletcher">
+  <meta property="article:author" content="Jasmin Hutchinson">
+  <meta property="article:author" content="Jason Au">
+  <meta property="article:author" content="Jason P. Oliemans">
+  <meta property="article:author" content="Javad Bakhshinejad">
+  <meta property="article:author" content="Joaquin Barrios">
+  <meta property="article:author" content="Jose Ignacio Priego Quesada">
+  <meta property="article:author" content="Joseph Rager">
+  <meta property="article:author" content="Julia B. Capone">
+  <meta property="article:author" content="Julie S. J. Walton">
+  <meta property="article:author" content="Kailey Stevens">
+  <meta property="article:author" content="Katie Heinrich">
+  <meta property="article:author" content="Kelly Wu">
+  <meta property="article:author" content="Kenneth Meijer">
+  <meta property="article:author" content="Laura Richards">
+  <meta property="article:author" content="Lauren Jutlah">
+  <meta property="article:author" content="Le Tong">
+  <meta property="article:author" content="Lee Bridgeman">
+  <meta property="article:author" content="Leo Banet">
+  <meta property="article:author" content="Leonard Mbiyu">
+  <meta property="article:author" content="Lucy Sefton">
+  <meta property="article:author" content="Margaux de Chanaleilles">
+  <meta property="article:author" content="Maria Charisi">
+  <meta property="article:author" content="Matthew Beerse">
+  <meta property="article:author" content="Matthew J. Major">
+  <meta property="article:author" content="Maya Caon">
+  <meta property="article:author" content="Mel Bargh">
+  <meta property="article:author" content="Michael Rowley">
+  <meta property="article:author" content="Miguel Vaca Moran">
+  <meta property="article:author" content="Nicholas Croker">
+  <meta property="article:author" content="Nicolas C. Hanen">
+  <meta property="article:author" content="Nicole Montague">
+  <meta property="article:author" content="Noel E. Brick">
+  <meta property="article:author" content="Oliver R. Runswick">
+  <meta property="article:author" content="Paul Willems">
+  <meta property="article:author" content="Pedro Pérez-Soriano">
+  <meta property="article:author" content="Rebecca Blake">
+  <meta property="article:author" content="Rebecca Jones">
+  <meta property="article:author" content="Rebecca Louise Quinn">
+  <meta property="article:author" content="Roberto Sanchis-Sanchis">
+  <meta property="article:author" content="Rodrigo Rabello">
+  <meta property="article:author" content="Roisin Bolger">
+  <meta property="article:author" content="Roy Shohat">
+  <meta property="article:author" content="Sadie Cotton">
+  <meta property="article:author" content="Samantha Chua">
+  <meta property="article:author" content="Samuel Norwood">
+  <meta property="article:author" content="Samuel Vimeau">
+  <meta property="article:author" content="Sandro Dias">
+  <meta property="article:author" content="Sissel Pedersen">
+  <meta property="article:author" content="Spencer S. Skaper">
+  <meta property="article:author" content="Taylor Coyle">
+  <meta property="article:author" content="Terun Desai">
+  <meta property="article:author" content="Thomas I. Gee">
+  <meta property="article:author" content="Tobias Edwards">
+  <meta property="article:author" content="Torsten Pohl">
+  <meta property="article:author" content="Vanessa Yingling">
+  <meta property="article:author" content="Vinicius Ribeiro">
+  <meta property="article:author" content="Youri Duchene">
+  <meta property="article:author" content="Zacharias Papadakis">
+  <meta property="article:author" content="Joe P. Warne">
+</head>
+  <body>
+    <div id="root">
+      <!--ssg-start-->
+      <main class="ssg">
+        <p class="ssg-meta"><a href="https://forrt.org/flora-replication-atlas/">FLoRA Replication Atlas</a> &rsaquo; <a href="https://forrt.org/flora-replication-atlas/browse/">Browse</a></p>
+        <h1>Estimating the Replicability of Sports and Exercise Science Research</h1>
+        <p class="ssg-meta">Jennifer Murphy, Aaron R. Caldwell, Cristian Mesquida, Aera J. M. Ladell, Alberto Encarnación-Martínez, Alexandre Tual, Andrew Denys, Bailey Cameron, Bas Van Hooren, Ben Parr, Bianca DeLucia, Billy R. J. Mason, Brad Clark, Brendan Egan, Calum Brown, Carl Ade, Chiarella Sforza, Christopher B. Taber, Christopher Kirk, Christopher McCrum, Cian OKeeffe Tighe, Ciara Byrne, Claudia Brunetti, Cyril Forestier, Dan Martin, Danny Taylor, David Diggin, Dearbhla Gallagher, Deborah L. King, Elizabeth Rogers, Eric C. Bennett, Eric T. Lopatofsky, Gemma Dunn, Gérome C. Gauchard, Guillaume Mornieux, Ignacio Catalá-Vilaplana, Ines Caetan, Inmaculada Aparicio-Aparicio, Jack Barnes, Jake Blaisdell, James Steele, Jared R. Fletcher, Jasmin Hutchinson, Jason Au, Jason P. Oliemans, Javad Bakhshinejad, Joaquin Barrios, Jose Ignacio Priego Quesada, Joseph Rager, Julia B. Capone, Julie S. J. Walton, Kailey Stevens, Katie Heinrich, Kelly Wu, Kenneth Meijer, Laura Richards, Lauren Jutlah, Le Tong, Lee Bridgeman, Leo Banet, Leonard Mbiyu, Lucy Sefton, Margaux de Chanaleilles, Maria Charisi, Matthew Beerse, Matthew J. Major, Maya Caon, Mel Bargh, Michael Rowley, Miguel Vaca Moran, Nicholas Croker, Nicolas C. Hanen, Nicole Montague, Noel E. Brick, Oliver R. Runswick, Paul Willems, Pedro Pérez-Soriano, Rebecca Blake, Rebecca Jones, Rebecca Louise Quinn, Roberto Sanchis-Sanchis, Rodrigo Rabello, Roisin Bolger, Roy Shohat, Sadie Cotton, Samantha Chua, Samuel Norwood, Samuel Vimeau, Sandro Dias, Sissel Pedersen, Spencer S. Skaper, Taylor Coyle, Terun Desai, Thomas I. Gee, Tobias Edwards, Torsten Pohl, Vanessa Yingling, Vinicius Ribeiro, Youri Duchene, Zacharias Papadakis, Joe P. Warne</p>
+        <p class="ssg-meta">Sports Medicine, 2025. DOI <a href="https://doi.org/10.1007/s40279-025-02201-w">10.1007/s40279-025-02201-w</a></p>
+
+        <h2>Has this study been replicated?</h2>
+        <p>This paper is itself a replication attempt, targeting 25 studies, listed below.</p>
+        
+        
+        <h3>Studies replicated</h3>
+        <ul>
+        <li><strong><a href="https://forrt.org/flora-replication-atlas/doi/10.1016/j.jsams.2017.06.007/">Investigating the effects of maximal anaerobic fatigue on dynamic postural control using the Y-Balance Test</a></strong>, Johnston et al. (2018). Journal of Science and Medicine in Sport. <a href="https://doi.org/10.1016/j.jsams.2017.06.007">View paper</a></li>
+        <li><strong><a href="https://forrt.org/flora-replication-atlas/doi/10.1519/jsc.0000000000001655/">The Effects of a Heel Wedge on Hip, Pelvis and Trunk Biomechanics During Squatting in Resistance Trained Individuals</a></strong>, Charlton et al. (2017). Journal of Strength and Conditioning Research. <a href="https://doi.org/10.1519/jsc.0000000000001655">View paper</a></li>
+        <li><strong><a href="https://forrt.org/flora-replication-atlas/doi/10.1080/17461391.2017.1333159/">Carbohydrate mouth rinse improves morning high‐intensity exercise performance</a></strong>, Clarke et al. (2017). European Journal of Sport Science. <a href="https://doi.org/10.1080/17461391.2017.1333159">View paper</a></li>
+        <li><strong><a href="https://forrt.org/flora-replication-atlas/doi/10.1519/jsc.0000000000003009/">Effect of Attentional Focus Strategies on the Biomechanical Performance of the Drop Jump</a></strong>, Comyns et al. (2019). Journal of Strength and Conditioning Research. <a href="https://doi.org/10.1519/jsc.0000000000003009">View paper</a></li>
+        <li><strong><a href="https://forrt.org/flora-replication-atlas/doi/10.1080/17461391.2020.1733671/">Effect of consecutive jumping trials on metatarsophalangeal, ankle, and knee biomechanics during take‐off and landing</a></strong>, Lam et al. (2020). European Journal of Sport Science. <a href="https://doi.org/10.1080/17461391.2020.1733671">View paper</a></li>
+        <li><strong><a href="https://forrt.org/flora-replication-atlas/doi/10.1519/jsc.0000000000001339/">Passive Recovery Promotes Superior Performance and Reduced Physiological Stress Across Different Phases of Short-Distance Repeated Sprints</a></strong>, Scanlan &amp; Madueno (2016). Journal of Strength and Conditioning Research. <a href="https://doi.org/10.1519/jsc.0000000000001339">View paper</a></li>
+        <li><strong><a href="https://forrt.org/flora-replication-atlas/doi/10.1080/17461391.2017.1308560/">Side‐to‐side differences in lower extremity biomechanics during multi‐directional jump landing in volleyball athletes</a></strong>, Sinsurin et al. (2017). European Journal of Sport Science. <a href="https://doi.org/10.1080/17461391.2017.1308560">View paper</a></li>
+        <li><strong><a href="https://forrt.org/flora-replication-atlas/doi/10.1519/jsc.0000000000002981/">Effects of Preferred vs. Nonpreferred Music on Resistance Exercise Performance</a></strong>, Ballmann et al. (2021). Journal of Strength &amp; Conditioning Research. <a href="https://doi.org/10.1519/jsc.0000000000002981">View paper</a></li>
+        <li><strong><a href="https://forrt.org/flora-replication-atlas/doi/10.1519/jsc.0000000000001280/">The Effects of Caffeine on Vertical Jump Height and Execution in Collegiate Athletes</a></strong>, Bloms et al. (2016). Journal of Strength and Conditioning Research. <a href="https://doi.org/10.1519/jsc.0000000000001280">View paper</a></li>
+        <li><strong><a href="https://forrt.org/flora-replication-atlas/doi/10.1080/17461391.2018.1537378/">Effect of different loading conditions on running mechanics at different velocities</a></strong>, Carretero‐Navarro et al. (2018). European Journal of Sport Science. <a href="https://doi.org/10.1080/17461391.2018.1537378">View paper</a></li>
+        <li><strong><a href="https://forrt.org/flora-replication-atlas/doi/10.1519/jsc.0000000000003166/">Changes in Bench Press Velocity and Power After 8 Weeks of High-Load Cluster- or Traditional-Set Structures</a></strong>, Davies et al. (2020). Journal of Strength and Conditioning Research. <a href="https://doi.org/10.1519/jsc.0000000000003166">View paper</a></li>
+        <li><strong><a href="https://forrt.org/flora-replication-atlas/doi/10.1519/jsc.0000000000001620/">Effect of a Compressive Garment on Kinematics of Jump-Landing Tasks</a></strong>, de Britto et al. (2017). Journal of Strength and Conditioning Research. <a href="https://doi.org/10.1519/jsc.0000000000001620">View paper</a></li>
+        <li><strong><a href="https://forrt.org/flora-replication-atlas/doi/10.1519/jsc.0000000000002198/">A Single Dose of Oral ATP Supplementation Improves Performance and Physiological Response During Lower Body Resistance Exercise in Recreational Resistance-Trained Males</a></strong>, Freitas et al. (2019). Journal of Strength and Conditioning Research. <a href="https://doi.org/10.1519/jsc.0000000000002198">View paper</a></li>
+        <li><strong><a href="https://forrt.org/flora-replication-atlas/doi/10.1080/02640414.2020.1788288/">A real-time feedback method to reduce loading rate during running: Effect of combining direct and indirect feedback</a></strong>, Garofolini et al. (2020). Journal of Sports Sciences. <a href="https://doi.org/10.1080/02640414.2020.1788288">View paper</a></li>
+        <li><strong><a href="https://forrt.org/flora-replication-atlas/doi/10.1123/jsep.2016-0272/">Further Evidence for an External Focus of Attention in Running: Looking at Specific Focus Instructions and Individual Differences</a></strong>, Hill et al. (2017). Journal of Sport and Exercise Psychology. <a href="https://doi.org/10.1123/jsep.2016-0272">View paper</a></li>
+        <li><strong><a href="https://forrt.org/flora-replication-atlas/doi/10.1519/jsc.0000000000001122/">Altering Work to Rest Ratios Differentially Influences Fatigue Indices During Repeated Sprint Ability Testing</a></strong>, La Monica et al. (2016). Journal of Strength and Conditioning Research. <a href="https://doi.org/10.1519/jsc.0000000000001122">View paper</a></li>
+        <li><strong><a href="https://forrt.org/flora-replication-atlas/doi/10.1249/mss.0000000000001982/">Beep Test Performance Is Influenced by 30 Minutes of Cognitive Work</a></strong>, MACMAHON et al. (2019). Medicine &amp; Science in Sports &amp; Exercise. <a href="https://doi.org/10.1249/mss.0000000000001982">View paper</a></li>
+        <li><strong><a href="https://forrt.org/flora-replication-atlas/doi/10.1111/sms.13776/">Caffeine increases strength and power performance in resistance‐trained females during early follicular phase</a></strong>, Norum et al. (2020). Scandinavian Journal of Medicine &amp; Science in Sports. <a href="https://doi.org/10.1111/sms.13776">View paper</a></li>
+        <li><strong><a href="https://forrt.org/flora-replication-atlas/doi/10.1016/j.psychsport.2015.08.009/">Enhanced expectancies facilitate golf putting</a></strong>, Palmer et al. (2016). Psychology of Sport and Exercise. <a href="https://doi.org/10.1016/j.psychsport.2015.08.009">View paper</a></li>
+        <li><strong><a href="https://forrt.org/flora-replication-atlas/doi/10.1519/jsc.0000000000001503/">Age-Related Differences in Maximal and Rapid Torque Characteristics of the Hip Extensors and Dynamic Postural Balance in Healthy, Young and Old Females</a></strong>, Palmer et al. (2017). Journal of Strength and Conditioning Research. <a href="https://doi.org/10.1519/jsc.0000000000001503">View paper</a></li>
+        <li><strong><a href="https://forrt.org/flora-replication-atlas/doi/10.1519/jsc.0000000000003326/">Voluntary Muscle Relaxation Can Mitigate Fatigue and Improve Countermovement Jump Performance</a></strong>, Pinto &amp; McGill (2019). Journal of Strength and Conditioning Research. <a href="https://doi.org/10.1519/jsc.0000000000003326">View paper</a></li>
+        <li><strong><a href="https://forrt.org/flora-replication-atlas/doi/10.1123/ijspp.2019-0098/">Acute Enhancement of Jump Performance, Muscle Strength, and Power in Resistance-Trained Men After Consumption of Caffeinated Chewing Gum</a></strong>, Venier et al. (2019). International Journal of Sports Physiology and Performance. <a href="https://doi.org/10.1123/ijspp.2019-0098">View paper</a></li>
+        <li><strong><a href="https://forrt.org/flora-replication-atlas/doi/10.1249/mss.0000000000002323/">Does Mental Fatigue Negatively Affect Outcomes of Functional Performance Tests?</a></strong>, VERSCHUEREN et al. (2020). Medicine &amp; Science in Sports &amp; Exercise. <a href="https://doi.org/10.1249/mss.0000000000002323">View paper</a></li>
+        <li><strong><a href="https://forrt.org/flora-replication-atlas/doi/10.1249/mss.0000000000000818/">Maximizing Performance</a></strong>, WÄLCHLI et al. (2016). Medicine &amp; Science in Sports &amp; Exercise. <a href="https://doi.org/10.1249/mss.0000000000000818">View paper</a></li>
+        <li><strong><a href="https://forrt.org/flora-replication-atlas/doi/10.1080/02640414.2020.1785727/">Associated ACL risk factors differences during an unanticipated volleyball blocking movement</a></strong>, Zahradnik et al. (2020). Journal of Sports Sciences. <a href="https://doi.org/10.1080/02640414.2020.1785727">View paper</a></li>
+        </ul>
+        
+
+        <h2>Cite this record</h2>
+        <p class="ssg-cite">Murphy, J., Caldwell, A. R., Mesquida, C., Ladell, A. J. M., Encarnación-Martínez, A., Tual, A., Denys, A., Cameron, B., Van Hooren, B., Parr, B., DeLucia, B., Mason, B. R. J., Clark, B., Egan, B., Brown, C., Ade, C., Sforza, C., Taber, C. B., Kirk, C., … Warne, J. P. (2025). Estimating the Replicability of Sports and Exercise Science Research. Sports Medicine, 55(10), 2659–2679. https://doi.org/10.1007/s40279-025-02201-w</p>
+
+        <h2>Other studies in the atlas</h2>
+        <ul class="ssg-related">
+        <li><a href="https://forrt.org/flora-replication-atlas/doi/10.1111/bjhp.12430/">COVID‐19‐related anxiety predicts somatic symptoms in the UK population</a></li>
+        <li><a href="https://forrt.org/flora-replication-atlas/doi/10.1177/1948550619900570/">Foregone Opportunities and Choosing Not to Act: Replications of Inaction Inertia Effect</a></li>
+        <li><a href="https://forrt.org/flora-replication-atlas/doi/10.1177/25152459241267902/">Registered Replication Report: A Large Multilab Cross-Cultural Conceptual Replication of…</a></li>
+        <li><a href="https://forrt.org/flora-replication-atlas/doi/10.1371/journal.pone.0326446/">Possessing potential weapons (still) heightens anger perception: Replicating and…</a></li>
+        <li><a href="https://forrt.org/flora-replication-atlas/doi/10.1111/dom.70448/">Population‐based cohort validation and replication reveals limited generalizability of…</a></li>
+        <li><a href="https://forrt.org/flora-replication-atlas/doi/10.1111/desc.13581/">Infants' Social Evaluation of Helpers and Hinderers: A Large‐Scale, Multi‐Lab…</a></li>
+        </ul>
+        <p><a href="https://forrt.org/flora-replication-atlas/browse/outcome/failed/">Failed replications</a> &middot;
+        <a href="https://forrt.org/flora-replication-atlas/browse/outcome/successful/">Successful replications</a> &middot;
+        <a href="https://forrt.org/flora-replication-atlas/browse/">All browse pages</a></p>
+      </main>
+      <!--ssg-end-->
+    </div>
+    <!-- GitHub Pages SPA redirect restore -->
+    <script>
+      (function () {
+        var redirect = sessionStorage.redirect;
+        delete sessionStorage.redirect;
+        if (redirect && redirect !== location.href) {
+          history.replaceState(null, "", redirect);
+        }
+      })();
+      // Handle 404.html redirect query format: /?/doi/10.xxx
+      (function () {
+        var l = window.location;
+        if (l.search[1] === "/") {
+          var decoded = l.search
+            .slice(1)
+            .split("&")
+            .map(function (s) {
+              return s.replace(/~and~/g, "&");
+            })
+            .join("?");
+          var path = decoded.split("?")[0];
+          var query = decoded.split("?")[1] || "";
+          history.replaceState(
+            null,
+            "",
+            l.pathname.slice(0, -1) +
+              path +
+              (query ? "?" + query : "") +
+              l.hash,
+          );
+        }
+      })();
+    </script>
+  </body>
+</html>

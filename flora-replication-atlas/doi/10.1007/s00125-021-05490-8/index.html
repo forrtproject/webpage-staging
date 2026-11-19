@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="/flora-replication-atlas/icon_hub.webp" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#853953" />
+    <title>Replication and cross-validation of… — a replication attempt</title>
+    <meta name="description" content="Replication and cross-validation of… — Slieker et al. (2021, Diabetologia). A replication attempt of Ahlqvist et al., indexed in the FLoRA Replication Atlas." />
+    <link rel="canonical" href="https://forrt.org/flora-replication-atlas/doi/10.1007/s00125-021-05490-8/" />
+
+    <!-- Vite prepends the configured base to root-relative HTML asset paths.
+         (CSS url() is left alone, so src/fonts.css carries the base itself.) -->
+    <link rel="preload" as="font" type="font/woff2" href="/flora-replication-atlas/fonts/domine-latin-normal.woff2" crossorigin />
+    <link rel="preload" as="font" type="font/woff2" href="/flora-replication-atlas/fonts/sourcesans3-latin-normal.woff2" crossorigin />
+
+    <!-- Nothing paints until this cross-origin POST returns, so pay DNS and TLS up front. -->
+    <link rel="preconnect" href="https://rep-api.forrt.org" crossorigin />
+    <link rel="dns-prefetch" href="https://rep-api.forrt.org" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="Replication and cross-validation of… — a replication attempt" />
+    <meta property="og:description" content="Replication and cross-validation of… — Slieker et al. (2021, Diabetologia). A replication attempt of Ahlqvist et al., indexed in the FLoRA Replication Atlas." />
+    <meta property="og:url" content="https://forrt.org/flora-replication-atlas/doi/10.1007/s00125-021-05490-8/" />
+    <meta property="og:site_name" content="FLoRA Replication Atlas" />
+    <meta property="og:image" content="https://forrt.org/flora-replication-atlas/doi/10.1007/s00125-021-05490-8/og.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="FLoRA Replication Atlas. Has this study been replicated?" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Replication and cross-validation of… — a replication attempt" />
+    <meta name="twitter:description" content="Replication and cross-validation of… — Slieker et al. (2021, Diabetologia). A replication attempt of Ahlqvist et al., indexed in the FLoRA Replication Atlas." />
+    <meta name="twitter:image" content="https://forrt.org/flora-replication-atlas/doi/10.1007/s00125-021-05490-8/og.png" />
+    <meta name="twitter:image:alt" content="FLoRA Replication Atlas. Has this study been replicated?" />
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {"@context":"https://schema.org","@graph":[{"@type":"ScholarlyArticle","@id":"https://forrt.org/flora-replication-atlas/doi/10.1007/s00125-021-05490-8/#article","mainEntityOfPage":"https://forrt.org/flora-replication-atlas/doi/10.1007/s00125-021-05490-8/","name":"Replication and cross-validation of type 2 diabetes subtypes based on clinical variables: an IMI-RHAPSODY study","headline":"Replication and cross-validation of type 2 diabetes subtypes based on clinical variables: an IMI-RHAPSODY study","author":[{"@type":"Person","givenName":"Roderick C.","familyName":"Slieker","name":"Roderick C. Slieker"},{"@type":"Person","givenName":"Louise A.","familyName":"Donnelly","name":"Louise A. Donnelly"},{"@type":"Person","givenName":"Hugo","familyName":"Fitipaldi","name":"Hugo Fitipaldi"},{"@type":"Person","givenName":"Gerard A.","familyName":"Bouland","name":"Gerard A. Bouland"},{"@type":"Person","givenName":"Giuseppe N.","familyName":"Giordano","name":"Giuseppe N. Giordano"},{"@type":"Person","givenName":"Mikael","familyName":"Åkerlund","name":"Mikael Åkerlund"},{"@type":"Person","givenName":"Mathias J.","familyName":"Gerl","name":"Mathias J. Gerl"},{"@type":"Person","givenName":"Emma","familyName":"Ahlqvist","name":"Emma Ahlqvist"},{"@type":"Person","givenName":"Ashfaq","familyName":"Ali","name":"Ashfaq Ali"},{"@type":"Person","givenName":"Iulian","familyName":"Dragan","name":"Iulian Dragan"},{"@type":"Person","givenName":"Andreas","familyName":"Festa","name":"Andreas Festa"},{"@type":"Person","givenName":"Michael K.","familyName":"Hansen","name":"Michael K. Hansen"},{"@type":"Person","givenName":"Dina","familyName":"Mansour Aly","name":"Dina Mansour Aly"},{"@type":"Person","givenName":"Min","familyName":"Kim","name":"Min Kim"},{"@type":"Person","givenName":"Dmitry","familyName":"Kuznetsov","name":"Dmitry Kuznetsov"},{"@type":"Person","givenName":"Florence","familyName":"Mehl","name":"Florence Mehl"},{"@type":"Person","givenName":"Christian","familyName":"Klose","name":"Christian Klose"},{"@type":"Person","givenName":"Kai","familyName":"Simons","name":"Kai Simons"},{"@type":"Person","givenName":"Imre","familyName":"Pavo","name":"Imre Pavo"},{"@type":"Person","givenName":"Timothy J.","familyName":"Pullen","name":"Timothy J. Pullen"},{"@type":"Person","givenName":"Tommi","familyName":"Suvitaival","name":"Tommi Suvitaival"},{"@type":"Person","givenName":"Asger","familyName":"Wretlind","name":"Asger Wretlind"},{"@type":"Person","givenName":"Peter","familyName":"Rossing","name":"Peter Rossing"},{"@type":"Person","givenName":"Valeriya","familyName":"Lyssenko","name":"Valeriya Lyssenko"},{"@type":"Person","givenName":"Cristina","familyName":"Legido-Quigley","name":"Cristina Legido-Quigley"},{"@type":"Person","givenName":"Leif","familyName":"Groop","name":"Leif Groop"},{"@type":"Person","givenName":"Bernard","familyName":"Thorens","name":"Bernard Thorens"},{"@type":"Person","givenName":"Paul W.","familyName":"Franks","name":"Paul W. Franks"},{"@type":"Person","givenName":"Mark","familyName":"Ibberson","name":"Mark Ibberson"},{"@type":"Person","givenName":"Guy A.","familyName":"Rutter","name":"Guy A. Rutter"},{"@type":"Person","givenName":"Joline W. J.","familyName":"Beulens","name":"Joline W. J. Beulens"},{"@type":"Person","givenName":"Leen M.","familyName":"'t Hart","name":"Leen M. 't Hart"},{"@type":"Person","givenName":"Ewan R.","familyName":"Pearson","name":"Ewan R. Pearson"}],"datePublished":"2021","isPartOf":{"@type":"Periodical","name":"Diabetologia"},"identifier":{"@type":"PropertyValue","propertyID":"DOI","value":"10.1007/s00125-021-05490-8"},"url":"https://forrt.org/flora-replication-atlas/doi/10.1007/s00125-021-05490-8/","sameAs":"https://doi.org/10.1007/s00125-021-05490-8","description":"Replication and cross-validation of… — Slieker et al. (2021, Diabetologia). A replication attempt of Ahlqvist et al., indexed in the FLoRA Replication Atlas.","keywords":["Slieker","Donnelly","Fitipaldi","Bouland","Giordano","Åkerlund","Gerl","Ahlqvist","Ali","Dragan","Festa","Hansen","Mansour Aly","Kim","Kuznetsov","Mehl","Klose","Simons","Pavo","Pullen","Suvitaival","Wretlind","Rossing","Lyssenko","Legido-Quigley","Groop","Thorens","Franks","Ibberson","Rutter","Beulens","'t Hart","Pearson","Diabetologia","2021","replication","reproducibility","open science"],"isBasedOn":{"@id":"https://forrt.org/flora-replication-atlas/#dataset"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"FLoRA Replication Atlas","item":"https://forrt.org/flora-replication-atlas/"},{"@type":"ListItem","position":2,"name":"Studies","item":"https://forrt.org/flora-replication-atlas/browse/"},{"@type":"ListItem","position":3,"name":"Replication and cross-validation of type 2 diabetes subtypes based on clinical variables: an IMI-RHAPSODY study","item":"https://forrt.org/flora-replication-atlas/doi/10.1007/s00125-021-05490-8/"}]}]}
+    </script>
+    <script type="module" crossorigin src="/flora-replication-atlas/assets/index-CV4E7fj6.js"></script>
+    <link rel="stylesheet" crossorigin href="/flora-replication-atlas/assets/index-Bmral-5j.css">
+    <meta property="article:author" content="Roderick C. Slieker">
+  <meta property="article:author" content="Louise A. Donnelly">
+  <meta property="article:author" content="Hugo Fitipaldi">
+  <meta property="article:author" content="Gerard A. Bouland">
+  <meta property="article:author" content="Giuseppe N. Giordano">
+  <meta property="article:author" content="Mikael Åkerlund">
+  <meta property="article:author" content="Mathias J. Gerl">
+  <meta property="article:author" content="Emma Ahlqvist">
+  <meta property="article:author" content="Ashfaq Ali">
+  <meta property="article:author" content="Iulian Dragan">
+  <meta property="article:author" content="Andreas Festa">
+  <meta property="article:author" content="Michael K. Hansen">
+  <meta property="article:author" content="Dina Mansour Aly">
+  <meta property="article:author" content="Min Kim">
+  <meta property="article:author" content="Dmitry Kuznetsov">
+  <meta property="article:author" content="Florence Mehl">
+  <meta property="article:author" content="Christian Klose">
+  <meta property="article:author" content="Kai Simons">
+  <meta property="article:author" content="Imre Pavo">
+  <meta property="article:author" content="Timothy J. Pullen">
+  <meta property="article:author" content="Tommi Suvitaival">
+  <meta property="article:author" content="Asger Wretlind">
+  <meta property="article:author" content="Peter Rossing">
+  <meta property="article:author" content="Valeriya Lyssenko">
+  <meta property="article:author" content="Cristina Legido-Quigley">
+  <meta property="article:author" content="Leif Groop">
+  <meta property="article:author" content="Bernard Thorens">
+  <meta property="article:author" content="Paul W. Franks">
+  <meta property="article:author" content="Mark Ibberson">
+  <meta property="article:author" content="Guy A. Rutter">
+  <meta property="article:author" content="Joline W. J. Beulens">
+  <meta property="article:author" content="Leen M. 't Hart">
+  <meta property="article:author" content="Ewan R. Pearson">
+</head>
+  <body>
+    <div id="root">
+      <!--ssg-start-->
+      <main class="ssg">
+        <p class="ssg-meta"><a href="https://forrt.org/flora-replication-atlas/">FLoRA Replication Atlas</a> &rsaquo; <a href="https://forrt.org/flora-replication-atlas/browse/">Browse</a></p>
+        <h1>Replication and cross-validation of type 2 diabetes subtypes based on clinical variables: an IMI-RHAPSODY study</h1>
+        <p class="ssg-meta">Roderick C. Slieker, Louise A. Donnelly, Hugo Fitipaldi, Gerard A. Bouland, Giuseppe N. Giordano, Mikael Åkerlund, Mathias J. Gerl, Emma Ahlqvist, Ashfaq Ali, Iulian Dragan, Andreas Festa, Michael K. Hansen, Dina Mansour Aly, Min Kim, Dmitry Kuznetsov, Florence Mehl, Christian Klose, Kai Simons, Imre Pavo, Timothy J. Pullen, Tommi Suvitaival, Asger Wretlind, Peter Rossing, Valeriya Lyssenko, Cristina Legido-Quigley, Leif Groop, Bernard Thorens, Paul W. Franks, Mark Ibberson, Guy A. Rutter, Joline W. J. Beulens, Leen M. 't Hart, Ewan R. Pearson</p>
+        <p class="ssg-meta">Diabetologia, 2021. DOI <a href="https://doi.org/10.1007/s00125-021-05490-8">10.1007/s00125-021-05490-8</a></p>
+
+        <h2>Has this study been replicated?</h2>
+        <p>This paper is itself a replication attempt. The study it set out to replicate is listed below.</p>
+        
+        
+        <h3>Study replicated</h3>
+        <ul>
+        <li><strong><a href="https://forrt.org/flora-replication-atlas/doi/10.1016/s2213-8587(18)30051-2/">Novel subgroups of adult-onset diabetes and their association with outcomes: a data-driven cluster analysis of six variables</a></strong>, Ahlqvist et al. (2018). The Lancet Diabetes &amp; Endocrinology. <a href="https://doi.org/10.1016/s2213-8587(18)30051-2">View paper</a></li>
+        </ul>
+        
+
+        <h2>Cite this record</h2>
+        <p class="ssg-cite">Slieker, R. C., Donnelly, L. A., Fitipaldi, H., Bouland, G. A., Giordano, G. N., Åkerlund, M., Gerl, M. J., Ahlqvist, E., Ali, A., Dragan, I., Festa, A., Hansen, M. K., Mansour Aly, D., Kim, M., Kuznetsov, D., Mehl, F., Klose, C., Simons, K., Pavo, I., … Pearson, E. R. (2021). Replication and cross-validation of type 2 diabetes subtypes based on clinical variables: an IMI-RHAPSODY study. Diabetologia, 64(9), 1982–1989. https://doi.org/10.1007/s00125-021-05490-8</p>
+
+        <h2>Other studies in the atlas</h2>
+        <ul class="ssg-related">
+        <li><a href="https://forrt.org/flora-replication-atlas/doi/10.1016/j.jalz.2015.12.008/">Blood metabolite markers of preclinical Alzheimer's disease in two longitudinally…</a></li>
+        <li><a href="https://forrt.org/flora-replication-atlas/doi/10.1007/s00296-010-1789-3/">Different genetic effect of PXK on systemic lupus erythematosus in the Korean population</a></li>
+        <li><a href="https://forrt.org/flora-replication-atlas/doi/10.7554/elife.39944/">Replication study: Melanoma exosomes educate bone marrow progenitor cells toward a…</a></li>
+        <li><a href="https://forrt.org/flora-replication-atlas/doi/10.1126/science.abh4340/">RETRACTED: In vivo direct imaging of neuronal activity at high temporospatial resolution</a></li>
+        <li><a href="https://forrt.org/flora-replication-atlas/doi/10.1126/sciadv.adl0999/">No replication of direct neuronal activity–related (DIANA) fMRI in anesthetized mice</a></li>
+        <li><a href="https://forrt.org/flora-replication-atlas/doi/10.1037/bne0000068/">Environmental enrichment as a therapy for autism: A clinical trial replication and…</a></li>
+        </ul>
+        <p><a href="https://forrt.org/flora-replication-atlas/browse/outcome/failed/">Failed replications</a> &middot;
+        <a href="https://forrt.org/flora-replication-atlas/browse/outcome/successful/">Successful replications</a> &middot;
+        <a href="https://forrt.org/flora-replication-atlas/browse/">All browse pages</a></p>
+      </main>
+      <!--ssg-end-->
+    </div>
+    <!-- GitHub Pages SPA redirect restore -->
+    <script>
+      (function () {
+        var redirect = sessionStorage.redirect;
+        delete sessionStorage.redirect;
+        if (redirect && redirect !== location.href) {
+          history.replaceState(null, "", redirect);
+        }
+      })();
+      // Handle 404.html redirect query format: /?/doi/10.xxx
+      (function () {
+        var l = window.location;
+        if (l.search[1] === "/") {
+          var decoded = l.search
+            .slice(1)
+            .split("&")
+            .map(function (s) {
+              return s.replace(/~and~/g, "&");
+            })
+            .join("?");
+          var path = decoded.split("?")[0];
+          var query = decoded.split("?")[1] || "";
+          history.replaceState(
+            null,
+            "",
+            l.pathname.slice(0, -1) +
+              path +
+              (query ? "?" + query : "") +
+              l.hash,
+          );
+        }
+      })();
+    </script>
+  </body>
+</html>

@@ -1,0 +1,330 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="/flora-replication-atlas/icon_hub.webp" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#853953" />
+    <title>Many Labs 2: Investigating Variation in… — replicates 24 studies</title>
+    <meta name="description" content="Klein et al. (2018, Advances in Methods and Practices in…). A replication attempt targeting 24 studies, indexed in the FLoRA Replication Atlas." />
+    <link rel="canonical" href="https://forrt.org/flora-replication-atlas/doi/10.1177/2515245918810225/" />
+
+    <!-- Vite prepends the configured base to root-relative HTML asset paths.
+         (CSS url() is left alone, so src/fonts.css carries the base itself.) -->
+    <link rel="preload" as="font" type="font/woff2" href="/flora-replication-atlas/fonts/domine-latin-normal.woff2" crossorigin />
+    <link rel="preload" as="font" type="font/woff2" href="/flora-replication-atlas/fonts/sourcesans3-latin-normal.woff2" crossorigin />
+
+    <!-- Nothing paints until this cross-origin POST returns, so pay DNS and TLS up front. -->
+    <link rel="preconnect" href="https://rep-api.forrt.org" crossorigin />
+    <link rel="dns-prefetch" href="https://rep-api.forrt.org" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="Many Labs 2: Investigating Variation in… — replicates 24 studies" />
+    <meta property="og:description" content="Klein et al. (2018, Advances in Methods and Practices in…). A replication attempt targeting 24 studies, indexed in the FLoRA Replication Atlas." />
+    <meta property="og:url" content="https://forrt.org/flora-replication-atlas/doi/10.1177/2515245918810225/" />
+    <meta property="og:site_name" content="FLoRA Replication Atlas" />
+    <meta property="og:image" content="https://forrt.org/flora-replication-atlas/doi/10.1177/2515245918810225/og.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="FLoRA Replication Atlas. Has this study been replicated?" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Many Labs 2: Investigating Variation in… — replicates 24 studies" />
+    <meta name="twitter:description" content="Klein et al. (2018, Advances in Methods and Practices in…). A replication attempt targeting 24 studies, indexed in the FLoRA Replication Atlas." />
+    <meta name="twitter:image" content="https://forrt.org/flora-replication-atlas/doi/10.1177/2515245918810225/og.png" />
+    <meta name="twitter:image:alt" content="FLoRA Replication Atlas. Has this study been replicated?" />
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {"@context":"https://schema.org","@graph":[{"@type":"ScholarlyArticle","@id":"https://forrt.org/flora-replication-atlas/doi/10.1177/2515245918810225/#article","mainEntityOfPage":"https://forrt.org/flora-replication-atlas/doi/10.1177/2515245918810225/","name":"Many Labs 2: Investigating Variation in Replicability Across Samples and Settings","headline":"Many Labs 2: Investigating Variation in Replicability Across Samples and Settings","author":[{"@type":"Person","givenName":"Richard A.","familyName":"Klein","name":"Richard A. Klein"},{"@type":"Person","givenName":"Michelangelo","familyName":"Vianello","name":"Michelangelo Vianello"},{"@type":"Person","givenName":"Fred","familyName":"Hasselman","name":"Fred Hasselman"},{"@type":"Person","givenName":"Byron G.","familyName":"Adams","name":"Byron G. Adams"},{"@type":"Person","givenName":"Reginald B.","familyName":"Adams","name":"Reginald B. Adams"},{"@type":"Person","givenName":"Sinan","familyName":"Alper","name":"Sinan Alper"},{"@type":"Person","givenName":"Mark","familyName":"Aveyard","name":"Mark Aveyard"},{"@type":"Person","givenName":"Jordan R.","familyName":"Axt","name":"Jordan R. Axt"},{"@type":"Person","givenName":"Mayowa T.","familyName":"Babalola","name":"Mayowa T. Babalola"},{"@type":"Person","givenName":"Štěpán","familyName":"Bahník","name":"Štěpán Bahník"},{"@type":"Person","givenName":"Rishtee","familyName":"Batra","name":"Rishtee Batra"},{"@type":"Person","givenName":"Mihály","familyName":"Berkics","name":"Mihály Berkics"},{"@type":"Person","givenName":"Michael J.","familyName":"Bernstein","name":"Michael J. Bernstein"},{"@type":"Person","givenName":"Daniel R.","familyName":"Berry","name":"Daniel R. Berry"},{"@type":"Person","givenName":"Olga","familyName":"Bialobrzeska","name":"Olga Bialobrzeska"},{"@type":"Person","givenName":"Evans Dami","familyName":"Binan","name":"Evans Dami Binan"},{"@type":"Person","givenName":"Konrad","familyName":"Bocian","name":"Konrad Bocian"},{"@type":"Person","givenName":"Mark J.","familyName":"Brandt","name":"Mark J. Brandt"},{"@type":"Person","givenName":"Robert","familyName":"Busching","name":"Robert Busching"},{"@type":"Person","givenName":"Anna Cabak","familyName":"Rédei","name":"Anna Cabak Rédei"},{"@type":"Person","givenName":"Huajian","familyName":"Cai","name":"Huajian Cai"},{"@type":"Person","givenName":"Fanny","familyName":"Cambier","name":"Fanny Cambier"},{"@type":"Person","givenName":"Katarzyna","familyName":"Cantarero","name":"Katarzyna Cantarero"},{"@type":"Person","givenName":"Cheryl L.","familyName":"Carmichael","name":"Cheryl L. Carmichael"},{"@type":"Person","givenName":"Francisco","familyName":"Ceric","name":"Francisco Ceric"},{"@type":"Person","givenName":"Jesse","familyName":"Chandler","name":"Jesse Chandler"},{"@type":"Person","givenName":"Jen-Ho","familyName":"Chang","name":"Jen-Ho Chang"},{"@type":"Person","givenName":"Armand","familyName":"Chatard","name":"Armand Chatard"},{"@type":"Person","givenName":"Eva E.","familyName":"Chen","name":"Eva E. Chen"},{"@type":"Person","givenName":"Winnee","familyName":"Cheong","name":"Winnee Cheong"},{"@type":"Person","givenName":"David C.","familyName":"Cicero","name":"David C. Cicero"},{"@type":"Person","givenName":"Sharon","familyName":"Coen","name":"Sharon Coen"},{"@type":"Person","givenName":"Jennifer A.","familyName":"Coleman","name":"Jennifer A. Coleman"},{"@type":"Person","givenName":"Brian","familyName":"Collisson","name":"Brian Collisson"},{"@type":"Person","givenName":"Morgan A.","familyName":"Conway","name":"Morgan A. Conway"},{"@type":"Person","givenName":"Katherine S.","familyName":"Corker","name":"Katherine S. Corker"},{"@type":"Person","givenName":"Paul G.","familyName":"Curran","name":"Paul G. Curran"},{"@type":"Person","givenName":"Fiery","familyName":"Cushman","name":"Fiery Cushman"},{"@type":"Person","givenName":"Zubairu K.","familyName":"Dagona","name":"Zubairu K. Dagona"},{"@type":"Person","givenName":"Ilker","familyName":"Dalgar","name":"Ilker Dalgar"},{"@type":"Person","givenName":"Anna","familyName":"Dalla Rosa","name":"Anna Dalla Rosa"},{"@type":"Person","givenName":"William E.","familyName":"Davis","name":"William E. Davis"},{"@type":"Person","givenName":"Maaike","familyName":"de Bruijn","name":"Maaike de Bruijn"},{"@type":"Person","givenName":"Leander","familyName":"De Schutter","name":"Leander De Schutter"},{"@type":"Person","givenName":"Thierry","familyName":"Devos","name":"Thierry Devos"},{"@type":"Person","givenName":"Marieke","familyName":"de Vries","name":"Marieke de Vries"},{"@type":"Person","givenName":"Canay","familyName":"Doğulu","name":"Canay Doğulu"},{"@type":"Person","givenName":"Nerisa","familyName":"Dozo","name":"Nerisa Dozo"},{"@type":"Person","givenName":"Kristin Nicole","familyName":"Dukes","name":"Kristin Nicole Dukes"},{"@type":"Person","givenName":"Yarrow","familyName":"Dunham","name":"Yarrow Dunham"},{"@type":"Person","givenName":"Kevin","familyName":"Durrheim","name":"Kevin Durrheim"},{"@type":"Person","givenName":"Charles R.","familyName":"Ebersole","name":"Charles R. Ebersole"},{"@type":"Person","givenName":"John E.","familyName":"Edlund","name":"John E. Edlund"},{"@type":"Person","givenName":"Anja","familyName":"Eller","name":"Anja Eller"},{"@type":"Person","givenName":"Alexander Scott","familyName":"English","name":"Alexander Scott English"},{"@type":"Person","givenName":"Carolyn","familyName":"Finck","name":"Carolyn Finck"},{"@type":"Person","givenName":"Natalia","familyName":"Frankowska","name":"Natalia Frankowska"},{"@type":"Person","givenName":"Miguel-Ángel","familyName":"Freyre","name":"Miguel-Ángel Freyre"},{"@type":"Person","givenName":"Mike","familyName":"Friedman","name":"Mike Friedman"},{"@type":"Person","givenName":"Elisa Maria","familyName":"Galliani","name":"Elisa Maria Galliani"},{"@type":"Person","givenName":"Joshua C.","familyName":"Gandi","name":"Joshua C. Gandi"},{"@type":"Person","givenName":"Tanuka","familyName":"Ghoshal","name":"Tanuka Ghoshal"},{"@type":"Person","givenName":"Steffen R.","familyName":"Giessner","name":"Steffen R. Giessner"},{"@type":"Person","givenName":"Tripat","familyName":"Gill","name":"Tripat Gill"},{"@type":"Person","givenName":"Timo","familyName":"Gnambs","name":"Timo Gnambs"},{"@type":"Person","givenName":"Ángel","familyName":"Gómez","name":"Ángel Gómez"},{"@type":"Person","givenName":"Roberto","familyName":"González","name":"Roberto González"},{"@type":"Person","givenName":"Jesse","familyName":"Graham","name":"Jesse Graham"},{"@type":"Person","givenName":"Jon E.","familyName":"Grahe","name":"Jon E. Grahe"},{"@type":"Person","givenName":"Ivan","familyName":"Grahek","name":"Ivan Grahek"},{"@type":"Person","givenName":"Eva G. T.","familyName":"Green","name":"Eva G. T. Green"},{"@type":"Person","givenName":"Kakul","familyName":"Hai","name":"Kakul Hai"},{"@type":"Person","givenName":"Matthew","familyName":"Haigh","name":"Matthew Haigh"},{"@type":"Person","givenName":"Elizabeth L.","familyName":"Haines","name":"Elizabeth L. Haines"},{"@type":"Person","givenName":"Michael P.","familyName":"Hall","name":"Michael P. Hall"},{"@type":"Person","givenName":"Marie E.","familyName":"Heffernan","name":"Marie E. Heffernan"},{"@type":"Person","givenName":"Joshua A.","familyName":"Hicks","name":"Joshua A. Hicks"},{"@type":"Person","givenName":"Petr","familyName":"Houdek","name":"Petr Houdek"},{"@type":"Person","givenName":"Jeffrey R.","familyName":"Huntsinger","name":"Jeffrey R. Huntsinger"},{"@type":"Person","givenName":"Ho Phi","familyName":"Huynh","name":"Ho Phi Huynh"},{"@type":"Person","givenName":"Hans","familyName":"IJzerman","name":"Hans IJzerman"},{"@type":"Person","givenName":"Yoel","familyName":"Inbar","name":"Yoel Inbar"},{"@type":"Person","givenName":"Åse H.","familyName":"Innes-Ker","name":"Åse H. Innes-Ker"},{"@type":"Person","givenName":"William","familyName":"Jiménez-Leal","name":"William Jiménez-Leal"},{"@type":"Person","givenName":"Melissa-Sue","familyName":"John","name":"Melissa-Sue John"},{"@type":"Person","givenName":"Jennifer A.","familyName":"Joy-Gaba","name":"Jennifer A. Joy-Gaba"},{"@type":"Person","givenName":"Roza G.","familyName":"Kamiloğlu","name":"Roza G. Kamiloğlu"},{"@type":"Person","givenName":"Heather Barry","familyName":"Kappes","name":"Heather Barry Kappes"},{"@type":"Person","givenName":"Serdar","familyName":"Karabati","name":"Serdar Karabati"},{"@type":"Person","givenName":"Haruna","familyName":"Karick","name":"Haruna Karick"},{"@type":"Person","givenName":"Victor N.","familyName":"Keller","name":"Victor N. Keller"},{"@type":"Person","givenName":"Anna","familyName":"Kende","name":"Anna Kende"},{"@type":"Person","givenName":"Nicolas","familyName":"Kervyn","name":"Nicolas Kervyn"},{"@type":"Person","givenName":"Goran","familyName":"Knežević","name":"Goran Knežević"},{"@type":"Person","givenName":"Carrie","familyName":"Kovacs","name":"Carrie Kovacs"},{"@type":"Person","givenName":"Lacy E.","familyName":"Krueger","name":"Lacy E. Krueger"},{"@type":"Person","givenName":"German","familyName":"Kurapov","name":"German Kurapov"},{"@type":"Person","givenName":"Jamie","familyName":"Kurtz","name":"Jamie Kurtz"},{"@type":"Person","givenName":"Daniël","familyName":"Lakens","name":"Daniël Lakens"},{"@type":"Person","givenName":"Ljiljana B.","familyName":"Lazarević","name":"Ljiljana B. Lazarević"},{"@type":"Person","givenName":"Carmel A.","familyName":"Levitan","name":"Carmel A. Levitan"},{"@type":"Person","givenName":"Neil A.","familyName":"Lewis","name":"Neil A. Lewis"},{"@type":"Person","givenName":"Samuel","familyName":"Lins","name":"Samuel Lins"},{"@type":"Person","givenName":"Nikolette P.","familyName":"Lipsey","name":"Nikolette P. Lipsey"},{"@type":"Person","givenName":"Joy E.","familyName":"Losee","name":"Joy E. Losee"},{"@type":"Person","givenName":"Esther","familyName":"Maassen","name":"Esther Maassen"},{"@type":"Person","givenName":"Angela T.","familyName":"Maitner","name":"Angela T. Maitner"},{"@type":"Person","givenName":"Winfrida","familyName":"Malingumu","name":"Winfrida Malingumu"},{"@type":"Person","givenName":"Robyn K.","familyName":"Mallett","name":"Robyn K. Mallett"},{"@type":"Person","givenName":"Satia A.","familyName":"Marotta","name":"Satia A. Marotta"},{"@type":"Person","givenName":"Janko","familyName":"Međedović","name":"Janko Međedović"},{"@type":"Person","givenName":"Fernando","familyName":"Mena-Pacheco","name":"Fernando Mena-Pacheco"},{"@type":"Person","givenName":"Taciano L.","familyName":"Milfont","name":"Taciano L. Milfont"},{"@type":"Person","givenName":"Wendy L.","familyName":"Morris","name":"Wendy L. Morris"},{"@type":"Person","givenName":"Sean C.","familyName":"Murphy","name":"Sean C. Murphy"},{"@type":"Person","givenName":"Andriy","familyName":"Myachykov","name":"Andriy Myachykov"},{"@type":"Person","givenName":"Nick","familyName":"Neave","name":"Nick Neave"},{"@type":"Person","givenName":"Koen","familyName":"Neijenhuijs","name":"Koen Neijenhuijs"},{"@type":"Person","givenName":"Anthony J.","familyName":"Nelson","name":"Anthony J. Nelson"},{"@type":"Person","givenName":"Félix","familyName":"Neto","name":"Félix Neto"},{"@type":"Person","givenName":"Austin","familyName":"Lee Nichols","name":"Austin Lee Nichols"},{"@type":"Person","givenName":"Aaron","familyName":"Ocampo","name":"Aaron Ocampo"},{"@type":"Person","givenName":"Susan L.","familyName":"O'Donnell","name":"Susan L. O'Donnell"},{"@type":"Person","givenName":"Haruka","familyName":"Oikawa","name":"Haruka Oikawa"},{"@type":"Person","givenName":"Masanori","familyName":"Oikawa","name":"Masanori Oikawa"},{"@type":"Person","givenName":"Elsie","familyName":"Ong","name":"Elsie Ong"},{"@type":"Person","givenName":"Gábor","familyName":"Orosz","name":"Gábor Orosz"},{"@type":"Person","givenName":"Malgorzata","familyName":"Osowiecka","name":"Malgorzata Osowiecka"},{"@type":"Person","givenName":"Grant","familyName":"Packard","name":"Grant Packard"},{"@type":"Person","givenName":"Rolando","familyName":"Pérez-Sánchez","name":"Rolando Pérez-Sánchez"},{"@type":"Person","givenName":"Boban","familyName":"Petrović","name":"Boban Petrović"},{"@type":"Person","givenName":"Ronaldo","familyName":"Pilati","name":"Ronaldo Pilati"},{"@type":"Person","givenName":"Brad","familyName":"Pinter","name":"Brad Pinter"},{"@type":"Person","givenName":"Lysandra","familyName":"Podesta","name":"Lysandra Podesta"},{"@type":"Person","givenName":"Gabrielle","familyName":"Pogge","name":"Gabrielle Pogge"},{"@type":"Person","givenName":"Monique M. H.","familyName":"Pollmann","name":"Monique M. H. Pollmann"},{"@type":"Person","givenName":"Abraham M.","familyName":"Rutchick","name":"Abraham M. Rutchick"},{"@type":"Person","givenName":"Patricio","familyName":"Saavedra","name":"Patricio Saavedra"},{"@type":"Person","givenName":"Alexander K.","familyName":"Saeri","name":"Alexander K. Saeri"},{"@type":"Person","givenName":"Erika","familyName":"Salomon","name":"Erika Salomon"},{"@type":"Person","givenName":"Kathleen","familyName":"Schmidt","name":"Kathleen Schmidt"},{"@type":"Person","givenName":"Felix D.","familyName":"Schönbrodt","name":"Felix D. Schönbrodt"},{"@type":"Person","givenName":"Maciej B.","familyName":"Sekerdej","name":"Maciej B. Sekerdej"},{"@type":"Person","givenName":"David","familyName":"Sirlopú","name":"David Sirlopú"},{"@type":"Person","givenName":"Jeanine L. M.","familyName":"Skorinko","name":"Jeanine L. M. Skorinko"},{"@type":"Person","givenName":"Michael A.","familyName":"Smith","name":"Michael A. Smith"},{"@type":"Person","givenName":"Vanessa","familyName":"Smith-Castro","name":"Vanessa Smith-Castro"},{"@type":"Person","givenName":"Karin C. H. J.","familyName":"Smolders","name":"Karin C. H. J. Smolders"},{"@type":"Person","givenName":"Agata","familyName":"Sobkow","name":"Agata Sobkow"},{"@type":"Person","givenName":"Walter","familyName":"Sowden","name":"Walter Sowden"},{"@type":"Person","givenName":"Philipp","familyName":"Spachtholz","name":"Philipp Spachtholz"},{"@type":"Person","givenName":"Manini","familyName":"Srivastava","name":"Manini Srivastava"},{"@type":"Person","givenName":"Troy G.","familyName":"Steiner","name":"Troy G. Steiner"},{"@type":"Person","givenName":"Jeroen","familyName":"Stouten","name":"Jeroen Stouten"},{"@type":"Person","givenName":"Chris N. H.","familyName":"Street","name":"Chris N. H. Street"},{"@type":"Person","givenName":"Oskar K.","familyName":"Sundfelt","name":"Oskar K. Sundfelt"},{"@type":"Person","givenName":"Stephanie","familyName":"Szeto","name":"Stephanie Szeto"},{"@type":"Person","givenName":"Ewa","familyName":"Szumowska","name":"Ewa Szumowska"},{"@type":"Person","givenName":"Andrew C. W.","familyName":"Tang","name":"Andrew C. W. Tang"},{"@type":"Person","givenName":"Norbert","familyName":"Tanzer","name":"Norbert Tanzer"},{"@type":"Person","givenName":"Morgan J.","familyName":"Tear","name":"Morgan J. Tear"},{"@type":"Person","givenName":"Jordan","familyName":"Theriault","name":"Jordan Theriault"},{"@type":"Person","givenName":"Manuela","familyName":"Thomae","name":"Manuela Thomae"},{"@type":"Person","givenName":"David","familyName":"Torres","name":"David Torres"},{"@type":"Person","givenName":"Jakub","familyName":"Traczyk","name":"Jakub Traczyk"},{"@type":"Person","givenName":"Joshua M.","familyName":"Tybur","name":"Joshua M. Tybur"},{"@type":"Person","givenName":"Adrienn","familyName":"Ujhelyi","name":"Adrienn Ujhelyi"},{"@type":"Person","givenName":"Robbie C. M.","familyName":"van Aert","name":"Robbie C. M. van Aert"},{"@type":"Person","givenName":"Marcel A. L. M.","familyName":"van Assen","name":"Marcel A. L. M. van Assen"},{"@type":"Person","givenName":"Marije","familyName":"van der Hulst","name":"Marije van der Hulst"},{"@type":"Person","givenName":"Paul A. M.","familyName":"van Lange","name":"Paul A. M. van Lange"},{"@type":"Person","givenName":"Anna Elisabeth","familyName":"van 't Veer","name":"Anna Elisabeth van 't Veer"},{"@type":"Person","givenName":"Alejandro","familyName":"Vásquez- Echeverría","name":"Alejandro Vásquez- Echeverría"},{"@type":"Person","givenName":"Leigh","familyName":"Ann Vaughn","name":"Leigh Ann Vaughn"},{"@type":"Person","givenName":"Alexandra","familyName":"Vázquez","name":"Alexandra Vázquez"},{"@type":"Person","givenName":"Luis Diego","familyName":"Vega","name":"Luis Diego Vega"},{"@type":"Person","givenName":"Catherine","familyName":"Verniers","name":"Catherine Verniers"},{"@type":"Person","givenName":"Mark","familyName":"Verschoor","name":"Mark Verschoor"},{"@type":"Person","givenName":"Ingrid P. J.","familyName":"Voermans","name":"Ingrid P. J. Voermans"},{"@type":"Person","givenName":"Marek A.","familyName":"Vranka","name":"Marek A. Vranka"},{"@type":"Person","givenName":"Cheryl","familyName":"Welch","name":"Cheryl Welch"},{"@type":"Person","givenName":"Aaron L.","familyName":"Wichman","name":"Aaron L. Wichman"},{"@type":"Person","givenName":"Lisa A.","familyName":"Williams","name":"Lisa A. Williams"},{"@type":"Person","givenName":"Michael","familyName":"Wood","name":"Michael Wood"},{"@type":"Person","givenName":"Julie A.","familyName":"Woodzicka","name":"Julie A. Woodzicka"},{"@type":"Person","givenName":"Marta K.","familyName":"Wronska","name":"Marta K. Wronska"},{"@type":"Person","givenName":"Liane","familyName":"Young","name":"Liane Young"},{"@type":"Person","givenName":"John M.","familyName":"Zelenski","name":"John M. Zelenski"},{"@type":"Person","givenName":"Zeng","familyName":"Zhijia","name":"Zeng Zhijia"},{"@type":"Person","givenName":"Brian A.","familyName":"Nosek","name":"Brian A. Nosek"}],"datePublished":"2018","isPartOf":{"@type":"Periodical","name":"Advances in Methods and Practices in Psychological Science"},"identifier":{"@type":"PropertyValue","propertyID":"DOI","value":"10.1177/2515245918810225"},"url":"https://forrt.org/flora-replication-atlas/doi/10.1177/2515245918810225/","sameAs":"https://doi.org/10.1177/2515245918810225","description":"Klein et al. (2018, Advances in Methods and Practices in…). A replication attempt targeting 24 studies, indexed in the FLoRA Replication Atlas.","keywords":["Klein","Vianello","Hasselman","Adams","Adams","Alper","Aveyard","Axt","Babalola","Bahník","Batra","Berkics","Bernstein","Berry","Bialobrzeska","Binan","Bocian","Brandt","Busching","Rédei","Cai","Cambier","Cantarero","Carmichael","Ceric","Chandler","Chang","Chatard","Chen","Cheong","Cicero","Coen","Coleman","Collisson","Conway","Corker","Curran","Cushman","Dagona","Dalgar","Dalla Rosa","Davis","de Bruijn","De Schutter","Devos","de Vries","Doğulu","Dozo","Dukes","Dunham","Durrheim","Ebersole","Edlund","Eller","English","Finck","Frankowska","Freyre","Friedman","Galliani","Gandi","Ghoshal","Giessner","Gill","Gnambs","Gómez","González","Graham","Grahe","Grahek","Green","Hai","Haigh","Haines","Hall","Heffernan","Hicks","Houdek","Huntsinger","Huynh","IJzerman","Inbar","Innes-Ker","Jiménez-Leal","John","Joy-Gaba","Kamiloğlu","Kappes","Karabati","Karick","Keller","Kende","Kervyn","Knežević","Kovacs","Krueger","Kurapov","Kurtz","Lakens","Lazarević","Levitan","Lewis","Lins","Lipsey","Losee","Maassen","Maitner","Malingumu","Mallett","Marotta","Međedović","Mena-Pacheco","Milfont","Morris","Murphy","Myachykov","Neave","Neijenhuijs","Nelson","Neto","Lee Nichols","Ocampo","O'Donnell","Oikawa","Oikawa","Ong","Orosz","Osowiecka","Packard","Pérez-Sánchez","Petrović","Pilati","Pinter","Podesta","Pogge","Pollmann","Rutchick","Saavedra","Saeri","Salomon","Schmidt","Schönbrodt","Sekerdej","Sirlopú","Skorinko","Smith","Smith-Castro","Smolders","Sobkow","Sowden","Spachtholz","Srivastava","Steiner","Stouten","Street","Sundfelt","Szeto","Szumowska","Tang","Tanzer","Tear","Theriault","Thomae","Torres","Traczyk","Tybur","Ujhelyi","van Aert","van Assen","van der Hulst","van Lange","van 't Veer","Vásquez- Echeverría","Ann Vaughn","Vázquez","Vega","Verniers","Verschoor","Voermans","Vranka","Welch","Wichman","Williams","Wood","Woodzicka","Wronska","Young","Zelenski","Zhijia","Nosek","Advances in Methods and Practices in Psychological Science","2018","replication","reproducibility","open science"],"isBasedOn":{"@id":"https://forrt.org/flora-replication-atlas/#dataset"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"FLoRA Replication Atlas","item":"https://forrt.org/flora-replication-atlas/"},{"@type":"ListItem","position":2,"name":"Studies","item":"https://forrt.org/flora-replication-atlas/browse/"},{"@type":"ListItem","position":3,"name":"Many Labs 2: Investigating Variation in Replicability Across Samples and Settings","item":"https://forrt.org/flora-replication-atlas/doi/10.1177/2515245918810225/"}]}]}
+    </script>
+    <script type="module" crossorigin src="/flora-replication-atlas/assets/index-CV4E7fj6.js"></script>
+    <link rel="stylesheet" crossorigin href="/flora-replication-atlas/assets/index-Bmral-5j.css">
+    <meta property="article:author" content="Richard A. Klein">
+  <meta property="article:author" content="Michelangelo Vianello">
+  <meta property="article:author" content="Fred Hasselman">
+  <meta property="article:author" content="Byron G. Adams">
+  <meta property="article:author" content="Reginald B. Adams">
+  <meta property="article:author" content="Sinan Alper">
+  <meta property="article:author" content="Mark Aveyard">
+  <meta property="article:author" content="Jordan R. Axt">
+  <meta property="article:author" content="Mayowa T. Babalola">
+  <meta property="article:author" content="Štěpán Bahník">
+  <meta property="article:author" content="Rishtee Batra">
+  <meta property="article:author" content="Mihály Berkics">
+  <meta property="article:author" content="Michael J. Bernstein">
+  <meta property="article:author" content="Daniel R. Berry">
+  <meta property="article:author" content="Olga Bialobrzeska">
+  <meta property="article:author" content="Evans Dami Binan">
+  <meta property="article:author" content="Konrad Bocian">
+  <meta property="article:author" content="Mark J. Brandt">
+  <meta property="article:author" content="Robert Busching">
+  <meta property="article:author" content="Anna Cabak Rédei">
+  <meta property="article:author" content="Huajian Cai">
+  <meta property="article:author" content="Fanny Cambier">
+  <meta property="article:author" content="Katarzyna Cantarero">
+  <meta property="article:author" content="Cheryl L. Carmichael">
+  <meta property="article:author" content="Francisco Ceric">
+  <meta property="article:author" content="Jesse Chandler">
+  <meta property="article:author" content="Jen-Ho Chang">
+  <meta property="article:author" content="Armand Chatard">
+  <meta property="article:author" content="Eva E. Chen">
+  <meta property="article:author" content="Winnee Cheong">
+  <meta property="article:author" content="David C. Cicero">
+  <meta property="article:author" content="Sharon Coen">
+  <meta property="article:author" content="Jennifer A. Coleman">
+  <meta property="article:author" content="Brian Collisson">
+  <meta property="article:author" content="Morgan A. Conway">
+  <meta property="article:author" content="Katherine S. Corker">
+  <meta property="article:author" content="Paul G. Curran">
+  <meta property="article:author" content="Fiery Cushman">
+  <meta property="article:author" content="Zubairu K. Dagona">
+  <meta property="article:author" content="Ilker Dalgar">
+  <meta property="article:author" content="Anna Dalla Rosa">
+  <meta property="article:author" content="William E. Davis">
+  <meta property="article:author" content="Maaike de Bruijn">
+  <meta property="article:author" content="Leander De Schutter">
+  <meta property="article:author" content="Thierry Devos">
+  <meta property="article:author" content="Marieke de Vries">
+  <meta property="article:author" content="Canay Doğulu">
+  <meta property="article:author" content="Nerisa Dozo">
+  <meta property="article:author" content="Kristin Nicole Dukes">
+  <meta property="article:author" content="Yarrow Dunham">
+  <meta property="article:author" content="Kevin Durrheim">
+  <meta property="article:author" content="Charles R. Ebersole">
+  <meta property="article:author" content="John E. Edlund">
+  <meta property="article:author" content="Anja Eller">
+  <meta property="article:author" content="Alexander Scott English">
+  <meta property="article:author" content="Carolyn Finck">
+  <meta property="article:author" content="Natalia Frankowska">
+  <meta property="article:author" content="Miguel-Ángel Freyre">
+  <meta property="article:author" content="Mike Friedman">
+  <meta property="article:author" content="Elisa Maria Galliani">
+  <meta property="article:author" content="Joshua C. Gandi">
+  <meta property="article:author" content="Tanuka Ghoshal">
+  <meta property="article:author" content="Steffen R. Giessner">
+  <meta property="article:author" content="Tripat Gill">
+  <meta property="article:author" content="Timo Gnambs">
+  <meta property="article:author" content="Ángel Gómez">
+  <meta property="article:author" content="Roberto González">
+  <meta property="article:author" content="Jesse Graham">
+  <meta property="article:author" content="Jon E. Grahe">
+  <meta property="article:author" content="Ivan Grahek">
+  <meta property="article:author" content="Eva G. T. Green">
+  <meta property="article:author" content="Kakul Hai">
+  <meta property="article:author" content="Matthew Haigh">
+  <meta property="article:author" content="Elizabeth L. Haines">
+  <meta property="article:author" content="Michael P. Hall">
+  <meta property="article:author" content="Marie E. Heffernan">
+  <meta property="article:author" content="Joshua A. Hicks">
+  <meta property="article:author" content="Petr Houdek">
+  <meta property="article:author" content="Jeffrey R. Huntsinger">
+  <meta property="article:author" content="Ho Phi Huynh">
+  <meta property="article:author" content="Hans IJzerman">
+  <meta property="article:author" content="Yoel Inbar">
+  <meta property="article:author" content="Åse H. Innes-Ker">
+  <meta property="article:author" content="William Jiménez-Leal">
+  <meta property="article:author" content="Melissa-Sue John">
+  <meta property="article:author" content="Jennifer A. Joy-Gaba">
+  <meta property="article:author" content="Roza G. Kamiloğlu">
+  <meta property="article:author" content="Heather Barry Kappes">
+  <meta property="article:author" content="Serdar Karabati">
+  <meta property="article:author" content="Haruna Karick">
+  <meta property="article:author" content="Victor N. Keller">
+  <meta property="article:author" content="Anna Kende">
+  <meta property="article:author" content="Nicolas Kervyn">
+  <meta property="article:author" content="Goran Knežević">
+  <meta property="article:author" content="Carrie Kovacs">
+  <meta property="article:author" content="Lacy E. Krueger">
+  <meta property="article:author" content="German Kurapov">
+  <meta property="article:author" content="Jamie Kurtz">
+  <meta property="article:author" content="Daniël Lakens">
+  <meta property="article:author" content="Ljiljana B. Lazarević">
+  <meta property="article:author" content="Carmel A. Levitan">
+  <meta property="article:author" content="Neil A. Lewis">
+  <meta property="article:author" content="Samuel Lins">
+  <meta property="article:author" content="Nikolette P. Lipsey">
+  <meta property="article:author" content="Joy E. Losee">
+  <meta property="article:author" content="Esther Maassen">
+  <meta property="article:author" content="Angela T. Maitner">
+  <meta property="article:author" content="Winfrida Malingumu">
+  <meta property="article:author" content="Robyn K. Mallett">
+  <meta property="article:author" content="Satia A. Marotta">
+  <meta property="article:author" content="Janko Međedović">
+  <meta property="article:author" content="Fernando Mena-Pacheco">
+  <meta property="article:author" content="Taciano L. Milfont">
+  <meta property="article:author" content="Wendy L. Morris">
+  <meta property="article:author" content="Sean C. Murphy">
+  <meta property="article:author" content="Andriy Myachykov">
+  <meta property="article:author" content="Nick Neave">
+  <meta property="article:author" content="Koen Neijenhuijs">
+  <meta property="article:author" content="Anthony J. Nelson">
+  <meta property="article:author" content="Félix Neto">
+  <meta property="article:author" content="Austin Lee Nichols">
+  <meta property="article:author" content="Aaron Ocampo">
+  <meta property="article:author" content="Susan L. O'Donnell">
+  <meta property="article:author" content="Haruka Oikawa">
+  <meta property="article:author" content="Masanori Oikawa">
+  <meta property="article:author" content="Elsie Ong">
+  <meta property="article:author" content="Gábor Orosz">
+  <meta property="article:author" content="Malgorzata Osowiecka">
+  <meta property="article:author" content="Grant Packard">
+  <meta property="article:author" content="Rolando Pérez-Sánchez">
+  <meta property="article:author" content="Boban Petrović">
+  <meta property="article:author" content="Ronaldo Pilati">
+  <meta property="article:author" content="Brad Pinter">
+  <meta property="article:author" content="Lysandra Podesta">
+  <meta property="article:author" content="Gabrielle Pogge">
+  <meta property="article:author" content="Monique M. H. Pollmann">
+  <meta property="article:author" content="Abraham M. Rutchick">
+  <meta property="article:author" content="Patricio Saavedra">
+  <meta property="article:author" content="Alexander K. Saeri">
+  <meta property="article:author" content="Erika Salomon">
+  <meta property="article:author" content="Kathleen Schmidt">
+  <meta property="article:author" content="Felix D. Schönbrodt">
+  <meta property="article:author" content="Maciej B. Sekerdej">
+  <meta property="article:author" content="David Sirlopú">
+  <meta property="article:author" content="Jeanine L. M. Skorinko">
+  <meta property="article:author" content="Michael A. Smith">
+  <meta property="article:author" content="Vanessa Smith-Castro">
+  <meta property="article:author" content="Karin C. H. J. Smolders">
+  <meta property="article:author" content="Agata Sobkow">
+  <meta property="article:author" content="Walter Sowden">
+  <meta property="article:author" content="Philipp Spachtholz">
+  <meta property="article:author" content="Manini Srivastava">
+  <meta property="article:author" content="Troy G. Steiner">
+  <meta property="article:author" content="Jeroen Stouten">
+  <meta property="article:author" content="Chris N. H. Street">
+  <meta property="article:author" content="Oskar K. Sundfelt">
+  <meta property="article:author" content="Stephanie Szeto">
+  <meta property="article:author" content="Ewa Szumowska">
+  <meta property="article:author" content="Andrew C. W. Tang">
+  <meta property="article:author" content="Norbert Tanzer">
+  <meta property="article:author" content="Morgan J. Tear">
+  <meta property="article:author" content="Jordan Theriault">
+  <meta property="article:author" content="Manuela Thomae">
+  <meta property="article:author" content="David Torres">
+  <meta property="article:author" content="Jakub Traczyk">
+  <meta property="article:author" content="Joshua M. Tybur">
+  <meta property="article:author" content="Adrienn Ujhelyi">
+  <meta property="article:author" content="Robbie C. M. van Aert">
+  <meta property="article:author" content="Marcel A. L. M. van Assen">
+  <meta property="article:author" content="Marije van der Hulst">
+  <meta property="article:author" content="Paul A. M. van Lange">
+  <meta property="article:author" content="Anna Elisabeth van 't Veer">
+  <meta property="article:author" content="Alejandro Vásquez- Echeverría">
+  <meta property="article:author" content="Leigh Ann Vaughn">
+  <meta property="article:author" content="Alexandra Vázquez">
+  <meta property="article:author" content="Luis Diego Vega">
+  <meta property="article:author" content="Catherine Verniers">
+  <meta property="article:author" content="Mark Verschoor">
+  <meta property="article:author" content="Ingrid P. J. Voermans">
+  <meta property="article:author" content="Marek A. Vranka">
+  <meta property="article:author" content="Cheryl Welch">
+  <meta property="article:author" content="Aaron L. Wichman">
+  <meta property="article:author" content="Lisa A. Williams">
+  <meta property="article:author" content="Michael Wood">
+  <meta property="article:author" content="Julie A. Woodzicka">
+  <meta property="article:author" content="Marta K. Wronska">
+  <meta property="article:author" content="Liane Young">
+  <meta property="article:author" content="John M. Zelenski">
+  <meta property="article:author" content="Zeng Zhijia">
+  <meta property="article:author" content="Brian A. Nosek">
+</head>
+  <body>
+    <div id="root">
+      <!--ssg-start-->
+      <main class="ssg">
+        <p class="ssg-meta"><a href="https://forrt.org/flora-replication-atlas/">FLoRA Replication Atlas</a> &rsaquo; <a href="https://forrt.org/flora-replication-atlas/browse/">Browse</a></p>
+        <h1>Many Labs 2: Investigating Variation in Replicability Across Samples and Settings</h1>
+        <p class="ssg-meta">Richard A. Klein, Michelangelo Vianello, Fred Hasselman, Byron G. Adams, Reginald B. Adams, Sinan Alper, Mark Aveyard, Jordan R. Axt, Mayowa T. Babalola, Štěpán Bahník, Rishtee Batra, Mihály Berkics, Michael J. Bernstein, Daniel R. Berry, Olga Bialobrzeska, Evans Dami Binan, Konrad Bocian, Mark J. Brandt, Robert Busching, Anna Cabak Rédei, Huajian Cai, Fanny Cambier, Katarzyna Cantarero, Cheryl L. Carmichael, Francisco Ceric, Jesse Chandler, Jen-Ho Chang, Armand Chatard, Eva E. Chen, Winnee Cheong, David C. Cicero, Sharon Coen, Jennifer A. Coleman, Brian Collisson, Morgan A. Conway, Katherine S. Corker, Paul G. Curran, Fiery Cushman, Zubairu K. Dagona, Ilker Dalgar, Anna Dalla Rosa, William E. Davis, Maaike de Bruijn, Leander De Schutter, Thierry Devos, Marieke de Vries, Canay Doğulu, Nerisa Dozo, Kristin Nicole Dukes, Yarrow Dunham, Kevin Durrheim, Charles R. Ebersole, John E. Edlund, Anja Eller, Alexander Scott English, Carolyn Finck, Natalia Frankowska, Miguel-Ángel Freyre, Mike Friedman, Elisa Maria Galliani, Joshua C. Gandi, Tanuka Ghoshal, Steffen R. Giessner, Tripat Gill, Timo Gnambs, Ángel Gómez, Roberto González, Jesse Graham, Jon E. Grahe, Ivan Grahek, Eva G. T. Green, Kakul Hai, Matthew Haigh, Elizabeth L. Haines, Michael P. Hall, Marie E. Heffernan, Joshua A. Hicks, Petr Houdek, Jeffrey R. Huntsinger, Ho Phi Huynh, Hans IJzerman, Yoel Inbar, Åse H. Innes-Ker, William Jiménez-Leal, Melissa-Sue John, Jennifer A. Joy-Gaba, Roza G. Kamiloğlu, Heather Barry Kappes, Serdar Karabati, Haruna Karick, Victor N. Keller, Anna Kende, Nicolas Kervyn, Goran Knežević, Carrie Kovacs, Lacy E. Krueger, German Kurapov, Jamie Kurtz, Daniël Lakens, Ljiljana B. Lazarević, Carmel A. Levitan, Neil A. Lewis, Samuel Lins, Nikolette P. Lipsey, Joy E. Losee, Esther Maassen, Angela T. Maitner, Winfrida Malingumu, Robyn K. Mallett, Satia A. Marotta, Janko Međedović, Fernando Mena-Pacheco, Taciano L. Milfont, Wendy L. Morris, Sean C. Murphy, Andriy Myachykov, Nick Neave, Koen Neijenhuijs, Anthony J. Nelson, Félix Neto, Austin Lee Nichols, Aaron Ocampo, Susan L. O'Donnell, Haruka Oikawa, Masanori Oikawa, Elsie Ong, Gábor Orosz, Malgorzata Osowiecka, Grant Packard, Rolando Pérez-Sánchez, Boban Petrović, Ronaldo Pilati, Brad Pinter, Lysandra Podesta, Gabrielle Pogge, Monique M. H. Pollmann, Abraham M. Rutchick, Patricio Saavedra, Alexander K. Saeri, Erika Salomon, Kathleen Schmidt, Felix D. Schönbrodt, Maciej B. Sekerdej, David Sirlopú, Jeanine L. M. Skorinko, Michael A. Smith, Vanessa Smith-Castro, Karin C. H. J. Smolders, Agata Sobkow, Walter Sowden, Philipp Spachtholz, Manini Srivastava, Troy G. Steiner, Jeroen Stouten, Chris N. H. Street, Oskar K. Sundfelt, Stephanie Szeto, Ewa Szumowska, Andrew C. W. Tang, Norbert Tanzer, Morgan J. Tear, Jordan Theriault, Manuela Thomae, David Torres, Jakub Traczyk, Joshua M. Tybur, Adrienn Ujhelyi, Robbie C. M. van Aert, Marcel A. L. M. van Assen, Marije van der Hulst, Paul A. M. van Lange, Anna Elisabeth van 't Veer, Alejandro Vásquez- Echeverría, Leigh Ann Vaughn, Alexandra Vázquez, Luis Diego Vega, Catherine Verniers, Mark Verschoor, Ingrid P. J. Voermans, Marek A. Vranka, Cheryl Welch, Aaron L. Wichman, Lisa A. Williams, Michael Wood, Julie A. Woodzicka, Marta K. Wronska, Liane Young, John M. Zelenski, Zeng Zhijia, Brian A. Nosek</p>
+        <p class="ssg-meta">Advances in Methods and Practices in Psychological Science, 2018. DOI <a href="https://doi.org/10.1177/2515245918810225">10.1177/2515245918810225</a></p>
+
+        <h2>Has this study been replicated?</h2>
+        <p>This paper is itself a replication attempt, targeting 24 studies, listed below.</p>
+        
+        
+        <h3>Studies replicated</h3>
+        <ul>
+        <li><strong><a href="https://forrt.org/flora-replication-atlas/doi/10.1002/bdm.586/">Incidental environmental anchors</a></strong>, Critcher &amp; Gilovich (2007). Journal of Behavioral Decision Making. <a href="https://doi.org/10.1002/bdm.586">View paper</a></li>
+        <li><strong><a href="https://forrt.org/flora-replication-atlas/doi/10.1002/ejsp.2013/">Living in the north is not necessarily favorable: Different metaphoric associations between cardinal direction and valence in Hong Kong and in the United States</a></strong>, Huang et al. (2014). European Journal of Social Psychology. <a href="https://doi.org/10.1002/ejsp.2013">View paper</a></li>
+        <li><strong><a href="https://forrt.org/flora-replication-atlas/doi/10.1016/0022-1031(77)90049-x/">The &quot;false consensus effect&quot;: An egocentric bias in social perception and attribution processes</a></strong>, Ross et al. (1977). Journal of Experimental Social Psychology. <a href="https://doi.org/10.1016/0022-1031(77)90049-x">View paper</a></li>
+        <li><strong><a href="https://forrt.org/flora-replication-atlas/doi/10.1016/j.obhdp.2006.10.001/">High in the hierarchy: How vertical location and judgments of leaders' power are interrelated</a></strong>, Giessner &amp; Schubert (2007). Organizational Behavior and Human Decision Processes. <a href="https://doi.org/10.1016/j.obhdp.2006.10.001">View paper</a></li>
+        <li><strong><a href="https://forrt.org/flora-replication-atlas/doi/10.1037/0022-3514.73.4.733/">Development of prosocial, individualistic, and competitive orientations: Theory and preliminary evidence</a></strong>, Van Lange et al. (1997). Journal of Personality and Social Psychology. <a href="https://doi.org/10.1037/0022-3514.73.4.733">View paper</a></li>
+        <li><strong><a href="https://forrt.org/flora-replication-atlas/doi/10.1037/0022-3514.83.5.1239/">Cultural variation in correspondence bias: The critical role of attitude diagnosticity of socially constrained behavior</a></strong>, Miyamoto &amp; Kitayama (2002). Journal of Personality and Social Psychology. <a href="https://doi.org/10.1037/0022-3514.83.5.1239">View paper</a></li>
+        <li><strong><a href="https://forrt.org/flora-replication-atlas/doi/10.1037/0022-3514.95.2.293/">Why people are reluctant to tempt fate</a></strong>, Risen &amp; Gilovich (2008). Journal of Personality and Social Psychology. <a href="https://doi.org/10.1037/0022-3514.95.2.293">View paper</a></li>
+        <li><strong><a href="https://forrt.org/flora-replication-atlas/doi/10.1037/0096-3445.136.4.569/">Overcoming intuition: Metacognitive difficulty activates analytic reasoning</a></strong>, Alter et al. (2007). Journal of Experimental Psychology: General. <a href="https://doi.org/10.1037/0096-3445.136.4.569">View paper</a></li>
+        <li><strong><a href="https://forrt.org/flora-replication-atlas/doi/10.1037/a0013748/">Moral typecasting: Divergent perceptions of moral agents and moral patients</a></strong>, Gray &amp; Wegner (2009). Journal of Personality and Social Psychology. <a href="https://doi.org/10.1037/a0013748">View paper</a></li>
+        <li><strong><a href="https://forrt.org/flora-replication-atlas/doi/10.1037/a0015960/">Disgust sensitivity predicts intuitive disapproval of gays</a></strong>, Inbar et al. (2009). Emotion. <a href="https://doi.org/10.1037/a0015960">View paper</a></li>
+        <li><strong><a href="https://forrt.org/flora-replication-atlas/doi/10.1037/a0034462/">A functional basis for structure-seeking: Exposure to structure promotes willingness to engage in motivated action</a></strong>, Kay et al. (2014). Journal of Experimental Psychology: General. <a href="https://doi.org/10.1037/a0034462">View paper</a></li>
+        <li><strong><a href="https://forrt.org/flora-replication-atlas/doi/10.1038/nclimate2093/">How warm days increase belief in global warming</a></strong>, Zaval et al. (2014). Nature Climate Change. <a href="https://doi.org/10.1038/nclimate2093">View paper</a></li>
+        <li><strong><a href="https://forrt.org/flora-replication-atlas/doi/10.1086/269239/">Assimilation and Contrast Effects in Part-Whole Question Sequences: A Conversational Logic Analysis</a></strong>, Schwarz et al. (1991). Public Opinion Quarterly. <a href="https://doi.org/10.1086/269239">View paper</a></li>
+        <li><strong><a href="https://forrt.org/flora-replication-atlas/doi/10.1093/analys/63.3.190/">Intentional action and side effects in ordinary language</a></strong>, Knobe (2003). Analysis. <a href="https://doi.org/10.1093/analys/63.3.190">View paper</a></li>
+        <li><strong><a href="https://forrt.org/flora-replication-atlas/doi/10.1111/1467-9280.00334/">Money, Kisses, and Electric Shocks: On the Affective Psychology of Risk</a></strong>, Rottenstreich &amp; Hsee (2001). Psychological Science. <a href="https://doi.org/10.1111/1467-9280.00334">View paper</a></li>
+        <li><strong><a href="https://forrt.org/flora-replication-atlas/doi/10.1111/j.1468-0017.2006.00297.x/">A Dissociation Between Moral Judgments and Justifications</a></strong>, HAUSER et al. (2007). Mind &amp; Language. <a href="https://doi.org/10.1111/j.1468-0017.2006.00297.x">View paper</a></li>
+        <li><strong><a href="https://forrt.org/flora-replication-atlas/doi/10.1126/science.1130726/">Washing Away Your Sins: Threatened Morality and Physical Cleansing</a></strong>, Zhong &amp; Liljenquist (2006). Science. <a href="https://doi.org/10.1126/science.1130726">View paper</a></li>
+        <li><strong><a href="https://forrt.org/flora-replication-atlas/doi/10.1126/science.7455683/">The Framing of Decisions and the Psychology of Choice</a></strong>, Tversky &amp; Kahneman (1981). Science. <a href="https://doi.org/10.1126/science.7455683">View paper</a></li>
+        <li><strong><a href="https://forrt.org/flora-replication-atlas/doi/10.1177/0956797609359908/">What Counts as a Choice?</a></strong>, Savani et al. (2010). Psychological Science. <a href="https://doi.org/10.1177/0956797609359908">View paper</a></li>
+        <li><strong><a href="https://forrt.org/flora-replication-atlas/doi/10.1177/0956797611429579/">Cuing Consumerism</a></strong>, Bauer et al. (2012). Psychological Science. <a href="https://doi.org/10.1177/0956797611429579">View paper</a></li>
+        <li><strong><a href="https://forrt.org/flora-replication-atlas/doi/10.1177/0956797611434537/">The Local-Ladder Effect</a></strong>, Anderson et al. (2012). Psychological Science. <a href="https://doi.org/10.1177/0956797611434537">View paper</a></li>
+        <li><strong><a href="https://forrt.org/flora-replication-atlas/doi/10.3758/bf03197186/">Choosing versus rejecting: Why some options are both better and worse than others</a></strong>, Shafir (1993). Memory &amp; Cognition. <a href="https://doi.org/10.3758/bf03197186">View paper</a></li>
+        <li><strong><a href="https://forrt.org/flora-replication-atlas/doi/10.4324/9781032633275-7/">Studies of Similarity</a></strong>, Tversky &amp; Gati (1978). Cognition and Categorization. <a href="https://doi.org/10.4324/9781032633275-7">View paper</a></li>
+        <li><strong><a href="https://forrt.org/flora-replication-atlas/doi/10.1002/(sici)1099-0771(199806)11:2%3c107::aid-bdm292%3e3.0.co;2-y/">Less is better: when low-value options are valued more highly than high-value options</a></strong>, Hsee (1998). Journal of Behavioral Decision Making. <a href="https://doi.org/10.1002/(sici)1099-0771(199806)11:2%3c107::aid-bdm292%3e3.0.co;2-y">View paper</a></li>
+        </ul>
+        
+
+        <h2>Cite this record</h2>
+        <p class="ssg-cite">Klein, R. A., Vianello, M., Hasselman, F., Adams, B. G., Adams, R. B., Alper, S., Aveyard, M., Axt, J. R., Babalola, M. T., Bahník, Š., Batra, R., Berkics, M., Bernstein, M. J., Berry, D. R., Bialobrzeska, O., Binan, E. D., Bocian, K., Brandt, M. J., Busching, R., … Nosek, B. A. (2018). Many Labs 2: Investigating Variation in Replicability Across Samples and Settings. Advances in Methods and Practices in Psychological Science, 1(4), 443–490. https://doi.org/10.1177/2515245918810225</p>
+
+        <h2>Other studies in the atlas</h2>
+        <ul class="ssg-related">
+        <li><a href="https://forrt.org/flora-replication-atlas/doi/10.1177/25152459241267902/">Registered Replication Report: A Large Multilab Cross-Cultural Conceptual Replication of…</a></li>
+        <li><a href="https://forrt.org/flora-replication-atlas/doi/10.1177/2515245920903079/">Registered Replication Report on Fischer, Castel, Dodd, and Pratt (2003)</a></li>
+        <li><a href="https://forrt.org/flora-replication-atlas/doi/10.1177/2515245920927643/">Many Labs 5: Replication of van Dijk, van Kleef, Steinel, and van Beest (2008)</a></li>
+        <li><a href="https://forrt.org/flora-replication-atlas/doi/10.1177/2515245920917931/">Many Labs 5: Registered Replication of Vohs and Schooler (2008), Experiment 1</a></li>
+        <li><a href="https://forrt.org/flora-replication-atlas/doi/10.1177/2515245919885609/">Many Labs 5: Registered Replication of Payne, Burkley, and Stokes (2008), Study 4</a></li>
+        <li><a href="https://forrt.org/flora-replication-atlas/doi/10.1177/2515245919870737/">Many Labs 5: Registered Replication of Crosby, Monin, and Richardson (2008)</a></li>
+        </ul>
+        <p><a href="https://forrt.org/flora-replication-atlas/browse/outcome/failed/">Failed replications</a> &middot;
+        <a href="https://forrt.org/flora-replication-atlas/browse/outcome/successful/">Successful replications</a> &middot;
+        <a href="https://forrt.org/flora-replication-atlas/browse/">All browse pages</a></p>
+      </main>
+      <!--ssg-end-->
+    </div>
+    <!-- GitHub Pages SPA redirect restore -->
+    <script>
+      (function () {
+        var redirect = sessionStorage.redirect;
+        delete sessionStorage.redirect;
+        if (redirect && redirect !== location.href) {
+          history.replaceState(null, "", redirect);
+        }
+      })();
+      // Handle 404.html redirect query format: /?/doi/10.xxx
+      (function () {
+        var l = window.location;
+        if (l.search[1] === "/") {
+          var decoded = l.search
+            .slice(1)
+            .split("&")
+            .map(function (s) {
+              return s.replace(/~and~/g, "&");
+            })
+            .join("?");
+          var path = decoded.split("?")[0];
+          var query = decoded.split("?")[1] || "";
+          history.replaceState(
+            null,
+            "",
+            l.pathname.slice(0, -1) +
+              path +
+              (query ? "?" + query : "") +
+              l.hash,
+          );
+        }
+      })();
+    </script>
+  </body>
+</html>

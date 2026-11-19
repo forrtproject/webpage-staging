@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="/flora-replication-atlas/icon_hub.webp" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#853953" />
+    <title>The statistical significance filter… — a replication attempt</title>
+    <meta name="description" content="Vasishth et al. (2018, Journal of Memory and Language). A replication attempt of Levy &amp; Keller, indexed in the FLoRA Replication Atlas." />
+    <link rel="canonical" href="https://forrt.org/flora-replication-atlas/doi/10.1016/j.jml.2018.07.004/" />
+
+    <!-- Vite prepends the configured base to root-relative HTML asset paths.
+         (CSS url() is left alone, so src/fonts.css carries the base itself.) -->
+    <link rel="preload" as="font" type="font/woff2" href="/flora-replication-atlas/fonts/domine-latin-normal.woff2" crossorigin />
+    <link rel="preload" as="font" type="font/woff2" href="/flora-replication-atlas/fonts/sourcesans3-latin-normal.woff2" crossorigin />
+
+    <!-- Nothing paints until this cross-origin POST returns, so pay DNS and TLS up front. -->
+    <link rel="preconnect" href="https://rep-api.forrt.org" crossorigin />
+    <link rel="dns-prefetch" href="https://rep-api.forrt.org" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="The statistical significance filter… — a replication attempt" />
+    <meta property="og:description" content="Vasishth et al. (2018, Journal of Memory and Language). A replication attempt of Levy &amp; Keller, indexed in the FLoRA Replication Atlas." />
+    <meta property="og:url" content="https://forrt.org/flora-replication-atlas/doi/10.1016/j.jml.2018.07.004/" />
+    <meta property="og:site_name" content="FLoRA Replication Atlas" />
+    <meta property="og:image" content="https://forrt.org/flora-replication-atlas/doi/10.1016/j.jml.2018.07.004/og.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="FLoRA Replication Atlas. Has this study been replicated?" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="The statistical significance filter… — a replication attempt" />
+    <meta name="twitter:description" content="Vasishth et al. (2018, Journal of Memory and Language). A replication attempt of Levy &amp; Keller, indexed in the FLoRA Replication Atlas." />
+    <meta name="twitter:image" content="https://forrt.org/flora-replication-atlas/doi/10.1016/j.jml.2018.07.004/og.png" />
+    <meta name="twitter:image:alt" content="FLoRA Replication Atlas. Has this study been replicated?" />
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {"@context":"https://schema.org","@graph":[{"@type":"ScholarlyArticle","@id":"https://forrt.org/flora-replication-atlas/doi/10.1016/j.jml.2018.07.004/#article","mainEntityOfPage":"https://forrt.org/flora-replication-atlas/doi/10.1016/j.jml.2018.07.004/","name":"The statistical significance filter leads to overoptimistic expectations of replicability","headline":"The statistical significance filter leads to overoptimistic expectations of replicability","author":[{"@type":"Person","givenName":"Shravan","familyName":"Vasishth","name":"Shravan Vasishth"},{"@type":"Person","givenName":"Daniela","familyName":"Mertzen","name":"Daniela Mertzen"},{"@type":"Person","givenName":"Lena A.","familyName":"Jäger","name":"Lena A. Jäger"},{"@type":"Person","givenName":"Andrew","familyName":"Gelman","name":"Andrew Gelman"}],"datePublished":"2018","isPartOf":{"@type":"Periodical","name":"Journal of Memory and Language"},"identifier":{"@type":"PropertyValue","propertyID":"DOI","value":"10.1016/j.jml.2018.07.004"},"url":"https://forrt.org/flora-replication-atlas/doi/10.1016/j.jml.2018.07.004/","sameAs":"https://doi.org/10.1016/j.jml.2018.07.004","description":"Vasishth et al. (2018, Journal of Memory and Language). A replication attempt of Levy & Keller, indexed in the FLoRA Replication Atlas.","keywords":["Vasishth","Mertzen","Jäger","Gelman","Journal of Memory and Language","2018","replication","reproducibility","open science"],"isBasedOn":{"@id":"https://forrt.org/flora-replication-atlas/#dataset"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"FLoRA Replication Atlas","item":"https://forrt.org/flora-replication-atlas/"},{"@type":"ListItem","position":2,"name":"Studies","item":"https://forrt.org/flora-replication-atlas/browse/"},{"@type":"ListItem","position":3,"name":"The statistical significance filter leads to overoptimistic expectations of replicability","item":"https://forrt.org/flora-replication-atlas/doi/10.1016/j.jml.2018.07.004/"}]}]}
+    </script>
+    <script type="module" crossorigin src="/flora-replication-atlas/assets/index-CV4E7fj6.js"></script>
+    <link rel="stylesheet" crossorigin href="/flora-replication-atlas/assets/index-Bmral-5j.css">
+    <meta property="article:author" content="Shravan Vasishth">
+  <meta property="article:author" content="Daniela Mertzen">
+  <meta property="article:author" content="Lena A. Jäger">
+  <meta property="article:author" content="Andrew Gelman">
+</head>
+  <body>
+    <div id="root">
+      <!--ssg-start-->
+      <main class="ssg">
+        <p class="ssg-meta"><a href="https://forrt.org/flora-replication-atlas/">FLoRA Replication Atlas</a> &rsaquo; <a href="https://forrt.org/flora-replication-atlas/browse/">Browse</a></p>
+        <h1>The statistical significance filter leads to overoptimistic expectations of replicability</h1>
+        <p class="ssg-meta">Shravan Vasishth, Daniela Mertzen, Lena A. Jäger, Andrew Gelman</p>
+        <p class="ssg-meta">Journal of Memory and Language, 2018. DOI <a href="https://doi.org/10.1016/j.jml.2018.07.004">10.1016/j.jml.2018.07.004</a></p>
+
+        <h2>Has this study been replicated?</h2>
+        <p>This paper is itself a replication attempt. The study it set out to replicate is listed below.</p>
+        
+        
+        <h3>Study replicated</h3>
+        <ul>
+        <li><strong><a href="https://forrt.org/flora-replication-atlas/doi/10.1016/j.jml.2012.02.005/">Expectation and locality effects in German verb-final structures</a></strong>, Levy &amp; Keller (2013). Journal of Memory and Language. <a href="https://doi.org/10.1016/j.jml.2012.02.005">View paper</a></li>
+        </ul>
+        
+
+        <h2>Cite this record</h2>
+        <p class="ssg-cite">Vasishth, S., Mertzen, D., Jäger, L. A., &amp; Gelman, A. (2018). The statistical significance filter leads to overoptimistic expectations of replicability. Journal of Memory and Language, 103, 151–175. https://doi.org/10.1016/j.jml.2018.07.004</p>
+
+        <h2>Other studies in the atlas</h2>
+        <ul class="ssg-related">
+        <li><a href="https://forrt.org/flora-replication-atlas/doi/10.1371/journal.pone.0198620/">Processing of ellipsis with garden-path antecedents in French and German: Evidence from…</a></li>
+        <li><a href="https://forrt.org/flora-replication-atlas/doi/10.1111/ajps.12004/">Deep Interactions with MRP: Election Turnout and Voting Patterns Among Small Electoral…</a></li>
+        <li><a href="https://forrt.org/flora-replication-atlas/doi/10.1080/2330443x.2016.1277966/">The 2008 Election: A Preregistered Replication Analysis</a></li>
+        <li><a href="https://forrt.org/flora-replication-atlas/doi/10.1016/j.jml.2012.02.005/">Expectation and locality effects in German verb-final structures</a></li>
+        <li><a href="https://forrt.org/flora-replication-atlas/doi/10.1006/jmla.2000.2757/">The Contribution of Argument Structure Constructions to Sentence Meaning</a></li>
+        <li><a href="https://forrt.org/flora-replication-atlas/doi/10.1006/jmla.1996.0032/">Word Segmentation: The Role of Distributional Cues</a></li>
+        </ul>
+        <p><a href="https://forrt.org/flora-replication-atlas/browse/outcome/failed/">Failed replications</a> &middot;
+        <a href="https://forrt.org/flora-replication-atlas/browse/outcome/successful/">Successful replications</a> &middot;
+        <a href="https://forrt.org/flora-replication-atlas/browse/">All browse pages</a></p>
+      </main>
+      <!--ssg-end-->
+    </div>
+    <!-- GitHub Pages SPA redirect restore -->
+    <script>
+      (function () {
+        var redirect = sessionStorage.redirect;
+        delete sessionStorage.redirect;
+        if (redirect && redirect !== location.href) {
+          history.replaceState(null, "", redirect);
+        }
+      })();
+      // Handle 404.html redirect query format: /?/doi/10.xxx
+      (function () {
+        var l = window.location;
+        if (l.search[1] === "/") {
+          var decoded = l.search
+            .slice(1)
+            .split("&")
+            .map(function (s) {
+              return s.replace(/~and~/g, "&");
+            })
+            .join("?");
+          var path = decoded.split("?")[0];
+          var query = decoded.split("?")[1] || "";
+          history.replaceState(
+            null,
+            "",
+            l.pathname.slice(0, -1) +
+              path +
+              (query ? "?" + query : "") +
+              l.hash,
+          );
+        }
+      })();
+    </script>
+  </body>
+</html>

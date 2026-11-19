@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="/flora-replication-atlas/icon_hub.webp" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#853953" />
+    <title>Farmers' risk preferences in 11… — a replication attempt</title>
+    <meta name="description" content="Rommel et al. (2022, Applied Economic Perspectives and Policy). A replication attempt of Bocquého et al., indexed in the FLoRA Replication Atlas." />
+    <link rel="canonical" href="https://forrt.org/flora-replication-atlas/doi/10.1002/aepp.13330/" />
+
+    <!-- Vite prepends the configured base to root-relative HTML asset paths.
+         (CSS url() is left alone, so src/fonts.css carries the base itself.) -->
+    <link rel="preload" as="font" type="font/woff2" href="/flora-replication-atlas/fonts/domine-latin-normal.woff2" crossorigin />
+    <link rel="preload" as="font" type="font/woff2" href="/flora-replication-atlas/fonts/sourcesans3-latin-normal.woff2" crossorigin />
+
+    <!-- Nothing paints until this cross-origin POST returns, so pay DNS and TLS up front. -->
+    <link rel="preconnect" href="https://rep-api.forrt.org" crossorigin />
+    <link rel="dns-prefetch" href="https://rep-api.forrt.org" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="Farmers' risk preferences in 11… — a replication attempt" />
+    <meta property="og:description" content="Rommel et al. (2022, Applied Economic Perspectives and Policy). A replication attempt of Bocquého et al., indexed in the FLoRA Replication Atlas." />
+    <meta property="og:url" content="https://forrt.org/flora-replication-atlas/doi/10.1002/aepp.13330/" />
+    <meta property="og:site_name" content="FLoRA Replication Atlas" />
+    <meta property="og:image" content="https://forrt.org/flora-replication-atlas/doi/10.1002/aepp.13330/og.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="FLoRA Replication Atlas. Has this study been replicated?" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Farmers' risk preferences in 11… — a replication attempt" />
+    <meta name="twitter:description" content="Rommel et al. (2022, Applied Economic Perspectives and Policy). A replication attempt of Bocquého et al., indexed in the FLoRA Replication Atlas." />
+    <meta name="twitter:image" content="https://forrt.org/flora-replication-atlas/doi/10.1002/aepp.13330/og.png" />
+    <meta name="twitter:image:alt" content="FLoRA Replication Atlas. Has this study been replicated?" />
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {"@context":"https://schema.org","@graph":[{"@type":"ScholarlyArticle","@id":"https://forrt.org/flora-replication-atlas/doi/10.1002/aepp.13330/#article","mainEntityOfPage":"https://forrt.org/flora-replication-atlas/doi/10.1002/aepp.13330/","name":"Farmers' risk preferences in 11 European farming systems: A multi‐country replication of Bocquého et al. (2014)","headline":"Farmers' risk preferences in 11 European farming systems: A multi‐country replication of Bocquého et al. (2014)","author":[{"@type":"Person","givenName":"Jens","familyName":"Rommel","name":"Jens Rommel"},{"@type":"Person","givenName":"Julian","familyName":"Sagebiel","name":"Julian Sagebiel"},{"@type":"Person","givenName":"Marieke Cornelia","familyName":"Baaken","name":"Marieke Cornelia Baaken"},{"@type":"Person","givenName":"Jesús","familyName":"Barreiro‐Hurlé","name":"Jesús Barreiro‐Hurlé"},{"@type":"Person","givenName":"Douadia","familyName":"Bougherara","name":"Douadia Bougherara"},{"@type":"Person","givenName":"Luigi","familyName":"Cembalo","name":"Luigi Cembalo"},{"@type":"Person","givenName":"Marija","familyName":"Cerjak","name":"Marija Cerjak"},{"@type":"Person","givenName":"Tajana","familyName":"Čop","name":"Tajana Čop"},{"@type":"Person","givenName":"Mikołaj","familyName":"Czajkowski","name":"Mikołaj Czajkowski"},{"@type":"Person","givenName":"María","familyName":"Espinosa‐Goded","name":"María Espinosa‐Goded"},{"@type":"Person","givenName":"Julia","familyName":"Höhler","name":"Julia Höhler"},{"@type":"Person","givenName":"Laure","familyName":"Kuhfuss","name":"Laure Kuhfuss"},{"@type":"Person","givenName":"Carl‐Johan","familyName":"Lagerkvist","name":"Carl‐Johan Lagerkvist"},{"@type":"Person","givenName":"Margaux","familyName":"Lapierre","name":"Margaux Lapierre"},{"@type":"Person","givenName":"Marianne","familyName":"Lefebvre","name":"Marianne Lefebvre"},{"@type":"Person","givenName":"Bettina","familyName":"Matzdorf","name":"Bettina Matzdorf"},{"@type":"Person","givenName":"Edward","familyName":"Ott","name":"Edward Ott"},{"@type":"Person","givenName":"Antonio","familyName":"Paparella","name":"Antonio Paparella"},{"@type":"Person","givenName":"Erika","familyName":"Quendler","name":"Erika Quendler"},{"@type":"Person","givenName":"Macario","familyName":"Rodriguez‐Entrena","name":"Macario Rodriguez‐Entrena"},{"@type":"Person","givenName":"Christoph","familyName":"Schulze","name":"Christoph Schulze"},{"@type":"Person","givenName":"Tanja","familyName":"Šumrada","name":"Tanja Šumrada"},{"@type":"Person","givenName":"Annika","familyName":"Tensi","name":"Annika Tensi"},{"@type":"Person","givenName":"Sophie","familyName":"Thoyer","name":"Sophie Thoyer"},{"@type":"Person","givenName":"Marina Tomić","familyName":"Maksan","name":"Marina Tomić Maksan"},{"@type":"Person","givenName":"Riccardo","familyName":"Vecchio","name":"Riccardo Vecchio"},{"@type":"Person","givenName":"Marc","familyName":"Willinger","name":"Marc Willinger"},{"@type":"Person","givenName":"Katarzyna","familyName":"Zagórska","name":"Katarzyna Zagórska"}],"datePublished":"2022","isPartOf":{"@type":"Periodical","name":"Applied Economic Perspectives and Policy"},"identifier":{"@type":"PropertyValue","propertyID":"DOI","value":"10.1002/aepp.13330"},"url":"https://forrt.org/flora-replication-atlas/doi/10.1002/aepp.13330/","sameAs":"https://doi.org/10.1002/aepp.13330","description":"Rommel et al. (2022, Applied Economic Perspectives and Policy). A replication attempt of Bocquého et al., indexed in the FLoRA Replication Atlas.","keywords":["Rommel","Sagebiel","Baaken","Barreiro‐Hurlé","Bougherara","Cembalo","Cerjak","Čop","Czajkowski","Espinosa‐Goded","Höhler","Kuhfuss","Lagerkvist","Lapierre","Lefebvre","Matzdorf","Ott","Paparella","Quendler","Rodriguez‐Entrena","Schulze","Šumrada","Tensi","Thoyer","Maksan","Vecchio","Willinger","Zagórska","Applied Economic Perspectives and Policy","2022","replication","reproducibility","open science"],"isBasedOn":{"@id":"https://forrt.org/flora-replication-atlas/#dataset"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"FLoRA Replication Atlas","item":"https://forrt.org/flora-replication-atlas/"},{"@type":"ListItem","position":2,"name":"Studies","item":"https://forrt.org/flora-replication-atlas/browse/"},{"@type":"ListItem","position":3,"name":"Farmers' risk preferences in 11 European farming systems: A multi‐country replication of Bocquého et al. (2014)","item":"https://forrt.org/flora-replication-atlas/doi/10.1002/aepp.13330/"}]}]}
+    </script>
+    <script type="module" crossorigin src="/flora-replication-atlas/assets/index-CV4E7fj6.js"></script>
+    <link rel="stylesheet" crossorigin href="/flora-replication-atlas/assets/index-Bmral-5j.css">
+    <meta property="article:author" content="Jens Rommel">
+  <meta property="article:author" content="Julian Sagebiel">
+  <meta property="article:author" content="Marieke Cornelia Baaken">
+  <meta property="article:author" content="Jesús Barreiro‐Hurlé">
+  <meta property="article:author" content="Douadia Bougherara">
+  <meta property="article:author" content="Luigi Cembalo">
+  <meta property="article:author" content="Marija Cerjak">
+  <meta property="article:author" content="Tajana Čop">
+  <meta property="article:author" content="Mikołaj Czajkowski">
+  <meta property="article:author" content="María Espinosa‐Goded">
+  <meta property="article:author" content="Julia Höhler">
+  <meta property="article:author" content="Laure Kuhfuss">
+  <meta property="article:author" content="Carl‐Johan Lagerkvist">
+  <meta property="article:author" content="Margaux Lapierre">
+  <meta property="article:author" content="Marianne Lefebvre">
+  <meta property="article:author" content="Bettina Matzdorf">
+  <meta property="article:author" content="Edward Ott">
+  <meta property="article:author" content="Antonio Paparella">
+  <meta property="article:author" content="Erika Quendler">
+  <meta property="article:author" content="Macario Rodriguez‐Entrena">
+  <meta property="article:author" content="Christoph Schulze">
+  <meta property="article:author" content="Tanja Šumrada">
+  <meta property="article:author" content="Annika Tensi">
+  <meta property="article:author" content="Sophie Thoyer">
+  <meta property="article:author" content="Marina Tomić Maksan">
+  <meta property="article:author" content="Riccardo Vecchio">
+  <meta property="article:author" content="Marc Willinger">
+  <meta property="article:author" content="Katarzyna Zagórska">
+</head>
+  <body>
+    <div id="root">
+      <!--ssg-start-->
+      <main class="ssg">
+        <p class="ssg-meta"><a href="https://forrt.org/flora-replication-atlas/">FLoRA Replication Atlas</a> &rsaquo; <a href="https://forrt.org/flora-replication-atlas/browse/">Browse</a></p>
+        <h1>Farmers' risk preferences in 11 European farming systems: A multi‐country replication of Bocquého et al. (2014)</h1>
+        <p class="ssg-meta">Jens Rommel, Julian Sagebiel, Marieke Cornelia Baaken, Jesús Barreiro‐Hurlé, Douadia Bougherara, Luigi Cembalo, Marija Cerjak, Tajana Čop, Mikołaj Czajkowski, María Espinosa‐Goded, Julia Höhler, Laure Kuhfuss, Carl‐Johan Lagerkvist, Margaux Lapierre, Marianne Lefebvre, Bettina Matzdorf, Edward Ott, Antonio Paparella, Erika Quendler, Macario Rodriguez‐Entrena, Christoph Schulze, Tanja Šumrada, Annika Tensi, Sophie Thoyer, Marina Tomić Maksan, Riccardo Vecchio, Marc Willinger, Katarzyna Zagórska</p>
+        <p class="ssg-meta">Applied Economic Perspectives and Policy, 2022. DOI <a href="https://doi.org/10.1002/aepp.13330">10.1002/aepp.13330</a></p>
+
+        <h2>Has this study been replicated?</h2>
+        <p>This paper is itself a replication attempt. The study it set out to replicate is listed below.</p>
+        
+        
+        <h3>Study replicated</h3>
+        <ul>
+        <li><strong><a href="https://forrt.org/flora-replication-atlas/doi/10.1093/erae/jbt006/">Expected utility or prospect theory maximisers? Assessing farmers' risk behaviour from field-experiment data</a></strong>, Bocquého et al. (2013). European Review of Agricultural Economics. <a href="https://doi.org/10.1093/erae/jbt006">View paper</a></li>
+        </ul>
+        
+
+        <h2>Cite this record</h2>
+        <p class="ssg-cite">Rommel, J., Sagebiel, J., Baaken, M. C., Barreiro‐Hurlé, J., Bougherara, D., Cembalo, L., Cerjak, M., Čop, T., Czajkowski, M., Espinosa‐Goded, M., Höhler, J., Kuhfuss, L., Lagerkvist, C., Lapierre, M., Lefebvre, M., Matzdorf, B., Ott, E., Paparella, A., Quendler, E., … Zagórska, K. (2022). Farmers' risk preferences in 11 European farming systems: A multi‐country replication of Bocquého et al. (2014). Applied Economic Perspectives and Policy, 45(3), 1374–1399. Portico. https://doi.org/10.1002/aepp.13330</p>
+
+        <h2>Other studies in the atlas</h2>
+        <ul class="ssg-related">
+        <li><a href="https://forrt.org/flora-replication-atlas/doi/10.1038/s41591-024-03283-1/">Data-driven cluster analysis identifies distinct types of metabolic…</a></li>
+        <li><a href="https://forrt.org/flora-replication-atlas/doi/10.1187/cbe.19-12-0271/">&quot;I Like and Prefer to Work Alone&quot;: Social Anxiety, Academic Self-Efficacy, and Students'…</a></li>
+        <li><a href="https://forrt.org/flora-replication-atlas/doi/10.1177/0014402917708216/">Curriculum-Based Measurement of Reading Growth: Weekly Versus Intermittent Progress…</a></li>
+        <li><a href="https://forrt.org/flora-replication-atlas/doi/10.1007/s00248-024-02368-1/">Bats, Bacteria, and Bat Smell V.2.0: Repeatable Sex-Specific Differences in Scent Organ…</a></li>
+        <li><a href="https://forrt.org/flora-replication-atlas/doi/10.1002/art.38110/">A Genome‐Wide Association Study Reveals ARL15, a Novel Non‐HLA Susceptibility Gene for…</a></li>
+        <li><a href="https://forrt.org/flora-replication-atlas/doi/10.31234/osf.io/knh68/">Dispositional Cognitive Effort Investment and Behavioral Demand Avoidance: Are They…</a></li>
+        </ul>
+        <p><a href="https://forrt.org/flora-replication-atlas/browse/outcome/failed/">Failed replications</a> &middot;
+        <a href="https://forrt.org/flora-replication-atlas/browse/outcome/successful/">Successful replications</a> &middot;
+        <a href="https://forrt.org/flora-replication-atlas/browse/">All browse pages</a></p>
+      </main>
+      <!--ssg-end-->
+    </div>
+    <!-- GitHub Pages SPA redirect restore -->
+    <script>
+      (function () {
+        var redirect = sessionStorage.redirect;
+        delete sessionStorage.redirect;
+        if (redirect && redirect !== location.href) {
+          history.replaceState(null, "", redirect);
+        }
+      })();
+      // Handle 404.html redirect query format: /?/doi/10.xxx
+      (function () {
+        var l = window.location;
+        if (l.search[1] === "/") {
+          var decoded = l.search
+            .slice(1)
+            .split("&")
+            .map(function (s) {
+              return s.replace(/~and~/g, "&");
+            })
+            .join("?");
+          var path = decoded.split("?")[0];
+          var query = decoded.split("?")[1] || "";
+          history.replaceState(
+            null,
+            "",
+            l.pathname.slice(0, -1) +
+              path +
+              (query ? "?" + query : "") +
+              l.hash,
+          );
+        }
+      })();
+    </script>
+  </body>
+</html>

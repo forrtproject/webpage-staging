@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="/flora-replication-atlas/icon_hub.webp" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#853953" />
+    <title>When testing meets code review — replicated: mixed</title>
+    <meta name="description" content="When testing meets code review — Spadini et al. (2018, Proceedings of the 40th International…). 1 replication attempt on record: mixed." />
+    <link rel="canonical" href="https://forrt.org/flora-replication-atlas/doi/10.1145/3180155.3180192/" />
+
+    <!-- Vite prepends the configured base to root-relative HTML asset paths.
+         (CSS url() is left alone, so src/fonts.css carries the base itself.) -->
+    <link rel="preload" as="font" type="font/woff2" href="/flora-replication-atlas/fonts/domine-latin-normal.woff2" crossorigin />
+    <link rel="preload" as="font" type="font/woff2" href="/flora-replication-atlas/fonts/sourcesans3-latin-normal.woff2" crossorigin />
+
+    <!-- Nothing paints until this cross-origin POST returns, so pay DNS and TLS up front. -->
+    <link rel="preconnect" href="https://rep-api.forrt.org" crossorigin />
+    <link rel="dns-prefetch" href="https://rep-api.forrt.org" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="When testing meets code review — replicated: mixed" />
+    <meta property="og:description" content="When testing meets code review — Spadini et al. (2018, Proceedings of the 40th International…). 1 replication attempt on record: mixed." />
+    <meta property="og:url" content="https://forrt.org/flora-replication-atlas/doi/10.1145/3180155.3180192/" />
+    <meta property="og:site_name" content="FLoRA Replication Atlas" />
+    <meta property="og:image" content="https://forrt.org/flora-replication-atlas/doi/10.1145/3180155.3180192/og.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="FLoRA Replication Atlas. Has this study been replicated?" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="When testing meets code review — replicated: mixed" />
+    <meta name="twitter:description" content="When testing meets code review — Spadini et al. (2018, Proceedings of the 40th International…). 1 replication attempt on record: mixed." />
+    <meta name="twitter:image" content="https://forrt.org/flora-replication-atlas/doi/10.1145/3180155.3180192/og.png" />
+    <meta name="twitter:image:alt" content="FLoRA Replication Atlas. Has this study been replicated?" />
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {"@context":"https://schema.org","@graph":[{"@type":"ScholarlyArticle","@id":"https://forrt.org/flora-replication-atlas/doi/10.1145/3180155.3180192/#article","mainEntityOfPage":"https://forrt.org/flora-replication-atlas/doi/10.1145/3180155.3180192/","name":"When testing meets code review","headline":"When testing meets code review","author":[{"@type":"Person","givenName":"Davide","familyName":"Spadini","name":"Davide Spadini"},{"@type":"Person","givenName":"Maurício","familyName":"Aniche","name":"Maurício Aniche"},{"@type":"Person","givenName":"Margaret-Anne","familyName":"Storey","name":"Margaret-Anne Storey"},{"@type":"Person","givenName":"Magiel","familyName":"Bruntink","name":"Magiel Bruntink"},{"@type":"Person","givenName":"Alberto","familyName":"Bacchelli","name":"Alberto Bacchelli"}],"datePublished":"2018","isPartOf":{"@type":"Periodical","name":"Proceedings of the 40th International Conference on Software Engineering"},"identifier":{"@type":"PropertyValue","propertyID":"DOI","value":"10.1145/3180155.3180192"},"url":"https://forrt.org/flora-replication-atlas/doi/10.1145/3180155.3180192/","sameAs":"https://doi.org/10.1145/3180155.3180192","description":"When testing meets code review — Spadini et al. (2018, Proceedings of the 40th International…). 1 replication attempt on record: mixed.","keywords":["Spadini","Aniche","Storey","Bruntink","Bacchelli","Proceedings of the 40th International Conference on Software Engineering","2018","mixed replication","replication","reproducibility","open science"],"isBasedOn":{"@id":"https://forrt.org/flora-replication-atlas/#dataset"},"subjectOf":[{"@type":"ScholarlyArticle","name":"Test Code Review in the Era of GitHub Actions: A Replication Study","additionalType":"https://forrt.org/flora-replication-atlas/#ReplicationStudy","url":"https://forrt.org/flora-replication-atlas/doi/10.48550/arxiv.2603.15935/","mainEntityOfPage":"https://forrt.org/flora-replication-atlas/doi/10.48550/arxiv.2603.15935/","description":"Outcome: mixed","datePublished":"2026","identifier":{"@type":"PropertyValue","propertyID":"DOI","value":"10.48550/arxiv.2603.15935"},"sameAs":"https://doi.org/10.48550/arxiv.2603.15935"}]},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"FLoRA Replication Atlas","item":"https://forrt.org/flora-replication-atlas/"},{"@type":"ListItem","position":2,"name":"Studies","item":"https://forrt.org/flora-replication-atlas/browse/"},{"@type":"ListItem","position":3,"name":"When testing meets code review","item":"https://forrt.org/flora-replication-atlas/doi/10.1145/3180155.3180192/"}]}]}
+    </script>
+    <script type="module" crossorigin src="/flora-replication-atlas/assets/index-CV4E7fj6.js"></script>
+    <link rel="stylesheet" crossorigin href="/flora-replication-atlas/assets/index-Bmral-5j.css">
+    <meta property="article:author" content="Davide Spadini">
+  <meta property="article:author" content="Maurício Aniche">
+  <meta property="article:author" content="Margaret-Anne Storey">
+  <meta property="article:author" content="Magiel Bruntink">
+  <meta property="article:author" content="Alberto Bacchelli">
+</head>
+  <body>
+    <div id="root">
+      <!--ssg-start-->
+      <main class="ssg">
+        <p class="ssg-meta"><a href="https://forrt.org/flora-replication-atlas/">FLoRA Replication Atlas</a> &rsaquo; <a href="https://forrt.org/flora-replication-atlas/browse/">Browse</a></p>
+        <h1>When testing meets code review</h1>
+        <p class="ssg-meta">Davide Spadini, Maurício Aniche, Margaret-Anne Storey, Magiel Bruntink, Alberto Bacchelli</p>
+        <p class="ssg-meta">Proceedings of the 40th International Conference on Software Engineering, 2018. DOI <a href="https://doi.org/10.1145/3180155.3180192">10.1145/3180155.3180192</a></p>
+
+        <h2>Has this study been replicated?</h2>
+        <p>The atlas records 1 replication of this study. Recorded outcomes: 1 mixed. The earliest on record is from 2026.</p>
+        <h3>Replications</h3>
+        <ul>
+        <li><strong><a href="https://forrt.org/flora-replication-atlas/doi/10.48550/arxiv.2603.15935/">Test Code Review in the Era of GitHub Actions: A Replication Study</a></strong>, Sun et al. (2026). arXiv. Outcome recorded: mixed. <q>Our replication reveals structural differences in how reviewers discuss test code: on GitHub, reviewers focus more on superficial code improvements (35% to 55%), while devoting less attention to defect detection and comprehension than on Gerrit. Notably, after the adoption of GHA, discussions on both test improvement and defect detection topics further declined, suggesting a shift of reviewer attention away from the quality of test code. • Our analysis of PRs that change…</q> Outcome read from the introduction. <a href="https://doi.org/10.48550/arxiv.2603.15935">View paper</a></li>
+        </ul>
+        
+        
+        
+
+        <h2>Cite this record</h2>
+        <p class="ssg-cite">Spadini, D., Aniche, M., Storey, M.-A., Bruntink, M., &amp; Bacchelli, A. (2018). When testing meets code review. Proceedings of the 40th International Conference on Software Engineering, 677–687. https://doi.org/10.1145/3180155.3180192</p>
+
+        <h2>Other studies in the atlas</h2>
+        <ul class="ssg-related">
+        <li><a href="https://forrt.org/flora-replication-atlas/doi/10.48550/arxiv.2603.15935/">Test Code Review in the Era of GitHub Actions: A Replication Study</a></li>
+        <li><a href="https://forrt.org/flora-replication-atlas/doi/10.1016/s0272-4944(05)80184-7/">Stress recovery during exposure to natural and urban environments</a></li>
+        <li><a href="https://forrt.org/flora-replication-atlas/doi/10.1016/j.jenvp.2026.102956/">Psychophysiological Recovery from Viewing Nature and Urban Settings: A Multisite…</a></li>
+        <li><a href="https://forrt.org/flora-replication-atlas/doi/10.1002/npr2.70010/">Proposal for a Novel Classification of Patients With Enlarged Ventricles and Cognitive…</a></li>
+        <li><a href="https://forrt.org/flora-replication-atlas/doi/10.1002/npr2.70078/">A Data‐Driven Psychiatric Disorder Subtype Defined by Significant Enlarged Ventricles…</a></li>
+        <li><a href="https://forrt.org/flora-replication-atlas/doi/10.1037/xlm0000546/">Children learn spurious associations in their math textbooks: Examples from fraction…</a></li>
+        </ul>
+        <p><a href="https://forrt.org/flora-replication-atlas/browse/outcome/failed/">Failed replications</a> &middot;
+        <a href="https://forrt.org/flora-replication-atlas/browse/outcome/successful/">Successful replications</a> &middot;
+        <a href="https://forrt.org/flora-replication-atlas/browse/">All browse pages</a></p>
+      </main>
+      <!--ssg-end-->
+    </div>
+    <!-- GitHub Pages SPA redirect restore -->
+    <script>
+      (function () {
+        var redirect = sessionStorage.redirect;
+        delete sessionStorage.redirect;
+        if (redirect && redirect !== location.href) {
+          history.replaceState(null, "", redirect);
+        }
+      })();
+      // Handle 404.html redirect query format: /?/doi/10.xxx
+      (function () {
+        var l = window.location;
+        if (l.search[1] === "/") {
+          var decoded = l.search
+            .slice(1)
+            .split("&")
+            .map(function (s) {
+              return s.replace(/~and~/g, "&");
+            })
+            .join("?");
+          var path = decoded.split("?")[0];
+          var query = decoded.split("?")[1] || "";
+          history.replaceState(
+            null,
+            "",
+            l.pathname.slice(0, -1) +
+              path +
+              (query ? "?" + query : "") +
+              l.hash,
+          );
+        }
+      })();
+    </script>
+  </body>
+</html>
