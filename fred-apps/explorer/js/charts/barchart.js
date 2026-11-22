@@ -128,7 +128,7 @@ FReD.charts.barchart = {
             borderColor: t.paper,
             borderWidth: 1
           },
-          emphasis: { focus: 'series' },
+          emphasis: { focus: 'none' },
           label: {
             show: labelText.length > 0,
             position: 'inside',

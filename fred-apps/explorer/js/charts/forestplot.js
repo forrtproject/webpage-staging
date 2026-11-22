@@ -267,7 +267,7 @@ FReD.charts.forestplot = {
       <div class="forest-controls">
         <div class="forest-controls-left">
           <span class="text-muted">
-            ${validStudies.length} effect sizes
+            ${validStudies.length} ${validStudies.length === 1 ? 'effect' : 'effects'}
           </span>
           <div class="forest-control-group">
             <label for="forest-sort-simple" class="forest-control-label">Sort:</label>
@@ -615,22 +615,26 @@ FReD.charts.forestplot = {
         return Number(clean.toFixed(2)).toString();
       };
 
+      const effectiveInterval = width < 460 ? Math.max(xInterval, 0.5) : xInterval;
+      const effMin = width < 460 ? Math.floor(rawMin / effectiveInterval) * effectiveInterval : xMin;
+      const effMax = width < 460 ? Math.ceil(rawMax / effectiveInterval) * effectiveInterval : xMax;
+
       const bottomAxis = FReD.charts.valueAxis({
         position: 'bottom',
         name: 'Effect Size (r)',
         nameGap: 30,
-        min: xMin,
-        max: xMax,
-        interval: xInterval,
+        min: effMin,
+        max: effMax,
+        interval: effectiveInterval,
         axisLabel: { formatter: formatAxisVal }
       });
 
       // Mirror scale at top so rows near the top of long scrolled forest plots always have a visible scale
       const topAxis = FReD.charts.valueAxis({
         position: 'top',
-        min: xMin,
-        max: xMax,
-        interval: xInterval,
+        min: effMin,
+        max: effMax,
+        interval: effectiveInterval,
         splitLine: { show: false },
         axisLabel: { formatter: formatAxisVal }
       });
@@ -658,7 +662,9 @@ FReD.charts.forestplot = {
     };
 
     const rowHeight = 28;
-    const plotHeight = Math.max(220, validStudies.length * rowHeight + 124);
+    const minHeight = validStudies.length <= 3 ? 150 : 220;
+    const chromeHeight = validStudies.length <= 3 ? 108 : 124;
+    const plotHeight = Math.max(minHeight, validStudies.length * rowHeight + chromeHeight);
 
     FReD.charts.mount(element, {
       title: `Forest plot (${rangeNote})`,

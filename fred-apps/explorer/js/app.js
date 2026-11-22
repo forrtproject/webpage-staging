@@ -71,12 +71,20 @@ FReD.explorer = {
   _activeModal: null,
   _lastFocusedEl: null,
 
+  _setBackgroundInert(inert) {
+    document.querySelectorAll('body > header, body > main, body > footer').forEach(el => {
+      el.inert = !!inert;
+    });
+    document.body.style.overflow = inert ? 'hidden' : '';
+  },
+
   openModal(modalEl, triggerEl) {
     if (!modalEl) return;
-    this._lastFocusedEl = triggerEl || document.activeElement;
+    this._lastFocusedEl = triggerEl || null;
     this._activeModal = modalEl;
     modalEl.classList.add('active');
     modalEl.setAttribute('aria-hidden', 'false');
+    this._setBackgroundInert(true);
     // Force style flush so visibility:visible is active before focusing
     void modalEl.offsetHeight;
 
@@ -96,6 +104,7 @@ FReD.explorer = {
     }
     modalEl.classList.remove('active');
     modalEl.setAttribute('aria-hidden', 'true');
+    this._setBackgroundInert(false);
     if (this._activeModal === modalEl) {
       this._activeModal = null;
     }
@@ -103,10 +112,11 @@ FReD.explorer = {
     this._lastFocusedEl = null;
     if (prev && typeof prev.focus === 'function' && document.contains(prev) && prev.offsetParent !== null) {
       prev.focus();
-    } else {
-      document.getElementById('topbar-menu-btn')?.offsetParent !== null
-        ? document.getElementById('topbar-menu-btn')?.focus()
-        : document.getElementById('about-link')?.focus();
+    } else if (document.activeElement && modalEl.contains(document.activeElement)) {
+      // First-run modal without trigger: move sequential focus cursor to top of document so the next Tab reaches .skip-link first
+      document.body.setAttribute('tabindex', '-1');
+      document.body.focus({ preventScroll: true });
+      document.body.removeAttribute('tabindex');
     }
   },
 
@@ -363,16 +373,57 @@ FReD.explorer = {
     const menuBtn = document.getElementById('topbar-menu-btn');
     const headerNav = document.getElementById('header-nav');
     if (menuBtn && headerNav) {
-      menuBtn.addEventListener('click', () => {
+      const closeMenu = (restoreFocus) => {
+        if (!headerNav.classList.contains('open')) return;
+        headerNav.classList.remove('open');
+        menuBtn.setAttribute('aria-expanded', 'false');
+        if (restoreFocus) menuBtn.focus();
+      };
+      menuBtn.addEventListener('click', (e) => {
+        e.stopPropagation();
         const isOpen = headerNav.classList.toggle('open');
         menuBtn.setAttribute('aria-expanded', String(isOpen));
       });
       headerNav.addEventListener('click', (e) => {
         if (e.target.closest('a')) {
-          headerNav.classList.remove('open');
-          menuBtn.setAttribute('aria-expanded', 'false');
+          closeMenu(false);
         }
       });
+      document.addEventListener('click', (e) => {
+        if (headerNav.classList.contains('open') && !headerNav.contains(e.target) && !menuBtn.contains(e.target)) {
+          closeMenu(false);
+        }
+      });
+      document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape' && headerNav.classList.contains('open')) {
+          e.preventDefault();
+          closeMenu(true);
+        }
+      });
+      headerNav.addEventListener('focusout', () => {
+        setTimeout(() => {
+          if (headerNav.classList.contains('open') && !headerNav.contains(document.activeElement) && document.activeElement !== menuBtn) {
+            closeMenu(false);
+          }
+        }, 0);
+      });
+    }
+
+    // Harden DataTables scrollX header/body width alignment across font loads and resizes
+    if (!this._tableAdjustBound) {
+      this._tableAdjustBound = true;
+      const adjustTables = FReD.utils.debounce(() => {
+        if (this.dataTable && document.getElementById('tab-overview')?.classList.contains('active')) {
+          this.dataTable.columns.adjust();
+        }
+        if (this.fullDataTable && document.getElementById('tab-data')?.classList.contains('active')) {
+          this.fullDataTable.columns.adjust();
+        }
+      }, 120);
+      window.addEventListener('resize', adjustTables);
+      if (document.fonts && document.fonts.ready) {
+        document.fonts.ready.then(adjustTables);
+      }
     }
   },
 
@@ -569,6 +620,7 @@ FReD.explorer = {
     if (!this._colSelectorDocBound) {
       this._colSelectorDocBound = true;
       document.addEventListener('click', (e) => {
+        if (!e.target.isConnected) return;
         const c = document.getElementById('column-selector-container');
         const dd = document.getElementById('column-selector-dropdown');
         const b = document.getElementById('column-selector-btn');
@@ -597,34 +649,44 @@ FReD.explorer = {
       }
     });
 
-    // Handle keyboard up/down move buttons
+    // Handle keyboard & pointer up/down move buttons without closing the popup
     dropdown?.addEventListener('click', (e) => {
       const moveBtn = e.target.closest('.column-move-btn');
       if (!moveBtn) return;
+      e.stopPropagation();
       const item = moveBtn.closest('.column-selector-item');
       if (!item) return;
       const dir = moveBtn.dataset.move;
-      if (dir === 'up' && item.previousElementSibling) {
-        item.previousElementSibling.before(item);
-        this.saveColumnOrder();
-        this.setupColumnSelector();
-        document.getElementById('column-selector-dropdown')?.classList.add('open');
-        document.getElementById('column-selector-btn')?.setAttribute('aria-expanded', 'true');
-        document.querySelector(`.column-move-btn[data-move="up"][data-column="${moveBtn.dataset.column}"]`)?.focus();
-      } else if (dir === 'down' && item.nextElementSibling) {
-        item.nextElementSibling.after(item);
-        this.saveColumnOrder();
-        this.setupColumnSelector();
-        document.getElementById('column-selector-dropdown')?.classList.add('open');
-        document.getElementById('column-selector-btn')?.setAttribute('aria-expanded', 'true');
-        document.querySelector(`.column-move-btn[data-move="down"][data-column="${moveBtn.dataset.column}"]`)?.focus();
+      const colKey = moveBtn.dataset.column;
+      const moved = (dir === 'up' && item.previousElementSibling)
+        ? (item.previousElementSibling.before(item), true)
+        : (dir === 'down' && item.nextElementSibling)
+          ? (item.nextElementSibling.after(item), true)
+          : false;
+      if (!moved) return;
+
+      this.saveColumnOrder();
+      this.setupColumnSelector();
+      document.getElementById('column-selector-dropdown')?.classList.add('open');
+      document.getElementById('column-selector-btn')?.setAttribute('aria-expanded', 'true');
+      const primary = document.querySelector(`.column-move-btn[data-move="${dir}"][data-column="${colKey}"]`);
+      const fallbackDir = dir === 'up' ? 'down' : 'up';
+      const fallback = document.querySelector(`.column-move-btn[data-move="${fallbackDir}"][data-column="${colKey}"]`);
+      if (primary && !primary.disabled) {
+        primary.focus();
+      } else if (fallback && !fallback.disabled) {
+        fallback.focus();
       }
     });
 
-    // Reset to defaults
-    resetBtn?.addEventListener('click', () => {
+    // Reset to defaults (keep popup open and keep focus on Reset button)
+    resetBtn?.addEventListener('click', (e) => {
+      e.stopPropagation();
       this.visibleColumns = FReD.columnConfig.resetToDefaults();
       this.setupColumnSelector(); // Rebuild to restore default order
+      document.getElementById('column-selector-dropdown')?.classList.add('open');
+      document.getElementById('column-selector-btn')?.setAttribute('aria-expanded', 'true');
+      document.getElementById('column-selector-reset')?.focus();
       this.rebuildTable();
     });
 
@@ -922,7 +984,7 @@ FReD.explorer = {
     return `
       <div class="study-details" style="padding: 1rem; background: var(--surface); border-radius: 4px; margin: 0.5rem;">
         ${claimsHtml}
-        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1rem;">
+        <div class="study-details-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(220px, 100%), 1fr)); gap: 1rem;">
           <div>
             <h5 style="margin: 0 0 0.5rem 0; color: var(--primary);">Effect Sizes</h5>
             <table style="font-size: 0.875rem;">
@@ -1044,14 +1106,17 @@ FReD.explorer = {
 
     let hideTimeout = null;
     let currentTarget = null;
+    let pinnedByClick = false;
+    let openedByHoverAt = 0;
 
-    const showTooltip = (target) => {
+    const showTooltip = (target, pinned = false) => {
       if (hideTimeout) {
         clearTimeout(hideTimeout);
         hideTimeout = null;
       }
 
       currentTarget = target;
+      pinnedByClick = pinned;
       const text = target.dataset.tooltip;
       const link = target.dataset.link;
 
@@ -1061,6 +1126,7 @@ FReD.explorer = {
       if (link) {
         html += `<a href="${FReD.utils.escapeHtml(link)}" target="_blank" rel="noopener" class="tooltip-btn tooltip-link" title="Open paper">${LINK_SVG}Open</a>`;
       }
+      html += `<span class="sr-only tooltip-live" role="status" aria-live="polite"></span>`;
       html += `</div>`;
 
       tooltip.innerHTML = html;
@@ -1086,9 +1152,13 @@ FReD.explorer = {
       tooltip.querySelector('.tooltip-copy')?.addEventListener('click', () => {
         navigator.clipboard.writeText(text).then(() => {
           const btn = tooltip.querySelector('.tooltip-copy');
+          const live = tooltip.querySelector('.tooltip-live');
           if (btn) {
             btn.textContent = 'Copied';
             setTimeout(() => { btn.innerHTML = `${COPY_SVG}Copy`; }, 1500);
+          }
+          if (live) {
+            live.textContent = 'Reference copied to clipboard';
           }
         });
       });
@@ -1099,19 +1169,25 @@ FReD.explorer = {
       if (immediate) {
         tooltip.style.display = 'none';
         currentTarget = null;
+        pinnedByClick = false;
         return;
       }
+      if (pinnedByClick) return;
       hideTimeout = setTimeout(() => {
         if (tooltip.contains(document.activeElement)) return;
         tooltip.style.display = 'none';
         currentTarget = null;
+        pinnedByClick = false;
       }, 150);
     };
 
     document.addEventListener('mouseover', (e) => {
       const target = e.target.closest('.ref-tooltip');
       if (target && target.dataset.tooltip) {
-        showTooltip(target);
+        if (currentTarget !== target || tooltip.style.display !== 'block') {
+          openedByHoverAt = Date.now();
+          showTooltip(target, false);
+        }
       }
     });
 
@@ -1128,9 +1204,14 @@ FReD.explorer = {
       if (target && target.dataset.tooltip) {
         e.stopPropagation();
         if (currentTarget === target && tooltip.style.display === 'block') {
-          hideTooltip(true);
+          // On touch (or desktop hover-then-click), promote hover-opened tooltip to pinned instead of immediately closing
+          if (!pinnedByClick || (Date.now() - openedByHoverAt) < 350) {
+            pinnedByClick = true;
+          } else {
+            hideTooltip(true);
+          }
         } else {
-          showTooltip(target);
+          showTooltip(target, true);
         }
         return;
       }
@@ -1139,18 +1220,37 @@ FReD.explorer = {
       }
     });
 
-    // Keyboard activation (Enter/Space) and Escape dismissal
+    // Dismiss floating fixed tooltip on page or inner-table scroll so it never drifts off its trigger
+    window.addEventListener('scroll', () => {
+      if (tooltip.style.display === 'block') hideTooltip(true);
+    }, true);
+
+    // Keyboard activation (Enter/Space), Tab exit back to trigger, and Escape dismissal
     document.addEventListener('keydown', (e) => {
-      if (e.key === 'Escape' && tooltip.style.display === 'block') {
+      if (tooltip.style.display === 'block' && e.key === 'Escape') {
         const prev = currentTarget;
         hideTooltip(true);
         prev?.focus();
         return;
       }
+      if (tooltip.style.display === 'block' && e.key === 'Tab' && tooltip.contains(document.activeElement)) {
+        const focusables = [...tooltip.querySelectorAll('button:not([disabled]), a[href]')];
+        if (focusables.length > 0) {
+          const first = focusables[0];
+          const last = focusables[focusables.length - 1];
+          if ((!e.shiftKey && document.activeElement === last) || (e.shiftKey && document.activeElement === first)) {
+            e.preventDefault();
+            const prev = currentTarget;
+            hideTooltip(true);
+            prev?.focus();
+            return;
+          }
+        }
+      }
       if ((e.key === 'Enter' || e.key === ' ') && e.target.closest('.ref-tooltip')) {
         e.preventDefault();
         const target = e.target.closest('.ref-tooltip');
-        showTooltip(target);
+        showTooltip(target, true);
         tooltip.querySelector('.tooltip-copy')?.focus();
       }
     });

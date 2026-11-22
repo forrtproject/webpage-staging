@@ -1764,6 +1764,21 @@ div.dt-buttons > .dt-button:hover:not(.disabled) {
   border-radius: 50%;
   margin-right: 6px;
   vertical-align: middle;
+  box-sizing: border-box;
+}
+
+.chart-tip-swatch.is-rect {
+  border-radius: 1px;
+}
+
+.chart-tip-swatch.is-diamond {
+  border-radius: 1px;
+  transform: rotate(45deg) scale(0.85);
+}
+
+.chart-tip-swatch.is-triangle {
+  border-radius: 0;
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
 }
 
 .chart-copy-wrap {

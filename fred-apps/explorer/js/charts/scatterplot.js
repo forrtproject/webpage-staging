@@ -98,13 +98,13 @@ FReD.charts.scatterplot = {
     const tickMinY = Math.floor(dataMinY * 4) / 4;
     const tickMaxY = Math.ceil(dataMaxY * 4) / 4;
 
-    const axisMinX = Number((tickMinX - 0.05).toFixed(2));
+    const axisMinX = Number((tickMinX - 0.075).toFixed(3));
     const axisMaxX = Number((tickMaxX + 0.05).toFixed(2));
-    const axisMinY = Number((tickMinY - 0.05).toFixed(2));
+    const axisMinY = Number((tickMinY - 0.075).toFixed(3));
     const axisMaxY = Number((tickMaxY + 0.05).toFixed(2));
 
-    const bottomRugY = Number((tickMinY - 0.025).toFixed(3));
-    const leftRugX = Number((tickMinX - 0.025).toFixed(3));
+    const bottomRugY = Number((tickMinY - 0.045).toFixed(3));
+    const leftRugX = Number((tickMinX - 0.045).toFixed(3));
 
     const outcomeOrder = [
       'Success', 'Successful', 'Successful replication',

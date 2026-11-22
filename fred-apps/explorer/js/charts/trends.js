@@ -145,8 +145,10 @@ FReD.charts.trends = {
             : `${FReD.charts.formatNumber(visibleSum, 0)} shown of ${FReD.charts.formatNumber(fullTotal, 0)}`;
           const lines = [`<strong>${FReD.charts.escapeHtml(dec)}s</strong> \u00b7 ${totalLabel}`];
           ps.forEach(p => {
-            const swatch = (series[p.seriesIndex] && series[p.seriesIndex].lineStyle.color) || colors[p.seriesIndex];
-            lines.push(FReD.charts.tipRow(swatch, `${p.seriesName}: ${FReD.charts.formatNumber(Number(p.value) || 0, 0)}`));
+            const sObj = series[p.seriesIndex];
+            const swatch = (sObj && sObj.lineStyle.color) || colors[p.seriesIndex];
+            const marker = sObj ? { symbol: sObj.symbol, itemStyle: sObj.itemStyle } : null;
+            lines.push(FReD.charts.tipRow(swatch, `${p.seriesName}: ${FReD.charts.formatNumber(Number(p.value) || 0, 0)}`, marker));
           });
           return FReD.charts.tipLines(lines);
         }

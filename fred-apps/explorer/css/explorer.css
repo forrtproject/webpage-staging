@@ -396,6 +396,22 @@ td.dt-control {
   background: var(--surface) !important;
   border: 1px solid var(--border-light);
   border-radius: var(--radius) !important;
+  max-width: 100%;
+  box-sizing: border-box;
+  overflow-wrap: anywhere;
+}
+
+@media (max-width: 768px) {
+  .study-details {
+    max-width: calc(100vw - 3.5rem);
+    position: sticky;
+    left: 0;
+    margin: 0.35rem 0 !important;
+  }
+
+  .dataTables_wrapper .dataTables_paginate .paginate_button {
+    padding: 0.25rem 0.5rem !important;
+  }
 }
 
 .study-details h5 {

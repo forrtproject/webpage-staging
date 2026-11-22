@@ -121,7 +121,20 @@ FReD.charts = FReD.charts || {};
     }).join('\r\n');
   }
 
-  function tipRow(color, text) {
+  function tipRow(color, text, marker) {
+    if (marker && marker.symbol) {
+      const sym = marker.symbol;
+      const isHollow = marker.itemStyle && marker.itemStyle.borderColor && marker.itemStyle.borderWidth;
+      const strokeOrFill = isHollow ? marker.itemStyle.borderColor : color;
+      const cls = ['chart-tip-swatch'];
+      if (sym === 'diamond') cls.push('is-diamond');
+      else if (sym === 'rect') cls.push('is-rect');
+      else if (sym === 'triangle') cls.push('is-triangle');
+      const style = isHollow
+        ? 'background:transparent;border:2px solid ' + escapeHtml(strokeOrFill)
+        : 'background:' + escapeHtml(strokeOrFill);
+      return '<span class="' + cls.join(' ') + '" style="' + style + '"></span>' + escapeHtml(text);
+    }
     return '<span class="chart-tip-swatch" style="background:' + escapeHtml(color) + '"></span>' + escapeHtml(text);
   }
 
@@ -200,6 +213,7 @@ FReD.charts = FReD.charts || {};
   }
 
   function categoryLabelWidth(width) {
+    if (width < 480) return Math.min(104, Math.floor(width * 0.31)) * textScale();
     return (width < 560 ? 110 : 150) * textScale();
   }
 
@@ -689,6 +703,22 @@ FReD.charts = FReD.charts || {};
     a.remove();
   }
 
+  function _buildExportOption(state, chart, extra) {
+    const base = state.lastOption;
+    let liveSelected = state.legendSelected ? Object.assign({}, state.legendSelected) : null;
+    try {
+      const liveOpt = chart && chart.getOption ? chart.getOption() : null;
+      const liveLeg = liveOpt && Array.isArray(liveOpt.legend) ? liveOpt.legend[0] : liveOpt && liveOpt.legend;
+      if (liveLeg && liveLeg.selected && Object.keys(liveLeg.selected).length) {
+        liveSelected = Object.assign({}, liveSelected, liveLeg.selected);
+      }
+    } catch (_) { /* ignore */ }
+    const legend = base.legend
+      ? Object.assign({}, base.legend, liveSelected ? { selected: Object.assign({}, base.legend.selected, liveSelected) } : null)
+      : base.legend;
+    return Object.assign({}, base, { animation: false, legend: legend }, extra || null);
+  }
+
   /**
    * Export crisp SVG with extra left margin buffer so standalone SVG viewers
    * without Source Sans 3 installed do not clip left-aligned labels.
@@ -706,8 +736,7 @@ FReD.charts = FReD.charts || {};
       document.body.appendChild(tmp);
       try {
         const tmpChart = echarts.init(tmp, null, { renderer: 'svg' });
-        const exportOpt = Object.assign({}, state.lastOption, {
-          animation: false,
+        const exportOpt = _buildExportOption(state, chart, {
           grid: Object.assign({}, state.lastOption.grid, {
             left: (state.lastOption.grid && typeof state.lastOption.grid.left === 'number' ? state.lastOption.grid.left : 12) + 36
           })
@@ -749,7 +778,7 @@ FReD.charts = FReD.charts || {};
       document.body.appendChild(tmp);
       try {
         const tmpChart = echarts.init(tmp, null, { renderer: 'canvas', devicePixelRatio: pxRatio });
-        const exportOpt = Object.assign({}, state.lastOption, { animation: false });
+        const exportOpt = _buildExportOption(state, chart);
         tmpChart.setOption(exportOpt, { notMerge: true });
         const pngUrl = tmpChart.getDataURL({
           type: 'png',
