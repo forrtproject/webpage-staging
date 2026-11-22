@@ -124,10 +124,14 @@ FReD.dataLoader = {
       filtered = filtered.filter(s => s.source === filters.source);
     }
 
-    // Power filter
-    if (filters.minPower && filters.minPower > 0.05) {
-      filtered = filtered.filter(s => s.power_r >= filters.minPower);
-    }
+    // Power filter (respects keepMissingPower, default true)
+    const minPower = filters.minPower != null ? filters.minPower : 0.05;
+    const keepMissing = filters.keepMissingPower !== false;
+    filtered = filtered.filter(s => {
+      const hasPower = s.power_r != null && s.power_r !== '' && Number.isFinite(Number(s.power_r));
+      if (!hasPower) return keepMissing;
+      return Number(s.power_r) >= minPower;
+    });
 
     // Text search
     if (filters.search && filters.search.trim()) {
@@ -190,14 +194,25 @@ FReD.dataLoader = {
         FReD.successCriteria.getOutcome(s, criterionId).outcome
       );
 
-      // Determine aggregate outcome
-      let aggregateOutcome;
-      const uniqueOutcomes = [...new Set(outcomes.filter(o => o !== 'Not calculable'))];
+      // Determine aggregate outcome (exclude non-calculable / non-coded entries case-insensitively)
+      const calculableOutcomes = outcomes.filter(o => {
+        if (!o) return false;
+        const lower = o.toLowerCase();
+        return lower !== 'not calculable' && lower !== 'not coded';
+      });
+      const uniqueByLower = new Map();
+      calculableOutcomes.forEach(o => {
+        const lower = o.toLowerCase();
+        if (!uniqueByLower.has(lower)) {
+          uniqueByLower.set(lower, o);
+        }
+      });
 
-      if (uniqueOutcomes.length === 0) {
+      let aggregateOutcome;
+      if (uniqueByLower.size === 0) {
         aggregateOutcome = 'Not calculable';
-      } else if (uniqueOutcomes.length === 1) {
-        aggregateOutcome = uniqueOutcomes[0];
+      } else if (uniqueByLower.size === 1) {
+        aggregateOutcome = uniqueByLower.values().next().value;
       } else {
         aggregateOutcome = 'mixed';
       }

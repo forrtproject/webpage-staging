@@ -23,6 +23,8 @@ FReD.filters = {
       source: document.getElementById('source'),
       minPower: document.getElementById('minpower'),
       minPowerValue: document.getElementById('minpower-value'),
+      keepMissingPower: document.getElementById('keep-missing-power'),
+      powerFilterNote: document.getElementById('power-filter-note'),
       criterionSelect: document.getElementById('success-criterion'),
       // Support both old radio buttons and new dropdown
       criterionRadios: document.querySelectorAll('input[name="criterion"]'),
@@ -59,14 +61,28 @@ FReD.filters = {
     // Power slider
     this.elements.minPower.addEventListener('input', (e) => {
       const value = parseFloat(e.target.value);
-      const pctText = Math.round(value * 100) + '%';
-      this.elements.minPowerValue.textContent = pctText;
-      this.elements.minPower.setAttribute('aria-valuetext', pctText);
+      const label = this.formatPowerLabel(value);
+      this.elements.minPowerValue.textContent = label;
+      this.elements.minPower.setAttribute('aria-valuetext', label);
+      if (FReD.explorer && FReD.explorer.allStudies) {
+        this.updatePowerNote(FReD.explorer.allStudies, {
+          ...FReD.state.get(),
+          minPower: value,
+          keepMissingPower: this.elements.keepMissingPower ? this.elements.keepMissingPower.checked : true
+        });
+      }
     });
 
     this.elements.minPower.addEventListener('change', (e) => {
       FReD.state.set('minPower', parseFloat(e.target.value));
     });
+
+    // Keep missing power checkbox
+    if (this.elements.keepMissingPower) {
+      this.elements.keepMissingPower.addEventListener('change', (e) => {
+        FReD.state.set('keepMissingPower', e.target.checked);
+      });
+    }
 
     // Criterion dropdown (new design)
     if (this.elements.criterionSelect) {
@@ -85,6 +101,53 @@ FReD.filters = {
     });
   },
 
+  formatPowerLabel(value) {
+    const v = value != null && !isNaN(value) ? value : 0.05;
+    return Math.round(v * 100) + '%';
+  },
+
+  /**
+   * Update live explanation of how many effects have missing power or fall below threshold
+   */
+  updatePowerNote(allStudies, state) {
+    const el = this.elements.powerFilterNote;
+    if (!el || !Array.isArray(allStudies)) return;
+
+    // Count against the pre-power-filtered subset (after source + search)
+    const prePower = FReD.dataLoader.filterStudies(allStudies, {
+      source: state.source,
+      search: state.search,
+      minPower: 0,
+      keepMissingPower: true
+    });
+
+    const minPower = state.minPower != null ? state.minPower : 0.05;
+    const keepMissing = state.keepMissingPower !== false;
+    const pct = Math.round(minPower * 100);
+
+    let missingCount = 0;
+    let belowCount = 0;
+    for (const s of prePower) {
+      const hasPower = s.power_r != null && s.power_r !== '' && Number.isFinite(Number(s.power_r));
+      if (!hasPower) {
+        missingCount++;
+      } else if (Number(s.power_r) < minPower) {
+        belowCount++;
+      }
+    }
+
+    if (prePower.length === 0) {
+      el.textContent = '';
+      return;
+    }
+
+    if (keepMissing) {
+      el.textContent = `Keeps ${missingCount.toLocaleString()} without power data · excludes ${belowCount.toLocaleString()} below ${pct}%`;
+    } else {
+      el.textContent = `Excludes ${missingCount.toLocaleString()} without power data & ${belowCount.toLocaleString()} below ${pct}%`;
+    }
+  },
+
   /**
    * Apply state to UI elements
    */
@@ -100,11 +163,17 @@ FReD.filters = {
     }
 
     // Power slider
-    if (parseFloat(this.elements.minPower.value) !== state.minPower) {
-      this.elements.minPower.value = state.minPower;
-      const pctText = Math.round(state.minPower * 100) + '%';
-      this.elements.minPowerValue.textContent = pctText;
-      this.elements.minPower.setAttribute('aria-valuetext', pctText);
+    const minPower = state.minPower ?? 0.05;
+    if (parseFloat(this.elements.minPower.value) !== minPower) {
+      this.elements.minPower.value = minPower;
+    }
+    const powerLabel = this.formatPowerLabel(minPower);
+    this.elements.minPowerValue.textContent = powerLabel;
+    this.elements.minPower.setAttribute('aria-valuetext', powerLabel);
+
+    // Keep missing power checkbox
+    if (this.elements.keepMissingPower) {
+      this.elements.keepMissingPower.checked = state.keepMissingPower !== false;
     }
 
     // Criterion dropdown
@@ -199,6 +268,7 @@ FReD.filters = {
     return {
       source: this.elements.source.value,
       minPower: parseFloat(this.elements.minPower.value),
+      keepMissingPower: this.elements.keepMissingPower ? this.elements.keepMissingPower.checked : true,
       search: this.elements.search.value,
       criterion
     };

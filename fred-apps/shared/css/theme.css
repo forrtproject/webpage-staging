@@ -46,6 +46,7 @@
   --color-chart-missing: #b9bec6;
   --color-chart-unrecognised: #3e434d;
   --color-chart-technical-failure: #7a2a23;
+  --color-chart-failure-severe: #a83232; /* distinct crimson for non-sig heterogeneous failures */
   --color-chart-failure-partial: #d96b27; /* distinct warm orange-coral, >=3.4:1 */
   --color-chart-not-checked: #8a8f9c;
   --color-chart-not-coded: #c3c7ce;   /* deliberately faint bar fill: unassessed */
@@ -181,6 +182,7 @@
   --color-chart-missing: #5a5f69;
   --color-chart-unrecognised: #d5d8de;
   --color-chart-technical-failure: #e04f5f;
+  --color-chart-failure-severe: #d4625e;
   --color-chart-failure-partial: #f4a582;
   --color-chart-not-checked: #7f8590;
   --color-chart-not-coded: #5a5f69;

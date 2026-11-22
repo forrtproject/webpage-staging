@@ -7,10 +7,14 @@
 window.FReD = window.FReD || {};
 
 FReD.state = {
+  // Valid navigation tab IDs
+  VALID_TABS: ['overview', 'forest', 'correlates', 'data'],
+
   // Default state
   defaults: {
     source: 'All studies',
     minPower: 0.05,
+    keepMissingPower: true,
     criterion: 'significance_r',
     search: '',
     tab: 'overview'
@@ -28,11 +32,20 @@ FReD.state = {
   init() {
     this.current = { ...this.defaults };
     this.loadFromURL();
+    // Normalize any invalid/out-of-range query params in place on first load
+    this.saveToURL(false);
 
     // Listen for browser back/forward
     window.addEventListener('popstate', () => {
+      const prev = { ...this.current };
+      this.current = { ...this.defaults };
       this.loadFromURL();
-      this.notifyListeners();
+      const changes = {};
+      Object.keys(this.current).forEach((k) => {
+        if (this.current[k] !== prev[k]) changes[k] = this.current[k];
+      });
+      if (Object.keys(changes).length === 0) return;
+      this.notifyListeners(changes);
     });
   },
 
@@ -45,11 +58,14 @@ FReD.state = {
     if (params.source) {
       this.current.source = params.source;
     }
-    if (params.power) {
+    if (params.power !== undefined) {
       const power = parseFloat(params.power);
-      if (!isNaN(power) && power >= 0.05 && power <= 0.999) {
-        this.current.minPower = power;
+      if (!isNaN(power) && power >= 0.05 && power <= 0.99) {
+        this.current.minPower = Math.round(power * 100) / 100;
       }
+    }
+    if (params.keepMissingPower !== undefined) {
+      this.current.keepMissingPower = params.keepMissingPower !== 'false' && params.keepMissingPower !== '0';
     }
     if (params.criterion && FReD.successCriteria.criteria[params.criterion]) {
       this.current.criterion = params.criterion;
@@ -57,7 +73,7 @@ FReD.state = {
     if (params.search) {
       this.current.search = params.search;
     }
-    if (params.tab) {
+    if (params.tab && this.VALID_TABS.includes(params.tab)) {
       this.current.tab = params.tab;
     }
   },
@@ -65,18 +81,19 @@ FReD.state = {
   /**
    * Save current state to URL
    */
-  saveToURL() {
+  saveToURL(pushHistory = false) {
     // Include all state keys - use null for defaults to trigger deletion
     // Exception: criterion is always shown for transparency
     const params = {
       source: this.current.source !== this.defaults.source ? this.current.source : null,
       power: this.current.minPower !== this.defaults.minPower ? this.current.minPower : null,
+      keepMissingPower: this.current.keepMissingPower !== this.defaults.keepMissingPower ? 'false' : null,
       criterion: this.current.criterion,  // Always show criterion for transparency
       search: this.current.search !== this.defaults.search ? this.current.search : null,
       tab: this.current.tab !== this.defaults.tab ? this.current.tab : null
     };
 
-    FReD.utils.updateQueryParams(params);
+    FReD.utils.updateQueryParams(params, pushHistory);
   },
 
   /**
@@ -95,16 +112,21 @@ FReD.state = {
       : keyOrObj;
 
     let hasChanges = false;
+    let tabChanged = false;
+    const acceptedChanges = {};
     Object.entries(changes).forEach(([k, v]) => {
+      if (k === 'tab' && !this.VALID_TABS.includes(v)) return;
       if (this.current[k] !== v) {
         this.current[k] = v;
+        acceptedChanges[k] = v;
         hasChanges = true;
+        if (k === 'tab') tabChanged = true;
       }
     });
 
     if (hasChanges) {
-      this.saveToURL();
-      this.notifyListeners(changes);
+      this.saveToURL(tabChanged);
+      this.notifyListeners(acceptedChanges);
     }
   },
 

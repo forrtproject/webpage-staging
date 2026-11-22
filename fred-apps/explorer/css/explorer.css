@@ -315,18 +315,20 @@ table.dataTable tbody td {
   display: none;
 }
 
-/* Table cell truncation */
-#studies-table td:nth-child(2),
-#full-data-table td:first-child {
+/* Table cell truncation (semantic classes survive column reordering) */
+#studies-table td.description-cell {
   max-width: 300px;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
 }
 
+#full-data-table td:first-child {
+  white-space: nowrap;
+}
+
 /* Reference columns - Author (Year) format with tooltip */
-#studies-table td:nth-child(5),
-#studies-table td:nth-child(6) {
+#studies-table td.ref-cell {
   white-space: nowrap;
 }
 
@@ -515,8 +517,92 @@ table.dataTable tbody .study-details table tr:hover > * {
   }
 }
 
+/* Minimum Power missing-data toggle & live breakdown */
+.power-missing-toggle {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.45rem;
+  margin-top: 0.5rem;
+  font-size: var(--fs-2);
+  font-weight: 400;
+  color: var(--text-secondary);
+  line-height: 1.35;
+  cursor: pointer;
+}
+
+.power-missing-toggle input[type="checkbox"] {
+  margin-top: 0.15rem;
+  accent-color: var(--primary);
+  cursor: pointer;
+  flex-shrink: 0;
+}
+
+.power-filter-note {
+  margin-top: 0.35rem;
+  font-size: var(--fs-1);
+  line-height: 1.4;
+  color: var(--text-muted);
+}
+
+/* Correlates Totals / Shares (%) toggle bar */
+.correlates-toolbar {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 0.65rem;
+  margin-bottom: 0.9rem;
+  flex-wrap: wrap;
+}
+
+.correlates-toolbar[hidden] {
+  display: none;
+}
+
+.correlates-toolbar-label {
+  font-size: var(--fs-2);
+  font-weight: 600;
+  color: var(--text-muted);
+}
+
+.segmented-toggle {
+  display: inline-flex;
+  background: var(--surface-alt);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 2px;
+  gap: 2px;
+}
+
+.segmented-toggle-btn {
+  appearance: none;
+  border: none;
+  background: transparent;
+  color: var(--text-secondary);
+  font-family: var(--font-body);
+  font-size: var(--fs-3);
+  font-weight: 600;
+  min-height: 32px;
+  padding: 0.4rem 0.85rem;
+  border-radius: calc(var(--radius) - 2px);
+  cursor: pointer;
+  transition: background var(--transition), color var(--transition);
+}
+
+.segmented-toggle-btn:hover {
+  color: var(--text-primary);
+}
+
+.segmented-toggle-btn.active {
+  background: var(--primary);
+  color: var(--on-primary);
+}
+
 /* Print-specific */
 @media print {
+  .correlates-toolbar {
+    display: none;
+  }
+
   .page-header {
     border-bottom: 2px solid var(--print-fg);
   }

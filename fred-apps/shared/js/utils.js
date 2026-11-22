@@ -28,17 +28,21 @@ FReD.utils = {
    * Format number with specified decimal places
    */
   formatNumber(num, decimals = 2) {
-    if (num === null || num === undefined || isNaN(num)) return 'N/A';
-    return Number(num).toFixed(decimals);
+    if (num === null || num === undefined || num === '') return 'N/A';
+    const n = Number(num);
+    if (!Number.isFinite(n)) return 'N/A';
+    return n.toFixed(decimals);
   },
 
   /**
    * Format p-value
    */
   formatPValue(p) {
-    if (p === null || p === undefined || isNaN(p)) return 'N/A';
-    if (p < 0.001) return '< .001';
-    return p.toFixed(3).replace(/^0/, '');
+    if (p === null || p === undefined || p === '') return 'N/A';
+    const num = Number(p);
+    if (!Number.isFinite(num)) return 'N/A';
+    if (num < 0.001) return '< .001';
+    return num.toFixed(3).replace(/^0/, '');
   },
 
   /**
@@ -191,7 +195,7 @@ FReD.utils = {
   /**
    * Update URL query parameters without reload
    */
-  updateQueryParams(params) {
+  updateQueryParams(params, push = false) {
     const url = new URL(window.location);
     Object.entries(params).forEach(([key, value]) => {
       if (value === null || value === undefined || value === '') {
@@ -200,7 +204,11 @@ FReD.utils = {
         url.searchParams.set(key, value);
       }
     });
-    window.history.replaceState({}, '', url);
+    if (push) {
+      window.history.pushState({}, '', url);
+    } else {
+      window.history.replaceState({}, '', url);
+    }
   },
 
   /**

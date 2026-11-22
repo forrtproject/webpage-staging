@@ -8,26 +8,32 @@
 window.FReD = window.FReD || {};
 
 FReD.themeToggle = {
-  storageKey: 'fred-theme',
+  // Dedicated key for explicit user theme choice so legacy auto-written 'fred-theme'
+  // entries don't block returning visitors from following OS prefers-color-scheme.
+  storageKey: 'fred-theme-explicit',
 
   /**
-   * Initialize theme based on stored preference or system preference
+   * Initialize theme based on explicit stored preference or system preference
    */
   init() {
     const stored = localStorage.getItem(this.storageKey);
-
-    if (stored) {
-      this.setTheme(stored);
-    } else {
-      // Check system preference
-      const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-      this.setTheme(prefersDark ? 'dark' : 'light');
+    // Clean up legacy auto-saved key if present so it doesn't linger
+    if (localStorage.getItem('fred-theme') !== null) {
+      localStorage.removeItem('fred-theme');
     }
 
-    // Listen for system preference changes
+    if (stored === 'dark' || stored === 'light') {
+      this.setTheme(stored, false);
+    } else {
+      // Check system preference without locking localStorage
+      const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+      this.setTheme(prefersDark ? 'dark' : 'light', false);
+    }
+
+    // Listen for system preference changes until user picks an explicit theme
     window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', (e) => {
       if (!localStorage.getItem(this.storageKey)) {
-        this.setTheme(e.matches ? 'dark' : 'light');
+        this.setTheme(e.matches ? 'dark' : 'light', false);
       }
     });
 
@@ -36,11 +42,13 @@ FReD.themeToggle = {
   },
 
   /**
-   * Set the theme
+   * Set the theme (persists to localStorage only when user explicitly chooses)
    */
-  setTheme(theme) {
+  setTheme(theme, persist = true) {
     document.documentElement.setAttribute('data-theme', theme);
-    localStorage.setItem(this.storageKey, theme);
+    if (persist) {
+      localStorage.setItem(this.storageKey, theme);
+    }
 
     // Dispatch event for charts to re-render
     window.dispatchEvent(new CustomEvent('themechange', { detail: { theme } }));

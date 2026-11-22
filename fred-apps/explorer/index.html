@@ -98,8 +98,13 @@
           <!-- Minimum Power -->
           <div class="form-group">
             <label class="form-label" for="minpower">Minimum Power</label>
-            <input type="range" id="minpower" class="form-range" min="0.05" max="0.999" step="0.01" value="0.05" aria-valuetext="5%">
+            <input type="range" id="minpower" class="form-range" min="0.05" max="0.99" step="0.01" value="0.05" aria-valuetext="5%">
             <div class="range-value" id="minpower-value">5%</div>
+            <label class="power-missing-toggle" for="keep-missing-power">
+              <input type="checkbox" id="keep-missing-power" checked>
+              <span>Keep studies with missing power</span>
+            </label>
+            <div class="power-filter-note" id="power-filter-note" aria-live="polite"></div>
           </div>
 
           <!-- Success Criterion - now a dropdown -->
@@ -166,7 +171,10 @@
           <!-- Scatterplot -->
           <div class="card">
             <div class="card-header chart-card-header">
-              <span>Effect Size Comparison</span>
+              <div class="chart-card-title">
+                <span>Effect Size Comparison</span>
+                <span id="scatterplot-count" class="chart-card-meta"></span>
+              </div>
               <div class="chart-card-actions" id="scatterplot-actions"></div>
             </div>
             <div class="card-body">
@@ -184,9 +192,8 @@
               <div class="card-header-tools">
                 <div id="column-selector-container"></div>
                 <div class="btn-group">
-                  <button class="btn btn-sm btn-secondary" id="btn-copy">Copy</button>
-                  <button class="btn btn-sm btn-secondary" id="btn-csv">CSV</button>
-                  <button class="btn btn-sm btn-secondary" id="btn-excel">Excel</button>
+                  <button type="button" class="btn btn-sm btn-secondary" id="btn-copy">Copy</button>
+                  <button type="button" class="btn btn-sm btn-secondary" id="btn-csv">CSV</button>
                 </div>
               </div>
             </div>
@@ -214,6 +221,13 @@
 
         <!-- Tab Content: Correlates -->
         <div class="tab-content" id="tab-correlates">
+          <div class="correlates-toolbar">
+            <span class="correlates-toolbar-label" id="correlates-mode-label">Show outcomes as</span>
+            <div class="segmented-toggle" role="group" aria-labelledby="correlates-mode-label">
+              <button type="button" class="segmented-toggle-btn active" data-correlates-mode="totals" aria-pressed="true">Totals</button>
+              <button type="button" class="segmented-toggle-btn" data-correlates-mode="shares" aria-pressed="false">Shares (%)</button>
+            </div>
+          </div>
           <div class="card">
             <div class="card-header chart-card-header">
               <div class="chart-card-title">
@@ -243,12 +257,13 @@
           <div class="card">
             <div class="card-header">
               Full Dataset
-              <button class="btn btn-sm btn-primary" id="btn-download" style="float: right;">Download Excel</button>
+              <button type="button" class="btn btn-sm btn-primary" id="btn-download" style="float: right;">Download CSV</button>
             </div>
             <div class="card-body">
               <table id="full-data-table" class="display" style="width:100%">
                 <thead>
                   <tr>
+                    <th>Original Reference</th>
                     <th>Description</th>
                     <th>ES (Orig)</th>
                     <th>ES (Rep)</th>
@@ -256,7 +271,7 @@
                     <th>N (Rep)</th>
                     <th>Power</th>
                     <th>Result</th>
-                    <th>Source</th>
+                    <th>Discipline</th>
                   </tr>
                 </thead>
                 <tbody></tbody>
@@ -337,7 +352,7 @@
           analyze replication studies across psychology and related fields.
         </p>
         <p>
-          Use the filters on the left to narrow down studies.
+          Use the filters to narrow down studies.
           Select different success criteria to see how outcomes vary based on
           different definitions of replication success.
         </p>

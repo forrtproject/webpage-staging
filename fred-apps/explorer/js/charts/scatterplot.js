@@ -12,6 +12,7 @@ FReD.charts = FReD.charts || {};
 FReD.charts.scatterplot = {
   container: null,
   actionsEl: null,
+  countEl: null,
   rugLegendEl: null,
   lastStudies: null,
   lastCriterion: null,
@@ -22,6 +23,7 @@ FReD.charts.scatterplot = {
   init(containerId) {
     this.container = document.getElementById(containerId);
     this.actionsEl = document.getElementById(containerId + '-actions');
+    this.countEl = document.getElementById(containerId + '-count');
     this.rugLegendEl = document.getElementById('scatterplot-rug-legend');
     if (!this.container) {
       console.error('Scatterplot container not found:', containerId);
@@ -44,6 +46,12 @@ FReD.charts.scatterplot = {
       s.es_o != null && !isNaN(s.es_o) &&
       s.es_r != null && !isNaN(s.es_r)
     );
+
+    if (this.countEl) {
+      this.countEl.textContent = studies.length > 0
+        ? `(${validStudies.length.toLocaleString()} of ${studies.length.toLocaleString()} selected effects with numeric effect sizes)`
+        : '';
+    }
 
     if (validStudies.length === 0) {
       FReD.charts.unmount(this.container, this.actionsEl);
@@ -107,15 +115,20 @@ FReD.charts.scatterplot = {
     const bottomRugY = Number((tickMinY - 0.05).toFixed(2));
     const leftRugX = Number((tickMinX - 0.05).toFixed(2));
 
+    // Define order for legend (exact case-insensitive matching across all criteria)
     const outcomeOrder = [
       'Success', 'Successful', 'Successful replication',
       'Success (homogeneous and jointly significantly above 0)',
+      'Success (homogeneous and jointly significantly different from 0)',
       'Statistically successful but flawed',
       'Failure (not homogeneous but jointly significantly above 0)',
+      'Failure (not homogeneous but jointly significantly different from 0)',
       'Failure', 'Failed', 'Failed replication', 'Informative failure',
-      'Failure (reversal)',
       'Failure (homogeneous but not significant)',
       'Failure (not homogeneous and not significant)',
+      'Failure (reversal)',
+      'Failure (homogeneous but jointly significant in opposite direction)',
+      'Failure (not homogeneous and jointly significant in opposite direction)',
       'Mixed',
       'OS not significant', 'Uninformative', 'Descriptive only',
       'Not calculable', 'Not coded'

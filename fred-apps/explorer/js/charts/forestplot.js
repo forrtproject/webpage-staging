@@ -106,12 +106,21 @@ FReD.charts.forestplot = {
    * Apply current sorting to studies before pagination
    */
   applySorting() {
+    const compareNullableDesc = (aVal, bVal) => {
+      const aValid = aVal != null && !isNaN(aVal);
+      const bValid = bVal != null && !isNaN(bVal);
+      if (!aValid && !bValid) return 0;
+      if (!aValid) return 1;
+      if (!bValid) return -1;
+      return bVal - aVal;
+    };
+
     switch (this.sortBy) {
       case 'original':
-        this.allValidStudies.sort((a, b) => (b.es_o || 0) - (a.es_o || 0));
+        this.allValidStudies.sort((a, b) => compareNullableDesc(a.es_o, b.es_o));
         break;
       case 'replication':
-        this.allValidStudies.sort((a, b) => (b.es_r || 0) - (a.es_r || 0));
+        this.allValidStudies.sort((a, b) => compareNullableDesc(a.es_r, b.es_r));
         break;
       case 'alphabetical':
       default:
@@ -152,11 +161,16 @@ FReD.charts.forestplot = {
       .map(size => `<option value="${size}" ${size === this.pageSize ? 'selected' : ''}>${size}</option>`)
       .join('');
 
+    const totalSelected = Array.isArray(this.lastStudies) ? this.lastStudies.length : totalEffects;
+    const coverageSuffix = totalSelected > totalEffects
+      ? ` with effect sizes (of ${totalSelected.toLocaleString()} selected)`
+      : '';
+
     const controlsHtml = `
       <div class="forest-controls">
         <div class="forest-controls-left">
           <span class="text-muted">
-            Showing ${startIdx + 1}-${endIdx} of ${totalEffects} effects
+            Showing ${startIdx + 1}-${endIdx} of ${totalEffects.toLocaleString()} effects${coverageSuffix}
           </span>
           <div class="forest-control-group">
             <label for="forest-page-size" class="forest-control-label">Per page:</label>
@@ -263,11 +277,16 @@ FReD.charts.forestplot = {
   renderPlot(validStudies, totalCount, refocusId) {
     this._unmountActive();
 
+    const totalSelected = Array.isArray(this.lastStudies) ? this.lastStudies.length : validStudies.length;
+    const coverageSuffix = totalSelected > validStudies.length
+      ? ` with effect sizes (of ${totalSelected.toLocaleString()} selected)`
+      : '';
+
     const controlsHtml = `
       <div class="forest-controls">
         <div class="forest-controls-left">
           <span class="text-muted">
-            ${validStudies.length} ${validStudies.length === 1 ? 'effect' : 'effects'}
+            ${validStudies.length.toLocaleString()} ${validStudies.length === 1 ? 'effect' : 'effects'}${coverageSuffix}
           </span>
           <div class="forest-control-group">
             <label for="forest-sort-simple" class="forest-control-label">Sort:</label>
@@ -453,27 +472,31 @@ FReD.charts.forestplot = {
 
     validStudies.forEach((s, i) => {
       if (s.es_o != null && !isNaN(s.es_o)) {
+        const hasCiO = s.ci_lower_o != null && !isNaN(s.ci_lower_o) && s.ci_upper_o != null && !isNaN(s.ci_upper_o);
         origData.push({
           value: [
             Number(s.es_o),
             i,
-            s.ci_lower_o != null && !isNaN(s.ci_lower_o) ? Number(s.ci_lower_o) : Number(s.es_o),
-            s.ci_upper_o != null && !isNaN(s.ci_upper_o) ? Number(s.ci_upper_o) : Number(s.es_o)
+            hasCiO ? Number(s.ci_lower_o) : Number(s.es_o),
+            hasCiO ? Number(s.ci_upper_o) : Number(s.es_o),
+            hasCiO ? 1 : 0
           ],
           ref: s.ref_o || 'Unknown',
-          hasCi: s.ci_lower_o != null && s.ci_upper_o != null
+          hasCi: hasCiO
         });
       }
       if (s.es_r != null && !isNaN(s.es_r)) {
+        const hasCiR = s.ci_lower_r != null && !isNaN(s.ci_lower_r) && s.ci_upper_r != null && !isNaN(s.ci_upper_r);
         repData.push({
           value: [
             Number(s.es_r),
             i,
-            s.ci_lower_r != null && !isNaN(s.ci_lower_r) ? Number(s.ci_lower_r) : Number(s.es_r),
-            s.ci_upper_r != null && !isNaN(s.ci_upper_r) ? Number(s.ci_upper_r) : Number(s.es_r)
+            hasCiR ? Number(s.ci_lower_r) : Number(s.es_r),
+            hasCiR ? Number(s.ci_upper_r) : Number(s.es_r),
+            hasCiR ? 1 : 0
           ],
           ref: s.ref_r || 'Unknown',
-          hasCi: s.ci_lower_r != null && s.ci_upper_r != null
+          hasCi: hasCiR
         });
       }
 
@@ -510,13 +533,14 @@ FReD.charts.forestplot = {
           const yIdx = api.value(1);
           const loVal = api.value(2);
           const hiVal = api.value(3);
+          const hasCi = api.value(4) === 1;
           const center = api.coord([xVal, yIdx]);
           const left = api.coord([loVal, yIdx]);
           const right = api.coord([hiVal, yIdx]);
           const cy = center[1] + dodgePx;
 
           const children = [];
-          if (right[0] - left[0] > 0.5) {
+          if (hasCi && right[0] - left[0] > 0.5) {
             children.push({
               type: 'line',
               shape: { x1: left[0], y1: cy, x2: right[0], y2: cy },

@@ -100,24 +100,33 @@ FReD.charts = FReD.charts || {};
   }
 
   function csvText(headers, rows, notes) {
-    const cell = function (v) {
+    const outHeaders = notes ? ['Export context'].concat(headers) : headers;
+    const cell = function (v, colIdx) {
       let s;
       if (typeof v === 'number' && isFinite(v)) {
+        const h = outHeaders[colIdx] || '';
         // Preserve full precision for very small nonzero values (e.g. p-values)
-        s = (v !== 0 && Math.abs(v) < 1e-4) ? String(v) : String(Number(v.toFixed(5)));
+        if (v !== 0 && Math.abs(v) < 1e-4) {
+          s = String(v);
+        } else if (/percentage|%/i.test(h)) {
+          s = v.toFixed(1);
+        } else {
+          s = String(Number(v.toFixed(5)));
+        }
       } else {
-        s = (Array.isArray(v) ? plain(v) : String(v ?? '')).replace(/^[=+@-]/, function (m) {
+        s = (Array.isArray(v) ? plain(v) : String(v ?? '')).replace(/^[=+\-@\t\r]/, function (m) {
           return "'" + m;
         });
       }
       return '"' + s.replace(/"/g, '""') + '"';
     };
-    const outHeaders = notes ? ['Export context'].concat(headers) : headers;
     const outRows = rows.map(function (row) {
       return notes ? [notes].concat(row) : row;
     });
-    return [outHeaders].concat(outRows).map(function (row) {
-      return row.map(cell).join(',');
+    return [outHeaders].concat(outRows).map(function (row, rIdx) {
+      return row.map(function (v, cIdx) {
+        return rIdx === 0 ? cell(v, -1) : cell(v, cIdx);
+      }).join(',');
     }).join('\r\n');
   }
 
@@ -409,13 +418,13 @@ FReD.charts = FReD.charts || {};
   function outcomeMarker(label, color) {
     const t = chartTheme();
     const s = String(label || '').toLowerCase();
-    if (s.includes('reversal') || s.includes('not homogeneous and not significant')) {
+    if (s.includes('reversal') || s.includes('opposite direction')) {
       return { symbol: 'triangle', itemStyle: { color: color, borderColor: t.paper, borderWidth: 1 } };
     }
     if (s.includes('not homogeneous but jointly')) {
       return { symbol: 'roundRect', itemStyle: { color: color, borderColor: t.paper, borderWidth: 1 } };
     }
-    if (s.includes('flawed') || s.includes('mixed')) {
+    if (s.includes('not homogeneous and not significant') || s.includes('flawed') || s.includes('mixed')) {
       return { symbol: 'rect', itemStyle: { color: color, borderColor: t.paper, borderWidth: 1 } };
     }
     if (s.includes('fail')) {
@@ -540,7 +549,7 @@ FReD.charts = FReD.charts || {};
 
     details.innerHTML =
       '<summary aria-label="View chart data for ' + escapeHtml(plain(title)) + '">View chart data</summary>' +
-      (table.summary ? '<p class="chart-summary">' + escapeHtml(table.summary) + '</p>' : '') +
+      (table.summary ? '<p class="chart-summary" id="' + escapeHtml(id) + '-summary">' + escapeHtml(table.summary) + '</p>' : '') +
       '<div class="table-scroll" tabindex="0" role="region" aria-label="' + escapeHtml(plain(title)) + ': chart values">' +
         '<table>' +
           '<caption>' + escapeHtml(plain(title)) + '</caption>' +
@@ -659,7 +668,13 @@ FReD.charts = FReD.charts || {};
     container.classList.add('echart');
     container.setAttribute('role', 'img');
     container.setAttribute('aria-label', plain(spec.title || 'Chart') + '. Values in the following data table.');
-    container.setAttribute('aria-describedby', id + '-data');
+    if (spec.table && spec.table.summary) {
+      container.setAttribute('aria-describedby', id + '-summary');
+    } else if (spec.table) {
+      container.setAttribute('aria-describedby', id + '-data');
+    } else {
+      container.removeAttribute('aria-describedby');
+    }
 
     renderDataDisclosure(container, id, spec.title || 'Chart', spec.table, spec.disclosureAfterEl);
     renderCopyButton(spec.actionsEl, id, spec.title || 'Chart', spec.table);
@@ -679,6 +694,10 @@ FReD.charts = FReD.charts || {};
       if (state.chart && !state.chart.isDisposed()) state.chart.dispose();
       mounts.delete(container);
     }
+    container.classList.remove('echart');
+    container.removeAttribute('role');
+    container.removeAttribute('aria-label');
+    container.removeAttribute('aria-describedby');
     if (id) {
       const details = document.getElementById(id + '-data');
       if (details) details.remove();
@@ -734,8 +753,9 @@ FReD.charts = FReD.charts || {};
       const tmp = document.createElement('div');
       tmp.style.cssText = 'position:fixed;left:-99999px;top:0;width:' + (width + 48) + 'px;height:' + height + 'px;pointer-events:none;';
       document.body.appendChild(tmp);
+      let tmpChart = null;
       try {
-        const tmpChart = echarts.init(tmp, null, { renderer: 'svg' });
+        tmpChart = echarts.init(tmp, null, { renderer: 'svg' });
         const exportOpt = _buildExportOption(state, chart, {
           grid: Object.assign({}, state.lastOption.grid, {
             left: (state.lastOption.grid && typeof state.lastOption.grid.left === 'number' ? state.lastOption.grid.left : 12) + 36
@@ -743,8 +763,8 @@ FReD.charts = FReD.charts || {};
         });
         tmpChart.setOption(exportOpt, { notMerge: true });
         svg = tmpChart.renderToSVGString();
-        tmpChart.dispose();
       } finally {
+        if (tmpChart && !tmpChart.isDisposed()) tmpChart.dispose();
         tmp.remove();
       }
     } else {
@@ -767,17 +787,20 @@ FReD.charts = FReD.charts || {};
     const state = mounts.get(container);
     const chart = getInstance(container);
     if (!chart) return;
-    const pxRatio = scale || 2;
     const width = container.clientWidth || 1200;
     const height = container.clientHeight || 800;
+    // Cap pixel ratio so tall exports (e.g. 200-row forest plots) stay within Safari's 16M pixel canvas limit
+    const maxPxRatio = Math.sqrt(16000000 / Math.max(1, width * height));
+    const pxRatio = Math.max(0.5, Math.min(scale || 2, maxPxRatio));
     const t = chartTheme();
 
     if (state && state.lastOption) {
       const tmp = document.createElement('div');
       tmp.style.cssText = 'position:fixed;left:-99999px;top:0;width:' + width + 'px;height:' + height + 'px;pointer-events:none;';
       document.body.appendChild(tmp);
+      let tmpChart = null;
       try {
-        const tmpChart = echarts.init(tmp, null, { renderer: 'canvas', devicePixelRatio: pxRatio });
+        tmpChart = echarts.init(tmp, null, { renderer: 'canvas', devicePixelRatio: pxRatio });
         const exportOpt = _buildExportOption(state, chart);
         tmpChart.setOption(exportOpt, { notMerge: true });
         const pngUrl = tmpChart.getDataURL({
@@ -785,10 +808,10 @@ FReD.charts = FReD.charts || {};
           pixelRatio: pxRatio,
           backgroundColor: t.paper
         });
-        tmpChart.dispose();
         triggerDownload(pngUrl, filename.endsWith('.png') ? filename : filename + '.png');
         return;
       } finally {
+        if (tmpChart && !tmpChart.isDisposed()) tmpChart.dispose();
         tmp.remove();
       }
     }

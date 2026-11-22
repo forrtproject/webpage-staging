@@ -821,7 +821,7 @@ FReD.annotator = {
   getOutcomeClass(outcome) {
     if (!outcome) return 'not-coded';
     const lower = outcome.toLowerCase();
-    if (lower.includes('success') || lower.includes('replicated')) return 'success';
+    if (lower.includes('success') || (lower.includes('replicated') && !lower.includes('not'))) return 'success';
     if (lower.includes('fail') || lower.includes('not replicated')) return 'failure';
     if (lower.includes('mixed')) return 'mixed';
     return 'not-coded';
@@ -836,11 +836,11 @@ FReD.annotator = {
     if (lower.includes('success') || (lower.includes('replicated') && !lower.includes('not'))) {
       return 'success';
     }
-    if (lower.includes('mixed') || lower.includes('informative')) {
-      return 'mixed';
-    }
     if (lower.includes('fail') || lower.includes('not replicated')) {
       return 'failed';
+    }
+    if (lower.includes('mixed')) {
+      return 'mixed';
     }
     return 'other';
   },
