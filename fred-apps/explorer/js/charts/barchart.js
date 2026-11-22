@@ -43,10 +43,13 @@ FReD.charts.barchart = {
 
     if (total === 0) {
       FReD.charts.unmount(this.container, this.actionsEl);
+      this.container.classList.add('is-empty');
       this.container.style.height = '';
       this.container.innerHTML = '<div class="alert alert-info">No studies selected.</div>';
       return;
     }
+
+    this.container.classList.remove('is-empty');
 
     // Count outcomes
     const counts = {};
@@ -102,8 +105,18 @@ FReD.charts.barchart = {
         const proportion = count / total;
         const pctText = FReD.charts.formatPercent(count, total, 1) + '%';
         const color = seriesColors[si];
-        const showLabel = proportion >= 0.05;
-        const labelText = proportion >= 0.16 ? `${outcome}: ${pctText}` : pctText;
+
+        // Compute actual available pixel width in this bar segment so labels NEVER overflow or collide
+        const segPx = width * proportion;
+        const fullText = `${outcome}: ${pctText}`;
+        const fullNeededPx = fullText.length * 7.6 + 18;
+        const pctNeededPx = pctText.length * 7.8 + 14;
+        let labelText = '';
+        if (segPx >= fullNeededPx) {
+          labelText = fullText;
+        } else if (segPx >= pctNeededPx) {
+          labelText = pctText;
+        }
 
         return {
           name: outcome,
@@ -117,7 +130,7 @@ FReD.charts.barchart = {
           },
           emphasis: { focus: 'series' },
           label: {
-            show: showLabel,
+            show: labelText.length > 0,
             position: 'inside',
             color: FReD.charts.labelColor(color),
             fontSize: 12,
@@ -155,7 +168,7 @@ FReD.charts.barchart = {
         tooltip: tooltip,
         xAxis: { type: 'value', show: false, min: 0, max: Math.max(total, 1) },
         yAxis: { type: 'category', show: false, data: ['Outcomes'] },
-        grid: { left: 0, right: 0, top: 4, bottom: 2, height: 28, containLabel: false }
+        grid: { left: 0, right: 0, top: 6, bottom: 2, height: 28, containLabel: false }
       }, { width });
     };
 
@@ -163,8 +176,9 @@ FReD.charts.barchart = {
       title: `Outcome distribution (${criterionLabel})`,
       option: optionFn,
       heightFor: width => {
-        const rowsCount = FReD.charts.legendRows(outcomes, width, FReD.charts.textScale());
-        return Math.round(rowsCount * 22 * FReD.charts.textScale() + 44);
+        const scale = FReD.charts.textScale();
+        const rowsCount = FReD.charts.legendRows(outcomes, width, scale);
+        return Math.round(rowsCount * 24 * scale + 50);
       },
       table: table,
       actionsEl: this.actionsEl

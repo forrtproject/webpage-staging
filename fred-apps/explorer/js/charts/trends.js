@@ -75,18 +75,23 @@ FReD.charts.trends = {
 
     if (withDecade.length === 0) {
       FReD.charts.unmount(this.decadeContainer, this.decadeActionsEl);
+      this.decadeContainer.classList.add('is-empty');
       this.decadeContainer.style.height = '';
       this.decadeContainer.innerHTML = '<div class="alert alert-info">No valid publication years found.</div>';
       return;
     }
 
+    this.decadeContainer.classList.remove('is-empty');
+
     // Group by decade and outcome
     const decadeOutcomes = {};
+    const decadeTotals = {};
     withDecade.forEach(item => {
       if (!decadeOutcomes[item.decade]) {
         decadeOutcomes[item.decade] = {};
       }
       decadeOutcomes[item.decade][item.outcome] = (decadeOutcomes[item.decade][item.outcome] || 0) + 1;
+      decadeTotals[item.decade] = (decadeTotals[item.decade] || 0) + 1;
     });
 
     const outcomes = this._sortOutcomes([...new Set(withDecade.map(d => d.outcome))]);
@@ -103,18 +108,29 @@ FReD.charts.trends = {
     };
 
     const optionFn = ({ width }) => {
+      const t = FReD.charts.chartTheme();
       const colors = outcomes.map(o => FReD.successCriteria.getColor(o));
-      const series = outcomes.map((outcome, i) => ({
-        name: displayOutcomes[i],
-        type: 'line',
-        smooth: false,
-        symbol: FReD.charts.outcomeSymbol(outcome),
-        symbolSize: 7,
-        lineStyle: { color: colors[i], width: 2.2 },
-        itemStyle: { color: colors[i] },
-        emphasis: { focus: 'series' },
-        data: decades.map(d => decadeOutcomes[d][outcome] || 0)
-      }));
+      const legendData = [];
+      const series = outcomes.map((outcome, i) => {
+        const marker = FReD.charts.outcomeMarker(outcome, colors[i]);
+        const lineColor = marker.itemStyle.color === t.paper ? marker.itemStyle.borderColor : colors[i];
+        legendData.push({
+          name: displayOutcomes[i],
+          icon: marker.symbol,
+          itemStyle: marker.itemStyle
+        });
+        return {
+          name: displayOutcomes[i],
+          type: 'line',
+          smooth: false,
+          symbol: marker.symbol,
+          symbolSize: 7,
+          lineStyle: { color: lineColor, width: 2.2 },
+          itemStyle: marker.itemStyle,
+          emphasis: { focus: 'series' },
+          data: decades.map(d => decadeOutcomes[d][outcome] || 0)
+        };
+      });
 
       const tooltip = {
         trigger: 'axis',
@@ -122,10 +138,15 @@ FReD.charts.trends = {
         formatter: ps => {
           if (!ps || !ps.length) return '';
           const dec = ps[0].axisValue;
-          const total = ps.reduce((sum, p) => sum + (Number(p.value) || 0), 0);
-          const lines = [`<strong>${FReD.charts.escapeHtml(dec)}s</strong> \u00b7 N=${FReD.charts.formatNumber(total, 0)}`];
+          const visibleSum = ps.reduce((sum, p) => sum + (Number(p.value) || 0), 0);
+          const fullTotal = decadeTotals[dec] || visibleSum;
+          const totalLabel = visibleSum === fullTotal
+            ? `N=${FReD.charts.formatNumber(fullTotal, 0)}`
+            : `${FReD.charts.formatNumber(visibleSum, 0)} shown of ${FReD.charts.formatNumber(fullTotal, 0)}`;
+          const lines = [`<strong>${FReD.charts.escapeHtml(dec)}s</strong> \u00b7 ${totalLabel}`];
           ps.forEach(p => {
-            lines.push(FReD.charts.tipRow(colors[p.seriesIndex], `${p.seriesName}: ${FReD.charts.formatNumber(Number(p.value) || 0, 0)}`));
+            const swatch = (series[p.seriesIndex] && series[p.seriesIndex].lineStyle.color) || colors[p.seriesIndex];
+            lines.push(FReD.charts.tipRow(swatch, `${p.seriesName}: ${FReD.charts.formatNumber(Number(p.value) || 0, 0)}`));
           });
           return FReD.charts.tipLines(lines);
         }
@@ -134,13 +155,14 @@ FReD.charts.trends = {
       return FReD.charts.finishOption({
         series: series,
         tooltip: tooltip,
+        legend: { data: legendData },
         xAxis: FReD.charts.categoryAxis({
           data: decades,
           name: 'Decade the Original Finding was Published',
           nameGap: 32
         }),
         yAxis: FReD.charts.valueAxis(Object.assign(FReD.charts.countAxis(), {
-          name: 'Number of Replication Findings',
+          name: 'Number of Original Studies',
           nameGap: 44
         })),
         grid: { left: 42, right: 16, top: 12, bottom: 28, containLabel: true }
@@ -175,10 +197,13 @@ FReD.charts.trends = {
 
     if (withDiscipline.length === 0) {
       FReD.charts.unmount(this.disciplineContainer, this.disciplineActionsEl);
+      this.disciplineContainer.classList.add('is-empty');
       this.disciplineContainer.style.height = '';
       this.disciplineContainer.innerHTML = '<div class="alert alert-info">No discipline information available.</div>';
       return;
     }
+
+    this.disciplineContainer.classList.remove('is-empty');
 
     const disciplineOutcomes = {};
     withDiscipline.forEach(item => {

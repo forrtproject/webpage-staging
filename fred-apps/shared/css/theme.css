@@ -37,7 +37,7 @@
   /* ── Chart series & plot tokens (FLoRA Explorer palette, §5b) ── */
   --color-chart-successful: #248073;  /* white in-bar labels reach 4.76:1 */
   --color-chart-failed: #c24a33;
-  --color-chart-mixed: #d9a441;
+  --color-chart-mixed: #b8841f;       /* >=3.3:1 on white; dark label 5.2:1 */
   --color-chart-inconclusive: #6f7686;
   --color-chart-qualified: #7b61a8;
   --color-chart-other: #8d93a0;
@@ -46,17 +46,21 @@
   --color-chart-missing: #b9bec6;
   --color-chart-unrecognised: #3e434d;
   --color-chart-technical-failure: #7a2a23;
-  --color-chart-failure-partial: #d0684b;
+  --color-chart-failure-partial: #d96b27; /* distinct warm orange-coral, >=3.4:1 */
   --color-chart-not-checked: #8a8f9c;
-  --color-chart-not-coded: #c3c7ce;   /* deliberately faint: unassessed */
+  --color-chart-not-coded: #c3c7ce;   /* deliberately faint bar fill: unassessed */
+  --color-chart-not-coded-stroke: #7b8089; /* >=3.9:1 stroke for scatter/line marks */
   --color-chart-neutral: #9ca3af;
   --color-chart-original: var(--primary);
   --color-chart-replication: var(--color-chart-inconclusive);
   --color-plot-band: rgba(133, 57, 83, 0.12);   /* confidence band */
   --color-plot-point: rgba(80, 80, 80, 0.15);   /* jittered observations */
-  --color-plot-rule: rgba(100, 100, 100, 0.4);  /* reference lines */
-  --color-plot-rule-label: #6b7280;
+  --color-plot-rule: #8a8f96;                   /* >=3.2:1 reference lines */
+  --color-plot-rule-label: #5c5c5c;
   --color-plot-hover-shadow: rgba(133, 57, 83, 0.07);
+  --primary-border-subtle: rgba(133, 57, 83, 0.14);
+  --primary-divider: rgba(133, 57, 83, 0.18);
+  --focus-ring: rgba(133, 57, 83, 0.16);
 
   /* Legacy aliases retained for Annotator and backwards compatibility */
   --outcome-success: var(--success);
@@ -79,6 +83,7 @@
   --text-muted: #5c5c5c;
   --text-faint: #696969;
   --border: #d0d1d1;
+  --border-input: #8a8c8e;     /* >=3.3:1 interactive input boundary */
   --border-light: #e0e1e1;
   --skeleton: #e2e4e4;
   --on-dark: #fff;             /* white text on dark chrome/tooltips */
@@ -175,16 +180,20 @@
   --color-chart-uninformative: #c2b29c;
   --color-chart-missing: #5a5f69;
   --color-chart-unrecognised: #d5d8de;
-  --color-chart-technical-failure: #d9645a;
+  --color-chart-technical-failure: #e04f5f;
   --color-chart-failure-partial: #f4a582;
   --color-chart-not-checked: #7f8590;
   --color-chart-not-coded: #5a5f69;
+  --color-chart-not-coded-stroke: #8e949f;
   --color-chart-neutral: #8b919c;
   --color-plot-band: rgba(217, 139, 166, 0.18);
   --color-plot-point: rgba(210, 210, 220, 0.2);
-  --color-plot-rule: rgba(200, 200, 210, 0.45);
+  --color-plot-rule: #8f959e;
   --color-plot-rule-label: #c3bac0;
   --color-plot-hover-shadow: rgba(214, 138, 167, 0.12);
+  --primary-border-subtle: rgba(214, 138, 167, 0.22);
+  --primary-divider: rgba(214, 138, 167, 0.24);
+  --focus-ring: rgba(214, 138, 167, 0.24);
 
   --tooltip-bg: #3a3437;
 
@@ -193,6 +202,7 @@
   --text-muted: #a9a1a6;
   --text-faint: #958d92;
   --border: #463f43;
+  --border-input: #7c7479;
   --border-light: #383236;
   --skeleton: #332d30;
 
@@ -231,8 +241,29 @@ body > main {
   flex: 1 0 auto;
 }
 
+/* Skip link for keyboard users */
+.skip-link {
+  position: absolute;
+  left: 0.75rem;
+  top: -100px;
+  z-index: 2000;
+  padding: 0.5rem 0.9rem;
+  background: var(--primary);
+  color: var(--on-primary);
+  font-family: var(--font-body);
+  font-size: var(--fs-4);
+  font-weight: 600;
+  border-radius: var(--radius);
+  text-decoration: none;
+  box-shadow: var(--shadow-md);
+}
+
+.skip-link:focus {
+  top: 0.5rem;
+}
+
 /* Keyboard users get a ring; pointer users do not. */
-:where(a, button, input, select, textarea, [tabindex]):focus-visible {
+:where(a, button, input, select, textarea, summary, [tabindex]):focus-visible {
   outline: 2px solid var(--primary);
   outline-offset: 2px;
   border-radius: var(--radius-sm);
@@ -526,6 +557,10 @@ code, pre, kbd {
   transition: box-shadow var(--transition-fast), border-color var(--transition-fast);
 }
 
+.card--allow-overflow {
+  overflow: visible;
+}
+
 .card-header {
   padding: 0.9rem 1.25rem 0.8rem;
   border-bottom: 1px solid var(--border-light);
@@ -594,7 +629,7 @@ code, pre, kbd {
   line-height: 1.5;
   color: var(--text);
   background-color: var(--white);
-  border: 1px solid var(--border);
+  border: 1px solid var(--border-input);
   border-radius: var(--radius);
   transition: border-color var(--transition-fast), box-shadow var(--transition-fast);
 }
@@ -605,13 +640,12 @@ code, pre, kbd {
 
 .form-control:focus {
   border-color: var(--primary);
-  outline: 0;
-  box-shadow: 0 0 0 3px rgba(133, 57, 83, 0.12);
+  box-shadow: 0 0 0 3px var(--focus-ring);
 }
 
-[data-theme="dark"] .form-control:focus,
-[data-theme="dark"] .form-select:focus {
-  box-shadow: 0 0 0 3px rgba(214, 138, 167, 0.2);
+.form-control:focus:not(:focus-visible),
+.form-select:focus:not(:focus-visible) {
+  outline: none;
 }
 
 select.form-control {
@@ -626,7 +660,8 @@ select.form-control {
 /* Range slider */
 .form-range {
   width: 100%;
-  height: 1.5rem;
+  height: 1.75rem;
+  min-height: 28px;
   padding: 0;
   background-color: transparent;
   -webkit-appearance: none;
@@ -1042,7 +1077,7 @@ table.dataTable thead > tr > th.sorting_desc::after {
   font-size: var(--fs-4);
   color: var(--text);
   background: var(--white);
-  border: 1px solid var(--border);
+  border: 1px solid var(--border-input);
   border-radius: var(--radius);
 }
 
@@ -1052,7 +1087,7 @@ table.dataTable thead > tr > th.sorting_desc::after {
   font-size: var(--fs-4);
   color: var(--text);
   background: var(--white) var(--select-chevron) no-repeat right 0.55rem center / 12px 9px;
-  border: 1px solid var(--border);
+  border: 1px solid var(--border-input);
   border-radius: var(--radius);
   appearance: none;
 }
@@ -1060,8 +1095,53 @@ table.dataTable thead > tr > th.sorting_desc::after {
 .dataTables_wrapper .dataTables_filter input:focus,
 .dataTables_wrapper .dataTables_length select:focus {
   border-color: var(--primary);
+  box-shadow: 0 0 0 3px var(--focus-ring);
+}
+
+.dataTables_wrapper .dataTables_filter input:focus:not(:focus-visible),
+.dataTables_wrapper .dataTables_length select:focus:not(:focus-visible) {
   outline: none;
-  box-shadow: 0 0 0 3px rgba(133, 57, 83, 0.12);
+}
+
+/* Override vendor DataTables dt-control pseudo-element so our accessible button renders cleanly */
+table.dataTable td.dt-control::before,
+table.dataTable tr.shown td.dt-control::before {
+  display: none !important;
+  content: none !important;
+}
+
+.dt-expand-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  padding: 0;
+  border: 1px solid transparent;
+  border-radius: var(--radius-sm);
+  background: transparent;
+  color: var(--text-secondary);
+  cursor: pointer;
+  transition: background var(--transition-fast), color var(--transition-fast), transform var(--transition-fast);
+}
+
+.dt-expand-btn:hover {
+  background: var(--primary-faint);
+  color: var(--primary);
+}
+
+.dt-expand-btn svg {
+  width: 14px;
+  height: 14px;
+  transition: transform var(--transition-fast);
+}
+
+tr.shown .dt-expand-btn {
+  color: var(--primary);
+}
+
+tr.shown .dt-expand-btn svg {
+  transform: rotate(90deg);
 }
 
 .dataTables_wrapper .dataTables_info,
@@ -1258,12 +1338,13 @@ div.dt-buttons > .dt-button:hover:not(.disabled) {
   z-index: 1000;
   opacity: 0;
   visibility: hidden;
-  transition: opacity var(--transition), visibility var(--transition);
+  transition: opacity var(--transition), visibility 0s linear 0.15s;
 }
 
 .modal-overlay.active {
   opacity: 1;
   visibility: visible;
+  transition: opacity var(--transition), visibility 0s;
 }
 
 [data-theme="dark"] .modal-overlay {
@@ -1426,8 +1507,15 @@ div.dt-buttons > .dt-button:hover:not(.disabled) {
   .header-nav-link,
   .theme-toggle,
   .topbar-menu-btn,
-  .disclosure > summary {
+  .disclosure > summary,
+  .dt-expand-btn,
+  .form-range {
     min-height: 44px;
+  }
+
+  .info-icon {
+    width: 32px;
+    height: 32px;
   }
 }
 
@@ -1514,7 +1602,7 @@ div.dt-buttons > .dt-button:hover:not(.disabled) {
 .sidebar-nav-link.active,
 .sidebar-nav-link.active:hover {
   background: var(--primary-faint);
-  border-color: rgba(133, 57, 83, 0.1);
+  border-color: var(--primary-border-subtle);
   color: var(--primary);
 }
 
@@ -1553,7 +1641,7 @@ div.dt-buttons > .dt-button:hover:not(.disabled) {
   color: var(--primary-light);
   padding: 0.75rem 1rem;
   background: var(--primary-faint);
-  border: 1px solid rgba(133, 57, 83, 0.1);
+  border: 1px solid var(--primary-border-subtle);
   border-radius: var(--radius);
   margin-top: 1rem;
 }
@@ -1571,20 +1659,20 @@ div.dt-buttons > .dt-button:hover:not(.disabled) {
   color: var(--text-muted);
 }
 
-/* Info icon link */
+/* Info icon link (>=24px accessible hit target) */
 .info-icon {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 18px;
-  height: 18px;
+  width: 24px;
+  height: 24px;
   border-radius: 50%;
   background: var(--surface-alt);
   color: var(--text-muted);
   font-size: var(--fs-2);
   font-weight: 700;
   text-decoration: none;
-  margin-left: 0.5rem;
+  margin-left: 0.4rem;
   transition: background var(--transition-fast), color var(--transition-fast);
 }
 
@@ -1664,6 +1752,9 @@ div.dt-buttons > .dt-button:hover:not(.disabled) {
 
 .chart-tooltip {
   line-height: 1.45;
+  max-width: min(340px, calc(100vw - 24px)) !important;
+  white-space: normal !important;
+  overflow-wrap: anywhere;
 }
 
 .chart-tip-swatch {

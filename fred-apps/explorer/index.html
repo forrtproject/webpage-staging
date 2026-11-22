@@ -20,6 +20,7 @@
   <script src="https://cdn.jsdelivr.net/npm/echarts@6.1.0/dist/echarts.min.js"></script>
 </head>
 <body>
+  <a href="#main-content" class="skip-link">Skip to main content</a>
   <!-- Header -->
   <header class="page-header">
     <div class="container topbar">
@@ -61,25 +62,25 @@
   </header>
 
   <!-- Main Content -->
-  <main class="container">
+  <main class="container" id="main-content">
     <div class="sidebar-layout">
       <!-- Sidebar -->
       <aside class="sidebar">
         <!-- Navigation -->
-        <nav class="sidebar-nav">
+        <nav class="sidebar-nav" aria-label="Explorer sections">
           <div class="sidebar-nav-title">Navigation</div>
           <ul class="sidebar-nav-list">
             <li class="sidebar-nav-item">
-              <button class="sidebar-nav-link active" data-tab="overview">Overview</button>
+              <button type="button" class="sidebar-nav-link active" data-tab="overview" aria-current="page">Overview</button>
             </li>
             <li class="sidebar-nav-item">
-              <button class="sidebar-nav-link" data-tab="forest">Forest Plot</button>
+              <button type="button" class="sidebar-nav-link" data-tab="forest">Forest Plot</button>
             </li>
             <li class="sidebar-nav-item">
-              <button class="sidebar-nav-link" data-tab="correlates">Correlates</button>
+              <button type="button" class="sidebar-nav-link" data-tab="correlates">Correlates</button>
             </li>
             <li class="sidebar-nav-item">
-              <button class="sidebar-nav-link" data-tab="data">Data</button>
+              <button type="button" class="sidebar-nav-link" data-tab="data">Data</button>
             </li>
           </ul>
         </nav>
@@ -97,7 +98,7 @@
           <!-- Minimum Power -->
           <div class="form-group">
             <label class="form-label" for="minpower">Minimum Power</label>
-            <input type="range" id="minpower" class="form-range" min="0.05" max="0.999" step="0.01" value="0.05">
+            <input type="range" id="minpower" class="form-range" min="0.05" max="0.999" step="0.01" value="0.05" aria-valuetext="5%">
             <div class="range-value" id="minpower-value">5%</div>
           </div>
 
@@ -170,14 +171,14 @@
             </div>
             <div class="card-body">
               <div class="plot-container" id="scatterplot"></div>
-              <p class="rug-legend">
+              <p class="rug-legend" id="scatterplot-rug-legend">
                 Rug plots: <span class="rug-legend-yes">plum</span> = significant, <span class="rug-legend-no">grey</span> = not significant
               </p>
             </div>
           </div>
 
           <!-- Data Table -->
-          <div class="card">
+          <div class="card card--allow-overflow">
             <div class="card-header">
               Effects
               <div class="card-header-tools">
@@ -269,11 +270,11 @@
   </main>
 
   <!-- About Modal -->
-  <div class="modal-overlay" id="about-modal">
+  <div class="modal-overlay" id="about-modal" role="dialog" aria-modal="true" aria-labelledby="about-modal-title" aria-hidden="true">
     <div class="modal" style="max-width: 700px;">
       <div class="modal-header">
-        <h3>About FReD Explorer</h3>
-        <button class="modal-close" onclick="document.getElementById('about-modal').classList.remove('active')">&times;</button>
+        <h3 id="about-modal-title">About FReD Explorer</h3>
+        <button type="button" class="modal-close" id="about-modal-close" aria-label="Close">&times;</button>
       </div>
       <div class="modal-body">
         <p>
@@ -298,7 +299,7 @@
         <p><a href="https://forrt.org/fred/articles/success_criteria.html" target="_blank">Learn more about success criteria &rarr;</a></p>
 
         <h4>Citation</h4>
-        <p id="citation" class="text-muted">Loading citation...</p>
+        <p id="citation" class="text-muted citation-scroll">Loading citation...</p>
 
         <h4>Links</h4>
         <ul>
@@ -308,7 +309,7 @@
         </ul>
       </div>
       <div class="modal-footer">
-        <button class="btn btn-primary" onclick="document.getElementById('about-modal').classList.remove('active')">Close</button>
+        <button type="button" class="btn btn-primary" id="about-close-btn">Close</button>
       </div>
     </div>
   </div>
@@ -324,11 +325,11 @@
   </footer>
 
   <!-- Welcome Modal -->
-  <div class="modal-overlay" id="welcome-modal">
+  <div class="modal-overlay" id="welcome-modal" role="dialog" aria-modal="true" aria-labelledby="welcome-modal-title" aria-hidden="true">
     <div class="modal">
       <div class="modal-header">
-        <h3>Welcome to FReD Explorer</h3>
-        <button class="modal-close" onclick="document.getElementById('welcome-modal').classList.remove('active')">&times;</button>
+        <h3 id="welcome-modal-title">Welcome to FReD Explorer</h3>
+        <button type="button" class="modal-close" id="welcome-modal-x" aria-label="Close">&times;</button>
       </div>
       <div class="modal-body">
         <p>

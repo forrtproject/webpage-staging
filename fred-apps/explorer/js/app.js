@@ -65,29 +65,116 @@ FReD.explorer = {
   },
 
   /**
+   * Accessible modal open/close helper with focus trap, Escape/backdrop dismiss,
+   * and focus restoration.
+   */
+  _activeModal: null,
+  _lastFocusedEl: null,
+
+  openModal(modalEl, triggerEl) {
+    if (!modalEl) return;
+    this._lastFocusedEl = triggerEl || document.activeElement;
+    this._activeModal = modalEl;
+    modalEl.classList.add('active');
+    modalEl.setAttribute('aria-hidden', 'false');
+    // Force style flush so visibility:visible is active before focusing
+    void modalEl.offsetHeight;
+
+    const focusables = this._getModalFocusables(modalEl);
+    if (focusables.length > 0) {
+      focusables[0].focus();
+    }
+  },
+
+  closeModal(modalEl) {
+    if (!modalEl || !modalEl.classList.contains('active')) return;
+    if (modalEl.id === 'welcome-modal') {
+      const dontShow = document.getElementById('welcome-dont-show');
+      if (dontShow?.checked) {
+        localStorage.setItem('fred-explorer-welcome-dismissed', 'true');
+      }
+    }
+    modalEl.classList.remove('active');
+    modalEl.setAttribute('aria-hidden', 'true');
+    if (this._activeModal === modalEl) {
+      this._activeModal = null;
+    }
+    const prev = this._lastFocusedEl;
+    this._lastFocusedEl = null;
+    if (prev && typeof prev.focus === 'function' && document.contains(prev) && prev.offsetParent !== null) {
+      prev.focus();
+    } else {
+      document.getElementById('topbar-menu-btn')?.offsetParent !== null
+        ? document.getElementById('topbar-menu-btn')?.focus()
+        : document.getElementById('about-link')?.focus();
+    }
+  },
+
+  _getModalFocusables(modalEl) {
+    return [...modalEl.querySelectorAll(
+      'a[href], button:not([disabled]), input:not([disabled]), select:not([disabled]), textarea:not([disabled]), [tabindex]:not([tabindex="-1"])'
+    )].filter(el => el.offsetParent !== null);
+  },
+
+  setupModals() {
+    if (this._modalsBound) return;
+    this._modalsBound = true;
+
+    const welcomeModal = document.getElementById('welcome-modal');
+    const aboutModal = document.getElementById('about-modal');
+
+    document.getElementById('welcome-close-btn')?.addEventListener('click', () => this.closeModal(welcomeModal));
+    document.getElementById('welcome-modal-x')?.addEventListener('click', () => this.closeModal(welcomeModal));
+    document.getElementById('about-close-btn')?.addEventListener('click', () => this.closeModal(aboutModal));
+    document.getElementById('about-modal-close')?.addEventListener('click', () => this.closeModal(aboutModal));
+
+    // Backdrop click closes modal
+    [welcomeModal, aboutModal].forEach(modalEl => {
+      modalEl?.addEventListener('click', (e) => {
+        if (e.target === modalEl) {
+          this.closeModal(modalEl);
+        }
+      });
+    });
+
+    // Global Escape & Tab focus trap while a modal is active
+    document.addEventListener('keydown', (e) => {
+      const modalEl = this._activeModal;
+      if (!modalEl || !modalEl.classList.contains('active')) return;
+      if (e.key === 'Escape') {
+        e.preventDefault();
+        this.closeModal(modalEl);
+        return;
+      }
+      if (e.key === 'Tab') {
+        const focusables = this._getModalFocusables(modalEl);
+        if (focusables.length === 0) return;
+        const first = focusables[0];
+        const last = focusables[focusables.length - 1];
+        if (e.shiftKey && (document.activeElement === first || !modalEl.contains(document.activeElement))) {
+          e.preventDefault();
+          last.focus();
+        } else if (!e.shiftKey && (document.activeElement === last || !modalEl.contains(document.activeElement))) {
+          e.preventDefault();
+          first.focus();
+        }
+      }
+    });
+  },
+
+  /**
    * Initialize welcome modal with "don't show again" functionality
    */
   initWelcomeModal() {
+    this.setupModals();
     const STORAGE_KEY = 'fred-explorer-welcome-dismissed';
     const modal = document.getElementById('welcome-modal');
-    const closeBtn = document.getElementById('welcome-close-btn');
-    const dontShowCheckbox = document.getElementById('welcome-dont-show');
 
-    // Check if user has opted out
     if (localStorage.getItem(STORAGE_KEY) === 'true') {
-      return; // Don't show modal
+      return;
     }
 
-    // Show modal
-    modal.classList.add('active');
-
-    // Handle close button
-    closeBtn?.addEventListener('click', () => {
-      if (dontShowCheckbox?.checked) {
-        localStorage.setItem(STORAGE_KEY, 'true');
-      }
-      modal.classList.remove('active');
-    });
+    this.openModal(modal, null);
   },
 
   /**
@@ -268,7 +355,7 @@ FReD.explorer = {
     if (aboutLink) {
       aboutLink.addEventListener('click', (e) => {
         e.preventDefault();
-        document.getElementById('about-modal')?.classList.add('active');
+        this.openModal(document.getElementById('about-modal'), aboutLink);
       });
     }
 
@@ -298,9 +385,15 @@ FReD.explorer = {
       tab.classList.toggle('active', tab.dataset.tab === tabId);
     });
 
-    // Update sidebar navigation links
+    // Update sidebar navigation links & aria-current
     document.querySelectorAll('.sidebar-nav-link').forEach(link => {
-      link.classList.toggle('active', link.dataset.tab === tabId);
+      const isCurrent = link.dataset.tab === tabId;
+      link.classList.toggle('active', isCurrent);
+      if (isCurrent) {
+        link.setAttribute('aria-current', 'page');
+      } else {
+        link.removeAttribute('aria-current');
+      }
     });
 
     // Update tab content
@@ -308,15 +401,22 @@ FReD.explorer = {
       content.classList.toggle('active', content.id === `tab-${tabId}`);
     });
 
-    // Render tab-specific content
+    // Render tab-specific content and re-adjust DataTables column widths
     const criterion = FReD.state.get('criterion');
-    if (tabId === 'forest') {
+    if (tabId === 'overview') {
+      requestAnimationFrame(() => {
+        if (this.dataTable) this.dataTable.columns.adjust();
+      });
+    } else if (tabId === 'forest') {
       FReD.charts.forestplot.render(this.filteredStudies);
     } else if (tabId === 'correlates') {
       FReD.charts.trends.renderDecade(this.filteredStudies, criterion);
       FReD.charts.trends.renderDiscipline(this.filteredStudies, criterion);
     } else if (tabId === 'data') {
       this.updateFullDataTable();
+      requestAnimationFrame(() => {
+        if (this.fullDataTable) this.fullDataTable.columns.adjust();
+      });
     }
   },
 
@@ -359,20 +459,30 @@ FReD.explorer = {
         }
       });
 
-      // Add click handler for expand/collapse
+      // Add click handler for expand/collapse (supports button & cell click + aria-expanded)
       $('#studies-table tbody').on('click', 'td.dt-control', function() {
         const tr = $(this).closest('tr');
         const row = self.dataTable.row(tr);
+        const btn = $(this).find('.dt-expand-btn')[0];
 
         if (row.child.isShown()) {
           row.child.hide();
           tr.removeClass('shown');
+          if (btn) {
+            btn.setAttribute('aria-expanded', 'false');
+            btn.setAttribute('aria-label', 'Show study details');
+          }
         } else {
           const rowData = row.data();
           const studyIdx = rowData[rowData.length - 1]; // idx is always last
           const study = self.filteredStudies[studyIdx];
-          row.child(self.formatStudyDetails(study, criterion)).show();
+          const activeCriterion = FReD.state.get('criterion');
+          row.child(self.formatStudyDetails(study, activeCriterion)).show();
           tr.addClass('shown');
+          if (btn) {
+            btn.setAttribute('aria-expanded', 'true');
+            btn.setAttribute('aria-label', 'Hide study details');
+          }
         }
       });
     }
@@ -410,21 +520,25 @@ FReD.explorer = {
           </svg>
           Columns
         </button>
-        <div class="column-selector-dropdown" id="column-selector-dropdown">
+        <div class="column-selector-dropdown" id="column-selector-dropdown" role="region" aria-label="Select visible columns">
           <div class="column-selector-header">
             Select Columns
-            <span class="column-selector-reset" id="column-selector-reset">Reset</span>
+            <button type="button" class="column-selector-reset" id="column-selector-reset">Reset</button>
           </div>
           <div class="column-selector-list">
     `;
 
-    selectableColumns.forEach(col => {
+    selectableColumns.forEach((col, i) => {
       const checked = this.visibleColumns.includes(col.key) ? 'checked' : '';
       html += `
         <div class="column-selector-item" draggable="true" data-column-key="${col.key}">
-          <span class="column-drag-handle" title="Drag to reorder">&#8801;</span>
+          <span class="column-drag-handle" aria-hidden="true" title="Drag to reorder">&#8801;</span>
           <input type="checkbox" id="col-${col.key}" data-column="${col.key}" ${checked}>
           <label for="col-${col.key}">${col.label}</label>
+          <span class="column-move-btns">
+            <button type="button" class="column-move-btn" data-move="up" data-column="${col.key}" aria-label="Move ${col.label} up" ${i === 0 ? 'disabled' : ''}>&#9650;</button>
+            <button type="button" class="column-move-btn" data-move="down" data-column="${col.key}" aria-label="Move ${col.label} down" ${i === selectableColumns.length - 1 ? 'disabled' : ''}>&#9660;</button>
+          </span>
         </div>
       `;
     });
@@ -441,24 +555,69 @@ FReD.explorer = {
     const btn = document.getElementById('column-selector-btn');
     const dropdown = document.getElementById('column-selector-dropdown');
     const resetBtn = document.getElementById('column-selector-reset');
+    btn?.setAttribute('aria-expanded', 'false');
+    btn?.setAttribute('aria-controls', 'column-selector-dropdown');
 
     // Toggle dropdown
     btn?.addEventListener('click', (e) => {
       e.stopPropagation();
-      dropdown.classList.toggle('open');
+      const open = dropdown.classList.toggle('open');
+      btn.setAttribute('aria-expanded', String(open));
     });
 
-    // Close dropdown when clicking outside
-    document.addEventListener('click', (e) => {
-      if (!container.contains(e.target)) {
-        dropdown.classList.remove('open');
-      }
-    });
+    // Close dropdown when clicking outside or pressing Escape (bound once)
+    if (!this._colSelectorDocBound) {
+      this._colSelectorDocBound = true;
+      document.addEventListener('click', (e) => {
+        const c = document.getElementById('column-selector-container');
+        const dd = document.getElementById('column-selector-dropdown');
+        const b = document.getElementById('column-selector-btn');
+        if (c && dd && !c.contains(e.target)) {
+          dd.classList.remove('open');
+          b?.setAttribute('aria-expanded', 'false');
+        }
+      });
+      document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape') {
+          const dd = document.getElementById('column-selector-dropdown');
+          const b = document.getElementById('column-selector-btn');
+          if (dd && dd.classList.contains('open')) {
+            dd.classList.remove('open');
+            b?.setAttribute('aria-expanded', 'false');
+            b?.focus();
+          }
+        }
+      });
+    }
 
     // Handle checkbox changes
     dropdown?.addEventListener('change', (e) => {
       if (e.target.type === 'checkbox') {
         this.handleColumnToggle(e.target.dataset.column, e.target.checked);
+      }
+    });
+
+    // Handle keyboard up/down move buttons
+    dropdown?.addEventListener('click', (e) => {
+      const moveBtn = e.target.closest('.column-move-btn');
+      if (!moveBtn) return;
+      const item = moveBtn.closest('.column-selector-item');
+      if (!item) return;
+      const dir = moveBtn.dataset.move;
+      if (dir === 'up' && item.previousElementSibling) {
+        item.previousElementSibling.before(item);
+        this.saveColumnOrder();
+        this.setupColumnSelector();
+        document.getElementById('column-selector-dropdown')?.classList.add('open');
+        document.getElementById('column-selector-btn')?.setAttribute('aria-expanded', 'true');
+        document.querySelector(`.column-move-btn[data-move="up"][data-column="${moveBtn.dataset.column}"]`)?.focus();
+      } else if (dir === 'down' && item.nextElementSibling) {
+        item.nextElementSibling.after(item);
+        this.saveColumnOrder();
+        this.setupColumnSelector();
+        document.getElementById('column-selector-dropdown')?.classList.add('open');
+        document.getElementById('column-selector-btn')?.setAttribute('aria-expanded', 'true');
+        document.querySelector(`.column-move-btn[data-move="down"][data-column="${moveBtn.dataset.column}"]`)?.focus();
       }
     });
 
@@ -870,14 +1029,18 @@ FReD.explorer = {
   },
 
   /**
-   * Setup reference tooltips
+   * Setup reference tooltips (hover, keyboard focus/Enter/Space, and touch tap)
    */
   setupTooltips() {
-    // Create tooltip element
     const tooltip = document.createElement('div');
     tooltip.className = 'tooltip-popup';
+    tooltip.setAttribute('role', 'dialog');
+    tooltip.setAttribute('aria-label', 'Reference details');
     tooltip.style.display = 'none';
     document.body.appendChild(tooltip);
+
+    const COPY_SVG = '<svg aria-hidden="true" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-right:4px"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>';
+    const LINK_SVG = '<svg aria-hidden="true" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-right:4px"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>';
 
     let hideTimeout = null;
     let currentTarget = null;
@@ -892,19 +1055,17 @@ FReD.explorer = {
       const text = target.dataset.tooltip;
       const link = target.dataset.link;
 
-      // Build tooltip content with buttons
       let html = `<div class="tooltip-text">${FReD.utils.escapeHtml(text)}</div>`;
       html += `<div class="tooltip-actions">`;
-      html += `<button class="tooltip-btn tooltip-copy" title="Copy reference">📋 Copy</button>`;
+      html += `<button type="button" class="tooltip-btn tooltip-copy" title="Copy reference">${COPY_SVG}Copy</button>`;
       if (link) {
-        html += `<a href="${FReD.utils.escapeHtml(link)}" target="_blank" class="tooltip-btn tooltip-link" title="Open paper">🔗 Open</a>`;
+        html += `<a href="${FReD.utils.escapeHtml(link)}" target="_blank" rel="noopener" class="tooltip-btn tooltip-link" title="Open paper">${LINK_SVG}Open</a>`;
       }
       html += `</div>`;
 
       tooltip.innerHTML = html;
       tooltip.style.display = 'block';
 
-      // Position tooltip
       const rect = target.getBoundingClientRect();
       const tooltipRect = tooltip.getBoundingClientRect();
 
@@ -914,7 +1075,6 @@ FReD.explorer = {
       if (top < 10) {
         top = rect.bottom + 8;
       }
-
       if (left + tooltipRect.width > window.innerWidth - 10) {
         left = window.innerWidth - tooltipRect.width - 10;
       }
@@ -923,24 +1083,31 @@ FReD.explorer = {
       tooltip.style.top = top + 'px';
       tooltip.style.left = left + 'px';
 
-      // Setup copy button
       tooltip.querySelector('.tooltip-copy')?.addEventListener('click', () => {
         navigator.clipboard.writeText(text).then(() => {
           const btn = tooltip.querySelector('.tooltip-copy');
-          btn.textContent = '✓ Copied!';
-          setTimeout(() => { btn.textContent = '📋 Copy'; }, 1500);
+          if (btn) {
+            btn.textContent = 'Copied';
+            setTimeout(() => { btn.innerHTML = `${COPY_SVG}Copy`; }, 1500);
+          }
         });
       });
     };
 
-    const hideTooltip = () => {
+    const hideTooltip = (immediate) => {
+      if (hideTimeout) clearTimeout(hideTimeout);
+      if (immediate) {
+        tooltip.style.display = 'none';
+        currentTarget = null;
+        return;
+      }
       hideTimeout = setTimeout(() => {
+        if (tooltip.contains(document.activeElement)) return;
         tooltip.style.display = 'none';
         currentTarget = null;
       }, 150);
     };
 
-    // Show on hover over reference
     document.addEventListener('mouseover', (e) => {
       const target = e.target.closest('.ref-tooltip');
       if (target && target.dataset.tooltip) {
@@ -948,15 +1115,46 @@ FReD.explorer = {
       }
     });
 
-    // Hide when leaving reference (with delay)
     document.addEventListener('mouseout', (e) => {
       const target = e.target.closest('.ref-tooltip');
       if (target) {
-        hideTooltip();
+        hideTooltip(false);
       }
     });
 
-    // Keep visible when hovering over tooltip
+    // Touch & click activation + click-outside dismissal
+    document.addEventListener('click', (e) => {
+      const target = e.target.closest('.ref-tooltip');
+      if (target && target.dataset.tooltip) {
+        e.stopPropagation();
+        if (currentTarget === target && tooltip.style.display === 'block') {
+          hideTooltip(true);
+        } else {
+          showTooltip(target);
+        }
+        return;
+      }
+      if (!tooltip.contains(e.target) && tooltip.style.display === 'block') {
+        hideTooltip(true);
+      }
+    });
+
+    // Keyboard activation (Enter/Space) and Escape dismissal
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape' && tooltip.style.display === 'block') {
+        const prev = currentTarget;
+        hideTooltip(true);
+        prev?.focus();
+        return;
+      }
+      if ((e.key === 'Enter' || e.key === ' ') && e.target.closest('.ref-tooltip')) {
+        e.preventDefault();
+        const target = e.target.closest('.ref-tooltip');
+        showTooltip(target);
+        tooltip.querySelector('.tooltip-copy')?.focus();
+      }
+    });
+
     tooltip.addEventListener('mouseenter', () => {
       if (hideTimeout) {
         clearTimeout(hideTimeout);
@@ -964,9 +1162,16 @@ FReD.explorer = {
       }
     });
 
-    // Hide when leaving tooltip
     tooltip.addEventListener('mouseleave', () => {
-      hideTooltip();
+      hideTooltip(false);
+    });
+
+    tooltip.addEventListener('focusout', () => {
+      setTimeout(() => {
+        if (!tooltip.contains(document.activeElement) && document.activeElement !== currentTarget) {
+          hideTooltip(true);
+        }
+      }, 50);
     });
   },
 

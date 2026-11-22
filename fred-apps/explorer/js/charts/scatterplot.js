@@ -2,8 +2,8 @@
  * FReD Explorer - Scatterplot Chart
  *
  * Interactive scatterplot of original vs replication effect sizes rendered
- * with Apache ECharts (SVG), including x = y line, y = 0 line, and
- * significance rug marks along both axes.
+ * with Apache ECharts (SVG), including x = y line, y = 0 line, dynamic
+ * bounds covering every valid effect, and clipped significance rug marks.
  */
 
 window.FReD = window.FReD || {};
@@ -12,6 +12,7 @@ FReD.charts = FReD.charts || {};
 FReD.charts.scatterplot = {
   container: null,
   actionsEl: null,
+  rugLegendEl: null,
   lastStudies: null,
   lastCriterion: null,
 
@@ -21,6 +22,7 @@ FReD.charts.scatterplot = {
   init(containerId) {
     this.container = document.getElementById(containerId);
     this.actionsEl = document.getElementById(containerId + '-actions');
+    this.rugLegendEl = document.getElementById('scatterplot-rug-legend');
     if (!this.container) {
       console.error('Scatterplot container not found:', containerId);
       return;
@@ -45,15 +47,24 @@ FReD.charts.scatterplot = {
 
     if (validStudies.length === 0) {
       FReD.charts.unmount(this.container, this.actionsEl);
+      this.container.classList.remove('loading');
+      this.container.classList.add('is-empty');
       this.container.style.height = '';
       this.container.innerHTML = '<div class="alert alert-info">No studies with effect size data to display.</div>';
-      this.container.classList.remove('loading');
+      if (this.rugLegendEl) this.rugLegendEl.hidden = true;
       return;
     }
 
-    // Group studies by outcome
+    this.container.classList.remove('is-empty');
+    if (this.rugLegendEl) this.rugLegendEl.hidden = false;
+
+    // Group studies by outcome and compute dynamic bounds so no point is ever clipped
     const groups = {};
     const tableRows = [];
+    let dataMinX = 0;
+    let dataMaxX = 1;
+    let dataMinY = -0.5;
+    let dataMaxY = 1;
 
     validStudies.forEach(study => {
       const { outcomeReport } = FReD.successCriteria.getOutcome(study, criterion);
@@ -64,15 +75,36 @@ FReD.charts.scatterplot = {
       }
       groups[outcome].push(study);
 
+      const x = Number(study.es_o);
+      const y = Number(study.es_r);
+      if (x < dataMinX) dataMinX = x;
+      if (x > dataMaxX) dataMaxX = x;
+      if (y < dataMinY) dataMinY = y;
+      if (y > dataMaxY) dataMaxY = y;
+
       tableRows.push([
         study.description || 'No description',
         outcome,
-        Number(study.es_o),
-        Number(study.es_r),
+        x,
+        y,
         study.p_o != null && !isNaN(study.p_o) ? Number(study.p_o) : '',
         study.p_r != null && !isNaN(study.p_r) ? Number(study.p_r) : ''
       ]);
     });
+
+    // Snap bounds outward to clean 0.25 steps, then add a 0.05 rug band below minY and left of minX
+    const tickMinX = Math.floor(dataMinX * 4) / 4;
+    const tickMaxX = Math.ceil(dataMaxX * 4) / 4;
+    const tickMinY = Math.floor(dataMinY * 4) / 4;
+    const tickMaxY = Math.ceil(dataMaxY * 4) / 4;
+
+    const axisMinX = Number((tickMinX - 0.05).toFixed(2));
+    const axisMaxX = Number((tickMaxX + 0.05).toFixed(2));
+    const axisMinY = Number((tickMinY - 0.05).toFixed(2));
+    const axisMaxY = Number((tickMaxY + 0.05).toFixed(2));
+
+    const bottomRugY = Number((tickMinY - 0.025).toFixed(3));
+    const leftRugX = Number((tickMinX - 0.025).toFixed(3));
 
     const outcomeOrder = [
       'Success', 'Successful', 'Successful replication',
@@ -100,18 +132,17 @@ FReD.charts.scatterplot = {
     const table = {
       headers: ['Description', 'Outcome', 'Original r', 'Replication r', 'Original p', 'Replication p'],
       rows: tableRows,
-      summary: `Original vs. replication effect sizes for ${validStudies.length.toLocaleString('en-GB')} effects with numeric effect sizes (${criterionLabel}).`
+      summary: `Original vs. replication effect sizes for ${validStudies.length.toLocaleString('en-GB')} of ${studies.length.toLocaleString('en-GB')} selected effects with numeric effect sizes (${criterionLabel}).`
     };
 
-    // Significance rug data (pre-partitioned)
     const bottomRugData = [];
     const leftRugData = [];
     validStudies.forEach(s => {
       if (s.p_o != null && !isNaN(s.p_o)) {
-        bottomRugData.push([s.es_o, -0.52, s.p_o < 0.05 ? 1 : 0]);
+        bottomRugData.push([Number(s.es_o), bottomRugY, s.p_o < 0.05 ? 1 : 0]);
       }
       if (s.p_r != null && !isNaN(s.p_r)) {
-        leftRugData.push([-0.02, s.es_r, s.p_r < 0.05 ? 1 : 0]);
+        leftRugData.push([leftRugX, Number(s.es_r), s.p_r < 0.05 ? 1 : 0]);
       }
     });
 
@@ -121,76 +152,87 @@ FReD.charts.scatterplot = {
       const t = FReD.charts.chartTheme();
       const rug = FReD.successCriteria.rugColors;
       const series = [];
+      const legendData = [];
 
-      // Outcome scatter series (distinct colour + distinct marker shape)
-      sortedOutcomes.forEach((outcome, idx) => {
+      // Dedicated silent series for reference lines so legend toggles NEVER remove x = y or y = 0
+      const diagStart = Math.max(tickMinX, tickMinY);
+      const diagEnd = Math.min(tickMaxX, tickMaxY);
+      series.push({
+        name: '_ref_lines',
+        type: 'scatter',
+        silent: true,
+        symbolSize: 0,
+        z: 1,
+        data: [],
+        markLine: {
+          silent: true,
+          symbol: ['none', 'none'],
+          animation: false,
+          label: { show: false },
+          data: [
+            [
+              { coord: [diagStart, diagStart], lineStyle: { color: t.rule, type: 'solid', width: 1.5 } },
+              { coord: [diagEnd, diagEnd] }
+            ],
+            [
+              { coord: [tickMinX, 0], lineStyle: { color: t.rule, type: 'dashed', width: 1.5 } },
+              { coord: [tickMaxX, 0] }
+            ]
+          ]
+        }
+      });
+
+      // Outcome scatter series with distinct colour + distinct shape (also reflected in legend)
+      sortedOutcomes.forEach(outcome => {
         const color = FReD.successCriteria.getColor(outcome);
-        const symbol = FReD.charts.outcomeSymbol(outcome);
+        const marker = FReD.charts.outcomeMarker(outcome, color);
+        const swatchColor = marker.itemStyle.color === t.paper ? marker.itemStyle.borderColor : color;
         const pts = groups[outcome].map(study => ({
-          value: [study.es_o, study.es_r],
+          value: [Number(study.es_o), Number(study.es_r)],
           description: study.description || 'No description',
           outcome: outcome,
-          color: color
+          swatchColor: swatchColor
         }));
 
-        const sObj = {
+        legendData.push({
+          name: outcome,
+          icon: marker.symbol,
+          itemStyle: marker.itemStyle
+        });
+
+        series.push({
           name: outcome,
           type: 'scatter',
-          symbol: symbol,
+          symbol: marker.symbol,
           symbolSize: pointSize,
-          itemStyle: {
-            color: color,
-            borderColor: t.paper,
-            borderWidth: 1,
-            opacity: 0.9
-          },
+          itemStyle: Object.assign({}, marker.itemStyle, { opacity: 0.92 }),
           emphasis: {
             scale: 1.35,
             itemStyle: { opacity: 1 }
           },
+          z: 3,
           data: pts
-        };
-
-        // Attach reference lines (x = y and y = 0) to the first series
-        if (idx === 0) {
-          sObj.markLine = {
-            silent: true,
-            symbol: ['none', 'none'],
-            animation: false,
-            label: { show: false },
-            data: [
-              [
-                { coord: [0, 0], lineStyle: { color: t.rule, type: 'solid', width: 1.5 } },
-                { coord: [1, 1] }
-              ],
-              [
-                { coord: [0, 0], lineStyle: { color: t.rule, type: 'dashed', width: 1.5 } },
-                { coord: [1, 0] }
-              ]
-            ]
-          };
-        }
-
-        series.push(sObj);
+        });
       });
 
-      // Bottom rug (original study significance)
+      // Bottom rug (original study significance) - strictly clipped inside plot
       if (bottomRugData.length > 0) {
         series.push({
           name: '_rug_orig',
           type: 'custom',
           silent: true,
+          clip: true,
           z: 2,
           renderItem: function (params, api) {
             const pt = api.coord([api.value(0), api.value(1)]);
             const isSig = api.value(2) === 1;
             return {
               type: 'line',
-              shape: { x1: pt[0], y1: pt[1] - 5, x2: pt[0], y2: pt[1] + 5 },
+              shape: { x1: pt[0], y1: pt[1] - 4, x2: pt[0], y2: pt[1] + 4 },
               style: {
                 stroke: isSig ? rug.significant : rug.notSignificant,
                 lineWidth: 1.5,
-                opacity: 0.75
+                opacity: 0.78
               }
             };
           },
@@ -198,23 +240,24 @@ FReD.charts.scatterplot = {
         });
       }
 
-      // Left rug (replication study significance)
+      // Left rug (replication study significance) - strictly clipped inside plot
       if (leftRugData.length > 0) {
         series.push({
           name: '_rug_rep',
           type: 'custom',
           silent: true,
+          clip: true,
           z: 2,
           renderItem: function (params, api) {
             const pt = api.coord([api.value(0), api.value(1)]);
             const isSig = api.value(2) === 1;
             return {
               type: 'line',
-              shape: { x1: pt[0] - 5, y1: pt[1], x2: pt[0] + 5, y2: pt[1] },
+              shape: { x1: pt[0] - 4, y1: pt[1], x2: pt[0] + 4, y2: pt[1] },
               style: {
                 stroke: isSig ? rug.significant : rug.notSignificant,
                 lineWidth: 1.5,
-                opacity: 0.75
+                opacity: 0.78
               }
             };
           },
@@ -230,7 +273,7 @@ FReD.charts.scatterplot = {
           const yVal = Array.isArray(d.value) ? d.value[1] : p.value?.[1];
           return FReD.charts.tipLines([
             `<strong>${FReD.charts.escapeHtml(d.description || 'No description')}</strong>`,
-            FReD.charts.tipRow(d.color || p.color, d.outcome || p.seriesName),
+            FReD.charts.tipRow(d.swatchColor || p.color, d.outcome || p.seriesName),
             `r(original) = ${FReD.utils.formatNumber(xVal, 3)}`,
             `r(replication) = ${FReD.utils.formatNumber(yVal, 3)}`
           ]);
@@ -238,41 +281,42 @@ FReD.charts.scatterplot = {
       };
 
       const majorGridColors = ['transparent', t.grid, 'transparent', 'transparent', 'transparent'];
+      const formatQuarterTick = (minTick, maxTick) => v => {
+        const r = Math.round(v * 100);
+        if (r < Math.round(minTick * 100) || r > Math.round(maxTick * 100) || r % 25 !== 0) return '';
+        const val = r === 0 ? 0 : r / 100;
+        return val.toFixed(2);
+      };
 
       return FReD.charts.finishOption({
         series: series,
         tooltip: tooltip,
+        legend: { data: legendData },
         xAxis: FReD.charts.valueAxis({
           name: 'Original Effect Size (r)',
           nameGap: 32,
-          min: -0.05,
-          max: 1.05,
+          min: axisMinX,
+          max: axisMaxX,
           interval: 0.05,
           splitLine: { lineStyle: { color: majorGridColors } },
           axisLabel: {
             interval: 0,
-            formatter: v => {
-              const r = Math.round(v * 100);
-              return (r >= 0 && r <= 100 && r % 25 === 0) ? (r / 100).toFixed(2) : '';
-            }
+            formatter: formatQuarterTick(tickMinX, tickMaxX)
           }
         }),
         yAxis: FReD.charts.valueAxis({
           name: 'Replication Effect Size (r)',
           nameGap: 44,
-          min: -0.55,
-          max: 1.05,
+          min: axisMinY,
+          max: axisMaxY,
           interval: 0.05,
           splitLine: { lineStyle: { color: majorGridColors } },
           axisLabel: {
             interval: 0,
-            formatter: v => {
-              const r = Math.round(v * 100);
-              return (r >= -50 && r <= 100 && r % 25 === 0) ? (r / 100).toFixed(2) : '';
-            }
+            formatter: formatQuarterTick(tickMinY, tickMaxY)
           }
         }),
-        grid: { left: 40, right: 18, top: 12, bottom: 28, containLabel: true }
+        grid: { left: 42, right: 18, top: 12, bottom: 28, containLabel: true }
       }, { width });
     };
 
@@ -284,7 +328,8 @@ FReD.charts.scatterplot = {
       height: 500,
       aspect: 0.62,
       table: table,
-      actionsEl: this.actionsEl
+      actionsEl: this.actionsEl,
+      disclosureAfterEl: this.rugLegendEl || this.container
     });
   },
 

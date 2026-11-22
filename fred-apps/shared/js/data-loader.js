@@ -10,13 +10,24 @@ FReD.dataLoader = {
   // Cache for loaded data
   _cache: {},
 
-  // Base URL for data files (can be overridden)
-  baseUrl: '../data/',
+  // Base URL for data files (can be overridden).
+  // On staging.forrt.org, read from production GitHub Pages (CORS-enabled) so
+  // large datasets are not duplicated into webpage-staging's git history.
+  baseUrl: (typeof window !== 'undefined' && window.location && window.location.hostname === 'staging.forrt.org')
+    ? 'https://forrt.org/fred-apps/data/'
+    : '../data/',
 
-  // Data file names
+  // JSON data file names
   dataFiles: {
     explorer: 'explorer-data.json',
     flora: 'flora-data.json'
+  },
+
+  /**
+   * Resolve full URL for any static data asset
+   */
+  getDataUrl(filename) {
+    return this.baseUrl + filename;
   },
 
   /**

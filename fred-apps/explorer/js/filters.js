@@ -59,7 +59,9 @@ FReD.filters = {
     // Power slider
     this.elements.minPower.addEventListener('input', (e) => {
       const value = parseFloat(e.target.value);
-      this.elements.minPowerValue.textContent = Math.round(value * 100) + '%';
+      const pctText = Math.round(value * 100) + '%';
+      this.elements.minPowerValue.textContent = pctText;
+      this.elements.minPower.setAttribute('aria-valuetext', pctText);
     });
 
     this.elements.minPower.addEventListener('change', (e) => {
@@ -100,7 +102,9 @@ FReD.filters = {
     // Power slider
     if (parseFloat(this.elements.minPower.value) !== state.minPower) {
       this.elements.minPower.value = state.minPower;
-      this.elements.minPowerValue.textContent = Math.round(state.minPower * 100) + '%';
+      const pctText = Math.round(state.minPower * 100) + '%';
+      this.elements.minPowerValue.textContent = pctText;
+      this.elements.minPower.setAttribute('aria-valuetext', pctText);
     }
 
     // Criterion dropdown

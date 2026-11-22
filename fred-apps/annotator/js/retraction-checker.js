@@ -7,8 +7,19 @@
 window.FReD = window.FReD || {};
 
 FReD.retractionChecker = {
-  // Retraction Watch data URL (local gzipped copy updated weekly via GitHub Actions)
-  dataUrl: '../data/retraction-watch.csv.gz',
+  // Retraction Watch data filename (resolved via FReD.dataLoader.baseUrl when available)
+  dataFile: 'retraction-watch.csv.gz',
+  dataUrl: null,
+
+  getDataUrl() {
+    if (this.dataUrl) {
+      return this.dataUrl;
+    }
+    if (window.FReD && FReD.dataLoader && typeof FReD.dataLoader.getDataUrl === 'function') {
+      return FReD.dataLoader.getDataUrl(this.dataFile);
+    }
+    return '../data/' + this.dataFile;
+  },
 
   // Cached retraction data (DOI -> retraction info)
   retractionMap: null,
@@ -38,7 +49,7 @@ FReD.retractionChecker = {
     console.log('Loading Retraction Watch data...');
 
     try {
-      const response = await fetch(this.dataUrl);
+      const response = await fetch(this.getDataUrl());
       if (!response.ok) {
         throw new Error(`HTTP ${response.status}: ${response.statusText}`);
       }

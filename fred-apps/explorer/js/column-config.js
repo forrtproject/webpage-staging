@@ -30,10 +30,10 @@ FReD.columnConfig = {
       key: '_control',
       label: '',
       alwaysVisible: true,
-      getValue: () => '',
+      getValue: () => '<button type="button" class="dt-expand-btn" aria-expanded="false" aria-label="Show study details"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg></button>',
       className: 'dt-control',
       orderable: false,
-      width: '30px'
+      width: '36px'
     },
     _idx: {
       key: '_idx',
@@ -262,7 +262,7 @@ FReD.columnConfig = {
       className: controlCol.className,
       orderable: controlCol.orderable,
       data: null,
-      defaultContent: '',
+      defaultContent: controlCol.getValue(),
       width: controlCol.width
     });
 

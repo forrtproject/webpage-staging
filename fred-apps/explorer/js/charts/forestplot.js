@@ -3,7 +3,8 @@
  *
  * Forest plot showing original and replication effect sizes with 95% confidence
  * intervals, rendered with Apache ECharts (SVG) custom series. Preserves
- * pagination, sorting, effect numbering, and PNG/SVG export.
+ * pagination, sorting, effect numbering, focus continuity, top+bottom x-axis
+ * scales, and crisp PNG/SVG export.
  */
 
 window.FReD = window.FReD || {};
@@ -48,9 +49,12 @@ FReD.charts.forestplot = {
 
     if (this.allValidStudies.length === 0) {
       this._unmountActive();
+      this.container.classList.add('is-empty');
       this.container.innerHTML = '<div class="alert alert-info">No effects with effect size data to display.</div>';
       return;
     }
+
+    this.container.classList.remove('is-empty');
 
     // Assign effect numbers BEFORE sorting (based on original data order)
     this.assignEffectNumbers();
@@ -120,10 +124,22 @@ FReD.charts.forestplot = {
     }
   },
 
+  _restoreFocus(id) {
+    if (!id) return;
+    const el = document.getElementById(id);
+    if (el && !el.disabled) {
+      el.focus();
+    } else if (id === 'forest-next') {
+      document.getElementById('forest-prev')?.focus();
+    } else if (id === 'forest-prev') {
+      document.getElementById('forest-next')?.focus();
+    }
+  },
+
   /**
    * Render with pagination controls
    */
-  renderWithPagination() {
+  renderWithPagination(refocusId) {
     this._unmountActive();
 
     const totalEffects = this.allValidStudies.length;
@@ -159,27 +175,27 @@ FReD.charts.forestplot = {
         </div>
         <div class="forest-controls-right">
           <div class="btn-group">
-            <button class="btn btn-sm btn-secondary" id="forest-prev" ${this.currentPage === 1 ? 'disabled' : ''}>
+            <button type="button" class="btn btn-sm btn-secondary" id="forest-prev" ${this.currentPage === 1 ? 'disabled' : ''}>
               &laquo; Prev
             </button>
-            <span class="forest-page-indicator">
+            <span class="forest-page-indicator" aria-live="polite">
               ${this.currentPage}/${totalPages}
             </span>
-            <button class="btn btn-sm btn-secondary" id="forest-next" ${this.currentPage === totalPages ? 'disabled' : ''}>
+            <button type="button" class="btn btn-sm btn-secondary" id="forest-next" ${this.currentPage === totalPages ? 'disabled' : ''}>
               Next &raquo;
             </button>
           </div>
           <div class="btn-group">
-            <button class="btn btn-sm btn-outline-secondary" id="forest-download-png" title="Download as PNG">
+            <button type="button" class="btn btn-sm btn-outline-secondary" id="forest-download-png" title="Download as PNG">
               PNG
             </button>
-            <button class="btn btn-sm btn-outline-secondary" id="forest-download-svg" title="Download as SVG">
+            <button type="button" class="btn btn-sm btn-outline-secondary" id="forest-download-svg" title="Download as SVG">
               SVG
             </button>
           </div>
         </div>
       </div>
-      <div class="forest-plot-scroll">
+      <div class="forest-plot-scroll" id="forest-plot-scroll" tabindex="0" role="region" aria-label="Forest plot scroll area">
         <div id="forest-plot-area"></div>
       </div>
     `;
@@ -189,28 +205,28 @@ FReD.charts.forestplot = {
     document.getElementById('forest-prev')?.addEventListener('click', () => {
       if (this.currentPage > 1) {
         this.currentPage--;
-        this.renderWithPagination();
+        this.renderWithPagination('forest-prev');
       }
     });
 
     document.getElementById('forest-next')?.addEventListener('click', () => {
       if (this.currentPage < totalPages) {
         this.currentPage++;
-        this.renderWithPagination();
+        this.renderWithPagination('forest-next');
       }
     });
 
     document.getElementById('forest-page-size')?.addEventListener('change', (e) => {
       this.pageSize = parseInt(e.target.value, 10);
       this.currentPage = 1;
-      this.renderWithPagination();
+      this.renderWithPagination('forest-page-size');
     });
 
     document.getElementById('forest-sort')?.addEventListener('change', (e) => {
       this.sortBy = e.target.value;
       this.applySorting();
       this.currentPage = 1;
-      this.renderWithPagination();
+      this.renderWithPagination('forest-sort');
     });
 
     document.getElementById('forest-download-png')?.addEventListener('click', () => {
@@ -222,7 +238,9 @@ FReD.charts.forestplot = {
     });
 
     const plotContainer = document.getElementById('forest-plot-area');
-    this.renderPlotToElement(pageStudies, totalEffects, plotContainer, `Showing ${startIdx + 1}-${endIdx} of ${totalEffects}`);
+    const scrollContainer = document.getElementById('forest-plot-scroll');
+    this.renderPlotToElement(pageStudies, totalEffects, plotContainer, `Showing ${startIdx + 1}-${endIdx} of ${totalEffects}`, scrollContainer);
+    this._restoreFocus(refocusId);
   },
 
   /**
@@ -242,7 +260,7 @@ FReD.charts.forestplot = {
   /**
    * Render plot to container element (for <= autoRenderLimit effects)
    */
-  renderPlot(validStudies, totalCount) {
+  renderPlot(validStudies, totalCount, refocusId) {
     this._unmountActive();
 
     const controlsHtml = `
@@ -262,16 +280,16 @@ FReD.charts.forestplot = {
         </div>
         <div class="forest-controls-right">
           <div class="btn-group">
-            <button class="btn btn-sm btn-outline-secondary" id="forest-download-png-simple" title="Download as PNG">
+            <button type="button" class="btn btn-sm btn-outline-secondary" id="forest-download-png-simple" title="Download as PNG">
               PNG
             </button>
-            <button class="btn btn-sm btn-outline-secondary" id="forest-download-svg-simple" title="Download as SVG">
+            <button type="button" class="btn btn-sm btn-outline-secondary" id="forest-download-svg-simple" title="Download as SVG">
               SVG
             </button>
           </div>
         </div>
       </div>
-      <div class="forest-plot-scroll">
+      <div class="forest-plot-scroll" id="forest-plot-scroll-simple" tabindex="0" role="region" aria-label="Forest plot scroll area">
         <div id="forest-plot-area-simple"></div>
       </div>
     `;
@@ -281,7 +299,7 @@ FReD.charts.forestplot = {
     document.getElementById('forest-sort-simple')?.addEventListener('change', (e) => {
       this.sortBy = e.target.value;
       this.applySorting();
-      this.renderPlot(this.allValidStudies, totalCount);
+      this.renderPlot(this.allValidStudies, totalCount, 'forest-sort-simple');
     });
 
     document.getElementById('forest-download-png-simple')?.addEventListener('click', () => {
@@ -293,7 +311,9 @@ FReD.charts.forestplot = {
     });
 
     const plotContainer = document.getElementById('forest-plot-area-simple');
-    this.renderPlotToElement(validStudies, totalCount, plotContainer, `${validStudies.length} effects`);
+    const scrollContainer = document.getElementById('forest-plot-scroll-simple');
+    this.renderPlotToElement(validStudies, totalCount, plotContainer, `${validStudies.length} effects`, scrollContainer);
+    this._restoreFocus(refocusId);
   },
 
   /**
@@ -348,6 +368,23 @@ FReD.charts.forestplot = {
   },
 
   /**
+   * Shorten a study label while ALWAYS preserving (year) and [k/n] suffix
+   */
+  compactLabel(fullLabel, maxChars) {
+    if (!fullLabel || fullLabel.length <= maxChars) return fullLabel;
+    const suffixMatch = fullLabel.match(/(\s*\(\d{4}\)(?:\s*\[\d+\/\d+\])?|\s*\[\d+\/\d+\])$/);
+    if (suffixMatch) {
+      const suffix = suffixMatch[1];
+      const prefixBudget = Math.max(6, maxChars - suffix.length - 1);
+      const prefix = fullLabel.slice(0, fullLabel.length - suffix.length).trim();
+      if (prefix.length > prefixBudget) {
+        return prefix.slice(0, prefixBudget) + '\u2026' + suffix;
+      }
+    }
+    return fullLabel.slice(0, Math.max(4, maxChars - 1)) + '\u2026';
+  },
+
+  /**
    * Format reference for hover display with line breaks (escaped)
    */
   formatRefForHover(ref) {
@@ -389,13 +426,13 @@ FReD.charts.forestplot = {
   /**
    * Render ECharts SVG forest plot into `element`
    */
-  renderPlotToElement(validStudies, totalCount, element, rangeNote) {
+  renderPlotToElement(validStudies, totalCount, element, rangeNote, scrollContainer) {
     if (!element) return;
     this.activePlotEl = element;
 
     const { ticktext } = this.createStaggeredLabels(validStudies);
 
-    // Compute x-axis range across all point estimates and CIs
+    // Compute clean 0.25-snapped x-axis bounds so ticks never crowd at the right edge
     const allEffects = [];
     validStudies.forEach(s => {
       [s.es_o, s.es_r, s.ci_lower_o, s.ci_upper_o, s.ci_lower_r, s.ci_upper_r].forEach(v => {
@@ -403,8 +440,11 @@ FReD.charts.forestplot = {
       });
     });
 
-    const xMin = Math.floor(Math.min(...allEffects, -0.1) * 10) / 10 - 0.1;
-    const xMax = Math.ceil(Math.max(...allEffects, 0.1) * 10) / 10 + 0.1;
+    const rawMin = Math.min(...allEffects, -0.1);
+    const rawMax = Math.max(...allEffects, 0.1);
+    const xMin = Math.floor(rawMin * 4) / 4;
+    const xMax = Math.ceil(rawMax * 4) / 4;
+    const xInterval = (xMax - xMin) > 2 ? 0.5 : 0.25;
 
     // Build data rows: [x, rowIndex, ciLower, ciUpper]
     const origData = [];
@@ -460,7 +500,9 @@ FReD.charts.forestplot = {
       const t = FReD.charts.chartTheme();
       const colorOrig = FReD.charts.token('--color-chart-original');
       const colorRep = FReD.charts.token('--color-chart-replication');
-      const labelW = width < 560 ? 120 : 185;
+      const isNarrow = width < 560;
+      const maxLabelChars = isNarrow ? 22 : 34;
+      const displayLabels = ticktext.map(lbl => self.compactLabel(lbl, maxLabelChars));
 
       function renderWhiskerPoint(color, dodgePx, shapeKind) {
         return function (params, api) {
@@ -518,14 +560,14 @@ FReD.charts.forestplot = {
         };
       }
 
+      // Dedicated silent series for zero line so hiding Original never removes x = 0
       const series = [
         {
-          name: 'Original',
-          type: 'custom',
-          itemStyle: { color: colorOrig },
-          renderItem: renderWhiskerPoint(colorOrig, -3.5, 'circle'),
-          encode: { x: 0, y: 1 },
-          data: origData,
+          name: '_zero_line',
+          type: 'scatter',
+          silent: true,
+          symbolSize: 0,
+          data: [],
           markLine: {
             silent: true,
             symbol: ['none', 'none'],
@@ -534,6 +576,14 @@ FReD.charts.forestplot = {
             lineStyle: { color: t.rule, width: 1.5, type: 'dotted' },
             data: [{ xAxis: 0 }]
           }
+        },
+        {
+          name: 'Original',
+          type: 'custom',
+          itemStyle: { color: colorOrig },
+          renderItem: renderWhiskerPoint(colorOrig, -3.5, 'circle'),
+          encode: { x: 0, y: 1 },
+          data: origData
         },
         {
           name: 'Replication',
@@ -560,6 +610,31 @@ FReD.charts.forestplot = {
         }
       };
 
+      const formatAxisVal = v => {
+        const clean = Math.abs(v) < 1e-9 ? 0 : v;
+        return Number(clean.toFixed(2)).toString();
+      };
+
+      const bottomAxis = FReD.charts.valueAxis({
+        position: 'bottom',
+        name: 'Effect Size (r)',
+        nameGap: 30,
+        min: xMin,
+        max: xMax,
+        interval: xInterval,
+        axisLabel: { formatter: formatAxisVal }
+      });
+
+      // Mirror scale at top so rows near the top of long scrolled forest plots always have a visible scale
+      const topAxis = FReD.charts.valueAxis({
+        position: 'top',
+        min: xMin,
+        max: xMax,
+        interval: xInterval,
+        splitLine: { show: false },
+        axisLabel: { formatter: formatAxisVal }
+      });
+
       return FReD.charts.finishOption({
         series: series,
         tooltip: tooltip,
@@ -569,35 +644,29 @@ FReD.charts.forestplot = {
             { name: 'Replication', icon: 'diamond', itemStyle: { color: colorRep } }
           ]
         },
-        xAxis: FReD.charts.valueAxis({
-          name: 'Effect Size (r)',
-          nameGap: 32,
-          min: xMin,
-          max: xMax
-        }),
+        xAxis: [bottomAxis, topAxis],
         yAxis: FReD.charts.categoryAxis({
-          data: ticktext,
+          data: displayLabels,
           inverse: true,
           axisLabel: {
             interval: 0,
-            width: labelW,
-            overflow: 'truncate',
             fontSize: 11
           }
         }),
-        grid: { left: 10, right: 20, top: 10, bottom: 28, containLabel: true }
+        grid: { left: 16, right: 22, top: 28, bottom: 28, containLabel: true }
       }, { width });
     };
 
     const rowHeight = 28;
-    const plotHeight = Math.max(380, validStudies.length * rowHeight + 96);
+    const plotHeight = Math.max(220, validStudies.length * rowHeight + 124);
 
     FReD.charts.mount(element, {
       title: `Forest plot (${rangeNote})`,
       option: optionFn,
       height: plotHeight,
       table: table,
-      actionsEl: this.actionsEl
+      actionsEl: this.actionsEl,
+      disclosureAfterEl: scrollContainer || element
     });
   },
 

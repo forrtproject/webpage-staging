@@ -4,7 +4,8 @@
  * Plain-script port of flora-explorer's ECharts setup (react-frontend:
  * src/lib/charts.js, src/lib/theme.js, src/components/charts.jsx).
  * Renders all charts with ECharts SVG renderer, shared Atlas styling,
- * accessible data tables, CSV copy, theme-change redraw, and PNG/SVG export.
+ * accessible data tables, CSV copy, theme-change redraw, legend-state
+ * persistence, and crisp canvas-backed PNG / padded SVG export.
  */
 
 window.FReD = window.FReD || {};
@@ -44,6 +45,7 @@ FReD.charts = FReD.charts || {};
       tooltipFg: token('--tooltip-fg'),
       labelOnLight: token('--label-on-light'),
       labelOnDark: token('--label-on-dark'),
+      notCodedStroke: token('--color-chart-not-coded-stroke'),
       fontFamily: token('--font-body', 'sans-serif').replace(/"/g, "'")
     };
   }
@@ -71,14 +73,24 @@ FReD.charts = FReD.charts || {};
   }
 
   function formatPercent(n, total, digits) {
-    if (!total) return '0';
+    if (!total) return '0.0';
     const p = (100 * n) / total;
     return p.toFixed(digits == null ? 1 : digits);
   }
 
   function cellText(v, header) {
     if (typeof v === 'number' && isFinite(v)) {
-      const noGroup = /year|decade|x \/ category/i.test(header || '');
+      const h = header || '';
+      if (v !== 0 && Math.abs(v) < 1e-4) {
+        return v.toExponential(2).replace(/-/g, '\u2212');
+      }
+      if (/percentage|%/i.test(h)) {
+        return v.toLocaleString('en-GB', {
+          minimumFractionDigits: 1,
+          maximumFractionDigits: 1
+        }).replace(/-/g, '\u2212');
+      }
+      const noGroup = /year|decade|x \/ category/i.test(h);
       return v.toLocaleString('en-GB', {
         useGrouping: !noGroup,
         maximumFractionDigits: 5
@@ -91,7 +103,8 @@ FReD.charts = FReD.charts || {};
     const cell = function (v) {
       let s;
       if (typeof v === 'number' && isFinite(v)) {
-        s = String(Number(v.toFixed(5)));
+        // Preserve full precision for very small nonzero values (e.g. p-values)
+        s = (v !== 0 && Math.abs(v) < 1e-4) ? String(v) : String(Number(v.toFixed(5)));
       } else {
         s = (Array.isArray(v) ? plain(v) : String(v ?? '')).replace(/^[=+@-]/, function (m) {
           return "'" + m;
@@ -205,16 +218,17 @@ FReD.charts = FReD.charts || {};
     return Math.max(1, lines.length);
   }
 
+  // Conservative measurement of wrapped legend rows so long labels never collide with the plot.
   function legendRows(names, width, scale) {
     if (!names || !names.length) return 0;
     const sc = scale || 1;
     let rows = 1;
     let used = 0;
-    const avail = Math.max(180, width || 600);
+    const avail = Math.max(160, (width || 600) - 8);
     for (let i = 0; i < names.length; i++) {
       const item = names[i];
       const label = typeof item === 'string' ? item : item.name;
-      const w = (String(label).length * 6.5 + 32) * sc;
+      const w = (String(label).length * 7.6 + 34) * sc;
       if (used && used + w > avail) {
         rows += 1;
         used = 0;
@@ -234,7 +248,7 @@ FReD.charts = FReD.charts || {};
     const lines = Math.min(LABEL_LINES, maxLines);
     const band = Math.max(28, lines * LABEL_LINE_HEIGHT * scale + 14);
     const lRows = legendRows(legendNames, width, scale);
-    return Math.round(categories.length * band + lRows * 22 * scale + 10 + 52 * scale);
+    return Math.round(categories.length * band + lRows * 24 * scale + 14 + 52 * scale);
   }
 
   function scaleText(node, scale) {
@@ -266,13 +280,16 @@ FReD.charts = FReD.charts || {};
     const t = chartTheme();
     const scale = textScale();
     const series = option.series || [];
-    const names = (option.legend && option.legend.data)
+    const legendData = (option.legend && option.legend.data)
       ? option.legend.data
       : series
           .filter(function (s) { return s.name && !String(s.name).startsWith('_') && hasData(s); })
           .map(function (s) { return s.name; });
-    const showLegend = (!option.legend || option.legend.show !== false) && names.length > 0;
-    const legendHeight = showLegend ? legendRows(names, width, scale) * 22 * scale + 8 : 0;
+    const showLegend = (!option.legend || option.legend.show !== false) && legendData.length > 0;
+    const legendHeight = showLegend ? legendRows(legendData, width, scale) * 24 * scale + 10 : 0;
+    const hasCustomIcons = Array.isArray(legendData) && legendData.some(function (item) {
+      return item && typeof item === 'object' && item.icon;
+    });
 
     const bars = series.length > 0 && series.every(function (s) { return s.type === 'bar'; });
     const base = {
@@ -288,17 +305,20 @@ FReD.charts = FReD.charts || {};
         className: 'chart-tooltip',
         backgroundColor: t.tooltipBg,
         borderWidth: 0,
+        extraCssText: 'max-width:min(340px,calc(100vw - 24px));white-space:normal;overflow-wrap:anywhere;',
         textStyle: { color: t.tooltipFg, fontFamily: t.fontFamily, fontSize: 12 }
       },
       legend: {
         show: showLegend,
-        data: names,
+        data: legendData,
         top: 0,
         left: 0,
-        icon: 'circle',
-        itemWidth: 8,
-        itemHeight: 8,
-        itemGap: 16,
+        icon: hasCustomIcons ? undefined : 'circle',
+        itemWidth: 10,
+        itemHeight: 10,
+        itemGap: 14,
+        inactiveColor: t.faint,
+        inactiveBorderColor: t.border,
         textStyle: { color: t.tick, fontSize: 12, fontFamily: t.fontFamily }
       },
       grid: {
@@ -311,7 +331,7 @@ FReD.charts = FReD.charts || {};
     };
 
     const own = Object.assign({}, option, {
-      legend: Object.assign({}, option.legend, { data: names, show: showLegend })
+      legend: Object.assign({}, option.legend, { data: legendData, show: showLegend })
     });
     if (option.grid) {
       own.grid = Object.assign({}, option.grid, {
@@ -368,16 +388,40 @@ FReD.charts = FReD.charts || {};
   }
 
   /**
-   * Distinct marker shape per outcome family so colour is never the sole encoding.
+   * Distinct marker shape + style per outcome family so colour is never the sole encoding.
+   * Never uses ECharts 'emptyCircle' (which hardcodes white interior in dark mode);
+   * ring markers explicitly fill with `t.paper` and stroke with a >=3:1 border color.
    */
-  function outcomeSymbol(label) {
+  function outcomeMarker(label, color) {
+    const t = chartTheme();
     const s = String(label || '').toLowerCase();
-    if (s.includes('reversal') || s.includes('not homogeneous and not significant')) return 'triangle';
-    if (s.includes('flawed') || s.includes('mixed') || s.includes('not homogeneous but jointly')) return 'rect';
-    if (s.includes('fail')) return 'diamond';
-    if (s.includes('succ')) return 'circle';
-    if (s.includes('descriptive')) return 'roundRect';
-    return 'emptyCircle';
+    if (s.includes('reversal') || s.includes('not homogeneous and not significant')) {
+      return { symbol: 'triangle', itemStyle: { color: color, borderColor: t.paper, borderWidth: 1 } };
+    }
+    if (s.includes('not homogeneous but jointly')) {
+      return { symbol: 'roundRect', itemStyle: { color: color, borderColor: t.paper, borderWidth: 1 } };
+    }
+    if (s.includes('flawed') || s.includes('mixed')) {
+      return { symbol: 'rect', itemStyle: { color: color, borderColor: t.paper, borderWidth: 1 } };
+    }
+    if (s.includes('fail')) {
+      return { symbol: 'diamond', itemStyle: { color: color, borderColor: t.paper, borderWidth: 1 } };
+    }
+    if (s.includes('succ')) {
+      return { symbol: 'circle', itemStyle: { color: color, borderColor: t.paper, borderWidth: 1 } };
+    }
+    if (s.includes('descriptive')) {
+      return { symbol: 'roundRect', itemStyle: { color: t.paper, borderColor: color, borderWidth: 2 } };
+    }
+    if (s.includes('os not significant') || s.includes('uninformative')) {
+      return { symbol: 'circle', itemStyle: { color: t.paper, borderColor: color, borderWidth: 2 } };
+    }
+    // Not calculable / not coded: hollow diamond with >=3.9:1 stroke in both themes
+    return { symbol: 'diamond', itemStyle: { color: t.paper, borderColor: t.notCodedStroke || color, borderWidth: 2 } };
+  }
+
+  function outcomeSymbol(label) {
+    return outcomeMarker(label, '').symbol;
   }
 
   const COPY_ICON = '<svg aria-hidden="true" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>';
@@ -449,10 +493,11 @@ FReD.charts = FReD.charts || {};
     }
   }
 
-  function renderDataDisclosure(container, id, title, table) {
-    const parent = container.parentElement;
+  function renderDataDisclosure(container, id, title, table, disclosureHost) {
+    const anchor = disclosureHost || container;
+    const parent = anchor.parentElement;
     if (!parent) return;
-    let details = parent.querySelector('details.chart-data[data-for="' + id + '"]');
+    let details = document.getElementById(id + '-data');
     if (!table) {
       if (details) details.remove();
       return;
@@ -463,7 +508,9 @@ FReD.charts = FReD.charts || {};
       details.id = id + '-data';
       details.className = 'disclosure chart-data';
       details.dataset.for = id;
-      container.insertAdjacentElement('afterend', details);
+      anchor.insertAdjacentElement('afterend', details);
+    } else if (details.previousElementSibling !== anchor) {
+      anchor.insertAdjacentElement('afterend', details);
     }
 
     const headCells = table.headers.map(function (h) {
@@ -493,7 +540,8 @@ FReD.charts = FReD.charts || {};
   /**
    * Mount or update an ECharts SVG chart in `container`.
    * Waits until the container has non-zero width (hidden tabs), redraws on resize
-   * and themechange, wires aria attributes, data disclosure, and CSV copy.
+   * and themechange, preserves user legend toggles across redraws, wires aria
+   * attributes, data disclosure, and CSV copy.
    */
   function mount(container, spec) {
     if (!container || typeof echarts === 'undefined') return null;
@@ -506,6 +554,8 @@ FReD.charts = FReD.charts || {};
         id: id,
         chart: null,
         spec: null,
+        lastOption: null,
+        legendSelected: null,
         lastWidth: 0,
         dirty: false,
         raf: 0,
@@ -536,9 +586,32 @@ FReD.charts = FReD.charts || {};
         const opt = typeof sp.option === 'function' ? sp.option({ width: width, height: height }) : sp.option;
         if (!opt) return;
 
+        // Re-apply user legend toggles for series still present after theme/resize redraw
+        if (state.legendSelected && opt.legend && Array.isArray(opt.legend.data)) {
+          const validNames = new Set(opt.legend.data.map(function (d) { return typeof d === 'string' ? d : d.name; }));
+          const preserved = {};
+          let anyPreserved = false;
+          Object.keys(state.legendSelected).forEach(function (k) {
+            if (validNames.has(k)) {
+              preserved[k] = state.legendSelected[k];
+              anyPreserved = true;
+            }
+          });
+          if (anyPreserved) {
+            opt.legend.selected = Object.assign({}, opt.legend.selected, preserved);
+          }
+        }
+
+        state.lastOption = opt;
+
         if (!state.chart || state.chart.isDisposed()) {
           container.innerHTML = '';
           state.chart = echarts.init(container, null, { renderer: 'svg' });
+          state.chart.on('legendselectchanged', function (ev) {
+            if (ev && ev.selected) {
+              state.legendSelected = Object.assign({}, ev.selected);
+            }
+          });
         }
         state.lastWidth = width;
         state.chart.resize();
@@ -574,7 +647,7 @@ FReD.charts = FReD.charts || {};
     container.setAttribute('aria-label', plain(spec.title || 'Chart') + '. Values in the following data table.');
     container.setAttribute('aria-describedby', id + '-data');
 
-    renderDataDisclosure(container, id, spec.title || 'Chart', spec.table);
+    renderDataDisclosure(container, id, spec.title || 'Chart', spec.table, spec.disclosureAfterEl);
     renderCopyButton(spec.actionsEl, id, spec.title || 'Chart', spec.table);
 
     state.draw();
@@ -592,8 +665,8 @@ FReD.charts = FReD.charts || {};
       if (state.chart && !state.chart.isDisposed()) state.chart.dispose();
       mounts.delete(container);
     }
-    if (container.parentElement && id) {
-      const details = container.parentElement.querySelector('details.chart-data[data-for="' + id + '"]');
+    if (id) {
+      const details = document.getElementById(id + '-data');
       if (details) details.remove();
     }
     if (actionsEl && id) {
@@ -616,49 +689,80 @@ FReD.charts = FReD.charts || {};
     a.remove();
   }
 
+  /**
+   * Export crisp SVG with extra left margin buffer so standalone SVG viewers
+   * without Source Sans 3 installed do not clip left-aligned labels.
+   */
   function exportSvg(container, filename) {
+    const state = mounts.get(container);
     const chart = getInstance(container);
     if (!chart) return;
-    const svg = chart.renderToSVGString();
+    const width = container.clientWidth || 1200;
+    const height = container.clientHeight || 800;
+    let svg;
+    if (state && state.lastOption) {
+      const tmp = document.createElement('div');
+      tmp.style.cssText = 'position:fixed;left:-99999px;top:0;width:' + (width + 48) + 'px;height:' + height + 'px;pointer-events:none;';
+      document.body.appendChild(tmp);
+      try {
+        const tmpChart = echarts.init(tmp, null, { renderer: 'svg' });
+        const exportOpt = Object.assign({}, state.lastOption, {
+          animation: false,
+          grid: Object.assign({}, state.lastOption.grid, {
+            left: (state.lastOption.grid && typeof state.lastOption.grid.left === 'number' ? state.lastOption.grid.left : 12) + 36
+          })
+        });
+        tmpChart.setOption(exportOpt, { notMerge: true });
+        svg = tmpChart.renderToSVGString();
+        tmpChart.dispose();
+      } finally {
+        tmp.remove();
+      }
+    } else {
+      svg = chart.renderToSVGString();
+    }
+    if (!/\bxmlns=/.test(svg)) {
+      svg = svg.replace('<svg', '<svg xmlns="http://www.w3.org/2000/svg"');
+    }
     const blob = new Blob([svg], { type: 'image/svg+xml;charset=utf-8' });
     const url = URL.createObjectURL(blob);
     triggerDownload(url, filename.endsWith('.svg') ? filename : filename + '.svg');
     setTimeout(function () { URL.revokeObjectURL(url); }, 1000);
   }
 
+  /**
+   * Export 2x PNG via an offscreen ECharts Canvas renderer so the browser's
+   * loaded @font-face (Source Sans 3) renders natively with zero label clipping.
+   */
   function exportPng(container, filename, scale) {
+    const state = mounts.get(container);
     const chart = getInstance(container);
     if (!chart) return;
     const pxRatio = scale || 2;
     const width = container.clientWidth || 1200;
     const height = container.clientHeight || 800;
-    let svg = chart.renderToSVGString();
-    if (!/\bxmlns=/.test(svg)) {
-      svg = svg.replace('<svg', '<svg xmlns="http://www.w3.org/2000/svg"');
-    }
-    // Strip any unescaped font-family double quotes inside attribute values if present, and encode cleanly
-    const dataUrl = 'data:image/svg+xml;charset=utf-8,' + encodeURIComponent(svg);
-    const img = new Image();
-    img.onload = function () {
-      const canvas = document.createElement('canvas');
-      canvas.width = Math.round(width * pxRatio);
-      canvas.height = Math.round(height * pxRatio);
-      const ctx = canvas.getContext('2d');
-      ctx.fillStyle = chartTheme().paper;
-      ctx.fillRect(0, 0, canvas.width, canvas.height);
-      ctx.scale(pxRatio, pxRatio);
-      ctx.drawImage(img, 0, 0, width, height);
-      canvas.toBlob(function (pngBlob) {
-        if (!pngBlob) return;
-        const pngUrl = URL.createObjectURL(pngBlob);
+    const t = chartTheme();
+
+    if (state && state.lastOption) {
+      const tmp = document.createElement('div');
+      tmp.style.cssText = 'position:fixed;left:-99999px;top:0;width:' + width + 'px;height:' + height + 'px;pointer-events:none;';
+      document.body.appendChild(tmp);
+      try {
+        const tmpChart = echarts.init(tmp, null, { renderer: 'canvas', devicePixelRatio: pxRatio });
+        const exportOpt = Object.assign({}, state.lastOption, { animation: false });
+        tmpChart.setOption(exportOpt, { notMerge: true });
+        const pngUrl = tmpChart.getDataURL({
+          type: 'png',
+          pixelRatio: pxRatio,
+          backgroundColor: t.paper
+        });
+        tmpChart.dispose();
         triggerDownload(pngUrl, filename.endsWith('.png') ? filename : filename + '.png');
-        setTimeout(function () { URL.revokeObjectURL(pngUrl); }, 1000);
-      }, 'image/png');
-    };
-    img.onerror = function (err) {
-      console.error('PNG export failed to rasterize SVG:', err);
-    };
-    img.src = dataUrl;
+        return;
+      } finally {
+        tmp.remove();
+      }
+    }
   }
 
   Object.assign(FReD.charts, {
@@ -682,6 +786,7 @@ FReD.charts = FReD.charts || {};
     finishOption: finishOption,
     stackCorners: stackCorners,
     labelColor: labelColor,
+    outcomeMarker: outcomeMarker,
     outcomeSymbol: outcomeSymbol,
     mount: mount,
     unmount: unmount,

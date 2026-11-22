@@ -105,7 +105,7 @@ FReD.utils = {
     const escaped = this.escapeHtml(full).replace(/"/g, '&quot;');
     const link = doi ? `https://doi.org/${doi.replace(/^https?:\/\/doi\.org\//, '')}` : (url || '');
     const linkEscaped = this.escapeHtml(link).replace(/"/g, '&quot;');
-    return `<span class="ref-tooltip" data-tooltip="${escaped}" data-link="${linkEscaped}">${this.escapeHtml(short)}</span>`;
+    return `<span class="ref-tooltip" tabindex="0" role="button" aria-label="Show full reference for ${this.escapeHtml(short)}" data-tooltip="${escaped}" data-link="${linkEscaped}">${this.escapeHtml(short)}</span>`;
   },
 
   /**
