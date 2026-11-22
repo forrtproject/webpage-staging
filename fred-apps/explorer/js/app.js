@@ -867,7 +867,7 @@ FReD.explorer = {
   },
 
   /**
-   * Generate CI visualization SVG
+   * Generate CI comparison visualization SVG (shown only when both original & replication CIs exist)
    */
   generateCIVisualization(study) {
     const es_o = study.es_o;
@@ -877,19 +877,16 @@ FReD.explorer = {
     const ci_lower_r = study.ci_lower_r;
     const ci_upper_r = study.ci_upper_r;
 
-    // Check if we have enough data
+    // Require both CIs so the mini forest comparison is always meaningful
     const hasOriginal = es_o != null && ci_lower_o != null && ci_upper_o != null;
     const hasReplication = es_r != null && ci_lower_r != null && ci_upper_r != null;
 
-    if (!hasOriginal && !hasReplication) {
-      return '<p style="font-size: 0.875rem; color: var(--text-muted);">Insufficient data for visualization</p>';
+    if (!hasOriginal || !hasReplication) {
+      return '<p style="font-size: 0.8125rem; color: var(--text-muted); margin: 0.35rem 0 0 0;">Both original and replication CIs are required for visual comparison.</p>';
     }
 
     // Calculate range for scaling (include 0 always)
-    const allValues = [0];
-    if (hasOriginal) allValues.push(ci_lower_o, ci_upper_o, es_o);
-    if (hasReplication) allValues.push(ci_lower_r, ci_upper_r, es_r);
-
+    const allValues = [0, ci_lower_o, ci_upper_o, es_o, ci_lower_r, ci_upper_r, es_r];
     const minVal = Math.min(...allValues);
     const maxVal = Math.max(...allValues);
     const range = maxVal - minVal || 1;
@@ -898,49 +895,33 @@ FReD.explorer = {
     const scaleMax = maxVal + padding;
     const scaleRange = scaleMax - scaleMin;
 
-    // SVG dimensions
-    const width = 300;
-    const height = 80;
-    const marginLeft = 10;
-    const marginRight = 10;
+    // Responsive SVG dimensions with clear Original / Replication labels
+    const width = 320;
+    const height = 84;
+    const marginLeft = 72;
+    const marginRight = 14;
     const plotWidth = width - marginLeft - marginRight;
 
-    // Scale function
     const scale = (val) => marginLeft + ((val - scaleMin) / scaleRange) * plotWidth;
     const zeroX = scale(0);
 
-    let svg = `<svg width="${width}" height="${height}" style="display: block; margin-top: 0.5rem;">`;
+    const x1o = scale(ci_lower_o), x2o = scale(ci_upper_o), xPo = scale(es_o);
+    const x1r = scale(ci_lower_r), x2r = scale(ci_upper_r), xPr = scale(es_r);
 
-    // Zero line
-    svg += `<line x1="${zeroX}" y1="10" x2="${zeroX}" y2="70" style="stroke: var(--text-faint)" stroke-width="1" stroke-dasharray="3,3"/>`;
-    svg += `<text x="${zeroX}" y="78" text-anchor="middle" font-size="10" style="fill: var(--text-muted)">0</text>`;
-
-    // Original CI (top row, y=25)
-    if (hasOriginal) {
-      const x1 = scale(ci_lower_o);
-      const x2 = scale(ci_upper_o);
-      const xPoint = scale(es_o);
-      svg += `<line x1="${x1}" y1="25" x2="${x2}" y2="25" style="stroke: var(--study-original)" stroke-width="2"/>`;
-      svg += `<line x1="${x1}" y1="20" x2="${x1}" y2="30" style="stroke: var(--study-original)" stroke-width="2"/>`;
-      svg += `<line x1="${x2}" y1="20" x2="${x2}" y2="30" style="stroke: var(--study-original)" stroke-width="2"/>`;
-      svg += `<circle cx="${xPoint}" cy="25" r="5" style="fill: var(--study-original)"/>`;
-      svg += `<text x="5" y="28" font-size="10" style="fill: var(--study-original)">O</text>`;
-    }
-
-    // Replication CI (bottom row, y=50)
-    if (hasReplication) {
-      const x1 = scale(ci_lower_r);
-      const x2 = scale(ci_upper_r);
-      const xPoint = scale(es_r);
-      svg += `<line x1="${x1}" y1="50" x2="${x2}" y2="50" style="stroke: var(--study-replication)" stroke-width="2"/>`;
-      svg += `<line x1="${x1}" y1="45" x2="${x1}" y2="55" style="stroke: var(--study-replication)" stroke-width="2"/>`;
-      svg += `<line x1="${x2}" y1="45" x2="${x2}" y2="55" style="stroke: var(--study-replication)" stroke-width="2"/>`;
-      svg += `<circle cx="${xPoint}" cy="50" r="5" style="fill: var(--study-replication)"/>`;
-      svg += `<text x="5" y="53" font-size="10" style="fill: var(--study-replication)">R</text>`;
-    }
-
-    svg += '</svg>';
-    return svg;
+    return `<svg viewBox="0 0 ${width} ${height}" role="img" aria-label="Confidence interval comparison between Original and Replication" style="display: block; margin-top: 0.5rem; width: 100%; max-width: ${width}px; height: auto;">`
+      + `<line x1="${zeroX}" y1="10" x2="${zeroX}" y2="66" style="stroke: var(--text-faint)" stroke-width="1" stroke-dasharray="3,3"/>`
+      + `<text x="${zeroX}" y="79" text-anchor="middle" font-size="10" style="fill: var(--text-muted)">0</text>`
+      + `<text x="${marginLeft - 8}" y="29" text-anchor="end" font-size="11" font-weight="600" style="fill: var(--study-original)">Original</text>`
+      + `<line x1="${x1o}" y1="25" x2="${x2o}" y2="25" style="stroke: var(--study-original)" stroke-width="2"/>`
+      + `<line x1="${x1o}" y1="20" x2="${x1o}" y2="30" style="stroke: var(--study-original)" stroke-width="2"/>`
+      + `<line x1="${x2o}" y1="20" x2="${x2o}" y2="30" style="stroke: var(--study-original)" stroke-width="2"/>`
+      + `<circle cx="${xPo}" cy="25" r="4.5" style="fill: var(--study-original)"/>`
+      + `<text x="${marginLeft - 8}" y="54" text-anchor="end" font-size="11" font-weight="600" style="fill: var(--study-replication)">Replication</text>`
+      + `<line x1="${x1r}" y1="50" x2="${x2r}" y2="50" style="stroke: var(--study-replication)" stroke-width="2"/>`
+      + `<line x1="${x1r}" y1="45" x2="${x1r}" y2="55" style="stroke: var(--study-replication)" stroke-width="2"/>`
+      + `<line x1="${x2r}" y1="45" x2="${x2r}" y2="55" style="stroke: var(--study-replication)" stroke-width="2"/>`
+      + `<polygon points="${xPr},45 ${xPr + 5},50 ${xPr},55 ${xPr - 5},50" style="fill: var(--study-replication)"/>`
+      + '</svg>';
   },
 
   /**

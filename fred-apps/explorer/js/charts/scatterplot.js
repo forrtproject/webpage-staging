@@ -92,19 +92,20 @@ FReD.charts.scatterplot = {
       ]);
     });
 
-    // Snap bounds outward to clean 0.25 steps, then add a 0.05 rug band below minY and left of minX
+    // Snap bounds outward to clean 0.25 steps, then add a 0.10 rug band (2 x 0.05 steps) so
+    // every 0.05 tick aligns with multiples of 0.25 and rugs stay well clear of x=0 / y=minY.
     const tickMinX = Math.floor(dataMinX * 4) / 4;
     const tickMaxX = Math.ceil(dataMaxX * 4) / 4;
     const tickMinY = Math.floor(dataMinY * 4) / 4;
     const tickMaxY = Math.ceil(dataMaxY * 4) / 4;
 
-    const axisMinX = Number((tickMinX - 0.075).toFixed(3));
+    const axisMinX = Number((tickMinX - 0.10).toFixed(2));
     const axisMaxX = Number((tickMaxX + 0.05).toFixed(2));
-    const axisMinY = Number((tickMinY - 0.075).toFixed(3));
+    const axisMinY = Number((tickMinY - 0.10).toFixed(2));
     const axisMaxY = Number((tickMaxY + 0.05).toFixed(2));
 
-    const bottomRugY = Number((tickMinY - 0.045).toFixed(3));
-    const leftRugX = Number((tickMinX - 0.045).toFixed(3));
+    const bottomRugY = Number((tickMinY - 0.05).toFixed(2));
+    const leftRugX = Number((tickMinX - 0.05).toFixed(2));
 
     const outcomeOrder = [
       'Success', 'Successful', 'Successful replication',
@@ -280,10 +281,11 @@ FReD.charts.scatterplot = {
         }
       };
 
-      const majorGridColors = ['transparent', t.grid, 'transparent', 'transparent', 'transparent'];
-      const formatQuarterTick = (minTick, maxTick) => v => {
+      const majorGridColors = ['transparent', 'transparent', t.grid, 'transparent', 'transparent'];
+      const narrow = width < 480;
+      const formatQuarterTick = (minTick, maxTick, step = 25) => v => {
         const r = Math.round(v * 100);
-        if (r < Math.round(minTick * 100) || r > Math.round(maxTick * 100) || r % 25 !== 0) return '';
+        if (r < Math.round(minTick * 100) || r > Math.round(maxTick * 100) || r % step !== 0) return '';
         const val = r === 0 ? 0 : r / 100;
         return val.toFixed(2);
       };
@@ -294,29 +296,35 @@ FReD.charts.scatterplot = {
         legend: { data: legendData },
         xAxis: FReD.charts.valueAxis({
           name: 'Original Effect Size (r)',
-          nameGap: 32,
+          nameGap: narrow ? 26 : 32,
           min: axisMinX,
           max: axisMaxX,
           interval: 0.05,
           splitLine: { lineStyle: { color: majorGridColors } },
           axisLabel: {
             interval: 0,
-            formatter: formatQuarterTick(tickMinX, tickMaxX)
+            formatter: formatQuarterTick(tickMinX, tickMaxX, 25)
           }
         }),
         yAxis: FReD.charts.valueAxis({
           name: 'Replication Effect Size (r)',
-          nameGap: 44,
+          nameGap: narrow ? 38 : 44,
           min: axisMinY,
           max: axisMaxY,
           interval: 0.05,
           splitLine: { lineStyle: { color: majorGridColors } },
           axisLabel: {
             interval: 0,
-            formatter: formatQuarterTick(tickMinY, tickMaxY)
+            formatter: formatQuarterTick(tickMinY, tickMaxY, 25)
           }
         }),
-        grid: { left: 42, right: 18, top: 12, bottom: 28, containLabel: true }
+        grid: {
+          left: narrow ? 26 : 36,
+          right: narrow ? 14 : 18,
+          top: 12,
+          bottom: narrow ? 34 : 30,
+          containLabel: true
+        }
       }, { width });
     };
 
