@@ -434,6 +434,41 @@ table.dataTable tbody .study-details table tr:hover > * {
 }
 
 /* Collapsible citation box inside About modal */
+.citation-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.citation-header h4 {
+  margin: 0;
+}
+
+.citation-copy-btn {
+  gap: 0.35rem;
+}
+
+.citation-copy-btn .icon-check {
+  display: none;
+}
+
+.citation-copy-btn.is-copied {
+  color: var(--success-light);
+  border-color: var(--success-border);
+  background: var(--success-bg);
+}
+
+.citation-copy-btn.is-copied .icon-copy {
+  display: none;
+}
+
+.citation-copy-btn.is-copied .icon-check {
+  display: block;
+}
+
 .citation-scroll {
   max-height: 9rem;
   overflow-y: auto;

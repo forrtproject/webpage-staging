@@ -202,19 +202,50 @@ FReD.explorer = {
    */
   async loadCitation() {
     const citationEl = document.getElementById('citation');
+    const copyBtn = document.getElementById('btn-copy-citation');
+    const statusEl = document.getElementById('citation-copy-status');
     if (!citationEl) return;
+
+    if (copyBtn && !copyBtn.dataset.bound) {
+      copyBtn.dataset.bound = 'true';
+      let resetTimer = null;
+      copyBtn.addEventListener('click', async () => {
+        const text = citationEl.textContent.trim();
+        if (!text || copyBtn.disabled) return;
+        const labelEl = copyBtn.querySelector('.citation-copy-label');
+        try {
+          await navigator.clipboard.writeText(text);
+          copyBtn.classList.add('is-copied');
+          if (labelEl) labelEl.textContent = 'Copied';
+          if (statusEl) statusEl.textContent = 'Citation copied to clipboard';
+          clearTimeout(resetTimer);
+          resetTimer = setTimeout(() => {
+            copyBtn.classList.remove('is-copied');
+            if (labelEl) labelEl.textContent = 'Copy';
+            if (statusEl) statusEl.textContent = '';
+          }, 2000);
+        } catch (err) {
+          console.error('Failed to copy citation:', err);
+          if (statusEl) statusEl.textContent = 'Failed to copy citation';
+          FReD.utils.showNotification('Failed to copy citation', 'error', 2500);
+        }
+      });
+    }
 
     try {
       const response = await fetch('https://raw.githubusercontent.com/forrtproject/FReD-data/refs/heads/main/output/citation.txt');
       if (response.ok) {
         const citation = await response.text();
         citationEl.textContent = citation.trim();
+        if (copyBtn) copyBtn.disabled = !citation.trim();
       } else {
         citationEl.textContent = 'Citation unavailable.';
+        if (copyBtn) copyBtn.disabled = true;
       }
     } catch (error) {
       console.error('Failed to load citation:', error);
       citationEl.textContent = 'Citation unavailable.';
+      if (copyBtn) copyBtn.disabled = true;
     }
   },
 
@@ -372,14 +403,27 @@ FReD.explorer = {
       });
     });
 
-    // About modal link
-    const aboutLink = document.getElementById('about-link');
-    if (aboutLink) {
-      aboutLink.addEventListener('click', (e) => {
+    // Topbar brand home link (return to Overview)
+    const homeLink = document.getElementById('topbar-home-link');
+    if (homeLink) {
+      homeLink.addEventListener('click', (e) => {
         e.preventDefault();
-        this.openModal(document.getElementById('about-modal'), aboutLink);
+        FReD.state.set('tab', 'overview');
+        window.scrollTo(0, 0);
       });
     }
+
+    // About modal links (header & footer)
+    const aboutModal = document.getElementById('about-modal');
+    ['about-link', 'footer-about-link'].forEach(id => {
+      const link = document.getElementById(id);
+      if (link) {
+        link.addEventListener('click', (e) => {
+          e.preventDefault();
+          this.openModal(aboutModal, link);
+        });
+      }
+    });
 
     // Mobile topbar menu toggle (<= 960px)
     const menuBtn = document.getElementById('topbar-menu-btn');
@@ -1243,6 +1287,7 @@ FReD.explorer = {
       if (hideTimeout) clearTimeout(hideTimeout);
       if (immediate) {
         tooltip.style.display = 'none';
+        tooltip.innerHTML = '';
         currentTarget = null;
         pinnedByClick = false;
         return;
@@ -1251,6 +1296,7 @@ FReD.explorer = {
       hideTimeout = setTimeout(() => {
         if (tooltip.contains(document.activeElement)) return;
         tooltip.style.display = 'none';
+        tooltip.innerHTML = '';
         currentTarget = null;
         pinnedByClick = false;
       }, 150);
