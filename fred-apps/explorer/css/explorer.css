@@ -469,6 +469,12 @@ table.dataTable tbody .study-details table tr:hover > * {
   display: block;
 }
 
+.citation-copy-status.is-error {
+  margin: 0.4rem 0 0;
+  font-size: var(--fs-3);
+  color: var(--error);
+}
+
 .citation-scroll {
   max-height: 9rem;
   overflow-y: auto;

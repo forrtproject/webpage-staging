@@ -101,6 +101,8 @@ FReD.explorer = {
       if (dontShow?.checked) {
         localStorage.setItem('fred-explorer-welcome-dismissed', 'true');
       }
+    } else if (modalEl.id === 'about-modal') {
+      this.resetCitationCopyState();
     }
     modalEl.classList.remove('active');
     modalEl.setAttribute('aria-hidden', 'true');
@@ -197,6 +199,31 @@ FReD.explorer = {
     this.openModal(modal, null);
   },
 
+  _citationCopyAttemptId: 0,
+  _citationCopyResetTimer: null,
+
+  /**
+   * Reset Citation Copy button state and invalidate any in-flight copy feedback
+   */
+  resetCitationCopyState() {
+    this._citationCopyAttemptId += 1;
+    clearTimeout(this._citationCopyResetTimer);
+    this._citationCopyResetTimer = null;
+
+    const copyBtn = document.getElementById('btn-copy-citation');
+    const statusEl = document.getElementById('citation-copy-status');
+    if (copyBtn) {
+      copyBtn.classList.remove('is-copied');
+      const labelEl = copyBtn.querySelector('.citation-copy-label');
+      if (labelEl) labelEl.textContent = 'Copy';
+    }
+    if (statusEl) {
+      statusEl.textContent = '';
+      statusEl.classList.remove('is-error');
+      statusEl.classList.add('visually-hidden');
+    }
+  },
+
   /**
    * Load citation from FReD-data repo
    */
@@ -208,26 +235,41 @@ FReD.explorer = {
 
     if (copyBtn && !copyBtn.dataset.bound) {
       copyBtn.dataset.bound = 'true';
-      let resetTimer = null;
       copyBtn.addEventListener('click', async () => {
         const text = citationEl.textContent.trim();
         if (!text || copyBtn.disabled) return;
+
+        // Clear any prior feedback/timer and tag this attempt so overlapping or post-close callbacks are ignored
+        this.resetCitationCopyState();
+        const attemptId = this._citationCopyAttemptId;
         const labelEl = copyBtn.querySelector('.citation-copy-label');
+
         try {
+          if (!navigator.clipboard || typeof navigator.clipboard.writeText !== 'function') {
+            throw new Error('Clipboard API unavailable');
+          }
           await navigator.clipboard.writeText(text);
+          if (attemptId !== this._citationCopyAttemptId) return;
+
           copyBtn.classList.add('is-copied');
           if (labelEl) labelEl.textContent = 'Copied';
-          if (statusEl) statusEl.textContent = 'Citation copied to clipboard';
-          clearTimeout(resetTimer);
-          resetTimer = setTimeout(() => {
-            copyBtn.classList.remove('is-copied');
-            if (labelEl) labelEl.textContent = 'Copy';
-            if (statusEl) statusEl.textContent = '';
+          if (statusEl) {
+            statusEl.classList.remove('is-error');
+            statusEl.classList.add('visually-hidden');
+            statusEl.textContent = 'Citation copied to clipboard';
+          }
+          this._citationCopyResetTimer = setTimeout(() => {
+            if (attemptId !== this._citationCopyAttemptId) return;
+            this.resetCitationCopyState();
           }, 2000);
         } catch (err) {
+          if (attemptId !== this._citationCopyAttemptId) return;
           console.error('Failed to copy citation:', err);
-          if (statusEl) statusEl.textContent = 'Failed to copy citation';
-          FReD.utils.showNotification('Failed to copy citation', 'error', 2500);
+          if (statusEl) {
+            statusEl.classList.remove('visually-hidden');
+            statusEl.classList.add('is-error');
+            statusEl.textContent = 'Could not copy automatically. Select the citation text above to copy manually.';
+          }
         }
       });
     }
@@ -403,10 +445,11 @@ FReD.explorer = {
       });
     });
 
-    // Topbar brand home link (return to Overview)
+    // Topbar brand home link (return to Overview on unmodified primary click)
     const homeLink = document.getElementById('topbar-home-link');
     if (homeLink) {
       homeLink.addEventListener('click', (e) => {
+        if (e.button !== 0 || e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) return;
         e.preventDefault();
         FReD.state.set('tab', 'overview');
         window.scrollTo(0, 0);
@@ -1227,6 +1270,7 @@ FReD.explorer = {
     let currentTarget = null;
     let pinnedByClick = false;
     let openedByHoverAt = 0;
+    let tooltipGeneration = 0;
 
     const showTooltip = (target, pinned = false) => {
       if (hideTimeout) {
@@ -1234,6 +1278,8 @@ FReD.explorer = {
         hideTimeout = null;
       }
 
+      tooltipGeneration += 1;
+      const gen = tooltipGeneration;
       currentTarget = target;
       pinnedByClick = pinned;
       const text = target.dataset.tooltip;
@@ -1268,17 +1314,22 @@ FReD.explorer = {
       tooltip.style.top = top + 'px';
       tooltip.style.left = left + 'px';
 
-      tooltip.querySelector('.tooltip-copy')?.addEventListener('click', () => {
+      const copyBtn = tooltip.querySelector('.tooltip-copy');
+      const live = tooltip.querySelector('.tooltip-live');
+      copyBtn?.addEventListener('click', () => {
+        if (!navigator.clipboard || typeof navigator.clipboard.writeText !== 'function') return;
         navigator.clipboard.writeText(text).then(() => {
-          const btn = tooltip.querySelector('.tooltip-copy');
-          const live = tooltip.querySelector('.tooltip-live');
-          if (btn) {
-            btn.textContent = 'Copied';
-            setTimeout(() => { btn.innerHTML = `${COPY_SVG}Copy`; }, 1500);
-          }
-          if (live) {
+          if (gen !== tooltipGeneration || !tooltip.contains(copyBtn)) return;
+          copyBtn.textContent = 'Copied';
+          setTimeout(() => {
+            if (gen !== tooltipGeneration || !tooltip.contains(copyBtn)) return;
+            copyBtn.innerHTML = `${COPY_SVG}Copy`;
+          }, 1500);
+          if (live && tooltip.contains(live)) {
             live.textContent = 'Reference copied to clipboard';
           }
+        }).catch((err) => {
+          console.error('Failed to copy reference:', err);
         });
       });
     };
@@ -1286,6 +1337,7 @@ FReD.explorer = {
     const hideTooltip = (immediate) => {
       if (hideTimeout) clearTimeout(hideTimeout);
       if (immediate) {
+        tooltipGeneration += 1;
         tooltip.style.display = 'none';
         tooltip.innerHTML = '';
         currentTarget = null;
@@ -1293,8 +1345,10 @@ FReD.explorer = {
         return;
       }
       if (pinnedByClick) return;
+      const gen = tooltipGeneration;
       hideTimeout = setTimeout(() => {
-        if (tooltip.contains(document.activeElement)) return;
+        if (gen !== tooltipGeneration || tooltip.contains(document.activeElement)) return;
+        tooltipGeneration += 1;
         tooltip.style.display = 'none';
         tooltip.innerHTML = '';
         currentTarget = null;
@@ -1388,7 +1442,9 @@ FReD.explorer = {
     });
 
     tooltip.addEventListener('focusout', () => {
+      const gen = tooltipGeneration;
       setTimeout(() => {
+        if (gen !== tooltipGeneration) return;
         if (!tooltip.contains(document.activeElement) && document.activeElement !== currentTarget) {
           hideTooltip(true);
         }

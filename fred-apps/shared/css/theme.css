@@ -608,14 +608,23 @@ code, pre, kbd {
 }
 
 .footer-bar--full a {
-  color: rgba(255, 255, 255, 0.72);
-  text-decoration: none;
+  color: rgba(255, 255, 255, 0.78);
+  text-decoration: underline;
+  text-decoration-color: rgba(255, 255, 255, 0.45);
+  text-underline-offset: 2px;
   transition: color var(--transition-fast);
 }
 
-.footer-bar--full a:hover {
+.footer-bar--full .footer-bar-links a {
+  color: rgba(255, 255, 255, 0.72);
+  text-decoration: none;
+}
+
+.footer-bar--full a:hover,
+.footer-bar--full .footer-bar-links a:hover {
   color: var(--on-dark);
   text-decoration: underline;
+  text-decoration-color: currentColor;
   text-underline-offset: 2px;
 }
 
@@ -1551,11 +1560,10 @@ div.dt-buttons > .dt-button:hover:not(.disabled) {
   }
 
   .header-nav[data-collapsible="true"] .theme-toggle {
-    order: 4;
     margin-left: 0;
     margin-right: 0;
     align-self: flex-start;
-    margin-top: 0.35rem;
+    margin-bottom: 0.25rem;
   }
 }
 
@@ -1603,7 +1611,8 @@ div.dt-buttons > .dt-button:hover:not(.disabled) {
   .btn,
   .sidebar-nav-link,
   .header-nav-link,
-  .topbar-cta,
+  .page-header .topbar-cta,
+  .header-nav[data-collapsible="true"] .topbar-cta,
   .theme-toggle,
   .topbar-menu-btn,
   .disclosure > summary,
@@ -1787,6 +1796,8 @@ div.dt-buttons > .dt-button:hover:not(.disabled) {
   .tabs,
   .btn,
   .theme-toggle,
+  .topbar-cta,
+  .topbar-menu-btn,
   .dataTables_filter,
   .dataTables_length,
   .dataTables_paginate {
@@ -1802,6 +1813,16 @@ div.dt-buttons > .dt-button:hover:not(.disabled) {
     background: var(--print-bg) !important;
     color: var(--print-fg) !important;
     box-shadow: none;
+  }
+
+  .page-header a,
+  .page-header .topbar-brand,
+  .topbar-name .topbar-title,
+  .topbar-name span,
+  .footer-bar a {
+    color: var(--print-fg) !important;
+    text-decoration-color: var(--print-fg) !important;
+    transition: none !important;
   }
 
   .card {
